@@ -71,9 +71,35 @@ To exit fullscreen mode, click on the `Fullscreen` button again or press <kbd>Es
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Emoji**</span> are small colourful images used to add extra meaning to messages. Emoji means 'picture word' in Japanese. It's a coincidence that the word 'emoji' is similar to 'emotion' in English. Japanese culture has a long history of communicating with images.
+Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi(π) to 31 trillion digits. That answer is so big that it would take over 300,000 years just to say it! 
 </p>
 
+--- task ---
 
+Add aonther two lines to your code. Create a variable called to store the current date and time. Then `print` the answer with some text and emoji:
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 11
+line_highlights: 15-16
+---
+print('Hello', world)
+print('Welcome to', python)
+print(python, 'is very good at', sums)
+print(230 * 5782 ** 2 / 23781)
+now = datetime.now()
+print('The', calendar, clock, 'is', now)
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Run your code a couple of times to see the date and time update.
+
+--- /task ---
 
 --- save ---
