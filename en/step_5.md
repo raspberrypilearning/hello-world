@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add an introductory sentence. What will learners achieve by the end of this step?
+Output more sentences from your project.
 </div>
 <div>
 Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
@@ -11,19 +11,20 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 
 --- task ---
 
-Open a [new Scratch project](http://rpf.io/scratch-new){:target="_blank"}. Scratch will open in another browser tab.
+Here are some sentence starters that you can use:
 
-[[[working-offline]]]
+--- code ---
+---
+language: python
+filename: main.py
+---
+print('I', heart, '...')
+print('... makes me', happy)
+--- /code ---
 
---- /task ---
+**Tip:** `print` adds a space between each item you print. 
 
---- task ---
-
-Step content... 
-Can use:
-**Test:**
-**Choose:**
-**Tip:**
+Click on `emoji.py` to see the emoji variables that you can use. Click back on `main.py` to add to your code.
 
 --- /task ---
 
