@@ -86,8 +86,6 @@ line_numbers: true
 line_number_start: 13
 line_highlights: 15-16
 ---
-print('Hello', world)
-print('Welcome to', python)
 print(python, 'is very good at', sums)
 print(230 * 5782 ** 2 / 23781)
 now = datetime.now()
