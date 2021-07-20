@@ -9,9 +9,9 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 </div>
 </div>
 
---- task ---
 
-Here are some sentence starters that you can use:
+--- task ---
+Add more `print` lines to your code. Here are some sentence starters that you can use:
 
 --- code ---
 ---
@@ -24,7 +24,14 @@ print('... makes me', happy)
 
 **Tip:** `print` adds a space between each item you print. 
 
+--- /task ---
+
+--- task ---
+What message would you send to a friend to cheer them up? Which emoji would you choose?
+
 Click on `emoji.py` to see the emoji variables that you can use. Click back on `main.py` to add to your code.
+
+You can add more emoji variables to `emoji.py` if you don't find the ones you want.
 
 --- /task ---
 
