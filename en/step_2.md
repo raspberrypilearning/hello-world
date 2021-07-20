@@ -43,7 +43,9 @@ Type the code to `print` hello:
 ---
 language: python
 filename: main.py
-line_highlights: 2
+line_numbers: true
+line_number_start: 11
+line_highlights: 12
 ---
 # Put code to run under here
 print('Hello')
@@ -79,14 +81,17 @@ The `emoji.py` file contains variable definitions including: `world = '🌍🌎�
 You can `print` more than one item at a time by including a comma ',' in between the items.
 
 --- task ---
-Change your code to also print the contents of the `world` variable:
+Change your code to also `print` the contents of the `world` variable:
 
 --- code ---
 ---
 language: python
 filename: main.py
-line_highlights: 1
+line_numbers: true
+line_number_start: 11
+line_highlights: 12
 ---
+# Put code to run under here
 print('Hello', world)
 --- /code ---
 
@@ -113,7 +118,9 @@ Change the `from emoji import *` line to:
 ---
 language: python
 filename: main.py
-line_highlights: 1
+line_numbers: true
+line_number_start: 3
+line_highlights: 3
 ---
 from noemoji import *
 --- /code ---
@@ -123,13 +130,15 @@ from noemoji import *
 --- /task ---
 
 --- task ---
-Add another line to your code to print more text and emoji:
+Add another line to your code to `print` more text and emoji:
 
 --- code ---
 ---
 language: python
 filename: main.py
-line_highlights: 2
+line_numbers: true
+line_number_start: 11
+line_highlights: 12
 ---
 print('Hello', world)
 print('Welcome to', python)
@@ -137,9 +146,11 @@ print('Welcome to', python)
 --- /task ---
 
 --- task ---
-**Test:** Click run. It's a good idea to run your code after every change so you can fix problems quickly.
+**Test:** Click run. 
 
 ![The additional line of code in the code area with 'Hello 🌍🌎🌏' and 'Welcome to 🐍⌨️' showing in the output area. ](images/run_multiple.png)
+
+**Tip:** It's a good idea to run your code after every change so you can fix problems quickly.
 
 --- /task ---
 

@@ -2,13 +2,9 @@
 
 Find out what the Python programming language can do by writing an interactive project that uses emoji.
 
-<mark>Boxout (wherever wanted/needed) </mark>
-
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Emoji**</span> are small colourful images used to add extra meaning to messages. Emoji means 'picture word' in Japanese. It's a coincidence that the word 'emoji' is similar to 'emotion' in English. Japanese culture has a long history of communicating with images.
 </p>
-
-<mark>Objectives in language that learners will understand</mark>
 
 You will:
 + Use `print` and `input` to output text, including emoji, and get input
@@ -20,7 +16,7 @@ You will:
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Read the output and then tap <kbd>Enter</kdb> to continue. 
+Read the output and then tap <kbd>Enter</kbd> to continue. 
 Type in a number when you are asked.
 </div>
 <div class="trinket">
