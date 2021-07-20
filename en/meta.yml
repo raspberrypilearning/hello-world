@@ -1,14 +1,18 @@
-title: explore-project-template
+title: Hello 🌍🌎🌏 
 hero_image: images/banner.png
-description: explore-project-template description
+description: Write an interactive Python project that uses emoji
 version: 4
 listed: false
 copyedit: false
 last_tested: "2021-03-26"
 steps:
   - title: Introduction
-  - title: Step title
+  - title: Say hello
+  - title: Sums and dates
+  - title: Roll a dice
+  - title: Sentence starter
   - title: Reflection
+  - title: Upgrade your project
     knowledge_quiz:
       path: quiz1
       version: 1

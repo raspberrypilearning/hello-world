@@ -1,29 +1,32 @@
 ## Introduction
 
-In this project, <mark> short project description </mark>
+Find out what the Python programming language can do by writing an interactive project that uses emoji.
 
 <mark>Boxout (wherever wanted/needed) </mark>
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Term**</span> description of term or interesting phrase.
+<span style="color: #0faeb0">**Emoji**</span> are small colourful images used to add extra meaning to messages. Emoji means 'picture word' in Japanese. It's a coincidence that the word 'emoji' is similar to 'emotion' in English. Japanese culture has a long history of communicating with images.
 </p>
 
 <mark>Objectives in language that learners will understand</mark>
 
 You will:
-+ 
-+ 
-+ 
++ Use `print` and `input` to output text, including emoji, and get input
++ Store text and numbers in **variables**
++ Use **functions** to organise your code
 
 --- no-print ---
 --- task ---
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Description of what to do or think about when looking at the example.
+Read the output and then tap <kbd>Enter</kdb> to continue. 
+Type in a number when you are asked.
 </div>
-<div class="scratch-preview" style="margin-left: 15px;">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/485673032/?autostart=false" frameborder="0"></iframe>
+<div class="trinket">
+  <iframe src="https://trinket.io/embed/python/a54e164ac2?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
+  <img src="images/hello-final.png">
 </div>
 </div>
 --- /task ---
