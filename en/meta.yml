@@ -1,0 +1,11 @@
+title: hello-world
+hero_image: images/banner.png
+description: hello-world description
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-07-20"
+steps:
+  - title: Introduction
+  - title: Step title
+  - title: What next?
