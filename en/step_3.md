@@ -76,7 +76,7 @@ Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</s
 
 --- task ---
 
-Add aonther two lines to your code. Create a variable called to store the current date and time. Then `print` the answer with some text and emoji:
+Add another two lines to your code. Create a variable called to store the current date and time. Then `print` the answer with some text and emoji:
 
 --- code ---
 ---

@@ -9,7 +9,6 @@ Image, gif or video showing what they will achieve by the end of the step. ![](i
 </div>
 </div>
 
-
 --- task ---
 Add more `print` lines to your code. Here are some sentence starters that you can use:
 
