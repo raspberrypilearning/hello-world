@@ -154,4 +154,6 @@ print('Welcome to', python)
 
 --- /task ---
 
+You can come back to your project in future on the same computer using the starter project link.
+
 --- save ---
