@@ -12,7 +12,6 @@ steps:
   - title: Roll a dice
   - title: Sentence starter
   - title: Reflection
-  - title: Upgrade your project
     knowledge_quiz:
       path: quiz1
       version: 1
