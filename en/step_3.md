@@ -83,7 +83,7 @@ Add aonther two lines to your code. Create a variable called to store the curren
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 11
+line_number_start: 13
 line_highlights: 15-16
 ---
 print('Hello', world)
