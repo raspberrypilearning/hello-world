@@ -56,6 +56,8 @@ You can also use brackets if you want to control the order that Python calculate
 --- task ---
 **Test:** Run your code and get Python to calculate your sum.
 
+**Debug:** Make sure your sum has a left and right round bracket around it `( 2 * 45)`. If you use extra brackets to control the order, make you have a right bracket to match every left bracket.
+
 --- /task ---
 
 --- task ---
@@ -87,9 +89,9 @@ line_number_start: 13
 line_highlights: 15-16
 ---
 print(python, 'is very good at', sums)
-print(230 * 5782 ** 2 / 23781)
-now = datetime.now()
-print('The', calendar, clock, 'is', now)
+print(230 * 5782 ** 2 / 23781) # print the result of the sum
+now = datetime.now() # get the current date and time
+print('The', calendar, clock, 'is', now) # print with emoji 
 --- /code ---
 
 --- /task ---
@@ -97,6 +99,8 @@ print('The', calendar, clock, 'is', now)
 --- task ---
 
 **Test:** Run your code a couple of times to see the date and time update.
+
+**Debug:** Check that you have a fullstop `.` between `datetime` and `now`. Check all the punctuation carefully.
 
 --- /task ---
 

@@ -5,7 +5,7 @@
 Add more to your project. There are more emoji to choose from.
   </div>
 <div>
-![](images/image.png){:width="300px"}
+![A longer project in the output area with more text, emoji and inputs](images/upgrade_ideas.png){:width="300px"}
 </div>
 </div>
 
@@ -32,6 +32,21 @@ def hobbies():
 --- /code ---
 
 **Tip:** Don't forget you will need to call your function as well as defining it.
+
+You can use `input` to make your project wait for the user to tap Enter at any point in this project.
+
+--- code ---
+---
+language: python
+filename: main.py
+---
+roll_dice()
+
+input() # wait for the user to tap Enter
+
+hobbies()
+--- /code ---
+
 
 --- collapse ---
 

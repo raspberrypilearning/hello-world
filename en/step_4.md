@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add an introductory sentence. What will learners achieve by the end of this step?
+Create a function to add a randomly generated dice to your project. 
 </div>
 <div>
 ![The output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll_dice.png){:width="300px"}
@@ -27,11 +27,13 @@ line_highlights: 9-12
 ---
 ### Put function definitions under here
 
-def roll_dice():
+def roll_dice(): # Don't forget the colon at the end of this line.
   print(python, 'can make a', dice)
   roll = randint(1, 6) # Choose a random number between 1 and 6
   print('You rolled a', roll)
 --- /code ---
+
+The lines under `def roll_dice():` are **indented**. To do this, tap the 'Tab' character on your keyboard (usually above CAPSLOCK on the keyboard.) Indenting code tells Python that the indented lines are part of the function.
 
 **Tip:** The underscore `_` in Python is used to between words in variable and function names in Python to make them easier to read. You can't use a space. 
 
@@ -62,10 +64,10 @@ line_numbers: true
 line_number_start: 15
 line_highlights: 18
 ---
-now = datetime.now()
+now = datetime.now() 
 print('The', calendar, clock, 'is', now)
 
-roll_dice()
+roll_dice() # Call the roll dice function
 --- /code ---
 
 --- /task ---
@@ -73,6 +75,12 @@ roll_dice()
 --- task ---
 
 **Test:** Run your project several times to see the random dice roll each time. 
+
+**Debug:** Make sure you have an underscore `_` between roll and dice to make the function name. Make sure you have a colon `:` at the end of the line.
+
+**Debug:** Check that the lines under  `def roll_dice()` are indented. It's really common to get this wrong in Python so make sure to check.
+
+![The Trinket editor showing the lines of code for the `roll_dice` function have not been indented. The code has been run and is highlighted on line 10, the first line that should be indented, with the error 'SyntaxError: bad input on line 10 in main.py'](images/indent_error.png)
 
 --- /task ---
 
@@ -94,9 +102,9 @@ line_highlights: 13
 
 def roll_dice():
   print(python, 'can make a', dice)
-  roll = randint(1, 6)
-  print('You rolled a', roll)
-  print(fire * roll) # repeats the fire text roll times
+  roll = randint(1, 6) # generate a random number between 1 and 6
+  print('You rolled a', roll) # print the value of the roll variable
+  print(fire * roll) # repeat the fire text roll times
 --- /code ---
 
 You can use `star` or `heart` instead of `fire` if you prefer.
@@ -133,8 +141,8 @@ line_highlights: 11-12
 
 def roll_dice():
   print(python, 'can make a', dice)
-  max = input('How many sides?:')
-  print('That is a D', max)
+  max = input('How many sides?:') # wait for input from the user
+  print('That is a D', max) # use the number the user entered
   roll = randint(1, int(max))
   print('You rolled a', roll)
   print(fire * roll)

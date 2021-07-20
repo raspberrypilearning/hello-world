@@ -5,7 +5,7 @@
 Output more sentences from your project.
 </div>
 <div>
-Image, gif or video showing what they will achieve by the end of the step. ![](images/image.png){:width="300px"}
+![Some new print lines in the output area with emoji and text sentences.](images/sentence_starter.png){:width="300px"}
 </div>
 </div>
 
@@ -24,6 +24,10 @@ print('... makes me', happy)
 **Tip:** `print` adds a space between each item you print. 
 
 --- /task ---
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+
+The <span style="color: #0faeb0">yellow heart emoji</span> is often used to show friendship and happiness.</p>
 
 --- task ---
 What message would you send to a friend to cheer them up? Which emoji would you choose?

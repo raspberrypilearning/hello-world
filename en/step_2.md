@@ -5,7 +5,7 @@
 It's traditional to write a program to output 'Hello world!' when you learn a new programming language.
 </div>
 <div>
-![The Trinket output area showing the two printed lines of text and emoji.](images/say_hello.png){:width="300px"}
+![The Trinket output area showing the two printed lines of text and emoji.](images/say_hello.png){:width="200px"}
 </div>
 </div>
 
@@ -70,6 +70,10 @@ The comma `,` is next to the 'M'.
 
 ![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
 
+**Debug:** If you get an error then check your code really carefully. In this example, the single quotes around `Hello` are missing so Python doesn't know it is supposed to be text.
+
+![the Trinket editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 10 in main.py.](images/hello_error.png)
+
 --- /task ---
 
 In Python, a **variable** is used to store text or numbers. 
@@ -103,6 +107,12 @@ print('Hello', world)
 ![The updated line of code in the code area with 'Hello 🌍🌎🌏' showing in the output area. ](images/run_hello_world.png)
 
 Emoji can look different on different computers so your might not look quite the same.
+
+**Debug:** Make sure that you have added a comma between the items in `print` and that you have spelled `world` correctly.
+
+This example is missing the comma `,`. It's small but very important!
+
+![the Trinket editor with missing single quotes and error 'SyntaxError: bad input on line 12 in main.py](images/comma_error.png)
 
 --- collapse ---
 
@@ -155,6 +165,8 @@ print('Welcome to', python)
 ![The additional line of code in the code area with 'Hello 🌍🌎🌏' and 'Welcome to 🐍⌨️' showing in the output area. ](images/run_multiple.png)
 
 **Tip:** It's a good idea to run your code after every change so you can fix problems quickly.
+
+**Debug:** Check carefully for brackets, quotes, commas and correct spelling. Python needs you to be really accurate.
 
 --- /task ---
 
