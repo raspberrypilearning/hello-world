@@ -5,39 +5,71 @@
 legend: Question 2 of 3
 ---
 
-You made Pico say hello in a speech bubble.
+Which of these function definitions is correct and will print `I can code` when called? 
 
-```blocks3
-say [Hello!] for [2] secs
-```
-
-Where would you go to find this block?
+![The Trinket editor with output area showing `I can code`.](images/quiz2.png)
 
 --- choices ---
 
 - (x) 
+--- code ---
+---
+language: python
+---
+def awesome():
+  print('I can code')
+--- /code ---
 
-  --- feedback ---
+ --- feedback ---
 
-  --- /feedback ---
+ That's correct, calling this function will print `I can code`. You spotted that functions need `(` `)` brackets and a `:` in the function definition and that all code to be run when that function is called must be indented. 
 
-- ( ) 
-
-  --- feedback ---
-
-  --- /feedback ---
-
-- ( ) 
-
-  --- feedback ---
-
-  --- /feedback ---
+ --- /feedback ---
 
 - ( ) 
+--- code ---
+---
+language: python
+---
+def awesome:
+print('I can code')
+--- /code ---
 
-  --- feedback ---
+ --- feedback ---
 
-  --- /feedback ---
+ Not quite, there is something missing from the function definition and this layout would cause an error.
+
+ --- /feedback ---
+
+- () 
+--- code ---
+---
+language: python
+---
+def awesome():
+print('I can code')
+--- /code ---
+
+ --- feedback ---
+
+ Not quite, the layout in this example would cause an error. 
+
+ --- /feedback ---
+
+- ( ) 
+--- code ---
+---
+language: python
+---
+def awesome()
+  print('I can code')
+--- /code ---
+
+ --- feedback ---
+
+Not quite, there is something missing from the function definition that woud cause an error.
+
+ --- /feedback ---
 
 --- /choices ---
 

@@ -19,9 +19,12 @@ filename: main.py
 ---
 print('I', heart, '...')
 print('... makes me', happy)
+print('I\'d like to make ... with', python)
 --- /code ---
 
 **Tip:** `print` adds a space between each item you print. 
+
+**Tip:** If you need to print an apostrophe `'` then you need to put a backslash `\` before it so Python knows it's part of the text. 
 
 --- /task ---
 
