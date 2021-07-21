@@ -142,7 +142,7 @@ line_highlights: 11-12
 def roll_dice():
   print(python, 'can make a', dice)
   max = input('How many sides?:') # wait for input from the user
-  print('That'\s a D', max) # use the number the user entered
+  print('That\'s a D', max) # use the number the user entered
   roll = randint(1, int(max))
   print('You rolled a', roll)
   print(fire * roll)
