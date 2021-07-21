@@ -139,10 +139,6 @@ from noemoji import *
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Emoji**</span> are small colourful images used to add extra meaning to messages. Emoji means 'picture word' in Japanese. It's a coincidence that the word 'emoji' is similar to 'emotion' in English. Japanese culture has a long history of communicating with images.
-</p>
-
 --- task ---
 Add another line to your code to `print` more text and emoji:
 
