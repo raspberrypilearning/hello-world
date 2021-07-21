@@ -142,13 +142,13 @@ line_highlights: 11-12
 def roll_dice():
   print(python, 'can make a', dice)
   max = input('How many sides?:') # wait for input from the user
-  print('That'\s a D', max) # use the number the user entered
+  print('That\'s a D', max) # use the number the user entered
   roll = randint(1, int(max))
   print('You rolled a', roll)
   print(fire * roll)
 --- /code ---
 
-To print an apostrophe `'`, put a backslash `\` before it so Python knows it's part of the text.
+To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
 
   --- /task ---
 
