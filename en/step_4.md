@@ -148,7 +148,7 @@ def roll_dice():
   print(fire * roll)
 --- /code ---
 
-To print an apostrophe `'`, put a backslash `\` before it so Python knows it's part of the text.
+To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
 
   --- /task ---
 
