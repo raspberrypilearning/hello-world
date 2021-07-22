@@ -19,15 +19,15 @@ Open the [Hello 🌍🌎🌏 starter project](https://trinket.io/library/trinket
 
 --- /task ---
 
-The line `#!/bin/python3` tells Trinket that you are using Python 3 (the latest version). The `import` lines tell Python that you are going to use some code you didn't write.
+The line `#!/bin/python3` tells Trinket that you are using Python 3 (the latest version). The `import` lines tell Python that you are going to use code you didn't write.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. This means that you can easily use code that other people have written.
+One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. A Python library allows you to easily use code that other people have written. There are libraries for drawing charts and graphs, making art, doing calculations and lots more.
 </p>
 
-In Python, `print` outputs text to the screen.
+In Python, `print` outputs text (words or numbers) to the screen.
 
-Lines beginning with `#` are comments. 
+Lines beginning with `#` are comments, they explain the code to humans and are ignored by Python.
 
 --- task ---
 
@@ -57,7 +57,7 @@ print('Hello')
 title: Typing special characters on a UK or US keyboard
 ---
 
-On a UK or US keyboard, the left `(` and right `)` round brackets are on the '9' and '0' keys. To type a left round bracket, hold down the Shift key (next to 'Z') and then tap '8'.
+On a UK or US keyboard, the left `(` and right `)` round brackets are on the '9' and '0' keys. To type a left round bracket, hold down the Shift key (next to 'Z') and then tap '9'.
 The single quote `'` is on the same row as the 'L' key, just before the 'Enter' key.
 The comma `,` is next to the 'M'.
 
@@ -80,7 +80,7 @@ In Python, a **variable** is used to store text or numbers.
 
 The `emoji.py` file contains variable definitions including: `world = '🌍🌎🌏'`.
 
-`world` is a variable and it stores the text string '🌍🌎🌏'. Emoji are special characters.
+`world` is a variable and it stores the text '🌍🌎🌏'. Emoji are special characters.
 
 You can `print` more than one item at a time by including a comma ',' in between the items.
 

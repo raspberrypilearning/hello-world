@@ -10,6 +10,7 @@ Create a function to add a randomly generated dice to your project.
 </div>
 
 In Python, **functions** are used to organise a block of code and give it a name. You have already used the `print` function to output text.
+
 You can also define your own functions and then call them in your code.
 
 You are going to define a function called `roll_dice` which will generate a random number.
@@ -47,6 +48,12 @@ On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next 
 The underscore `_` is on the same key as the '-', next to the '0', hold <kbd>Shift</kbd> and tap '-' to type an `_`.
 
 --- /collapse ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** If you ‘Run’ your code now it won't roll a dice. That’s because you have defined the `roll_dice` function, but not called it yet.
 
 --- /task ---
 
@@ -143,14 +150,40 @@ def roll_dice():
   print(python, 'can make a', dice)
   max = input('How many sides?:') # wait for input from the user
   print('That\'s a D', max) # use the number the user entered
-  roll = randint(1, int(max))
+  roll = randint(1, 6) 
   print('You rolled a', roll)
   print(fire * roll)
 --- /code ---
 
 To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
 
-  --- /task ---
+--- task ---
+Now you need to use `max` as the maximum value for `randint` to use to generate a random number. 
+
+When you get input from the user, Python treats it as text. But, `randint` needs an 'integer' (a positive whole number). The `int` function turns the user input into an integer.
+
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 7
+line_highlights: 13
+---
+### Put function definitions under here
+
+def roll_dice():
+  print(python, 'can make a', dice)
+  max = input('How many sides?:') # wait for input from the user
+  print('That\'s a D', max) # use the number the user entered
+  roll = randint(1, int(max)) # randint needs max to be an 'integer'
+  print('You rolled a', roll)
+  print(fire * roll)
+--- /code ---
+
+--- /task ---
+
+--- /task ---
 
 --- task ---
 
