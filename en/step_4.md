@@ -157,6 +157,8 @@ def roll_dice():
 
 To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
 
+--- /task ---
+  
 --- task ---
 Now you need to use `max` as the maximum value for `randint` to use to generate a random number. 
 
@@ -180,8 +182,6 @@ def roll_dice():
   print('You rolled a', roll)
   print(fire * roll)
 --- /code ---
-
---- /task ---
 
 --- /task ---
 
