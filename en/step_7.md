@@ -11,7 +11,7 @@ Add more to your project. There are more emoji to choose from.
 
 You could:
 + Use `print` with different text and emoji
-+ Get `input` into variables and then do sums
++ Use `input` to get values from the user and store them in variables, then do sums with the variables
 + Write more functions to organise your code
 + Use `#` to add comments to your code
 

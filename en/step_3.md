@@ -9,7 +9,6 @@ Python is great at working with numbers and dates.
 </div>
 </div>
 
-
 --- task ---
 
 Add another two `print` lines to your code including a sum for Python to work out:
@@ -25,10 +24,10 @@ line_highlights: 13-14
 print('Hello', world)
 print('Welcome to', python)
 print(python, 'is very good at', sums)
-print(230 * 5782 ** 2 / 23781)
+print(230 * 5782 ** 2 / 23781) 
 --- /code ---
 
-`** 2` means to the power 2, we usually say 'squared'.
+`*` means multiply. `** 2` means to the power 2, we usually say 'squared'. `/` means divide.
 
 --- /task ---
 
@@ -44,6 +43,7 @@ In Python you can use maths operators to do sums:
 | * | multiply |
 | / | divide |
 | ** | to the power |
+
 
 --- task ---
 
