@@ -35,9 +35,9 @@ The <span style="color: #0faeb0">yellow heart emoji</span> is often used to show
 --- task ---
 What message would you send to a friend to cheer them up? Which emoji would you choose?
 
-Click on `emoji.py` to see the emoji variables that you can use. Click back on `main.py` to add to your code.
+Click on the `emoji.py` file in Trinket to see the emoji variables that you can use. Click back on `main.py` file to add to your code.
 
-You can add more emoji variables to `emoji.py` if you don't find the ones you want.
+You can add more emoji variables to `emoji.py`. You can use this [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} to find the ones you want. 
 
 --- /task ---
 
