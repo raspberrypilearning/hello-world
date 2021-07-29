@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [Intro to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [ProjectName](https://projects.raspberrypi.org/en/projects/archery-python) project. In this project, you will make a (add description here).
+If you are following the [Intro to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [Archery](https://projects.raspberrypi.org/en/projects/archery-python) project. In this project, you will draw a target then make an archery game that shoots arrows to score points.
 
 --- print-only ---
 
