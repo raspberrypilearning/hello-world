@@ -9,7 +9,7 @@ Create a function to add a randomly generated dice to your project.
 </div>
 </div>
 
-In Python, **functions** are used to organise a block of code and give it a name. You have already used the `print` function to output text.
+In Python, **functions** are used to organise blocks of code and give them names. You have already used the `print` function to output text.
 
 You can also define your own functions and then call them in your code.
 
@@ -187,8 +187,19 @@ def roll_dice():
 
 --- task ---
 
-**Test:** Run your project. When the programe reaches the `input` line it will wait for you to enter a response before continuing. Try it again with a different a`input` number. 
+**Test:** Run your project. When the program reaches the `input` line it will wait for you to enter a response before continuing. Try it again with a different `input` number. 
 
 --- /task ---
+
+**Choose:** if you want to learn a hack! 
+
+--- task ---
+
+Use `seed` to cheat in your dice roll.
+
+[[[using-seed-in-python]]]
+
+--- /task ---
+
 
 --- save ---
