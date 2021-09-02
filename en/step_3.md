@@ -18,8 +18,8 @@ Add another two `print` lines to your code including a sum for Python to work ou
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 11
-line_highlights: 13-14
+line_number_start: 12
+line_highlights: 14-15
 ---
 print('Hello', world)
 print('Welcome to', python)
@@ -85,8 +85,8 @@ Add another two lines to your code. Use a variable called `now` to store the cur
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 13
-line_highlights: 15-16
+line_number_start: 14
+line_highlights: 16-17
 ---
 print(python, 'is very good at', sums)
 print(230 * 5782 ** 2 / 23781) # print the result of the sum
