@@ -68,8 +68,8 @@ To use a function you need to call it in the code. Go to the end of your code an
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 15
-line_highlights: 18
+line_number_start: 21
+line_highlights: 24
 ---
 now = datetime.now() 
 print('The', calendar, clock, 'is', now)
