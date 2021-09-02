@@ -145,8 +145,8 @@ Add another line to your code to `print` more text and emoji:
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 11
-line_highlights: 12
+line_number_start: 12
+line_highlights: 13
 ---
 print('Hello', world)
 print('Welcome to', python)
