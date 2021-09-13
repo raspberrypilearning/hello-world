@@ -9,7 +9,7 @@ Create a function to add a randomly generated dice to your project.
 </div>
 </div>
 
-In Python, **functions** are used to organise blocks of code and give them names. You have already used the `print` function to output text.
+In Python, **functions** are used to organise blocks of code and give them names so you can easily use the same code without repeating it. You have already used the `print` function to output text.
 
 You can also define your own functions and then call them in your code.
 

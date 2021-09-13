@@ -33,8 +33,6 @@ Find the `# Put code to run below here` line.
 
 Click below that line. The flashing `|` is the cursor and shows where you will type.
 
-**Tip:** The code you need to type is highlighted in a lighter colour. Code that is not highlighted helps you find where you need to add the new code.
-
 Type the code to `print` hello:
 
 --- code ---
@@ -74,15 +72,21 @@ The comma `,` is next to the 'M'.
 
 --- /task ---
 
-In Python, a **variable** is used to store text or numbers. 
+In Python, a **variable** is used to store text or numbers. Variables make it easier for humans to read code. You can use the same variable in lots of places in your code. 
 
-The `emoji.py` file contains variable definitions including: `world = '🌍🌎🌏'`.
-
-`world` is a variable and it stores the text '🌍🌎🌏'. Emoji are special characters.
-
-You can `print` more than one item at a time by including a comma ',' in between the items.
+We have included some variables that store emoji characters.
 
 --- task ---
+
+In your trinket, click on 'emoji.py'. Find the variable `world` which stores the text ‘🌍🌍🌍’. 
+
+--- /task --- 
+
+--- task ---
+You can `print` more than one item at a time by including a comma ',' in between the items. Python will add a space between each item.
+
+Click on 'main.py' to go back to your `print()` code. 
+
 Change your code to also `print` the contents of the `world` variable:
 
 --- code ---
@@ -96,6 +100,8 @@ line_highlights: 12
 # Put code to run under here
 print('Hello', world)
 --- /code ---
+
+**Tip:** `'Hello'` is a text string because it has single quotes around it. `world` is a variable so the value stored in it will be printed. 
 
 --- /task ---
 
@@ -151,6 +157,9 @@ line_highlights: 13
 print('Hello', world)
 print('Welcome to', python)
 --- /code ---
+
+**Tip:** The code you need to type is highlighted in a lighter colour. Code that is not highlighted helps you find where you need to add the new code.
+
 --- /task ---
 
 --- task ---
@@ -164,6 +173,8 @@ print('Welcome to', python)
 
 --- /task ---
 
-You can come back to your project in future on the same computer using the starter project link.
+If you have a Trinket account you can click on the `Remix` button to save a copy to your 'My Trinkets' library.
+
+If you don't have a Trinket account you can still come back to your project in future on the same computer using the starter project link.
 
 --- save ---
