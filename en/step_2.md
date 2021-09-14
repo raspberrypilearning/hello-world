@@ -19,11 +19,7 @@ Open the [Hello 🌍🌎🌏 starter project](https://trinket.io/library/trinket
 
 The line `#!/bin/python3` tells Trinket that you are using Python 3 (the latest version). The `import` lines tell Python that you are going to use code you didn't write.
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. A Python library allows you to easily use code that other people have written. There are libraries for drawing charts and graphs, making art, doing calculations and lots more.
-</p>
-
-In Python, `print` outputs text (words or numbers) to the screen.
+In Python, `print()` outputs text (words or numbers) to the screen.
 
 Lines beginning with `#` are comments, they explain the code to humans and are ignored by Python.
 
@@ -33,7 +29,7 @@ Find the `# Put code to run below here` line.
 
 Click below that line. The flashing `|` is the cursor and shows where you will type.
 
-Type the code to `print` hello:
+Type the code to `print()` hello:
 
 --- code ---
 ---
@@ -83,11 +79,11 @@ In your trinket, click on 'emoji.py'. Find the variable `world` which stores the
 --- /task --- 
 
 --- task ---
-You can `print` more than one item at a time by including a comma ',' in between the items. Python will add a space between each item.
+You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` will add a space between each item.
 
 Click on 'main.py' to go back to your `print()` code. 
 
-Change your code to also `print` the contents of the `world` variable:
+Change your code to also `print()` the contents of the `world` variable:
 
 --- code ---
 ---
@@ -112,7 +108,7 @@ print('Hello', world)
 
 Emoji can look different on different computers so your might not look quite the same.
 
-**Debug:** Make sure that you have added a comma between the items in `print` and that you have spelled `world` correctly.
+**Debug:** Make sure that you have added a comma between the items in `print()` and that you have spelled `world` correctly.
 
 This example is missing the comma `,`. It's small but very important!
 
@@ -144,7 +140,7 @@ from noemoji import *
 --- /task ---
 
 --- task ---
-Add another line to your code to `print` more text and emoji:
+Add another line to your code to `print()` more text and emoji:
 
 --- code ---
 ---

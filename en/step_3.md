@@ -19,7 +19,7 @@ In Python you can use maths operators to do sums:
 
 --- task ---
 
-Add another two `print` lines to your code including a sum for Python to work out:
+Add another two `print()` lines to your code including a sum for Python to work out:
 
 --- code ---
 ---
@@ -40,6 +40,10 @@ print(230 * 5782 ** 2 / 23781)
 --- task ---
 **Test:** Run your code. Did Python calculate the sum correctly? Only joking! Python does the hard maths for you so you don't need to work it out.
 --- /task ---
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi(π) to 31 trillion digits. That answer is so big that it would take over 300,000 years just to say it! 
+</p>
 
 --- task ---
 
@@ -68,11 +72,11 @@ To exit fullscreen mode, click on the `Fullscreen` button again or press <kbd>Es
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi(π) to 31 trillion digits. That answer is so big that it would take over 300,000 years just to say it! 
-</p>
-
 The line `from datetime import *` at the top of `main.py` includes a library with helpful functions for getting the current date and time.
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. A Python library allows you to easily use code that other people have written. There are libraries for drawing charts and graphs, making art, doing calculations and lots more.
+</p>
 
 --- task ---
 
@@ -92,6 +96,8 @@ print(python, 'is very good at', sums)
 print(230 * 5782 ** 2 / 23781) # print the result of the sum
 print('The', calendar, clock, 'is', datetime.now()) # print with emoji 
 --- /code ---
+
+**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
 
 --- /task ---
 

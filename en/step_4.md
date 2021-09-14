@@ -2,21 +2,20 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create a function to add a randomly generated dice to your project. 
-</div>
+Python can generate random numbers to make a digital dice.</div>
 <div>
 ![The output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll_dice.png){:width="300px"}
 </div>
 </div>
 
-In Python, **functions** are used to organise blocks of code and give them names so you can easily use the same code without repeating it. You have already used the `print` function to output text.
+In Python you **call** a **function()** to perfom an action. You have already used the `print()` function to output text.
 
-You can also define your own functions and then call them in your code.
-
-You are going to define a function called `roll_dice` which will generate a random number.
+You can **define** a new **function** to group code together so that you can name it and reuse it. 
 
 --- task ---
-Look for the comment near the top of `main.py` which says `# Put function definitions under here` and add a function definition underneath it:
+Functions need to be defined before you can call them. Look for the comment near the top of `main.py` which says `# Put function definitions under here`.
+
+Define a new function called `roll_dice()` that uses the `randint()` function, from the `random` library, to generate a random 'integer' (whole number) from 1 to 6 and output it to the screen.
 
 --- code ---
 ---
@@ -30,8 +29,7 @@ line_highlights: 9-12
 
 def roll_dice(): # Don't forget the colon at the end of this line.
   print(python, 'can make a', dice)
-  roll = randint(1, 6) # Choose a random number between 1 and 6
-  print('You rolled a', roll)
+  print('You rolled a', randint(1, 6)) 
 --- /code ---
 
 The lines under `def roll_dice():` are **indented**. To do this, tap the 'Tab' character on your keyboard (usually above CAPSLOCK on the keyboard.) Indenting code tells Python that the indented lines are part of the function.
@@ -53,15 +51,13 @@ The underscore `_` is on the same key as the '-', next to the '0', hold <kbd>Shi
 
 --- task ---
 
-**Test:** If you ‘Run’ your code now it won't roll a dice. That’s because you have defined the `roll_dice` function, but not called it yet.
+**Test:** If you ‘Run’ your code now it won't roll a dice. That’s because you have defined the `roll_dice()` function, but not called it yet.
 
 --- /task ---
 
-The `from random import randint` line at the top of `main.py` allows you to use the `randint` function to generate random numbers. 
-
 --- task ---
 
-To use a function you need to call it in the code. Go to the end of your code and add a new line to call the `roll_dice` function:
+To use a function you need to call it in the code. Go to the end of your code and add a new line to call the `roll_dice()` function:
 
 --- code ---
 ---
@@ -91,11 +87,26 @@ roll_dice() # Call the roll dice function
 
 --- /task ---
 
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Uses of random numbers include cryptography, data science and adding variety in games and computer art. Computers generate <span style="color: #0faeb0">**random numbers**</span> using an algorithm. For numbers that are really random you need an unpredictable input from the real world.
+</p>
+
 --- task ---
 
-The `fire` variable stores a 🔥 emoji. 
+The `fire` variable stores a 🔥 emoji. The code `print(fire * 3)` outputs 3 fire emoji '🔥🔥🔥'. You need to output the correct number of emoji to match the number rolled. 
 
-Add a line of code at the end of your `roll_dice` function to `print` one 🔥 emoji for each number rolled: 
+--- collapse ---
+---
+title: What would happen if you use `print(fire * randint(1, 6))`? 
+---
+
+You would get a new random number that is usually different. 
+
+--- /collapse ---
+
+Hmm, how can you make sure you use the same random number?
+
+Change your code to save the value returned by `randint()` in a variable called `roll` and then use that variable to print out the number rolled with the matching number of 🔥 emoji.
  
 --- code ---
 ---
@@ -111,18 +122,20 @@ def roll_dice():
   print(python, 'can make a', dice)
   roll = randint(1, 6) # generate a random number between 1 and 6
   print('You rolled a', roll) # print the value of the roll variable
-  print(fire * roll) # repeat the fire text roll times
+  print(fire * roll) # repeat the fire emoji to match the dice roll
 --- /code ---
 
 You can use `star` or `heart` instead of `fire` if you prefer.
 
-`*` means multiply so `fire * roll` multiples the text in the `fire` variable ('🔥') by the number containing in the `roll` variable.
+`*` means multiply so `fire * roll` multiples the text in the `fire` variable ('🔥') by the number contained in the `roll` variable.
 
 --- /task ---
 
 --- task ---
 
 **Test:** Test your project a few times. Make sure you understand how the code works. 
+
+**Tip:** Variables are useful when you need to use the same value multiple times in your code. Giving variables a sensible name also makes your code easier to understand.
 
 --- /task ---
 
@@ -133,8 +146,9 @@ Upgrade your dice so that the user can choose the maximum number.
 Lots of games use many-sided dice. In the physical world, dice are made from regular geometric shapes. Common dice include D6, D12 and D20. On a computer, you can generate a <span style="color: #0faeb0">random</span> number to make a fair dice with any number of sides.</p>
 
 --- task ---
+The `input()` function asks the user a question and the returns their answer.
 
-Create a variable called `max` to store a number `input` by the user. Then `print` the number chosen into the output area: 
+Add code to ask the user for the biggest number on their dice and then save the result in a variable called `max` and `print` the number chosen into the output area: 
 
 --- code ---
 ---
@@ -160,7 +174,7 @@ To print an apostrophe `'` in a word like `That's`, put a backslash `\` before i
 --- /task ---
   
 --- task ---
-Now you need to use `max` as the maximum value for `randint` to use to generate a random number. 
+Change your `roll` variable code to use `max` as the maximum value for `randint` when it generates a random number. 
 
 When you get input from the user, Python treats it as text. But, `randint` needs an 'integer' (a positive whole number). The `int` function turns the user input into an integer.
 
@@ -190,16 +204,5 @@ def roll_dice():
 **Test:** Run your project. When the program reaches the `input` line it will wait for you to enter a response before continuing. Try it again with a different `input` number. 
 
 --- /task ---
-
-**Choose:** if you want to learn a hack! 
-
---- task ---
-
-Use `seed` to cheat in your dice roll.
-
-[[[using-seed-in-python]]]
-
---- /task ---
-
 
 --- save ---
