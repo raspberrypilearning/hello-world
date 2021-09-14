@@ -9,9 +9,17 @@ Python is great at working with numbers and dates.
 </div>
 </div>
 
+In Python you can use maths operators to do sums:
+
+| + | add |
+| - | subtract |
+| * | multiply |
+| / | divide |
+| ** | to the power |
+
 --- task ---
 
-Add another two `print` lines to your code including a sum for Python to work out:
+Add another two `print()` lines to your code including a sum for Python to work out:
 
 --- code ---
 ---
@@ -27,23 +35,15 @@ print(python, 'is very good at', sums)
 print(230 * 5782 ** 2 / 23781) 
 --- /code ---
 
-`*` means multiply. `** 2` means to the power 2, we usually say 'squared'. `/` means divide.
-
 --- /task ---
 
 --- task ---
 **Test:** Run your code. Did Python calculate the sum correctly? Only joking! Python does the hard maths for you so you don't need to work it out.
-
 --- /task ---
 
-In Python you can use maths operators to do sums:
-
-| + | add |
-| - | subtract |
-| * | multiply |
-| / | divide |
-| ** | to the power |
-
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi(π) to 31 trillion digits. That answer is so big that it would take over 300,000 years just to say it! 
+</p>
 
 --- task ---
 
@@ -72,13 +72,17 @@ To exit fullscreen mode, click on the `Fullscreen` button again or press <kbd>Es
 
 --- /task ---
 
+The line `from datetime import *` at the top of `main.py` includes a library with helpful functions for getting the current date and time.
+
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi(π) to 31 trillion digits. That answer is so big that it would take over 300,000 years just to say it! 
+One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. A Python library allows you to easily use code that other people have written. There are libraries for drawing charts and graphs, making art, doing calculations and lots more.
 </p>
 
 --- task ---
 
-Add another two lines to your code. Use a variable called `now` to store the current date and time. Then `print` the answer with some text and emoji:
+Add another line to your code. To `print` some more text and the emoji variables `calendar` and `clock`.
+
+Get the current date and time by using the `now()` function from the `datetime` library:
 
 --- code ---
 ---
@@ -90,9 +94,10 @@ line_highlights: 16-17
 ---
 print(python, 'is very good at', sums)
 print(230 * 5782 ** 2 / 23781) # print the result of the sum
-now = datetime.now() # get the current date and time
-print('The', calendar, clock, 'is', now) # print with emoji 
+print('The', calendar, clock, 'is', datetime.now()) # print with emoji 
 --- /code ---
+
+**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
 
 --- /task ---
 
