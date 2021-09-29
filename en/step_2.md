@@ -39,7 +39,7 @@ line_numbers: true
 line_number_start: 11
 line_highlights: 12
 ---
-# Put code to run under here
+#Put code to run under here    
 print('Hello')
 --- /code ---
 
@@ -93,8 +93,8 @@ line_numbers: true
 line_number_start: 11
 line_highlights: 12
 ---
-# Put code to run under here
-print('Hello', world)
+#Put code to run under here    
+print('Hello', world)    
 --- /code ---
 
 **Tip:** `'Hello'` is a text string because it has single quotes around it, whereas `world` is a variable so the value stored in it will be printed. 
@@ -150,8 +150,8 @@ line_numbers: true
 line_number_start: 12
 line_highlights: 13
 ---
-print('Hello', world)
-print('Welcome to', python)
+print('Hello', world)    
+print('Welcome to', python)     
 --- /code ---
 
 **Tip:** The code you need to type is highlighted in a lighter colour. Code that is not highlighted helps you find where you need to add the new code.
