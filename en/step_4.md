@@ -25,16 +25,16 @@ line_numbers: true
 line_number_start: 7
 line_highlights: 9-12
 ---
-### Put function definitions under here
+#Put function definitions under here
 
-def roll_dice(): #Don't forget the colon at the end of this line
-  print(python, 'can make a', dice)
-  print('You rolled a', randint(1, 6)) 
+def roll_dice(): #Don't forget the colon at the end of this line   
+  print(python, 'can make a', dice)   
+  print('You rolled a', randint(1, 6))    
 --- /code ---
 
-The lines under `def roll_dice():` are **indented**. To do this, use the <kbd>Tab</kbd> character on your keyboard (usually above <kbd>CAPSLOCK</kbd> on the keyboard.) Indenting code tells Python that the indented lines are part of the function.
+The lines under `def roll_dice():` are **indented**. To do this, use the <kbd>Tab</kbd> character on your keyboard (usually above <kbd>CAPSLOCK</kbd> on the keyboard). Indenting code tells Python that the indented lines are part of the function.
 
-**Tip:** The underscore `_` in Python is used to between words in variable and function names in Python to make them easier to read. You can't use a space. 
+**Tip:** The underscore `_` is used to between words in variable and function names in Python to make them easier to read. You can't use a space. 
 
 --- collapse ---
 
@@ -42,8 +42,8 @@ The lines under `def roll_dice():` are **indented**. To do this, use the <kbd>Ta
 title: Typing special characters on a UK or US keyboard
 ---
 
-On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next to the <kbd>L</kbd> key: hold <kbd>Shift</kbd> and tap <kbd>;<kbd> to type a `:`.
-  The underscore `_` is on the same key as the '-', next to the <kbd>0</kbd>, hold <kbd>Shift</kbd> and tap <kbd>-</kbd> to type an `_`.
+On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next to the <kbd>L</kbd> key: hold <kbd>Shift</kbd> and tap <kbd>;</kbd> to type a `:`.
+  The underscore `_` is on the same key as the `-`, next to the <kbd>0</kbd>, hold <kbd>Shift</kbd> and tap <kbd>-</kbd> to type an `_`.
 
 --- /collapse ---
 
@@ -99,7 +99,7 @@ The `fire` variable stores a 🔥 emoji. The code `print(fire * 3)` outputs thre
 title: What would happen if you use `print(fire * randint(1, 6))`? 
 ---
 
-You would get a new random number that is usually different. 
+You would get a new random number that is usually different from your first random number. 
 
 --- /collapse ---
 
@@ -115,13 +115,13 @@ line_numbers: true
 line_number_start: 7
 line_highlights: 11 - 13
 ---
-### Put function definitions under here
+#Put function definitions under here
 
-def roll_dice():
-  print(python, 'can make a', dice)
-  roll = randint(1, 6) #Generate a random number between 1 and 6
-  print('You rolled a', roll) #Print the value of the roll variable
-  print(fire * roll) #Repeat the fire emoji to match the dice roll
+def roll_dice():    
+  print(python, 'can make a', dice)    
+  roll = randint(1, 6) #Generate a random number between 1 and 6    
+  print('You rolled a', roll) #Print the value of the roll variable     
+  print(fire * roll) #Repeat the fire emoji to match the dice roll    
 --- /code ---
 
 You can use `star` or `heart` instead of `fire` if you prefer.
@@ -157,15 +157,15 @@ line_numbers: true
 line_number_start: 7
 line_highlights: 11-12
 ---
-### Put function definitions under here
+#Put function definitions under here
 
 def roll_dice():   
   print(python, 'can make a', dice)   
-  max = input('How many sides?:') #Wait for input from the user
-  print('That\'s a D', max) #Use the number the user entered
-  roll = randint(1, 6) 
-  print('You rolled a', roll)
-  print(fire * roll)
+  max = input('How many sides?:') #Wait for input from the user    
+  print('That\'s a D', max) #Use the number the user entered    
+  roll = randint(1, 6)    
+  print('You rolled a', roll)    
+  print(fire * roll)     
 --- /code ---
 
 To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
@@ -185,7 +185,7 @@ line_numbers: true
 line_number_start: 7
 line_highlights: 13
 ---
-### Put function definitions under here
+#Put function definitions under here
 
 def roll_dice():   
   print(python, 'can make a', dice)   
