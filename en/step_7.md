@@ -5,7 +5,7 @@
 Add more to your project. There are more emoji to choose from.
   </div>
 <div>
-![A longer project in the output area with more text, emoji, and inputs](images/upgrade_ideas.png){:width="300px"}
+![A longer project in the output area with more text, emoji, and inputs.](images/upgrade_ideas.png){:width="300px"}
 </div>
 </div>
 
@@ -24,7 +24,7 @@ Here's an example function that asks about hobbies:
 language: python
 filename: main.py
 ---
-# Put code to run under here
+#Put code to run under here    
 def hobbies():   
   hobby = input('What do you like?')   
   print('That sounds', fun)   
