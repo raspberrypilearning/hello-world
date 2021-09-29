@@ -22,7 +22,7 @@ def awesome():
 
  --- feedback ---
 
- That's correct, calling this function will print `I can code`. You spotted that functions need `(` `)` brackets and a `:` in the function definition and that all code to be run when that function is called must be indented. 
+That's correct, calling this function will print `I can code`. You spotted that functions need `(` `)` brackets and a `:` in the function definition, and that all code to be run when that function is called must be indented. 
 
  --- /feedback ---
 

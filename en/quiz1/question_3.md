@@ -17,7 +17,7 @@ def two_dice():
 
 Which code will call the function to run it?
 
-![The Trinket editor with output area showing two randomly generated numbers. ](images/quiz3.png)
+![The Trinket editor with output area showing two randomly generated numbers.](images/quiz3.png)
 
 --- choices ---
 
@@ -28,13 +28,13 @@ Which code will call the function to run it?
 language: python
 ---
 def two_dice():
-  print(‘First number: ‘, randint(1, 6))
-  print(‘Second number: ‘, randint(1, 6))
+  print('First number:', randint(1, 6))
+  print('Second number:', randint(1, 6))
 --- /code ---
 
  --- feedback ---
 
- No, this is the code to define the function but it does not run the function. You'll need to use different code to call it.
+ No, this is the code to define the function, but it does not run the function. You'll need to use different code to call it.
 
  --- /feedback ---
 
