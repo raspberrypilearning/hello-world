@@ -10,7 +10,7 @@ If you are following the [Introduction to Python](https://projects.raspberrypi.o
 
 --- no-print ---
 
-<iframe src="https://trinket.io/embed/python/a26410a1be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+<iframe src="https://trinket.io/embed/python/f686c82d8a?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
 --- /no-print ---
