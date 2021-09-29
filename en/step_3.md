@@ -80,7 +80,7 @@ One of the great things about Python is all the <span style="color: #0faeb0">**l
 
 --- task ---
 
-Add another line to your code. To `print` some more text and the emoji variables `calendar` and `clock`.
+Add another line to your code to `print` some more text and the emoji variables `calendar` and `clock`.
 
 Get the current date and time by using the `now()` function from the `datetime` library:
 
@@ -92,9 +92,9 @@ line_numbers: true
 line_number_start: 14
 line_highlights: 16-17
 ---
-print(python, 'is very good at', sums)   
-print(230 * 5782 ** 2 / 23781) #Print the result of the sum
-print('The', calendar, clock, 'is', datetime.now()) #Print with emoji 
+print(python, 'is very good at', sums)    
+print(230 * 5782 ** 2 / 23781) #Print the result of the sum     
+print('The', calendar, clock, 'is', datetime.now()) #Print with emoji     
 --- /code ---
 
 **Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
