@@ -11,7 +11,7 @@ It's traditional to write a program to output 'Hello world!' when you learn a ne
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://trinket.io/library/trinkets/cb8194643f){:target="_blank"}. Trinket will open in another browser tab.
+Open the [Hello 🌍🌎🌏 starter project](https://trinket.io/python/975f35023b){:target="_blank"}. Trinket will open in another browser tab.
 
 ![The Trinket editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
 
