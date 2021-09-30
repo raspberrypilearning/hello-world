@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [Introduction to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [Archery](https://projects.raspberrypi.org/en/projects/python-archery) project. In this project, you will draw a target then make an archery game that shoots arrows to score points.
+If you are following the [Introduction to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [Target practice](https://projects.raspberrypi.org/en/projects/target-practice) project. In this project, you will draw a target then make an archery game that shoots arrows to score points.
 
 --- print-only ---
 
@@ -10,7 +10,7 @@ If you are following the [Introduction to Python](https://projects.raspberrypi.o
 
 --- no-print ---
 
-<iframe src="https://trinket.io/embed/python/a26410a1be?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+<iframe src="https://trinket.io/embed/python/f686c82d8a?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
 --- /no-print ---
