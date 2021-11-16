@@ -9,6 +9,7 @@ steps:
   - title: Introduction
   - title: Say hello
   - title: Sums and dates
+    completion: engaged  
   - title: Roll a dice
   - title: Sentence starter
   - title: Reflection
@@ -17,5 +18,7 @@ steps:
       version: 1
       questions: 3
       passing_score: 3
+    completion: internal        
   - title: Upgrade your project
+    completion: external  
   - title: What next?
