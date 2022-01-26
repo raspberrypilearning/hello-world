@@ -4,7 +4,9 @@
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 Python can generate random numbers to make digital dice.</div>
 <div>
+
 ![The output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll_dice.png){:width="300px"}
+
 </div>
 </div>
 
@@ -13,6 +15,7 @@ In Python you **call** a **function()** to perfom an action. You have already us
 You can **define** a new **function** to group code together so that you can name it and reuse it. 
 
 --- task ---
+
 Functions need to be defined before you can call them. Look for the comment near the top of the **main.py** tab that says `#Put function definitions under here`.
 
 Define a new function called `roll_dice()` that uses the `randint()` function, from the `random` library, to generate a random 'integer' (whole number) from 1 to 6 and output it to the screen.
@@ -25,11 +28,13 @@ line_numbers: true
 line_number_start: 7
 line_highlights: 9-12
 ---
+
 #Put function definitions under here
 
 def roll_dice(): #Don't forget the colon at the end of this line   
   print(python, 'can make a', dice)   
   print('You rolled a', randint(1, 6))    
+
 --- /code ---
 
 The lines under `def roll_dice():` are **indented**. To do this, use the <kbd>Tab</kbd> character on your keyboard (usually above <kbd>CAPSLOCK</kbd> on the keyboard). Indenting code tells Python that the indented lines are part of the function.
@@ -37,7 +42,6 @@ The lines under `def roll_dice():` are **indented**. To do this, use the <kbd>Ta
 **Tip:** The underscore `_` is used to between words in variable and function names in Python to make them easier to read. You can't use a space. 
 
 --- collapse ---
-
 ---
 title: Typing special characters on a UK or US keyboard
 ---
@@ -67,9 +71,11 @@ line_numbers: true
 line_number_start: 20
 line_highlights: 22
 --- 
+
 print('The', calendar, clock, 'is', datetime.now())
 
 roll_dice() #Call the roll dice function
+
 --- /code ---
 
 --- /task ---
@@ -115,6 +121,7 @@ line_numbers: true
 line_number_start: 7
 line_highlights: 11 - 13
 ---
+
 #Put function definitions under here
 
 def roll_dice():    
@@ -122,6 +129,7 @@ def roll_dice():
   roll = randint(1, 6) #Generate a random number between 1 and 6    
   print('You rolled a', roll) #Print the value of the roll variable     
   print(fire * roll) #Repeat the fire emoji to match the dice roll    
+
 --- /code ---
 
 You can use `star` or `heart` instead of `fire` if you prefer.
@@ -145,6 +153,7 @@ Upgrade your dice so that the user can choose the maximum number.
 Lots of games use many-sided dice. In the physical world, dice are made from regular geometric shapes. Common dice include D6, D12, and D20. On a computer, you can generate a <span style="color: #0faeb0">random</span> number to make a fair dice with any number of sides.</p>
 
 --- task ---
+
 The `input()` function asks the user a question and then returns their answer.
 
 Add code to ask the user for the biggest number on their dice and then save the result in a variable called `max` and `print` the number chosen into the output area: 
@@ -157,6 +166,7 @@ line_numbers: true
 line_number_start: 7
 line_highlights: 11-12
 ---
+
 #Put function definitions under here
 
 def roll_dice():   
@@ -166,6 +176,7 @@ def roll_dice():
   roll = randint(1, 6)    
   print('You rolled a', roll)    
   print(fire * roll)     
+
 --- /code ---
 
 To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
@@ -173,6 +184,7 @@ To print an apostrophe `'` in a word like `That's`, put a backslash `\` before i
 --- /task ---
   
 --- task ---
+
 Change your `roll` variable code to use `max` as the maximum value for `randint` when it generates a random number. 
 
 When you get input from the user, Python treats it as text. But, `randint` needs an 'integer' (a positive whole number). The `int` function turns the user input into an integer.
@@ -185,6 +197,7 @@ line_numbers: true
 line_number_start: 7
 line_highlights: 13
 ---
+
 #Put function definitions under here
 
 def roll_dice():   
@@ -194,6 +207,7 @@ def roll_dice():
   roll = randint(1, int(max)) #randint needs max to be an 'integer'   
   print('You rolled a', roll)   
   print(fire * roll)   
+  
 --- /code ---
 
 --- /task ---

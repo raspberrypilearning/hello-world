@@ -5,11 +5,14 @@
 Output more sentences from your project.
 </div>
 <div>
+
 ![Some new print lines in the output area with emoji and text sentences.](images/sentence_starter.png){:width="300px"}
+
 </div>
 </div>
 
 --- task ---
+
 Add more `print` lines to your code. Here are some sentence starters that you can use:
 
 --- code ---
@@ -17,9 +20,11 @@ Add more `print` lines to your code. Here are some sentence starters that you ca
 language: python
 filename: main.py
 ---
+
 print('I', heart, '...')   
 print('... makes me', happy)   
 print('I\'d like to make ... with', python)   
+
 --- /code ---
 
 **Tip:** `print` adds a space between each item you print. 
@@ -33,6 +38,7 @@ print('I\'d like to make ... with', python)
 The <span style="color: #0faeb0">yellow heart emoji</span> is often used to show friendship and happiness.</p>
 
 --- task ---
+
 What message would you send to a friend to cheer them up? Which emoji would you choose?
 
 Click on the **emoji.py** tab in Trinket to see the emoji variables that you can use. Click back on the **main.py** tab to add to your code.

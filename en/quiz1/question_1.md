@@ -11,7 +11,6 @@ After each question, press **submit**. You will be guided towards the correct an
 Have fun!
 
 --- question ---
-
 ---
 legend: Question 1 of 3
 ---
@@ -22,7 +21,9 @@ This code sets the `world` variable to contain the text '🌍🌎🌏' (the thre
 ---
 language: python
 ---
+
 world = '🌍🌎🌏'
+
 --- /code ---
 
 Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
@@ -32,11 +33,14 @@ Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
 --- choices ---
 
 - ( ) 
+
 --- code ---
 ---
 language: python
 ---
+
 output('Hello' world)
+
 --- /code ---
 
  --- feedback ---
@@ -47,11 +51,14 @@ output('Hello' world)
 
 
 - ( ) 
+
 --- code ---
 ---
 language: python
 ---
+
 print('Hello' world)
+
 --- /code ---
 
  --- feedback ---
@@ -61,11 +68,14 @@ print('Hello' world)
  --- /feedback ---
 
 - (x) 
+
 --- code ---
 ---
 language: python
 ---
+
 print('Hello', world)
+
 --- /code ---
 
  --- feedback ---
@@ -74,12 +84,15 @@ print('Hello', world)
 
  --- /feedback ---
 
-- ( ) 
+- ( )
+
 --- code ---
 ---
 language: python
 ---
+
 print(Hello, world)
+
 --- /code ---
 
  --- feedback ---

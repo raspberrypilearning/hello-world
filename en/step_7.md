@@ -5,7 +5,9 @@
 Add more to your project. There are more emoji to choose from.
   </div>
 <div>
+
 ![A longer project in the output area with more text, emoji, and inputs.](images/upgrade_ideas.png){:width="300px"}
+
 </div>
 </div>
 
@@ -24,11 +26,13 @@ Here's an example function that asks about hobbies:
 language: python
 filename: main.py
 ---
+
 #Put code to run under here    
 def hobbies():   
   hobby = input('What do you like?')   
   print('That sounds', fun)   
   print('You could make a', python, 'project about', hobby)   
+
 --- /code ---
 
 **Tip:** Don't forget you will need to call your function as well as define it.
@@ -40,16 +44,17 @@ You can use `input` to make your project wait for the user to tap <kbd>Enter</kb
 language: python
 filename: main.py
 ---
+
 roll_dice()
 
 input() #Wait for the user to tap Enter
 
 hobbies()
+
 --- /code ---
 
 
 --- collapse ---
-
 ---
 title: Completed project
 ---
