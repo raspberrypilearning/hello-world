@@ -1,5 +1,4 @@
 --- question ---
-
 ---
 legend: Question 3 of 3
 ---
@@ -10,9 +9,11 @@ This function outputs two random numbers:
 ---
 language: python
 ---
+
 def two_dice():
   print('First number:', randint(1, 6))
   print('Second number:', randint(1, 6))
+
 --- /code ---
 
 Which code will call the function to run it?
@@ -27,9 +28,11 @@ Which code will call the function to run it?
 ---
 language: python
 ---
+
 def two_dice():
   print('First number:', randint(1, 6))
   print('Second number:', randint(1, 6))
+
 --- /code ---
 
  --- feedback ---
@@ -43,7 +46,9 @@ def two_dice():
 ---
 language: python
 ---
+
 two_dice
+
 --- /code ---
 
  --- feedback ---
@@ -58,7 +63,9 @@ Close! `two_dice` is the name of the function, but to call it you need more than
 ---
 language: python
 ---
+
 two_dice[]
+
 --- /code ---
 
  --- feedback ---
@@ -73,7 +80,9 @@ two_dice[]
 ---
 language: python
 ---
+
 two_dice()
+
 --- /code ---
 
  --- feedback ---

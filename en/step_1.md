@@ -12,7 +12,9 @@ You will:
 + Use **functions** to organise your code
 
 --- no-print ---
+
 --- task ---
+
 ### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
@@ -25,9 +27,13 @@ Type in your answers to the questions. Can you see how your answers are used?
   <img src="images/hello-final.png">
 </div>
 </div>
+
 --- /task ---
+
 --- /no-print ---
 
 --- print-only ---
+
 ![Completed project](images/showcase_static.png)
+
 --- /print-only ---

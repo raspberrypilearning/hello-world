@@ -5,7 +5,9 @@
 It's traditional to write a program to output 'Hello world!' when you learn a new programming language.
 </div>
 <div>
+
 ![The Trinket output area showing the two printed lines of text and emoji.](images/say_hello.png){:width="200px"}
+
 </div>
 </div>
 
@@ -39,12 +41,13 @@ line_numbers: true
 line_number_start: 11
 line_highlights: 12
 ---
+
 #Put code to run under here    
 print('Hello')
+
 --- /code ---
 
 --- collapse ---
-
 ---
 title: Typing special characters on a UK or US keyboard
 ---
@@ -58,6 +61,7 @@ The comma `,` is next to the <kbd>M</kbd>.
 --- /task ---
 
 --- task ---
+
 **Test:** Click on the **Run** button to run your code. In Trinket, the output will appear on the right:
 
 ![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
@@ -79,6 +83,7 @@ In your Trinket, click on the **emoji.py** tab. Find the variable `world`, which
 --- /task --- 
 
 --- task ---
+
 You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` will add a space between each item.
 
 Click on the **main.py** tab to go back to your `print()` code. 
@@ -93,8 +98,10 @@ line_numbers: true
 line_number_start: 11
 line_highlights: 12
 ---
+
 #Put code to run under here    
-print('Hello', world)    
+print('Hello', world) 
+
 --- /code ---
 
 **Tip:** `'Hello'` is a text string because it has single quotes around it, whereas `world` is a variable so the value stored in it will be printed. 
@@ -102,6 +109,7 @@ print('Hello', world)
 --- /task ---
 
 --- task ---
+
 **Test:** Run your code to see the result:
 
 ![The updated line of code in the code area with the word 'Hello' followed by three emoji worlds showing in the output area.](images/run_hello_world.png)
@@ -115,7 +123,6 @@ This example is missing the comma `,`. It's small but very important!
 ![The Trinket editor with missing single quotes and error 'SyntaxError: bad input on line 12 in main.py' displayed.](images/comma_error.png)
 
 --- collapse ---
-
 ---
 title: I don't see the emoji
 ---
@@ -132,7 +139,9 @@ line_numbers: true
 line_number_start: 3
 line_highlights: 3
 ---
+
 from noemoji import *
+
 --- /code ---
 
 --- /collapse ---
@@ -140,6 +149,7 @@ from noemoji import *
 --- /task ---
 
 --- task ---
+
 Add another line to your code to `print()` more text and emoji:
 
 --- code ---
@@ -150,8 +160,10 @@ line_numbers: true
 line_number_start: 12
 line_highlights: 13
 ---
+
 print('Hello', world)    
-print('Welcome to', python)     
+print('Welcome to', python) 
+
 --- /code ---
 
 **Tip:** The code you need to type is highlighted in a lighter colour. Code that is not highlighted helps you find where you need to add the new code.
@@ -159,6 +171,7 @@ print('Welcome to', python)
 --- /task ---
 
 --- task ---
+
 **Test:** Click **run**. 
 
 ![The additional line of code in the code area with the word 'Hello' followed by three emoji worlds and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)

@@ -5,7 +5,9 @@
 Python is great at working with numbers and dates.
 </div>
 <div>
+
 ![The output area with five printed lines showing new sum and current date outputs.](images/sums_dates.png){:width="300px"}
+
 </div>
 </div>
 
@@ -29,16 +31,20 @@ line_numbers: true
 line_number_start: 12
 line_highlights: 14-15
 ---
+
 print('Hello', world)   
 print('Welcome to', python)   
 print(python, 'is very good at', sums)   
 print(230 * 5782 ** 2 / 23781)   
+
 --- /code ---
 
 --- /task ---
 
 --- task ---
+
 **Test:** Run your code. Did Python calculate the sum correctly? Only joking! Python does the hard maths for you so you don't need to work it out.
+
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
@@ -54,6 +60,7 @@ You can also use brackets if you want to control the order that Python calculate
 --- /task ---
 
 --- task ---
+
 **Test:** Run your code and get Python to calculate your sum.
 
 **Debug:** Make sure your sum has a left and right round bracket around it `( 2 * 45 )`. If you use extra brackets to control the order, make you have a right bracket to match every left bracket.
@@ -92,9 +99,11 @@ line_numbers: true
 line_number_start: 14
 line_highlights: 16-17
 ---
+
 print(python, 'is very good at', sums)    
 print(230 * 5782 ** 2 / 23781) #Print the result of the sum     
-print('The', calendar, clock, 'is', datetime.now()) #Print with emoji     
+print('The', calendar, clock, 'is', datetime.now()) #Print with emoji    
+ 
 --- /code ---
 
 **Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
