@@ -2,7 +2,8 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Python can generate random numbers to make digital dice.</div>
+Python can generate random numbers to make digital dice.
+</div>
 <div>
 
 ![The output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll_dice.png){:width="300px"}
