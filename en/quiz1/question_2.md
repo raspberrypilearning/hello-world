@@ -28,24 +28,6 @@ That's correct, calling this function will print `I can code`. You spotted that 
 
  --- /feedback ---
 
-- ( ) 
-
---- code ---
----
-language: python
----
-
-def awesome:
-  print('I can code')
-
---- /code ---
-
- --- feedback ---
-
- Not quite, there is something missing from the function definition and this layout would cause an error.
-
- --- /feedback ---
-
 - () 
 
 --- code ---
