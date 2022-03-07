@@ -1,21 +1,21 @@
-## Reflection
+## Reflexión
 
-Well done, you have made an interactive programme with text and emoji 👍
+Bien hecho, has creado un programa interactivo con texto y emoji 👍
 
-Now it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
+Ahora es momento de reflexionar: esta es una parte importante del aprendizaje porque te ayuda a establecer nuevas conexiones en tu cerebro.
 
-Answer the three questions below to reflect on what you've learnt.
+Responde las siguientes tres preguntas para reflexionar sobre lo que has aprendido.
 
-After each question, press **submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Después de cada pregunta, presiona **enviar**. Vamos a guiarte hacia la respuesta correcta. Puedes realizar esta actividad tantas veces como quieras.
 
-Have fun!
+¡Qué te diviertas!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Pregunta 1 de 3
 ---
 
-This code sets the `world` variable to contain the text '🌍🌎🌏' (the three different world emoji):
+Este código configura la variable `world` para que contenga el texto '🌍🌎🌏' (tres diferentes emojis de mundo):
 
 --- code ---
 ---
@@ -26,9 +26,9 @@ world = '🌍🌎🌏'
 
 --- /code ---
 
-Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
+¿Qué código usa correctamente la variable `world` y muestra Hola 🌍🌎🌏?
 
-![The output area from the Trinket editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
+![El área de salida del editor Trinket mostrando Hola 🌍🌎🌏.](images/quiz1.png)
 
 --- choices ---
 
@@ -39,13 +39,13 @@ Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
 language: python
 ---
 
-output('Hello' world)
+output('Hola' world)
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, `output` is not the way to output messages to the screen.
+ No del todo, `output` no es la forma de generar mensajes en la pantalla.
 
  --- /feedback ---
 
@@ -57,13 +57,13 @@ output('Hello' world)
 language: python
 ---
 
-print('Hello' world)
+print('Hola' world)
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+ No del todo, en Python `print` genera mensajes en la pantalla, pero en este ejemplo falta algo.
 
  --- /feedback ---
 
@@ -74,13 +74,13 @@ print('Hello' world)
 language: python
 ---
 
-print('Hello', world)
+print('Hola', world)
 
 --- /code ---
 
  --- feedback ---
 
- That's correct, in Python `print` outputs messages to the screen. The text output is inside single quotes `'` , a comma separates the two items and provides a space, then the `world` variable is called, which stores the earth emoji 🌍🌎🌏, like in your project.
+ Correcto, en Python `print` genera mensajes en la pantalla. El texto de salida está entre comillas simples `'` , la coma separa dos objetos y proporciona espacio, luego llamamos a la variable `world`, que almacena el emoji 🌍🌎🌏, como aparece en tu proyecto.
 
  --- /feedback ---
 
@@ -91,13 +91,13 @@ print('Hello', world)
 language: python
 ---
 
-print(Hello, world)
+print(Hola, world)
 
 --- /code ---
 
  --- feedback ---
 
-  Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+  No del todo, en Python `print` genera mensajes en la pantalla, pero en este ejemplo falta algo.
 
  --- /feedback ---
 
