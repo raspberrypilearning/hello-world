@@ -1,24 +1,25 @@
-## Roll a dice
+## Ρίξε ένα ζάρι
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Python can generate random numbers to make digital dice.</div>
+Η Python μπορεί να δημιουργήσει τυχαίους αριθμούς για να φτιάξει ψηφιακά ζάρια.
+</div>
 <div>
 
-![The output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll_dice.png){:width="300px"}
+![Η περιοχή εξόδου με πρόσθετες γραμμές για να ζητήσει από τον χρήστη να εισαγάγει τον μεγαλύτερο αριθμό για τα ζάρια του και την απάντηση με τον τυχαίο αριθμό.](images/roll_dice.png){:width="300px"}
 
 </div>
 </div>
 
-In Python you **call** a **function()** to perfom an action. You have already used the `print()` function to output text.
+Στην Python **καλείς** μία **συνάρτηση()** για να εκτελέσεις μια ενέργεια. Έχεις ήδη χρησιμοποιήσει τη συνάρτηση `print()` για να εμφανίσεις κείμενο.
 
-You can **define** a new **function** to group code together so that you can name it and reuse it.
+Μπορείς να **ορίσεις** μια νέα **συνάρτηση** για να ομαδοποιήσεις τον κώδικα ώστε να μπορείς να τον ονομάσεις και να τον επαναχρησιμοποιήσεις.
 
 --- task ---
 
-Functions need to be defined before you can call them. Look for the comment near the top of the **main.py** tab that says `#Put function definitions under here`.
+Οι συναρτήσεις πρέπει να οριστούν για να μπορέσεις να τις καλέσεις. Αναζήτησε το σχόλιο κοντά στην κορυφή της καρτέλας **main.py** που λέει `#Τοποθέτησε τους ορισμούς των συναρτήσεων κάτω από εδώ`.
 
-Define a new function called `roll_dice()` that uses the `randint()` function, from the `random` library, to generate a random 'integer' (whole number) from 1 to 6 and output it to the screen.
+Όρισε μια νέα συνάρτηση που ονομάζεται `roll_dice()` που χρησιμοποιεί τη συνάρτηση `randint()`, από τη βιβλιοθήκη `random`, για να δημιουργήσει έναν τυχαίο «ακέραιο» αριθμό από το 1 έως το 6 και να τον εμφανίσει στην οθόνη.
 
 --- code ---
 ---
@@ -26,24 +27,24 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 9-12
 ---
 
-# Put function definitions under here
+# Τοποθέτησε ορισμούς συναρτήσεων κάτω από εδώ
 
-def roll_dice(): #Don't forget the colon at the end of this line   
-print(python, 'can make a', dice)   
-print('You rolled a', randint(1, 6))
+def roll_dice(): #Μην ξεχνάς την άνω και κάτω τελεία στο τέλος αυτής της γραμμής   
+print(python, 'μπορεί να δημιουργήσει ένα', dice)   
+print('Έριξες ', randint(1, 6))
 
 --- /code ---
 
-The lines under `def roll_dice():` are **indented**. To do this, use the <kbd>Tab</kbd> character on your keyboard (usually above <kbd>CAPSLOCK</kbd> on the keyboard). Indenting code tells Python that the indented lines are part of the function.
+Οι γραμμές κάτω από το `def roll_dice():` είναι με **εσοχές**. Για να το κάνεις αυτό, χρησιμοποίσε τον χαρακτήρα <kbd>Tab</kbd> στο πληκτρολόγιό σου (συνήθως πάνω από το <kbd>CAPSLOCK</kbd> στο πληκτρολόγιο). Η τοποθέτηση του κώδικα σε εσοχή ενημερώνει την Python ότι οι γραμμές με την εσοχή αποτελούν μέρος της συνάρτησης.
 
-**Tip:** The underscore `_` is used to between words in variable and function names in Python to make them easier to read. You can't use a space.
+**Συμβουλή:** Η κάτω παύλα `_` χρησιμοποιείται μεταξύ λέξεων σε ονόματα μεταβλητών και συναρτήσεων στην Python για να διευκολύνει στην ανάγνωση. Δεν μπορείς να χρησιμοποιήσεις το κενό χαρακτήρα γι' αυτές τις περιπτώσεις.
 
 --- collapse ---
 ---
-title: Typing special characters on a UK or US keyboard
+title: Χρήση ειδικών χαρακτήρων σε πληκτρολόγιο Η.Β. ή ΗΠΑ
 ---
 
-On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next to the <kbd>L</kbd> key: hold <kbd>Shift</kbd> and tap <kbd>;</kbd> to type a `:`. The underscore `_` is on the same key as the `-`, next to the <kbd>0</kbd>, hold <kbd>Shift</kbd> and tap <kbd>-</kbd> to type an `_`.
+Σε ένα πληκτρολόγιο Η. Β. ή ΗΠΑ, η άνω και κάτω τελεία `:` βρίσκεται στο ίδιο πλήκτρο με το ερωτηματικό, δίπλα στο πλήκτρο <kbd>L</kbd>: κράτησε πατημένο το <kbd>Shift</kbd> και πάτησε <kbd>;</kbd> για να εμφανίσεις ένα `:`. Η κάτω παύλα `_` βρίσκεται στο ίδιο πλήκτρο με την `-`, δίπλα στο <kbd>0</kbd>, κράτησε πατημένο το <kbd>Shift</kbd> και πάτησε <kbd>-</kbd> για να εμφανίσεις `_`.
 
 --- /collapse ---
 
@@ -51,13 +52,13 @@ On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next 
 
 --- task ---
 
-**Test:** If you ‘Run’ your code now, it won't roll a dice. That’s because you have defined the `roll_dice()` function, but not called it yet.
+**Δοκιμή:** Εάν «τρέξεις» τον κώδικά σου τώρα, δεν θα ρίξει ζάρι. Αυτό οφείλεται στο γεγονός ότι έχεις ορίσει τη συνάρτησή `roll_dice()`, αλλά δεν την έχεις καλέσει ακόμα.
 
 --- /task ---
 
 --- task ---
 
-To use a function, you need to call it in the code. Go to the end of your code and add a new line to call the `roll_dice()` function:
+Για να χρησιμοποιήσεις μια συνάρτηση, πρέπει να την καλέσεις στον κώδικα. Πήγαινε στο τέλος του κώδικά σου και πρόσθεσε μια νέα γραμμή για να καλέσεις τη συνάρτηση `roll_dice()`:
 
 --- code ---
 ---
@@ -65,9 +66,9 @@ language: python filename: main.py line_numbers: true line_number_start: 20
 line_highlights: 22
 ---
 
-print('The', calendar, clock, 'is', datetime.now())
+print('Το', calendar, clock, 'είναι', datetime.now())
 
-roll_dice() #Call the roll dice function
+roll_dice() #Κάλεσε τη συνάρτηση roll dice
 
 --- /code ---
 
@@ -75,36 +76,36 @@ roll_dice() #Call the roll dice function
 
 --- task ---
 
-**Test:** Run your project several times to see the random dice roll each time.
+**Δοκιμή:** Εκτέλεσε το έργο σου πολλές φορές για να βλέπεις την τυχαία ρίψη ζαριών κάθε φορά.
 
-**Debug:** Make sure you have an underscore `_` between roll and dice to make the function name. Make sure you have a colon `:` at the end of the line.
+**Εντοπισμός σφαλμάτων:** Βεβαιώσου ότι έχεις μια κάτω παύλα `_` μεταξύ του role και του dice για να δημιουργήσεις το όνομα της συνάρτησης. Βεβαιώσου ότι έχεις άνω και κάτω τελεία `:` στο τέλος της γραμμής.
 
-**Debug:** Check that the lines under `def roll_dice()` are indented. It's really common to get this wrong in Python, so make sure to check.
+**Εντοπισμός σφαλμάτων:** Έλεγξε ότι οι γραμμές κάτω από το `def roll_dice()` έχουν εσοχές. Είναι πολύ συνηθισμένο να συμβεί αυτό το λάθος στην Python, οπότε φρόντισε να το ελέγχεις.
 
-![The Trinket editor showing the lines of code for the <code>roll_dice</code> function have not been indented. The code has been run and is highlighted on line 10, the first line that should be indented, with the error 'SyntaxError: bad input on line 10 in main.py'.](images/indent_error.png)
+![Το πρόγραμμα επεξεργασίας Trinket που εμφανίζει τις γραμμές κώδικα για τη συνάρτηση <code>roll_dice</code> χωρίς εσοχές. Ο κώδικας έχει εκτελεστεί και επισημαίνεται στη γραμμή 10, την πρώτη γραμμή που πρέπει να έχει εσοχή, με το σφάλμα "SyntaxError: bad input on line 10 in main.py".](images/indent_error.png)
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Uses of random numbers include cryptography, data science, and adding variety into games and computer art. Computers generate <span style="color: #0faeb0">**random numbers**</span> using an algorithm. For numbers that are really random, you need an unpredictable input from the real world.
+Οι τυχαίοι αριθμοί χρησιμοποιούνται στην κρυπτογραφία, την επιστήμη δεδομένων και για να προσθέτουμε ποικιλία σε παιχνίδια και στην τέχνη με τη βοήθεια υπολογιστών. Οι υπολογιστές δημιουργούν <span style="color: #0faeb0">**τυχαίους αριθμούς**</span> χρησιμοποιώντας έναν αλγόριθμο. Για αριθμούς που είναι πραγματικά τυχαίοι, χρειάζεσαι μια απρόβλεπτη εισαγωγή από τον πραγματικό κόσμο.
 </p>
 
 --- task ---
 
-The `fire` variable stores a 🔥 emoji. The code `print(fire * 3)` outputs three fire emoji '🔥🔥🔥'. You need to output the correct number of emoji to match the number rolled.
+Η μεταβλητή `fire` έχει αποθηκευμένη την τιμή ενός 🔥 emoji. Ο κώδικας `print(fire * 3)` εμφανίζει τρία emoji φωτιάς "🔥🔥🔥". Πρέπει να εμφανίσεις το σωστό πλήθος emoji που θα ταιριάζει με τον αριθμό που έφερε το ζάρι.
 
 --- collapse ---
 ---
-title: What would happen if you use `print(fire * randint(1, 6))`?
+title: Τι θα συνέβαινε αν χρησιμοποιούσες `print(fire * randint(1, 6))`;
 ---
 
-You would get a new random number that is usually different from your first random number.
+Θα λάμβανες έναν νέο τυχαίο αριθμό που είναι συνήθως διαφορετικός από τον πρώτο σου τυχαίο αριθμό.
 
 --- /collapse ---
 
-Hmm, how can you make sure you use the same random number?
+Χμ, πώς μπορείς να βεβαιωθείς ότι χρησιμοποιείς τον ίδιο τυχαίο αριθμό;
 
-Change your code to save the value returned by `randint()` in a variable called `roll` and then use that variable to print out the number rolled with the matching number of 🔥 emoji.
+Άλλαξε τον κωδικά σου για να αποθηκεύσεις την τιμή που επιστρέφεται από το `randint()` σε μια μεταβλητή που ονομάζεται `roll` και, στη συνέχεια, χρησιμοποίσε αυτήν τη μεταβλητή για να εμφανίσεις τον αριθμό που έφερε το ζάρι με το αντίστοιχο πλήθος 🔥 emoji.
 
 --- code ---
 ---
@@ -112,41 +113,41 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 11 - 13
 ---
 
-# Put function definitions under here
+# Τοποθέτησε τους ορισμούς των συναρτήσεων κάτω από εδώ
 
 def roll_dice():    
-print(python, 'can make a', dice)    
-roll = randint(1, 6) #Generate a random number between 1 and 6    
-print('You rolled a', roll) #Print the value of the roll variable     
-print(fire * roll) #Repeat the fire emoji to match the dice roll
+print(python, 'μπορεί να κάνει ένα', dice)    
+roll = randint(1, 6) #Επίλεξε έναν τυχαίο αριθμό ανάμεσα στο 1 και το 6    
+print('Έριξες', roll) #Εμφάνισε την τιμή της μεταβλητής roll     
+print(fire * roll) #Επανάλαβε το emoji της φωτιάς τόσες φορές όσες η τιμή του ζαριού
 
 --- /code ---
 
-You can use `star` or `heart` instead of `fire` if you prefer.
+Μπορείς να χρησιμοποιήσεις `star (αστέρι)` ή `heart (καρδιά)` αντί για `fire (φωτιά)` αν προτιμάς.
 
-The symbol `*` means multiply so `fire * roll` multiples the text in the `fire` variable ('🔥') by the number contained in the `roll` variable.
+Το σύμβολο `*` σημαίνει πολλαπλασιασμός, οπότε το `fire * roll` επαναλαμβάνει το κείμενο της μεταβλητής `fire` ('🔥') τόσες φορές όσες δείχνει ο αριθμός που περιέχει η μεταβλητή `roll`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Test your project a few times. Make sure you understand how the code works.
+**Δοκιμή:** Δοκίμασε το έργο σου μερικές φορές. Βεβαιώσου ότι καταλαβαίνεις πώς λειτουργεί ο κώδικας.
 
-**Tip:** Variables are useful when you need to use the same value multiple times in your code. Giving variables a sensible name also makes your code easier to understand.
+**Συμβουλή:** Οι μεταβλητές είναι χρήσιμες όταν χρειάζεται να χρησιμοποιήσεις την ίδια τιμή πολλές φορές στον κώδικά σου. Το να δίνεις στις μεταβλητές ένα λογικό όνομα κάνει επίσης τον κώδικά σου πιο κατανοητό.
 
 --- /task ---
 
-Upgrade your dice so that the user can choose the maximum number.
+Αναβάθμισε το ζάρι σου έτσι ώστε ο χρήστης να μπορεί να επιλέξει τον μέγιστο αριθμό.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-Lots of games use many-sided dice. In the physical world, dice are made from regular geometric shapes. Common dice include D6, D12, and D20. On a computer, you can generate a <span style="color: #0faeb0">random</span> number to make a fair dice with any number of sides.</p>
+Πολλά παιχνίδια χρησιμοποιούν ζάρια πολλών όψεων. Στον φυσικό κόσμο, τα ζάρια κατασκευάζονται από κανονικά γεωμετρικά σχήματα. Συνηθισμένα ζάρια είναι τα D6, D12 και D20. Σε έναν υπολογιστή, μπορείς να δημιουργήσεις μία συνάρτηση που παράγει έναν <span style="color: #0faeb0">τυχαίο αριθμό</span> για να φτιάξεις ένα δίκαιο ζάρι με οποιονδήποτε αριθμό πλευρών.</p>
 
 --- task ---
 
-The `input()` function asks the user a question and then returns their answer.
+Η συνάρτηση `input()` κάνει στον χρήστη μια ερώτηση και στη συνέχεια επιστρέφει την απάντησή του.
 
-Add code to ask the user for the biggest number on their dice and then save the result in a variable called `max` and `print` the number chosen into the output area:
+Πρόσθεσε κώδικα για να ζητήσεις από τον χρήστη τον μεγαλύτερο αριθμό στο ζάρι του και, στη συνέχεια, αποθήκευσε το αποτέλεσμα σε μια μεταβλητή που ονομάζεται `max` και `εμφάνισε` τον αριθμό που έχει επιλεγεί στην περιοχή εξόδου:
 
 --- code ---
 ---
@@ -154,27 +155,27 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 11-12
 ---
 
-# Put function definitions under here
+# Τοποθέτησε ορισμούς συναρτήσεων κάτω από εδώ
 
 def roll_dice():   
-print(python, 'can make a', dice)   
-max = input('How many sides?:') #Wait for input from the user    
-print('That\'s a D', max) #Use the number the user entered    
+print(python, 'μπορεί να κάνει ένα', dice)   
+max = input('Πόσες πλευρές;:') #Περίμενε την είσοδο από τον χρήστη    
+print('Αυτό είν\' ένα D', max) #Χρησιμοποίησε τον αριθμό που εισήγαγε    
 roll = randint(1, 6)    
-print('You rolled a', roll)    
+print('Έριξες ', roll)    
 print(fire * roll)
 
 --- /code ---
 
-To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
+Για να εμφανίσεις μια απόστροφο `'` με μια λέξη σαν `είν'`, βάλε μια ανάστροφη κάθετο `\` πριν από αυτήν, ώστε η Python να γνωρίζει ότι είναι μέρος του κειμένου.
 
 --- /task ---
 
 --- task ---
 
-Change your `roll` variable code to use `max` as the maximum value for `randint` when it generates a random number.
+Άλλαξε τον κώδικα της μεταβλητής `roll` για να χρησιμοποιήσει το `max` ως τη μέγιστη τιμή για το `randint` όταν δημιουργεί έναν τυχαίο αριθμό.
 
-When you get input from the user, Python treats it as text. But, `randint` needs an 'integer' (a positive whole number). The `int` function turns the user input into an integer.
+Όταν λαμβάνεις είσοδο από τον χρήστη μέσω της εντολής input, η Python την αντιμετωπίζει ως κείμενο. Όμως, το `randint` χρειάζεται έναν «ακέραιο» (έναν θετικό ακέραιο αριθμό). Η συνάρτηση `int` μετατρέπει την είσοδο του χρήστη από κείμενο σε ακέραιο.
 
 --- code ---
 ---
@@ -182,14 +183,14 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 13
 ---
 
-# Put function definitions under here
+# Τοποθέτησε ορισμούς συναρτήσεων κάτω από εδώ
 
 def roll_dice():   
-print(python, 'can make a', dice)   
-max = input('How many sides?:') #Wait for input from the user   
-print('That\'s a D', max) #Use the number the user entered   
-roll = randint(1, int(max)) #randint needs max to be an 'integer'   
-print('You rolled a', roll)   
+print(python, 'μπορεί να κάνει ένα', dice)   
+max = input('Πόσες πλευρές;:') #Περίμενε για την είσοδο από τον χρήστη   
+print('Αυτό είν\' ένα D', max) #Χρησιμοποίησε τον αριθμό που εισήγαγε ο χρήστης   
+roll = randint(1, int(max)) #το randint χρειάζεται το max να είναι 'ακέραιος αριθμός'   
+print('Έριξες', roll)   
 print(fire * roll)
 
 --- /code ---
@@ -198,7 +199,7 @@ print(fire * roll)
 
 --- task ---
 
-**Test:** Run your project. When the program reaches the `input` line, it will wait for you to enter a response before continuing. Try it again with a different `input` number.
+**Δοκιμή:** Τρέξε το έργο σου. Όταν το πρόγραμμα φτάσει στη γραμμή `εισόδου (input)`, θα περιμένει να εισαγάγεις μια απάντηση πριν συνεχίσει. Δοκίμασέ το ξανά με διαφορετικό αριθμό στην `είσοδο`.
 
 --- /task ---
 
