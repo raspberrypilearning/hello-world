@@ -1,12 +1,12 @@
 ## Reflection
 
-Well done, you have made an interactive programme with text and emoji 👍
+أحسنت صنعًا ، لقد أنشأت برنامجًا تفاعليًا يحتوي على نص ورموز تعبيرية 👍
 
-Now it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
+حان الوقت الآن لتتطور في التعلم او ما يسمى بالانعكاس - و هو يعد جزء مهم من التعلم لأنه يساعد في إنشاء روابط جديدة في عقلك.
 
-Answer the three questions below to reflect on what you've learnt.
+أجب عن الأسئلة الثلاثة أدناه لتكون فهم أعمق عنما تعلمته.
 
-After each question, press **submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+بعد كل سؤال ، اضغط على **إدخال**. سيتم توجيهك نحو الإجابة الصحيحة. You can do this activity as many times as you want to.
 
 Have fun!
 
@@ -15,7 +15,7 @@ Have fun!
 legend: Question 1 of 3
 ---
 
-This code sets the `world` variable to contain the text '🌍🌎🌏' (the three different world emoji):
+يضبط هذا المقطع البرمجي المتغير `world` ليحتوي على النص "🌍🌎🌏" (الرموز التعبيرية الثلاثة المختلفة للعالم):
 
 --- code ---
 ---
@@ -26,9 +26,9 @@ world = '🌍🌎🌏'
 
 --- /code ---
 
-Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
+ما المقطع البرمجي الذي يستخدم المتغير `world` بشكل صحيح ويخرج Hello 🌍🌎🌏؟
 
-![The output area from the Trinket editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
+![منطقة الإخراج من محرر Trinket مع عرض Hello🌍🌎🌏.](images/quiz1.png)
 
 --- choices ---
 
