@@ -1,27 +1,27 @@
-## Sums and dates
+## Cálculos y fechas
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Python is great at working with numbers and dates.
+Python es excelente para trabajar con números y fechas.
 </div>
 <div>
 
-![The output area with five printed lines showing new sum and current date outputs.](images/sums_dates.png){:width="300px"}
+![El área de salida con cinco líneas impresas mostrando las nuevas salidas de cálculo y fecha actual.](images/sums_dates.png){:width="300px"}
 
 </div>
 </div>
 
-In Python you can use maths operators to do sums:
+En Python, puedes usar operadores matemáticos para hacer cálculos:
 
-| + | add |   
-| - | subtract |   
-| * | multiply |   
-| / | divide |   
-| ** | to the power |
+| + | suma |   
+| - | resta |   
+| * | multiplicación |   
+| / | división |   
+| ** | potencia |
 
 --- task ---
 
-Add another two `print()` lines to your code including a sum for Python to work out:
+Añade otras dos líneas de `print()` a tu código, incluyendo un cálculo para que Python lo resuelva:
 
 --- code ---
 ---
@@ -29,9 +29,9 @@ language: python filename: main.py line_numbers: true line_number_start: 12
 line_highlights: 14-15
 ---
 
-print('Hello', world)   
-print('Welcome to', python)   
-print(python, 'is very good at', sums)   
+print('Hola', world)   
+print('Bienvenido a', python)   
+print(python, 'es muy bueno en', sums)   
 print(230 * 5782 ** 2 / 23781)
 
 --- /code ---
@@ -40,53 +40,53 @@ print(230 * 5782 ** 2 / 23781)
 
 --- task ---
 
-**Test:** Run your code. Did Python calculate the sum correctly? Only joking! Python does the hard maths for you so you don't need to work it out.
+**Test:** Ejecuta tu código. ¿Python lo calculó correctamente? ¡Solo bromeo! Python se encarga de los cálculos difíciles, así que no necesitas resolverlos.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi (*π*) to 31 trillion digits. That answer is so long that it would take over 300,000 years just to say it! 
+La informática japonesa <span style="color: #0faeb0">**Emma Haruka Iwao**</span> usó una computadora para calcular el valor de Pi (*π*) a 31 billón de dígitos. ¡La respuesta es tan larga que tomaría por encima de 300,000 años decirlo! 
 </p>
 
 --- task ---
 
-Try changing the sum that Python does to a complicated one!
+¡Intenta cambiar el cálculo que hace Python a uno que sea complicado!
 
-You can also use brackets if you want to control the order that Python calculates the sum: `print( (2 + 4) * (5 + 3) )`.
-
---- /task ---
-
---- task ---
-
-**Test:** Run your code and get Python to calculate your sum.
-
-**Debug:** Make sure your sum has a left and right round bracket around it `( 2 * 45 )`. If you use extra brackets to control the order, make you have a right bracket to match every left bracket.
+También puedes usar paréntesis si quieres controlar el orden en el que Python calcula la ecuación: `print( (2 + 4) * (5 + 3) )`.
 
 --- /task ---
 
 --- task ---
 
-If you have asked Python to calculate a really big sum, you might find the answer goes across multiple lines in the output area.
+**Test:** Ejecuta tu código y deja que Python calcule tu ecuación.
 
-**Tip:** Click on the **hamburger menu** (the icon with three lines) in the top-left of your Trinket editor. Then click on the **Fullscreen** button to view your project in fullscreen mode.
-
-![The Trinket editor with left-hand side menu expanded, via the hamburger menu, to show the fullscreen option.](images/full_screen.png)
-
-To exit fullscreen mode, click on the **Fullscreen** button again or press <kbd>Esc</kbd> on your keyboard.
+**Debug:** Asegúrate de que tu ecuación tenga los paréntesis de apertura y de cierre a los costados `( 2 * 45 )`. Si usas paréntesis extra para controlar el orden, asegúrate de tener un paréntesis de cierre por cada paréntesis de apertura.
 
 --- /task ---
 
-The line `from datetime import *` at the top of the **main.py** tab includes a library with helpful functions for getting the current date and time.
+--- task ---
+
+Si le has pedido a Python que calcule una suma realmente grande, verás que la respuesta se mostrará en varias líneas en el área de salida.
+
+**Tip:** Haz clic en **hamburger menu** (el ícono con tres líneas) al lado superior izquierdo del editor Trinket. Luego haz clic en el botón **Fullscreen** para ver tu proyecto en modo de pantalla completa.
+
+![El editor Trinket con el menú expandido al lado izquierdo, via el hamburger menu, para mostrar la opción de pantalla completa.](images/full_screen.png)
+
+Para salir de la pantalla completa, vuelve a hacer clic en el botón **Fullscreen** o presiona <kbd>Esc</kbd> en tu teclado.
+
+--- /task ---
+
+La línea `from datetime import *` en la parte superior de la pestaña **main.py** incluye una bibliotecla que contiene funciones útiles para obtener la fecha y hora actual.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. A Python library allows you to easily use code that other people have written. There are libraries for drawing charts and graphs, making art, doing calculations, and lots more.
+Una de las ventajas de Python es la disponibilidad de <span style="color: #0faeb0">**bibliotecas**</span> de código que hay para usar. Una biblioteca de Python te permite usar fácilmente códigos que otras personas han escrito. Hay bibliotecas para dibujar tablas y gráficos, hacer arte, hacer cálculos y mucho más.
 </p>
 
 --- task ---
 
-Add another line to your code to `print` some more text and the emoji variables `calendar` and `clock`.
+Añade otra línea a tu código para `print` más texto y las variables de emoji `calendar` y `clock`.
 
-Get the current date and time by using the `now()` function from the `datetime` library:
+Obten la fecha y hora actual usando la función `now()` de la biblioteca `datetime`:
 
 --- code ---
 ---
@@ -94,21 +94,21 @@ language: python filename: main.py line_numbers: true line_number_start: 14
 line_highlights: 16-17
 ---
 
-print(python, 'is very good at', sums)    
-print(230 * 5782 ** 2 / 23781) #Print the result of the sum     
-print('The', calendar, clock, 'is', datetime.now()) #Print with emoji
+print(python, 'es muy bueno en', sums)    
+print(230 * 5782 ** 2 / 23781) #Imprimir el resultado de la ecuación     
+print('La', calendar, clock, 'es', datetime.now()) #Imprimir con emoji
 
 --- /code ---
 
-**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
+**Tip:** No necesitas tipear los comentarios, solo están ahí para ayudarte a entender el código. Solo tipea la parte antes de `#`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code a couple of times to see the date and time update.
+**Test:** Ejecuta tu código un par de veces para ver la fecha y hora actualizadas.
 
-**Debug:** Check that you have a fullstop `.` between `datetime` and `now`. Check all the punctuation carefully.
+**Debug:** Verifica que haya un punto `.` entre `datetime` y `now`. Verifica cuidadosamente toda la puntuación.
 
 --- /task ---
 
