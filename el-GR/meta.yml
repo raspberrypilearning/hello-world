@@ -1,25 +1,25 @@
 ---
-title: Hello 🌍🌎🌏
+title: Γεια σου 🌍🌎🌏
 hero_image: images/banner.png
-description: Write an interactive Python project that uses emoji
+description: Δημιούργησε ένα διαδραστικό έργο Python που χρησιμοποιεί emoji
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: Introduction
+    title: Εισαγωγή
   - 
-    title: Say hello
+    title: Πες γεια
   - 
-    title: Sums and dates
+    title: Αθροίσματα και ημερομηνίες
     completion: engaged
   - 
-    title: Roll a dice
+    title: Ρίξε ένα ζάρι
   - 
-    title: Sentence starter
+    title: Έναρξη πρότασης
   - 
-    title: Reflection
+    title: Αναστοχασμός
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -27,7 +27,7 @@ steps:
       passing_score: 3
     completion: internal
   - 
-    title: Upgrade your project
+    title: Αναβάθμιση του έργου σου
     completion: external
   - 
-    title: What next?
+    title: Και τώρα;
