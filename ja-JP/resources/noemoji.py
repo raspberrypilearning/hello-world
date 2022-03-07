@@ -4,7 +4,7 @@
 world = 'o'
 python = '~~~-<'
 happy = ':-)
-heart = '♡' # or '<3'
+heart = '♡' # または '<3'
 star = '☆'
 sparkles = '✺'
 silly = ';)'
