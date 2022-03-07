@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Ερώτηση 2 από 3
 ---
 
-Which of these function definitions is correct and will print `I can code` when called?
+Ποιος από αυτούς τους ορισμούς συναρτήσεων είναι σωστός και θα εμφανίσει `Μπορώ να προγραμματίσω` όταν καλείται;
 
-![The Trinket editor with output area showing <code>I can code</code>.](images/quiz2.png)
+![Το πρόγραμμα επεξεργασίας Trinket με την περιοχή εξόδου να εμφανίζει <code>Μπορώ να προγραμματίσω</code>.](images/quiz2.png)
 
 --- choices ---
 
@@ -17,30 +17,13 @@ Which of these function definitions is correct and will print `I can code` when 
 language: python
 ---
 
-def awesome(): print('I can code')
+def awesome(): print('Μπορώ να προγραμματίσω')
 
 --- /code ---
 
  --- feedback ---
 
-That's correct, calling this function will print `I can code`. You spotted that functions need `(` `)` brackets and a `:` in the function definition, and that all code to be run when that function is called must be indented.
-
- --- /feedback ---
-
-- ( )
-
---- code ---
----
-language: python
----
-
-def awesome: print('I can code')
-
---- /code ---
-
- --- feedback ---
-
- Not quite, there is something missing from the function definition and this layout would cause an error.
+Αυτό είναι σωστό, η κλήση αυτής της συνάρτησης θα εμφανίσει `Μπορώ να προγραμματίσω`. Παρατήρησες ότι οι συναρτήσεις χρειάζονται `(` `)` παρενθέσεις και ένα `:` στον ορισμό της συνάρτησης και ότι όλος ο κώδικας που θα εκτελεστεί όταν καλείται αυτή η συνάρτηση πρέπει να έχει εσοχή.
 
  --- /feedback ---
 
