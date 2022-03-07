@@ -1,0 +1,25 @@
+---
+title: Hola 🌍🌎🌏
+hero_image: images/banner.png
+description: Escribe un proyecto interactivo en Python que use emojis
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-10-06"
+steps:
+  - title: Introducción
+  - title: Di hola
+  - title: Cálculos y fechas
+    completion: engaged
+  - title: Lanza un dado
+  - title: Iniciador de frases
+  - title: Reflexión
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion: internal
+  - title: Mejora tu proyecto
+    completion: external
+  - title: '¿Qué sigue?'
