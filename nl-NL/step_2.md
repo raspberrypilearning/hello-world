@@ -1,37 +1,37 @@
-## Say hello
+## Zeg hallo
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's traditional to write a program to output 'Hello world!' when you learn a new programming language.
+Het is traditie om een programma te schrijven om 'Hallo wereld!' uit te voeren. wanneer je een nieuwe programmeertaal leert.
 </div>
 <div>
 
-![The Trinket output area showing the two printed lines of text and emoji.](images/say_hello.png){:width="200px"}
+![Het Trinket-uitvoergebied met de twee afgedrukte regels tekst en emoji.](images/say_hello.png){:width="200px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://trinket.io/python/975f35023b){:target="_blank"}. Trinket will open in another browser tab.
+Open het [Hallo 🌍🌎🌏 startproject](https://trinket.io/python/975f35023b){:target="_blank"}. Trinket wordt geopend in een ander browser tabblad.
 
-![The Trinket editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
+![De Trinket-editor met project-startcode aan de linkerkant in het codegebied. Aan de rechterkant is het lege uitvoergebied.](images/starter_project.png)
 
 --- /task ---
 
-The line `#!/bin/python3` tells Trinket that you are using Python 3 (the latest version). The `import` lines tell Python that you are going to use code you didn't write.
+De regel `#!/bin/python3` vertelt Trinket dat je Python 3 (de nieuwste versie) gebruikt. De `import`-regels vertellen Python dat je code gaat gebruiken die je niet zelf hebt geschreven.
 
-In Python, `print()` outputs text (words or numbers) to the screen.
+In Python voert `print()` tekst (woorden of cijfers) uit naar het scherm.
 
-Lines beginning with `#` are comments, they explain the code to humans and are ignored by Python.
+Regels die beginnen met `#` zijn opmerkingen, ze leggen de code uit aan mensen en worden genegeerd door Python.
 
 --- task ---
 
-Find the `# Put code to run below here` line.
+Zoek de `# Zet de code om uit te voeren hieronder` regel.
 
-Click below that line. The flashing `|` is the cursor and shows where you will type.
+Klik onder die regel. De knipperende `|` is de cursor en geeft aan waar je gaat typen.
 
-Type the code to `print()` hello:
+Typ de code voor `print()` hallo:
 
 --- code ---
 ---
@@ -39,17 +39,17 @@ language: python filename: main.py line_numbers: true line_number_start: 11
 line_highlights: 12
 ---
 
-# Put code to run under here
-print('Hello')
+# Zet de code om uit te voeren hier onder
+print('Hallo')
 
 --- /code ---
 
 --- collapse ---
 ---
-title: Typing special characters on a UK or US keyboard
+title: Speciale tekens typen op een Brits of Amerikaans toetsenbord
 ---
 
-On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kbd>9</kbd> and <kbd>0</kbd> keys. To type a left round bracket, hold down the <kbd>Shift</kbd> key (next to <kbd>Z</kbd>) and then tap <kbd>9</kbd>. The single quote `'` is on the same row as the <kbd>L</kbd> key, just before the <kbd>Enter</kbd> key. The comma `,` is next to the <kbd>M</kbd>.
+Op een Brits of Amerikaans toetsenbord staan de linker `(` en rechter `)` ronde haakjes op de toetsen <kbd>9</kbd> en <kbd>0</kbd>. Om een linker rond haakje te typen, houdt je de <kbd>Shift</kbd>-toets ingedrukt (naast <kbd>Z</kbd>) en tikt vervolgens op <kbd>9</kbd>. Het enkele aanhalingsteken `'` staat in dezelfde rij als de <kbd>L</kbd> toets, net voor de <kbd>Enter</kbd> toets. De komma `,` staat naast de <kbd>M</kbd>.
 
 --- /collapse ---
 
@@ -57,33 +57,33 @@ On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kb
 
 --- task ---
 
-**Test:** Click on the **Run** button to run your code. In Trinket, the output will appear on the right:
+**Test:** Klik op de knop **Run** om je code uit te voeren. In Trinket verschijnt de uitvoer aan de rechterkant:
 
-![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
+![Het pictogram Uitvoeren gemarkeerd met 'Hallo' wordt weergegeven in het uitvoergebied. ](images/run_hello.png)
 
-**Debug:** If you get an error then check your code really carefully. In this example, the single quotes around `Hello` are missing so Python doesn't know it is supposed to be text.
+**Debuggen:** Als je een foutmelding krijgt, controleer dan je code heel goed. In dit voorbeeld ontbreken de enkele aanhalingstekens rond `Hallo` zodat Python niet weet dat het tekst moet zijn.
 
-![the Trinket editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 10 in main.py.](images/hello_error.png)
-
---- /task ---
-
-In Python, a **variable** is used to store text or numbers. Variables make it easier for humans to read code. You can use the same variable in lots of places in your code.
-
-We have included some variables that store emoji characters.
-
---- task ---
-
-In your Trinket, click on the **emoji.py** tab. Find the variable `world`, which stores the text '🌍🌍🌍'.
+![de Trinket-editor met ontbrekende enkele aanhalingstekens en fout 'NameError: naam 'Hallo' is niet gedefinieerd op regel 10 in main.py.](images/hello_error.png)
 
 --- /task ---
 
+In Python wordt een **-variabele** gebruikt om tekst of getallen op te slaan. Variabelen maken het voor mensen gemakkelijker om code te lezen. Je kunt dezelfde variabele op veel plaatsen in je code gebruiken.
+
+We hebben enkele variabelen opgenomen die emoji-tekens opslaan.
+
 --- task ---
 
-You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` will add a space between each item.
+Klik in Trinket op het tabblad **emoji.py**. Zoek de variabele `wereld`, die de tekst '🌍🌍🌍' opslaat.
 
-Click on the **main.py** tab to go back to your `print()` code.
+--- /task ---
 
-Change your code to also `print()` the contents of the `world` variable:
+--- task ---
+
+Je kunt met `print()` meer dan één item tegelijk laten zien door een komma `,` tussen de items op te nemen. `print()` voegt een spatie toe tussen elk item.
+
+Klik op het tabblad **main.py** om terug te gaan naar jouw `print()`-code.
+
+Verander je `print()` code om ook de inhoud van de `wereld` variabele te tonen:
 
 --- code ---
 ---
@@ -91,37 +91,37 @@ language: python filename: main.py line_numbers: true line_number_start: 11
 line_highlights: 12
 ---
 
-# Put code to run under here
-print('Hello', world)
+# Zet de code om uit te voeren hier onder
+print('Hallo', wereld)
 
 --- /code ---
 
-**Tip:** `'Hello'` is a text string because it has single quotes around it, whereas `world` is a variable so the value stored in it will be printed.
+**Tip:** `'Hallo'` is een tekenreeks omdat er enkele aanhalingstekens omheen staan, terwijl `wereld` een variabele is, zodat de erin opgeslagen waarde wordt getoond.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code to see the result:
+**Test:** Voer je code uit om het resultaat te zien:
 
-![The updated line of code in the code area with the word 'Hello' followed by three emoji worlds showing in the output area.](images/run_hello_world.png)
+![De bijgewerkte regel code in het codegebied met het woord 'Hallo' gevolgd door drie emoji-werelden die worden weergegeven in het uitvoergebied.](images/run_hello_world.png)
 
-Emoji can look different on different computers, so yours might not look exactly the same.
+Emoji kunnen er op verschillende computers anders uitzien, dus de jouwe ziet er misschien niet precies hetzelfde uit.
 
-**Debug:** Make sure that you have added a comma between the items in `print()` and that you have spelled `world` correctly.
+**Debuggen:** Zorg ervoor dat je een komma hebt toegevoegd tussen de items `print()` en dat je `wereld` correct hebt gespeld.
 
-This example is missing the comma `,`. It's small but very important!
+In dit voorbeeld ontbreekt de komma `,`. Het is klein maar heel belangrijk!
 
-![The Trinket editor with missing single quotes and error 'SyntaxError: bad input on line 12 in main.py' displayed.](images/comma_error.png)
+![De Trinket-editor met ontbrekende enkele aanhalingstekens en fout 'SyntaxError: slechte invoer op regel 12 in main.py' weergegeven.](images/comma_error.png)
 
 --- collapse ---
 ---
-title: I don't see the emoji
+title: Ik zie de emoji niet
 ---
 
-Most computers allow you to use colour emoji. However, if you can't use emoji, then you can use 'emoticons' instead, the way we did before emoji were invented!
+Op de meeste computers kun je kleuren-emoji gebruiken. Als je emoji echter niet kunt gebruiken, kun je in plaats daarvan 'emoticons' gebruiken, zoals we deden voordat emoji werd uitgevonden!
 
-Change the `from emoji import *` line to:
+Wijzig de `from emoji import *` regel in:
 
 --- code ---
 ---
@@ -139,7 +139,7 @@ from noemoji import *
 
 --- task ---
 
-Add another line to your code to `print()` more text and emoji:
+Voeg nog een regel toe aan je `print()` code om meer tekst en emoji te maken:
 
 --- code ---
 ---
@@ -147,29 +147,29 @@ language: python filename: main.py line_numbers: true line_number_start: 12
 line_highlights: 13
 ---
 
-print('Hello', world)    
-print('Welcome to', python)
+print('Hallo', wereld)    
+print('Welkom bij', python)
 
 --- /code ---
 
-**Tip:** The code you need to type is highlighted in a lighter colour. Code that is not highlighted helps you find where you need to add the new code.
+**Tip:** De code die je moet typen, is in een lichtere kleur gemarkeerd. Code die niet gemarkeerd is, helpt je te ontdekken waar je de nieuwe code moet toevoegen.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click **run**.
+**Testen:** Klik op **Run**.
 
-![The additional line of code in the code area with the word 'Hello' followed by three emoji worlds and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
+![De extra regel code in het codegebied met het woord 'Hallo' gevolgd door drie emoji-werelden en de woorden 'Welkom bij' gevolgd door een emoji-slang en toetsenbord in het uitvoergebied.](images/run_multiple.png)
 
-**Tip:** It's a good idea to run your code after every change so you can fix problems quickly.
+**Tip:** Het is een goed idee om je code na elke wijziging uit te voeren, zodat je problemen snel kunt oplossen.
 
-**Debug:** Check carefully for brackets, quotes, commas, and correct spelling. Python needs you to be really accurate.
+**Debuggen:** Controleer zorgvuldig op haakjes, aanhalingstekens, komma's en correcte spelling. In Python moet je echt nauwkeurig zijn.
 
 --- /task ---
 
-If you have a Trinket account, you can click on the **Remix** button to save a copy to your `My Trinkets` library.
+Als je een Trinket-account hebt, kun je op de knop **Remix** klikken om een kopie op te slaan in je `My Trinkets`-bibliotheek.
 
-If you don't have a Trinket account, you can still come back to your project in the future on the same computer by using the starter project link.
+Als je geen Trinket-account hebt, kun je in de toekomst nog steeds op dezelfde computer terugkeren naar je project met behulp van de start-projectlink.
 
 --- save ---
