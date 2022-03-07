@@ -1,22 +1,22 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Ερώτηση 3 από 3
 ---
 
-This function outputs two random numbers:
+Αυτή η συνάρτηση εμφανίζει δύο τυχαίους αριθμούς:
 
 --- code ---
 ---
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def two_dice(): print('Πρώτος αριθμός:', randint(1, 6)) print('Δεύτερος αριθμός:', randint(1, 6))
 
 --- /code ---
 
-Which code will call the function to run it?
+Ποιος κώδικας θα καλέσει τη συνάρτηση για να την εκτελέσει;
 
-![The Trinket editor with output area showing two randomly generated numbers.](images/quiz3.png)
+![Το πρόγραμμα επεξεργασίας Trinket με περιοχή εξόδου που εμφανίζει δύο τυχαία δημιουργημένους αριθμούς.](images/quiz3.png)
 
 --- choices ---
 
@@ -27,13 +27,13 @@ Which code will call the function to run it?
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def two_dice(): print('Πρώτος αριθμός:', randint(1, 6)) print('Δεύτερος αριθμός:', randint(1, 6))
 
 --- /code ---
 
  --- feedback ---
 
- No, this is the code to define the function, but it does not run the function. You'll need to use different code to call it.
+ Όχι, αυτός είναι ο κώδικας για τον ορισμό της συνάρτησης, αλλά δεν εκτελεί τη συνάρτηση. Θα χρειαστεί να χρησιμοποιήσεις διαφορετικό κώδικα για να την καλέσεις.
 
  --- /feedback ---
 
@@ -48,7 +48,7 @@ two_dice
 
  --- feedback ---
 
-Close! `two_dice` is the name of the function, but to call it you need more than just the name.
+Είναι κοντά! `two_dice` είναι το όνομα της συνάρτησης, αλλά για να την καλέσεις χρειάζεσαι κάτι περισσότερο από το όνομα.
 
  --- /feedback ---
 
@@ -65,7 +65,7 @@ two_dice[]
 
  --- feedback ---
 
- Not quite, think about they type of brackets you used to call the functions in your project.
+ Όχι ακριβώς, σκέψου το είδος των σημείων στίξης που χρησιμοποίησες για να καλέσεις τις συναρτήσεις στο έργο σου.
 
  --- /feedback ---
 
@@ -82,7 +82,7 @@ two_dice()
 
  --- feedback ---
 
- That's correct, using the function name followed by `(` `)` brackets will call the function.
+ Αυτό είναι σωστό, χρησιμοποιώντας το όνομα της συνάρτησης ακολουθούμενο από παρενθέσεις `(` `)` θα καλέσεις τη συνάρτηση.
 
  --- /feedback ---
 
