@@ -1,25 +1,25 @@
-## Roll a dice
+## Lanza un dado
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Python can generate random numbers to make digital dice.
+Python puede generar números aleatorios para crear un dado digital.
 </div>
 <div>
 
-![The output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll_dice.png){:width="300px"}
+![El área de salida con líneas adicionales para pedirle al usuario que introduzca el mayor número para su dado y la respuesta con el número aleatorio.](images/roll_dice.png){:width="300px"}
 
 </div>
 </div>
 
-In Python you **call** a **function()** to perfom an action. You have already used the `print()` function to output text.
+En Python, puedes **llamar** a una **función()** para realizar una acción. Ya usaste la función `print()` para generar texto.
 
-You can **define** a new **function** to group code together so that you can name it and reuse it.
+Puedes **definir** una nueva **función** para agrupar un código con el fin de nombrarlo y volver a usarlo.
 
 --- task ---
 
-Functions need to be defined before you can call them. Look for the comment near the top of the **main.py** tab that says `#Put function definitions under here`.
+Necesitas definir las funciones antes de llamarlas. Busca el comentario cerca de la parte superior de la pestaña **main.py** que dice `#Pon la definición de función aquí abajo`.
 
-Define a new function called `roll_dice()` that uses the `randint()` function, from the `random` library, to generate a random 'integer' (whole number) from 1 to 6 and output it to the screen.
+Define una nueva función que se llame `roll_dice()` que use la función `randint()`, de la biblioteca `random`, para generar un 'entero' (número entero) aleatorio del 1 al 6 y generarlo en la pantalla.
 
 --- code ---
 ---
@@ -27,24 +27,24 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 9-12
 ---
 
-# Put function definitions under here
+# Pon las definiciones de función aquí abajo
 
-def roll_dice(): #Don't forget the colon at the end of this line   
-print(python, 'can make a', dice)   
-print('You rolled a', randint(1, 6))
+def roll_dice(): #No olvides los dos puntos al final de esta línea   
+print(python, 'puede crear un', dice)   
+print('Lanzaste un', randint(1, 6))
 
 --- /code ---
 
-The lines under `def roll_dice():` are **indented**. To do this, use the <kbd>Tab</kbd> character on your keyboard (usually above <kbd>CAPSLOCK</kbd> on the keyboard). Indenting code tells Python that the indented lines are part of the function.
+Las líneas debajo de `def roll_dice():` están **indentadas**. Para hacer esto, usa el caracter <kbd>Tab</kbd> de tu teclado (generalmente arriba de <kbd>CAPSLOCK</kbd> en el teclado). El código de identación le dice a Python que las líneas indentadas son parte de la función.
 
-**Tip:** The underscore `_` is used to between words in variable and function names in Python to make them easier to read. You can't use a space.
+**Tip:** En Python, se usa el guion bajo `_` entre las palabras de los nombres de las variables y funciones para facilitar la lectura. No puedes usar un espacio.
 
 --- collapse ---
 ---
-title: Typing special characters on a UK or US keyboard
+title: Tipear caracteres especiales en un teclado del Reino Unido o de los Estados Unidos
 ---
 
-On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next to the <kbd>L</kbd> key: hold <kbd>Shift</kbd> and tap <kbd>;</kbd> to type a `:`. The underscore `_` is on the same key as the `-`, next to the <kbd>0</kbd>, hold <kbd>Shift</kbd> and tap <kbd>-</kbd> to type an `_`.
+En un teclado del Reino Unido o de los Estados Unidos, los dos puntos `:` están en la misma tecla que el punto y coma, al lado de la tecla <kbd>L</kbd>: mantén presionado <kbd>Shift</kbd> y presiona <kbd>;</kbd> para tipear `:`. El guion bajo `_` está en el mismo teclado que el `-`, al lado del <kbd>0</kbd>, mantén presionado <kbd>Shift</kbd> y presiona <kbd>-</kbd> para tipear `_`.
 
 --- /collapse ---
 
@@ -52,13 +52,13 @@ On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next 
 
 --- task ---
 
-**Test:** If you ‘Run’ your code now, it won't roll a dice. That’s because you have defined the `roll_dice()` function, but not called it yet.
+**Test:** Si tú 'Run' tu código ahora, no lanzará un dado. Esto es porque definiste la función `roll_dice()`, pero aún no la has llamado.
 
 --- /task ---
 
 --- task ---
 
-To use a function, you need to call it in the code. Go to the end of your code and add a new line to call the `roll_dice()` function:
+Para usar una función, necesitas llamarla en el código. Ve al final de tu código y añade una nueva línea para llamar a la función `roll_dice()`:
 
 --- code ---
 ---
@@ -66,9 +66,9 @@ language: python filename: main.py line_numbers: true line_number_start: 20
 line_highlights: 22
 ---
 
-print('The', calendar, clock, 'is', datetime.now())
+print('La', calendar, clock, 'es', datetime.now())
 
-roll_dice() #Call the roll dice function
+roll_dice() # Llama a la función roll_dice
 
 --- /code ---
 
@@ -76,36 +76,36 @@ roll_dice() #Call the roll dice function
 
 --- task ---
 
-**Test:** Run your project several times to see the random dice roll each time.
+**Test:** Ejecuta tu proyecto varias veces para ver lanzar un dado aleatorio.
 
-**Debug:** Make sure you have an underscore `_` between roll and dice to make the function name. Make sure you have a colon `:` at the end of the line.
+**Debug:** Asegúrate de tener un guion bajo `_` entre roll y dice para crear el nombre de la función. Asegúrate de tener dos puntos `:` al final de la línea.
 
-**Debug:** Check that the lines under `def roll_dice()` are indented. It's really common to get this wrong in Python, so make sure to check.
+**Debug:** Verifica que las líneas abajo de `def roll_dice()` estén indentadas. Es bastante común equivocarse en esto en Python, así que asegúrate de verificar.
 
-![The Trinket editor showing the lines of code for the <code>roll_dice</code> function have not been indented. The code has been run and is highlighted on line 10, the first line that should be indented, with the error 'SyntaxError: bad input on line 10 in main.py'.](images/indent_error.png)
+![El editor Trinket mostrando las líneas de código para la función <code>roll_dice</code> no se han indentado. El código se ha ejecutado y está resaltado en la línea 10, la primera línea que debería estar indentada, con el error 'SyntaxError: bad input on line 10 in main.py'.](images/indent_error.png)
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Uses of random numbers include cryptography, data science, and adding variety into games and computer art. Computers generate <span style="color: #0faeb0">**random numbers**</span> using an algorithm. For numbers that are really random, you need an unpredictable input from the real world.
+Los usos de los números aleatorios incluyen la criptografía, la ciencia de datos y la adición de diversidad en los juegos y el arte computacional. Las computadoras generan <span style="color: #0faeb0">**números aleatorios**</span> usando un algoritmo. Para los números realmente aleatorios, necesitas una entrada impredecible del mundo real.
 </p>
 
 --- task ---
 
-The `fire` variable stores a 🔥 emoji. The code `print(fire * 3)` outputs three fire emoji '🔥🔥🔥'. You need to output the correct number of emoji to match the number rolled.
+La variable `fire` almacena un emoji 🔥. El código `print(fire * 3)` genera tres emojis de fuego '🔥🔥🔥'. Necesitas generar el número correcto de emojis para que encaje con el número obtenido.
 
 --- collapse ---
 ---
-title: What would happen if you use `print(fire * randint(1, 6))`?
+title: ¿Qué pasaría si usaras `print(fire * randint(1, 6))`?
 ---
 
-You would get a new random number that is usually different from your first random number.
+Obtendrías un nuevo número aleatorio que normalmente es distinto al primer número aleatorio.
 
 --- /collapse ---
 
-Hmm, how can you make sure you use the same random number?
+Mm... ¿Cómo podrías asegurarte de usar el mismo número aleatorio?
 
-Change your code to save the value returned by `randint()` in a variable called `roll` and then use that variable to print out the number rolled with the matching number of 🔥 emoji.
+Cambia tu código para guardar el valor devuelto por `randint()` en una variable llamada `roll` y luego usa esa variable para imprimir el número obtenido con el número que corresponde al emoji 🔥.
 
 --- code ---
 ---
@@ -113,41 +113,41 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 11 - 13
 ---
 
-# Put function definitions under here
+# Pon las definiciones de función aquí abajo
 
 def roll_dice():    
-print(python, 'can make a', dice)    
-roll = randint(1, 6) #Generate a random number between 1 and 6    
-print('You rolled a', roll) #Print the value of the roll variable     
-print(fire * roll) #Repeat the fire emoji to match the dice roll
+print(python, 'puede crear un', dice)    
+roll = randint(1, 6) #Generar un número aleatorio entre 1 y 6    
+print('Lanzaste un', roll) #Imprimir el valor de la variable del tiro      
+print(fire * roll) #Repite el emoji de fuego para que corresponda al resultado del dado lanzado
 
 --- /code ---
 
-You can use `star` or `heart` instead of `fire` if you prefer.
+Si prefieres, puedes usar `star` o `heart` en lugar de `fire`.
 
-The symbol `*` means multiply so `fire * roll` multiples the text in the `fire` variable ('🔥') by the number contained in the `roll` variable.
+El símbolo `*` significa multiplicar, así que `fire * roll` multiplica el texto en la variable `fire` ('🔥') por el número que contiene la variable `roll`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Test your project a few times. Make sure you understand how the code works.
+**Test:** Prueba tu proyecto un par de veces. Asegúrate de entender cómo funciona el código.
 
-**Tip:** Variables are useful when you need to use the same value multiple times in your code. Giving variables a sensible name also makes your code easier to understand.
+**Tip:** Las variables son útiles cuando necesitas usar el mismo valor varias veces en tu código. Darle un nombre adecuado a las variables también hace que tu código sea más fácil de entender.
 
 --- /task ---
 
-Upgrade your dice so that the user can choose the maximum number.
+Actualiza tu dado para que el usuario pueda elegir el número máximo.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-Lots of games use many-sided dice. In the physical world, dice are made from regular geometric shapes. Common dice include D6, D12, and D20. On a computer, you can generate a <span style="color: #0faeb0">random</span> number to make a fair dice with any number of sides.</p>
+Muchos juegos usan dados de muchas caras. En el mundo físico, los dados se hacen de formas geométricas regulares. Un dado común incluye D6, D12 y D20. En una computadora, puedes generar un número <span style="color: #0faeb0">aleatorio</span> para crear un dado equitativo con cualquier cantidad de caras.</p>
 
 --- task ---
 
-The `input()` function asks the user a question and then returns their answer.
+La función `input()` le hace una pregunta al usuario y luego devuelve su respuesta.
 
-Add code to ask the user for the biggest number on their dice and then save the result in a variable called `max` and `print` the number chosen into the output area:
+Añade un código para pedirle al usuario el mayor número de su dado y guardar el resultado en una variable llamada `max` y `print` el número elegido en el área de salida:
 
 --- code ---
 ---
@@ -155,27 +155,27 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 11-12
 ---
 
-# Put function definitions under here
+# Pon las definiciones de función aquí abajo
 
 def roll_dice():   
-print(python, 'can make a', dice)   
-max = input('How many sides?:') #Wait for input from the user    
-print('That\'s a D', max) #Use the number the user entered    
+print(python, 'puede crear un', dice)   
+max = input('¿Cuántas caras?:') #Esperar la entrada del usuario    
+print('Es un D', max) #Usar el número introducido por el usuario    
 roll = randint(1, 6)    
-print('You rolled a', roll)    
+print('Lanzaste un', roll)    
 print(fire * roll)
 
 --- /code ---
 
-To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
+Para imprimir un apostrofo `'` en una palabra como `That's`, pon una barra invertida `\` adelante para que Python sepa que es parte del texto.
 
 --- /task ---
 
 --- task ---
 
-Change your `roll` variable code to use `max` as the maximum value for `randint` when it generates a random number.
+Cambia la variable `roll` en tu código para usar `max` como valor máximo para `randint` cuando genera un número aleatorio.
 
-When you get input from the user, Python treats it as text. But, `randint` needs an 'integer' (a positive whole number). The `int` function turns the user input into an integer.
+Cuando recives entrada del usuario, Python lo trata como texto. Pero `randint` necesita un 'entero' (un número entero positivo). La función `int` transforma la entrada del usuario en un entero.
 
 --- code ---
 ---
@@ -183,14 +183,14 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 13
 ---
 
-# Put function definitions under here
+# Pon las definiciones de función aquí abajo
 
 def roll_dice():   
-print(python, 'can make a', dice)   
-max = input('How many sides?:') #Wait for input from the user   
-print('That\'s a D', max) #Use the number the user entered   
-roll = randint(1, int(max)) #randint needs max to be an 'integer'   
-print('You rolled a', roll)   
+print(python, 'puede crear un', dice)   
+max = input('¿Cuántas caras?:') #Esperar la entrada del usuario   
+print('Es un D', max) #Usar el número introducido por el usuario   
+roll = randint(1, int(max)) #randint necesita un max para ser 'entero'   
+print('Lanzaste un', roll)   
 print(fire * roll)
 
 --- /code ---
@@ -199,7 +199,7 @@ print(fire * roll)
 
 --- task ---
 
-**Test:** Run your project. When the program reaches the `input` line, it will wait for you to enter a response before continuing. Try it again with a different `input` number.
+**Test:** Ejecuta tu proyecto. Cuando el programa alcanza la línea `input`, esperará a que introduzcas una respueta antes de continuar. Intenta otra vez con un número diferente de `input`.
 
 --- /task ---
 
