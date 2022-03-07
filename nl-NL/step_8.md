@@ -1,10 +1,10 @@
-## What next?
+## Wat kun je verder nog doen?
 
-If you are following the [Introduction to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [Target practice](https://projects.raspberrypi.org/en/projects/target-practice) project. In this project, you will draw a target then make an archery game that shoots arrows to score points.
+Als je het [Inleiding tot Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pad volgt, kun je doorgaan naar het [Boogschieten](https://projects.raspberrypi.org/en/projects/target-practice) project. In dit project teken je een doelwit en maak je vervolgens een boogschietspel dat pijlen schiet om punten te scoren.
 
 --- print-only ---
 
-![Archery project](images/archery-project.png)
+![Boogschieten project](images/archery-project.png)
 
 --- /print-only ---
 
@@ -15,4 +15,4 @@ If you are following the [Introduction to Python](https://projects.raspberrypi.o
 
 --- /no-print ---
 
-If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
+Als je meer plezier wilt hebben met het verkennen van Python, dan kun je een van deze projecten [uitproberen](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
