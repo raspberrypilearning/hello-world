@@ -102,7 +102,7 @@ roll_dice() # roll_dice関数を呼び出す
 
 --- collapse ---
 ---
-title: `print(fire * randint(1, 6))`とするとどうなるでしょう？
+title: '`print(fire * randint(1, 6))`とするとどうなるでしょう？'
 ---
 
 通常、最初の乱数とは異なる新しい乱数が表示されます。
