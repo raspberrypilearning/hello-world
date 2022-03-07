@@ -1,21 +1,21 @@
-## Reflection
+## Και τώρα;
 
-Well done, you have made an interactive programme with text and emoji 👍
+Μπράβο, έφτιαξες ένα διαδραστικό πρόγραμμα με κείμενο και emoji 👍
 
-Now it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
+Τώρα, ήρθε η ώρα να εξετάσεις τις νέες γνώσεις- ο αναστοχασμός είναι σημαντικό μέρος της μάθησης, επειδή βοηθά στη δημιουργία νέων συνδέσεων στον εγκέφαλό σου.
 
-Answer the three questions below to reflect on what you've learnt.
+Απάντησε στις τρεις ερωτήσεις παρακάτω για να διαπιστώσεις τι έμαθες.
 
-After each question, press **submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+Μετά από κάθε ερώτηση, πάτα **υποβολή**. Θα οδηγηθείς στη σωστή απάντηση. Μπορείς να επαναλάβεις αυτήν τη δραστηριότητα όσες φορές θέλεις.
 
-Have fun!
+Καλή διασκέδαση!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Ερώτηση 1 από 3
 ---
 
-This code sets the `world` variable to contain the text '🌍🌎🌏' (the three different world emoji):
+Αυτός ο κώδικας ορίζει τη μεταβλητή `world` ώστε να περιέχει το κείμενο "🌍🌎🌏" (τα τρία διαφορετικά emoji του κόσμου):
 
 --- code ---
 ---
@@ -26,9 +26,9 @@ world = '🌍🌎🌏'
 
 --- /code ---
 
-Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
+Ποιος κώδικας χρησιμοποιεί σωστά τη μεταβλητή `world` και εμφανίζει Γεια σου 🌍🌎🌏;
 
-![The output area from the Trinket editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
+![Η περιοχή εξόδου από το πρόγραμμα επεξεργασίας Trinket με την εμφάνιση του Γεια σου 🌍🌎🌏.](images/quiz1.png)
 
 --- choices ---
 
@@ -39,13 +39,13 @@ Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
 language: python
 ---
 
-output('Hello' world)
+output('Γεια σου' world)
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, `output` is not the way to output messages to the screen.
+ Όχι ακριβώς, η εντολή `output` δεν είναι ο τρόπος για να εμφανίζονται μηνύματα στην οθόνη.
 
  --- /feedback ---
 
@@ -57,13 +57,13 @@ output('Hello' world)
 language: python
 ---
 
-print('Hello' world)
+print('Γεια σου' world)
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+ Όχι ακριβώς, στην Python η εντολή `print` εμφανίζει μηνύματα στην οθόνη, αλλά κάτι λείπει σε αυτό το παράδειγμα.
 
  --- /feedback ---
 
@@ -74,13 +74,13 @@ print('Hello' world)
 language: python
 ---
 
-print('Hello', world)
+print('Γεια σου', world)
 
 --- /code ---
 
  --- feedback ---
 
- That's correct, in Python `print` outputs messages to the screen. The text output is inside single quotes `'` , a comma separates the two items and provides a space, then the `world` variable is called, which stores the earth emoji 🌍🌎🌏, like in your project.
+ Αυτό είναι σωστό, στην Python η εντολή `print` εμφανίζει μηνύματα στην οθόνη. Η έξοδος κειμένου βρίσκεται μέσα σε μονά εισαγωγικά `'` , ένα κόμμα χωρίζει τα δύο στοιχεία και παρέχει ένα κενό διάστημα, μετά καλείται η μεταβλητή `world` , η οποία έχει αποθηκευμένο το emoji της γης 🌍🌎🌏, όπως στο έργο σου.
 
  --- /feedback ---
 
@@ -91,13 +91,13 @@ print('Hello', world)
 language: python
 ---
 
-print(Hello, world)
+print(Γεια σου, world)
 
 --- /code ---
 
  --- feedback ---
 
-  Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+  Όχι ακριβώς, στην Python η εντολή `print` εμφανίζει μηνύματα στην οθόνη, αλλά κάτι λείπει σε αυτό το παράδειγμα.
 
  --- /feedback ---
 
