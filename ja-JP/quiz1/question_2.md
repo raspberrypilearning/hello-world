@@ -34,13 +34,13 @@ def awesome(): print('私はコーディングができます')
 language: python
 ---
 
-def awesome(): print('I can code')
+def awesome(): print('私はコーディングができます')
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, the layout in this example would cause an error.
+ 残念です。この例のレイアウトではエラーが発生します。
 
  --- /feedback ---
 
@@ -51,13 +51,13 @@ def awesome(): print('I can code')
 language: python
 ---
 
-def awesome() print('I can code')
+def awesome() print('私はコーディングができます')
 
 --- /code ---
 
  --- feedback ---
 
-Not quite, there is something missing from the function definition that woud cause an error.
+残念ですが、関数定義に欠落しているものがあり、エラーが発生します。
 
  --- /feedback ---
 
