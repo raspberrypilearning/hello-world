@@ -1,19 +1,19 @@
-## Sentence starter
+## 文のとっかかり
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Output more sentences from your project.
+プロジェクトでもっとたくさんの文を出力します。
 </div>
 <div>
 
-![Some new print lines in the output area with emoji and text sentences.](images/sentence_starter.png){:width="300px"}
+![絵文字とテキスト文を含むいくつかの新しく表示された出力領域の行](images/sentence_starter.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Add more `print` lines to your code. Here are some sentence starters that you can use:
+コードにもっと`print`行を追加します。 使用する文のとっかかりをいくつか示します。
 
 --- code ---
 ---
@@ -21,29 +21,29 @@ language: python
 filename: main.py
 ---
 
-print('I', heart, '...')   
-print('... makes me', happy)   
-print('I\'d like to make ... with', python)
+print('私は', '...', heart)   
+print('... を見ると', happy, 'な気持ちになります')   
+print('私は', python, 'で... を作りたいと思います')
 
 --- /code ---
 
-**Tip:** `print` adds a space between each item you print.
+**ヒント：**`print` は、表示する各アイテムの間にスペースを追加します。
 
-**Tip:** If you need to print an apostrophe `'` then you need to put a backslash `\` before it so Python knows it's part of the text.
+**ヒント：**アポストロフィ`'` を表示する必要がある場合は、その前にバックスラッシュ`\`を付けて、Pythonがアポストロフィもテキストの一部であることを認識できるようにする必要があります。
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-The <span style="color: #0faeb0">yellow heart emoji</span> is often used to show friendship and happiness.</p>
+<span style="color: #0faeb0">黄色のハートの絵文字</span> は、友情と幸福を示すためによく使用されます。</p>
 
 --- task ---
 
-What message would you send to a friend to cheer them up? Which emoji would you choose?
+友達を元気づけるために、どんなメッセージを送りますか？ どの絵文字を選びますか？
 
-Click on the **emoji.py** tab in Trinket to see the emoji variables that you can use. Click back on the **main.py** tab to add to your code.
+Trinketの**emoji.py**タブをクリックして、使用できる絵文字変数を確認します。 **main.py**タブをクリックして戻り、コードに追加します。
 
-You can add more emoji variables to **emoji.py**. Use this [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} to find the ones you want.
+**emoji.py**にさらに絵文字変数を追加できます。 この[絵文字リスト](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_ blank"}を使用して、欲しい絵文字を見つけてください。
 
 --- /task ---
 
