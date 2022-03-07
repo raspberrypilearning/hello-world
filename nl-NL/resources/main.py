@@ -4,43 +4,43 @@ from emoji import *
 from datetime import *
 from random import randint
 
-# Put function definitions under here
+# Zet de functie definities hier onder
 
-def roll_dice():
-  print(python, 'can make a', dice)
-  max = input('How many sides?') # get input from the user
-  print('That\'s a D', max) # use the number the user entered
-  roll = randint(1, int(max)) # generate a random number 
-  print('You rolled a', roll) # print the value of the roll variable
-  print(fire * roll) # repeat the fire text roll times
+def gooi_dobbelsteen():
+  print(python, 'kan een', dobbelsteen, 'maken')
+  max = input('Hoeveel kanten?') # krijg input van de gebruiker
+  print('Dat is een D', max) # gebruik het getal dat de gebruiker heeft ingevoerd
+  worp = randint(1, int(max)) # genereer een willekeurig getal 
+  print('Je hebt een', worp, 'gegooid') # print de waarde van de worpvariabele
+  print(vuur * worp) # herhaal de vuurtekst worp keer
 
 def hobbies():
-  hobby = input('What do you like?')
-  print('That sounds', fun)
-  print('You could make a', python, 'project about', hobby)
+  hobby = input('Wat vind je leuk?')
+  print('Dat klinkt', leuk)
+  print('Je zou een', python, 'project over jouw', hobby, 'kunnen maken')
 
-# Useful characters :',()*_/.#
+# Nuttige tekens :',()*_/.#
 
-# Put code to run under here
-print('Hello', world)
-print('Welcome to', python)
+# Zet de code om uit te voeren hier onder
+print('Hallo', wereld)
+print('Welkom bij', python)
 
-input() # wait for the user to tap Enter
+input() # wacht tot de gebruiker op Enter drukt
 
-print(python, 'is very good at', sums)
+print(python, 'is erg goed in', sommen)
 print(230 * 5782 ** 2 / 23781)
 
 input()
 
-print('The', calendar, clock, 'is', datetime.now()) # print current date and time with emoji 
+print('De', kalendar, klok, 'is', datetime.now()) # print huidige datum en tijd met emoji 
 
 input()
 
-roll_dice() # Call the roll_dice function
+gooi_dobbelsteen() #Roep de dobbelsteen functie aan
 
 input()
 
-hobbies() # Call the hobbies function
+hobbies() # Roep de functie hobby's aan
 
 
 
