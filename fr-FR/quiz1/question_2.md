@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend : Question 2 sur 3
 ---
 
-Which of these function definitions is correct and will print `I can code` when called?
+Laquelle de ces définitions de fonction est correcte et affichera `Je peux coder` lorsqu'elle est appelée ?
 
-![The Trinket editor with output area showing <code>I can code</code>.](images/quiz2.png)
+![L'éditeur Trinket avec la zone de sortie indiquant <code>Je peux coder</code>.](images/quiz2.png)
 
 --- choices ---
 
@@ -17,30 +17,13 @@ Which of these function definitions is correct and will print `I can code` when 
 language: python
 ---
 
-def awesome(): print('I can code')
+def impressionnant(): print('Je peux coder')
 
 --- /code ---
 
  --- feedback ---
 
-That's correct, calling this function will print `I can code`. You spotted that functions need `(` `)` brackets and a `:` in the function definition, and that all code to be run when that function is called must be indented.
-
- --- /feedback ---
-
-- ( )
-
---- code ---
----
-language: python
----
-
-def awesome: print('I can code')
-
---- /code ---
-
- --- feedback ---
-
- Not quite, there is something missing from the function definition and this layout would cause an error.
+C'est exact, appeler cette fonction imprimera `Je peux coder`. Tu as remarqué que les fonctions ont besoin de paranthèses `(` `)` et d'un `:` dans la définition de la fonction, et que tout le code à exécuter lorsque cette fonction est appelée doit être indenté.
 
  --- /feedback ---
 
