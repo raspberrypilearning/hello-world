@@ -1,19 +1,19 @@
-## Sentence starter
+## Έναρξη πρότασης
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Output more sentences from your project.
+Εμφάνισε περισσότερες προτάσεις από το έργο σου.
 </div>
 <div>
 
-![Some new print lines in the output area with emoji and text sentences.](images/sentence_starter.png){:width="300px"}
+![Μερικές νέες γραμμές που εμφανίζονται στην περιοχή εξόδου με emoji και προτάσεις κειμένου.](images/sentence_starter.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Add more `print` lines to your code. Here are some sentence starters that you can use:
+Πρόσθεσε περισσότερες γραμμές `εμφάνισης` στον κώδικά σου. Ακολουθούν μερικές αρχικές λέξεις προτάσεων που μπορείς να χρησιμοποιήσεις:
 
 --- code ---
 ---
@@ -21,29 +21,29 @@ language: python
 filename: main.py
 ---
 
-print('I', heart, '...')   
-print('... makes me', happy)   
-print('I\'d like to make ... with', python)
+print('Εγώ', heart, '...')   
+print('... με κάνει', happy)   
+print('Θα \'θελα να κάνω ... με την', python)
 
 --- /code ---
 
-**Tip:** `print` adds a space between each item you print.
+**Συμβουλή:** Η εντολή `print` προσθέτει ένα κενό ανάμεσα σε κάθε στοιχείο που εμφανίζει.
 
-**Tip:** If you need to print an apostrophe `'` then you need to put a backslash `\` before it so Python knows it's part of the text.
+**Συμβουλή:** Εάν πρέπει να εμφανίσεις μια απόστροφο `'`, τότε πρέπει να βάλεις μια ανάστροφη κάθετο `\` πριν από αυτήν, ώστε η Python να γνωρίζει ότι είναι μέρος του κειμένου.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-The <span style="color: #0faeb0">yellow heart emoji</span> is often used to show friendship and happiness.</p>
+Το emoji <span style="color: #0faeb0">κίτρινης καρδιάς</span> χρησιμοποιείται συχνά για να δείξει τη φιλία και την ευτυχία.</p>
 
 --- task ---
 
-What message would you send to a friend to cheer them up? Which emoji would you choose?
+Τι μήνυμα θα έστελνες σε έναν φίλο για να του φτιάξει τη διάθεση; Ποιο emoji θα διάλεγες;
 
-Click on the **emoji.py** tab in Trinket to see the emoji variables that you can use. Click back on the **main.py** tab to add to your code.
+Κάνε κλικ στην καρτέλα **emoji.py** στο Trinket για να δεις τις μεταβλητές emoji που μπορείς να χρησιμοποιήσεις. Κάνε κλικ ξανά στην καρτέλα **main.py** για να το προσθέσεις στον κώδικά σου.
 
-You can add more emoji variables to **emoji.py**. Use this [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} to find the ones you want.
+Μπορείς να προσθέσεις περισσότερες μεταβλητές emoji στο **emoji.py**. Χρησιμοποίησε αυτήν τη λίστα [emoji](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} για να βρεις αυτά που θέλεις.
 
 --- /task ---
 
