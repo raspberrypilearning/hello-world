@@ -1,22 +1,22 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: 質問3/3
 ---
 
-This function outputs two random numbers:
+この関数は、2つの乱数を出力します。
 
 --- code ---
 ---
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def two_dice(): print('最初の数字:', randint(1, 6)) print('2番目の数字:', randint(1, 6))
 
 --- /code ---
 
-Which code will call the function to run it?
+関数を呼び出して実行するコードはどれですか？
 
-![The Trinket editor with output area showing two randomly generated numbers.](images/quiz3.png)
+![ランダムに生成された2つの数値を出力領域に表示したTrinketエディター。](images/quiz3.png)
 
 --- choices ---
 
@@ -27,13 +27,13 @@ Which code will call the function to run it?
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def two_dice(): print('最初の数字:', randint(1, 6)) print('2番目の数字:', randint(1, 6))
 
 --- /code ---
 
  --- feedback ---
 
- No, this is the code to define the function, but it does not run the function. You'll need to use different code to call it.
+ いいえ、これは関数を定義するためのコードですが、関数を実行しません。 それを呼び出すには、別のコードを使用する必要があります。
 
  --- /feedback ---
 
@@ -48,7 +48,7 @@ two_dice
 
  --- feedback ---
 
-Close! `two_dice` is the name of the function, but to call it you need more than just the name.
+惜しい！ `two_dice`は関数の名前ですが、それを呼び出すには、名前だけでは不十分です。
 
  --- /feedback ---
 
@@ -65,7 +65,7 @@ two_dice[]
 
  --- feedback ---
 
- Not quite, think about they type of brackets you used to call the functions in your project.
+ 残念。プロジェクトで関数を呼び出すために使用した、かっこの種類について考えてみてください。
 
  --- /feedback ---
 
@@ -82,7 +82,7 @@ two_dice()
 
  --- feedback ---
 
- That's correct, using the function name followed by `(` `)` brackets will call the function.
+ 正解です。関数名の後に`(` `)`のかっこを使用して関数を呼び出します。
 
  --- /feedback ---
 
