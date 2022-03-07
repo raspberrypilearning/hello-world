@@ -1,24 +1,25 @@
-## Roll a dice
+## サイコロを振る
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Python can generate random numbers to make digital dice.</div>
+Pythonで乱数を使ったデジタルサイコロを作ることができます。
+</div>
 <div>
 
-![The output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll_dice.png){:width="300px"}
+![サイコロの最大数を入力するようにユーザーに求め、乱数による動作の結果が表示された追加行のある出力領域。](images/roll_dice.png){:width="300px"}
 
 </div>
 </div>
 
-In Python you **call** a **function()** to perfom an action. You have already used the `print()` function to output text.
+Pythonでは、アクションを実行するために**関数()**を**呼び出し**ます。 すでに`print()`関数を使用してテキストを出力しています。
 
-You can **define** a new **function** to group code together so that you can name it and reuse it.
+新しい**関数**を**定義**してコードをグループ化し、名前を付けて再利用することができます。
 
 --- task ---
 
-Functions need to be defined before you can call them. Look for the comment near the top of the **main.py** tab that says `#Put function definitions under here`.
+関数は、呼び出す前に定義する必要があります。 **main.py**タブの上部にある`# 関数の定義をこの下に書く`のコメントを探します。
 
-Define a new function called `roll_dice()` that uses the `randint()` function, from the `random` library, to generate a random 'integer' (whole number) from 1 to 6 and output it to the screen.
+`random`ライブラリの`randint()`関数を使用して1から6までのランダムな「整数」を生成し、それを画面に出力する`roll_dice()`という新しい関数を定義します。
 
 --- code ---
 ---
@@ -26,24 +27,24 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 9-12
 ---
 
-# Put function definitions under here
+# 関数の定義をこの下に書く
 
-def roll_dice(): #Don't forget the colon at the end of this line   
-print(python, 'can make a', dice)   
-print('You rolled a', randint(1, 6))
+def roll_dice(): #この行の終わりにあるコロンを忘れないでください   
+print(python, 'で', dice, 'を作ることができます')   
+print('サイコロの目はこれでした', randint(1, 6))
 
 --- /code ---
 
-The lines under `def roll_dice():` are **indented**. To do this, use the <kbd>Tab</kbd> character on your keyboard (usually above <kbd>CAPSLOCK</kbd> on the keyboard). Indenting code tells Python that the indented lines are part of the function.
+`def roll_dice():`の下の行は**インデント**されています。 これを行うには、キーボードの<kbd>Tab</kbd>文字を使用します（通常、キーボードの<kbd>CAPSLOCK</kbd>の上にあります）。 コードをインデントすることで、それらの行が関数の一部であることをPythonに示します。
 
-**Tip:** The underscore `_` is used to between words in variable and function names in Python to make them easier to read. You can't use a space.
+**ヒント：**アンダースコア`_` は、Pythonの変数名や関数名を読みやすくするために単語の間に入れられます。 スペースは使用できません。
 
 --- collapse ---
 ---
-title: Typing special characters on a UK or US keyboard
+tittle: 英国または米国のキーボードで特殊文字を入力する
 ---
 
-On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next to the <kbd>L</kbd> key: hold <kbd>Shift</kbd> and tap <kbd>;</kbd> to type a `:`. The underscore `_` is on the same key as the `-`, next to the <kbd>0</kbd>, hold <kbd>Shift</kbd> and tap <kbd>-</kbd> to type an `_`.
+英国または米国のキーボードでは、コロン`:`は<kbd>L</kbd>キーの横のセミコロンと同じキーにあります。<kbd>Shift</kbd>を押しながら<kbd>;</kbd>をたたいて`:`を入力します。 アンダースコア`_`は<kbd>0</kbd>キーの横の`-`と同じキーにあります。<kbd>Shift</kbd>を押しながら<kbd>-</kbd>をたたいて`_`を入力します。
 
 --- /collapse ---
 
@@ -51,13 +52,13 @@ On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next 
 
 --- task ---
 
-**Test:** If you ‘Run’ your code now, it won't roll a dice. That’s because you have defined the `roll_dice()` function, but not called it yet.
+**テスト：**今、コードを「Run」してもサイコロは振られません。 これは、`roll_dice()`関数を定義しましたが、まだ呼び出していないからです。
 
 --- /task ---
 
 --- task ---
 
-To use a function, you need to call it in the code. Go to the end of your code and add a new line to call the `roll_dice()` function:
+関数を使用するには、コードで関数を呼び出す必要があります。 コードの最後に移動し、新しい行を追加して`roll_dice()`関数を呼び出します。
 
 --- code ---
 ---
@@ -65,9 +66,9 @@ language: python filename: main.py line_numbers: true line_number_start: 20
 line_highlights: 22
 ---
 
-print('The', calendar, clock, 'is', datetime.now())
+print(calendar, clock, 'は', datetime.now())
 
-roll_dice() #Call the roll dice function
+roll_dice() # roll_dice関数を呼び出す
 
 --- /code ---
 
@@ -75,36 +76,36 @@ roll_dice() #Call the roll dice function
 
 --- task ---
 
-**Test:** Run your project several times to see the random dice roll each time.
+**テスト：**プロジェクトを数回実行して、毎回ランダムにサイコロが振られることを確認します。
 
-**Debug:** Make sure you have an underscore `_` between roll and dice to make the function name. Make sure you have a colon `:` at the end of the line.
+**デバッグ：**関数名を作成するときに、rollとdiceの間にアンダースコア`_`があることを確認してください。 行の終わりにコロン `:`があることを確認してください。
 
-**Debug:** Check that the lines under `def roll_dice()` are indented. It's really common to get this wrong in Python, so make sure to check.
+**デバッグ：**`def roll_dice()` の下の行がインデントされていることを確認します。 Pythonでこれを間違えることは実によくあることなので、必ず確認してください。
 
-![The Trinket editor showing the lines of code for the <code>roll_dice</code> function have not been indented. The code has been run and is highlighted on line 10, the first line that should be indented, with the error 'SyntaxError: bad input on line 10 in main.py'.](images/indent_error.png)
+![インデントされていない<code>roll_dice</code>関数のコード行を表示するTrinketエディター。 コードが実行され、インデントされるべき最初の行である10行目で強調表示され、「SyntaxError: bad input on line 10 in main.py」というエラーが表示されています。](images/indent_error.png)
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Uses of random numbers include cryptography, data science, and adding variety into games and computer art. Computers generate <span style="color: #0faeb0">**random numbers**</span> using an algorithm. For numbers that are really random, you need an unpredictable input from the real world.
+乱数は、暗号化やデータサイエンス、そしてゲームやコンピューターアートへ多様性を与えるのに使用されます。 コンピューターは、アルゴリズムを使用して<span style="color: #0faeb0">**乱数**</span>を生成します。 数値を本当にランダムにするには、現実の世界からの予測できない入力が必要です。
 </p>
 
 --- task ---
 
-The `fire` variable stores a 🔥 emoji. The code `print(fire * 3)` outputs three fire emoji '🔥🔥🔥'. You need to output the correct number of emoji to match the number rolled.
+`fire`変数は、🔥の絵文字を格納しています。 `print(fire * 3)`というコードは、3つの火の絵文字 '🔥🔥🔥'を出力します。 サイコロの目と同じ数の絵文字を出力する必要があります。
 
 --- collapse ---
 ---
-title: What would happen if you use `print(fire * randint(1, 6))`?
+title: `print(fire * randint(1, 6))`とするとどうなるでしょう？
 ---
 
-You would get a new random number that is usually different from your first random number.
+通常、最初の乱数とは異なる新しい乱数が表示されます。
 
 --- /collapse ---
 
-Hmm, how can you make sure you use the same random number?
+うーん、どうすれば同じ乱数を使用できるようになるでしょうか？
 
-Change your code to save the value returned by `randint()` in a variable called `roll` and then use that variable to print out the number rolled with the matching number of 🔥 emoji.
+コードを変更して、`randint()`が返す値を`roll`という変数に保存し、その変数を使用して、サイコロの目の数字と、それと同じだけの🔥の絵文字を出力します。
 
 --- code ---
 ---
@@ -112,41 +113,41 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 11 - 13
 ---
 
-# Put function definitions under here
+# 関数の定義をこの下に書く
 
 def roll_dice():    
-print(python, 'can make a', dice)    
-roll = randint(1, 6) #Generate a random number between 1 and 6    
-print('You rolled a', roll) #Print the value of the roll variable     
-print(fire * roll) #Repeat the fire emoji to match the dice roll
+print(python, 'で', dice, 'を作ることができます')    
+roll = randint(1, 6) #1から6までの乱数を生成    
+print('サイコロの目はこれでした', roll) #roll変数の値を出力     
+print(fire * roll) #サイコロの目と同じだけ火の絵文字を繰り返す
 
 --- /code ---
 
-You can use `star` or `heart` instead of `fire` if you prefer.
+必要に応じて、`fire`の代わりに`star`または`heart`を使用できます。
 
-The symbol `*` means multiply so `fire * roll` multiples the text in the `fire` variable ('🔥') by the number contained in the `roll` variable.
+`*`の記号は、掛けることを意味します。なので、`fire * roll`は、 `fire`変数に格納されているテキスト('🔥')を`roll`変数に保存されている数だけ増やします。
 
 --- /task ---
 
 --- task ---
 
-**Test:** Test your project a few times. Make sure you understand how the code works.
+**テスト：**プロジェクトを数回テストします。 コードがどのように機能するかを理解してください。
 
-**Tip:** Variables are useful when you need to use the same value multiple times in your code. Giving variables a sensible name also makes your code easier to understand.
+**ヒント：**変数は、コードで同じ値を複数回使用する必要がある場合に役立ちます。 変数にわかりやすい名前を付けるとコードが理解しやすくなります。
 
 --- /task ---
 
-Upgrade your dice so that the user can choose the maximum number.
+ユーザーが最大数を選択できるようにサイコロをアップグレードします。
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-Lots of games use many-sided dice. In the physical world, dice are made from regular geometric shapes. Common dice include D6, D12, and D20. On a computer, you can generate a <span style="color: #0faeb0">random</span> number to make a fair dice with any number of sides.</p>
+多くのゲームは多面的なサイコロを使用しています。 現実の世界では、サイコロは一般的な幾何学的形状から作られています。 一般的なサイコロには、D6、D12、およびD20が含まれます。 コンピューターでは、<span style="color: #0faeb0">ランダム</span>な数値を生成して、任意の数の面を持つ公正なサイコロを作ることができます。</p>
 
 --- task ---
 
-The `input()` function asks the user a question and then returns their answer.
+`input()`関数は、ユーザーに質問をして、その答えを返します。
 
-Add code to ask the user for the biggest number on their dice and then save the result in a variable called `max` and `print` the number chosen into the output area:
+ユーザーにサイコロの最大数を尋ね、結果を`max`という名前の変数に保存します。そして選択した数を出力領域に`print`します。
 
 --- code ---
 ---
@@ -154,27 +155,27 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 11-12
 ---
 
-# Put function definitions under here
+# 関数の定義をこの下に書く
 
 def roll_dice():   
-print(python, 'can make a', dice)   
-max = input('How many sides?:') #Wait for input from the user    
-print('That\'s a D', max) #Use the number the user entered    
+print(python, 'で', dice, 'を作ることができます')   
+max = input('最大数を指定してください:') #ユーザーの入力を待つ    
+print('最大数は', max) #ユーザーが入力した数字を使用    
 roll = randint(1, 6)    
-print('You rolled a', roll)    
+print('サイコロの目はこれでした', roll)    
 print(fire * roll)
 
 --- /code ---
 
-To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
+`That's`のようにアポストロフィ`'`を出力するには、その前にバックスラッシュ`\`を付けて、Pythonがアポストロフィをテキストの一部であると認識できるようにします。
 
 --- /task ---
 
 --- task ---
 
-Change your `roll` variable code to use `max` as the maximum value for `randint` when it generates a random number.
+`roll`変数のコードを変更して、乱数を生成するときに`randint`が `max`を最大値として使用するようにします。
 
-When you get input from the user, Python treats it as text. But, `randint` needs an 'integer' (a positive whole number). The `int` function turns the user input into an integer.
+ユーザーから入力を受け取ると、Pythonはそれをテキストとして扱います。 でも、 `randint` には正の整数が必要です。 `int`関数は、ユーザー入力を整数に変換します。
 
 --- code ---
 ---
@@ -182,14 +183,14 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 13
 ---
 
-# Put function definitions under here
+# 関数の定義をこの下に書く
 
 def roll_dice():   
-print(python, 'can make a', dice)   
-max = input('How many sides?:') #Wait for input from the user   
-print('That\'s a D', max) #Use the number the user entered   
-roll = randint(1, int(max)) #randint needs max to be an 'integer'   
-print('You rolled a', roll)   
+print(python, 'で', dice, 'を作ることができます')   
+max = input('最大の数を指定してください:') #ユーザーの入力を待つ   
+print('最大数は', max) #ユーザーが入力した数字を使用   
+roll = randint(1, int(max)) #randintには 整数である maxが必要'   
+print('サイコロの目はこれでした', roll)   
 print(fire * roll)
 
 --- /code ---
@@ -198,7 +199,7 @@ print(fire * roll)
 
 --- task ---
 
-**Test:** Run your project. When the program reaches the `input` line, it will wait for you to enter a response before continuing. Try it again with a different `input` number.
+**テスト：**プロジェクトを実行します。 プログラムが`input`行に達すると、あなたが返答を入力するのを待ってから続行します。 別の数値を`input`してもう一度やってみてください。
 
 --- /task ---
 
