@@ -1,10 +1,10 @@
-## What next?
+## Τι υπάρχει στη συνέχεια;
 
-If you are following the [Introduction to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [Target practice](https://projects.raspberrypi.org/en/projects/target-practice) project. In this project, you will draw a target then make an archery game that shoots arrows to score points.
+Εάν ακολουθείς το μονοπάτι [Εισαγωγή στην Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro), μπορείς να προχωρήσεις στο έργο [Εξάσκηση στόχου](https://projects.raspberrypi.org/en/projects/target-practice). Σε αυτό το έργο, θα σχεδιάσεις έναν στόχο και στη συνέχεια θα δημιουργήσεις ένα παιχνίδι τοξοβολίας στο οποίο ρίχνεις βέλη και κερδίζεις πόντους.
 
 --- print-only ---
 
-![Archery project](images/archery-project.png)
+![Έργο τοξοβολίας](images/archery-project.png)
 
 --- /print-only ---
 
@@ -15,4 +15,4 @@ If you are following the [Introduction to Python](https://projects.raspberrypi.o
 
 --- /no-print ---
 
-If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
+Αν θέλεις να διασκεδάσεις περισσότερο εξερευνώντας την Python, τότε μπορείς να δοκιμάσεις οποιοδήποτε από [αυτά τα έργα](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
