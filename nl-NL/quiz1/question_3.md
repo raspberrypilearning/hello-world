@@ -1,22 +1,22 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Vraag 3 van 3
 ---
 
-This function outputs two random numbers:
+Deze functie geeft twee willekeurige getallen:
 
 --- code ---
 ---
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def twee_getallen(): print('Eerste getal: ', randint(1, 6)) print('Tweede getal: ', randint(1, 6))
 
 --- /code ---
 
-Which code will call the function to run it?
+Welke code roept de functie aan om uit te voeren?
 
-![The Trinket editor with output area showing two randomly generated numbers.](images/quiz3.png)
+![De Trinket-editor met uitvoergebied met twee willekeurig gegenereerde nummers.](images/quiz3.png)
 
 --- choices ---
 
@@ -27,13 +27,13 @@ Which code will call the function to run it?
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def twee_getallen(): print('Eerste getal: ', randint(1, 6)) print('Tweede getal: ', randint(1, 6))
 
 --- /code ---
 
  --- feedback ---
 
- No, this is the code to define the function, but it does not run the function. You'll need to use different code to call it.
+ Nee, dit is de code om de functie te definiëren, maar deze voert de functie niet uit. Je moet andere code gebruiken om de functie aan te roepen.
 
  --- /feedback ---
 
@@ -42,13 +42,13 @@ def two_dice(): print('First number:', randint(1, 6)) print('Second number:', ra
 language: python
 ---
 
-two_dice
+twee_getallen
 
 --- /code ---
 
  --- feedback ---
 
-Close! `two_dice` is the name of the function, but to call it you need more than just the name.
+Bijna! `twee_getallen` is de naam van de functie, maar om deze aan te roepen heb je meer nodig dan alleen de naam.
 
  --- /feedback ---
 
@@ -59,13 +59,13 @@ Close! `two_dice` is the name of the function, but to call it you need more than
 language: python
 ---
 
-two_dice[]
+twee_getallen[]
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, think about they type of brackets you used to call the functions in your project.
+ Niet helemaal, denk aan het type haakjes dat je moet gebruiken om de functies in je project aan te roepen.
 
  --- /feedback ---
 
@@ -76,13 +76,13 @@ two_dice[]
 language: python
 ---
 
-two_dice()
+twee_getallen()
 
 --- /code ---
 
  --- feedback ---
 
- That's correct, using the function name followed by `(` `)` brackets will call the function.
+ Dat klopt, het gebruik van de functienaam gevolgd door `(` `)` haakjes zal de functie aanroepen.
 
  --- /feedback ---
 
