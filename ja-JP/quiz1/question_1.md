@@ -1,21 +1,21 @@
-## Reflection
+## ふりかえり
 
-Well done, you have made an interactive programme with text and emoji 👍
+よくできました。テキストと絵文字を使ったインタラクティブなプログラムを作成しました👍
 
-Now it's time to reflect — reflecting is an important part of learning because it helps make new connections in your brain.
+次はふりかえりの時間です。ふりかえりを行うことで、脳内に新しいつながりを作ることができます。このため、ふりかえりは学習の大事な部分です。
 
-Answer the three questions below to reflect on what you've learnt.
+以下の3つの質問に答えて、学んだことをふりかえってみましょう。
 
-After each question, press **submit**. You will be guided towards the correct answer. You can do this activity as many times as you want to.
+各質問の後、**答えを確認する**を押してください。 正しい答えが表示されます。 このアクティビティは何度でも実行できます。
 
-Have fun!
+お楽しみください！
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: 質問1/3
 ---
 
-This code sets the `world` variable to contain the text '🌍🌎🌏' (the three different world emoji):
+このコードは、 `world`変数にテキスト「🌍🌎🌏」（3つの異なる世界の絵文字）を設定します。
 
 --- code ---
 ---
@@ -26,9 +26,9 @@ world = '🌍🌎🌏'
 
 --- /code ---
 
-Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
+`world`変数を正しく使用し、こんにちは 🌍🌎🌏を出力するコードはどれですか？
 
-![The output area from the Trinket editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
+![こんにちは 🌍🌎🌏が表示されたTrinketエディターの出力領域。](images/quiz1.png)
 
 --- choices ---
 
@@ -39,13 +39,13 @@ Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
 language: python
 ---
 
-output('Hello' world)
+output('こんにちは' world)
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, `output` is not the way to output messages to the screen.
+ 残念ですが、 `output`は画面にメッセージを出力するものではありません。
 
  --- /feedback ---
 
@@ -57,13 +57,13 @@ output('Hello' world)
 language: python
 ---
 
-print('Hello' world)
+print('こんにちは' world)
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+ 残念です。Pythonでは、`print`は画面にメッセージを出力しますが、この例では何かが欠けています。
 
  --- /feedback ---
 
@@ -74,13 +74,13 @@ print('Hello' world)
 language: python
 ---
 
-print('Hello', world)
+print('こんにちは', world)
 
 --- /code ---
 
  --- feedback ---
 
- That's correct, in Python `print` outputs messages to the screen. The text output is inside single quotes `'` , a comma separates the two items and provides a space, then the `world` variable is called, which stores the earth emoji 🌍🌎🌏, like in your project.
+ 正解です。Pythonでは、`print`はメッセージを画面に出力します。 出力するテキストはシングルクォート`'`で囲まれ、コンマで2つの項目を区切り、スペースを出力します。次に、プロジェクトのように、地球の絵文字🌍🌎🌏を格納する`world`変数が呼び出されます。
 
  --- /feedback ---
 
@@ -91,13 +91,13 @@ print('Hello', world)
 language: python
 ---
 
-print(Hello, world)
+print(こんにちは, world)
 
 --- /code ---
 
  --- feedback ---
 
-  Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+  残念です。Pythonでは、`print`は画面にメッセージを出力しますが、この例では何かが欠落しています。
 
  --- /feedback ---
 
