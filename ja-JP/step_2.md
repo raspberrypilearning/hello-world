@@ -1,37 +1,37 @@
-## Say hello
+## こんにちはと言う
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's traditional to write a program to output 'Hello world!' when you learn a new programming language.
+新しいプログラミング言語を学ぶとき、伝統的に「Hello world!」(ハローワールド！)と出力するプログラムを作成します。
 </div>
 <div>
 
-![The Trinket output area showing the two printed lines of text and emoji.](images/say_hello.png){:width="200px"}
+![テキストと絵文字からなる2行を表示するTrinketの出力領域。](images/say_hello.png){:width="200px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://trinket.io/python/975f35023b){:target="_blank"}. Trinket will open in another browser tab.
+[こんにちは 🌍🌎🌏 基本プロジェクト](https://trinket.io/python/975f35023b){:target="_blank"}を開きます。 Trinketは別のブラウザタブで開きます。
 
-![The Trinket editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
+![基本プロジェクトコードを左側のコード領域を表示するTrinketエディター。 右側は空白の出力領域。](images/starter_project.png)
 
 --- /task ---
 
-The line `#!/bin/python3` tells Trinket that you are using Python 3 (the latest version). The `import` lines tell Python that you are going to use code you didn't write.
+`#!/bin/python3`という行は、Python 3（Pythonの最新バージョン）を使用していることをコンピュータに伝えます。 `import`行は、自分が書いたのではないコードを使用することをPythonに伝えます。
 
-In Python, `print()` outputs text (words or numbers) to the screen.
+Pythonでは、 `print()`はテキスト（言葉や数字）を画面に出力します。
 
-Lines beginning with `#` are comments, they explain the code to humans and are ignored by Python.
+`#`で始まる行はコメントで、コードを人間に説明するために書きますが、Pythonは無視します。
 
 --- task ---
 
-Find the `# Put code to run below here` line.
+`# 動かしたいコードをこの下に書く`の行を探します。
 
-Click below that line. The flashing `|` is the cursor and shows where you will type.
+その行の下をクリックします。 点滅する`|`はカーソルで、文字入力する場所を示しています。
 
-Type the code to `print()` hello:
+こんにちはを表示(`print()`)するコードを入力します。
 
 --- code ---
 ---
@@ -39,17 +39,17 @@ language: python filename: main.py line_numbers: true line_number_start: 11
 line_highlights: 12
 ---
 
-# Put code to run under here
-print('Hello')
+# 動かしたいコードをこの下に書く
+print('こんにちは')
 
 --- /code ---
 
 --- collapse ---
 ---
-title: Typing special characters on a UK or US keyboard
+title: 英国または米国のキーボードで特殊文字を入力する
 ---
 
-On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kbd>9</kbd> and <kbd>0</kbd> keys. To type a left round bracket, hold down the <kbd>Shift</kbd> key (next to <kbd>Z</kbd>) and then tap <kbd>9</kbd>. The single quote `'` is on the same row as the <kbd>L</kbd> key, just before the <kbd>Enter</kbd> key. The comma `,` is next to the <kbd>M</kbd>.
+英国または米国のキーボードでは、左丸括弧`(`および右丸括弧`)` は<kbd>9</kbd>と<kbd>0</kbd>のキーにあります。 左丸括弧を入力するには、（<kbd>Z</kbd>の横にある）<kbd>Shift</kbd>キーを押したまま<kbd>9</kbd>をたたきます。 引用符`'`は<kbd>L</kbd>キーと同じ行の、 <kbd>Enter</kbd>キーの直前にあります。 コンマ`,`は<kbd>M</kbd>の隣にあります。
 
 --- /collapse ---
 
@@ -57,33 +57,33 @@ On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kb
 
 --- task ---
 
-**Test:** Click on the **Run** button to run your code. In Trinket, the output will appear on the right:
+**テスト：****Run**ボタンをクリックしてコードを実行します。 Trinketでは、出力は右側に表示されます。
 
-![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
+![出力領域に「こんにちは」と表示されている、強調表示されたRunアイコン。 ](images/run_hello.png)
 
-**Debug:** If you get an error then check your code really carefully. In this example, the single quotes around `Hello` are missing so Python doesn't know it is supposed to be text.
+**デバッグ：**エラーが発生した場合は、コードを注意深く確認してください。 この例では、 `こんにちは`の前後の引用符が抜けているため、Pythonはそれがテキストだということが分かりません。
 
-![the Trinket editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 10 in main.py.](images/hello_error.png)
-
---- /task ---
-
-In Python, a **variable** is used to store text or numbers. Variables make it easier for humans to read code. You can use the same variable in lots of places in your code.
-
-We have included some variables that store emoji characters.
-
---- task ---
-
-In your Trinket, click on the **emoji.py** tab. Find the variable `world`, which stores the text '🌍🌍🌍'.
+![引用符が抜け、NameError: name 'Hello' is not defined on line 10 in main.pyのエラーが表示されたTrinketエディター。](images/hello_error.png)
 
 --- /task ---
 
+Pythonでは、**変数**を使用してテキストまたは数値を格納します。 変数は人間がコードを読むのを簡単にしてくれます。 コード内の多くの場所で同じ変数を使用できます。
+
+絵文字を格納する変数をいくつか含めました。
+
 --- task ---
 
-You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` will add a space between each item.
+Trinketで、**emoji.py**タブをクリックします。 変数`world`を探してください。「🌍🌍🌍」というテキストが格納されています。
 
-Click on the **main.py** tab to go back to your `print()` code.
+--- /task ---
 
-Change your code to also `print()` the contents of the `world` variable:
+--- task ---
+
+一度に複数のアイテムを`print()`するには、アイテムの間にコンマ`,`を入れます。 `print()`は、各アイテムの間にスペースを追加します。
+
+**main.py**タブをクリックして`print()`コードに戻ります。
+
+コードを変更して、変数`world`の内容も`print()`します。
 
 --- code ---
 ---
@@ -91,37 +91,37 @@ language: python filename: main.py line_numbers: true line_number_start: 11
 line_highlights: 12
 ---
 
-# Put code to run under here
-print('Hello', world)
+# 動かしたいコードをこの下に書く
+print('こんにちは', world)
 
 --- /code ---
 
-**Tip:** `'Hello'` is a text string because it has single quotes around it, whereas `world` is a variable so the value stored in it will be printed.
+**ヒント：**`'こんにちは'`は一重引用符で囲まれているためテキスト文字列ですが、`world` は変数であるため、そこに格納されている値が出力されます。
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code to see the result:
+**テスト：**コードを実行して、結果を確認します。
 
-![The updated line of code in the code area with the word 'Hello' followed by three emoji worlds showing in the output area.](images/run_hello_world.png)
+![出力領域に「こんにちは」という単語の後に3つの地球の絵文字が表示された、コード領域の更新されたコード行。](images/run_hello_world.png)
 
-Emoji can look different on different computers, so yours might not look exactly the same.
+絵文字はパソコンによって見た目が異なる場合があるため、まったく同じようには見えない場合があります。
 
-**Debug:** Make sure that you have added a comma between the items in `print()` and that you have spelled `world` correctly.
+**デバッグ：**`print()`のアイテムの間にコンマを追加していること、`world`のスペルが正しいことを確認してください。
 
-This example is missing the comma `,`. It's small but very important!
+この例では、コンマ`,`がありません。 小さなことですがとても重要です！
 
-![The Trinket editor with missing single quotes and error 'SyntaxError: bad input on line 12 in main.py' displayed.](images/comma_error.png)
+![引用符が抜け、'SyntaxError: bad input on line 12 in main.py'のエラーが表示されたTrinketエディター](images/comma_error.png)
 
 --- collapse ---
 ---
-title: I don't see the emoji
+title: 絵文字が表示されません
 ---
 
-Most computers allow you to use colour emoji. However, if you can't use emoji, then you can use 'emoticons' instead, the way we did before emoji were invented!
+ほとんどのコンピューターでは、カラーの絵文字を使用できます。 ただし、絵文字を使用できない場合は、代わりに「顔文字」を使用できます。これは、絵文字が発明される前に使われていた方法です。
 
-Change the `from emoji import *` line to:
+`from emoji import *`行を以下のように変更します。
 
 --- code ---
 ---
@@ -139,7 +139,7 @@ from noemoji import *
 
 --- task ---
 
-Add another line to your code to `print()` more text and emoji:
+コードに別の行を追加して、ほかのテキストや絵文字を`print()`します。
 
 --- code ---
 ---
@@ -147,29 +147,29 @@ language: python filename: main.py line_numbers: true line_number_start: 12
 line_highlights: 13
 ---
 
-print('Hello', world)    
-print('Welcome to', python)
+print('こんにちは', world)    
+print(python, 'へ ようこそ')
 
 --- /code ---
 
-**Tip:** The code you need to type is highlighted in a lighter colour. Code that is not highlighted helps you find where you need to add the new code.
+**ヒント：**入力する必要のあるコードは、明るい色で強調表示されています。 強調表示されていないコードを見て、新しいコードを追加する必要がある場所を見つけることができます。
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click **run**.
+**テスト：****Run**をクリックします。
 
-![The additional line of code in the code area with the word 'Hello' followed by three emoji worlds and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
+![出力領域に「こんにちは」という単語の後に3つの地球の絵文字が表示され、ヘビの絵文字の後に「へ ようこそ」という単語が表示された、コード領域の追加されたコード行。](images/run_multiple.png)
 
-**Tip:** It's a good idea to run your code after every change so you can fix problems quickly.
+**ヒント：**問題をすばやく修正できるように、変更のたびにコードを実行することをお勧めします。
 
-**Debug:** Check carefully for brackets, quotes, commas, and correct spelling. Python needs you to be really accurate.
+**デバッグ：**角かっこ、引用符、コンマ、および正しいスペルを注意深く確認します。 Pythonはあなたが本当に正確であることを求めます。
 
 --- /task ---
 
-If you have a Trinket account, you can click on the **Remix** button to save a copy to your `My Trinkets` library.
+Trinketアカウントをお持ちの場合は、**Remix**ボタンをクリックして、 `My Trinkets`ライブラリにコピーを保存できます。
 
-If you don't have a Trinket account, you can still come back to your project in the future on the same computer by using the starter project link.
+Trinketアカウントをお持ちでない場合でも、同じコンピューターでは基本プロジェクトのリンクを使用して、今後プロジェクトに戻ることができます。
 
 --- save ---
