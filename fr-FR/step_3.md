@@ -25,7 +25,10 @@ Ajoute deux autres lignes `print()` à ton code, incluant une somme à calculer 
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 12
+language: python 
+filename: main.py 
+line_numbers: true 
+line_number_start: 12
 line_highlights: 14-15
 ---
 
