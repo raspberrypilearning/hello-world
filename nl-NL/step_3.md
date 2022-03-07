@@ -1,27 +1,27 @@
-## Sums and dates
+## Sommen en datums
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Python is great at working with numbers and dates.
+Python is geweldig in het werken met getallen en datums.
 </div>
 <div>
 
-![The output area with five printed lines showing new sum and current date outputs.](images/sums_dates.png){:width="300px"}
+![Het uitvoergebied met vijf gedrukte regels die de nieuwe som en huidige datum uitvoer tonen.](images/sums_dates.png){:width="300px"}
 
 </div>
 </div>
 
-In Python you can use maths operators to do sums:
+In Python kun je wiskundige operatoren gebruiken om sommen te maken:
 
-| + | add |   
-| - | subtract |   
-| * | multiply |   
-| / | divide |   
-| ** | to the power |
+| + | optellen |   
+| - | aftrekken |   
+| * | vermenigvuldigen |   
+| / | delen |   
+| ** | machtsverheffen |
 
 --- task ---
 
-Add another two `print()` lines to your code including a sum for Python to work out:
+Voeg nog twee `print()` regels toe aan je code, met daarin een som voor Python om uit te werken:
 
 --- code ---
 ---
@@ -29,9 +29,9 @@ language: python filename: main.py line_numbers: true line_number_start: 12
 line_highlights: 14-15
 ---
 
-print('Hello', world)   
-print('Welcome to', python)   
-print(python, 'is very good at', sums)   
+print('Hallo', wereld)   
+print('Welkom bij', python)   
+print(python, 'is erg goed in', sommen)   
 print(230 * 5782 ** 2 / 23781)
 
 --- /code ---
@@ -40,53 +40,53 @@ print(230 * 5782 ** 2 / 23781)
 
 --- task ---
 
-**Test:** Run your code. Did Python calculate the sum correctly? Only joking! Python does the hard maths for you so you don't need to work it out.
+**Test:** Voer je code uit om het resultaat te zien. Heeft Python de som correct berekend? Grapje! Python doet de moeilijke wiskunde voor je, dus je hoeft het niet uit te werken.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi (*π*) to 31 trillion digits. That answer is so long that it would take over 300,000 years just to say it! 
+De Japanse computerwetenschapper <span style="color: #0faeb0">**Emma Haruka Iwao**</span> gebruikte een computer om de waarde van Pi (*π*) tot 31 biljoen cijfers te berekenen. Dat antwoord is zo lang dat het meer dan 300.000 jaar zou duren om het te zeggen! 
 </p>
 
 --- task ---
 
-Try changing the sum that Python does to a complicated one!
+Probeer de som te veranderen in een ingewikkelde!
 
-You can also use brackets if you want to control the order that Python calculates the sum: `print( (2 + 4) * (5 + 3) )`.
-
---- /task ---
-
---- task ---
-
-**Test:** Run your code and get Python to calculate your sum.
-
-**Debug:** Make sure your sum has a left and right round bracket around it `( 2 * 45 )`. If you use extra brackets to control the order, make you have a right bracket to match every left bracket.
+Je kunt ook haakjes gebruiken als je de volgorde wilt bepalen waarin Python de som berekent: `print( (2 + 4) * (5 + 3) )`.
 
 --- /task ---
 
 --- task ---
 
-If you have asked Python to calculate a really big sum, you might find the answer goes across multiple lines in the output area.
+**Test:** Voer je code uit en laat Python je som berekenen.
 
-**Tip:** Click on the **hamburger menu** (the icon with three lines) in the top-left of your Trinket editor. Then click on the **Fullscreen** button to view your project in fullscreen mode.
-
-![The Trinket editor with left-hand side menu expanded, via the hamburger menu, to show the fullscreen option.](images/full_screen.png)
-
-To exit fullscreen mode, click on the **Fullscreen** button again or press <kbd>Esc</kbd> on your keyboard.
+**Debuggen:** Zorg ervoor dat om je som er een linker en rechter rond haakje staat `(2 * 45)`. Als je extra haakjes gebruikt om de volgorde te controleren, zorg dan dat je een rechter haakje laat passen bij het linker haakje.
 
 --- /task ---
 
-The line `from datetime import *` at the top of the **main.py** tab includes a library with helpful functions for getting the current date and time.
+--- task ---
+
+Als je Python hebt gevraagd om een heel groot bedrag te berekenen, kan het zijn dat het antwoord over meerdere regels in het uitvoergebied gaat.
+
+**Tip: ** Klik op het **hamburger menu** (het pictogram met drie lijnen) linksboven in je Trinket-editor. Klik vervolgens op de knop **Fullscreen** om je project op volledig scherm te bekijken.
+
+![De Trinket-editor met menu aan de linkerkant uitgebreid, via het hamburgermenu, om de optie op volledig scherm weer te geven.](images/full_screen.png)
+
+Om de modus Volledig scherm te verlaten, klik je nogmaals op de knop **Fullscreen** of je drukt op <kbd>Esc</kbd> op je toetsenbord.
+
+--- /task ---
+
+De regel `from datetime import *` bovenaan het tabblad **main.py** bevat een bibliotheek met handige functies voor het verkrijgen van de huidige datum en tijd.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. A Python library allows you to easily use code that other people have written. There are libraries for drawing charts and graphs, making art, doing calculations, and lots more.
+Een van de geweldige dingen van Python zijn alle <span style="color: #0faeb0">**bibliotheken**</span> met code die beschikbaar is voor gebruik. Met een Python-bibliotheek kun je eenvoudig code gebruiken die andere mensen hebben geschreven. Er zijn bibliotheken voor het tekenen van grafieken en diagrammen, het maken van kunst, het doen van berekeningen en nog veel meer.
 </p>
 
 --- task ---
 
-Add another line to your code to `print` some more text and the emoji variables `calendar` and `clock`.
+Voeg nog een `print`regel toe aan je code om wat meer tekst en de emoji-variabelen `kalender` en `klok` te tonen.
 
-Get the current date and time by using the `now()` function from the `datetime` library:
+Haal de huidige datum en tijd op door de functie `now()` uit de `datetime` -bibliotheek te gebruiken:
 
 --- code ---
 ---
@@ -94,21 +94,21 @@ language: python filename: main.py line_numbers: true line_number_start: 14
 line_highlights: 16-17
 ---
 
-print(python, 'is very good at', sums)    
-print(230 * 5782 ** 2 / 23781) #Print the result of the sum     
-print('The', calendar, clock, 'is', datetime.now()) #Print with emoji
+print(python, 'is erg goed in', sommen)    
+print(230 * 5782 ** 2 / 23781) #Print het resultaat van de som     
+print('De', kalendar, klok, 'is', datetime.now()) #Print met emoji
 
 --- /code ---
 
-**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
+**Tip: ** Je hoeft de opmerkingen niet te typen, ze zijn er alleen om je te helpen de code te begrijpen. Typ gewoon het gedeelte voor de `#`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code a couple of times to see the date and time update.
+**Test:** Voer je code een paar keer uit om de nieuwe datum- en tijduitvoer te zien.
 
-**Debug:** Check that you have a fullstop `.` between `datetime` and `now`. Check all the punctuation carefully.
+**Debuggen: ** Controleer of je een punt hebt `.` tussen `datetime` en `now`. Controleer alle interpunctie zorgvuldig.
 
 --- /task ---
 
