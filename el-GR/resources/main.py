@@ -4,43 +4,43 @@ from emoji import *
 from datetime import *
 from random import randint
 
-# Put function definitions under here
+# Τοποθέτησε ορισμούς συναρτήσεων κάτω από εδώ
 
 def roll_dice():
-  print(python, 'can make a', dice)
-  max = input('How many sides?') # get input from the user
-  print('That\'s a D', max) # use the number the user entered
-  roll = randint(1, int(max)) # generate a random number 
-  print('You rolled a', roll) # print the value of the roll variable
-  print(fire * roll) # repeat the fire text roll times
+  print(python, 'μπορεί να κάνει ένα', dice)
+  max = input('Πόσες πλευρές;') # λάβε είσοδο από τον χρήστη
+  print('Αυτό είν\' ένα D', max) # χρησιμοποίησε τον αριθμό που εισήγαγε ο χρήστης
+  roll = randint(1, int(max)) # δημιουργεί έναν τυχαίο αριθμό 
+  print('Έριξες', roll) # εμφάνισε την τιμή της μεταβλητής roll
+  print(fire * roll) # επανάλαβε το κείμενο της φωτιάς τόσες φορές όσο ήταν η ρίψη του ζαριού
 
 def hobbies():
-  hobby = input('What do you like?')
-  print('That sounds', fun)
-  print('You could make a', python, 'project about', hobby)
+  hobby = input('Τι σου αρέσει;')
+  print('Ακούγεται', fun)
+  print("Θα μπορούσες να δημιουγήσεις ένα", python, "έργο για", hobby)
 
-# Useful characters :',()*_/.#
+# Χρήσιμα σημεία στίξης :',()*_/.#
 
-# Put code to run under here
-print('Hello', world)
-print('Welcome to', python)
+# Βάλε κώδικα για εκτέλεση εδώ
+print('Γεια σου', world)
+print ("Καλώς ήρθες στην", python)
 
-input() # wait for the user to tap Enter
+input() #Περίμενε μέχρι να πατήσει ο χρήστης Enter
 
-print(python, 'is very good at', sums)
+print(python, "είναι πολύ καλή στα", sums)
 print(230 * 5782 ** 2 / 23781)
 
 input()
 
-print('The', calendar, clock, 'is', datetime.now()) # print current date and time with emoji 
+print('Το', calendar, clock, 'είναι', datetime.now()) # εμφάνιση τρέχουσας ημερομηνίας και ώρας με emoji 
 
 input()
 
-roll_dice() # Call the roll_dice function
+roll_dice() #Κάλεσε τη συνάρτηση roll_dice
 
 input()
 
-hobbies() # Call the hobbies function
+hobbies() # Κάλεσε τη συνάρτηση hobbies
 
 
 
