@@ -1,37 +1,37 @@
-## Say hello
+## Di hola
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's traditional to write a program to output 'Hello world!' when you learn a new programming language.
+Es tradicional escribir un programa para generar '¡Hola mundo!' cuando aprendes un nuevo lenguaje de programación.
 </div>
 <div>
 
-![The Trinket output area showing the two printed lines of text and emoji.](images/say_hello.png){:width="200px"}
+![El área de salida de Trinket mostrando las dos líneas impresas de texto y emoji.](images/say_hello.png){:width="200px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://trinket.io/python/975f35023b){:target="_blank"}. Trinket will open in another browser tab.
+Abre el [proyecto de iniciación Hola🌍🌎🌏](https://trinket.io/python/975f35023b){:target="_blank"}. Trinket se abrirá en otra pestaña del navegador.
 
-![The Trinket editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
+![El editor Trinket y el código del proyecto de iniciación están a la izquierda en el área de código. A la derecha está el área de salida en blanco.](images/starter_project.png)
 
 --- /task ---
 
-The line `#!/bin/python3` tells Trinket that you are using Python 3 (the latest version). The `import` lines tell Python that you are going to use code you didn't write.
+La línea `#!/bin/python3` le dice a Trinket que estás usando Python 3 (la última versión). Las líneas `import` le dicen a Python que vas a usar un código que no escribiste.
 
-In Python, `print()` outputs text (words or numbers) to the screen.
+En Python, `print()` genera texto (palabras o números) en la pantalla.
 
-Lines beginning with `#` are comments, they explain the code to humans and are ignored by Python.
+Las líneas que comienzan con `#` son comentarios que explican el código a los humanos y que Python ignora.
 
 --- task ---
 
-Find the `# Put code to run below here` line.
+Encuentra la línea `# Pon el código a ejecutar debajo de aquí `.
 
-Click below that line. The flashing `|` is the cursor and shows where you will type.
+Haz clic debajo de esa línea. El `|` parpadeante es el puntero del ratón y muestra dónde tipearás.
 
-Type the code to `print()` hello:
+Tipea el código para `print()` hola:
 
 --- code ---
 ---
@@ -39,17 +39,17 @@ language: python filename: main.py line_numbers: true line_number_start: 11
 line_highlights: 12
 ---
 
-# Put code to run under here
-print('Hello')
+# Pon el código a ejecutar aquí abajo
+print('Hola')
 
 --- /code ---
 
 --- collapse ---
 ---
-title: Typing special characters on a UK or US keyboard
+title: Tipear caracteres especiales en un teclado del Reino Unido o los Estados Unidos
 ---
 
-On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kbd>9</kbd> and <kbd>0</kbd> keys. To type a left round bracket, hold down the <kbd>Shift</kbd> key (next to <kbd>Z</kbd>) and then tap <kbd>9</kbd>. The single quote `'` is on the same row as the <kbd>L</kbd> key, just before the <kbd>Enter</kbd> key. The comma `,` is next to the <kbd>M</kbd>.
+En un teclado del Reino Unido o los Estados Unidos, los paréntesis de apertura `(` y de cierre `)` se encuentran en las teclas <kbd>9</kbd> y <kbd>0</kbd>. Para tipear el paréntesis de apertura, mantén presionado la tecla <kbd>Shift</kbd> (al lado de la <kbd>Z</kbd>) y luego presiona <kbd>9</kbd>. La comilla simple `'` se encuentra en la misma fila que la tecla <kbd>L</kbd>, justo antes de la tecla <kbd>Enter</kbd>. La coma `,` está al costado de la <kbd>M</kbd>.
 
 --- /collapse ---
 
@@ -57,33 +57,33 @@ On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kb
 
 --- task ---
 
-**Test:** Click on the **Run** button to run your code. In Trinket, the output will appear on the right:
+**Test:** Haz clic en el botón **Run** para ejecutar tu código. En Trinket, la salida aparecerá a la derecha:
 
-![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
+![El ícono Run resaltado con 'Hola' mostrando el área de salida. ](images/run_hello.png)
 
-**Debug:** If you get an error then check your code really carefully. In this example, the single quotes around `Hello` are missing so Python doesn't know it is supposed to be text.
+**Debug:** Si obtienes un error, verifica tu código cuidadosamente. En este ejemplo, faltan las comillas simples alrededor de `Hola`, así que Python no sabe que es un texto.
 
-![the Trinket editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 10 in main.py.](images/hello_error.png)
-
---- /task ---
-
-In Python, a **variable** is used to store text or numbers. Variables make it easier for humans to read code. You can use the same variable in lots of places in your code.
-
-We have included some variables that store emoji characters.
-
---- task ---
-
-In your Trinket, click on the **emoji.py** tab. Find the variable `world`, which stores the text '🌍🌍🌍'.
+![El editor Trinket sin comillas simples y el error 'NameError: name 'Hola' is not defined on line 10 in main.py.](images/hello_error.png)
 
 --- /task ---
 
+En Python, se usan las **variables** para almacenar texto o números. Las variables les facilita la lectura de códigos a los humanos. Puedes usar la misma variable en varias partes de tu código.
+
+Hemos incluido algunas variables que almacenan caracteres de emoji.
+
 --- task ---
 
-You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` will add a space between each item.
+En tu Trinket, haz clic en la pestaña **emoji.py**. Encuentra la variable `world`, que almacena el texto '🌍🌍🌍'.
 
-Click on the **main.py** tab to go back to your `print()` code.
+--- /task ---
 
-Change your code to also `print()` the contents of the `world` variable:
+--- task ---
+
+Puedes `print()` más de un objeto a la vez al incluir una coma `,` entre los objetos. `print()` añadirá un espacio entre cada objeto.
+
+Haz clic en la pestaña **main.py** para regresar a tu código `print()`.
+
+Cambia tu código para `print()` también el contenido de la variable `world`:
 
 --- code ---
 ---
@@ -91,37 +91,37 @@ language: python filename: main.py line_numbers: true line_number_start: 11
 line_highlights: 12
 ---
 
-# Put code to run under here
-print('Hello', world)
+# Pon el código a ejecutar aquí abajo
+print('Hola', world)
 
 --- /code ---
 
-**Tip:** `'Hello'` is a text string because it has single quotes around it, whereas `world` is a variable so the value stored in it will be printed.
+**Tip:** `'Hola'` es una cadena de texto porque tiene comillas simples alrededor, mientras que `world` es una variable, así que se imprimirá el valor que tiene almacenado.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code to see the result:
+**Test:** Ejecuta tu código para ver el resultado:
 
-![The updated line of code in the code area with the word 'Hello' followed by three emoji worlds showing in the output area.](images/run_hello_world.png)
+![La línea de código actualizada en el área de código con la palabra 'Hola' seguido de tres emojis de mundo mostrándose en el área de salida.](images/run_hello_world.png)
 
-Emoji can look different on different computers, so yours might not look exactly the same.
+Los emojis pueden verse distintos en diferentes computadoras, así que puede que el tuyo no se vea exactamente igual.
 
-**Debug:** Make sure that you have added a comma between the items in `print()` and that you have spelled `world` correctly.
+**Debug:** Asegúrate de haber añadido una coma entre los objetos en `print()` y que escribiste `world` correctamente.
 
-This example is missing the comma `,`. It's small but very important!
+A este ejemplo le falta la coma `,`. ¡Es pequeño, pero muy importante!
 
-![The Trinket editor with missing single quotes and error 'SyntaxError: bad input on line 12 in main.py' displayed.](images/comma_error.png)
+![El editor Trinket sin comillas simples y el error 'SyntaxError: bad input on line 12 in main.py'.](images/comma_error.png)
 
 --- collapse ---
 ---
-title: I don't see the emoji
+title: No veo el emoji
 ---
 
-Most computers allow you to use colour emoji. However, if you can't use emoji, then you can use 'emoticons' instead, the way we did before emoji were invented!
+La mayoría de computadoras te permiten usar emojis coloridos. Sin embargo, si no puedes usar emojis, puedes usar 'emoticones' en su lugar, ¡como lo hacíamos antes de que los emojis fueran inventados!
 
-Change the `from emoji import *` line to:
+Cambia la línea `from emoji import *` a:
 
 --- code ---
 ---
@@ -139,7 +139,7 @@ from noemoji import *
 
 --- task ---
 
-Add another line to your code to `print()` more text and emoji:
+Añade otra línea a tu código para `print()` más texto y emojis:
 
 --- code ---
 ---
@@ -147,29 +147,29 @@ language: python filename: main.py line_numbers: true line_number_start: 12
 line_highlights: 13
 ---
 
-print('Hello', world)    
-print('Welcome to', python)
+print('Hola', world)    
+print('Bienvenido a', python)
 
 --- /code ---
 
-**Tip:** The code you need to type is highlighted in a lighter colour. Code that is not highlighted helps you find where you need to add the new code.
+**Tip:** El código que necesitas tipear está resaltado de un color más claro. El código que no está resaltado te ayuda a encontrar en dónde necesitas añadir el nuevo código.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click **run**.
+**Test:** Haz clic en **run**.
 
-![The additional line of code in the code area with the word 'Hello' followed by three emoji worlds and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
+![La línea de código adicional en el área de código con la palabra 'Hola' seguido de tres emojis de mundo y las palabras 'Bienvenido a' seguido de un emoji de serpiente y teclado que se muestran el área de salida.](images/run_multiple.png)
 
-**Tip:** It's a good idea to run your code after every change so you can fix problems quickly.
+**Tip:** Es buena idea que ejecutes tu código luego de cada cambio para que puedas arreglar los problemas rápidamente.
 
-**Debug:** Check carefully for brackets, quotes, commas, and correct spelling. Python needs you to be really accurate.
+**Debug:** Verifica cuidadosamente los paréntesis, las comillas, las comas y la escritura correcta. Python necesita que seas realmente preciso.
 
 --- /task ---
 
-If you have a Trinket account, you can click on the **Remix** button to save a copy to your `My Trinkets` library.
+Si tienes una cuenta en Trinket, puedes hacer clic en el botón **Remix** para guardar una copia en tu bibliotecla `My Trinkets`.
 
-If you don't have a Trinket account, you can still come back to your project in the future on the same computer by using the starter project link.
+Si no tienes una cuenta en Trinket, igual puedes regresar a tu proyecto en el futuro en la misma computadora usando el enlace del proyecto de iniciación.
 
 --- save ---
