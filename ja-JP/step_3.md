@@ -6,7 +6,7 @@ Pythonは、数値と日付の処理に優れています。
 </div>
 <div>
 
-![新しい計算と現在の日付を示す5行を表示した出力領域。](images sums_dates.png){:width="300px"}
+![新しい計算と現在の日付を示す5行を表示した出力領域。](images/sums_dates.png){:width="300px"}
 
 </div>
 </div>
