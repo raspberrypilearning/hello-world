@@ -1,25 +1,25 @@
 ---
-title: Hello 🌍🌎🌏
+title: こんにちは 🌍🌎🌏
 hero_image: images/banner.png
-description: Write an interactive Python project that uses emoji
+description: 絵文字を使用するインタラクティブなPythonプロジェクトを作成する
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: Introduction
+    title: はじめに
   - 
-    title: Say hello
+    title: こんにちはと言う
   - 
-    title: Sums and dates
+    title: 計算と日付
     completion: engaged
   - 
-    title: Roll a dice
+    title: サイコロを振る
   - 
-    title: Sentence starter
+    title: 文のとっかかり
   - 
-    title: Reflection
+    title: ふりかえり
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -27,7 +27,7 @@ steps:
       passing_score: 3
     completion: internal
   - 
-    title: Upgrade your project
+    title: プロジェクトをアップグレードする
     completion: external
   - 
-    title: What next?
+    title: 次は何をしますか？
