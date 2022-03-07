@@ -4,43 +4,43 @@ from emoji import *
 from datetime import *
 from random import randint
 
-# Put function definitions under here
+# Mettre les définitions de fonction ci-dessous
 
-def roll_dice():
-  print(python, 'can make a', dice)
-  max = input('How many sides?') # get input from the user
-  print('That\'s a D', max) # use the number the user entered
-  roll = randint(1, int(max)) # generate a random number 
-  print('You rolled a', roll) # print the value of the roll variable
-  print(fire * roll) # repeat the fire text roll times
+def roule_de():
+  print(python, 'peut faire un', dice)
+  max = input('Combien de côtés ?') # obtient l'entrée de l'utilisateur
+  print('C'est un D', max) # utilise le nombre saisi par l'utilisateur
+  roll = randint(1, int(max)) # génère un nombre aléatoire 
+  print('Tu as tiré un', roll) # imprime la valeur de la variable roll
+  print(fire * roll) # répéter le texte fire plusieurs fois
 
 def hobbies():
-  hobby = input('What do you like?')
-  print('That sounds', fun)
-  print('You could make a', python, 'project about', hobby)
+  hobby = input('Qu'est-ce que tu aimes ?')
+  print('Ça sonne', fun)
+  print('Tu pourrais faire un projet ', python, 'à propos de ', hobby)
 
-# Useful characters :',()*_/.#
+# Caractères utiles :',()*_/.#
 
-# Put code to run under here
-print('Hello', world)
-print('Welcome to', python)
+# Mettre le code à exécuter ci-dessous
+print('Bonjour', world)
+print('Bienvenue à', python)
 
-input() # wait for the user to tap Enter
+input() # attend que l'utilisateur appuie sur Entrée
 
-print(python, 'is very good at', sums)
+print(python, 'est très bon en', sums)
 print(230 * 5782 ** 2 / 23781)
 
 input()
 
-print('The', calendar, clock, 'is', datetime.now()) # print current date and time with emoji 
+print('Le', calendar, clock, 'est', datetime.now()) # affiche la date et l'heure actuelles avec emoji 
 
 input()
 
-roll_dice() # Call the roll_dice function
+roule_de() # Appelle la fonction roule_de
 
 input()
 
-hobbies() # Call the hobbies function
+hobbies() # Appelle la fonction hobbies
 
 
 
