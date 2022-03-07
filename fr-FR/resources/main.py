@@ -10,9 +10,9 @@ def roule_de():
   print(python, 'peut faire un', dice)
   max = input('Combien de côtés ?') # obtient l'entrée de l'utilisateur
   print('C'est un D', max) # utilise le nombre saisi par l'utilisateur
-  roll = randint(1, int(max)) # génère un nombre aléatoire 
+  roule = randint(1, int(max)) # génère un nombre aléatoire 
   print('Tu as tiré un', roll) # imprime la valeur de la variable roll
-  print(fire * roll) # répéter le texte fire plusieurs fois
+  print(fire * roule) # répéter le texte fire plusieurs fois
 
 def hobbies():
   hobby = input('Qu'est-ce que tu aimes ?')
