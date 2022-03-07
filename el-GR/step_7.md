@@ -1,25 +1,25 @@
-## Upgrade your project
+## Αναβάθμισε το έργο σου
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add more to your project. There are more emoji to choose from.
+Πρόσθεσε περισσότερα στο έργο σου. Υπάρχουν περισσότερα emoji για να διαλέξεις.
   </div>
 <div>
 
-![A longer project in the output area with more text, emoji, and inputs.](images/upgrade_ideas.png){:width="300px"}
+![Ένα μεγαλύτερο έργο στην περιοχή εξόδου με περισσότερο κείμενο, emoji και εισόδους.](images/upgrade_ideas.png){:width="300px"}
 
 </div>
 </div>
 
-You could:
-+ Use `print` with different text and emoji
-+ Use `input` to get values from the user and store them as variables, then do sums with the variables
-+ Write more functions to organise your code
-+ Use `#` to add comments to your code
+Θα μπορούσες να:
++ Χρησιμοποιήσεις την εντολή `print` με διαφορετικό κείμενο και emoji
++ Χρησιμοποιήσεις την εντολή `input` για να λάβεις τιμές από τον χρήστη και να τις αποθηκεύσεις ως μεταβλητές και, στη συνέχεια, να κάνεις πράξεις με τις μεταβλητές
++ Δημιουργήσεις περισσότερες συναρτήσεις για να οργανώσεις τον κώδικά σου
++ Χρησιμοποιήσεις το `#` για να προσθέσεις σχόλια στον κώδικά σου
 
-Click on **emoji.py** to see the emoji variables that you can use. Click back on **main.py** to add to your code.
+Κάνε κλικ στην καρτέλα **emoji.py** για να δεις τις μεταβλητές emoji που μπορείς να χρησιμοποιήσεις. Κάνε κλικ ξανά στην καρτέλα **main.py** για να τις προσθέσεις στον κώδικά σου.
 
-Here's an example function that asks about hobbies:
+Ακολουθεί ένα παράδειγμα συνάρτησης που ρωτά για χόμπι:
 
 --- code ---
 ---
@@ -27,17 +27,17 @@ language: python
 filename: main.py
 ---
 
-# Put code to run under here
+# Βάλε κώδικα για εκτέλεση εδώ
 def hobbies():   
-hobby = input('What do you like?')   
-print('That sounds', fun)   
-print('You could make a', python, 'project about', hobby)
+hobby = input('Τι σου αρέσει να κάνεις;')   
+print('Ακούγεται', fun)   
+print('Θα μπορούσες να κάνεις ένα', python, 'έργο για', hobby)
 
 --- /code ---
 
-**Tip:** Don't forget you will need to call your function as well as define it.
+**Συμβουλή:** Μην ξεχνάς ότι θα χρειαστεί να καλέσεις τη συνάρτησή σου καθώς και να την ορίσεις.
 
-You can use `input` to make your project wait for the user to tap <kbd>Enter</kbd> at any point in this project.
+Μπορείς να χρησιμοποιήσεις την εντολή `input` για να κάνεις το έργο σου να περιμένει μέχρι ο χρήστης να πατήσει <kbd>Enter</kbd> σε οποιοδήποτε σημείο αυτού του έργου.
 
 --- code ---
 ---
@@ -47,7 +47,7 @@ filename: main.py
 
 roll_dice()
 
-input() #Wait for the user to tap Enter
+input() #Περίμενε μέχρι να πατήσει ο χρήστης Enter
 
 hobbies()
 
@@ -56,10 +56,10 @@ hobbies()
 
 --- collapse ---
 ---
-title: Completed project
+title: Ολοκληρωμένο έργο
 ---
 
-You can view the [completed project here](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}.
+Μπορείς να δεις [ολοκληρωμένο το έργο εδώ](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}.
 
 --- /collapse ---
 
