@@ -34,13 +34,13 @@ Dat klopt, als je deze functie aanroept, wordt `Ik kan coderen` afgedrukt. Je he
 language: python
 ---
 
-def awesome(): print('I can code')
+def geweldig(): print('Ik kan coderen')
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, the layout in this example would cause an error.
+ Niet helemaal, de lay-out in dit voorbeeld zou een fout veroorzaken.
 
  --- /feedback ---
 
@@ -51,13 +51,13 @@ def awesome(): print('I can code')
 language: python
 ---
 
-def awesome() print('I can code')
+def geweldig() print('Ik kan coderen')
 
 --- /code ---
 
  --- feedback ---
 
-Not quite, there is something missing from the function definition that woud cause an error.
+Niet helemaal, er ontbreekt iets in de functiedefinitie en deze lay-out zou een fout veroorzaken.
 
  --- /feedback ---
 
