@@ -4,43 +4,43 @@ from emoji import *
 from datetime import *
 from random import randint
 
-# Put function definitions under here
+# Pon las definiciones de función aquí abajo
 
 def roll_dice():
-  print(python, 'can make a', dice)
-  max = input('How many sides?') # get input from the user
-  print('That\'s a D', max) # use the number the user entered
-  roll = randint(1, int(max)) # generate a random number 
-  print('You rolled a', roll) # print the value of the roll variable
-  print(fire * roll) # repeat the fire text roll times
+  print(python, 'puede crear un', dice)
+  max = input('¿Cuántas caras?') # Obtener entrada del usuario
+  print('Es un D', max) # Usa el número que el usuario introdujo
+  roll = randint(1, int(max)) # Genera un número aleatorio 
+  print('Lanzaste un', roll) # Imprime el valor de la variable del tiro
+  print(fire * roll) # Repite el texto de fuego las veces del resultado del tiro
 
 def hobbies():
-  hobby = input('What do you like?')
-  print('That sounds', fun)
-  print('You could make a', python, 'project about', hobby)
+  hobby = input('¿Qué te gusta?')
+  print('Eso suena', fun)
+  print('Podrías hacer un proyecto', python, 'sobre', hobby)
 
-# Useful characters :',()*_/.#
+# Caracteres útiles :',()*_/.#
 
-# Put code to run under here
-print('Hello', world)
-print('Welcome to', python)
+# Pon el código a ejecutar aquí abajo
+print('Hola', world)
+print('Bienvenido a', python)
 
-input() # wait for the user to tap Enter
+input() # Espera a que el usuario presione Enter
 
-print(python, 'is very good at', sums)
+print(python, 'es muy bueno en', sums)
 print(230 * 5782 ** 2 / 23781)
 
 input()
 
-print('The', calendar, clock, 'is', datetime.now()) # print current date and time with emoji 
+print('La', calendar, clock, 'es', datetime.now()) # Imprime la fecha y hora actual con emoji 
 
 input()
 
-roll_dice() # Call the roll_dice function
+roll_dice() # Llama a la función roll_dice
 
 input()
 
-hobbies() # Call the hobbies function
+hobbies() # Llama a la función hobbies
 
 
 
