@@ -1,25 +1,25 @@
 ## Introduction
 
-Find out what the Python programming language can do by writing an interactive project that uses emoji.
+Découvre ce que le langage de programmation Python peut faire en écrivant un projet interactif qui utilise des emoji.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Emoji**</span> are small colourful images used to add extra meaning to messages. Emoji means 'picture word' in Japanese.
+<span style="color: #0faeb0">**Emoji**</span> sont de petites images colorées utilisées pour ajouter une signification supplémentaire aux messages. Emoji signifie "mot image" en japonais.
 </p>
 
-You will:
-+ `print()` text, including emoji, and get `input()` from the user
-+ Store text and numbers in **variables**
-+ Use **functions** to organise your code
+Tu vas devoir :
++ `print()` du texte, y compris des emoji, et obtenir des `input()` de l'utilisateur
++ Stocker du texte et des nombres dans des **variables**
++ Utiliser des **fonctions** pour organiser ton code
 
 --- no-print ---
 
 --- task ---
 
-### Try it
+### Essaie-le
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Read the output and then tap <kbd>Enter</kbd> to continue. 
-Type in your answers to the questions. Can you see how your answers are used?
+Lis la sortie, puis appuye sur <kbd>Entrée</kbd> pour continuer. 
+Tape tes réponses aux questions. Peux-tu voir comment tes réponses sont utilisées ?
 </div>
 <div class="trinket">
   <iframe src="https://trinket.io/embed/python/a54e164ac2?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -34,6 +34,6 @@ Type in your answers to the questions. Can you see how your answers are used?
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![Projet terminé](images/showcase_static.png)
 
 --- /print-only ---
