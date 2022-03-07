@@ -34,13 +34,13 @@ C'est exact, appeler cette fonction imprimera `Je peux coder`. Tu as remarqué q
 language: python
 ---
 
-def awesome(): print('I can code')
+def impressionnant(): print('Je peux coder')
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, the layout in this example would cause an error.
+ Pas tout à fait, la mise en page de cet exemple provoquerait une erreur.
 
  --- /feedback ---
 
@@ -51,13 +51,13 @@ def awesome(): print('I can code')
 language: python
 ---
 
-def awesome() print('I can code')
+def impressionnant() print('Je peux coder')
 
 --- /code ---
 
  --- feedback ---
 
-Not quite, there is something missing from the function definition that woud cause an error.
+Pas tout à fait, il manque quelque chose dans la définition de la fonction qui provoquerait une erreur.
 
  --- /feedback ---
 
