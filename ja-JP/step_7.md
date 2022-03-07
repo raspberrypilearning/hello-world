@@ -1,25 +1,25 @@
-## Upgrade your project
+## プロジェクトをアップグレードする
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add more to your project. There are more emoji to choose from.
+プロジェクトにもっと追加しましょう。 選択できる絵文字は他にもあります。
   </div>
 <div>
 
-![A longer project in the output area with more text, emoji, and inputs.](images/upgrade_ideas.png){:width="300px"}
+![出力領域のより多くのテキスト、絵文字、入力で長くなったプロジェクト。](images/upgrade_ideas.png){:width="300px"}
 
 </div>
 </div>
 
-You could:
-+ Use `print` with different text and emoji
-+ Use `input` to get values from the user and store them as variables, then do sums with the variables
-+ Write more functions to organise your code
-+ Use `#` to add comments to your code
+こんなことができます。
++ 違うテキストや絵文字を使って`print`する
++ `input`を使用してユーザーから値を取得し、それを変数として格納してから、変数を使った計算を行う
++ もっと関数を書いてコードを整理する
++ `#`を使用して、コードにコメントを追加する
 
-Click on **emoji.py** to see the emoji variables that you can use. Click back on **main.py** to add to your code.
+**emoji.py**クリックして、使用できる絵文字変数を確認します。 **main.py**をクリックして戻り、コードに追加します。
 
-Here's an example function that asks about hobbies:
+趣味について尋ねる関数の例を次に示します。
 
 --- code ---
 ---
@@ -27,17 +27,17 @@ language: python
 filename: main.py
 ---
 
-# Put code to run under here
+# 動かしたいコードをこの下に書く
 def hobbies():   
-hobby = input('What do you like?')   
-print('That sounds', fun)   
-print('You could make a', python, 'project about', hobby)
+hobby = input('あなたは何に興味がありますか?')   
+print('それは', fun, 'そうですね')   
+print(python, 'で', hobby, 'に関するプロジェクトを作ることができます')
 
 --- /code ---
 
-**Tip:** Don't forget you will need to call your function as well as define it.
+**ヒント：**関数を定義するだけでなく、呼び出す必要があることを忘れないでください。
 
-You can use `input` to make your project wait for the user to tap <kbd>Enter</kbd> at any point in this project.
+`input`を使うと、プロジェクトの任意の時点で、ユーザーが <kbd>Enter</kbd>をたたくまで待たせることができます。
 
 --- code ---
 ---
@@ -47,7 +47,7 @@ filename: main.py
 
 roll_dice()
 
-input() #Wait for the user to tap Enter
+input() # ユーザーがEnterをたたくのを待つ
 
 hobbies()
 
@@ -56,10 +56,10 @@ hobbies()
 
 --- collapse ---
 ---
-title: Completed project
+title: 完成したプロジェクト
 ---
 
-You can view the [completed project here](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}.
+[完成したプロジェクトはこちら](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}で確認できます。
 
 --- /collapse ---
 
