@@ -1,25 +1,25 @@
-## Upgrade your project
+## Verbeter je project
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add more to your project. There are more emoji to choose from.
+Voeg meer toe aan je project. Er zijn meer emoji om uit te kiezen.
   </div>
 <div>
 
-![A longer project in the output area with more text, emoji, and inputs.](images/upgrade_ideas.png){:width="300px"}
+![Een langer project in het uitvoergebied met meer tekst, emoji en invoer.](images/upgrade_ideas.png){:width="300px"}
 
 </div>
 </div>
 
-You could:
-+ Use `print` with different text and emoji
-+ Use `input` to get values from the user and store them as variables, then do sums with the variables
-+ Write more functions to organise your code
-+ Use `#` to add comments to your code
+Je kunt:
++ `print` gebruiken met verschillende tekst en emoji
++ `input` gebruiken om info van de gebruiker te krijgen en deze op te slaan als variabelen, en vervolgens sommen te maken met de variabelen
++ meer functies gebruiken om je code te ordenen
++ `#` gebruiken om opmerkingen aan je code toe te voegen
 
-Click on **emoji.py** to see the emoji variables that you can use. Click back on **main.py** to add to your code.
+Klik op **emoji.py** om de emoji-variabelen te zien die je kunt gebruiken. Klik terug op **main.py** om code toe te voegen.
 
-Here's an example function that asks about hobbies:
+Hier is een voorbeeld functie die naar hobby's vraagt:
 
 --- code ---
 ---
@@ -27,17 +27,17 @@ language: python
 filename: main.py
 ---
 
-# Put code to run under here
-def hobbies():   
-hobby = input('What do you like?')   
-print('That sounds', fun)   
-print('You could make a', python, 'project about', hobby)
+# Zet de code om uit te voeren hier onder
+def hobbies():    
+hobby = input('Wat vind je leuk?')   
+print('Dat klinkt', leuk)   
+print('Je zou een', python, 'project over jouw', hobby, 'kunnen maken')
 
 --- /code ---
 
-**Tip:** Don't forget you will need to call your function as well as define it.
+**Tip:** Vergeet niet dat je de functie zowel moet aanroepen als definiëren.
 
-You can use `input` to make your project wait for the user to tap <kbd>Enter</kbd> at any point in this project.
+Je kunt `input` gebruiken om je project te laten wachten tot de gebruiker op <kbd>Enter</kbd> drukt op ieder punt in dit project.
 
 --- code ---
 ---
@@ -45,9 +45,9 @@ language: python
 filename: main.py
 ---
 
-roll_dice()
+gooi_dobbelsteen()
 
-input() #Wait for the user to tap Enter
+input() #Wacht tot de gebruiker op Enter drukt
 
 hobbies()
 
@@ -56,10 +56,10 @@ hobbies()
 
 --- collapse ---
 ---
-title: Completed project
+title: Voltooid project
 ---
 
-You can view the [completed project here](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}.
+Je kunt het [voltooide project hier](https://trinket.io/embed/python/a54e164ac2){:target="_blank"} bekijken.
 
 --- /collapse ---
 
