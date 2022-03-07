@@ -34,13 +34,13 @@ def awesome(): print('Μπορώ να προγραμματίσω')
 language: python
 ---
 
-def awesome(): print('I can code')
+def awesome(): print('Μπορώ να προγραμματίσω')
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, the layout in this example would cause an error.
+ Όχι ακριβώς, η διάταξη σε αυτό το παράδειγμα θα προκαλούσε σφάλμα.
 
  --- /feedback ---
 
@@ -51,13 +51,13 @@ def awesome(): print('I can code')
 language: python
 ---
 
-def awesome() print('I can code')
+def awesome() print('Μπορώ να προγραμματίσω')
 
 --- /code ---
 
  --- feedback ---
 
-Not quite, there is something missing from the function definition that woud cause an error.
+Όχι ακριβώς, κάτι λείπει από τον ορισμό της συνάρτησης και αυτό θα προκαλούσε σφάλμα.
 
  --- /feedback ---
 
