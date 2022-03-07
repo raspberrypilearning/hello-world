@@ -1,10 +1,10 @@
-## What next?
+## 次は何をしますか？
 
-If you are following the [Introduction to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [Target practice](https://projects.raspberrypi.org/en/projects/target-practice) project. In this project, you will draw a target then make an archery game that shoots arrows to score points.
+[Python入門](https://projects.raspberrypi.org/en/raspberrypi/python-intro)パスに沿って進めている方は、[射的](https://projects.raspberrypi.org/en/projects/target-practice)プロジェクトに進みましょう。 このプロジェクトでは、的を描き、矢を放ってポイントを獲得するアーチェリーゲームを作成します。
 
 --- print-only ---
 
-![Archery project](images/archery-project.png)
+![アーチェリープロジェクト](images/archery-project.png)
 
 --- /print-only ---
 
@@ -15,4 +15,4 @@ If you are following the [Introduction to Python](https://projects.raspberrypi.o
 
 --- /no-print ---
 
-If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
+Pythonのさまざまな機能を触ってみたい場合は[これらのプロジェクト](https://projects.raspberrypi.org/en/projects?software%5B%5D=python)を試してみてください。
