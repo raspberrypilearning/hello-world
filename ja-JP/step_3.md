@@ -1,27 +1,27 @@
-## Sums and dates
+## 計算と日付
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Python is great at working with numbers and dates.
+Pythonは、数値と日付の処理に優れています。
 </div>
 <div>
 
-![The output area with five printed lines showing new sum and current date outputs.](images/sums_dates.png){:width="300px"}
+![新しい計算と現在の日付を示す5行を表示した出力領域。](images sums_dates.png){:width="300px"}
 
 </div>
 </div>
 
-In Python you can use maths operators to do sums:
+Pythonでは、数学演算子を使用して計算を行うことができます。
 
-| + | add |   
-| - | subtract |   
-| * | multiply |   
-| / | divide |   
-| ** | to the power |
+| + | 足し算 |   
+| - | 引き算 |   
+| * | 掛け算 |   
+| / | 割り算 |   
+| ** | べき乗 |
 
 --- task ---
 
-Add another two `print()` lines to your code including a sum for Python to work out:
+Pythonが行う計算を含む`print()`行をもう2行、コードに追加します。
 
 --- code ---
 ---
@@ -29,9 +29,9 @@ language: python filename: main.py line_numbers: true line_number_start: 12
 line_highlights: 14-15
 ---
 
-print('Hello', world)   
-print('Welcome to', python)   
-print(python, 'is very good at', sums)   
+print('こんにちは', world)   
+print(python, 'へ ようこそ')   
+print(python, 'は', sums, 'が得意です')   
 print(230 * 5782 ** 2 / 23781)
 
 --- /code ---
@@ -40,53 +40,53 @@ print(230 * 5782 ** 2 / 23781)
 
 --- task ---
 
-**Test:** Run your code. Did Python calculate the sum correctly? Only joking! Python does the hard maths for you so you don't need to work it out.
+**テスト：**コードを実行します。 Pythonは正しく計算しましたか？ ほんの冗談です！ Pythonが難しい計算をやってくれるので、あなたがする必要はありません。
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi (*π*) to 31 trillion digits. That answer is so long that it would take over 300,000 years just to say it! 
+日本のコンピューター科学者<span style="color: #0faeb0">**岩尾エマはるか**</span>は、コンピューターを使用して円周率（*π*）の値を31兆桁まで計算しました。 その答えは非常に長いので、それを言うだけでも30万年以上かかります！ 
 </p>
 
 --- task ---
 
-Try changing the sum that Python does to a complicated one!
+Pythonが行う計算を複雑なものに変更してみてください！
 
-You can also use brackets if you want to control the order that Python calculates the sum: `print( (2 + 4) * (5 + 3) )`.
-
---- /task ---
-
---- task ---
-
-**Test:** Run your code and get Python to calculate your sum.
-
-**Debug:** Make sure your sum has a left and right round bracket around it `( 2 * 45 )`. If you use extra brackets to control the order, make you have a right bracket to match every left bracket.
+Pythonが計算する順序を制御するために、`print((2 + 4) * (5 + 3))`のようにかっこを使うこともできます。
 
 --- /task ---
 
 --- task ---
 
-If you have asked Python to calculate a really big sum, you might find the answer goes across multiple lines in the output area.
+**テスト：**コードを実行し、Pythonに計算させます。
 
-**Tip:** Click on the **hamburger menu** (the icon with three lines) in the top-left of your Trinket editor. Then click on the **Fullscreen** button to view your project in fullscreen mode.
-
-![The Trinket editor with left-hand side menu expanded, via the hamburger menu, to show the fullscreen option.](images/full_screen.png)
-
-To exit fullscreen mode, click on the **Fullscreen** button again or press <kbd>Esc</kbd> on your keyboard.
+**デバッグ：**計算式の前後に左右の丸かっこがあることを確認してください `(2 * 45)`。 順序を決めるするためにたくさんのかっこを使う場合、すべての左かっこの個数が右かっこの個数と一致いていることを確認してください。
 
 --- /task ---
 
-The line `from datetime import *` at the top of the **main.py** tab includes a library with helpful functions for getting the current date and time.
+--- task ---
+
+Pythonに非常に大きな数値の計算させた場合、答えが出力領域の複数の行にまたがる場合があります。
+
+**ヒント：**Trinketエディターの左上にある**ハンバーガーメニュー**（3本線のアイコン）をクリックします。 次に、**Fullsreen**ボタンをクリックして、プロジェクトを全画面モードで表示します。
+
+![左側のメニューがハンバーガーメニューを介して拡張され、全画面オプションが表示されたTrinketエディター。](images/full_screen.png)
+
+全画面モードを終了するには、**Fullscreen**ボタンをもう一度クリックするか、キーボードの<kbd>Esc</kbd>を押します。
+
+--- /task ---
+
+**maun.py**タブの上部にある`from datetime import *`の行で、現在の日付と時刻を取得するための便利な関数を備えたライブラリが読み込まれます。
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. A Python library allows you to easily use code that other people have written. There are libraries for drawing charts and graphs, making art, doing calculations, and lots more.
+Pythonの優れた点の1つは、利用できるコード<span style="color: #0faeb0">**ライブラリ**</span>です。 Pythonライブラリを使用すると、他の人が書いたコードを簡単に使用できます。 図やグラフの描画やアートの作成、計算といった様々なライブラリがあります。
 </p>
 
 --- task ---
 
-Add another line to your code to `print` some more text and the emoji variables `calendar` and `clock`.
+コードに行を追加して、テキストと、絵文字変数である`calendar`と`clock`を`print`します。
 
-Get the current date and time by using the `now()` function from the `datetime` library:
+`datetime`ライブラリの`now()`関数を使用して、現在の日付と時刻を取得します。
 
 --- code ---
 ---
@@ -94,21 +94,21 @@ language: python filename: main.py line_numbers: true line_number_start: 14
 line_highlights: 16-17
 ---
 
-print(python, 'is very good at', sums)    
-print(230 * 5782 ** 2 / 23781) #Print the result of the sum     
-print('The', calendar, clock, 'is', datetime.now()) #Print with emoji
+print(python, 'は', sums,' が得意です')    
+print(230 * 5782 ** 2 / 23781) #計算結果を出力     
+print(calendar, clock, 'は', datetime.now()) #絵文字を出力
 
 --- /code ---
 
-**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
+**ヒント：**コメントを入力する必要はありません。コメントは、コードを理解するのに役立つだけです。 `#`より前の部分だけを入力してください。
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code a couple of times to see the date and time update.
+**テスト：**コードを数回実行して、日付と時刻変わるのを確認します。
 
-**Debug:** Check that you have a fullstop `.` between `datetime` and `now`. Check all the punctuation carefully.
+**デバッグ：**`datetime`と`now`の間にピリオド`.`があることを確認します。 すべての句読点を注意深く確認してください。
 
 --- /task ---
 
