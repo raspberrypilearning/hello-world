@@ -1,27 +1,27 @@
-## Sums and dates
+## Αθροίσματα και ημερομηνίες
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Python is great at working with numbers and dates.
+Η Python είναι εξαιρετική στην επεξεργασία αριθμών και ημερομηνιών.
 </div>
 <div>
 
-![The output area with five printed lines showing new sum and current date outputs.](images/sums_dates.png){:width="300px"}
+![Η περιοχή εξόδου με πέντε εκτυπωμένες γραμμές που εμφανίζουν νέες εξόδους αθροίσματος και τρέχουσας ημερομηνίας.](images/sums_dates.png){:width="300px"}
 
 </div>
 </div>
 
-In Python you can use maths operators to do sums:
+Στην Python μπορείς να χρησιμοποιήσεις μαθηματικούς τελεστές για να κάνεις πράξεις:
 
-| + | add |   
-| - | subtract |   
-| * | multiply |   
-| / | divide |   
-| ** | to the power |
+| + | πρόσθεση |   
+| - | αφαίρεση |   
+| * | πολλαπλασιασμός |   
+| / | διαίρεση |   
+| ** | ύψωση σε δύναμη |
 
 --- task ---
 
-Add another two `print()` lines to your code including a sum for Python to work out:
+Πρόσθεσε ακόμη δύο γραμμές `print()` στον κώδικά σου, συμπεριλαμβανομένης μιας πράξης που θα υπολογίσει η Python:
 
 --- code ---
 ---
@@ -29,9 +29,9 @@ language: python filename: main.py line_numbers: true line_number_start: 12
 line_highlights: 14-15
 ---
 
-print('Hello', world)   
-print('Welcome to', python)   
-print(python, 'is very good at', sums)   
+print('Γεια σου', world)   
+print('Καλώς ήρθες στην ', python)   
+print(python, 'είναι πολύ καλή στα', sums)   
 print(230 * 5782 ** 2 / 23781)
 
 --- /code ---
@@ -40,53 +40,53 @@ print(230 * 5782 ** 2 / 23781)
 
 --- task ---
 
-**Test:** Run your code. Did Python calculate the sum correctly? Only joking! Python does the hard maths for you so you don't need to work it out.
+**Δοκιμή:** Εκτέλεσε τον κώδικά σου. Η Python υπολόγισε σωστά την πράξη; Αστειευόμαστε! Η Python κάνει τις δύσκολες πράξεις για εσένα, ώστε να μην χρειάζεται να τις πραγματοποιείς.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi (*π*) to 31 trillion digits. That answer is so long that it would take over 300,000 years just to say it! 
+Η Ιαπωνέζα επιστήμονας υπολογιστών <span style="color: #0faeb0">**Emma Haruka Iwao**</span> χρησιμοποίησε έναν υπολογιστή για να υπολογίσει την τιμή του Pi (*π*) με 31 τρισεκατομμύρια ψηφία. Αυτή η απάντηση είναι τόσο μεγάλη που θα χρειαζόταν πάνω από 300.000 χρόνια μόνο για να την πεις! 
 </p>
 
 --- task ---
 
-Try changing the sum that Python does to a complicated one!
+Δοκίμασε να αλλάξεις την πράξη που πραγματοποιεί η Python σε μία περίπλοκη!
 
-You can also use brackets if you want to control the order that Python calculates the sum: `print( (2 + 4) * (5 + 3) )`.
-
---- /task ---
-
---- task ---
-
-**Test:** Run your code and get Python to calculate your sum.
-
-**Debug:** Make sure your sum has a left and right round bracket around it `( 2 * 45 )`. If you use extra brackets to control the order, make you have a right bracket to match every left bracket.
+Μπορείς επίσης να χρησιμοποιήσεις παρενθέσεις αν θέλεις για να ελέγξεις τη σειρά με την οποία η Python πραγματοποιεί την πράξη: `print( (2 + 4) * (5 + 3) )`.
 
 --- /task ---
 
 --- task ---
 
-If you have asked Python to calculate a really big sum, you might find the answer goes across multiple lines in the output area.
+**Δοκιμή:** Εκτέλεσε τον κώδικά σου και άσε την Python να πραγματοποιήσει την πράξη σου.
 
-**Tip:** Click on the **hamburger menu** (the icon with three lines) in the top-left of your Trinket editor. Then click on the **Fullscreen** button to view your project in fullscreen mode.
-
-![The Trinket editor with left-hand side menu expanded, via the hamburger menu, to show the fullscreen option.](images/full_screen.png)
-
-To exit fullscreen mode, click on the **Fullscreen** button again or press <kbd>Esc</kbd> on your keyboard.
+**Εντοπισμός σφαλμάτων:** Βεβαιώσου ότι η παράσταση της πράξης σου έχει μια αριστερή και δεξιά παρένθεση γύρω της `( 2 * 45 )`. Εάν χρησιμοποιείς επιπλέον παρενθέσεις για τον έλεγχο της σειράς των πράξεων, φρόντισε σε κάθε αριστερή παρένθεση να ταιριάζει μια δεξιά.
 
 --- /task ---
 
-The line `from datetime import *` at the top of the **main.py** tab includes a library with helpful functions for getting the current date and time.
+--- task ---
+
+Εάν έχεις ζητήσει από την Python να υπολογίσει ένα πολύ μεγάλο νούμερο, μπορεί να βρεις ότι η απάντηση καταλαμβάνει πολλές γραμμές στην περιοχή εξόδου.
+
+**Συμβουλή:** Κάνε κλικ στο **μενού χάμπουργκερ** (το εικονίδιο με τις τρεις γραμμές) στο επάνω αριστερό μέρος του προγράμματος επεξεργασίας Trinket. Στη συνέχεια, κάνε κλικ στο κουμπί **Πλήρης οθόνη** για να προβάλεις το έργο σου σε λειτουργία πλήρους οθόνης.
+
+![Το πρόγραμμα επεξεργασίας Trinket με το μενού στην αριστερή πλευρά να έχει επεκταθεί, μέσω του μενού χάμπουργκερ, για να εμφανιστεί η επιλογή πλήρους οθόνης.](images/full_screen.png)
+
+Για έξοδο από τη λειτουργία πλήρους οθόνης, κάνε ξανά κλικ στο κουμπί **Πλήρης οθόνη** ή πάτησε <kbd>Esc</kbd> στο πληκτρολόγιό σου.
+
+--- /task ---
+
+Η γραμμή `from datetime import *` στην κορυφή της καρτέλας **main.py** περιλαμβάνει μια βιβλιοθήκη με χρήσιμες λειτουργίες για τη λήψη της τρέχουσας ημερομηνίας και ώρας.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. A Python library allows you to easily use code that other people have written. There are libraries for drawing charts and graphs, making art, doing calculations, and lots more.
+Ένα από τα σπουδαία πράγματα σχετικά με την Python είναι όλες οι <span style="color: #0faeb0">**βιβλιοθήκες**</span> κώδικα που είναι διαθέσιμες για χρήση. Μια βιβλιοθήκη Python σου επιτρέπει να χρησιμοποιείς εύκολα κώδικα που έχουν γράψει άλλοι άνθρωποι. Υπάρχουν βιβλιοθήκες για να σχεδιάζεις γραφήματα, να δημιουργείς τέχνη, να κάνεις υπολογισμούς και πολλά άλλα.
 </p>
 
 --- task ---
 
-Add another line to your code to `print` some more text and the emoji variables `calendar` and `clock`.
+Πρόσθεσε μια ακόμα γραμμή στον κώδικά σου για να `εμφανίσεις` λίγο παραπάνω κείμενο και τις μεταβλητές emoji `calendar` και `clock`.
 
-Get the current date and time by using the `now()` function from the `datetime` library:
+Λάβε την τρέχουσα ημερομηνία και ώρα χρησιμοποιώντας τη συνάρτηση `now()` από τη βιβλιοθήκη `datetime`:
 
 --- code ---
 ---
@@ -94,21 +94,21 @@ language: python filename: main.py line_numbers: true line_number_start: 14
 line_highlights: 16-17
 ---
 
-print(python, 'is very good at', sums)    
-print(230 * 5782 ** 2 / 23781) #Print the result of the sum     
-print('The', calendar, clock, 'is', datetime.now()) #Print with emoji
+print(python, 'είναι πολύ καλή στα', sums)    
+print(230 * 5782 ** 2 / 23781) #Τυπώνει το αποτέλεσμα της πράξης     
+print('Το', calendar, clock, 'είναι', datetime.now()) #Εμφανίζει με emoji
 
 --- /code ---
 
-**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
+**Συμβουλή:** Δεν χρειάζεται να πληκτρολογήσεις τα σχόλια, είναι απλώς εκεί για να σε βοηθήσουν να κατανοήσεις τον κώδικα. Απλώς πληκτρολόγησε το μέρος της εντολής πριν από το `#`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code a couple of times to see the date and time update.
+**Δοκιμή:** Εκτέλεσε τον κώδικά σου μερικές φορές για να δεις την ενημέρωση της ημερομηνίας και της ώρας.
 
-**Debug:** Check that you have a fullstop `.` between `datetime` and `now`. Check all the punctuation carefully.
+**Εντοπισμός σφαλμάτων:** Έλεγξε ότι έχεις μία τελεία `.` μεταξύ `datetime` και `now`. Έλεγξε προσεκτικά όλα τα σημεία στίξης.
 
 --- /task ---
 
