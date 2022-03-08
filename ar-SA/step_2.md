@@ -21,17 +21,17 @@ Open the [Hello 🌍🌎🌏 starter project](https://trinket.io/python/975f3502
 
 يخبر السطر البرمجي هذا `#! / bin / python3` أنك تستخدم لغة Python 3 (أحدث إصدار). تخبر الأسطر هذه `import` لغة Python أنك ستستخدم رمزًا لم تكتبه.
 
-In Python, `print()` outputs text (words or numbers) to the screen.
+في Python ، تقوم `print ()` بإخراج النص (اي كلمات أو أرقام) على الشاشة.
 
-Lines beginning with `#` are comments, they explain the code to humans and are ignored by Python.
+الأسطر التي تبدأ بالمتغير البرمجي هذا `#` هي عبارة عن تعليقات (ملاحظات يقوم بكتابتها المبرمج) و هي تشرح المقطع البرمجي للبشر وتتجاهلها لغة Python اي لا تنفذ.
 
 --- task ---
 
 Find the `# Put code to run below here` line.
 
-Click below that line. The flashing `|` is the cursor and shows where you will type.
+انقر أسفل هذا الخط. The flashing `|` is the cursor and shows where you will type.
 
-Type the code to `print()` hello:
+اكتب المقطع البرمجي `print ()` لطباعة مرحباً:
 
 --- code ---
 ---
@@ -39,17 +39,17 @@ language: python filename: main.py line_numbers: true line_number_start: 11
 line_highlights: 12
 ---
 
-# Put code to run under here
+# ضع هنا مقطعاً برمجياً لكي ينفد
 print('Hello')
 
 --- /code ---
 
 --- collapse ---
 ---
-title: Typing special characters on a UK or US keyboard
+print ('مرحباً')
 ---
 
-On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kbd>9</kbd> and <kbd>0</kbd> keys. To type a left round bracket, hold down the <kbd>Shift</kbd> key (next to <kbd>Z</kbd>) and then tap <kbd>9</kbd>. The single quote `'` is on the same row as the <kbd>L</kbd> key, just before the <kbd>Enter</kbd> key. The comma `,` is next to the <kbd>M</kbd>.
+On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kbd>9</kbd> and <kbd>0</kbd> keys. لكتابة قوس دائري أيسر ، اضغط باستمرار على مفتاح <kbd>Shift</kbd> (بجوار <kbd>Z</kbd>) ثم اضغط على <kbd>9</kbd>. المفتاح الذي يحتوي على علامة الاقتباس الفردية `'` يوجد في نفس الصف الذي يوجد فيه المفتاح <kbd>L</kbd> ، قبل مفتاح <kbd>Enter</kbd> مباشرةً. الفاصلة `،` بجوار <kbd>M</kbd>.
 
 --- /collapse ---
 
@@ -57,7 +57,7 @@ On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kb
 
 --- task ---
 
-**Test:** Click on the **Run** button to run your code. In Trinket, the output will appear on the right:
+**Test:** Click on the **Run** button to run your code. في Trinket ، سيظهر الإخراج على اليمين:
 
 ![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
 
