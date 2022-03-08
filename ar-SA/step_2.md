@@ -1,8 +1,8 @@
-## Say hello
+## قل مرحبا
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's traditional to write a program to output 'Hello world!' when you learn a new programming language.
+من المعتاد كتابة برنامج لإخراج "Hello world!" عندما تتعلم لغة برمجة جديدة.
 </div>
 <div>
 
@@ -13,13 +13,13 @@ It's traditional to write a program to output 'Hello world!' when you learn a ne
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://trinket.io/python/975f35023b){:target="_blank"}. Trinket will open in another browser tab.
+Open the [Hello 🌍🌎🌏 starter project](https://trinket.io/python/975f35023b){:target="_blank"}. سيتم فتح Trinket في نافذة متصفح أخرى.
 
-![The Trinket editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
+![The Trinket editor with project starter code on the left in the code area. على اليمين توجد منطقة الإخراج الفارغة.](images/starter_project.png)
 
 --- /task ---
 
-The line `#!/bin/python3` tells Trinket that you are using Python 3 (the latest version). The `import` lines tell Python that you are going to use code you didn't write.
+يخبر السطر البرمجي هذا `#! / bin / python3` أنك تستخدم لغة Python 3 (أحدث إصدار). تخبر الأسطر هذه `import` لغة Python أنك ستستخدم رمزًا لم تكتبه.
 
 In Python, `print()` outputs text (words or numbers) to the screen.
 
