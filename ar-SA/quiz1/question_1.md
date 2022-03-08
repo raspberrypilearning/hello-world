@@ -63,7 +63,7 @@ print('Hello' world)
 
  --- feedback ---
 
- Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+ ليس بصحيح تماما ان في لغة Python يتم إخراج رسائل إلى الشاشة عن طريق المقطع البرمجي `print`، ولكن هناك شيء مفقود في هذا المثال.
 
  --- /feedback ---
 
@@ -80,7 +80,7 @@ print('Hello', world)
 
  --- feedback ---
 
- That's correct, in Python `print` outputs messages to the screen. The text output is inside single quotes `'` , a comma separates the two items and provides a space, then the `world` variable is called, which stores the earth emoji 🌍🌎🌏, like in your project.
+ يعد صحيحا ان في لغة Python يتم إخراج رسائل إلى الشاشة عن طريق المقطع البرمجي `print`. The text output is inside single quotes `'` , a comma separates the two items and provides a space, then the `world` variable is called, which stores the earth emoji 🌍🌎🌏, like in your project.
 
  --- /feedback ---
 
