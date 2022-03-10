@@ -59,9 +59,9 @@ On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kb
 
 **Test:** Click on the **Run** button to run your code. في Trinket ، سيظهر الإخراج على اليمين:
 
-![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
+![تظهر أيقونة التشغيل محددة و بارزة مع كلمة مرحباً في منطقة الإخراج. ](images/run_hello.png)
 
-**Debug:** If you get an error then check your code really carefully. In this example, the single quotes around `Hello` are missing so Python doesn't know it is supposed to be text.
+**Debug:** If you get an error then check your code really carefully. في هذا المثال ، علامات الاقتباس المفردة حول `Hello` مفقودة ، لذا فإن Python لا تعرف أنه من المفترض أن تكون نصًا.
 
 ![the Trinket editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 10 in main.py.](images/hello_error.png)
 
