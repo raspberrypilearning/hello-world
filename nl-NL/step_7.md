@@ -28,7 +28,7 @@ filename: main.py
 ---
 
 #Zet de code om uit te voeren hier onder
-def hobbies():    
+def hobbys():    
   hobby = input('Wat vind je leuk?')   
   print('Dat klinkt', leuk)   
   print('Je zou een', python, 'project over jouw', hobby, 'kunnen maken')
@@ -49,7 +49,7 @@ gooi_dobbelsteen()
 
 input() #Wacht tot de gebruiker op Enter drukt
 
-hobbies()
+hobbys()
 
 --- /code ---
 
