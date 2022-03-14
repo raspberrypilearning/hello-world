@@ -1,5 +1,5 @@
-# Add ASCII art alternatives
-# Before emoji we used emoticons made from characters
+# Ajouter des alternatives d'art ASCII 
+# Avant les emoji, nous utilisions des émoticônes faites à partir de caractères
 
 world = 'o'
 python = '~~~-<'
@@ -14,4 +14,3 @@ plead = '◔◔'
 fire = '/'
 books = '≣'
 rainbow = '⌒'
-
