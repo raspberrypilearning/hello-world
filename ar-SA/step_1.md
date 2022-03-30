@@ -1,24 +1,25 @@
-## Introduction
+## المقدمة
 
 اكتشف ما يمكن أن تفعله لغة برمجة Python من خلال كتابة مشروع تفاعلي يستخدم الرموز او الاشكال التعبيرية.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">** Emoji **</span> عبارة عن صور صغيرة ملونة تُستخدم لإضافة معنى إضافي للرسائل. الرموز التعبيرية تعني "كلمة مصورة" باللغة اليابانية.
+<span style="color: #0faeb0">** الرموز التعبيرية (ايموجي)**</span> عبارة عن صور صغيرة ملونة تُستخدم لإضافة معنى إضافي للرسائل. ايموجي تعني "كلمة مصورة" باللغة اليابانية.
 </p>
 
 سوف تقوم بما يلي:
-+ نص هذا المتغير البرمجي `print () ` ، بما في ذلك الرموز التعبيرية ، والحصول على المتغير البرمجي هذا `input ()` من المستخدم
-+ تخزين النص والأرقام في **varibales**
-+ Use **functions** to organise your code
++ طباعة نص باستخدام print</0()>، بما في ذلك الرموز التعبيرية، والحصول على مدخلات من المستخدم باستخدام <code>input</0()></li>
+<li>تخزين النص والأرقام في <strong x-id="1">متغيرات</strong></li>
+<li>استخدم <strong x-id="1">الدوال (functions)</strong> لتنظيم التعليمات البرمجية الخاصة بك</li>
+</ul>
 
---- no-print ---
+<p spaces-before="0">--- no-print ---</p>
 
---- task ---
+<p spaces-before="0">--- task ---</p>
 
-### جربها
+<h3 spaces-before="0">جربها</h3>
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-اقرأ المخرجات ثم انقر فوق <kbd>Enter</kbd> للمتابعة. 
+اقرأ المخرجات ثم انقر فوق <kbd>Enter</kbd> في لوحة المفاتيح للمتابعة. 
 اكتب إجاباتك على الأسئلة. هل يمكنك أن ترى كيف يتم استخدام إجاباتك؟
 </div>
 <div class="trinket">
@@ -28,12 +29,12 @@
 </div>
 </div>
 
---- /task ---
+<p spaces-before="0">--- /task ---</p>
 
---- /no-print ---
+<p spaces-before="0">--- /no-print ---</p>
 
---- print-only ---
+<p spaces-before="0">--- print-only ---</p>
 
-![مشروع مكتمل](images/showcase_static.png)
+<p spaces-before="0"><img src="images/showcase_static.png" alt="مشروع مكتمل" /></p>
 
---- /print-only ---
+<p spaces-before="0">--- /print-only ---</p>
