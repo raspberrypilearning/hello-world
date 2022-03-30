@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: السؤال 2 من 3
 ---
 
-Which of these function definitions is correct and will print `I can code` when called?
+أي من تعريفات الوظائف التالية صحيح وسوف يطبع `I can code` عند استدعائه؟
 
-![The Trinket editor with output area showing <code>I can code</code>.](images/quiz2.png)
+![محرر Trinket مع منطقة الاخراج تظهر <code>I can code</code>.](images/quiz2.png)
 
 --- choices ---
 
@@ -23,7 +23,7 @@ def awesome(): print('I can code')
 
  --- feedback ---
 
-That's correct, calling this function will print `I can code`. You spotted that functions need `(` `)` brackets and a `:` in the function definition, and that all code to be run when that function is called must be indented.
+هذا صحيح ، سيؤدي استدعاء هذه الدالة إلى طباعة `I can code`. لقد اكتشفت أن الدوال تحتاج إلى `(` `)` أقواس و `:` في تعريف الدالة، وأن كل التعليمات البرمجية التي سيتم تشغيلها عند استدعاء هذه الدالة يجب أن يتم وضع مسافة بادئة لها.
 
  --- /feedback ---
 
@@ -40,7 +40,7 @@ def awesome(): print('I can code')
 
  --- feedback ---
 
- Not quite, the layout in this example would cause an error.
+ ليس تمامًا، فقد يتسبب الترتيب في هذا المثال في حدوث خطأ.
 
  --- /feedback ---
 
@@ -57,7 +57,7 @@ def awesome() print('I can code')
 
  --- feedback ---
 
-Not quite, there is something missing from the function definition that woud cause an error.
+ليس تمامًا، هناك شيء مفقود من تعريف الدالة يتسبب في حدوث خطأ.
 
  --- /feedback ---
 
