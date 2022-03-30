@@ -1,25 +1,25 @@
-## Upgrade your project
+## قم بترقية مشروعك
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add more to your project. There are more emoji to choose from.
+أضف المزيد إلى مشروعك. هناك المزيد من الرموز التعبيرية للاختيار من بينها.
   </div>
 <div>
 
-![A longer project in the output area with more text, emoji, and inputs.](images/upgrade_ideas.png){:width="300px"}
+![مشروع أطول في منطقة الإخراج به مزيد من النص والرموز التعبيرية والمدخلات.](images/upgrade_ideas.png){:width="300px"}
 
 </div>
 </div>
 
-You could:
-+ Use `print` with different text and emoji
-+ Use `input` to get values from the user and store them as variables, then do sums with the variables
-+ Write more functions to organise your code
-+ Use `#` to add comments to your code
+يمكنك:
++ استخدام `print` مع نصوص ورموز تعبيرية مختلفة
++ استخدام `input` للحصول على القيم من المستخدم وتخزينها كمتغيرات، ثم قم بإجراء عمليات الجمع باستخدام المتغيرات
++ اكتب المزيد من الدوال لتنظيم التعليمات البرمجية الخاصة بك
++ استخدم `#` لإضافة تعليقات إلى التعليمات البرمجية الخاصة بك
 
-Click on **emoji.py** to see the emoji variables that you can use. Click back on **main.py** to add to your code.
+انقر فوق **emoji.py** لمعرفة متغيرات الرموز التعبيرية التي يمكنك استخدامها. انقر مرة أخرى على **main.py** للإضافة إلى التعليمات البرمجية الخاصة بك.
 
-Here's an example function that asks about hobbies:
+إليك مثال على دالة تسأل عن الهوايات:
 
 --- code ---
 ---
@@ -27,7 +27,7 @@ language: python
 filename: main.py
 ---
 
-# Put code to run under here
+# ضع مقطعاً برمجياً هنا لتشغيله
 def hobbies():   
 hobby = input('What do you like?')   
 print('That sounds', fun)   
@@ -35,9 +35,9 @@ print('You could make a', python, 'project about', hobby)
 
 --- /code ---
 
-**Tip:** Don't forget you will need to call your function as well as define it.
+**نصيحة:** لا تنس أنك ستحتاج إلى تعريف واستدعاء الدالة.
 
-You can use `input` to make your project wait for the user to tap <kbd>Enter</kbd> at any point in this project.
+يمكنك استخدام `input` لجعل مشروعك ينتظر حتى يقوم المستخدم بالنقر فوق <kbd>Enter</kbd> في أي وقت في هذا المشروع.
 
 --- code ---
 ---
@@ -47,7 +47,7 @@ filename: main.py
 
 roll_dice()
 
-input() #Wait for the user to tap Enter
+input () # انتظر حتى يقوم المستخدم بالنقر فوق مفتاح Enter الموجود في لوحة المفاتيح
 
 hobbies()
 
@@ -56,10 +56,10 @@ hobbies()
 
 --- collapse ---
 ---
-title: Completed project
+title: مشروع مكتمل
 ---
 
-You can view the [completed project here](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}.
+يمكنك عرض [المشروع المكتمل هنا](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}.
 
 --- /collapse ---
 
