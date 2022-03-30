@@ -1,7 +1,7 @@
 ---
 title: مرحبا 🌍🌎🌏
 hero_image: images/banner.png
-description: اكتب مشروع بلغة بايثون تفاعلي يستخدم الرموز التعبيرية
+description: اكتب مشروع Python تفاعلي يستخدم الرموز التعبيرية
 version: 4
 listed: true
 copyedit: true
@@ -12,20 +12,20 @@ steps:
   - 
     title: قل مرحبا
   - 
-    title: Sums and dates
+    title: الجمع والتواريخ
     completion: engaged
   - 
-    title: Roll a dice
+    title: ارم نرداً
   - 
     title: بادئ الجملة
+    completion: internal
   - 
-    title: انعكاس
+    title: تفكير
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
-    completion: internal
   - 
     title: قم بترقية مشروعك
     completion: external
