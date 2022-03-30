@@ -4,43 +4,49 @@ from emoji import *
 from datetime import *
 from random import randint
 
-# Put function definitions under here
+# ضع تعريفات الدوال هنا
 
 def roll_dice():
   print(python, 'can make a', dice)
-  max = input('How many sides?') # get input from the user
-  print('That\'s a D', max) # use the number the user entered
-  roll = randint(1, int(max)) # generate a random number 
-  print('You rolled a', roll) # print the value of the roll variable
-  print(fire * roll) # repeat the fire text roll times
+  max = input('How many sides?') # الحصول على مدخلات من المستخدم
+  print ('That \' sa D '، max) # استخدم الرقم الذي أدخله المستخدم
+  roll = randint (1، int (max)) # توليد رقم عشوائي 
+  print('You rolled a', roll) # اطبع قيمة متغير الدحرجة
+
+  print(fire * roll) # كرر مرات دحرجة النص الناري
+
 
 def hobbies():
   hobby = input('What do you like?')
   print('That sounds', fun)
   print('You could make a', python, 'project about', hobby)
 
-# Useful characters :',()*_/.#
+# رموز مفيدة :',()*_/.#
 
-# Put code to run under here
+
+# ضع المقطع البرمجي هنا لتشغيله
 print('Hello', world)
 print('Welcome to', python)
 
-input() # wait for the user to tap Enter
+input() # انتظر حتى يقوم المستخدم بالنقر فوق Enter
+
 
 print(python, 'is very good at', sums)
-print(230 * 5782 ** 2 / 23781)
+print (230 * 5782 ** 2/23781)
 
 input()
 
-print('The', calendar, clock, 'is', datetime.now()) # print current date and time with emoji 
+print('The', calendar, clock, 'is', datetime.now()) # طباعة التاريخ والوقت الحاليين باستخدام التعابير الرسومية 
 
 input()
 
-roll_dice() # Call the roll_dice function
+roll_dice() # استدعاء الدالة roll_dice
+
 
 input()
 
-hobbies() # Call the hobbies function
+hobbies() # استدعاء دالة الهوايات
+
 
 
 
