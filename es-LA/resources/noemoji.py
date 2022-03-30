@@ -1,15 +1,15 @@
-# Add ASCII art alternatives
-# Before emoji we used emoticons made from characters
+# Añade alternativas de arte ASCII
+# Antes de los emojis, usábamos emoticones hechos a partir de personajes
 
 world = 'o'
 python = '~~~-<'
 happy = ':-)
-heart = '♡' # o '<3'
+heart = '♡' # or '<3'
 star = '☆'
 sparkles = '✺'
 silly = ';)'
 sums = '+-*/'
-hundred = '¡100!'
+hundred = '100!'
 plead = '◔◔'
 fire = '/'
 books = '≣'

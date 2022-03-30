@@ -6,18 +6,18 @@ from random import randint
 
 # Pon las definiciones de función aquí abajo
 
-def roll_dice():
+def lanzar_dado():
   print(python, 'puede crear un', dice)
   max = input('¿Cuántas caras?') # Obtener entrada del usuario
   print('Es un D', max) # Usa el número que el usuario introdujo
-  roll = randint(1, int(max)) # Genera un número aleatorio 
-  print('Lanzaste un', roll) # Imprime el valor de la variable del tiro
-  print(fire * roll) # Repite el texto de fuego las veces del resultado del tiro
+  lanzar = randint(1, int(max)) # Genera un número aleatorio 
+  print('Lanzaste un', lanzar) # Imprime el valor de la variable del tiro
+  print(fire * lanzar) # Repite el texto de fuego las veces del resultado del tiro
 
-def hobbies():
-  hobby = input('¿Qué te gusta?')
+def pasatiempos():
+  pasatiempo = input('¿Qué te gusta?')
   print('Eso suena', fun)
-  print('Podrías hacer un proyecto', python, 'sobre', hobby)
+  print('Podrías hacer un proyecto', python, 'sobre', pasatiempo)
 
 # Caracteres útiles :',()*_/.#
 
@@ -36,11 +36,11 @@ print('La', calendar, clock, 'es', datetime.now()) # Imprime la fecha y hora act
 
 input()
 
-roll_dice() # Llama a la función roll_dice
+lanzar_dado() # Llama a la función lanzar_dado
 
 input()
 
-hobbies() # Llama a la función hobbies
+pasatiempos() # Llama a la función pasatiempos
 
 
 

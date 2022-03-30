@@ -28,10 +28,10 @@ filename: main.py
 ---
 
 # Pon el código a ejecutar aquí abajo
-def hobbies():   
-  hobby = input('¿Qué te gusta?')   
+def pasatiempos():   
+  pasatiempo = input('¿Qué te gusta?')   
   print('Eso suena', fun)   
-  print('Podrías hacer un proyecto', python, 'sobre', hobby)
+  print('Podrías hacer un proyecto', python, 'sobre', pasatiempo)
 
 --- /code ---
 
@@ -49,7 +49,7 @@ roll_dice()
 
 input() #Esperar a que el usuario presione Enter
 
-hobbies()
+pasatiempos()
 
 --- /code ---
 
