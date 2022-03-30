@@ -1,9 +1,9 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: السؤال 3 من 3
 ---
 
-This function outputs two random numbers:
+تنتج هذه الدالة رقمين عشوائيين:
 
 --- code ---
 ---
@@ -14,9 +14,9 @@ def two_dice(): print('First number:', randint(1, 6)) print('Second number:', ra
 
 --- /code ---
 
-Which code will call the function to run it?
+ما هو المقطع البرمجي الذي سيستدعي الدالة لتشغيله؟
 
-![The Trinket editor with output area showing two randomly generated numbers.](images/quiz3.png)
+![يُظهر محرر Trinket بمنطقة الإخراج رقمين تم إنشاؤهما عشوائيًا.](images/quiz3.png)
 
 --- choices ---
 
@@ -33,7 +33,7 @@ def two_dice(): print('First number:', randint(1, 6)) print('Second number:', ra
 
  --- feedback ---
 
- No, this is the code to define the function, but it does not run the function. You'll need to use different code to call it.
+ لا ، هذا هو المقطع البرمجي الخاص بتعريف الدالة البرمجية ، لكنه لا يقوم بتنفيذ الدالة. ستحتاج إلى استخدام مقطع برمجي مختلف لاستدعائه.
 
  --- /feedback ---
 
@@ -48,7 +48,7 @@ two_dice
 
  --- feedback ---
 
-Close! `two_dice` is the name of the function, but to call it you need more than just the name.
+قريب! `two_dice` هو اسم الدالة البرمجية ، ولكن لتسميتها فإنك تحتاج إلى أكثر من مجرد الاسم.
 
  --- /feedback ---
 
@@ -65,7 +65,7 @@ two_dice[]
 
  --- feedback ---
 
- Not quite, think about they type of brackets you used to call the functions in your project.
+ ليس تمامًا ، فكر في نوع الأقواس التي استخدمتها لاستدعاء الدالة البرمجية في مشروعك.
 
  --- /feedback ---
 
@@ -82,7 +82,7 @@ two_dice()
 
  --- feedback ---
 
- That's correct, using the function name followed by `(` `)` brackets will call the function.
+ هذا صحيح ، فإن استخدام اسم الدالة البرمجية متبوعًا بأقواس `(` `)` سيؤدي إلى استدعاء الدالة البرمجية.
 
  --- /feedback ---
 
