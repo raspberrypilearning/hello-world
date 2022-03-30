@@ -1,24 +1,24 @@
 Hello
 
-Welcome to
+Welcome to ...
 
-is very good at
+... is very good at ...
 
-The time is
+The ... is
 
-Python can make a 
+... can make a ...
 
-You rolled a 
+You rolled a ...
 
 How many sides?
 
-That’s a D
+That’s a D ...
 
-I love …
+I <3 ...
 
-… makes me happy
+... makes me ...
 
-I’d like to make … with Python
+I’d like to make ... with Python
 
 awesome
 
@@ -36,9 +36,9 @@ hobby
 
 What do you like?
 
-That sounds fun
+That sounds ...
 
-You could make a Python project about
+You could make a ... project about ...
 
 roll_dice
 
