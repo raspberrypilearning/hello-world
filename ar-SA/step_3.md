@@ -1,27 +1,27 @@
-## Sums and dates
+## نواتج الجمع والتواريخ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Python is great at working with numbers and dates.
+لغة Python رائعة في التعامل مع الأرقام والتواريخ.
 </div>
 <div>
 
-![The output area with five printed lines showing new sum and current date outputs.](images/sums_dates.png){:width="300px"}
+! [منطقة الإخراج مع خمسة أسطر مطبوعة تعرض المجموع الجديد ومخرجات التاريخ الحالي.](images/sums_dates.png){:width="300px"}
 
 </div>
 </div>
 
-In Python you can use maths operators to do sums:
+في Python يمكنك استخدام العمليات الحسابية لعمليات الجمع:
 
-| + | add |   
-| - | subtract |   
-| * | multiply |   
-| / | divide |   
-| ** | to the power |
+| + | الجمع |   
+| - | الطرح |   
+| * | الضرب |   
+| / | القسمة |   
+| ** | الأس |
 
 --- task ---
 
-Add another two `print()` lines to your code including a sum for Python to work out:
+أضف سطرين آخرين للدالة `()print` في المقطع البرمجي الخاص بك بما في ذلك المجموع ليحلها Python:
 
 --- code ---
 ---
@@ -40,27 +40,27 @@ print(230 * 5782 ** 2 / 23781)
 
 --- task ---
 
-**Test:** Run your code. Did Python calculate the sum correctly? Only joking! Python does the hard maths for you so you don't need to work it out.
+**اختبار:** قم بتشغيل التعليمات البرمجية الخاصة بك. هل قام Python بحساب المجموع بشكل صحيح؟ امزح فقط! تقوم Python بإجراء العمليات الحسابية الصعبة نيابةً عنك، لذلك لا تحتاج إلى حلها.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi (*π*) to 31 trillion digits. That answer is so long that it would take over 300,000 years just to say it! 
+استخدمت عالمة الحاسوب اليابانية <span style="color: #0faeb0">** Emma Haruka Iwao **</span> جهاز كمبيوتر لحساب قيمة Pi (*π*) حتى 31 تريليون رقم. هذه الإجابة طويلة جدًا لدرجة أن الأمر سيستغرق أكثر من 300000 سنة فقط لقولها! 
 </p>
 
 --- task ---
 
-Try changing the sum that Python does to a complicated one!
+حاول تغيير المجموع الذي تفعله Python إلى مجموع معقد!
 
-You can also use brackets if you want to control the order that Python calculates the sum: `print( (2 + 4) * (5 + 3) )`.
+يمكنك أيضًا استخدام الأقواس إذا كنت تريد التحكم في ترتيب المجموع الذي تحسبه Python: `print ((2 + 4) * (5 + 3))`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and get Python to calculate your sum.
+**اختبار:** قم بتشغيل المقطع الخاص بك واجعل Python يحسب مجموعك.
 
-**Debug:** Make sure your sum has a left and right round bracket around it `( 2 * 45 )`. If you use extra brackets to control the order, make you have a right bracket to match every left bracket.
+**تصحيح:** تأكد من أن مجموعك يحتوي على قوس دائري أيسر وأيمن حوله `(2 * 45)`. إذا كنت تستخدم أقواسًا إضافية للتحكم في الترتيب، فتأكد أن لديك قوسًا أيمنًا لمطابقة كل قوس أيسر.
 
 --- /task ---
 
