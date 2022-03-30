@@ -36,8 +36,6 @@ get input from the user
 
 generate a random number
 
-print the value of the roll variable
-
 repeat the fire text roll times
 
 get the current date and time
