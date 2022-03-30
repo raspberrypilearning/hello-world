@@ -11,7 +11,7 @@ Python can generate random numbers to make digital dice.
 </div>
 </div>
 
-In Python you **call** a **function()** to perfom an action. You have already used the `print()` function to output text.
+In Python you **call** a **function()** to perfom an action. لقد استخدمت دالة `()print` سابقا لإخراج النص.
 
 You can **define** a new **function** to group code together so that you can name it and reuse it.
 
