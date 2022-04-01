@@ -1,19 +1,19 @@
-## Sentence starter
+## بداية الجملة
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Output more sentences from your project.
+إخراج المزيد من الجمل من مشروعك.
 </div>
 <div>
 
-![Some new print lines in the output area with emoji and text sentences.](images/sentence_starter.png){:width="300px"}
+! [بعض سطور الطباعة الجديدة في منطقة الإخراج بها رموز تعبيرية وجمل نصية.](images/sentence_starter.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Add more `print` lines to your code. Here are some sentence starters that you can use:
+إضافة المزيد من اسطر`print` إلى التعليمات البرمجية الخاصة بك. فيما يلي بعض بدايات الجمل التي يمكنك استخدامها:
 
 --- code ---
 ---
@@ -27,23 +27,23 @@ print('I\'d like to make ... with', python)
 
 --- /code ---
 
-**Tip:** `print` adds a space between each item you print.
+**نصيحة: تضيف** `print` مسافة بين كل عنصر تطبعه.
 
-**Tip:** If you need to print an apostrophe `'` then you need to put a backslash `\` before it so Python knows it's part of the text.
+**نصيحة:** إذا كنت بحاجة إلى طباعة علامة اقتباس أحادية `'` ، أنت بحاجة إلى وضع خط مائل `\` قبلها حتى تعرف Python أنها جزء من النص.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-The <span style="color: #0faeb0">yellow heart emoji</span> is often used to show friendship and happiness.</p>
+غالبًا ما يستخدم </span> رمز القلب الأصفر<span style="color: #0faeb0"> لاظهار الصداقة والسعادة.</p>
 
 --- task ---
 
-What message would you send to a friend to cheer them up? Which emoji would you choose?
+ما هي الرسالة التي ترسلها إلى صديق لإسعادهم؟ أي رمز تعبيري ستختار؟
 
-Click on the **emoji.py** tab in Trinket to see the emoji variables that you can use. Click back on the **main.py** tab to add to your code.
+انقر فوق علامة التبويب **emoji.py** في Trinket لرؤية متغيرات الرموز التعبيرية التي يمكنك استخدامها. انقر مرة أخرى على علامة التبويب **main.py** لإضافة التعليمات البرمجية الخاصة بك.
 
-You can add more emoji variables to **emoji.py**. Use this [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} to find the ones you want.
+يمكنك إضافة المزيد من متغيرات الرموز التعبيرية إلى **emoji.py**. استخدم [قائمة الرموز التعبيرية emoji](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} للعثور على ماتريد.
 
 --- /task ---
 
