@@ -60,7 +60,7 @@ print(230 * 5782 ** 2 / 23781)
 
 **اختبار:** قم بتشغيل المقطع الخاص بك واجعل Python يحسب مجموعك.
 
-**تصحيح:** تأكد من أن مجموعك يحتوي على قوس دائري أيسر وأيمن حوله `(2 * 45)`. إذا كنت تستخدم أقواسًا إضافية للتحكم في الترتيب، فتأكد أن لديك قوسًا أيمنًا لمطابقة كل قوس أيسر.
+**تتبع الخطأ:** تأكد من أن مجموعك يحتوي على قوس دائري أيسر وأيمن حوله `(2 * 45)`. إذا كنت تستخدم أقواسًا إضافية للتحكم في الترتيب، فتأكد أن لديك قوسًا أيمنًا لمطابقة كل قوس أيسر.
 
 --- /task ---
 
@@ -94,19 +94,19 @@ language: python filename: main.py line_numbers: true line_number_start: 14
 line_highlights: 16-17
 ---
 
-print(python, 'is very good at', sums)    
-print(230 * 5782 ** 2 / 23781) #Print the result of the sum     
-print('The', calendar, clock, 'is', datetime.now()) #Print with emoji
+print (python، 'is very good at'، sums)    
+print (230 * 5782 ** 2/23781) # اطبع نتيجة الجمع     
+print ('The'، calendar، clock، 'is'، datetime .now ()) # طباعة بالرموز التعبيرية
 
 --- /code ---
 
-**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
+**نصيحة:** لست بحاجة إلى كتابة التعليقات ، فهي موجودة فقط لمساعدتك على فهم المقطع البرمجي. فقط اكتب الجزء قبل `#`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code a couple of times to see the date and time update.
+**اختبار:** قم بتشغيل المقطع البرمجي عدة مرات لمشاهدة تحديث التاريخ والوقت.
 
 **Debug:** Check that you have a fullstop `.` between `datetime` and `now`. Check all the punctuation carefully.
 
