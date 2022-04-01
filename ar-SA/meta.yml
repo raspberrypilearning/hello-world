@@ -18,7 +18,7 @@ steps:
     title: ارم نرداً
   - 
     title: بادئ الجملة
-    completion: internal
+    completion: داخلي
   - 
     title: تفكير
     knowledge_quiz:
