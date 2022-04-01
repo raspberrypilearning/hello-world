@@ -1,95 +1,95 @@
-Hello
+Bonjour
 
-Welcome to ...
+Bienvenue à ...
 
-...is very good at ...
+...est très doué pour...
 
-The ...is
+Le ... est
 
-...can make a ...
+...peut faire un...
 
-You rolled a ...
+Tu as obtenu un ...
 
-How many sides?
+Combien de côtés ?
 
-That’s a D ...
+C'est un D ...
 
-I <3 ...
+J'<3 ...
 
-...makes me ...
+... me rend ...
 
-I’d like to make ...with...
+Je voudrais faire ... avec ...
 
-awesome
+fantastique
 
-I can code
+Je peux coder
 
-two_dice
+deux_des
 
-First number:
+Premier numéro :
 
-Second number:
+Deuxième numéro :
 
 hobbies
 
 hobby
 
-What do you like?
+Qu'est-ce que tu aimes ?
 
-That sounds ...
+Cela a l'air ...
 
-You could make a ...project about ...
+Tu pourrais faire un ... projet sur ...
 
-roll_dice
+roule_de
 
-roll
+roule
 
-now
+maintenant
 
-world 
+monde 
 
-sums
+sommes
 
-calendar
+calendrier
 
-clock 
+horloge 
 
-projects 
+projets 
 
-fun 
+amusant 
 
-dice 
+dé 
 
-unicorn 
+licorne 
 
-space 
+espace 
 
-happy 
+heureux 
 
-silly 
+idiot 
 
-heart 
+cœur 
 
-games 
+jeux 
 
-books 
+livres 
 
 sports 
 
-green 
+vert 
 
 nature 
 
-fire 
+feu 
 
-sparkles 
+étincelles 
 
-plead 
+implorer 
 
-hundred 
+cent 
 
-star 
+étoile 
 
-yellow_heart 
+coeur_jaune 
 
-rainbow
+arc-en-ciel
