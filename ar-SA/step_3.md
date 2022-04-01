@@ -66,27 +66,27 @@ print(230 * 5782 ** 2 / 23781)
 
 --- task ---
 
-If you have asked Python to calculate a really big sum, you might find the answer goes across multiple lines in the output area.
+إذا طلبت من Python حساب مبلغ كبير حقًا، فقد تجد أن الإجابة تظهر على عدة أسطر في منطقة الإخراج.
 
-**Tip:** Click on the **hamburger menu** (the icon with three lines) in the top-left of your Trinket editor. Then click on the **Fullscreen** button to view your project in fullscreen mode.
+**نصيحة:** انقر فوق قائمة **hamburger** (أيقونة بها ثلاثة أسطر) في أعلى يسار محرر Trinket. ثم انقر فوق الزر ** Fullscreen ** لعرض مشروعك في وضع ملء الشاشة.
 
-![The Trinket editor with left-hand side menu expanded, via the hamburger menu, to show the fullscreen option.](images/full_screen.png)
+![تم توسيع محرر Trinket مع القائمة الموجودة على الجانب الأيسر ، عبر قائمة الهامبرغر ، لإظهار خيار ملء الشاشة.](images/full_screen.png)
 
-To exit fullscreen mode, click on the **Fullscreen** button again or press <kbd>Esc</kbd> on your keyboard.
+للخروج من وضع ملء الشاشة ، انقر فوق الزر **Fullscreen** مرة أخرى أو اضغط على <kbd>Esc</kbd> على لوحة المفاتيح.
 
 --- /task ---
 
-The line `from datetime import *` at the top of the **main.py** tab includes a library with helpful functions for getting the current date and time.
+يشتمل السطر `from datetime import *` في أعلى علامة التبويب **main.py** على مكتبة بها دوال مفيدة للحصول على التاريخ والوقت الحاليين.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. A Python library allows you to easily use code that other people have written. There are libraries for drawing charts and graphs, making art, doing calculations, and lots more.
+أحد الأشياء الرائعة في Python أن جميع <span style="color: #0faeb0">** المكتبات **</span> من التعليمات البرمجية متاحة للاستخدام. تتيح لك مكتبة Python استخدام التعليمات البرمجية التي كتبها أشخاص آخرون بسهولة. توجد مكتبات لرسم المخططات والرسوم البيانية وصنع الاشكال الفنية وإجراء العمليات الحسابية وغير ذلك الكثير.
 </p>
 
 --- task ---
 
-Add another line to your code to `print` some more text and the emoji variables `calendar` and `clock`.
+أضف سطرًا آخر إلى المقطع الخاص بك لطباعة `print` نص إضافي ومتغيرات الرموز التعبيرية ` calendar ` و ` clock`.
 
-Get the current date and time by using the `now()` function from the `datetime` library:
+احصل على التاريخ والوقت الحاليين باستخدام الدالة `()now` من مكتبة `datetime`:
 
 --- code ---
 ---
@@ -108,7 +108,7 @@ print ('The'، calendar، clock، 'is'، datetime .now ()) # طباعة بالر
 
 **اختبار:** قم بتشغيل المقطع البرمجي عدة مرات لمشاهدة تحديث التاريخ والوقت.
 
-**Debug:** Check that you have a fullstop `.` between `datetime` and `now`. Check all the punctuation carefully.
+**تتبع الخطأ:** تأكد من أن لديك نقطة فاصلة `.` بين `datetime` و ` now`. تحقق من جميع علامات الترقيم بعناية.
 
 --- /task ---
 
