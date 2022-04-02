@@ -1,95 +1,95 @@
-Hello
+Hallo
 
-Welcome to ...
+Welkom bij ...
 
-...is very good at ...
+...is erg goed in ...
 
-The ...is
+De ...is
 
-...can make a ...
+...kan een ...maken
 
-You rolled a ...
+Je gooide een...
 
-How many sides?
+Hoeveel kanten?
 
-That’s a D ...
+Dat is een D...
 
-I <3 ...
+Ik <3 ...
 
-...makes me ...
+...maakt mij ...
 
-I’d like to make ...with...
+Ik wil graag ...maken met...
 
-awesome
+geweldig
 
-I can code
+Ik kan coderen
 
-two_dice
+twee_dobbelstenen
 
-First number:
+Eerste getal:
 
-Second number:
+Tweede getal:
 
 hobbies
 
 hobby
 
-What do you like?
+Waar hou je van?
 
-That sounds ...
+Dat klinkt ...
 
-You could make a ...project about ...
+Je zou een ...project kunnen maken over ...
 
-roll_dice
+gooi_dobbelsteen
 
-roll
+worp
 
-now
+nu
 
-world 
+wereld 
 
-sums
+sommen
 
-calendar
+kalender
 
-clock 
+klok 
 
-projects 
+projecten 
 
-fun 
+plezier 
 
-dice 
+dobbelsteen 
 
-unicorn 
+eenhoorn 
 
-space 
+ruimte 
 
-happy 
+vrolijk 
 
-silly 
+maf 
 
-heart 
+hart 
 
-games 
+spellen 
 
-books 
+boeken 
 
-sports 
+sporten 
 
-green 
+groen 
 
-nature 
+natuur 
 
-fire 
+vuur 
 
-sparkles 
+schitteringen 
 
-plead 
+pleiten 
 
-hundred 
+honderd 
 
-star 
+ster 
 
-yellow_heart 
+geel_hart 
 
-rainbow
+regenboog
