@@ -1,43 +1,43 @@
-Put code to run under here
+Zet de code om uit te voeren hier onder
 
-Print the result of the sum
+Print het resultaat van de som
 
-Print with emoji
+Afdrukken met emoji
 
-Put function definitions under here
+Zet de functie definities hier onder
 
-Don't forget the colon at the end of this line
+Vergeet de dubbele punt aan het einde van deze regel niet
 
-Call the roll_dice function
+Roep de functie gooi_dobbelsteen aan
 
-Generate a random number between 1 and 6
+Genereer een willekeurig getal tussen 1 en 6
 
-Print the value of the roll variable
+Druk de waarde van de worp variabele af
 
-Repeat the fire emoji to match the dice roll
+Herhaal de vuuremoji om bij de dobbelsteenworp te passen
 
-Wait for input from the user
+Wacht op invoer van de gebruiker
 
-Use the number the user entered
+Gebruik het getal dat de gebruiker heeft ingevoerd
 
-randint needs max to be an 'integer'
+randint vereist dat max een 'geheel getal' is
 
-Wait for the user to tap Enter
+Wacht tot de gebruiker op Enter drukt
 
-Useful characters :',()*_/.#
+Nuttige tekens :',()*_/.#
 
-Emoji variables to use in your project
+Emoji-variabelen die je in je project kunt gebruiken
 
-Add ASCII art alternatives
+ASCII-kunstalternatieven toevoegen
 
-Before emoji we used emoticons made from characters
+Voor emoji gebruikten we emoticons gemaakt van karakters
 
-get input from the user
+vraag invoer van de gebruiker
 
-generate a random number
+genereer een willekeurige getal
 
-repeat the fire text roll times
+herhaal worp keer de vuurtekst
 
-get the current date and time
+de huidige datum en tijd ophalen
 
-Call the hobbies function
+Roep de functie hobbies aan
