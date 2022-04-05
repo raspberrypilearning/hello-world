@@ -113,7 +113,7 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 11 - 13
 ---
 
-# Put function definitions under here
+# ضع تعريفات الدوال هنا
 
 def roll_dice():    
 print(python, 'can make a', dice)    
