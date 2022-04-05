@@ -82,12 +82,12 @@ roll_dice() #استدعي دالة ال roll_dice
 
 **تتبع الخطأ:** تحقق من أن الأسطر الموجودة أسفل `()def roll_dice` تحتوي مسافة بادئة. من الشائع حقًا وجود هذا الخطأ في Python، لذا تأكد من التحقق.
 
-![The Trinket editor showing the lines of code for the <code>roll_dice</code> function have not been indented. The code has been run and is highlighted on line 10, the first line that should be indented, with the error 'SyntaxError: bad input on line 10 in main.py'.](images/indent_error.png)
+![لم يتم وضع مسافة بادئة لمحرر Trinket الذي يعرض أسطر التعليمات البرمجية لوظيفة <code>roll_dice</code>. تم تشغيل المقطع الرمجي وتم تمييزه في السطر 10 ، السطر الأول الذي يجب وضع مسافة بادئة له ، مع ظهور الخطأ "SyntaxError: bad input on line 10 in main.py".](images/indent_error.png)
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Uses of random numbers include cryptography, data science, and adding variety into games and computer art. Computers generate <span style="color: #0faeb0">**random numbers**</span> using an algorithm. For numbers that are really random, you need an unpredictable input from the real world.
+تشمل استخدامات الأرقام العشوائية التشفير وعلوم البيانات وإضافة مجموعة متنوعة إلى الألعاب وفنون الحاسوب. تنشئ أجهزة الحاسوب <span style="color: #0faeb0">** أرقامًا عشوائية **</span> باستخدام خوارزمية. For numbers that are really random, you need an unpredictable input from the real world.
 </p>
 
 --- task ---
@@ -145,7 +145,7 @@ Lots of games use many-sided dice. In the physical world, dice are made from reg
 
 --- task ---
 
-The `input()` function asks the user a question and then returns their answer.
+تطرح دالة `()input ` سؤالاً على المستخدم ثم تُعيد الإجابة.
 
 Add code to ask the user for the biggest number on their dice and then save the result in a variable called `max` and `print` the number chosen into the output area:
 
@@ -155,27 +155,27 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 11-12
 ---
 
-# Put function definitions under here
+# ضع تعريفات الدوال هنا
 
 def roll_dice():   
 print(python, 'can make a', dice)   
-max = input('How many sides?:') #Wait for input from the user    
-print('That\'s a D', max) #Use the number the user entered    
+max = input('How many sides?:') #انتظر الادخال من المستخدم    
+print('That\'s a D', max) #تستخدم الرقم الذي ادخله المستخدم    
 roll = randint(1, 6)    
 print('You rolled a', roll)    
 print(fire * roll)
 
 --- /code ---
 
-To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
+لطباعة علامة اقتباس أحادية `'` في كلمة انكليزي مثل ` That's `، ضع خط مائل للخلف `\` قبلها حتى تعرف Python أنها جزء من النص.
 
 --- /task ---
 
 --- task ---
 
-Change your `roll` variable code to use `max` as the maximum value for `randint` when it generates a random number.
+غيّر رمز المتغير `roll` لاستخدام `max` كقيمة قصوى لـ `randint` عندما يُنشئ رقمًا عشوائيًا.
 
-When you get input from the user, Python treats it as text. But, `randint` needs an 'integer' (a positive whole number). The `int` function turns the user input into an integer.
+عندما تحصل على المدخلات من المستخدم، فإن لغة Python تعاملها كنص. لكن ، `randint` يحتاج إلى "عدد صحيح" (عدد صحيح موجب). تعمل دالة `int` على تحويل القيمة المدخلة باستخدام دالة input من المستخدم إلى عدد صحيح.
 
 --- code ---
 ---
@@ -183,13 +183,13 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 13
 ---
 
-# Put function definitions under here
+# ضع تعريفات الدوال هنا
 
 def roll_dice():   
 print(python, 'can make a', dice)   
-max = input('How many sides?:') #Wait for input from the user   
-print('That\'s a D', max) #Use the number the user entered   
-roll = randint(1, int(max)) #randint needs max to be an 'integer'   
+max = input('How many sides?:') #انتظر الادخال من المستخدم   
+print('That\'s a D', max) #تستخدم الرقم الذي ادخله المستخدم   
+roll = randint(1, int(max)) #دالة randint تحتاج أن تكون أكبر قيمة هي عدد صحيح 'integer'   
 print('You rolled a', roll)   
 print(fire * roll)
 
@@ -199,7 +199,7 @@ print(fire * roll)
 
 --- task ---
 
-**Test:** Run your project. When the program reaches the `input` line, it will wait for you to enter a response before continuing. Try it again with a different `input` number.
+**اختبار:** قم بتشغيل مشروعك. عندما يصل البرنامج إلى سطر `input` سينتظر منك إدخال رد قبل المتابعة. حاول مرة أخرى بادخال رقم مختلف لدالة `input`.
 
 --- /task ---
 
