@@ -87,25 +87,25 @@ roll_dice() #استدعي دالة ال roll_dice
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-تشمل استخدامات الأرقام العشوائية التشفير وعلوم البيانات وإضافة مجموعة متنوعة إلى الألعاب وفنون الحاسوب. تنشئ أجهزة الحاسوب <span style="color: #0faeb0">** أرقامًا عشوائية **</span> باستخدام خوارزمية. For numbers that are really random, you need an unpredictable input from the real world.
+تشمل استخدامات الأرقام العشوائية التشفير وعلوم البيانات وإضافة مجموعة متنوعة إلى الألعاب وفنون الحاسوب. تنشئ أجهزة الحاسوب <span style="color: #0faeb0">** أرقامًا عشوائية **</span> باستخدام خوارزمية. بالنسبة للارقام التي تكون عشوائية بصورة كبيرة، ستحتاج الى مدخلات غير متوقعة من العالم الخارجي.
 </p>
 
 --- task ---
 
-The `fire` variable stores a 🔥 emoji. The code `print(fire * 3)` outputs three fire emoji '🔥🔥🔥'. You need to output the correct number of emoji to match the number rolled.
+يخزن المتغير `fire` رمز تعبيري 🔥. المخرجات من النص البرمجي `print(fire * 3)` ستكون بشكل ثلاثة رموز تعبيريّة عن النار "🔥🔥🔥". تحتاج إلى إخراج العدد الصحيح من الرموز التعبيرية لمطابقة الرقم الذي تم رميه من النرد.
 
 --- collapse ---
 ---
-title: What would happen if you use `print(fire * randint(1, 6))`?
+title: ماذا سيحدث إذا استخدمت `print(fire * randint(1, 6))`؟
 ---
 
-You would get a new random number that is usually different from your first random number.
+ستحصل على رقم عشوائي جديد يختلف عادةً عن رقمك العشوائي الأول.
 
 --- /collapse ---
 
-Hmm, how can you make sure you use the same random number?
+حسنًا ، كيف يمكنك التأكد من استخدام نفس الرقم العشوائي؟
 
-Change your code to save the value returned by `randint()` in a variable called `roll` and then use that variable to print out the number rolled with the matching number of 🔥 emoji.
+قم بتغيير المقطع البرمجي الخاص بك لحفظ القيمة التي تم إرجاعها بواسطة `randint ()` في متغير يسمى `roll` ثم استخدم هذا المتغير لطباعة الرقم الذي تم تسجيله مع الرقم المطابق للايموجي 🔥.
 
 --- code ---
 ---
@@ -115,39 +115,39 @@ line_highlights: 11 - 13
 
 # ضع تعريفات الدوال هنا
 
-def roll_dice():    
-print(python, 'can make a', dice)    
-roll = randint(1, 6) #Generate a random number between 1 and 6    
-print('You rolled a', roll) #Print the value of the roll variable     
-print(fire * roll) #Repeat the fire emoji to match the dice roll
+def roll_dice ():    
+print (python، 'can make a'، dice)    
+roll = randint (1، 6) #قم بإنشاء رقم عشوائي بين 1 و 6    
+print ('You rolled a'، roll) #اطبع قيمة رمية النرد المتغيرة     
+print (fire * roll) #كرر ايموجي النار ليتناسب مع رمية النرد
 
 --- /code ---
 
-You can use `star` or `heart` instead of `fire` if you prefer.
+يمكنك استخدام `نجمة star ` أو `قلب heart ` بدلاً من `نار fire ` إذا كنت تفضل ذلك.
 
-The symbol `*` means multiply so `fire * roll` multiples the text in the `fire` variable ('🔥') by the number contained in the `roll` variable.
+الرمز `*` يعني اجراء العملية الرياضية الضرب لذلك فإن `fire * roll` يضاعف النص في متغير `fire` ('🔥') بالرقم الموجود في المتغير `roll`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Test your project a few times. Make sure you understand how the code works.
+**اختبار:** اختبر مشروعك عدة مرات. تأكد من فهمك لكيفية عمل المقطع البرمجي.
 
-**Tip:** Variables are useful when you need to use the same value multiple times in your code. Giving variables a sensible name also makes your code easier to understand.
+**نصيحة:** تكون المتغيرات مفيدة عندما تحتاج إلى استخدام نفس القيمة عدة مرات في التعليمات البرمجية الخاصة بك. كما أن إعطاء المتغيرات اسمًا واضحاً يجعل المقطع البرمجي الخاص بك أسهل في الفهم.
 
 --- /task ---
 
-Upgrade your dice so that the user can choose the maximum number.
+قم بترقية النرد الخاص بك بحيث يمكن للمستخدم اختيار العدد الاكبر.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-Lots of games use many-sided dice. In the physical world, dice are made from regular geometric shapes. Common dice include D6, D12, and D20. On a computer, you can generate a <span style="color: #0faeb0">random</span> number to make a fair dice with any number of sides.</p>
+تستخدم الكثير من الألعاب النرد متعدد الجوانب. في العالم المادي ، يتكون النرد من أشكال هندسية منتظمة. تشمل النردات الشائعة D6 و D12 و D20. على جهاز الحاسوب ، يمكنك إنشاء رقم <span style="color: #0faeb0">عشوائي</span> لعمل نرد مناسب مع عدد من الجوانب.</p>
 
 --- task ---
 
 تطرح دالة `()input ` سؤالاً على المستخدم ثم تُعيد الإجابة.
 
-Add code to ask the user for the biggest number on their dice and then save the result in a variable called `max` and `print` the number chosen into the output area:
+أضف تعليمات برمجية لمطالبة المستخدم بأكبر رقم على نرده ثم احفظ النتيجة في متغير يسمى `max` و `اطبع` الرقم المختار في منطقة الإخراج:
 
 --- code ---
 ---
