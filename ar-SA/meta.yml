@@ -21,7 +21,7 @@ steps:
     completion: داخلي
   - 
     title: تفكير
-    completion: external
+    completion: خارجي
     knowledge_quiz:
       path: quiz1
       version: 1
