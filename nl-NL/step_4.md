@@ -35,7 +35,7 @@ print('Je gooit een', randint(1, 6))
 
 --- /code ---
 
-De regels onder `def gooi_dubbelsteen():` zijn **ingesprongen**. Gebruik hiervoor de <kbd>Tab</kbd>-toets op je toetsenbord (meestal boven <kbd>CAPSLOCK</kbd> op het toetsenbord). Inspringende code vertelt Python dat de ingesprongen regels deel uitmaken van de functie.
+De regels onder `def gooi_dobbelsteen():` zijn **ingesprongen**. Gebruik hiervoor de <kbd>Tab</kbd>-toets op je toetsenbord (meestal boven <kbd>CAPSLOCK</kbd> op het toetsenbord). Inspringende code vertelt Python dat de ingesprongen regels deel uitmaken van de functie.
 
 **Tip:** Het lage streepje `_` wordt gebruikt om woorden in variabele- en functienamen in Python tussen woorden te plaatsen om ze leesbaarder te maken. Je kunt geen spatie gebruiken.
 
