@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Cwestiwn 2 o 3
 ---
 
-Which of these function definitions is correct and will print `I can code` when called?
+Pa un o'r diffiniadau swyddogaeth hyn sy'n gywir ac a fydd yn printio `Dwi'n gallu codio` pan fydd yn cael ei alw?
 
-![The Trinket editor with output area showing <code>I can code</code>.](images/quiz2.png)
+![Y golygydd Trinket gydag ardal allbwn yn dangos <code>Dwi'n gallu codio</code>.](images/quiz2.png)
 
 --- choices ---
 
@@ -17,13 +17,13 @@ Which of these function definitions is correct and will print `I can code` when 
 language: python
 ---
 
-def awesome(): print('I can code')
+def gwych(): print('Dwi\'n gallu codio')
 
 --- /code ---
 
  --- feedback ---
 
-That's correct, calling this function will print `I can code`. You spotted that functions need `(` `)` brackets and a `:` in the function definition, and that all code to be run when that function is called must be indented.
+Cywir, bydd galw'r swyddogaeth hon yn printio `Dwi'n gallu codio`. Rydych chi wedi sylwi bod swyddogaethau angen cromfachau `(` `)` a `:` yn niffiniad y swyddogaeth, a bod rhaid mewnoli'r holl god i'w redeg pan fydd swyddogaeth yn cael ei galw.
 
  --- /feedback ---
 
@@ -34,13 +34,13 @@ That's correct, calling this function will print `I can code`. You spotted that 
 language: python
 ---
 
-def awesome(): print('I can code')
+def gwych(): print('Dwi\'n gallu codio')
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, the layout in this example would cause an error.
+ Ddim yn hollol, byddai'r cynllun yn yr enghraifft hon yn achosi gwall.
 
  --- /feedback ---
 
@@ -51,13 +51,13 @@ def awesome(): print('I can code')
 language: python
 ---
 
-def awesome() print('I can code')
+def gwych() print('Dwi\'n gallu codio')
 
 --- /code ---
 
  --- feedback ---
 
-Not quite, there is something missing from the function definition that woud cause an error.
+Ddim yn hollol, mae rhywbeth ar goll yn niffiniad y swyddogaeth a fyddai'n achosi gwall.
 
  --- /feedback ---
 
