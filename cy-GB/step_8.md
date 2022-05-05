@@ -1,10 +1,10 @@
-## What next?
+## Beth nesaf?
 
-If you are following the [Introduction to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [Target practice](https://projects.raspberrypi.org/en/projects/target-practice) project. In this project, you will draw a target then make an archery game that shoots arrows to score points.
+Os ydych chi'n dilyn y llwybr [Cyflwyniad i Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro), fe allwch chi symud ymlaen i'r prosiect [Ymarfer saethu](https://projects.raspberrypi.org/en/projects/target-practice). Yn y prosiect hwn, byddwch chi'n llunio targed ac yna'n gwneud gêm saethyddiaeth lle mae'n rhaid saethu i sgorio pwyntiau.
 
 --- print-only ---
 
-![Archery project](images/archery-project.png)
+![Prosiect saethyddiaeth](images/archery-project.png)
 
 --- /print-only ---
 
@@ -15,4 +15,4 @@ If you are following the [Introduction to Python](https://projects.raspberrypi.o
 
 --- /no-print ---
 
-If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
+Os hoffech chi gael mwy o hwyl yn archwilio Python, gallech chi roi cynnig ar unrhyw rai o'r [prosiectau hyn](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
