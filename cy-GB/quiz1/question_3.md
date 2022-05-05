@@ -1,22 +1,22 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Cwestiwn 3 o 3
 ---
 
-This function outputs two random numbers:
+Mae'r swyddogaeth hon yn allbynnu dau rif ar hap:
 
 --- code ---
 ---
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def dau_ddis(): print('Rhif cyntaf:', randint(1, 6)) print('Ail rif:', randint(1, 6))
 
 --- /code ---
 
-Which code will call the function to run it?
+Pa god fydd yn galw'r swyddogaeth i'w rhedeg?
 
-![The Trinket editor with output area showing two randomly generated numbers.](images/quiz3.png)
+![Y golygydd Trinket gyda'r ardal allbwn yn dangos dau rif wedi'u cynhyrchu ar hap.](images/quiz3.png)
 
 --- choices ---
 
@@ -27,13 +27,13 @@ Which code will call the function to run it?
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def dau_ddis(): print('Rhif cyntaf:', randint(1, 6)) print('Ail rif:', randint(1, 6))
 
 --- /code ---
 
  --- feedback ---
 
- No, this is the code to define the function, but it does not run the function. You'll need to use different code to call it.
+ Na, dyma'r cod i ddiffinio'r swyddogaeth, ond nid yw'n rhedeg y swyddogaeth. Bydd angen i chi ddefnyddio cod gwahanol i'w galw.
 
  --- /feedback ---
 
@@ -42,13 +42,13 @@ def two_dice(): print('First number:', randint(1, 6)) print('Second number:', ra
 language: python
 ---
 
-two_dice
+dau_ddis
 
 --- /code ---
 
  --- feedback ---
 
-Close! `two_dice` is the name of the function, but to call it you need more than just the name.
+Agos! `dau_ddis` yw enw'r swyddogaeth ond i'w galw mae angen mwy na dim ond yr enw arnoch chi.
 
  --- /feedback ---
 
@@ -59,13 +59,13 @@ Close! `two_dice` is the name of the function, but to call it you need more than
 language: python
 ---
 
-two_dice[]
+dau_ddis[]
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, think about they type of brackets you used to call the functions in your project.
+ Ddim yn hollol, meddyliwch am y mathau o fracedi roeddech chi wedi'u defnyddio i alw'r swyddogaethau yn eich prosiect.
 
  --- /feedback ---
 
@@ -76,13 +76,13 @@ two_dice[]
 language: python
 ---
 
-two_dice()
+dau_ddis()
 
 --- /code ---
 
  --- feedback ---
 
- That's correct, using the function name followed by `(` `)` brackets will call the function.
+ Cywir, bydd defnyddio enw'r swyddogaeth wedi'i ddilyn gan y cromfachau `(` `)` yn galw'r swyddogaeth.
 
  --- /feedback ---
 
