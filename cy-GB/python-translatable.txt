@@ -1,95 +1,95 @@
-Hello
+Helo
 
-Welcome to ...
+Croeso i ...
 
-...is very good at ...
+...yn hen law ar ...
 
-The ...is
+Y ...yw
 
-...can make a ...
+...yn gallu gwneud ...
 
-You rolled a ...
+Rydych chi wedi taflu ...
 
-How many sides?
+Sawl ochr?
 
-That’s a D ...
+Mae hwnnw\'n D ...
 
-I <3 ...
+Dwi\'n <3 ...
 
-...makes me ...
+...yn fy ngwneud i\'n ...
 
-I’d like to make ...with...
+Hoffwn i wneud ...gyda...
 
-awesome
+gwych
 
-I can code
+Dwi\'n gallu codio
 
-two_dice
+dau_ddis
 
-First number:
+Rhif cyntaf:
 
-Second number:
+Ail rif:
 
-hobbies
+diddordebau
 
-hobby
+diddordeb
 
-What do you like?
+Beth wyt ti\'n hoffi ei wneud?
 
-That sounds ...
+Mae hynny\'n swnio\'n ...
 
-You could make a ...project about ...
+Gallet ti wneud ...prosiect am ...
 
-roll_dice
+taflu_dis
 
-roll
+tafliad
 
-now
+nawr
 
-world 
+byd 
 
-sums
+symiau
 
-calendar
+calendr
 
-clock 
+cloc 
 
-projects 
+prosiectau 
 
-fun 
+hwyl 
 
-dice 
+dis 
 
-unicorn 
+uncorn 
 
-space 
+gofod 
 
-happy 
+hapus 
 
-silly 
+gwirion 
 
-heart 
+calon 
 
-games 
+gemau 
 
-books 
+llyfrau 
 
-sports 
+chwaraeon 
 
-green 
+gwyrdd 
 
-nature 
+natur 
 
-fire 
+fflam 
 
-sparkles 
+gwreichion 
 
-plead 
+erfyn 
 
-hundred 
+cant 
 
-star 
+seren 
 
-yellow_heart 
+calon_felen 
 
-rainbow
+enfys
