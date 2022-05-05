@@ -1,27 +1,27 @@
-## Sums and dates
+## Symiau a dyddiadau
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Python is great at working with numbers and dates.
+Mae Python yn hen law ar weithio gyda rhifau a dyddiadau.
 </div>
 <div>
 
-![The output area with five printed lines showing new sum and current date outputs.](images/sums_dates.png){:width="300px"}
+![Yr ardal allbwn gyda phum llinell wedi'u printio yn dangos allbynnau symiau newydd a'r dyddiad cyfredol.](images/sums_dates.png){:width="300px"}
 
 </div>
 </div>
 
-In Python you can use maths operators to do sums:
+Yn Python, fe allwch chi ddefnyddio gweithredwyr mathemateg i wneud symiau:
 
-| + | add |   
-| - | subtract |   
-| * | multiply |   
-| / | divide |   
-| ** | to the power |
+| + | adio |   
+| - | tynnu |   
+| * | lluosi |   
+| / | rhannu |   
+| ** | i bŵer |
 
 --- task ---
 
-Add another two `print()` lines to your code including a sum for Python to work out:
+Ychwanegwch ddwy linell `print()` arall at eich cod, gan gynnwys sym i Python ei gwneud:
 
 --- code ---
 ---
@@ -29,9 +29,9 @@ language: python filename: main.py line_numbers: true line_number_start: 12
 line_highlights: 14-15
 ---
 
-print('Hello', world)   
-print('Welcome to', python)   
-print(python, 'is very good at', sums)   
+print('Helo', byd)   
+print('Croeso i', python)   
+print('mae', python, 'yn hen law ar', symiau)   
 print(230 * 5782 ** 2 / 23781)
 
 --- /code ---
@@ -40,53 +40,53 @@ print(230 * 5782 ** 2 / 23781)
 
 --- task ---
 
-**Test:** Run your code. Did Python calculate the sum correctly? Only joking! Python does the hard maths for you so you don't need to work it out.
+**Profi:** Rhedwch eich cod. Ydy Python wedi gwneud y sym yn gywir? Jôc! Mae Python yn gwneud y mathemateg anodd i chi felly does dim rhaid i chi ei gwneud.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi (*π*) to 31 trillion digits. That answer is so long that it would take over 300,000 years just to say it! 
+Fe wnaeth <span style="color: #0faeb0">**Emma Haruka Iwao**</span>, cyfrifiadurwr o Japan, ddefnyddio cyfrifiadur i gyfrifo gwerth Pi (*π*) i 31 triliwn digid. Mae'r ateb mor hir, byddai'n cymryd dros 300,000 o flynyddoedd i'w ddweud! 
 </p>
 
 --- task ---
 
-Try changing the sum that Python does to a complicated one!
+Rhowch gynnig ar newid y sym er mwyn i Python wneud un cymhleth!
 
-You can also use brackets if you want to control the order that Python calculates the sum: `print( (2 + 4) * (5 + 3) )`.
-
---- /task ---
-
---- task ---
-
-**Test:** Run your code and get Python to calculate your sum.
-
-**Debug:** Make sure your sum has a left and right round bracket around it `( 2 * 45 )`. If you use extra brackets to control the order, make you have a right bracket to match every left bracket.
+Fe allwch chi hefyd ddefnyddio cromfachau os hoffech chi reoli ym mha drefn mae Python yn gwneud y sym: `print( (2 + 4) * (5 + 3) )`.
 
 --- /task ---
 
 --- task ---
 
-If you have asked Python to calculate a really big sum, you might find the answer goes across multiple lines in the output area.
+**Profi:** Rhedwch eich cod i wneud i Python gyfrifo eich sym.
 
-**Tip:** Click on the **hamburger menu** (the icon with three lines) in the top-left of your Trinket editor. Then click on the **Fullscreen** button to view your project in fullscreen mode.
-
-![The Trinket editor with left-hand side menu expanded, via the hamburger menu, to show the fullscreen option.](images/full_screen.png)
-
-To exit fullscreen mode, click on the **Fullscreen** button again or press <kbd>Esc</kbd> on your keyboard.
+**Difa chwilod:** Gwnewch yn siŵr bod cromfach chwith a dde o amgylch eich sym `( 2 * 45 )`. Os ydych chi'n defnyddio cromfachau ychwanegol i reoli'r drefn, cofiwch fod angen cromfach dde i gyfateb i bob cromfach chwith.
 
 --- /task ---
 
-The line `from datetime import *` at the top of the **main.py** tab includes a library with helpful functions for getting the current date and time.
+--- task ---
+
+Os ydych chi wedi gofyn i Python gyfrifo sym enfawr, efallai fe welwch chi fod yr ateb yn mynd ar draws mwy nag un llinell yn yr ardal allbwn.
+
+**Cyngor:** Cliciwch y **ddewislen byrger** (yr eicon tair llinell) yng nghornel chwith uchaf eich golygydd Trinket. Wedyn cliciwch y botwm **Fullscreen** i weld eich prosiect yn y modd sgrin lawn.
+
+![Y golygydd Trinket gyda'r ddewislen ochr chwith wedi'i hehangu, drwy'r ddewislen byrger, i ddangos yr opsiwn sgrin lawn.](images/full_screen.png)
+
+I adael y modd sgrin lawn, cliciwch y botwm **Fullscreen** eto neu bwyso <kbd>Esc</kbd> ar eich bysellfwrdd.
+
+--- /task ---
+
+Mae'r llinell `from datetime import *` ar frig y tab **main.py** yn cynnwys llyfrgell gyda swyddogaethau defnyddiol i gael y dyddiad a'r amser cyfredol.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. A Python library allows you to easily use code that other people have written. There are libraries for drawing charts and graphs, making art, doing calculations, and lots more.
+Un o'r pethau gwych am Python yw'r holl <span style="color: #0faeb0">**lyfrgellau**</span> cod sydd ar gael. Mae llyfrgell Python yn gadael i chi ddefnyddio cod mae pobl eraill wedi'i ysgrifennu yn hawdd. Mae llyfrgelloedd ar gyfer llunio siartiau a graffiau, gwneud celf, cyfrifiadau, a llawer mwy.
 </p>
 
 --- task ---
 
-Add another line to your code to `print` some more text and the emoji variables `calendar` and `clock`.
+Ychwanegwch linell arall at eich cod i brintio mwy o destun a'r newidynnau emoji `calendr` a `cloc`.
 
-Get the current date and time by using the `now()` function from the `datetime` library:
+Fe allwch chi gael y dyddiad a'r amser cyfredol drwy ddefnyddio'r swyddogaeth `nawr()` o'r llyfrgell `datetime`:
 
 --- code ---
 ---
@@ -94,21 +94,21 @@ language: python filename: main.py line_numbers: true line_number_start: 14
 line_highlights: 16-17
 ---
 
-print(python, 'is very good at', sums)    
-print(230 * 5782 ** 2 / 23781) #Print the result of the sum     
-print('The', calendar, clock, 'is', datetime.now()) #Print with emoji
+print('mae', python, 'yn hen law ar', symiau)    
+print(230 * 5782 ** 2 / 23781) #Printio canlyniad y sym     
+print('Y', calendr, cloc, 'yw', datetime.now()) #Printio gydag emoji
 
 --- /code ---
 
-**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
+**Cyngor:** Does dim rhaid i chi deipio'r sylwadau, maen nhw dim ond yno i'ch helpu i ddeall y cod. Dim ond y rhan cyn `#` mae angen i chi ei deipio.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code a couple of times to see the date and time update.
+**Profi:** Rhedwch eich cod cwpl o weithiau i weld y dyddiad a'r amser yn diweddaru.
 
-**Debug:** Check that you have a fullstop `.` between `datetime` and `now`. Check all the punctuation carefully.
+**Difa chwilod:** Gwnewch yn siŵr bod atalnod llawn `.` rhwng `datetime` a `now`. Gwiriwch yr holl atalnodi'n ofalus.
 
 --- /task ---
 
