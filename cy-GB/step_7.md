@@ -1,25 +1,25 @@
-## Upgrade your project
+## Uwchraddio eich prosiect
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add more to your project. There are more emoji to choose from.
+Ychwanegu mwy at eich prosiect. Mae mwy o emoji i ddewis o'u plith.
   </div>
 <div>
 
-![A longer project in the output area with more text, emoji, and inputs.](images/upgrade_ideas.png){:width="300px"}
+![Prosiect hirach yn yr ardal allbwn gyda mwy o destun, emoji a mewnbynnau.](images/upgrade_ideas.png){:width="300px"}
 
 </div>
 </div>
 
-You could:
-+ Use `print` with different text and emoji
-+ Use `input` to get values from the user and store them as variables, then do sums with the variables
-+ Write more functions to organise your code
-+ Use `#` to add comments to your code
+Gallech chi wneud y canlynol:
++ Defnyddio `print` gyda gwahanol destun ac emoji
++ Defnyddio `input` i gael gwerthoedd gan y defnyddiwr a'u storio fel newidynnau, ac wedyn gwneud symiau gyda'r newidynnau
++ Ysgrifennu mwy o swyddogaethau i roi trefn ar eich cod
++ Defnyddio `#` i ychwanegu sylwadau at eich cod
 
-Click on **emoji.py** to see the emoji variables that you can use. Click back on **main.py** to add to your code.
+Cliciwch **emoji.py** i weld pa newidynnau emoji gallwch chi eu defnyddio. Cliciwch yn ôl i **main.py** i ychwanegu at eich cod.
 
-Here's an example function that asks about hobbies:
+Dyma enghraifft o swyddogaeth sy'n holi am ddiddordebau:
 
 --- code ---
 ---
@@ -27,17 +27,17 @@ language: python
 filename: main.py
 ---
 
-# Put code to run under here
-def hobbies():   
-hobby = input('What do you like?')   
-print('That sounds', fun)   
-print('You could make a', python, 'project about', hobby)
+# Rhowch y cod i'w redeg o dan fan hyn
+def diddordebau():   
+diddordeb = input('Beth wyt ti\'n hoffi ei wneud?')   
+print('Mae hynny\'n swnio\'n', hwyl)   
+print('Gallet ti wneud prosiect', python, 'am', diddordeb)
 
 --- /code ---
 
-**Tip:** Don't forget you will need to call your function as well as define it.
+**Cyngor:** Cofiwch fod angen galw eich swyddogaeth ar ôl ei diffinio.
 
-You can use `input` to make your project wait for the user to tap <kbd>Enter</kbd> at any point in this project.
+Fe allwch chi ddefnyddio `input` i wneud eich prosiect aros i'r defnyddiwr daro <kbd>Enter</kbd> ar unrhyw bwynt yn y prosiect hwn.
 
 --- code ---
 ---
@@ -45,21 +45,21 @@ language: python
 filename: main.py
 ---
 
-roll_dice()
+taflu_dis()
 
-input() #Wait for the user to tap Enter
+input() #Aros i'r defnyddiwr daro Enter
 
-hobbies()
+diddordebau()
 
 --- /code ---
 
 
 --- collapse ---
 ---
-title: Completed project
+title: Prosiect gorffenedig
 ---
 
-You can view the [completed project here](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}.
+Gallwch chi weld y [prosiect gorffenedig yma](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}.
 
 --- /collapse ---
 
