@@ -1,43 +1,43 @@
-Put code to run under here
+Rhowch y cod i'w redeg o dan fan hyn
 
-Print the result of the sum
+Printio canlyniad y sym
 
-Print with emoji
+Printio gydag emoji
 
-Put function definitions under here
+Rhowch ddiffiniadau swyddogaethau o dan fan hyn
 
-Don't forget the colon at the end of this line
+Cofiwch y colon ar ddiwedd y llinell hon
 
-Call the roll_dice function
+Galw'r swyddogaeth taflu_dis
 
-Generate a random number between 1 and 6
+Cynhyrchu rhif ar hap rhwng 1 a 6
 
-Print the value of the roll variable
+Printio gwerth y newidyn tafliad
 
-Repeat the fire emoji to match the dice roll
+Ailadrodd yr emoji fflam i gyfateb i'r tafliad dis
 
-Wait for input from the user
+Aros am fewnbwn gan y defnyddiwr
 
-Use the number the user entered
+Defnyddio'r rhif mae'r defnyddiwr wedi'i roi
 
-randint needs max to be an 'integer'
+Mae randint angen i mwyaf fod yn gyfanrif
 
-Wait for the user to tap Enter
+Aros i'r defnyddiwr daro Enter
 
-Useful characters :',()*_/.#
+Nodau defnyddiol :',()*_/.#
 
-Emoji variables to use in your project
+Newidynnau emoji i'w defnyddio yn eich prosiect
 
-Add ASCII art alternatives
+Ychwanegu dewisiadau celf ASCII gwahanol
 
-Before emoji we used emoticons made from characters
+Cyn emoji roedden ni'n defnyddio gwenogluniau wedi'u ffurfio o nodau
 
-get input from the user
+cael mewnbwn gan y defnyddiwr
 
-generate a random number
+cynhyrchu rhif ar hap
 
-repeat the fire text roll times
+ailadrodd y testun fflam i gyfateb i rif y tafliad
 
-get the current date and time
+cael y dyddiad a'r amser cyfredol
 
-Call the hobbies function
+Galw'r swyddogaeth diddordebau
