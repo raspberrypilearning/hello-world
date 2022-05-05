@@ -1,26 +1,26 @@
 ---
-title: Hello 🌍🌎🌏
+title: Helo 🌍🌎🌏
 hero_image: images/banner.png
-description: Write an interactive Python project that uses emoji
+description: Ysgrifennu prosiect Python rhyngweithiol sy'n defnyddio emoji
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: Introduction
+    title: Cyflwyniad
   - 
-    title: Say hello
+    title: Dweud helo
   - 
-    title: Sums and dates
+    title: Symiau a dyddiadau
     completion: engaged
   - 
-    title: Roll a dice
+    title: Taflu dis
   - 
-    title: Sentence starter
+    title: Dechrau brawddeg
     completion: internal
   - 
-    title: Reflection
+    title: Myfyrio
     completion: external
     knowledge_quiz:
       path: quiz1
@@ -28,6 +28,6 @@ steps:
       questions: 3
       passing_score: 3
   - 
-    title: Upgrade your project
+    title: Uwchraddio dy brosiect
   - 
-    title: What next?
+    title: Beth nesaf?
