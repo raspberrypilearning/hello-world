@@ -1,25 +1,25 @@
-## Roll a dice
+## Taflu dis
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Python can generate random numbers to make digital dice.
+Mae Python yn gallu cynhyrchu rhifau ar hap i wneud dis digidol.
 </div>
 <div>
 
-![The output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll_dice.png){:width="300px"}
+![Yr ardal allbwn gyda llinellau ychwanegol i ofyn i'r defnyddiwr roi'r rhif mwyaf ar gyfer ei ddis a'r ymateb gyda'r rhif ar hap.](images/roll_dice.png){:width="300px"}
 
 </div>
 </div>
 
-In Python you **call** a **function()** to perfom an action. You have already used the `print()` function to output text.
+Yn Python, rydych chi'n **galw** **swyddogaeth()** i gyflawni gweithred. Rydych chi eisoes wedi defnyddio'r swyddogaeth `print()` i allbynnu testun.
 
-You can **define** a new **function** to group code together so that you can name it and reuse it.
+Fe allwch chi **ddiffinio** **swyddogaeth** newydd i grwpio cod gyda'i gilydd er mwyn gallu ei henwi a'i hailddefnyddio.
 
 --- task ---
 
-Functions need to be defined before you can call them. Look for the comment near the top of the **main.py** tab that says `#Put function definitions under here`.
+Rhaid diffinio swyddogaethau cyn eu galw. 'Drychwch am y sylw ger brig y tab **main.py** sy'n dweud `#Rhowch ddiffiniadau swyddogaethau o dan fan hyn`.
 
-Define a new function called `roll_dice()` that uses the `randint()` function, from the `random` library, to generate a random 'integer' (whole number) from 1 to 6 and output it to the screen.
+Diffiniwch swyddogaeth newydd o'r enw `taflu_dis()` sy'n defnyddio'r swyddogaeth `randint()` o'r llyfrgell `random` i gynhyrchu cyfanrif ar hap rhwng 1 a 6, a'i allbynnu ar y sgrin.
 
 --- code ---
 ---
@@ -27,24 +27,24 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 9-12
 ---
 
-# Put function definitions under here
+# Rhowch ddiffiniadau swyddogaethau o dan fan hyn
 
-def roll_dice(): #Don't forget the colon at the end of this line   
-print(python, 'can make a', dice)   
-print('You rolled a', randint(1, 6))
+def taflu_dis(): #Cofiwch y colon ar ddiwedd y llinell hon   
+print('mae', python, 'yn gallu gwneud', dis)   
+print('Rydych chi wedi taflu', randint(1, 6))
 
 --- /code ---
 
-The lines under `def roll_dice():` are **indented**. To do this, use the <kbd>Tab</kbd> character on your keyboard (usually above <kbd>CAPSLOCK</kbd> on the keyboard). Indenting code tells Python that the indented lines are part of the function.
+Mae'r llinellau o dan `def taflu_dis():` wedi'u **mewnoli**. I wneud hyn, defnyddiwch y nod <kbd>Tab</kbd> ar eich bysellfwrdd (uwchben <kbd>CAPSLOCK</kbd> fel arfer). Mae mewnoli cod yn dweud wrth Python bod y llinellau wedi'u mewnoli yn rhan o'r swyddogaeth.
 
-**Tip:** The underscore `_` is used to between words in variable and function names in Python to make them easier to read. You can't use a space.
+**Cyngor:** Mae'r tanlinell `_` yn cael ei defnyddio rhwng geiriau mewn enwau newidynnau a swyddogaethau yn Python i'w gwneud yn haws eu darllen. Chewch chi ddim defnyddio bwlch.
 
 --- collapse ---
 ---
-title: Typing special characters on a UK or US keyboard
+title: Teipio nodau arbennig ar fysellfwrdd y DU neu UDA
 ---
 
-On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next to the <kbd>L</kbd> key: hold <kbd>Shift</kbd> and tap <kbd>;</kbd> to type a `:`. The underscore `_` is on the same key as the `-`, next to the <kbd>0</kbd>, hold <kbd>Shift</kbd> and tap <kbd>-</kbd> to type an `_`.
+Ar fysellfwrdd y DU neu UDA, mae'r colon `:` ar yr un fysell â'r hanner colon, wrth ymyl y fysell <kbd>L</kbd>: daliwch <kbd>Shift</kbd> a tharo <kbd>;</kbd> i deipio `:`. Mae'r tanlinell `_` ar yr un fysell â `-`, wrth ymyl <kbd>0</kbd>, daliwch <kbd>Shift</kbd> a tharo <kbd>-</kbd> i deipio `_`.
 
 --- /collapse ---
 
@@ -52,13 +52,13 @@ On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next 
 
 --- task ---
 
-**Test:** If you ‘Run’ your code now, it won't roll a dice. That’s because you have defined the `roll_dice()` function, but not called it yet.
+**Profi:** Os byddwch yn 'rhedeg' eich cod nawr, ni fydd yn taflu dis. Mae hynny oherwydd eich bod wedi diffinio'r swyddogaeth `taflu_dis()`, ond heb ei galw eto.
 
 --- /task ---
 
 --- task ---
 
-To use a function, you need to call it in the code. Go to the end of your code and add a new line to call the `roll_dice()` function:
+I ddefnyddio swyddogaeth, mae angen i chi ei galw yn y cod. Ewch i ddiwedd eich cod ac ychwanegu llinell newydd i alw'r swyddogaeth `taflu_dis()`:
 
 --- code ---
 ---
@@ -66,9 +66,9 @@ language: python filename: main.py line_numbers: true line_number_start: 20
 line_highlights: 22
 ---
 
-print('The', calendar, clock, 'is', datetime.now())
+print('Y', calendr, cloc, 'yw', datetime.now())
 
-roll_dice() #Call the roll dice function
+taflu_dis() #Galw'r swyddogaeth taflu dis
 
 --- /code ---
 
@@ -76,36 +76,36 @@ roll_dice() #Call the roll dice function
 
 --- task ---
 
-**Test:** Run your project several times to see the random dice roll each time.
+**Profi:** Rhedwch eich prosiect nifer o weithiau i weld y tafliad dis ar hap bob tro.
 
-**Debug:** Make sure you have an underscore `_` between roll and dice to make the function name. Make sure you have a colon `:` at the end of the line.
+**Difa chwilod:** Gwnewch yn siŵr bod tanlinell `_` rhwng taflu a dis yn enw'r swyddogaeth. Gwnewch yn siŵr bod colon `:` ar ddiwedd y llinell.
 
-**Debug:** Check that the lines under `def roll_dice()` are indented. It's really common to get this wrong in Python, so make sure to check.
+**Difa chwlilod:** Gwnewch yn siŵr bod y llinellau o dan `def taflu_dis()` wedi'u mewnoli. Mae'n gyffredin iawn cael hyn yn anghywir yn Python, felly cofiwch wirio.
 
-![The Trinket editor showing the lines of code for the <code>roll_dice</code> function have not been indented. The code has been run and is highlighted on line 10, the first line that should be indented, with the error 'SyntaxError: bad input on line 10 in main.py'.](images/indent_error.png)
+![Y golygydd Trinket yn dangos y llinellau cod ar gyfer y swyddogaeth <code>taflu_dis</code> heb eu mewnoli. Mae'r cod wedi'i redeg ac mae llinell 10 wedi'i hamlygu, sef y llinell cyntaf dylid ei mewnoli, gyda'r gwall 'SyntaxError: bad input on line 10 in main.py'.](images/indent_error.png)
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Uses of random numbers include cryptography, data science, and adding variety into games and computer art. Computers generate <span style="color: #0faeb0">**random numbers**</span> using an algorithm. For numbers that are really random, you need an unpredictable input from the real world.
+Mae'r defnydd o rifau ar hap yn cynnwys cryptograffeg, gwyddor data, ac ychwanegu amrywiaeth at gemau a chelf cyfrifiadurol. Mae cyfrifiaduron yn defnyddio algorithm i gynhyrchu <span style="color: #0faeb0">**rhifau ar hap**</span>. Ar gyfer rhifau sydd wir yn rhai ar hap, rhaid cael mewnbwn nad oes modd ei ragfynegi o'r byd go iawn.
 </p>
 
 --- task ---
 
-The `fire` variable stores a 🔥 emoji. The code `print(fire * 3)` outputs three fire emoji '🔥🔥🔥'. You need to output the correct number of emoji to match the number rolled.
+Mae'r newidyn `fflam` yn cynnwys yr emoji 🔥. Mae'r cod `print(fflam * 3)` yn allbynnu tri emoji '🔥🔥🔥'. Rhaid i chi allbynnu nifer cywir yr emoji i gyfateb i'r rhif sy'n cael ei daflu.
 
 --- collapse ---
 ---
-title: What would happen if you use `print(fire * randint(1, 6))`?
+title: Beth fyddai'n digwydd pe baech chi'n defnyddio `print(fflam * randint(1, 6))`?
 ---
 
-You would get a new random number that is usually different from your first random number.
+Byddech chi'n cael rhif ar hap newydd sydd fel arfer yn wahanol i'ch rhif ar hap cyntaf.
 
 --- /collapse ---
 
-Hmm, how can you make sure you use the same random number?
+Hmm, sut mae gwneud yn siŵr eich bod yn defnyddio'r un rhif ar hap?
 
-Change your code to save the value returned by `randint()` in a variable called `roll` and then use that variable to print out the number rolled with the matching number of 🔥 emoji.
+Newidiwch eich cod i gadw'r gwerth sy'n cael ei ddychwelyd gan `randint()` mewn newidyn o'r enw `taflu` ac yna defnyddio'r newidyn hwnnw i brintio'r rhif sy'n cael ei rolio gyda nifer yr emoji 🔥 sy'n cyfateb.
 
 --- code ---
 ---
@@ -113,41 +113,41 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 11 - 13
 ---
 
-# Put function definitions under here
+# Rhowch ddiffiniadau swyddogaethau o dan fan hyn
 
-def roll_dice():    
-print(python, 'can make a', dice)    
-roll = randint(1, 6) #Generate a random number between 1 and 6    
-print('You rolled a', roll) #Print the value of the roll variable     
-print(fire * roll) #Repeat the fire emoji to match the dice roll
+def taflu_dis():    
+print('mae', python, 'yn gallu gwneud', dis)    
+taflu = randint(1, 6) #Cynhyrchu rhif ar hap rhwng 1 a 6    
+print('Rydych chi wedi taflu', taflu) #Printio gwerth y newidyn taflu     
+print(fflam * taflu) #Ailadrodd yr emoji fflam i gyfateb i'r tafliad dis
 
 --- /code ---
 
-You can use `star` or `heart` instead of `fire` if you prefer.
+Fe allwch chi ddefnyddio `seren` neu `calon` yn lle `fflam` os yw'n well gennych chi.
 
-The symbol `*` means multiply so `fire * roll` multiples the text in the `fire` variable ('🔥') by the number contained in the `roll` variable.
+Mae'r symbol `*` yn golygu lluosi felly mae `fflam * tafliad` yn lluosi'r testun yn y newidyn `fflam` ('🔥') gyda'r nifer yn y newidyn `tafliad`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Test your project a few times. Make sure you understand how the code works.
+**Profi:** Profwch eich prosiect ambell waith. Gwnewch yn siŵr eich bod yn deall sut mae'r cod yn gweithio.
 
-**Tip:** Variables are useful when you need to use the same value multiple times in your code. Giving variables a sensible name also makes your code easier to understand.
+**Cyngor:** Mae newidynnau'n ddefnyddiol pan fydd angen i chi ddefnyddio'r un gwerth fwy nag unwaith yn eich cod. Mae rhoi enw synhwyrol i'ch newidynnau yn gwneud eich cod yn haws ei ddeall hefyd.
 
 --- /task ---
 
-Upgrade your dice so that the user can choose the maximum number.
+Uwchraddiwch eich dis er mwyn i'r defnyddiwr allu dewis y rhif mwyaf.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-Lots of games use many-sided dice. In the physical world, dice are made from regular geometric shapes. Common dice include D6, D12, and D20. On a computer, you can generate a <span style="color: #0faeb0">random</span> number to make a fair dice with any number of sides.</p>
+Mae llawer o gemau'n defnyddio dis â nifer o ochrau. Yn y byd go iawn, mae dis wedi'i wneud o siâp geometrig rheolaidd. Mae'r mathau cyffredin o ddis yn cynnwys D6, D12 a D20. Ar gyfrifiadur, fe allwch chi gynhyrchu rhif <span style="color: #0faeb0">ar hap</span> i wneud dis teg ag unrhyw nifer o ochrau.</p>
 
 --- task ---
 
-The `input()` function asks the user a question and then returns their answer.
+Mae'r swyddogaeth `input()` yn gofyn cwestiwn i'r defnyddiwr, ac yn dychwelyd eu hateb.
 
-Add code to ask the user for the biggest number on their dice and then save the result in a variable called `max` and `print` the number chosen into the output area:
+Ychwanegwch god i ofyn i'r defnyddiwr am y rhif mwyaf ar ei ddis ac yna cadw'r canlyniad mewn newidyn o'r enw `mwyaf` a phrintio'r rhif sy'n cael ei ddewis yn yr ardal allbwn:
 
 --- code ---
 ---
@@ -155,27 +155,27 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 11-12
 ---
 
-# Put function definitions under here
+# Rhowch ddiffiniadau swyddogaethau o dan fan hyn
 
-def roll_dice():   
-print(python, 'can make a', dice)   
-max = input('How many sides?:') #Wait for input from the user    
-print('That\'s a D', max) #Use the number the user entered    
-roll = randint(1, 6)    
-print('You rolled a', roll)    
-print(fire * roll)
+def taflu_dis():   
+print('mae', python, 'yn gallu gwneud', dis)   
+mwyaf = input('Sawl ochr?:') #Aros am fewnbwn gan y defnyddiwr    
+print('Mae hwnnw\'n D', mwyaf) #Defnyddio'r rhif mae'r defnyddiwr yn ei roi    
+tafliad = randint(1, 6)    
+print('Rydych chi wedi taflu', tafliad)    
+print(fflam * tafliad)
 
 --- /code ---
 
-To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
+I brintio collnod `'` mewn gair fel `hwnnw'n`, rhowch ôl-slaes `\` o'i flaen er mwyn i Python wybod ei fod yn rhan o'r testun.
 
 --- /task ---
 
 --- task ---
 
-Change your `roll` variable code to use `max` as the maximum value for `randint` when it generates a random number.
+Newidiwch cod eich newidyn `tafliad` a defnyddio `mwyaf` fel y gwerth mwyaf ar gyfer `randint` pan fydd yn cynhyrchu rhif ar hap.
 
-When you get input from the user, Python treats it as text. But, `randint` needs an 'integer' (a positive whole number). The `int` function turns the user input into an integer.
+Pan ydych chi'n cael mewnbwn gan y defnyddiwr, mae Python yn ei drin fel testun. Ond mae angen cyfanrif ar `randint`. Mae'r swyddogaeth `int` yn troi mewnbwn y defnyddiwr yn gyfanrif.
 
 --- code ---
 ---
@@ -183,15 +183,15 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 13
 ---
 
-# Put function definitions under here
+# Rhowch ddiffiniadau swyddogaethau o dan fan hyn
 
-def roll_dice():   
-print(python, 'can make a', dice)   
-max = input('How many sides?:') #Wait for input from the user   
-print('That\'s a D', max) #Use the number the user entered   
-roll = randint(1, int(max)) #randint needs max to be an 'integer'   
-print('You rolled a', roll)   
-print(fire * roll)
+def taflu_dis():   
+print('mae', python, 'yn gallu gwneud', dis)   
+mwyaf = input('Sawl ochr?:') #Aros am fewnbwn gan y defnyddiwr   
+print('Mae hwnnw\'n D', mwyaf) #Defnyddio'r rhif mae'r defnyddiwr yn ei roi   
+tafliad = randint(1, int(mwyaf)) #Mae randint angen i mwyaf fod yn gyfanrif   
+print('Rydych chi wedi taflu', tafliad)   
+print(fflam * tafliad)
 
 --- /code ---
 
@@ -199,7 +199,7 @@ print(fire * roll)
 
 --- task ---
 
-**Test:** Run your project. When the program reaches the `input` line, it will wait for you to enter a response before continuing. Try it again with a different `input` number.
+**Profi:** Rhedwch eich prosiect. Pan fydd y rhaglen yn cyrraedd y llinell `input`, bydd yn aros i chi roi ymateb cyn parhau. Rhowch gynnig arall arni gyda rhif `input` gwahanol.
 
 --- /task ---
 
