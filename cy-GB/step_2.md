@@ -1,37 +1,37 @@
-## Say hello
+## Dweud helo
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's traditional to write a program to output 'Hello world!' when you learn a new programming language.
+Mae'n draddodiadol ysgrifennu rhaglen i allbynnu 'Helo fyd!' pan fyddwch yn dysgu iaith raglennu newydd.
 </div>
 <div>
 
-![The Trinket output area showing the two printed lines of text and emoji.](images/say_hello.png){:width="200px"}
+![Ardal allbwn Trinket yn dangos y ddwy linell wedi'u printio o destun ac emoji.](images/say_hello.png){:width="200px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://trinket.io/python/975f35023b){:target="_blank"}. Trinket will open in another browser tab.
+Agor y [prosiect dechreuol Helo 🌍🌎🌏](https://trinket.io/python/975f35023b){:target="_blank"}. Bydd Trinket yn agor mewn tab arall yn y porwr.
 
-![The Trinket editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
+![Y golygydd Trinket gyda'r cod dechrau prosiect ar y chwith yn yr ardal cod. Mae'r ardal allbwn wag ar y dde.](images/starter_project.png)
 
 --- /task ---
 
-The line `#!/bin/python3` tells Trinket that you are using Python 3 (the latest version). The `import` lines tell Python that you are going to use code you didn't write.
+Mae'r llinell `#!/bin/python3` yn rhoi gwybod i Trinket eich bod yn defnyddio Python 3 (y fersiwn ddiweddaraf). Mae'r llinellau `import` yn rhoi gwybod i Python y byddwch yn defnyddio cod nad ydych chi wedi'i ysgrifennu.
 
-In Python, `print()` outputs text (words or numbers) to the screen.
+Yn Python, mae `print()` yn allbynnu testun (geiriau neu rifau) i'r sgrin.
 
-Lines beginning with `#` are comments, they explain the code to humans and are ignored by Python.
+Sylwadau yw llinellau sy'n dechrau gyda `#`, maen nhw'n esbonio'r cod i bobl ac yn cael eu hanwybyddu gan Python.
 
 --- task ---
 
-Find the `# Put code to run below here` line.
+Dewch o hyd i'r llinell `# Rhowch y cod i'w redeg o dan fan hyn`.
 
-Click below that line. The flashing `|` is the cursor and shows where you will type.
+Cliciwch o dan y llinell honno. Y cyrchwr yw'r `|` sy'n fflachio, a bydd yn dangos lle byddwch chi'n teipio.
 
-Type the code to `print()` hello:
+Teipiwch y cod, gyda `print()`, i ddangos helo:
 
 --- code ---
 ---
@@ -39,17 +39,17 @@ language: python filename: main.py line_numbers: true line_number_start: 11
 line_highlights: 12
 ---
 
-# Put code to run under here
-print('Hello')
+# Rhowch y cod i'w redeg o dan fan hyn
+print('Helo')
 
 --- /code ---
 
 --- collapse ---
 ---
-title: Typing special characters on a UK or US keyboard
+title: Teipio nodau arbennig ar fysellfwrdd y DU neu UDA
 ---
 
-On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kbd>9</kbd> and <kbd>0</kbd> keys. To type a left round bracket, hold down the <kbd>Shift</kbd> key (next to <kbd>Z</kbd>) and then tap <kbd>9</kbd>. The single quote `'` is on the same row as the <kbd>L</kbd> key, just before the <kbd>Enter</kbd> key. The comma `,` is next to the <kbd>M</kbd>.
+Ar fysellfwrdd y DU neu UDA, mae'r cromfachau chwith `(` a dde `)` ar y bysellau <kbd>9</kbd> a <kbd>0</kbd>. I deipio cromfach chwith, daliwch y fysell <kbd>Shift</kbd> (wrth ymyl <kbd>Z</kbd>) a tharo <kbd>9</kbd>. Mae'r dyfynod sengl `'` ar yr un rhes â'r fysell <kbd>L</kbd> ddim yn bell o'r fysell <kbd>Enter</kbd>. Mae'r coma `,` wrth ymyl <kbd>M</kbd>.
 
 --- /collapse ---
 
@@ -57,33 +57,33 @@ On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kb
 
 --- task ---
 
-**Test:** Click on the **Run** button to run your code. In Trinket, the output will appear on the right:
+**Profi:** Cliciwch y botwm **Run** i redeg eich cod. Yn Trinket, bydd yr allbwn yn ymddangos ar y dde:
 
-![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
+![Yr eicon Run wedi'i hamlygu gyda 'Helo' yn dangos yn yr ardal allbwn. ](images/run_hello.png)
 
-**Debug:** If you get an error then check your code really carefully. In this example, the single quotes around `Hello` are missing so Python doesn't know it is supposed to be text.
+**Difa chwilod:** Os ydych chi'n cael gwall, gwnewch yn fanwl siŵr bod eich cod yn gywir. Yn yr enghraifft hon, mae'r dyfynodau sengl o amgylch `Hello` ar goll felly dydy Python ddim yn gwybod mai testun sydd i fod yno.
 
-![the Trinket editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 10 in main.py.](images/hello_error.png)
-
---- /task ---
-
-In Python, a **variable** is used to store text or numbers. Variables make it easier for humans to read code. You can use the same variable in lots of places in your code.
-
-We have included some variables that store emoji characters.
-
---- task ---
-
-In your Trinket, click on the **emoji.py** tab. Find the variable `world`, which stores the text '🌍🌍🌍'.
+![golygydd Trinket gyda dyfynodau sengl ar goll a'r gwall 'NameError: name 'Hello' is not defined on line 10 in main.py.](images/hello_error.png)
 
 --- /task ---
 
+Yn Python, mae **newidyn** yn cael ei ddefnyddio i storio testun neu rifau. Mae newidynnau yn ei gwneud hi'n haws i bobl ddarllen cod. Fe allwch chi ddefnyddio'r un newidyn fwy nag unwaith yn eich cod.
+
+Rydyn ni wedi cynnwys rhai newidynnau sy'n storio nodau emoji.
+
 --- task ---
 
-You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` will add a space between each item.
+Yn Trinket, cliciwch y tab **emoji.py**. Dewch o hyd i'r newidyn `byd`, sy'n storio'r testun '🌍🌍🌍'.
 
-Click on the **main.py** tab to go back to your `print()` code.
+--- /task ---
 
-Change your code to also `print()` the contents of the `world` variable:
+--- task ---
+
+Fe allwch chi brintio, gan ddefnyddio `print()`, fwy nag un eitem ar y tro drwy roi coma `,` rhwng yr eitemau. Bydd `print()` yn ychwanegu bwlch rhwng bob eitem.
+
+Cliciwch y tab **main.py** i ddychwelyd i'ch cod `print()`.
+
+Newidiwch eich cod i brintio cynnwys y newidyn `byd` hefyd:
 
 --- code ---
 ---
@@ -91,37 +91,37 @@ language: python filename: main.py line_numbers: true line_number_start: 11
 line_highlights: 12
 ---
 
-# Put code to run under here
-print('Hello', world)
+# Rhowch y cod i'w redeg o dan fan hyn
+print('Helo', byd)
 
 --- /code ---
 
-**Tip:** `'Hello'` is a text string because it has single quotes around it, whereas `world` is a variable so the value stored in it will be printed.
+**Cyngor:** Llinyn testun yw `'Helo'` oherwydd bod dyfynodau sengl o'i hamgylch, ond mae `byd` yn newidyn felly bydd y gwerth sydd wedi'i storio ynddo yn cael ei brintio.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code to see the result:
+**Profi:** Rhedwch eich cod i weld y canlyniad:
 
-![The updated line of code in the code area with the word 'Hello' followed by three emoji worlds showing in the output area.](images/run_hello_world.png)
+![Y llinell cod newydd yn yr ardal cod gyda'r gair 'Helo' wedi'i ddilyn gan dri emoji byd yn yr ardal allbwn.](images/run_hello_world.png)
 
-Emoji can look different on different computers, so yours might not look exactly the same.
+Mae emoji'n gallu edrych yn wahanol ar wahanol gyfrifiaduron, felly efallai na fydd eich un chi yn edrych union yr un fath.
 
-**Debug:** Make sure that you have added a comma between the items in `print()` and that you have spelled `world` correctly.
+**Difa chwilod:** Gwnewch yn siŵr eich bod wedi ychwanegu coma rhwng yr eitemau yn `print()` ac wedi sillafu `byd` yn gywir.
 
-This example is missing the comma `,`. It's small but very important!
+Mae'r coma `,` ar goll yn yr enghraifft hon. Mae'n fach ond yn bwysig iawn!
 
-![The Trinket editor with missing single quotes and error 'SyntaxError: bad input on line 12 in main.py' displayed.](images/comma_error.png)
+![Y golygydd Trinket gyda'r dyfynodau sengl ar goll a'r gwall 'SyntaxError: bad input on line 12 in main.py' wedi'i ddangos.](images/comma_error.png)
 
 --- collapse ---
 ---
-title: I don't see the emoji
+title: Wela' i ddim yr emoji
 ---
 
-Most computers allow you to use colour emoji. However, if you can't use emoji, then you can use 'emoticons' instead, the way we did before emoji were invented!
+Mae'r rhan fwyaf o gyfrifiaduron yn gadael i chi ddefnyddio emoji lliw. Ond os nad ydych chi'n gallu defnyddio emoji, fe allwch chi ddefnyddio 'gwenogluniau' ('emoticons') yn lle, fel yr oedden ni'n ei wneud cyn dyfeisiad emoji!
 
-Change the `from emoji import *` line to:
+Newidiwch y llinell `from emoji import *` i:
 
 --- code ---
 ---
@@ -139,7 +139,7 @@ from noemoji import *
 
 --- task ---
 
-Add another line to your code to `print()` more text and emoji:
+Ychwanegwch linell arall at eich cod i brintio mwy o destun ac emoji:
 
 --- code ---
 ---
@@ -147,29 +147,29 @@ language: python filename: main.py line_numbers: true line_number_start: 12
 line_highlights: 13
 ---
 
-print('Hello', world)    
-print('Welcome to', python)
+print('Helo', byd)    
+print('Croeso i', python)
 
 --- /code ---
 
-**Tip:** The code you need to type is highlighted in a lighter colour. Code that is not highlighted helps you find where you need to add the new code.
+**Cyngor:** Mae'r cod sydd angen i chi ei deipio wedi'i amlygu mewn lliw goleuach. Mae cod heb ei amlygu yn eich helpu i weld lle mae angen i chi ychwanegu'r cod newydd.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click **run**.
+**Profi:** Cliciwch **run**.
 
-![The additional line of code in the code area with the word 'Hello' followed by three emoji worlds and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
+![Y llinell cod ychwanegol yn yr ardal cod gyda'r gair 'Helo' wedi'i ddilyn gan dri emoji byd a'r geiriau 'Croeso i' wedi'u dilyn gan emoji neidr a bysellfwrdd yn yr ardal allbwn.](images/run_multiple.png)
 
-**Tip:** It's a good idea to run your code after every change so you can fix problems quickly.
+**Cyngor:** Mae'n syniad da rhedeg eich cod ar ôl pob newid er mwyn gallu datrys problemau'n gyflym.
 
-**Debug:** Check carefully for brackets, quotes, commas, and correct spelling. Python needs you to be really accurate.
+**Difa chwilod:** Gwnewch yn siŵr bod gennych chi gromfachau, dyfynodau, comas a sillafu cywir. Mae angen bod yn fanwl gywir yn Python.
 
 --- /task ---
 
-If you have a Trinket account, you can click on the **Remix** button to save a copy to your `My Trinkets` library.
+Os oes gennych chi gyfrif Trinket, fe allwch chi glicio'r botwm **Remix** i gadw copi yn eich llyfrgell `My Trinkets`.
 
-If you don't have a Trinket account, you can still come back to your project in the future on the same computer by using the starter project link.
+Os nad oes gennych chi gyfrif Trinket, mae'n dal yn bosib i chi ddychwelyd i'ch prosiect yn y dyfodol ar yr un cyfrifiadur drwy ddefnyddio'r ddolen prosiect dechreuol.
 
 --- save ---
