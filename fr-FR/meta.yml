@@ -1,25 +1,28 @@
 ---
-title: Bonjour 🌍🌎🌏
+title: "Bonjour \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
 description: Écrire un projet Python interactif qui utilise des emoji
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-10-06"
+last_tested: '2021-10-06'
 steps:
-  - title: Introduction
-  - title: Dire bonjour
-  - title: Sommes et dates
-    completion: engaged
-  - title: Lancer un dé
-  - title: Début de phrase
-    completion: internal
-  - title: Réflexion
-    completion: external
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3
-  - title: Améliorer ton projet
-  - title: Et ensuite ?
+- title: Introduction
+- title: Dire bonjour
+- title: Sommes et dates
+  completion:
+  - engaged
+- title: Lancer un dé
+- title: Début de phrase
+  completion:
+  - internal
+- title: Réflexion
+  knowledge_quiz:
+    path: quiz1
+    version: 1
+    questions: 3
+    passing_score: 3
+  completion:
+  - external
+- title: Améliorer ton projet
+- title: Et ensuite ?
