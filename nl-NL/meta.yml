@@ -1,11 +1,11 @@
 ---
-title: Hallo 🌍🌎🌏
+title: "Hello \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
 description: Schrijf een interactief Python-project dat emoji gebruikt
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-10-06"
+last_tested: '2021-10-06'
 steps:
   - 
     title: Inleiding
@@ -13,20 +13,23 @@ steps:
     title: Zeg hallo
   - 
     title: Sommen en datums
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: Gooi een dobbelsteen
   - 
     title: Zin starter
-    completion: internal
+    completion:
+      - internal
   - 
     title: Reflectie
-    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: Verbeter je project
   - 
