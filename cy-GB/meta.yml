@@ -1,11 +1,11 @@
 ---
-title: Helo 🌍🌎🌏
+title: "Hello \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
 description: Ysgrifennu prosiect Python rhyngweithiol sy'n defnyddio emoji
 version: 4
 listed: true
 copyedit: true
-last_tested: "2021-10-06"
+last_tested: '2021-10-06'
 steps:
   - 
     title: Cyflwyniad
@@ -13,20 +13,23 @@ steps:
     title: Dweud helo
   - 
     title: Symiau a dyddiadau
-    completion: engaged
+    completion:
+      - engaged
   - 
     title: Taflu dis
   - 
     title: Dechrau brawddeg
-    completion: internal
+    completion:
+      - internal
   - 
     title: Myfyrio
-    completion: external
     knowledge_quiz:
       path: quiz1
       version: 1
       questions: 3
       passing_score: 3
+    completion:
+      - external
   - 
     title: Uwchraddio dy brosiect
   - 
