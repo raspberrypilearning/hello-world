@@ -35,7 +35,7 @@ print('I\'d like to make ... with', python)
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-غالبًا ما يستخدم </span>رمز القلب الأصفر<span style="color: #0faeb0"> لاظهار الصداقة والسعادة.</p>
+غالبًا ما يستخدم </span style="color: #0faeb0">رمز القلب الأصفر</span> لاظهار الصداقة والسعادة.</p>
 
 --- task ---
 
