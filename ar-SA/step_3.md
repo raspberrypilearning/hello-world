@@ -100,9 +100,9 @@ line_number_start: 14
 line_highlights: 16-17
 ---
 
-print (python، 'is very good at'، sums)    
-print (230 *5782** 2/23781) # اطبع نتيجة الجمع     
-print ('The'، calendar، clock، 'is'، datetime .now ()) # طباعة بالرموز التعبيرية
+print(python، 'is very good at'، sums)    
+print(230 *5782** 2/23781) # اطبع نتيجة الجمع     
+print('The'، calendar، clock، 'is'، datetime .now ()) # طباعة بالرموز التعبيرية
 
 --- /code ---
 
