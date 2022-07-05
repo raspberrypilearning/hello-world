@@ -1,0 +1,43 @@
+Rhowch y cod i'w redeg o dan fan hyn
+
+Printio canlyniad y sym
+
+Printio gydag emoji
+
+Rhowch ddiffiniadau swyddogaethau o dan fan hyn
+
+Cofiwch y colon ar ddiwedd y llinell hon
+
+Galw'r swyddogaeth taflu_dis
+
+Cynhyrchu rhif ar hap rhwng 1 a 6
+
+Printio gwerth y newidyn tafliad
+
+Ailadrodd yr emoji fflam i gyfateb i'r tafliad dis
+
+Aros am fewnbwn gan y defnyddiwr
+
+Defnyddio'r rhif mae'r defnyddiwr wedi'i roi
+
+Mae randint angen i mwyaf fod yn gyfanrif
+
+Aros i'r defnyddiwr daro Enter
+
+Nodau defnyddiol :',()*_/.#
+
+Newidynnau emoji i'w defnyddio yn eich prosiect
+
+Ychwanegu dewisiadau celf ASCII gwahanol
+
+Cyn emoji roedden ni'n defnyddio gwenogluniau wedi'u ffurfio o nodau
+
+cael mewnbwn gan y defnyddiwr
+
+cynhyrchu rhif ar hap
+
+ailadrodd y testun fflam i gyfateb i rif y tafliad
+
+cael y dyddiad a'r amser cyfredol
+
+Galw'r swyddogaeth diddordebau
