@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Find out what the Python programming language can do by writing an interactive project that uses emoji.
 
@@ -13,9 +13,10 @@ You will:
 
 --- no-print ---
 
+### Play ▶️
+
 --- task ---
 
-### Try it
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 Read the output and then tap <kbd>Enter</kbd> to continue. 
