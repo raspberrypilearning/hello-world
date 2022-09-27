@@ -13,7 +13,7 @@ It's traditional to write a program to output 'Hello world!' when you learn a ne
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://trinket.io/python/975f35023b){:target="_blank"}. Trinket will open in another browser tab.
+Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/python/python-hello-starter){:target="_blank"}. Trinket will open in another browser tab.
 
 ![The Trinket editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
 
@@ -72,21 +72,21 @@ The comma `,` is next to the <kbd>M</kbd>.
 
 --- /task ---
 
-In Python, a **variable** is used to store text or numbers. Variables make it easier for humans to read code. You can use the same variable in lots of places in your code. 
+In Python, a **variable** is used to store text or numbers. Variables make it easier for humans to read code. You can use the same variable in lots of places in your code.
 
 We have included some variables that store emoji characters.
 
 --- task ---
 
-In your Trinket, click on the **emoji.py** tab. Find the variable `world`, which stores the text '🌍🌍🌍'. 
+In your Trinket, click on the **emoji.py** tab. Find the variable `world`, which stores the text '🌍🌍🌍'.
 
---- /task --- 
+--- /task ---
 
 --- task ---
 
 You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` will add a space between each item.
 
-Click on the **main.py** tab to go back to your `print()` code. 
+Click on the **main.py** tab to go back to your `print()` code.
 
 Change your code to also `print()` the contents of the `world` variable:
 
@@ -100,11 +100,11 @@ line_highlights: 12
 ---
 
 #Put code to run under here    
-print('Hello', world) 
+print('Hello', world)
 
 --- /code ---
 
-**Tip:** `'Hello'` is a text string because it has single quotes around it, whereas `world` is a variable so the value stored in it will be printed. 
+**Tip:** `'Hello'` is a text string because it has single quotes around it, whereas `world` is a variable so the value stored in it will be printed.
 
 --- /task ---
 
@@ -162,7 +162,7 @@ line_highlights: 13
 ---
 
 print('Hello', world)    
-print('Welcome to', python) 
+print('Welcome to', python)
 
 --- /code ---
 
@@ -172,7 +172,7 @@ print('Welcome to', python)
 
 --- task ---
 
-**Test:** Click **run**. 
+**Test:** Click **run**.
 
 ![The additional line of code in the code area with the word 'Hello' followed by three emoji worlds and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
 
