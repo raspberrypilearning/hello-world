@@ -19,11 +19,11 @@ You will:
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Read the output and then tap <kbd>Enter</kbd> to continue. 
+Read the output and then tap <kbd>Enter</kbd> to continue.
 Type in your answers to the questions. Can you see how your answers are used?
 </div>
 <div class="trinket">
-  <iframe src="https://trinket.io/embed/python/a54e164ac2?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://editor.raspberrypi.org/embed/viewer/python-emoji-example" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
   <img src="images/hello-final.png">
 </div>
