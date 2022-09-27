@@ -10,7 +10,7 @@ If you are following the [Introduction to Python](https://projects.raspberrypi.o
 
 --- no-print ---
 
-<iframe src="https://editor.raspberrypi.org/embed/viewer/python-archery-example?show_visual_tab=true" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+<iframe src="https://editor.raspberrypi.org/embed/viewer/python-archery-example?show_visual_tab=true" width="600" height="700" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
 --- /no-print ---
