@@ -38,3 +38,5 @@ Type in your answers to the questions. Can you see how your answers are used?
 ![Completed project](images/showcase_static.png)
 
 --- /print-only ---
+
+![](http://code.org/api/hour/begin_codeclub_hworld.png)
