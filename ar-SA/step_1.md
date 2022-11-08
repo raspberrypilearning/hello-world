@@ -1,4 +1,4 @@
-## المقدمة
+## You will make
 
 اكتشف ما يمكن أن تفعله لغة برمجة Python من خلال كتابة مشروع تفاعلي يستخدم الرموز او الاشكال التعبيرية.
 
@@ -14,9 +14,10 @@
 
 <p spaces-before="0">--- no-print ---</p>
 
+<h3 spaces-before="0">Play ▶️</h3>
+
 <p spaces-before="0">--- task ---</p>
 
-<h3 spaces-before="0">جربها</h3>
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 اقرأ المخرجات ثم انقر فوق <kbd>Enter</kbd> في لوحة المفاتيح للمتابعة. 
@@ -38,3 +39,5 @@
 <p spaces-before="0"><img src="images/showcase_static.png" alt="مشروع مكتمل" /></p>
 
 <p spaces-before="0">--- /print-only ---</p>
+
+<p spaces-before="0"><img src="http://code.org/api/hour/begin_codeclub_hworld.png" alt="" /></p>
