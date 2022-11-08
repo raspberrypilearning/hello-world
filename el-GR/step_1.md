@@ -1,4 +1,4 @@
-## Εισαγωγή
+## You will make
 
 Μάθε τι μπορεί να κάνει η γλώσσα προγραμματισμού Python γράφοντας ένα διαδραστικό έργο που χρησιμοποιεί emoji.
 
@@ -13,9 +13,10 @@
 
 --- no-print ---
 
+### Play ▶️
+
 --- task ---
 
-### Δοκίμασέ το
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 Διάβασε την έξοδο και μετά πάτησε <kbd>Enter</kbd> για να συνεχίσεις. 
@@ -37,3 +38,5 @@
 ![Ολοκληρωμένο έργο](images/showcase_static.png)
 
 --- /print-only ---
+
+![](http://code.org/api/hour/begin_codeclub_hworld.png)
