@@ -1,34 +1,30 @@
-## Reflectie
+## Quick quiz
 
-Goed gedaan, je hebt een interactief programma gemaakt met tekst en emoji 👍
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Nu is het tijd om te reflecteren - reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen in je hersenen te maken.
+When you have answered each question, click on **Check my answer**.
 
-Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
-
-Druk na elke vraag op **indienen**. Je wordt naar het juiste antwoord geleid. Je kunt dit zo vaak doen als je wilt.
-
-Veel plezier!
+Have fun!
 
 --- question ---
 ---
 legend: Vraag 1 van 3
 ---
 
-Deze code stelt de `wereld`-variabele in om de tekst '🌍🌎🌏' te bevatten (de drie verschillende wereldemoji):
+This code sets the `world` variable to contain the text '🌍🌎🌏' (the three different world emoji):
 
 --- code ---
 ---
 language: python
 ---
 
-wereld = '🌍🌎🌏'
+world = '🌍🌎🌏'
 
 --- /code ---
 
-Welke code gebruikt de `wereld` variabele correct en geeft Hallo 🌍🌎🌏 als resultaat?
+Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
 
-![Het uitvoergebied van de Trinket-editor met Hallo 🌍🌎🌏 wordt weergegeven.](images/quiz1.png)
+![The output area from the Trinket editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
 
 --- choices ---
 
@@ -39,13 +35,13 @@ Welke code gebruikt de `wereld` variabele correct en geeft Hallo 🌍🌎🌏 al
 language: python
 ---
 
-output('Hallo' wereld)
+output('Hello' world)
 
 --- /code ---
 
  --- feedback ---
 
- Niet helemaal, `output` is niet de manier om berichten naar het scherm te sturen.
+ Not quite, `output` is not the way to output messages to the screen.
 
  --- /feedback ---
 
@@ -57,13 +53,13 @@ output('Hallo' wereld)
 language: python
 ---
 
-print('Hallo' wereld)
+print('Hello' world)
 
 --- /code ---
 
  --- feedback ---
 
- Niet helemaal, in Python stuurt `print` berichten naar het scherm, maar er ontbreekt iets in dit voorbeeld.
+ Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
 
  --- /feedback ---
 
@@ -74,13 +70,13 @@ print('Hallo' wereld)
 language: python
 ---
 
-print('Hallo', wereld)
+print('Hello', world)
 
 --- /code ---
 
  --- feedback ---
 
- Dat klopt, in Python stuurt `print` berichten naar het scherm. De tekstuitvoer staat tussen enkele aanhalingstekens `'` , een komma scheidt de twee items en geeft een spatie, dan wordt de `wereld` variabele aangeroepen, waarin de aarde-emoji 🌍🌎🌏 is opgeslagen, zoals in je project.
+ That's correct, in Python `print` outputs messages to the screen. The text output is inside single quotes `'` , a comma separates the two items and provides a space, then the `world` variable is called, which stores the earth emoji 🌍🌎🌏, like in your project.
 
  --- /feedback ---
 
@@ -91,13 +87,13 @@ print('Hallo', wereld)
 language: python
 ---
 
-print(Hallo, wereld)
+print(Hello, world)
 
 --- /code ---
 
  --- feedback ---
 
-  Niet helemaal, in Python stuurt `print` berichten naar het scherm, maar er ontbreekt iets in dit voorbeeld.
+  Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
 
  --- /feedback ---
 
