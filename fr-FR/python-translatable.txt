@@ -93,3 +93,9 @@ cent
 coeur_jaune 
 
 arc-en-ciel
+
+Choose the biggest number:
+
+I <3 rainbows
+
+You hit the bullseye, 500 points!
