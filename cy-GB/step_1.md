@@ -1,4 +1,4 @@
-## Cyflwyniad
+## You will make
 
 Dewch i wybod beth gall iaith raglenni Python ei wneud drwy ysgrifennu prosiect rhyngweithiol sy'n defnyddio emoji.
 
@@ -13,9 +13,10 @@ Byddwch chi'n:
 
 --- no-print ---
 
+### Play ▶️
+
 --- task ---
 
-### Rhowch gynnig arni
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 Darllenwch yr allbwn a tharo <kbd>Cyflwyno</kbd> i fwrw ymlaen. 
@@ -37,3 +38,5 @@ Teipiwch eich atebion i'r cwestiynau. Ydych chi'n gallu gweld sut mae eich atebi
 ![Prosiect wedi'i gwblhau](images/showcase_static.png)
 
 --- /print-only ---
+
+![](http://code.org/api/hour/begin_codeclub_hworld.png)
