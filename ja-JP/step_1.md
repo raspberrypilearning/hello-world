@@ -1,4 +1,4 @@
-## はじめに
+## You will make
 
 絵文字を使用するインタラクティブなプロジェクトを作成して、Pythonプログラミング言語で何ができるかを確認してください。
 
@@ -13,9 +13,10 @@
 
 --- no-print ---
 
+### Play ▶️
+
 --- task ---
 
-### 試してみる
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 出力された文を読み、<kbd>Enter</kbd>をたたいて続行します。 
@@ -37,3 +38,5 @@
 ![完成したプロジェクト](images/showcase_static.png)
 
 --- /print-only ---
+
+![](http://code.org/api/hour/begin_codeclub_hworld.png)
