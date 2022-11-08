@@ -1,21 +1,17 @@
-## Reflexión
+## Quick quiz
 
-Bien hecho, has creado un programa interactivo con texto y emoji 👍
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Ahora es momento de reflexionar: esta es una parte importante del aprendizaje porque te ayuda a establecer nuevas conexiones en tu cerebro.
+When you have answered each question, click on **Check my answer**.
 
-Responde las siguientes tres preguntas para reflexionar sobre lo que has aprendido.
-
-Después de cada pregunta, presiona **enviar**. Vamos a guiarte hacia la respuesta correcta. Puedes realizar esta actividad tantas veces como quieras.
-
-¡Qué te diviertas!
+Have fun!
 
 --- question ---
 ---
 legend: Pregunta 1 de 3
 ---
 
-Este código configura la variable `world` para que contenga el texto '🌍🌎🌏' (tres diferentes emojis de mundo):
+This code sets the `world` variable to contain the text '🌍🌎🌏' (the three different world emoji):
 
 --- code ---
 ---
@@ -26,9 +22,9 @@ world = '🌍🌎🌏'
 
 --- /code ---
 
-¿Qué código usa correctamente la variable `world` y muestra Hola 🌍🌎🌏?
+Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
 
-![El área de salida del editor Trinket mostrando Hola 🌍🌎🌏.](images/quiz1.png)
+![The output area from the Trinket editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
 
 --- choices ---
 
@@ -39,13 +35,13 @@ world = '🌍🌎🌏'
 language: python
 ---
 
-output('Hola' world)
+output('Hello' world)
 
 --- /code ---
 
  --- feedback ---
 
- No del todo, `output` no es la forma de generar mensajes en la pantalla.
+ Not quite, `output` is not the way to output messages to the screen.
 
  --- /feedback ---
 
@@ -57,13 +53,13 @@ output('Hola' world)
 language: python
 ---
 
-print('Hola' world)
+print('Hello' world)
 
 --- /code ---
 
  --- feedback ---
 
- No del todo, en Python `print` genera mensajes en la pantalla, pero en este ejemplo falta algo.
+ Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
 
  --- /feedback ---
 
@@ -74,13 +70,13 @@ print('Hola' world)
 language: python
 ---
 
-print('Hola', world)
+print('Hello', world)
 
 --- /code ---
 
  --- feedback ---
 
- Correcto, en Python `print` genera mensajes en la pantalla. El texto de salida está entre comillas simples `'` , la coma separa dos objetos y proporciona espacio, luego llamamos a la variable `world`, que almacena el emoji 🌍🌎🌏, como aparece en tu proyecto.
+ That's correct, in Python `print` outputs messages to the screen. The text output is inside single quotes `'` , a comma separates the two items and provides a space, then the `world` variable is called, which stores the earth emoji 🌍🌎🌏, like in your project.
 
  --- /feedback ---
 
@@ -91,13 +87,13 @@ print('Hola', world)
 language: python
 ---
 
-print(Hola, world)
+print(Hello, world)
 
 --- /code ---
 
  --- feedback ---
 
-  No del todo, en Python `print` genera mensajes en la pantalla, pero en este ejemplo falta algo.
+  Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
 
  --- /feedback ---
 
