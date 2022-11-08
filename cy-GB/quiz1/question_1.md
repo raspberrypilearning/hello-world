@@ -1,34 +1,30 @@
-## Beth nesaf?
+## Quick quiz
 
-Da iawn, rydych chi wedi gwneud rhaglen ryngweithiol gyda thestun ac emoji 👍
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Amser myfyrio nawr — mae myfyrio'n rhan bwysig o ddysgu oherwydd mae'n helpu i wneud cysylltiadau newydd yn eich ymennydd.
+When you have answered each question, click on **Check my answer**.
 
-Atebwch y tri chwestiwn isod i fyfyrio ar yr hyn rydych chi wedi'i ddysgu.
-
-Ar ôl bob cwestiwn, pwyswch **cyflwyno**. Byddi di'n cael dy dywys i'r ateb cywir. Fe allwch chi wneud y gwaithgaredd hwn cymaint ag y mynnwch.
-
-Mwynha!
+Have fun!
 
 --- question ---
 ---
 legend: Cwestiwn 1 o 3
 ---
 
-Mae'r cod hwn yn gosod y newidyn `byd` i gynnwys y testun '🌍🌎🌏' (y tri emoji byd gwahanol):
+This code sets the `world` variable to contain the text '🌍🌎🌏' (the three different world emoji):
 
 --- code ---
 ---
 language: python
 ---
 
-byd = '🌍🌎🌏'
+world = '🌍🌎🌏'
 
 --- /code ---
 
-Pa god sy'n defnyddio'r newidyn `byd` ac yn allbynnu Helo 🌍🌎🌏 yn gywir?
+Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
 
-![Yr ardal allbwn o'r golygydd Trinket gyda Helo 🌍🌎🌏 yn dangos.](images/quiz1.png)
+![The output area from the Trinket editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
 
 --- choices ---
 
@@ -39,13 +35,13 @@ Pa god sy'n defnyddio'r newidyn `byd` ac yn allbynnu Helo 🌍🌎🌏 yn gywir?
 language: python
 ---
 
-output('Helo' byd)
+output('Hello' world)
 
 --- /code ---
 
  --- feedback ---
 
- Ddim yn hollol, dim `output` yw'r ffordd o allbynnu negeseuon i'r sgrin.
+ Not quite, `output` is not the way to output messages to the screen.
 
  --- /feedback ---
 
@@ -57,13 +53,13 @@ output('Helo' byd)
 language: python
 ---
 
-print('Helo' byd)
+print('Hello' world)
 
 --- /code ---
 
  --- feedback ---
 
- Ddim yn hollol, yn Python mae `print` yn allbynnu negeseuon i'r sgrin, ond mae rhywbeth ar goll yn yr enghraifft hon.
+ Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
 
  --- /feedback ---
 
@@ -74,13 +70,13 @@ print('Helo' byd)
 language: python
 ---
 
-print('Helo', byd)
+print('Hello', world)
 
 --- /code ---
 
  --- feedback ---
 
- Cywir, yn Python mae `print` yn allbynnu negeseuon i'r sgrin. Mae'r allbwn testun mewn dyfynodau sengl `'` , mae coma'n gwahanu'r ddwy eitem ac yn darparu bwlch, wedyn mae'r newidyn `byd` yn cael ei alw ac yn cynnwys emoji'r ddaear 🌍🌎🌏, fel yn eich prosiect.
+ That's correct, in Python `print` outputs messages to the screen. The text output is inside single quotes `'` , a comma separates the two items and provides a space, then the `world` variable is called, which stores the earth emoji 🌍🌎🌏, like in your project.
 
  --- /feedback ---
 
@@ -91,13 +87,13 @@ print('Helo', byd)
 language: python
 ---
 
-print(Helo, byd)
+print(Hello, world)
 
 --- /code ---
 
  --- feedback ---
 
-  Ddim yn hollol, yn Python mae `print` yn allbynnu negeseuon i'r sgrin, ond mae rhywbeth ar goll yn yr enghraifft hon.
+  Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
 
  --- /feedback ---
 
