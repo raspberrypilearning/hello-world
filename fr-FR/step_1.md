@@ -1,4 +1,4 @@
-## Introduction
+## You will make
 
 Découvre ce que le langage de programmation Python peut faire en écrivant un projet interactif qui utilise des emoji.
 
@@ -13,9 +13,10 @@ Tu vas devoir :
 
 --- no-print ---
 
+### Play ▶️
+
 --- task ---
 
-### Essaie-le
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 Lis la sortie, puis appuye sur <kbd>Entrée</kbd> pour continuer. 
@@ -37,3 +38,5 @@ Tape tes réponses aux questions. Peux-tu voir comment tes réponses sont utilis
 ![Projet terminé](images/showcase_static.png)
 
 --- /print-only ---
+
+![](http://code.org/api/hour/begin_codeclub_hworld.png)
