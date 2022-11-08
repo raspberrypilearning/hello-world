@@ -1,21 +1,17 @@
-## تفكير
+## Quick quiz
 
-أحسنت صنعًا ، لقد أنشأت برنامجًا تفاعليًا يحتوي على نصوص ورموز تعبيرية 👍
+Answer the three questions. There are hints to guide you to the correct answer.
 
-حان الوقت الآن للتفكير - يعد التفكير جزءًا مهمًا من التعلم لأنه يساعد في إنشاء روابط جديدة في عقلك.
+When you have answered each question, click on **Check my answer**.
 
-أجب عن الأسئلة الثلاثة أدناه لتفكر فيما تعلمته.
-
-بعد كل سؤال، اضغط على **تحقق من جوابي**. سيتم توجيهك نحو الإجابة الصحيحة. يمكنك القيام بهذا النشاط عدة مرات كما تريد.
-
-استمتع!
+Have fun!
 
 --- question ---
 ---
 legend: السؤال 1 من 3
 ---
 
-يضبط هذا المقطع البرمجي المتغير `world` ليحتوي على النص "🌍🌎🌏" (الرموز التعبيرية الثلاثة المختلفة للعالم):
+This code sets the `world` variable to contain the text '🌍🌎🌏' (the three different world emoji):
 
 --- code ---
 ---
@@ -26,9 +22,9 @@ world = '🌍🌎🌏'
 
 --- /code ---
 
-ما المقطع البرمجي الذي يستخدم المتغير `world` بشكل صحيح ويخرج Hello 🌍🌎🌏؟
+Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
 
-![منطقة الإخراج من محرر Trinket مع عرض Hello.](images/quiz1.png)
+![The output area from the Trinket editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
 
 --- choices ---
 
@@ -45,7 +41,7 @@ output('Hello' world)
 
  --- feedback ---
 
- ليس تمامًا ، `output` ليس هو السبيل لإخراج الرسائل إلى الشاشة.
+ Not quite, `output` is not the way to output messages to the screen.
 
  --- /feedback ---
 
@@ -63,7 +59,7 @@ print('Hello' world)
 
  --- feedback ---
 
- ليس تمامًا ، في لغة Python تُخرج ` print` رسائل إلى الشاشة، ولكن هناك شيء مفقود في هذا المثال.
+ Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
 
  --- /feedback ---
 
@@ -80,7 +76,7 @@ print('Hello', world)
 
  --- feedback ---
 
- هذا صحيح ، في لغة Python فإن الدالة `print` تقوم باخراج الرسائل الى الشاشة. يكون إخراج النص داخل علامات الاقتباس المفردة `'` ، وتفصل فاصلة بين العنصرين وتوفر مسافة، ثم يتم استدعاء المتغير `world`، والذي يخزن الرموز التعبيرية للأرض 🌍🌎🌏، كما هو الحال في مشروعك.
+ That's correct, in Python `print` outputs messages to the screen. The text output is inside single quotes `'` , a comma separates the two items and provides a space, then the `world` variable is called, which stores the earth emoji 🌍🌎🌏, like in your project.
 
  --- /feedback ---
 
@@ -97,7 +93,7 @@ print(Hello, world)
 
  --- feedback ---
 
-  ليس تمامًا ، في لغة Python تُخرج `print` رسائل إلى الشاشة، ولكن هناك شيء مفقود في هذا المثال.
+  Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
 
  --- /feedback ---
 
