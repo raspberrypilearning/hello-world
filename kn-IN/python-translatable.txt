@@ -93,3 +93,9 @@ star
 yellow_heart 
 
 rainbow
+
+Choose the biggest number:
+
+I <3 rainbows
+
+You hit the bullseye, 500 points!
