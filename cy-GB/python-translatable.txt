@@ -93,3 +93,9 @@ seren
 calon_felen 
 
 enfys
+
+Choose the biggest number:
+
+I <3 rainbows
+
+You hit the bullseye, 500 points!
