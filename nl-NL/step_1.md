@@ -1,4 +1,4 @@
-## Inleiding
+## You will make
 
 Ontdek wat de programmeertaal Python kan door een interactief project te schrijven dat emoji gebruikt.
 
@@ -13,9 +13,10 @@ Je gaat:
 
 --- no-print ---
 
+### Play ▶️
+
 --- task ---
 
-### Probeer het uit
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 Lees de uitvoer en tik vervolgens op <kbd>Enter</kbd> om door te gaan. 
@@ -37,3 +38,5 @@ Typ jouw antwoorden op de vragen. Kun je zien hoe je antwoorden worden gebruikt?
 ![Voltooid project](images/showcase_static.png)
 
 --- /print-only ---
+
+![](http://code.org/api/hour/begin_codeclub_hworld.png)
