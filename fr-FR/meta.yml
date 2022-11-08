@@ -5,10 +5,10 @@ description: Écrire un projet Python interactif qui utilise des emoji
 version: 4
 listed: true
 copyedit: true
-last_tested: '2021-10-06'
+last_tested: "2021-10-06"
 steps:
   - 
-    title: Introduction
+    title: You will make
   - 
     title: Dire bonjour
   - 
@@ -22,7 +22,7 @@ steps:
     completion:
       - internal
   - 
-    title: Réflexion
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
