@@ -128,7 +128,7 @@ def gooi_dobbelsteen():
   print(python, 'kan een', dobbelsteen, 'maken')    
   worp = randint(1, 6) #Genereer een willekeurig getal tussen 1 en 6    
   print('Je gooide een', worp) #Druk de waarde af van de worpvariabele     
-  print(vuur * gooi) #Herhaal het aantal vuur-emoji's zodat deze overeenkomt met de dobbelsteenworp
+  print(vuur * worp) #Herhaal het aantal vuur-emoji's zodat deze overeenkomt met de dobbelsteenworp
 
 --- /code ---
 
