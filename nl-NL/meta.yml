@@ -7,7 +7,7 @@ listed: true
 copyedit: true
 last_tested: '2021-10-06'
 steps:
-- title: Inleiding
+- title: Wat ga je maken
 - title: Zeg hallo
 - title: Sommen en datums
   completion:
@@ -16,7 +16,7 @@ steps:
 - title: Zin starter
   completion:
   - internal
-- title: Reflectie
+- title: Snelle quiz
   knowledge_quiz:
     path: quiz1
     version: 1
