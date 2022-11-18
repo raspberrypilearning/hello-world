@@ -1,12 +1,8 @@
-## Reflectie
+## Snelle quiz
 
-Goed gedaan, je hebt een interactief programma gemaakt met tekst en emoji 👍
+Beantwoord de drie vragen. Beantwoord de drie vragen.
 
-Nu is het tijd om te reflecteren - reflecteren is een belangrijk onderdeel van leren, omdat het helpt om nieuwe verbindingen in je hersenen te maken.
-
-Beantwoord de drie onderstaande vragen om terug te kijken op wat je hebt geleerd.
-
-Druk na elke vraag op **indienen**. Je wordt naar het juiste antwoord geleid. Je kunt dit zo vaak doen als je wilt.
+Druk na elke vraag op **Controleer mijn antwoord**. Je wordt naar het juiste antwoord geleid
 
 Veel plezier!
 
