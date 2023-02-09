@@ -94,8 +94,8 @@ coeur_jaune
 
 arc-en-ciel
 
-Choose the biggest number:
+Choisis le plus grand nombre :
 
-I <3 rainbows
+J' <3 les arcs-en-ciel
 
-You hit the bullseye, 500 points!
+Tu as touché le centre, 500 points !
