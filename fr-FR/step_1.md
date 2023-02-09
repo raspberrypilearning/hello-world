@@ -1,9 +1,9 @@
-## You will make
+## Ce que tu vas faire
 
 Découvre ce que le langage de programmation Python peut faire en écrivant un projet interactif qui utilise des emoji.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Emoji**</span> sont de petites images colorées utilisées pour ajouter une signification supplémentaire aux messages. Emoji signifie "mot image" en japonais.
+<span style="color: #0faeb0">**Emoji**</span> sont de petites images colorées utilisées pour ajouter une signification supplémentaire aux messages. Emoji signifie « mot image » en japonais.
 </p>
 
 Tu vas devoir :
@@ -13,13 +13,13 @@ Tu vas devoir :
 
 --- no-print ---
 
-### Play ▶️
+### Joue ▶️
 
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Lis la sortie, puis appuye sur <kbd>Entrée</kbd> pour continuer. 
+Lis la sortie, puis appuie sur <kbd>Entrée</kbd> pour continuer. 
 Tape tes réponses aux questions. Peux-tu voir comment tes réponses sont utilisées ?
 </div>
 <div class="trinket">
