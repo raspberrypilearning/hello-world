@@ -31,7 +31,7 @@ Encuentra la línea `# Pon el código a ejecutar debajo de aquí `.
 
 Haz clic debajo de esa línea. El `|` parpadeante es el puntero del ratón y muestra dónde tipearás.
 
-Tipea el código para `print()` hola:
+Escribe el código para `print()` hola:
 
 --- code ---
 ---
@@ -46,10 +46,10 @@ print('Hola')
 
 --- collapse ---
 ---
-title: Tipear caracteres especiales en un teclado del Reino Unido o los Estados Unidos
+title: Escribir caracteres especiales en un teclado del Reino Unido o los Estados Unidos
 ---
 
-En un teclado del Reino Unido o los Estados Unidos, los paréntesis de apertura `(` y de cierre `)` se encuentran en las teclas <kbd>9</kbd> y <kbd>0</kbd>. Para tipear el paréntesis de apertura, mantén presionado la tecla <kbd>Shift</kbd> (al lado de la <kbd>Z</kbd>) y luego presiona <kbd>9</kbd>. La comilla simple `'` se encuentra en la misma fila que la tecla <kbd>L</kbd>, justo antes de la tecla <kbd>Enter</kbd>. La coma `,` está al costado de la <kbd>M</kbd>.
+En un teclado del Reino Unido o los Estados Unidos, los paréntesis de apertura `(` y de cierre `)` se encuentran en las teclas <kbd>9</kbd> y <kbd>0</kbd>. Para escribir el paréntesis de apertura, mantén presionado la tecla <kbd>Shift</kbd> (al lado de la <kbd>Z</kbd>) y luego presiona <kbd>9</kbd>. La comilla simple `'` se encuentra en la misma fila que la tecla <kbd>L</kbd>, justo antes de la tecla <kbd>Enter</kbd>. La coma `,` está al costado de la <kbd>M</kbd>.
 
 --- /collapse ---
 
@@ -57,7 +57,7 @@ En un teclado del Reino Unido o los Estados Unidos, los paréntesis de apertura 
 
 --- task ---
 
-**Test:** Haz clic en el botón **Run** para ejecutar tu código. En Trinket, la salida aparecerá a la derecha:
+**Prueba:** Haz clic en el botón **Run** para ejecutar tu código. En Trinket, la salida aparecerá a la derecha:
 
 ![El ícono Run resaltado con 'Hola' mostrando el área de salida. ](images/run_hello.png)
 
@@ -102,7 +102,7 @@ print('Hola', world)
 
 --- task ---
 
-**Test:** Ejecuta tu código para ver el resultado:
+**Prueba:** Ejecuta tu código para ver el resultado:
 
 ![La línea de código actualizada en el área de código con la palabra 'Hola' seguido de tres emojis de mundo mostrándose en el área de salida.](images/run_hello_world.png)
 
@@ -158,7 +158,7 @@ print('Bienvenido a', python)
 
 --- task ---
 
-**Test:** Haz clic en **run**.
+**Prueba:** Haz clic en **run**.
 
 ![La línea de código adicional en el área de código con la palabra 'Hola' seguido de tres emojis de mundo y las palabras 'Bienvenido a' seguido de un emoji de serpiente y teclado que se muestran el área de salida.](images/run_multiple.png)
 
