@@ -2,9 +2,9 @@
 
 Answer the three questions. There are hints to guide you to the correct answer.
 
-When you have answered each question, click on **Check my answer**.
+Después de cada pregunta, presiona **enviar**. Vamos a guiarte hacia la respuesta correcta.
 
-Have fun!
+¡Qué te diviertas!
 
 --- question ---
 ---
