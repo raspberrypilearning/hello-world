@@ -64,7 +64,7 @@ eenhoorn
 
 ruimte 
 
-vrolijk 
+gelukkig 
 
 maf 
 
@@ -94,8 +94,8 @@ geel_hart
 
 regenboog
 
-Choose the biggest number:
+Kies het grootste aantal:
 
-I <3 rainbows
+Ik <3 regenbogen
 
-You hit the bullseye, 500 points!
+In de roos, 500 punten!
