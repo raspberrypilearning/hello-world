@@ -40,7 +40,7 @@ print(230 * 5782 ** 2 / 23781)
 
 --- task ---
 
-**Test:** Ejecuta tu código. ¿Python lo calculó correctamente? ¡Solo bromeo! Python se encarga de los cálculos difíciles, así que no necesitas resolverlos.
+**Prueba:** Ejecuta tu código. ¿Python lo calculó correctamente? ¡Solo bromeo! Python se encarga de los cálculos difíciles, así que no necesitas resolverlos.
 
 --- /task ---
 
@@ -58,7 +58,7 @@ También puedes usar paréntesis si quieres controlar el orden en el que Python 
 
 --- task ---
 
-**Test:** Ejecuta tu código y deja que Python calcule tu ecuación.
+**Prueba:** Ejecuta tu código y deja que Python calcule tu ecuación.
 
 **Debug:** Asegúrate de que tu ecuación tenga los paréntesis de apertura y de cierre a los costados `( 2 * 45 )`. Si usas paréntesis extra para controlar el orden, asegúrate de tener un paréntesis de cierre por cada paréntesis de apertura.
 
