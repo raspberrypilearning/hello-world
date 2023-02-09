@@ -13,13 +13,13 @@ Python peut générer des nombres aléatoires pour créer des dés numériques.
 
 En Python, tu **appelles** une **fonction()** pour effectuer une action. Tu as déjà utilisé la fonction `print()` pour afficher du texte.
 
-Tu peux **definir** une nouvelle **fonction** pour regrouper le code afin de pouvoir le nommer et le réutiliser.
+Tu peux **définir** une nouvelle **fonction** pour regrouper le code afin de pouvoir le nommer et le réutiliser.
 
 --- task ---
 
 Les fonctions doivent être définies avant de pouvoir les appeler. Recherche le commentaire en haut de l'onglet **main.py** qui indique `#Mettre les définitions de fonction ci-dessous`.
 
-Définis une nouvelle fonction appelée `roule_de()` qui utilise la fonction `randint()` , de la bibliothèque `random` , pour générer un "entier" aléatoire (nombre entier) de 1 à 6 et le sortir à l'écran.
+Définis une nouvelle fonction appelée `roule_de()` qui utilise la fonction `randint()` , de la bibliothèque `random` , pour générer un « entier » aléatoire (nombre entier) de 1 à 6 et le sortir à l'écran.
 
 --- code ---
 ---
@@ -44,7 +44,7 @@ Les lignes sous `def roule_de() :` sont **indentées**. Pour ce faire, utilise l
 title: Saisie de caractères spéciaux sur un clavier français
 ---
 
-Sur un clavier français, le deux-points `:` se trouve sur la même touche que la barre de division (/), à côté de la touche <kbd>=</kbd>. Le trait de soulignement `_` est sur la même touche que le `-`, à côté du <kbd>)</kbd>, maintiens <kbd>Maj</kbd> et appuye sur <kbd>-</kbd> pour taper un `_`.
+Sur un clavier français, le deux-points `:` se trouve sur la même touche que la barre de division (/), à côté de la touche <kbd>=</kbd>. Le trait de soulignement `_` est sur la même touche que le `-`, à côté du <kbd>)</kbd>, maintiens <kbd>Maj</kbd> et appuie sur <kbd>-</kbd> pour taper un `_`.
 
 --- /collapse ---
 
@@ -52,7 +52,7 @@ Sur un clavier français, le deux-points `:` se trouve sur la même touche que l
 
 --- task ---
 
-**Test :** Si tu "exécutes" ton code maintenant, il ne lancera pas de dé. C'est parce que tu as défini la fonction `roule_de()` , mais que tu ne l'as pas encore appelée.
+**Test :** Si tu « exécutes » ton code maintenant, il ne lancera pas de dé. C'est parce que tu as défini la fonction `roule_de()`, mais que tu ne l'as pas encore appelée.
 
 --- /task ---
 
@@ -87,16 +87,16 @@ roule_de() #Appelle la fonction lancer de dés
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Les utilisations des nombres aléatoires incluent la cryptographie, la science des données et l'ajout de variété dans les jeux et l'art informatique. Les ordinateurs génèrent des <span style="color: #0faeb0">**nombres aléatoires**</span> à l'aide d'un algorithme. Pour les nombres vraiment aléatoires, tu as besoin d'une entrée imprévisible du monde réel.
+Les utilisations des nombres aléatoires incluent la cryptographie, la science des données et l'ajout de variété dans les jeux et l'infographie. Les ordinateurs génèrent des <span style="color: #0faeb0">**nombres aléatoires**</span> à l'aide d'un algorithme. Pour les nombres vraiment aléatoires, tu as besoin d'une entrée imprévisible du monde réel.
 </p>
 
 --- task ---
 
-La variable `fire` stocke un emoji 🔥. Le code `print(fire * 3)` génère trois emoji de feu '🔥🔥🔥'. Tu dois sortir le nombre correct d'emoji pour correspondre au nombre obtenu.
+La variable `feu` stocke un emoji 🔥. Le code `print(feu * 3)` génère trois emoji de feu '🔥🔥🔥'. Tu dois sortir le nombre correct d'emoji pour correspondre au nombre obtenu.
 
 --- collapse ---
 ---
-title: Que se passerait-il si tu utilisais `print(fire * randint(1, 6))` ?
+title: Que se passerait-il si tu utilisais `print(feu * randint(1, 6))` ?
 ---
 
 Tu obtiendrais un nouveau nombre aléatoire qui est généralement différent de ton premier nombre aléatoire.
@@ -105,7 +105,7 @@ Tu obtiendrais un nouveau nombre aléatoire qui est généralement différent de
 
 Hmm, comment peux-tu t'assurer que tu utilises le même nombre aléatoire ?
 
-Modifie ton code pour enregistrer la valeur renvoyée par `randint()` dans une variable appelée `roll` , puis utilise cette variable pour imprimer le nombre obtenu avec le nombre correspondant d'emoji 🔥.
+Modifie ton code pour enregistrer la valeur renvoyée par `randint()` dans une variable appelée `roule`, puis utilise cette variable pour afficher le nombre obtenu avec le nombre correspondant d'emoji 🔥.
 
 --- code ---
 ---
@@ -118,14 +118,14 @@ line_highlights: 11 - 13
 def roule_de():    
 print(python, 'peut faire un', dice)    
 roll = randint(1, 6) #Génère un nombre aléatoire entre 1 et 6    
-print('Tu as tiré un', roll) #Imprime la valeur de la variable roll     
-print(fire * roll) #Répéte l'emoji de feu pour qu'il corresponde au lancer de dés
+print('Tu as tiré un', roule) #Imprime la valeur de la variable roule     
+print(feu * roule) #Répéte l'emoji de feu pour qu'il corresponde au lancer de dés
 
 --- /code ---
 
-Tu peux utiliser `star` ou `heart` au lieu de `fire` si tu préféres.
+Tu peux utiliser `etoile` ou `coeur` au lieu de `feu` si tu préfères.
 
-Le symbole `*` signifie multiplier donc `fire * roll` multiplie le texte dans la variable `fire` ('🔥') par le nombre contenu dans la variable `roll`.
+Le symbole `*` signifie multiplier donc `feu * roule` multiplie le texte dans la variable `feu` ('🔥') par le nombre contenu dans la variable `roule`.
 
 --- /task ---
 
@@ -161,21 +161,21 @@ def roule_de():
 print(python, 'peut faire un, dice)   
 max = input('Combien de côtés ? :') #Attend l'entrée de l'utilisateur    
 print('C\'est un D ', max) #Utilise le nombre que l'utilisateur a entré    
-roll = randint(1, 6)    
-print('Tu as tiré un', roll)    
-print(fire * roll)
+roule = randint(1, 6)    
+print('Tu as tiré un', roule)    
+print(feu * roule)
 
 --- /code ---
 
-Pour imprimer une apostrophe `'` dans un mot comme `C'est`, place une barre oblique inverse `\` devant afin que Python sache que cela fait partie du texte.
+Pour afficher une apostrophe `'` dans un mot comme `C'est`, place une barre oblique inverse `\` devant afin que Python sache que cela fait partie du texte.
 
 --- /task ---
 
 --- task ---
 
-Modifie ton code variable `roll` pour utiliser `max` comme valeur maximale pour `randint` lorsqu'il génère un nombre aléatoire.
+Modifie ton code variable `roule` pour utiliser `max` comme valeur maximale pour `randint` lorsqu'il génère un nombre aléatoire.
 
-Lorsque tu reçois une entrée de l'utilisateur, Python la traite comme du texte. Mais, `randint` a besoin d'un "entier" (un nombre entier positif). La fonction `int` transforme l'entrée utilisateur en entier.
+Lorsque tu reçois une entrée de l'utilisateur, Python la traite comme du texte. Mais, `randint` a besoin d'un « entier » (un nombre entier positif). La fonction `int` transforme l'entrée utilisateur en entier.
 
 --- code ---
 ---
@@ -189,9 +189,9 @@ def roule_de():
 print(python, 'peut faire un', dice)   
 max = input('Combien de côtés ? :') #Attend l'entrée de l'utilisateur   
 print('C\'est un D ', max) #Utilise le nombre que l'utilisateur a entré   
-roll = randint(1, int(max)) #randint a besoin que max soit un "entier"   
-print('Tu as tiré un', roll)   
-print(fire * roll)
+roule = randint(1, int(max)) #randint a besoin que max soit un "entier"   
+print('Tu as obtenu un', roule)   
+print(feu * roule)
 
 --- /code ---
 
@@ -199,7 +199,7 @@ print(fire * roll)
 
 --- task ---
 
-**Test :** Exécute ton projet. Lorsque le programme atteint la ligne `input` , il attendra que tu saisisses une réponse avant de continuer. Essaye à nouveau avec un autre nombre dans `input`.
+**Test :** Exécute ton projet. Lorsque le programme atteint la ligne `input` , il attendra que tu saisisses une réponse avant de continuer. Essaie à nouveau avec un autre nombre dans `input`.
 
 --- /task ---
 
