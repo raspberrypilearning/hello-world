@@ -1,5 +1,5 @@
 ---
-title: "Hello \U0001F30D\U0001F30E\U0001F30F"
+title: "Bonjour \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
 description: Écrire un projet Python interactif qui utilise des emoji
 version: 4
@@ -8,7 +8,7 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: You will make
+    title: Ce que tu vas faire
   - 
     title: Dire bonjour
   - 
@@ -22,7 +22,7 @@ steps:
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Questionnaire rapide
     knowledge_quiz:
       path: quiz1
       version: 1
