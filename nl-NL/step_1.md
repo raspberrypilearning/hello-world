@@ -1,4 +1,4 @@
-## You will make
+## Wat ga je maken
 
 Ontdek wat de programmeertaal Python kan door een interactief project te schrijven dat emoji gebruikt.
 
