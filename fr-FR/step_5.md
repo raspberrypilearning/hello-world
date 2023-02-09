@@ -21,15 +21,15 @@ language: python
 filename: main.py
 ---
 
-print('J\'', heart, '...')   
-print('... me rend', happy)   
+print('J\'', coeur, '...')   
+print('... me rend', heureux)   
 print('J\'aimerais faire... avec', python)
 
 --- /code ---
 
 **Astuce :** `print` ajoute un espace entre chaque élément que tu imprimes.
 
-**Astuce :** Si tu as besoin d'imprimer une apostrophe `'` , tu dois placer une barre oblique inverse `\` devant afin que Python sache qu'elle fait partie du texte.
+**Astuce :** Si tu as besoin d'afficher une apostrophe `'`, tu dois placer une barre oblique inverse `\` devant afin que Python sache qu'elle fait partie du texte.
 
 --- /task ---
 
