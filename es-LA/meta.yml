@@ -1,24 +1,24 @@
 ---
 title: "Hello \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
-description: Escribe un proyecto interactivo en Python que use emojis
+description: Write an interactive Python project that uses emoji
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: You will make
+    title: Lo que harás
   - 
-    title: Di hola
+    title: Say hello
   - 
-    title: Cálculos y fechas
+    title: Sums and dates
     completion:
       - engaged
   - 
-    title: Lanza un dado
+    title: Roll a dice
   - 
-    title: Iniciador de frases
+    title: Sentence starter
     completion:
       - internal
   - 
@@ -31,6 +31,6 @@ steps:
     completion:
       - external
   - 
-    title: Mejora tu proyecto
+    title: Upgrade your project
   - 
-    title: '¿Qué sigue?'
+    title: What next?
