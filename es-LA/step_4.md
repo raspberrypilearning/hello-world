@@ -52,7 +52,7 @@ En un teclado del Reino Unido o de los Estados Unidos, los dos puntos `:` están
 
 --- task ---
 
-**Test:** Si tú 'Run' tu código ahora, no lanzará un dado. Esto es porque definiste la función `roll_dice()`, pero aún no la has llamado.
+**Prueba:** Si tú 'Run' tu código ahora, no lanzará un dado. Esto es porque definiste la función `roll_dice()`, pero aún no la has llamado.
 
 --- /task ---
 
@@ -76,7 +76,7 @@ roll_dice() # Llama a la función roll_dice
 
 --- task ---
 
-**Test:** Ejecuta tu proyecto varias veces para ver lanzar un dado aleatorio.
+**Prueba:** Ejecuta tu proyecto varias veces para ver lanzar un dado aleatorio.
 
 **Debug:** Asegúrate de tener un guion bajo `_` entre roll y dice para crear el nombre de la función. Asegúrate de tener dos puntos `:` al final de la línea.
 
@@ -131,7 +131,7 @@ El símbolo `*` significa multiplicar, así que `fire * roll` multiplica el text
 
 --- task ---
 
-**Test:** Prueba tu proyecto un par de veces. Asegúrate de entender cómo funciona el código.
+**Prueba:** Prueba tu proyecto un par de veces. Asegúrate de entender cómo funciona el código.
 
 **Tip:** Las variables son útiles cuando necesitas usar el mismo valor varias veces en tu código. Darle un nombre adecuado a las variables también hace que tu código sea más fácil de entender.
 
@@ -167,7 +167,7 @@ print(fire * roll)
 
 --- /code ---
 
-Para imprimir un apostrofo `'` en una palabra como `That's`, pon una barra invertida `\` adelante para que Python sepa que es parte del texto.
+Para escribir un apostrofo `'` en una palabra como `That's`, pon una barra invertida `\` adelante para que Python sepa que es parte del texto.
 
 --- /task ---
 
@@ -199,7 +199,7 @@ print(fire * roll)
 
 --- task ---
 
-**Test:** Ejecuta tu proyecto. Cuando el programa alcanza la línea `input`, esperará a que introduzcas una respueta antes de continuar. Intenta otra vez con un número diferente de `input`.
+**Prueba:** Ejecuta tu proyecto. Cuando el programa alcanza la línea `input`, esperará a que introduzcas una respueta antes de continuar. Intenta otra vez con un número diferente de `input`.
 
 --- /task ---
 
