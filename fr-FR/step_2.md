@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Il est traditionnel d'écrire un programme pour afficher "Bonjour le monde!" lorsque tu apprends un nouveau langage de programmation.
+Il est de coutume d'écrire un programme pour afficher « Bonjour le monde ! » lorsque tu apprends un nouveau langage de programmation.
 </div>
 <div>
 
@@ -31,7 +31,7 @@ Trouve la ligne `# Mettre le code à exécuter ci-dessous `.
 
 Clique sous cette ligne. Le `|` qui clignote est le curseur et indique où tu taperas.
 
-Tape le code `print()` bonjour :
+Tape le code `print()` bonjour:
 
 --- code ---
 ---
@@ -73,7 +73,7 @@ Nous avons inclus quelques variables qui stockent les caractères emoji.
 
 --- task ---
 
-Dans ton Trinket, clique sur l'onglet **emoji.py**. Trouve la variable `world`, qui stocke le texte '🌍🌍🌍'.
+Dans ton Trinket, clique sur l'onglet **emoji.py**. Trouve la variable `monde`, qui stocke le texte '🌍🌍🌍'.
 
 --- /task ---
 
@@ -83,7 +83,7 @@ Tu peux `print()` plusieurs éléments à la fois en incluant une virgule `,` en
 
 Clique sur l'onglet **main.py** pour revenir à ton code `print()`.
 
-Change ton code pour aussi `print()` le contenu de la variable `world` :
+Change ton code pour aussi `print()` le contenu de la variable `monde` :
 
 --- code ---
 ---
@@ -92,11 +92,11 @@ line_highlights: 12
 ---
 
 # Mettre le code à exécuter ci-dessous
-print('Bonjour', world)
+print('Bonjour', monde)
 
 --- /code ---
 
-**Astuce :** `'Bonjour'` est une chaîne de texte car elle est entourée de guillemets simples, tandis que `world` est une variable de sorte que la valeur qui y est stockée sera imprimée.
+**Astuce :** `'Bonjour'` est une chaîne de texte car elle est entourée de guillemets simples, tandis que `monde` est une variable de sorte que la valeur qui y est stockée sera imprimée.
 
 --- /task ---
 
@@ -108,7 +108,7 @@ print('Bonjour', world)
 
 Les emoji peuvent avoir un aspect différent sur différents ordinateurs, de sorte que le tien peut ne pas être exactement le même.
 
-**Débogage :** Assure-toi que tu as ajouté une virgule entre les éléments dans `print()` et que tu as correctement orthographié `world`.
+**Débogage :** Assure-toi que tu as ajouté une virgule entre les éléments dans `print()` et que tu as correctement orthographié `monde`.
 
 Il manque la virgule `,` dans cet exemple. C'est petit mais très important !
 
@@ -116,10 +116,10 @@ Il manque la virgule `,` dans cet exemple. C'est petit mais très important !
 
 --- collapse ---
 ---
-titre : Je ne vois pas l'emoji
+title: Je ne vois pas l'emoji
 ---
 
-La plupart des ordinateurs te permettent d'utiliser des emoji de couleur. Cependant, si tu ne peux pas utiliser d'emoji, tu peux utiliser des "émoticônes" à la place, comme nous le faisions avant l'invention des emoji !
+La plupart des ordinateurs te permettent d'utiliser des emoji de couleur. Cependant, si tu ne peux pas utiliser d'emoji, tu peux utiliser des « émoticônes » à la place, comme nous le faisions avant l'invention des emoji !
 
 Remplace la ligne `from emoji import *` par :
 
@@ -147,7 +147,7 @@ language: python filename: main.py line_numbers: true line_number_start: 12
 line_highlights: 13
 ---
 
-print('Bonjour', world)    
+print('Bonjour', monde)    
 print('Bienvenue dans', python)
 
 --- /code ---
