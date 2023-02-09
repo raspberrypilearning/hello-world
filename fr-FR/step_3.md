@@ -29,7 +29,7 @@ language: python filename: main.py line_numbers: true line_number_start: 12
 line_highlights: 14-15
 ---
 
-print('Bonjour', world)   
+print('Bonjour', monde)   
 print('Bienvenue dans, python)   
 print(python, 'est très bon en', sums)   
 print(230 * 5782 ** 2 / 23781)
@@ -50,7 +50,7 @@ L'informaticienne japonaise <span style="color: #0faeb0">**Emma Haruka Iwao**</s
 
 --- task ---
 
-Essaye de changer l'addition que Python fait en une addition compliquée !
+Essaie de changer l'addition que Python fait en une addition compliquée !
 
 Tu peux également utiliser des parenthèses si tu souhaites contrôler l'ordre dans lequel Python calcule la somme : `print( (2 + 4) * (5 + 3) )`.
 
@@ -72,7 +72,7 @@ Si tu as demandé à Python de calculer une très grosse somme, tu constateras p
 
 ![L'éditeur Trinket avec le menu de gauche développé, via le menu hamburger, pour afficher l'option plein écran.](images/full_screen.png)
 
-Pour quitter le mode plein écran, clique à nouveau sur le bouton **Fullscreen** ou appuye sur <kbd>Échap</kbd> (Esc) sur ton clavier.
+Pour quitter le mode plein écran, clique à nouveau sur le bouton **Fullscreen** ou appuie sur <kbd>Échap</kbd> (Esc) sur ton clavier.
 
 --- /task ---
 
@@ -95,8 +95,8 @@ line_highlights: 16-17
 ---
 
 print(python, 'est très bon en', sums)    
-print(230 * 5782 ** 2 / 23781) #Imprime le résultat de la somme     
-print('Le', calendar, clock, 'est', datetime .now()) #Imprime avec l'emoji
+print(230 * 5782 ** 2 / 23781) #Affiche le résultat de la somme     
+print('Le', calendar, clock, 'est', datetime .now()) #Affiche avec l'emoji
 
 --- /code ---
 
