@@ -1,9 +1,9 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Питання 3 з 3
 ---
 
-This function outputs two random numbers:
+Ця функція виводить два випадкових числа:
 
 --- code ---
 ---
@@ -14,9 +14,9 @@ def two_dice(): print('First number:', randint(1, 6)) print('Second number:', ra
 
 --- /code ---
 
-Which code will call the function to run it?
+Який код забезпечить запуск функції та її виконання?
 
-![The Trinket editor with output area showing two randomly generated numbers.](images/quiz3.png)
+![Редактор Trinket з областю виведення двох випадково згенерованих чисел.](images/quiz3.png)
 
 --- choices ---
 
@@ -33,7 +33,7 @@ def two_dice(): print('First number:', randint(1, 6)) print('Second number:', ra
 
  --- feedback ---
 
- No, this is the code to define the function, but it does not run the function. You'll need to use different code to call it.
+ Ні! Це код для визначення функції, але він не запускає функцію. Використовуй інший код для виклику.
 
  --- /feedback ---
 
@@ -48,7 +48,7 @@ two_dice
 
  --- feedback ---
 
-Close! `two_dice` is the name of the function, but to call it you need more than just the name.
+Близько! `two_dice` - це ім'я функції. Але для її виклику потрібно більше, ніж просто ім'я.
 
  --- /feedback ---
 
@@ -65,7 +65,7 @@ two_dice[]
 
  --- feedback ---
 
- Not quite, think about they type of brackets you used to call the functions in your project.
+ Не зовсім так. Подумай про тип дужок, які використовувалися для виклику функцій у твоєму проєкті.
 
  --- /feedback ---
 
@@ -82,7 +82,7 @@ two_dice()
 
  --- feedback ---
 
- That's correct, using the function name followed by `(` `)` brackets will call the function.
+ Правильно! Використовуй назву функції в дужках `(` `)`, щоб викликати функцію.
 
  --- /feedback ---
 
