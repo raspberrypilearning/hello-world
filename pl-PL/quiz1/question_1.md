@@ -8,7 +8,7 @@ Have fun!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Pytanie 1 z 3
 ---
 
 This code sets the `world` variable to contain the text '🌍🌎🌏' (the three different world emoji):
