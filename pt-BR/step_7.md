@@ -1,25 +1,25 @@
-## Upgrade your project
+## Melhore o seu projeto
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add more to your project. There are more emoji to choose from.
+Adicione mais ao seu projeto. Há mais emoji para escolher.
   </div>
 <div>
 
-![A longer project in the output area with more text, emoji, and inputs.](images/upgrade_ideas.png){:width="300px"}
+![Um projeto mais longo na área de saída com mais texto, emoji e entradas.](images/upgrade_ideas.png){:width="300px"}
 
 </div>
 </div>
 
-You could:
-+ Use `print` with different text and emoji
-+ Use `input` to get values from the user and store them as variables, then do sums with the variables
-+ Write more functions to organise your code
-+ Use `#` to add comments to your code
+Você pode:
++ Use `print` com diferente textos e emojis
++ Use `input` para obter valores do usuário e armazená-los como variáveis, então faça operações com as variáveis
++ Escreva mais funções para organizar seu código
++ Use `#` para adicionar comentários ao seu código
 
-Click on **emoji.py** to see the emoji variables that you can use. Click back on **main.py** to add to your code.
+Clique em **emoji.py** para ver as variáveis de emoji que você pode usar. Clique novamente em **main.py** para adicionar ao seu código.
 
-Here's an example function that asks about hobbies:
+Aqui está uma função de exemplo que pergunta sobre hobbies:
 
 --- code ---
 ---
@@ -27,17 +27,17 @@ language: python
 filename: main.py
 ---
 
-# Put code to run under here
+# Coloque o código para ser executado logo abaixo
 def hobbies():   
-hobby = input('What do you like?')   
-print('That sounds', fun)   
-print('You could make a', python, 'project about', hobby)
+hobby = input('Do que você gosta?')   
+print('Isso soa', fun)   
+print('Você poderia fazer um projeto ', python, ' sobre', hobby)
 
 --- /code ---
 
-**Tip:** Don't forget you will need to call your function as well as define it.
+**Dica:** Não esqueça que você precisará chamar sua função e defini-la.
 
-You can use `input` to make your project wait for the user to tap <kbd>Enter</kbd> at any point in this project.
+Você pode usar `input` para fazer seu projeto esperar que o usuário toque em <kbd>Enter</kbd> em qualquer ponto deste projeto.
 
 --- code ---
 ---
@@ -45,9 +45,9 @@ language: python
 filename: main.py
 ---
 
-roll_dice()
+rolar_dado()
 
-input() #Wait for the user to tap Enter
+input() #Espera que o usuário toque em Enter
 
 hobbies()
 
@@ -56,10 +56,10 @@ hobbies()
 
 --- collapse ---
 ---
-title: Completed project
+title: Projeto concluído
 ---
 
-You can view the [completed project here](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}.
+Você pode ver o [projeto concluído aqui](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}.
 
 --- /collapse ---
 
