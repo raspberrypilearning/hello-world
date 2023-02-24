@@ -1,25 +1,25 @@
-## Roll a dice
+## एक डाईस रोल करें
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Python can generate random numbers to make digital dice.
+Python डिजिटल पासा बनाने के लिए यादृच्छिक संख्या उत्पन्न कर सकता है।
 </div>
 <div>
 
-![The output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll_dice.png){:width="300px"}
+![अतिरिक्त लाइनों वाला आउटपुट क्षेत्र उपयोगकर्ता को उनके डाइस के लिए सबसे बड़ी संख्या और यादृच्छिक संख्या के साथ प्रतिक्रिया देने के लिए कहने के लिए।](images/रोल_payp.png){:width="300px"}
 
 </div>
 </div>
 
-In Python you **call** a **function()** to perfom an action. You have already used the `print()` function to output text.
+Python में आप एक क्रिया को पूरा करने के लिए **कॉल** ए **फ़ंक्शन()** करते हैं। आपने पहले से ही टेक्स्ट आउटपुट करने के लिए `print()` फंक्शन का उपयोग किया है।
 
-You can **define** a new **function** to group code together so that you can name it and reuse it.
+आप कोड को एक साथ समूहीकृत करने के लिए एक नया **फ़ंक्शन** **परिभाषित** कर सकते हैं ताकि आप इसे नाम दे सकें और फिर से उपयोग कर सकें।
 
 --- task ---
 
-Functions need to be defined before you can call them. Look for the comment near the top of the **main.py** tab that says `#Put function definitions under here`.
+फ़ंक्शंस को कॉल करने से पहले उन्हें परिभाषित करना होगा। **main.py** टैब के शीर्ष के पास की टिप्पणी को देखें जो कहता है कि `#फ़ंक्शन परिभाषाओं को यहां रखें`।
 
-Define a new function called `roll_dice()` that uses the `randint()` function, from the `random` library, to generate a random 'integer' (whole number) from 1 to 6 and output it to the screen.
+`roll_dice()` नामक एक नए फंक्शन को परिभाषित करें जो `randint()` फंक्शन का उपयोग करता है, `random` लाइब्रेरी से, एक यादृच्छिक 'पूर्णांक' (पूरी संख्या) को 1 से 6 तक उत्पन्न करने और इसे स्क्रीन पर आउटपुट करने के लिए।
 
 --- code ---
 ---
@@ -27,7 +27,7 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 9-12
 ---
 
-# Put function definitions under here
+# फ़ंक्शन परिभाषाओं को यहाँ रखें
 
 def roll_dice(): #Don't forget the colon at the end of this line   
 print(python, 'can make a', dice)   
@@ -35,30 +35,31 @@ print('You rolled a', randint(1, 6))
 
 --- /code ---
 
-The lines under `def roll_dice():` are **indented**. To do this, use the <kbd>Tab</kbd> character on your keyboard (usually above <kbd>CAPSLOCK</kbd> on the keyboard). Indenting code tells Python that the indented lines are part of the function.
+`def roll_dice():` के नीचे की रेखाएँ **इंडेंट कि गई** हैं। ऐसा करने के लिए, अपने कीबोर्ड पर <kbd>टैब</kbd> वर्ण का उपयोग करें (आमतौर पर कीबोर्ड पर <kbd>CAPSLOCK</kbd> के ऊपर होता है)। इंडेंटिंग कोड Python को बताता है कि इंडेंटेड लाइनें फ़ंक्शन का हिस्सा हैं।
 
-**Tip:** The underscore `_` is used to between words in variable and function names in Python to make them easier to read. You can't use a space.
+**टिप:** अंडरस्कोर `_` का उपयोग Python में वेरिएबल और फंक्शन नामों के बीच शब्दों को पढ़ने में आसान बनाने के लिए किया जाता है। आप स्पेस का उपयोग नहीं कर सकते हैं।
 
 --- collapse ---
 ---
-title: Typing special characters on a UK or US keyboard
+title: यूके या यूएस कीबोर्ड पर विशेष वर्ण टाइप करना
 ---
 
-On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next to the <kbd>L</kbd> key: hold <kbd>Shift</kbd> and tap <kbd>;</kbd> to type a `:`. The underscore `_` is on the same key as the `-`, next to the <kbd>0</kbd>, hold <kbd>Shift</kbd> and tap <kbd>-</kbd> to type an `_`.
+एक यूके या यूएस कीबोर्ड पर, बृहदान्त्र `:` उसी कुंजी पर है जिस पर अर्धविराम है, <kbd>L</kbd> कुंजी के आगे: <kbd>Shift</kbd> रखें और <kbd>;</kbd> को ` टाइप करने के लिए टैप करें।
+  अंडरस्कोर <code>_` उसी कुंजी पर है जिस पर `-` है, <kbd>0</kbd> के आगे, <kbd>Shift</kbd> को दबाए रखें और <kbd>-</kbd> को ` को टाइप करने के लिए टैप करें।</p>
 
---- /collapse ---
+<p spaces-before="0">--- /collapse ---</p>
+
+<p spaces-before="0">--- /task ---</p>
+
+<p spaces-before="0">--- task ---</p>
+
+<p spaces-before="0"><strong x-id="1">परीक्षण:</strong> यदि आप अभी अपना कोड 'चलाएं', तो यह एक पासा रोल नहीं करेगा। ऐसा इसलिए होता है क्योंकि आपने <code>roll_dice()` फ़ंक्शन को परिभाषित किया है, लेकिन इसे अभी तक नहीं कहा है।
 
 --- /task ---
 
 --- task ---
 
-**Test:** If you ‘Run’ your code now, it won't roll a dice. That’s because you have defined the `roll_dice()` function, but not called it yet.
-
---- /task ---
-
---- task ---
-
-To use a function, you need to call it in the code. Go to the end of your code and add a new line to call the `roll_dice()` function:
+फंक्शन का उपयोग करने के लिए, आपको इसे कोड में कॉल करने की आवश्यकता है। अपने कोड के अंत में जाएं और `roll_dice()` फ़ंक्शन को कॉल करने के लिए एक नई पंक्ति जोड़ें:
 
 --- code ---
 ---
@@ -66,9 +67,9 @@ language: python filename: main.py line_numbers: true line_number_start: 20
 line_highlights: 22
 ---
 
-print('The', calendar, clock, 'is', datetime.now())
+print('the', calendar, clock, 'is', datetime.now()
 
-roll_dice() #Call the roll dice function
+low_daso() #रोल Daspo फ़ंक्शन को कॉल करें
 
 --- /code ---
 
@@ -76,36 +77,36 @@ roll_dice() #Call the roll dice function
 
 --- task ---
 
-**Test:** Run your project several times to see the random dice roll each time.
+**परीक्षण:** हर बार अनियमित डाइस रोल को देखने के लिए अपने प्रोजेक्ट को कई बार चलाएं।
 
-**Debug:** Make sure you have an underscore `_` between roll and dice to make the function name. Make sure you have a colon `:` at the end of the line.
+**डिबग:** सुनिश्चित करें कि आपके पास फ़ंक्शन का नाम बनाने के लिए रोल और डाइस के बीच एक अंडरस्कोर `_` हो। सुनिश्चित करें कि पंक्ति के अंत में आपके पास एक बृहदान्त्र `:` है।
 
-**Debug:** Check that the lines under `def roll_dice()` are indented. It's really common to get this wrong in Python, so make sure to check.
+**डिबग:** जांचें कि `def roll_dice()` के तहत लाइनें इंडेंट की गई हैं। Python में यह गलत होना वास्तव में आम है, इसलिए जांच करना सुनिश्चित करें।
 
-![The Trinket editor showing the lines of code for the <code>roll_dice</code> function have not been indented. The code has been run and is highlighted on line 10, the first line that should be indented, with the error 'SyntaxError: bad input on line 10 in main.py'.](images/indent_error.png)
+![Trinket एडिटर जो <code>roll_dice</code> फंक्शन के लिए कोड की पंक्तियों को दिखाता है, को इंडेंट नहीं किया गया है। कोड चलाया गया है और लाइन 10 पर हाइलाइट किया गया है, पहली पंक्ति जिसे इंडेंट किया जाना चाहिए, त्रुटि के साथ 'SyntaxError: bad input on line 10 in main.py'.](images/indent_error.png)
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Uses of random numbers include cryptography, data science, and adding variety into games and computer art. Computers generate <span style="color: #0faeb0">**random numbers**</span> using an algorithm. For numbers that are really random, you need an unpredictable input from the real world.
+यादृच्छिक संख्याओं के उपयोग में शामिल हैं क्रिप्टोग्राफ़ी, डेटा विज्ञान, और खेल और कंप्यूटर कला में विविधता जोड़ना कंप्यूटर एक अल्गोरिद्म का उपयोग करके <span style="color: #0faeb0"> औसत यादृच्छिक संख्या**</span> उत्पन्न करते हैं। उन संख्याओं के लिए जो वास्तव में यादृच्छिक हैं, आपको वास्तविक दुनिया से एक अप्रत्याशित इनपुट की आवश्यकता है।
 </p>
 
 --- task ---
 
-The `fire` variable stores a 🔥 emoji. The code `print(fire * 3)` outputs three fire emoji '🔥🔥🔥'. You need to output the correct number of emoji to match the number rolled.
+`फायर` वेरिएबल एक 🔥 इमोजी स्टोर करता है। कोड `print(fire * 3)` तीन फायर इमोजी '🔥🔥🔥' आउटपुट करता है। रोल किए गए नंबर से मेल खाने के लिए आपको इमोजी की सही संख्या आउटपुट करने की आवश्यकता है।
 
 --- collapse ---
 ---
-title: What would happen if you use `print(fire * randint(1, 6))`?
+title: क्या होगा यदि आप `print(fire * randint(1, 6))` का उपयोग करते हैं?
 ---
 
-You would get a new random number that is usually different from your first random number.
+आपको एक नई यादृच्छिक संख्या प्राप्त होगी जो आम तौर पर आपकी पहली यादृच्छिक संख्या से अलग होती है।
 
 --- /collapse ---
 
-Hmm, how can you make sure you use the same random number?
+हम्म, आप कैसे सुनिश्चित कर सकते हैं कि आप समान यादृच्छिक संख्या का उपयोग करते हैं?
 
-Change your code to save the value returned by `randint()` in a variable called `roll` and then use that variable to print out the number rolled with the matching number of 🔥 emoji.
+`randint()` द्वारा लौटाए गए मान को `roll` नामक वेरिएबल में सेव करने के लिए अपना कोड बदलें और फिर उस वेरिएबल का उपयोग करते हुए संख्या को प्रिंट करने के लिए करें 🔥emoji।
 
 --- code ---
 ---
@@ -113,41 +114,40 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 11 - 13
 ---
 
-# Put function definitions under here
+# फ़ंक्शन परिभाषाओं को यहाँ रखें
 
-def roll_dice():    
-print(python, 'can make a', dice)    
-roll = randint(1, 6) #Generate a random number between 1 and 6    
-print('You rolled a', roll) #Print the value of the roll variable     
-print(fire * roll) #Repeat the fire emoji to match the dice roll
+def रोल_piday():    
+प्रिंट(python, 'can make a', dasp)    
+रोल = randint(1, 6) #1 और 6 के बीच एक यादृच्छिक संख्या उत्पन्न करें    
+प्रिंट('You lored a', 5
 
 --- /code ---
 
-You can use `star` or `heart` instead of `fire` if you prefer.
+यदि आप चाहें तो `fire` के बजाय आप `star` या `heart` का उपयोग कर सकते हैं।
 
-The symbol `*` means multiply so `fire * roll` multiples the text in the `fire` variable ('🔥') by the number contained in the `roll` variable.
+प्रतीक `*` का मतलब है कि इस तरह से गुणा करें `fire * roll` `fire` वेरिएबल ('🔥') में टेक्स्ट को कई गुणा करता है `roll` वेरिएबल में शामिल संख्या के अनुसार।
 
 --- /task ---
 
 --- task ---
 
-**Test:** Test your project a few times. Make sure you understand how the code works.
+**परीक्षण:** अपने प्रोजेक्ट का कुछ बार परीक्षण करें। सुनिश्चित करें कि आप समझते हैं कि कोड कैसे काम करता है।
 
-**Tip:** Variables are useful when you need to use the same value multiple times in your code. Giving variables a sensible name also makes your code easier to understand.
+**टिप:** वेरिएबल तब उपयोगी होते हैं जब आपको अपने कोड में एक ही मूल्य का कई बार उपयोग करने की आवश्यकता होती है। वेरिएबल्स को एक समझदार नाम देने से आपके कोड को समझना भी आसान हो जाता है।
 
 --- /task ---
 
-Upgrade your dice so that the user can choose the maximum number.
+अपने डाइस को अपग्रेड करें ताकि उपयोगकर्ता अधिकतम संख्या चुन सके।
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-Lots of games use many-sided dice. In the physical world, dice are made from regular geometric shapes. Common dice include D6, D12, and D20. On a computer, you can generate a <span style="color: #0faeb0">random</span> number to make a fair dice with any number of sides.</p>
+बहुत सारे गेम कई-तरफ वाले डाइस का उपयोग करते हैं। भौतिक दुनिया में, डाइस नियमित ज्यामितीय आकारों से बनाए जाते हैं। आम डाइस में D6, D12, और D20 शामिल हैं। एक कंप्यूटर पर, आप कई साइडों के साथ एक निष्पक्ष पासा बनाने के लिए एक <span style="color: #0faeb0">random</span> संख्या उत्पन्न कर सकते हैं।</p>
 
 --- task ---
 
-The `input()` function asks the user a question and then returns their answer.
+`input()` फ़ंक्शन उपयोगकर्ता से एक प्रश्न पूछता है और फिर उनका जवाब देता है।
 
-Add code to ask the user for the biggest number on their dice and then save the result in a variable called `max` and `print` the number chosen into the output area:
+उपयोगकर्ता से उनके पासे पर सबसे बड़ी संख्या के लिए पूछने के लिए कोड जोड़ें और फिर परिणाम को `max` और `print` आउटपुट क्षेत्र में चुनी गई संख्या में सेव करें:
 
 --- code ---
 ---
@@ -155,27 +155,24 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 11-12
 ---
 
-# Put function definitions under here
+# फ़ंक्शन परिभाषाओं को यहाँ रखें
 
-def roll_dice():   
-print(python, 'can make a', dice)   
-max = input('How many sides?:') #Wait for input from the user    
-print('That\'s a D', max) #Use the number the user entered    
-roll = randint(1, 6)    
-print('You rolled a', roll)    
-print(fire * roll)
+def रोल_piday():<br x- randid="3"/> print(python, 'can make a', dasp)   
+max = input('how many side?:') #share for input from the user    
+प्रिंट('t('s finite', the firt('t' 1 , the fered the fer 4 6 4 role)    
+print(fire * lover)
 
 --- /code ---
 
-To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
+`That's` जैसे शब्द में `'` प्रिंट करने के लिए, एक बैकस्लैश `\` डालें ताकि Python यह जानता हो कि यह टेक्स्ट का हिस्सा है।
 
 --- /task ---
 
 --- task ---
 
-Change your `roll` variable code to use `max` as the maximum value for `randint` when it generates a random number.
+अपने `roll` वेरिएबल कोड को बदलें `max` को `randint` के लिए अधिकतम मान के रूप में उपयोग करने के लिए जब यह एक यादृच्छिक संख्या उत्पन्न करता है।
 
-When you get input from the user, Python treats it as text. But, `randint` needs an 'integer' (a positive whole number). The `int` function turns the user input into an integer.
+जब आप उपयोगकर्ता से इनपुट प्राप्त करते हैं, तो Python इसे टेक्स्ट के रूप में मानता है। लेकिन, `randint` को एक 'पूर्णांक' (एक धनात्मक पूर्णांक) की आवश्यकता है। `int` फ़ंक्शन उपयोगकर्ता इनपुट को एक पूर्णांक में बदल देता है।
 
 --- code ---
 ---
@@ -183,15 +180,13 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 13
 ---
 
-# Put function definitions under here
+# फ़ंक्शन परिभाषाओं को यहाँ रखें
 
-def roll_dice():   
-print(python, 'can make a', dice)   
-max = input('How many sides?:') #Wait for input from the user   
-print('That\'s a D', max) #Use the number the user entered   
-roll = randint(1, int(max)) #randint needs max to be an 'integer'   
-print('You rolled a', roll)   
-print(fire * roll)
+def रोल_piday():<br x- randid="3"/> print(python, 'can make a', dasp)   
+max = input('What many side?:') #उपयोगकर्ता से इनपुट के लिए प्रतीक्षा करें   
+print('that's did', 3 1 int(max) #randint को एक 'integer'   
+print('You rolled a', row)   
+print(fire * lover) होने की आवश्यकता है
 
 --- /code ---
 
@@ -199,7 +194,7 @@ print(fire * roll)
 
 --- task ---
 
-**Test:** Run your project. When the program reaches the `input` line, it will wait for you to enter a response before continuing. Try it again with a different `input` number.
+**टेस्ट:** अपने प्रोजेक्ट का परीक्षण करें। जब प्रोग्राम `input` पंक्ति पर पहुंच जाता है, तो यह जारी रखने से पहले आपको प्रतिक्रिया दर्ज करने की प्रतीक्षा करेगा। एक अलग `input` संख्या के साथ फिर से प्रयास करें।
 
 --- /task ---
 
