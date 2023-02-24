@@ -1,19 +1,19 @@
-## Sentence starter
+## Iniciador de frase
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Output more sentences from your project.
+Emita mais frases do seu projeto.
 </div>
 <div>
 
-![Some new print lines in the output area with emoji and text sentences.](images/sentence_starter.png){:width="300px"}
+![Algumas novas linhas de impressão na área de saída com emoji e frases.](images/sentence_starter.png){:width="300px"}
 
 </div>
 </div>
 
 --- task ---
 
-Add more `print` lines to your code. Here are some sentence starters that you can use:
+Adicione mais linhas ao seu código com `print`. Aqui estão alguns iniciadores de frases que você pode usar:
 
 --- code ---
 ---
@@ -21,29 +21,29 @@ language: python
 filename: main.py
 ---
 
-print('I', heart, '...')   
-print('... makes me', happy)   
-print('I\'d like to make ... with', python)
+print('Eu', heart, '...')   
+print('... me deixa', happy)   
+print('Eu gostaria de fazer... com', python)
 
 --- /code ---
 
-**Tip:** `print` adds a space between each item you print.
+**Dica:** `print` adiciona um espaço entre cada item que você imprime.
 
-**Tip:** If you need to print an apostrophe `'` then you need to put a backslash `\` before it so Python knows it's part of the text.
+**Dica:** Se você precisa imprimir um apóstrofo `'`, então você precisa colocar uma barra invertida `\` antes dele para que o Python saiba que é parte do texto.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-The <span style="color: #0faeb0">yellow heart emoji</span> is often used to show friendship and happiness.</p>
+O emoji <span style="color: #0faeb0">de coração amarelo</span> é frequentemente usado para mostrar amizade e felicidade.</p>
 
 --- task ---
 
-What message would you send to a friend to cheer them up? Which emoji would you choose?
+Que mensagem você enviaria para um amigo para animá-lo? Qual emoji você escolheria?
 
-Click on the **emoji.py** tab in Trinket to see the emoji variables that you can use. Click back on the **main.py** tab to add to your code.
+Clique na aba **emoji.py** no Trinket para ver as variáveis de emoji que você pode usar. Clique de volta na aba **main.py** para adicionar ao seu código.
 
-You can add more emoji variables to **emoji.py**. Use this [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} to find the ones you want.
+Você pode adicionar mais variáveis de emoji para **emoji.py**. Use essa [lista de emoji](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} para encontrar o que você deseja.
 
 --- /task ---
 
