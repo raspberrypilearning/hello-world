@@ -1,4 +1,4 @@
-## Upgrade your project
+## ನಿಮ್ಮ ಪ್ರಾಜೆಕ್ಟ್‌ ಅಪ್‌ಗ್ರೇಡ್‌ ಮಾಡಿ
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -11,7 +11,7 @@ Add more to your project. There are more emoji to choose from.
 </div>
 </div>
 
-You could:
+ನೀವು:
 + Use `print` with different text and emoji
 + Use `input` to get values from the user and store them as variables, then do sums with the variables
 + Write more functions to organise your code
@@ -56,10 +56,10 @@ hobbies()
 
 --- collapse ---
 ---
-title: Completed project
+ಶೀರ್ಷಿಕೆ: ಪೂರ್ಣಗೊಂಡ ಪ್ರಾಜೆಕ್ಟ್
 ---
 
-You can view the [completed project here](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}.
+ನೀವು [ಇಲ್ಲಿ ಪೂರ್ಣಗೊಂಡ ಪ್ರಾಜೆಕ್ಟ್ ನೋಡಬಹುದು](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}.
 
 --- /collapse ---
 
