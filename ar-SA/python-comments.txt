@@ -1,43 +1,43 @@
-Put code to run under here
+ضع المقطع البرمجي هنا لتنفيذه
 
-Print the result of the sum
+اطبع نتيجة الجمع
 
-Print with emoji
+اطبع باستخدام الرموز التعبيرية
 
-Put function definitions under here
+ضع تعريفات الدوال بالأسفل
 
-Don't forget the colon at the end of this line
+لا تنس النقطتين في نهاية هذا السطر
 
-Call the roll_dice function
+استدعاء دالة roll_dice
 
-Generate a random number between 1 and 6
+توليد رقم عشوائي بين 1 و 6
 
-Print the value of the roll variable
+اطبع قيمة متغير roll
 
-Repeat the fire emoji to match the dice roll
+كرر الرمز التعبيري لمتغير fire لمطابقة لفة متغير roll
 
-Wait for input from the user
+انتظر الإدخال من المستخدم
 
-Use the number the user entered
+استخدم الرقم الذي أدخله المستخدم
 
-randint needs max to be an 'integer'
+تحتاج دالة الـ randint إلى الحد الأقصى لتكون "عددًا صحيحًا"
 
-Wait for the user to tap Enter
+انتظر حتى يقوم المستخدم بالنقر فوق مفتاح Enter الموجود في لوحة المفاتيح
 
-Useful characters :',()*_/.#
+رموز مفيدة :',()*_/.#
 
-Emoji variables to use in your project
+متغيرات الرموز التعبيرية لاستخدامها في مشروعك
 
-Add ASCII art alternatives
+أضف بدائل فنية ASCII
 
-Before emoji we used emoticons made from characters
+قبل الرموز التعبيرية ، استخدمنا الرموز المصنوعة من الشخصيات
 
-get input from the user
+الحصول على مدخلات من المستخدم
 
-generate a random number
+توليد رقم عشوائي
 
 repeat the fire text roll times
 
-get the current date and time
+الحصول على التاريخ والوقت الحاليين
 
-Call the hobbies function
+استدعاء دالة hobbies
