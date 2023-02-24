@@ -1,37 +1,37 @@
-## Say hello
+## नमस्ते कहें
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's traditional to write a program to output 'Hello world!' when you learn a new programming language.
+'Hello world!' के आउटपुट के लिए प्रोग्राम लिखना पारंपरिक है जब आप एक नई प्रोग्रामिंग भाषा सीखते हैं।
 </div>
 <div>
 
-![The Trinket output area showing the two printed lines of text and emoji.](images/say_hello.png){:width="200px"}
+![Trinket आउटपुट क्षेत्र टेक्स्ट और इमोजी की दो प्रिंट की गई पंक्तियों को दिखाता है।](images/say_hell.png){:width="200px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://trinket.io/python/975f35023b){:target="_blank"}. Trinket will open in another browser tab.
+[Hello 🌍🌎🌏 शुरूआती प्रोजेक्ट](https://trinket.io/python/975f35023b){:target="_blank"} खोले Trinket अन्य ब्राउज़र टैब में खुलेगा।
 
-![The Trinket editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
+![कोड क्षेत्र में बाईं ओर प्रोजेक्ट स्टार्टर कोड के साथ Trinket एडिटर। दाईं ओर रिक्त आउटपुट क्षेत्र है।](images/starter_project.png)
 
 --- /task ---
 
-The line `#!/bin/python3` tells Trinket that you are using Python 3 (the latest version). The `import` lines tell Python that you are going to use code you didn't write.
+पंक्ति `#!/bin/python3` Trinket को बताती है कि आप Python 3 (नवीनतम संस्करण) का उपयोग कर रहे हैं। `import` लाइनें Python को बताती हैं कि आप उस कोड का उपयोग करने जा रहे हैं जिसे आपने नहीं लिखा है।
 
-In Python, `print()` outputs text (words or numbers) to the screen.
+Python में, `print()` स्क्रीन पर टेक्स्ट (शब्द या संख्या) को आउटपुट करता है।
 
-Lines beginning with `#` are comments, they explain the code to humans and are ignored by Python.
+`#` के साथ शुरू होने वाली पंक्तियाँ टिप्पणियाँ हैं, वे मानव को कोड समझाती हैं और Python द्वारा अनदेखा कर दी जाती हैं।
 
 --- task ---
 
-Find the `# Put code to run below here` line.
+`# यहां नीचे चलाने के लिए कोड डालें ` यह लाइन ढूँढे।
 
-Click below that line. The flashing `|` is the cursor and shows where you will type.
+उस रेखा के नीचे क्लिक करें। फ़्लैशिंग `|` कर्सर है और दिखाता है कि आप कहां टाइप करेंगे।
 
-Type the code to `print()` hello:
+hello `print()` करने के लिए कोड टाइप करें:
 
 --- code ---
 ---
@@ -39,17 +39,17 @@ language: python filename: main.py line_numbers: true line_number_start: 11
 line_highlights: 12
 ---
 
-# Put code to run under here
+# यहां चलाने के लिए कोड डालें
 print('Hello')
 
 --- /code ---
 
 --- collapse ---
 ---
-title: Typing special characters on a UK or US keyboard
+title: UK या US कीबोर्ड पर विशेष वर्ण टाइप करना
 ---
 
-On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kbd>9</kbd> and <kbd>0</kbd> keys. To type a left round bracket, hold down the <kbd>Shift</kbd> key (next to <kbd>Z</kbd>) and then tap <kbd>9</kbd>. The single quote `'` is on the same row as the <kbd>L</kbd> key, just before the <kbd>Enter</kbd> key. The comma `,` is next to the <kbd>M</kbd>.
+UK या US कीबोर्ड पर, बाएं तरफ `(` और दाएं `)` गोल कोष्ठक <kbd>9</kbd> और <kbd>0</kbd> कुंजियों पर हैं। एक बायाँ गोल कोष्ठक लिखने के लिए, <kbd>Shift</kbd> कुंजी (<kbd>Z</kbd> के आगे) को दबाकर रखें और फिर <kbd>9</kbd> पर टैप करें। एकल उद्धरण `'` उसी पंक्ति पर है जिस पंक्ति में <kbd>L</kbd> कुंजी है, जो <kbd>Enter</kbd> कुंजी से ठीक पहले है। अल्पविराम `,` <kbd>M</kbd> के आगे है।
 
 --- /collapse ---
 
@@ -57,33 +57,33 @@ On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kb
 
 --- task ---
 
-**Test:** Click on the **Run** button to run your code. In Trinket, the output will appear on the right:
+**परीक्षण:** अपने कोड को चलाने के लिए **Run** बटन पर क्लिक करें। Trinket में, आउटपुट दाईं ओर दिखाई देगा:
 
-![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
+![आउटपुट क्षेत्र में 'Hello' के साथ हाइलाइट किया गया Run आइकन। ](images/run_hello.png)
 
-**Debug:** If you get an error then check your code really carefully. In this example, the single quotes around `Hello` are missing so Python doesn't know it is supposed to be text.
+**डीबग:** यदि आपको कोई त्रुटि मिलती है तो अपने कोड को वास्तव में ध्यान से जांचें। इस उदाहरण में, `Hello` के आसपास के सिंगल कोट्स गायब हैं, इसलिए Python को पता नहीं है कि यह टेक्स्ट होना चाहिए।
 
-![the Trinket editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 10 in main.py.](images/hello_error.png)
-
---- /task ---
-
-In Python, a **variable** is used to store text or numbers. Variables make it easier for humans to read code. You can use the same variable in lots of places in your code.
-
-We have included some variables that store emoji characters.
-
---- task ---
-
-In your Trinket, click on the **emoji.py** tab. Find the variable `world`, which stores the text '🌍🌍🌍'.
+![लापता सिंगल कोट्स और त्रुटि के साथ Trinket संपादक 'NameError: name 'Hello' is not defined on line 10 in main.py.](images/hello_error.png)
 
 --- /task ---
 
+Python में, टेक्स्ट या संख्याओं को संग्रहीत करने के लिए एक **वेरिएबल** का उपयोग किया जाता है। वेरिएबलस मानव के लिए कोड पढ़ना आसान बनाता है। आप अपने कोड में कई स्थानों पर एक ही वेरिएबल का उपयोग कर सकते हैं।
+
+हमने कुछ वेरिएबल शामिल किए हैं जो इमोजी वर्णों को स्टोर करते हैं।
+
 --- task ---
 
-You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` will add a space between each item.
+अपने Trinket में, **emoji.py** टैब पर क्लिक करें। वह वेरिएबल `world` ढूंढें, जो टेक्स्ट '🌍🌍🌍' को स्टोर करता है।
 
-Click on the **main.py** tab to go back to your `print()` code.
+--- /task ---
 
-Change your code to also `print()` the contents of the `world` variable:
+--- task ---
+
+आप आइटम्स के बीच में एक अल्पविराम `,` को शामिल करके एक से अधिक आइटम को `print()` कर सकते हैं। `print()` प्रत्येक आइटम के बीच एक स्पेस जोड़ेगा।
+
+अपने `print()` कोड पर वापस जाने के लिए **main.py** टैब पर क्लिक करें।
+
+अपने कोड को भी बदलें ताकि `world` वेरिएबल की सामग्री को भी `print()` कर सके:
 
 --- code ---
 ---
@@ -91,37 +91,37 @@ language: python filename: main.py line_numbers: true line_number_start: 11
 line_highlights: 12
 ---
 
-# Put code to run under here
+# यहां चलाने के लिए कोड डालें
 print('Hello', world)
 
 --- /code ---
 
-**Tip:** `'Hello'` is a text string because it has single quotes around it, whereas `world` is a variable so the value stored in it will be printed.
+**टिप:** `'Hello'` एक पाठ स्ट्रिंग है क्योंकि इसमें इसके चारों ओर सिंगल कोट्स है, जबकि `world` एक वेरिएबल है इसलिए इसमें संग्रहित मान प्रिंट किया जाएगा।
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code to see the result:
+**परीक्षण:** परिणाम देखने के लिए अपना कोड चलाएं:
 
-![The updated line of code in the code area with the word 'Hello' followed by three emoji worlds showing in the output area.](images/run_hello_world.png)
+![कोड क्षेत्र में कोड की अपडेट की गई लाइन 'Hello' शब्द के साथ और उसके बाद आउटपुट क्षेत्र में दिखाई देने वाले तीन दुनिया इमोजी।](images/run_hello_world.png)
 
-Emoji can look different on different computers, so yours might not look exactly the same.
+इमोजी अलग-अलग कंप्यूटर पर अलग दिख सकता है, इसलिए हो सकता है कि आपका कंप्यूटर बिल्कुल एक जैसा न दिखे।
 
-**Debug:** Make sure that you have added a comma between the items in `print()` and that you have spelled `world` correctly.
+**डीबग:** सुनिश्चित करें कि आपने `print()` में आइटम्स के बीच एक अल्पविराम जोड़ा है और आपने `world` को सही ढंग से लिखा है।
 
-This example is missing the comma `,`. It's small but very important!
+इस उदाहरण में अल्पविराम `,` गुम है। यह छोटा है लेकिन बहुत महत्वपूर्ण है!
 
-![The Trinket editor with missing single quotes and error 'SyntaxError: bad input on line 12 in main.py' displayed.](images/comma_error.png)
+![लापता सिंगल कोट्स और त्रुटि के साथ Trinket संपादक 'SyntaxError: bad input on line 12 in main.py' दिखाता है।](images/comma_error.png)
 
 --- collapse ---
 ---
-title: I don't see the emoji
+title: मुझे इमोजी दिखाई नहीं दे रहे हैं।
 ---
 
-Most computers allow you to use colour emoji. However, if you can't use emoji, then you can use 'emoticons' instead, the way we did before emoji were invented!
+अधिकांश कंप्यूटर आपको रंगीन इमोजी का उपयोग करने की अनुमति देते हैं। हालांकि, यदि आप emoji का उपयोग नहीं कर सकते हैं, तो आप इसके बजाय 'इमोटिकॉन्स' का उपयोग कर सकते हैं, जैसा कि हमने पहले किया था!
 
-Change the `from emoji import *` line to:
+`from emoji import *` पंक्ति को इसमें बदलें:
 
 --- code ---
 ---
@@ -139,7 +139,7 @@ from noemoji import *
 
 --- task ---
 
-Add another line to your code to `print()` more text and emoji:
+अपने कोड में एक और पंक्ति जोड़ें `print()` अधिक टेक्स्ट और इमोजी:
 
 --- code ---
 ---
@@ -152,24 +152,24 @@ print('Welcome to', python)
 
 --- /code ---
 
-**Tip:** The code you need to type is highlighted in a lighter colour. Code that is not highlighted helps you find where you need to add the new code.
+**टिप:** जिस कोड को आपको टाइप करने की आवश्यकता है वह हल्के रंग में हाइलाइट किया गया है। कोड जो हाइलाइट नहीं किया गया है, आपको नया कोड जोड़ने के लिए आवश्यक स्थान खोजने में मदद करता है।
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click **run**.
+**परीक्षण:** क्लिक करें **Run**।
 
-![The additional line of code in the code area with the word 'Hello' followed by three emoji worlds and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
+![कोड क्षेत्र में 'Hello' शब्द के साथ कोड की अतिरिक्त पंक्ति और उसके बाद तीन इमोजी वर्ल्ड और 'Welcome to' शब्द के बाद एक इमोजी स्नेक और कीबोर्ड आउटपुट क्षेत्र में दिखाई देता है।](images/run_multiple.png)
 
-**Tip:** It's a good idea to run your code after every change so you can fix problems quickly.
+**टीप:** प्रत्येक बदलाव के बाद अपना कोड चलाना एक अच्छा विचार है ताकि आप समस्याओं को तुरंत ठीक कर सकें।
 
-**Debug:** Check carefully for brackets, quotes, commas, and correct spelling. Python needs you to be really accurate.
+**डिबग:** कोष्ठकों, उद्धरणों, अल्पविरामों और सही वर्तनी की सावधानीपूर्वक जाँच करें। Python आपको वास्तव में सटीक होना चाहता है।
 
 --- /task ---
 
-If you have a Trinket account, you can click on the **Remix** button to save a copy to your `My Trinkets` library.
+यदि आपके पास एक Trinket खाता है, तो आप अपने `My Trinkets` लाइब्रेरी में कॉपी सहेजने के लिए **Remix** बटन पर क्लिक कर सकते हैं।
 
-If you don't have a Trinket account, you can still come back to your project in the future on the same computer by using the starter project link.
+यदि आपके पास Trinket खाता नहीं है, तो भी आप उसी कंप्यूटर पर भविष्य में स्टार्टर प्रोजेक्ट लिंक का उपयोग करके अपने प्रोजेक्ट पर वापस आ सकते हैं।
 
 --- save ---
