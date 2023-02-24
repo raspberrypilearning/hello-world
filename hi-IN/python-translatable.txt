@@ -1,101 +1,101 @@
-Hello
+नमस्ते
 
-Welcome to ...
+में आपका स्वागत है...
 
-...is very good at ...
+...बहुत अच्छा है...
 
-The ...is
+है
 
-...can make a ...
+...can make a...
 
-You rolled a ...
+आपने एक रोल किया...
 
-How many sides?
+कितनी भुजाएँ?
 
-That’s a D ...
+वह एक D है...
 
-I <3 ...
+I <3...
 
-...makes me ...
+...मुझे बनाता है...
 
-I’d like to make ...with...
+मैं करना चाहता हूँ।...
 
-awesome
+अद्भुत
 
-I can code
+मैं कोड कर सकता हूं
 
-two_dice
+do_paso
 
-First number:
+पहला नंबर:
 
-Second number:
+दूसरी संख्या:
 
-hobbies
+शौक
 
-hobby
+शौक
 
-What do you like?
+आपको क्या पसंद है?
 
-That sounds ...
+वो आवाज़...
 
-You could make a ...project about ...
+आप इसके बारे में ...project बना सकते हैं...
 
-roll_dice
+low_dyso
 
-roll
+रोल
 
-now
+अब
 
 world 
 
-sums
+योग
 
-calendar
+कैलेंडर
 
-clock 
+घड़ी 
 
-projects 
+प्रोजेक्ट्स 
 
-fun 
+मज़ेदार 
 
-dice 
+पासा 
 
-unicorn 
+इकसिंगा 
 
-space 
+स्पेस 
 
-happy 
+खुश है 
 
-silly 
+मूर्ख 
 
-heart 
+दिल 
 
-games 
+गेम्स 
 
 books 
 
-sports 
+खेल 
 
-green 
+हरा 
 
-nature 
+nature) 
 
-fire 
+आग 
 
-sparkles 
+चमकते हैं 
 
-plead 
+वकालत 
 
-hundred 
+सौ 
 
 star 
 
 yellow_heart 
 
-rainbow
+इंद्रधनुष
 
 Choose the biggest number:
 
 I <3 rainbows
 
-You hit the bullseye, 500 points!
+आपने बुलसेए को मारा, 500 अंक!
