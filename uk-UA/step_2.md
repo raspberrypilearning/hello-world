@@ -1,37 +1,37 @@
-## Say hello
+## Скажи "привіт"
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's traditional to write a program to output 'Hello world!' when you learn a new programming language.
+Традиція при вивченні нової мови програмування - написати програму, яка виведе "Привіт, світ!".
 </div>
 <div>
 
-![The Trinket output area showing the two printed lines of text and emoji.](images/say_hello.png){:width="200px"}
+![Область видачі у Trinket, яка показує два надруковані рядки тексту та емодзі.](images/say_hello.png){:width="200px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://trinket.io/python/975f35023b){:target="_blank"}. Trinket will open in another browser tab.
+Відкрий [ Стартовий проєкт Привіт 🌍🌎🌏](https://trinket.io/python/975f35023b){:target="_blank"}. Trinket відкриється в окремій вкладці браузера.
 
-![The Trinket editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
+![Редактор Trinket зі стартовим кодом проєкту зліва в області коду. Праворуч знаходиться порожнє поле для виведення даних.](images/starter_project.png)
 
 --- /task ---
 
-The line `#!/bin/python3` tells Trinket that you are using Python 3 (the latest version). The `import` lines tell Python that you are going to use code you didn't write.
+Рядок `#!/bin/python3` вказує Trinket, що використовується Python 3 (остання версія). Рядки `import` передають Python, що буде використано код, який був написаний не тобою.
 
-In Python, `print()` outputs text (words or numbers) to the screen.
+У Python, код `print()` виводить текст (слова або числа) на екран.
 
-Lines beginning with `#` are comments, they explain the code to humans and are ignored by Python.
+Рядки, які починаються з `#` - це коментарі. Вони пояснюють код людині та ігноруються Python.
 
 --- task ---
 
-Find the `# Put code to run below here` line.
+Знайди рядок `# Нижче розмісти код для виконання`.
 
-Click below that line. The flashing `|` is the cursor and shows where you will type.
+Клацни нижче цього рядка. Блимаючий `|` є курсором і показує, де ти будеш вводити текст.
 
-Type the code to `print()` hello:
+Введи код, щоб зробити `print()` привіт:
 
 --- code ---
 ---
@@ -39,17 +39,17 @@ language: python filename: main.py line_numbers: true line_number_start: 11
 line_highlights: 12
 ---
 
-# Put code to run under here
+# Розмісти код для виконання тут
 print('Hello')
 
 --- /code ---
 
 --- collapse ---
 ---
-title: Typing special characters on a UK or US keyboard
+title: Набір спеціальних символів на англійській розкладці клавіатури
 ---
 
-On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kbd>9</kbd> and <kbd>0</kbd> keys. To type a left round bracket, hold down the <kbd>Shift</kbd> key (next to <kbd>Z</kbd>) and then tap <kbd>9</kbd>. The single quote `'` is on the same row as the <kbd>L</kbd> key, just before the <kbd>Enter</kbd> key. The comma `,` is next to the <kbd>M</kbd>.
+На англійській розкладці клавіатури, ліві `(` та праві `)` круглі дужки знаходяться на клавішах<kbd>9</kbd> та <kbd>0</kbd>. Щоб надрукувати ліву круглу дужку, натисни та утримуй клавішу <kbd>Shift</kbd> (поруч з <kbd>Z</kbd>) і натисни на <kbd>9</kbd>. Одинарна лапка `'` знаходиться в одному рядку з клавішею <kbd>L</kbd>, перед клавішею <kbd>Enter</kbd>. Кома `,` знаходиться поруч з клавішею <kbd>M</kbd>.
 
 --- /collapse ---
 
@@ -57,33 +57,33 @@ On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kb
 
 --- task ---
 
-**Test:** Click on the **Run** button to run your code. In Trinket, the output will appear on the right:
+**Тест:** Натисни на кнопку **Запуск**, щоб виконати твій код. У Trinket вихідні дані будуть відображатися праворуч:
 
-![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
+![Піктограма "Запуск" підсвічена. Напис "Привіт", відображений в області виводу. ](images/run_hello.png)
 
-**Debug:** If you get an error then check your code really carefully. In this example, the single quotes around `Hello` are missing so Python doesn't know it is supposed to be text.
+**Налагодження:** Якщо виникла помилка, необхідно дуже уважно перевірити свій код. У цьому прикладі одинарні лапки навколо `Привіт` відсутні, тому Python не знає, що це має бути текстом.
 
-![the Trinket editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 10 in main.py.](images/hello_error.png)
-
---- /task ---
-
-In Python, a **variable** is used to store text or numbers. Variables make it easier for humans to read code. You can use the same variable in lots of places in your code.
-
-We have included some variables that store emoji characters.
-
---- task ---
-
-In your Trinket, click on the **emoji.py** tab. Find the variable `world`, which stores the text '🌍🌍🌍'.
+![редактор Trinket з відсутніми одинарними лапками та помилкою 'NameError: name 'Hello' is not defined' у рядку 10 у main.py.](images/hello_error.png)
 
 --- /task ---
 
+У Python **змінна** використовується для зберігання тексту або чисел. Змінні полегшують читання коду для людей. Ти можеш використовувати одну і ту ж змінну в багатьох місцях твого коду.
+
+Ми вже додали деякі змінні, які зберігають символи емодзі.
+
 --- task ---
 
-You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` will add a space between each item.
+У власному Trinket, натисни на вкладку **emoji.py**. Знайди змінну `world`, в якій зберігається текст '🌍🌍🌍'.
 
-Click on the **main.py** tab to go back to your `print()` code.
+--- /task ---
 
-Change your code to also `print()` the contents of the `world` variable:
+--- task ---
+
+Ти можеш зробити `print()` більше одного елемента водночас, використовуючи кому `,` між цими елементами. `print()` додасть пробіл між кожним елементом.
+
+Натисни на вкладку **main.py**, щоб повернутися до твого коду `print()`.
+
+Зміни свій код так, щоб зробити `print()` змісту змінної `world`:
 
 --- code ---
 ---
@@ -91,37 +91,37 @@ language: python filename: main.py line_numbers: true line_number_start: 11
 line_highlights: 12
 ---
 
-# Put code to run under here
+# Розмісти код для виконання тут
 print('Hello', world)
 
 --- /code ---
 
-**Tip:** `'Hello'` is a text string because it has single quotes around it, whereas `world` is a variable so the value stored in it will be printed.
+**Порада:** `'Привіт'` - це текстовий рядок, тому що навколо нього розташовані одинарні лапки, в той час, як `world` - це змінна, тобто значення, що зберігається в ній, буде виведено на екран.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code to see the result:
+**Тест:** Запусти свій код, щоб побачити результат:
 
-![The updated line of code in the code area with the word 'Hello' followed by three emoji worlds showing in the output area.](images/run_hello_world.png)
+![Оновлений рядок коду в області коду зі словом "Привіт", за яким в області виводу відображаються три емодзі світу.](images/run_hello_world.png)
 
-Emoji can look different on different computers, so yours might not look exactly the same.
+Емодзі можуть виглядати по-різному на різних комп'ютерах, тому на твоєму комп'ютері вони можуть виглядати не зовсім однаково.
 
-**Debug:** Make sure that you have added a comma between the items in `print()` and that you have spelled `world` correctly.
+**Налагодження:** Переконайся, що кома додана між елементами в рядках `print()` і що `world` написано правильно.
 
-This example is missing the comma `,`. It's small but very important!
+У цьому прикладі не вистачає коми `,`. Маленька, але дуже важлива!
 
-![The Trinket editor with missing single quotes and error 'SyntaxError: bad input on line 12 in main.py' displayed.](images/comma_error.png)
+![Редактор Trinket з відсутніми одинарними лапками та помилкою "SyntaxError: bad input on line 12 in main.py".](images/comma_error.png)
 
 --- collapse ---
 ---
-title: I don't see the emoji
+title: Я не бачу емодзі
 ---
 
-Most computers allow you to use colour emoji. However, if you can't use emoji, then you can use 'emoticons' instead, the way we did before emoji were invented!
+Більшість комп'ютерів підтримують використання кольорових емодзі. Однак, якщо ти не можеш використовувати емодзі, ти можеш використовувати "смайлики". Ми робили це до того, як емодзі були придумані!
 
-Change the `from emoji import *` line to:
+Зміни рядок `from emoji import *` на:
 
 --- code ---
 ---
@@ -139,7 +139,7 @@ from noemoji import *
 
 --- task ---
 
-Add another line to your code to `print()` more text and emoji:
+Додай ще один рядок до коду, щоб зробити `print()` додаткового тексту та емодзі:
 
 --- code ---
 ---
@@ -152,24 +152,24 @@ print('Welcome to', python)
 
 --- /code ---
 
-**Tip:** The code you need to type is highlighted in a lighter colour. Code that is not highlighted helps you find where you need to add the new code.
+**Порада:** Код, який потрібно ввести, виділено світлішим кольором. Код, який не підсвічується, допомагає знайти місце, де необхідно додати новий код.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click **run**.
+**Тест:** Клацни на кнопку **запуску**.
 
-![The additional line of code in the code area with the word 'Hello' followed by three emoji worlds and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
+![Додатковий рядок коду в області коду зі словом "Привіт", за яким слідують три емодзі світу та слова "Ласкаво просимо", за якими слідує емодзі змії та клавіатура, що відображається в області виводу.](images/run_multiple.png)
 
-**Tip:** It's a good idea to run your code after every change so you can fix problems quickly.
+**Порада:** Рекомендується запускати код після кожної зміни, щоб можна було швидко усунути помилки.
 
-**Debug:** Check carefully for brackets, quotes, commas, and correct spelling. Python needs you to be really accurate.
+**Налагодження:** Уважно перевіряй наявність дужок, лапок, ком та правопис. Python вимагає від тебе особливої уважності.
 
 --- /task ---
 
-If you have a Trinket account, you can click on the **Remix** button to save a copy to your `My Trinkets` library.
+Якщо у тебе є обліковий запис в Trinket, ти можеш натиснути на кнопку **Remix**, щоб зберегти копію у свою бібліотеку `My Trinkets`.
 
-If you don't have a Trinket account, you can still come back to your project in the future on the same computer by using the starter project link.
+Якщо у тебе немає облікового запису Trinket, ти все одно можеш повернутися до свого проєкту в майбутньому на тому ж комп'ютері, скориставшись посиланням на стартовий проєкт.
 
 --- save ---
