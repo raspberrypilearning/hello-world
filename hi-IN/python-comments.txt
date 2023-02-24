@@ -1,43 +1,43 @@
-Put code to run under here
+कोड को यहाँ के नीचे चलाने के लिए रखें
 
-Print the result of the sum
+योग का परिणाम प्रिंट करें
 
-Print with emoji
+इमोजी से प्रिंट करें
 
-Put function definitions under here
+फ़ंक्शन परिभाषाओं को यहाँ रखें
 
-Don't forget the colon at the end of this line
+इस लाइन के अंत में कोलोन को न भूलें
 
-Call the roll_dice function
+roll_dice फ़ंक्शन को कॉल करें
 
-Generate a random number between 1 and 6
+1 और 6 के बीच एक यादृच्छिक संख्या उत्पन्न करें
 
-Print the value of the roll variable
+रोल वेरिएबल का मान प्रिंट करें
 
-Repeat the fire emoji to match the dice roll
+पासा रोल से मिलान करने के लिए फायर इमोजी दोहराएं
 
-Wait for input from the user
+उपयोगकर्ता से इनपुट की प्रतीक्षा करें
 
-Use the number the user entered
+दर्ज किए गए उपयोगकर्ता की संख्या का उपयोग करें
 
-randint needs max to be an 'integer'
+randint को एक 'पूर्णांक' होने की आवश्यकता है
 
-Wait for the user to tap Enter
+उपयोगकर्ता द्वारा Enter टैप करने की प्रतीक्षा करें
 
-Useful characters :',()*_/.#
+उपयोगी वर्ण :',()*_/.#
 
-Emoji variables to use in your project
+अपने प्रोजेक्ट में उपयोग करने के लिए इमोजी वेरिएबल
 
-Add ASCII art alternatives
+ASCII कला विकल्प जोड़ें
 
-Before emoji we used emoticons made from characters
+इससे पहले कि हम अक्षरों से बने इमोटिकॉन्स का उपयोग करते हैं
 
-get input from the user
+उपयोगकर्ता से इनपुट प्राप्त करें
 
-generate a random number
+एक यादृच्छिक संख्या उत्पन्न करें
 
-repeat the fire text roll times
+आग टेक्स्ट रोल समय दोहराएँ
 
-get the current date and time
+वर्तमान तिथि और समय प्राप्त करें
 
-Call the hobbies function
+Hobbies फ़ंक्शन को कॉल करें
