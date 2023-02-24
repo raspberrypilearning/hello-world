@@ -1,43 +1,43 @@
-Put code to run under here
+Coloque o código para ser executado logo abaixo
 
-Print the result of the sum
+Imprima o resultado da soma
 
-Print with emoji
+Imprimir com emoji
 
-Put function definitions under here
+Coloque as definições da função logo abaixo
 
-Don't forget the colon at the end of this line
+Não se esqueça dos dois pontos no final desta linha
 
-Call the roll_dice function
+Chame a função roll_dice
 
-Generate a random number between 1 and 6
+Gera um número aleatório entre 1 e 6
 
-Print the value of the roll variable
+Imprima o valor da variável roll
 
-Repeat the fire emoji to match the dice roll
+Repita o emoji de fogo para combinar com o lançamento de dados
 
-Wait for input from the user
+Aguarde a entrada do usuário
 
-Use the number the user entered
+Use o número que o usuário digitou
 
-randint needs max to be an 'integer'
+O randint precisa ser, no máximo, um "número inteiro
 
-Wait for the user to tap Enter
+Aguarde que o usuário toque em Enter
 
-Useful characters :',()*_/.#
+Caracteres úteis:',()*_/.#
 
-Emoji variables to use in your project
+Variáveis de emoji para usar em seu projeto
 
-Add ASCII art alternatives
+Adicionar alternativas de arte ASCII
 
-Before emoji we used emoticons made from characters
+Antes dos emojis usávamos emoticons feitos de personagens
 
-get input from the user
+obetenha a entrada do usuário
 
-generate a random number
+gerar um número aleatório
 
-repeat the fire text roll times
+repita os tempos de rolagem de texto de fogo
 
-get the current date and time
+obter a data e hora atuais
 
-Call the hobbies function
+Chame a função de hobbies
