@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: ३ का प्रश्न २
 ---
 
-Which of these function definitions is correct and will print `I can code` when called?
+इनमें से किस फ़ंक्शन की परिभाषा सही हैं और कॉल करने पर `l can code` प्रिंट करेंगी?
 
-![The Trinket editor with output area showing <code>I can code</code>.](images/quiz2.png)
+![आउटपुट क्षेत्र के साथ Trinket संपादक <code>I can code</code> दिखा रहा है।](images/quiz2.png)
 
 --- choices ---
 
@@ -23,7 +23,7 @@ def awesome(): print('I can code')
 
  --- feedback ---
 
-That's correct, calling this function will print `I can code`. You spotted that functions need `(` `)` brackets and a `:` in the function definition, and that all code to be run when that function is called must be indented.
+यह सही है, इस फ़ंक्शन को कॉल करने से `I can code` प्रिंट हो जाएगा। आपने देखा है कि फ़ंक्शन को `(` `)` कोष्ठकों और एक `:` फ़ंक्शन परिभाषा में चाहिए, और वह सभी कोड चलाना चाहिए जब उस फ़ंक्शन को इंडेंट किया जाए।
 
  --- /feedback ---
 
@@ -40,7 +40,7 @@ def awesome(): print('I can code')
 
  --- feedback ---
 
- Not quite, the layout in this example would cause an error.
+ बिल्कुल नहीं, इस उदाहरण में लेआउट एक त्रुटि का कारण होगा।
 
  --- /feedback ---
 
@@ -57,7 +57,7 @@ def awesome() print('I can code')
 
  --- feedback ---
 
-Not quite, there is something missing from the function definition that woud cause an error.
+बिल्कुल नहीं, फ़ंक्शन परिभाषा से कुछ गुम है जो एक त्रुटि का कारण बन सकता है ।
 
  --- /feedback ---
 
