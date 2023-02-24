@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: प्रश्न 3 पैकी 2
 ---
 
 Which of these function definitions is correct and will print `I can code` when called?
