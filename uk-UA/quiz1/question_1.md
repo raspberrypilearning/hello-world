@@ -1,17 +1,17 @@
-## Quick quiz
+## Швидкий тест
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Дай відповідь на три запитання. Підказки допоможуть знайти правильну відповідь.
 
-When you have answered each question, click on **Check my answer**.
+Відповівши на кожне питання, натисни на **Перевірити мою відповідь**.
 
-Have fun!
+Розважайся!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Питання 1 з 3
 ---
 
-This code sets the `world` variable to contain the text '🌍🌎🌏' (the three different world emoji):
+Цей код встановлює змінну `world`, яка буде містити текст '🌍🌎🌏' (три різні емодзі світу):
 
 --- code ---
 ---
@@ -22,9 +22,9 @@ world = '🌍🌎🌏'
 
 --- /code ---
 
-Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
+Який код коректно використовує змінну `world` та видає Привіт 🌍🌎🌏?
 
-![The output area from the Trinket editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
+![Область видачі в редакторі Trinket з виведенням на екран Привіт 🌍🌎🌏.](images/quiz1.png)
 
 --- choices ---
 
@@ -35,13 +35,13 @@ Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
 language: python
 ---
 
-output('Hello' world)
+output('Привіт' world)
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, `output` is not the way to output messages to the screen.
+ Не зовсім так, `output` не є способом виведення повідомлень на екран.
 
  --- /feedback ---
 
@@ -53,13 +53,13 @@ output('Hello' world)
 language: python
 ---
 
-print('Hello' world)
+print('Привіт' world)
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+ Не зовсім, в Python `print` виводить повідомлення на екран, але в цьому прикладі чогось не вистачає.
 
  --- /feedback ---
 
@@ -70,13 +70,13 @@ print('Hello' world)
 language: python
 ---
 
-print('Hello', world)
+print('Привіт', world)
 
 --- /code ---
 
  --- feedback ---
 
- That's correct, in Python `print` outputs messages to the screen. The text output is inside single quotes `'` , a comma separates the two items and provides a space, then the `world` variable is called, which stores the earth emoji 🌍🌎🌏, like in your project.
+ Правильно! У Python `print` виводить повідомлення на екран. Текст виводиться в одинарних лапках `'`, кома розділяє два елементи та додає пробіл, після чого відбувається виклик змінної `world`, яка містить емодзі землі 🌍🌎🌎🌏, подібно до твого проєкту.
 
  --- /feedback ---
 
@@ -87,13 +87,13 @@ print('Hello', world)
 language: python
 ---
 
-print(Hello, world)
+print(Привіт, world)
 
 --- /code ---
 
  --- feedback ---
 
-  Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+  Не зовсім, в Python `print` виводить повідомлення на екран, але в цьому прикладі чогось не вистачає.
 
  --- /feedback ---
 
