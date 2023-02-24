@@ -1,17 +1,17 @@
-## Sums and dates
+## रकम और दिनांक
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Python is great at working with numbers and dates.
+Python संख्याओं और दिनांकों के साथ काम करने पर शानदार है।
 </div>
 <div>
 
-![The output area with five printed lines showing new sum and current date outputs.](images/sums_dates.png){:width="300px"}
+![पाँच प्रिंट की गई पंक्तियों वाला आउटपुट क्षेत्र जिसमें नया योग और वर्तमान दिनांक आउटपुट दिखाया जा रहा है।](images/sumes_date.png){:width="300px"}
 
 </div>
 </div>
 
-In Python you can use maths operators to do sums:
+Python में आप गणित ऑपरेटरों का उपयोग कर सकते हैं योग करने के लिए:
 
 | + | add |   
 | - | subtract |   
@@ -21,7 +21,7 @@ In Python you can use maths operators to do sums:
 
 --- task ---
 
-Add another two `print()` lines to your code including a sum for Python to work out:
+अपने कोड में और दो `print()` लाइनें जोड़ें जिसमें Python को काम करने के लिए एक योग शामिल है:
 
 --- code ---
 ---
@@ -40,53 +40,53 @@ print(230 * 5782 ** 2 / 23781)
 
 --- task ---
 
-**Test:** Run your code. Did Python calculate the sum correctly? Only joking! Python does the hard maths for you so you don't need to work it out.
+**परीक्षण:** अपना कोड चलाएं। क्या Python ने योग की सही गणना की? सिर्फ़ मजाक कर रहा हूं! Python आपके लिए कठिन गणित करता है इसलिए आपको काम करने की आवश्यकता नहीं है।
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi (*π*) to 31 trillion digits. That answer is so long that it would take over 300,000 years just to say it! 
+जापानी कंप्यूटर वैज्ञानिक <span style="color: #0faeb0">**एम्मा हारुका इवाओ**</span> ने पाई (*π*) के मान को 31 ट्रिलियन अंकों तक परिकलित करने के लिए एक कंप्यूटर का उपयोग किया। यह उत्तर इतना लंबा है कि इसे कहने में 300,000 वर्ष से अधिक का समय लग जाएगा! 
 </p>
 
 --- task ---
 
-Try changing the sum that Python does to a complicated one!
+Python द्वारा किसी जटिल योग में किए गए योग को बदलने का प्रयास करें!
 
-You can also use brackets if you want to control the order that Python calculates the sum: `print( (2 + 4) * (5 + 3) )`.
-
---- /task ---
-
---- task ---
-
-**Test:** Run your code and get Python to calculate your sum.
-
-**Debug:** Make sure your sum has a left and right round bracket around it `( 2 * 45 )`. If you use extra brackets to control the order, make you have a right bracket to match every left bracket.
+आप कोष्ठक का उपयोग भी कर सकते हैं यदि आप उस क्रम को नियंत्रित करना चाहते हैं जिसमें पायथन योग की गणना करता है: `print ((2 + 4) * (5 + 3))`।
 
 --- /task ---
 
 --- task ---
 
-If you have asked Python to calculate a really big sum, you might find the answer goes across multiple lines in the output area.
+**परीक्षण:** अपना कोड चलाएं और अपने योग की गणना करने के लिए Python का उपयोग करें।
 
-**Tip:** Click on the **hamburger menu** (the icon with three lines) in the top-left of your Trinket editor. Then click on the **Fullscreen** button to view your project in fullscreen mode.
-
-![The Trinket editor with left-hand side menu expanded, via the hamburger menu, to show the fullscreen option.](images/full_screen.png)
-
-To exit fullscreen mode, click on the **Fullscreen** button again or press <kbd>Esc</kbd> on your keyboard.
+**डिबग:** सुनिश्चित करें कि आपके योग के चारों ओर एक बाएँ और दाएँ गोल ब्रैकेट हैं `( 2 * 45 )`। यदि आप ऑर्डर को नियंत्रित करने के लिए अतिरिक्त कोष्ठकों का उपयोग करते हैं, तो प्रत्येक बाएँ ब्रैकेट से मेल करने के लिए आपके पास एक दायाँ ब्रैकेट है।
 
 --- /task ---
 
-The line `from datetime import *` at the top of the **main.py** tab includes a library with helpful functions for getting the current date and time.
+--- task ---
+
+यदि आपने Python से वास्तव में एक बड़े योग की गणना करने के लिए कहा है, तो हो सकता है कि आपको उत्तर आउटपुट क्षेत्र में कई लाइनों में दिखाई दे।
+
+**टिप:** अपने Trinket संपादक के ऊपरी-बाएँ में **हैमबर्गर मेनू** (तीन पंक्तियों वाला आइकन) पर क्लिक करें। फिर अपने प्रोजेक्ट को फुलस्क्रीन मोड में देखने के लिए **फुलस्क्रीन** बटन पर क्लिक करें।
+
+![फ़ुलस्क्रीन विकल्प दिखाने के लिए, हैमबर्गर मेनू के माध्यम से बाईं ओर मेनू के साथ Trinket संपादक का विस्तार किया गया।](images/full_screen.png)
+
+फुलस्क्रीन मोड से बाहर निकलने के लिए, **फुलस्क्रीन** बटन पर फिर से क्लिक करें या अपने कीबोर्ड पर <kbd>Esc</kbd> दबाएं।
+
+--- /task ---
+
+**main.py** टैब के शीर्ष पर `from datetime import *` पंक्ति में वर्तमान दिनांक और समय प्राप्त करने के लिए उपयोगी फंक्शन वाली एक लाइब्रेरी शामिल है।
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. A Python library allows you to easily use code that other people have written. There are libraries for drawing charts and graphs, making art, doing calculations, and lots more.
+Python के बारे में महान चीजों में से एक कोड के सभी <span style="color: #0faeb0">**लाइब्रेरी**</span> है जो उपयोग के लिए उपलब्ध हैं। एक Python लाइब्रेरी आपको आसानी से उस कोड का उपयोग करने की अनुमति देती है जिसे अन्य लोगों ने लिखा है। चार्ट और ग्राफ़ बनाने, कला बनाने, गणना करने और बहुत कुछ के लिए लाइब्रेरी हैं।
 </p>
 
 --- task ---
 
-Add another line to your code to `print` some more text and the emoji variables `calendar` and `clock`.
+अपने कोड में एक और पंक्ति जोड़ें जो `print` कुछ और टेक्स्ट और इमोजी वेरिएबल `calendar` और `clock`।
 
-Get the current date and time by using the `now()` function from the `datetime` library:
+`datetime` लाइब्रेरी से `now()` फ़ंक्शन का उपयोग करके वर्तमान दिनांक और समय प्राप्त करें:
 
 --- code ---
 ---
@@ -94,21 +94,21 @@ language: python filename: main.py line_numbers: true line_number_start: 14
 line_highlights: 16-17
 ---
 
-print(python, 'is very good at', sums)    
-print(230 * 5782 ** 2 / 23781) #Print the result of the sum     
-print('The', calendar, clock, 'is', datetime.now()) #Print with emoji
+प्रिंट (Python, 'इस पर बहुत अच्छा है', रकम)    
+प्रिंट (230 * 5782 ** 2/23781) # योग का परिणाम प्रिंट करें     
+प्रिंट ( 'The', calendar, clock, 'is', datetime.now()) #इमोजी के साथ प्रिंट करें
 
 --- /code ---
 
-**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
+**युक्ति:** आपको टिप्पणियाँ टाइप करने की आवश्यकता नहीं है, वे कोड को समझने में आपकी मदद करने के लिए बस वहाँ हैं। बस `#` से पहले के भाग को टाइप करें।
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code a couple of times to see the date and time update.
+**परीक्षण:** दिनांक और समय अपडेट देखने के लिए अपना कोड कुछ बार चलाएं।
 
-**Debug:** Check that you have a fullstop `.` between `datetime` and `now`. Check all the punctuation carefully.
+**डिबग:** जांचें कि आपके पास फुलस्टॉप `.` `datetime`के बीच और `now`। सभी विराम चिह्न सावधानीपूर्वक जांचें।
 
 --- /task ---
 
