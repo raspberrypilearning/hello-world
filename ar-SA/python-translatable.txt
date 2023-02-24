@@ -1,8 +1,8 @@
-Hello
+مرحباً
 
-Welcome to ...
+مرحبا بك في ...
 
-...is very good at ...
+... جيد جدا في ...
 
 The ...is
 
@@ -50,7 +50,7 @@ world
 
 sums
 
-calendar
+تقويم
 
 clock 
 
