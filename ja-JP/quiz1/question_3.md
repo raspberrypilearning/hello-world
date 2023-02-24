@@ -7,7 +7,7 @@ legend: 質問3/3
 
 --- code ---
 ---
-language: python
+言語：python
 ---
 
 def two_dice(): print('最初の数字:', randint(1, 6)) print('2番目の数字:', randint(1, 6))
