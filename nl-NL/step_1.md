@@ -13,7 +13,7 @@ Je gaat:
 
 --- no-print ---
 
-### Play ▶️
+### Probeer het uit
 
 --- task ---
 
