@@ -1,0 +1,28 @@
+---
+title: "Привіт \U0001F30D\U0001F30E\U0001F30F"
+hero_image: images/banner.png
+description: Створюємо інтерактивний проєкт на Python, який використовує емодзі
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-10-06"
+steps:
+  - title: Ти зробиш
+  - title: Скажи "привіт"
+  - title: Цифри та дати
+    completion:
+      - engaged
+  - title: Підкинь кубик
+  - title: Початок речення
+    completion:
+      - internal
+  - title: Швидкий тест
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Вдосконалення твого проєкту
+  - title: Що далі?
