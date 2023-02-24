@@ -1,22 +1,22 @@
 --- question ---
 ---
-legend: Question 3 of 3
+Legenda: Pergunta 3 de 3
 ---
 
-This function outputs two random numbers:
+Esta função gera dois números aleatórios:
 
 --- code ---
 ---
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def dois_dados(): print('Primeiro número:', randint(1, 6)) print('Segundo número:', randint(1, 6))
 
 --- /code ---
 
-Which code will call the function to run it?
+Qual código chamará a função para executá-la?
 
-![The Trinket editor with output area showing two randomly generated numbers.](images/quiz3.png)
+![O editor Trinket com área de saída mostrando dois números gerados aleatoriamente.](images/quiz3.png)
 
 --- choices ---
 
@@ -27,13 +27,13 @@ Which code will call the function to run it?
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def dois_dados(): print('Primeiro número:', randint(1, 6)) print('Segundo número:', randint(1, 6))
 
 --- /code ---
 
  --- feedback ---
 
- No, this is the code to define the function, but it does not run the function. You'll need to use different code to call it.
+ Não, este é o código para definir a função, mas não executa a função. Você precisará usar um código diferente para chamá-la.
 
  --- /feedback ---
 
@@ -42,13 +42,13 @@ def two_dice(): print('First number:', randint(1, 6)) print('Second number:', ra
 language: python
 ---
 
-two_dice
+dois_dados
 
 --- /code ---
 
  --- feedback ---
 
-Close! `two_dice` is the name of the function, but to call it you need more than just the name.
+Fechar! `dois_dados` é o nome da função, mas para chamá-la você precisa mais do que apenas o nome.
 
  --- /feedback ---
 
@@ -59,13 +59,13 @@ Close! `two_dice` is the name of the function, but to call it you need more than
 language: python
 ---
 
-two_dice[]
+dois_dados[]
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, think about they type of brackets you used to call the functions in your project.
+ Não exatamente, pense nos parênteses que você usou para chamar as funções em seu projeto.
 
  --- /feedback ---
 
@@ -76,13 +76,13 @@ two_dice[]
 language: python
 ---
 
-two_dice()
+dois_dados()
 
 --- /code ---
 
  --- feedback ---
 
- That's correct, using the function name followed by `(` `)` brackets will call the function.
+ Isso mesmo, usar o nome da função seguido por `(` `)` parênteses chamará a função.
 
  --- /feedback ---
 
