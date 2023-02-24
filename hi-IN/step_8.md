@@ -1,10 +1,10 @@
-## What next?
+## आगे क्या?
 
-If you are following the [Introduction to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [Target practice](https://projects.raspberrypi.org/en/projects/target-practice) project. In this project, you will draw a target then make an archery game that shoots arrows to score points.
+यदि आप [पाइथन का परिचय](https://projects.raspberrypi.org/en/raspberrypi/python-intro) मार्ग का अनुसरण कर रहे हैं, तो आप सीधा [लक्ष्य अभ्यास](https://projects.raspberrypi.org/en/projects/target-practice) प्रोजेक्ट पर जा सकते हैं। इस परियोजना में, आप एक लक्ष्य बनाएंगे और फिर एक तीरंदाजी खेल बनाएंगे जो अंक हासिल करने के लिए तीर चलाता है।
 
 --- print-only ---
 
-![Archery project](images/archery-project.png)
+![तीरंदाजी प्रोजेक्ट](images/archery-project.png)
 
 --- /print-only ---
 
@@ -15,4 +15,4 @@ If you are following the [Introduction to Python](https://projects.raspberrypi.o
 
 --- /no-print ---
 
-If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
+यदि आप Python की खोज में और अधिक मज़ा लेना चाहते हैं, तो आप इनमें से कोई भी [प्रोजेक्ट](https://projects.raspberrypi.org/en/projects?software%5B%5D=python)आज़मा सकते हैं।
