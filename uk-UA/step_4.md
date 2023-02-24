@@ -1,25 +1,25 @@
-## Roll a dice
+## Підкинь кубик
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Python can generate random numbers to make digital dice.
+Python може генерувати випадкові числа для створення цифрового рандомайзера.
 </div>
 <div>
 
-![The output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll_dice.png){:width="300px"}
+![Область виводу з додатковими рядками, в яких користувачу пропонується ввести найбільше число, яке може випасти, та відповідь з випадковим числом.](images/roll_dice.png){:width="300px"}
 
 </div>
 </div>
 
-In Python you **call** a **function()** to perfom an action. You have already used the `print()` function to output text.
+У Python ти **викликаєш** **функцію()**, щоб здійснити якусь дію. Функція `print()` вже використовувалась тобою раніше, для виведення тексту.
 
-You can **define** a new **function** to group code together so that you can name it and reuse it.
+Ти можеш **визначити** нову **функцію**, щоб згрупувати код разом. Це дозволить дати йому ім'я та повторно його використати.
 
 --- task ---
 
-Functions need to be defined before you can call them. Look for the comment near the top of the **main.py** tab that says `#Put function definitions under here`.
+Функції повинні бути визначені до того, як ти будеш їх викликати. Шукай коментар у верхній частині вкладки **main.py**, де написано `#Визначення функцій розміщуй тут`.
 
-Define a new function called `roll_dice()` that uses the `randint()` function, from the `random` library, to generate a random 'integer' (whole number) from 1 to 6 and output it to the screen.
+Визнач нову функцію з назвою `roll_dice()` яка використовує функцію `randint()`, з бібліотеки `random`, щоб згенерувати випадкове 'натуральне' (ціле) число від 1 до 6 та вивести його на екран.
 
 --- code ---
 ---
@@ -27,7 +27,7 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 9-12
 ---
 
-# Put function definitions under here
+# Помісти сюди визначення функцій
 
 def roll_dice(): #Don't forget the colon at the end of this line   
 print(python, 'can make a', dice)   
@@ -35,16 +35,16 @@ print('You rolled a', randint(1, 6))
 
 --- /code ---
 
-The lines under `def roll_dice():` are **indented**. To do this, use the <kbd>Tab</kbd> character on your keyboard (usually above <kbd>CAPSLOCK</kbd> on the keyboard). Indenting code tells Python that the indented lines are part of the function.
+Рядки під `def roll_dice():` мають **абзацний відступ**. Щоб зробити це, скористайся кнопкою <kbd>Tab</kbd> на клавіатурі (зазвичай знаходиться над <kbd>CAPSLOCK</kbd>). Код з абзацними відступами вказує Python, що рядки з абзацними відступами є частиною функції.
 
-**Tip:** The underscore `_` is used to between words in variable and function names in Python to make them easier to read. You can't use a space.
+**Порада:** Символ підкреслення `_` використовується між словами в назвах змінних та функцій у Python, щоб спростити їх читання. Не можна використовувати пробіл.
 
 --- collapse ---
 ---
-title: Typing special characters on a UK or US keyboard
+title: Набір спеціальних символів на англійській розкладці клавіатури
 ---
 
-On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next to the <kbd>L</kbd> key: hold <kbd>Shift</kbd> and tap <kbd>;</kbd> to type a `:`. The underscore `_` is on the same key as the `-`, next to the <kbd>0</kbd>, hold <kbd>Shift</kbd> and tap <kbd>-</kbd> to type an `_`.
+На англійській розкладці клавіатури, двокрапка `:` знаходиться на тій самій клавіші, що і крапка з комою, справа від клавіші <kbd>L</kbd>: утримуй <kbd>Shift</kbd> та натисни на <kbd>;</kbd>, щоб отримати `:`. Символ підкреслення `_` знаходиться на тій самій клавіші, що й `-`, справа від <kbd>0</kbd>, утримуй <kbd>Shift</kbd> та натисни на <kbd>-</kbd>, щоб отримати `_`.
 
 --- /collapse ---
 
@@ -52,13 +52,13 @@ On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next 
 
 --- task ---
 
-**Test:** If you ‘Run’ your code now, it won't roll a dice. That’s because you have defined the `roll_dice()` function, but not called it yet.
+**Тест:** Якщо запустити твій код зараз, він не спрацює. Це тому, що функція `roll_dice()` була визначена, але ще не викликана.
 
 --- /task ---
 
 --- task ---
 
-To use a function, you need to call it in the code. Go to the end of your code and add a new line to call the `roll_dice()` function:
+Щоб використати функцію, потрібно викликати її безпосередньо в коді. Перейди в кінець коду та додай новий рядок, щоб викликати функцію `roll_dice()`:
 
 --- code ---
 ---
@@ -76,36 +76,36 @@ roll_dice() #Call the roll dice function
 
 --- task ---
 
-**Test:** Run your project several times to see the random dice roll each time.
+**Тест:** Запусти свій проєкт декілька разів, щоб побачити випадіння випадкового числа кожного разу.
 
-**Debug:** Make sure you have an underscore `_` between roll and dice to make the function name. Make sure you have a colon `:` at the end of the line.
+**Налагодження:** Переконайся, що у коді є підкреслення `_` між roll та dice, щоб назва функції створилась коректно. Переконайся, що у коді є двокрапка `:` наприкінці рядка.
 
-**Debug:** Check that the lines under `def roll_dice()` are indented. It's really common to get this wrong in Python, so make sure to check.
+**Налагодження:** Переконайся, щоб рядки під `def roll_dice()` мали відступи. У Python дуже часто трапляються такі помилки, тому обов'язково слід перевіряти це.
 
-![The Trinket editor showing the lines of code for the <code>roll_dice</code> function have not been indented. The code has been run and is highlighted on line 10, the first line that should be indented, with the error 'SyntaxError: bad input on line 10 in main.py'.](images/indent_error.png)
+![Редактор Trinket, що показує рядки програмного коду функції <code>roll_dice</code>, які не мають відступів. Код був запущений на виконання та підсвічується 10 рядок - перший рядок, який повинен бути з відступом, з помилкою 'SyntaxError: bad input on line 10 in main.py'.](images/indent_error.png)
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Uses of random numbers include cryptography, data science, and adding variety into games and computer art. Computers generate <span style="color: #0faeb0">**random numbers**</span> using an algorithm. For numbers that are really random, you need an unpredictable input from the real world.
+Використання випадкових чисел включає криптографію, науку про дані, а також внесення різноманітності в ігри та програмне мистецтво. Комп'ютери генерують <span style="color: #0faeb0">**випадкові числа**</span> за допомогою алгоритму. Для чисел, які дійсно є випадковими, потрібен абсолютно непередбачуваний вхідний сигнал з реального світу.
 </p>
 
 --- task ---
 
-The `fire` variable stores a 🔥 emoji. The code `print(fire * 3)` outputs three fire emoji '🔥🔥🔥'. You need to output the correct number of emoji to match the number rolled.
+Змінна `fire` містить емодзі 🔥. Код `print(fire * 3)` виведе 3 емодзі вогню '🔥🔥🔥'. Тобі необхідно вивести правильну кількість емодзі, яка відповідає випадаючому числу.
 
 --- collapse ---
 ---
-title: What would happen if you use `print(fire * randint(1, 6))`?
+title: Що буде, якщо використати код `print(fire * randint(1, 6))`?
 ---
 
-You would get a new random number that is usually different from your first random number.
+Ти отримаєш нове випадкове число, яке, як правило, буде відрізнятися від першого випадкового числа.
 
 --- /collapse ---
 
-Hmm, how can you make sure you use the same random number?
+Хм, а як можна переконатися, що використовується одне й те саме випадкове число?
 
-Change your code to save the value returned by `randint()` in a variable called `roll` and then use that variable to print out the number rolled with the matching number of 🔥 emoji.
+Зміни код для збереження значення, що повертатиметься за допомогою `randint()` у змінній з назвою `roll` та використовуй цю змінну, щоб вивести число, яке випало з відповідною кількістю емодзі 🔥.
 
 --- code ---
 ---
@@ -113,7 +113,7 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 11 - 13
 ---
 
-# Put function definitions under here
+# Помісти сюди визначення функцій
 
 def roll_dice():    
 print(python, 'can make a', dice)    
@@ -123,31 +123,31 @@ print(fire * roll) #Repeat the fire emoji to match the dice roll
 
 --- /code ---
 
-You can use `star` or `heart` instead of `fire` if you prefer.
+Ти можеш використовувати `star` або `heart` замість `fire`, якщо захочеш.
 
-The symbol `*` means multiply so `fire * roll` multiples the text in the `fire` variable ('🔥') by the number contained in the `roll` variable.
+Символ `*` означає помножити, отже `fire * roll` помножить текст у змінній ('🔥') `fire` відповідно до числа, яке міститься в змінній `roll`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Test your project a few times. Make sure you understand how the code works.
+**Тест:** Протестуй свій проєкт кілька разів. Переконайся, що ти розумієш, як працює код.
 
-**Tip:** Variables are useful when you need to use the same value multiple times in your code. Giving variables a sensible name also makes your code easier to understand.
+**Порада:** Змінні корисні, коли потрібно використовувати одне й те ж саме значення кілька разів у коді. Надання змінним логічних імен також полегшує розуміння коду.
 
 --- /task ---
 
-Upgrade your dice so that the user can choose the maximum number.
+Вдосконалюй свій кубик так, щоб у користувача була можливість вибрати максимальне число.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-Lots of games use many-sided dice. In the physical world, dice are made from regular geometric shapes. Common dice include D6, D12, and D20. On a computer, you can generate a <span style="color: #0faeb0">random</span> number to make a fair dice with any number of sides.</p>
+У багатьох іграх використовується багатогранний кубик. У реальному світі кубики виготовляються зі звичайних геометричних фігур. Популярні види кубиків - D6, D12 і D20. На комп'ютері, ти можеш згенерувати <span style="color: #0faeb0">випадкове</span> число, щоб зробити чесний кубик з будь-якою кількістю сторін.</p>
 
 --- task ---
 
-The `input()` function asks the user a question and then returns their answer.
+Функція `input()` задає користувачу питання, а потім отримує його відповідь.
 
-Add code to ask the user for the biggest number on their dice and then save the result in a variable called `max` and `print` the number chosen into the output area:
+Додай код, який буде запитувати у користувача найбільше число для його кубика, а потім збереже результат у змінну з іменем `max` та зробить `print` вибраного числа у вихідну область:
 
 --- code ---
 ---
@@ -155,7 +155,7 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 11-12
 ---
 
-# Put function definitions under here
+# Помісти сюди визначення функцій
 
 def roll_dice():   
 print(python, 'can make a', dice)   
@@ -173,9 +173,9 @@ To print an apostrophe `'` in a word like `That's`, put a backslash `\` before i
 
 --- task ---
 
-Change your `roll` variable code to use `max` as the maximum value for `randint` when it generates a random number.
+Зміни код змінної `roll`, щоб використовувати `max` як максимальне значення для `randint` при генерації випадкового числа.
 
-When you get input from the user, Python treats it as text. But, `randint` needs an 'integer' (a positive whole number). The `int` function turns the user input into an integer.
+Коли користувач вводить вхідні дані, Python розглядає їх як текст. Але, `randint` потребує 'ціле' (позитивне ціле число). Функція `int` перетворює введені користувачем дані в ціле число.
 
 --- code ---
 ---
@@ -183,7 +183,7 @@ language: python filename: main.py line_numbers: true line_number_start: 7
 line_highlights: 13
 ---
 
-# Put function definitions under here
+# Помісти сюди визначення функцій
 
 def roll_dice():   
 print(python, 'can make a', dice)   
@@ -199,7 +199,7 @@ print(fire * roll)
 
 --- task ---
 
-**Test:** Run your project. When the program reaches the `input` line, it will wait for you to enter a response before continuing. Try it again with a different `input` number.
+**Тест:** Запусти свій проєкт. Коли програма дійде до рядка `input`, вона буде чекати, поки користувач введе відповідь і потім продовжить роботу. Спробуй ще раз з іншим `вхідним` числом.
 
 --- /task ---
 
