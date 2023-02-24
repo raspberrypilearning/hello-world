@@ -1,4 +1,4 @@
-## You will make
+## Cyflwyniad
 
 Dewch i wybod beth gall iaith raglenni Python ei wneud drwy ysgrifennu prosiect rhyngweithiol sy'n defnyddio emoji.
 
@@ -13,7 +13,7 @@ Byddwch chi'n:
 
 --- no-print ---
 
-### Play ▶️
+### Rhowch gynnig arni
 
 --- task ---
 
