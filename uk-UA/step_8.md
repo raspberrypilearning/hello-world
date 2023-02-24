@@ -1,4 +1,4 @@
-## Challenge: створіть власну групу
+## Що далі?
 
 Якщо ти йдеш по мануалу [Знайомство з Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro), можеш перейти до проєкту [Стрільба по мішені](https://projects.raspberrypi.org/en/projects/target-practice). У цьому проєкті ти намалюєш мішень, а потім зробиш гру, в якій будеш стріляти з лука, щоб набрати бали.
 
