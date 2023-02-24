@@ -7,7 +7,7 @@ Deze functie geeft twee willekeurige getallen:
 
 --- code ---
 ---
-language: python
+taal: python
 ---
 
 def twee_getallen(): print('Eerste getal: ', randint(1, 6)) print('Tweede getal: ', randint(1, 6))
