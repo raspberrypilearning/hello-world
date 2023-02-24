@@ -1,4 +1,4 @@
-## You will make
+## Introducción
 
 Descubre lo que el lenguaje de programación Python puede hacer escribiendo un proyecto interactivo que usa emojis.
 
@@ -13,7 +13,7 @@ Vas a:
 
 --- no-print ---
 
-### Play ▶️
+### Pruébalo
 
 --- task ---
 
