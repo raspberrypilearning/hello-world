@@ -1,28 +1,28 @@
 ---
-title: "Hello \U0001F30D\U0001F30E\U0001F30F"
+title: "Привіт \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
-description: Write an interactive Python project that uses emoji
+description: Створюємо інтерактивний проєкт на Python, який використовує емодзі
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: You will make
+    title: Ти зробиш
   - 
-    title: Say hello
+    title: Скажи "привіт"
   - 
-    title: Sums and dates
+    title: Цифри та дати
     completion:
       - engaged
   - 
-    title: Roll a dice
+    title: Підкинь кубик
   - 
-    title: Sentence starter
+    title: Початок речення
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Швидкий тест
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -31,6 +31,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Вдосконалення твого проєкту
   - 
-    title: What next?
+    title: Що далі?
