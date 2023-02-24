@@ -6,7 +6,7 @@ Find out what the Python programming language can do by writing an interactive p
 <span style="color: #0faeb0">**Emoji**</span> are small colourful images used to add extra meaning to messages. Emoji means 'picture word' in Japanese.
 </p>
 
-You will:
+ನೀವು:
 + `print()` text, including emoji, and get `input()` from the user
 + Store text and numbers in **variables**
 + Use **functions** to organise your code
@@ -35,7 +35,7 @@ Type in your answers to the questions. Can you see how your answers are used?
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![ಪೂರ್ಣಗೊಂಡ ಪ್ರಾಜೆಕ್ಟ್](images/showcase_static.png)
 
 --- /print-only ---
 
