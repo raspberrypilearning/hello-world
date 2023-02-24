@@ -1,13 +1,13 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: प्रश्न 3 पैकी 3
 ---
 
 This function outputs two random numbers:
 
 --- code ---
 ---
-language: python
+भाषा: python
 ---
 
 def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
