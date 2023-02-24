@@ -1,28 +1,28 @@
 ---
 title: "Hello \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
-description: Write an interactive Python project that uses emoji
+description: इमोजी का उपयोग करते हुए एक इंटरैक्टिव Python प्रोजेक्ट लिखें
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: You will make
+    title: परिचय
   - 
-    title: Say hello
+    title: hello कहें
   - 
-    title: Sums and dates
+    title: रकम और दिनांक
     completion:
       - engaged
   - 
-    title: Roll a dice
+    title: एक डाईस रोल करें
   - 
-    title: Sentence starter
+    title: सेंटेंस स्टार्टर
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: सोचिए
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -31,6 +31,6 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: प्रोजेक्ट को अपग्रेड करें
   - 
-    title: What next?
+    title: आगे क्या?
