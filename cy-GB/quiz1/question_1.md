@@ -1,28 +1,28 @@
-## Quick quiz
+## Beth nesaf?
 
 Answer the three questions. There are hints to guide you to the correct answer.
 
-When you have answered each question, click on **Check my answer**.
+Amser myfyrio nawr — mae myfyrio'n rhan bwysig o ddysgu oherwydd mae'n helpu i wneud cysylltiadau newydd yn eich ymennydd.
 
-Have fun!
+Atebwch y tri chwestiwn isod i fyfyrio ar yr hyn rydych chi wedi'i ddysgu.
 
 --- question ---
 ---
 legend: Cwestiwn 1 o 3
 ---
 
-This code sets the `world` variable to contain the text '🌍🌎🌏' (the three different world emoji):
+Mwynha!
 
 --- code ---
 ---
 language: python
 ---
 
-world = '🌍🌎🌏'
+Mae'r cod hwn yn gosod y newidyn `byd` i gynnwys y testun '🌍🌎🌏' (y tri emoji byd gwahanol):
 
 --- /code ---
 
-Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
+byd = '🌍🌎🌏'
 
 ![The output area from the Trinket editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
 
