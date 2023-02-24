@@ -1,9 +1,9 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: ३ का प्रश्न ३
 ---
 
-This function outputs two random numbers:
+यह फंक्शन दो यादृच्छिक संख्याओं का आउटपुट देता है:
 
 --- code ---
 ---
@@ -14,9 +14,9 @@ def two_dice(): print('First number:', randint(1, 6)) print('Second number:', ra
 
 --- /code ---
 
-Which code will call the function to run it?
+इसे चलाने के लिए कौन सा कोड फंक्शन को कॉल करेगा?
 
-![The Trinket editor with output area showing two randomly generated numbers.](images/quiz3.png)
+![आउटपुट क्षेत्र के साथ Trinket संपादक दो निरुद्देश्यता से जनरेट की गई संख्याएँ दिखाता है।](images/quiz3.png)
 
 --- choices ---
 
@@ -33,7 +33,7 @@ def two_dice(): print('First number:', randint(1, 6)) print('Second number:', ra
 
  --- feedback ---
 
- No, this is the code to define the function, but it does not run the function. You'll need to use different code to call it.
+ नहीं, यह कोड फ़ंक्शन को परिभाषित करने के लिए है, लेकिन यह फ़ंक्शन नहीं चलाता है। आपको इसे कॉल करने के लिए अलग कोड का उपयोग करना होगा।
 
  --- /feedback ---
 
@@ -48,7 +48,7 @@ two_dice
 
  --- feedback ---
 
-Close! `two_dice` is the name of the function, but to call it you need more than just the name.
+बंद करें! `two_dice` फ़ंक्शन का नाम है, लेकिन इसे कॉल करने के लिए आपको केवल नाम से अधिक की आवश्यकता है।
 
  --- /feedback ---
 
@@ -65,7 +65,7 @@ two_dice[]
 
  --- feedback ---
 
- Not quite, think about they type of brackets you used to call the functions in your project.
+ बिल्कुल नहीं, उनके बारे में सोचें कि आपने अपने प्रोजेक्ट के फ़ंक्शन को कॉल करने के लिए किस प्रकार के कोष्ठक का उपयोग किया था।
 
  --- /feedback ---
 
@@ -82,7 +82,7 @@ two_dice()
 
  --- feedback ---
 
- That's correct, using the function name followed by `(` `)` brackets will call the function.
+ यह सही है, फ़ंक्शन नाम का उपयोग करने के बाद `(` `)` कोष्ठक फ़ंक्शन को कॉल करेगा।
 
  --- /feedback ---
 
