@@ -29,12 +29,9 @@ Click on the <strong>Run</strong> button and read the output.
   When you are asked, type in a number and tap <kbd>Enter</kbd>. 
 
 Can you see how your answers are used?
-</div>
-<div class="trinket">
-  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/hello-world-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
-</div>
+
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/hello-world-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
 
 --- /task ---
 
