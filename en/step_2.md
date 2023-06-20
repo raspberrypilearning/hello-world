@@ -6,20 +6,20 @@ It's traditional to write a program to output 'Hello world!' when you learn a ne
 </div>
 <div>
 
-![The Trinket output area showing the two printed lines of text and emoji.](images/say_hello.png){:width="200px"}
+![The code editor output area showing the two printed lines of text and emoji.](images/say_hello.png){:width="200px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://trinket.io/python/975f35023b){:target="_blank"}. Trinket will open in another browser tab.
+Open the [Hello 🌍🌎🌏 starter project](https://trinket.io/python/975f35023b){:target="_blank"}. The code editor will open in another browser tab.
 
-![The Trinket editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
+![The code editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
 
 --- /task ---
 
-The line `#!/bin/python3` tells Trinket that you are using Python 3 (the latest version). The `import` lines tell Python that you are going to use code you didn't write.
+The line `#!/bin/python3` tells the code editor that you are using Python 3 (the latest version). The `import` lines tell Python that you are going to use code you didn't write.
 
 In Python, `print()` outputs text (words or numbers) to the screen.
 
@@ -62,13 +62,13 @@ The comma `,` is next to the <kbd>M</kbd>.
 
 --- task ---
 
-**Test:** Click on the **Run** button to run your code. In Trinket, the output will appear on the right:
+**Test:** Click on the **Run** button to run your code. In the code editor, the output will appear on the right:
 
 ![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
 
 **Debug:** If you get an error then check your code really carefully. In this example, the single quotes around `Hello` are missing so Python doesn't know it is supposed to be text.
 
-![the Trinket editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 10 in main.py.](images/hello_error.png)
+![the code editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 10 in main.py.](images/hello_error.png)
 
 --- /task ---
 
@@ -78,16 +78,14 @@ We have included some variables that store emoji characters.
 
 --- task ---
 
-In your Trinket, click on the **emoji.py** tab. Find the variable `world`, which stores the text '🌍🌍🌍'. 
+In your code editor, scroll to the lines with the emojis stored into two different variables. Find the variable `world`, which stores the text '🌍🌍🌍'. 
 
 --- /task --- 
 
 --- task ---
 
 You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` will add a space between each item.
-
-Click on the **main.py** tab to go back to your `print()` code. 
-
+ 
 Change your code to also `print()` the contents of the `world` variable:
 
 --- code ---
@@ -120,7 +118,7 @@ Emoji can look different on different computers, so yours might not look exactly
 
 This example is missing the comma `,`. It's small but very important!
 
-![The Trinket editor with missing single quotes and error 'SyntaxError: bad input on line 12 in main.py' displayed.](images/comma_error.png)
+![The code editor with missing single quotes and error 'SyntaxError: bad input on line 12 in main.py' displayed.](images/comma_error.png)
 
 --- collapse ---
 ---
@@ -182,8 +180,8 @@ print('Welcome to', python)
 
 --- /task ---
 
-If you have a Trinket account, you can click on the **Remix** button to save a copy to your `My Trinkets` library.
+On your code editor, you can click on the **Save** button to save a copy of your project to your library.
 
-If you don't have a Trinket account, you can still come back to your project in the future on the same computer by using the starter project link.
+You can still come back to your project in the future on the same computer by using the starter project link.
 
 --- save ---
