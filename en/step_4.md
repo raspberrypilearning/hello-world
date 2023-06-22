@@ -33,8 +33,8 @@ line_highlights: 9-12
 #Put function definitions under here
 
 def roll_dice(): #Don't forget the colon at the end of this line   
-  print(python, 'can make a', dice)   
-  print('You rolled a', randint(1, 6))    
+  max = input('How many sides for a 🎲?: ')   
+  print('Rolling a', max, 'sided dice ...')   
 
 --- /code ---
 
@@ -89,7 +89,7 @@ roll_dice() #Call the roll dice function
 
 **Debug:** Check that the lines under `def roll_dice()` are indented. It's really common to get this wrong in Python, so make sure to check.
 
-![The Trinket editor showing the lines of code for the `roll_dice` function have not been indented. The code has been run and is highlighted on line 10, the first line that should be indented, with the error 'SyntaxError: bad input on line 10 in main.py'.](images/indent_error.png)
+![The code editor showing the lines of code for the `roll_dice` function have not been indented. The code has been run and is highlighted on line 10, the first line that should be indented, with the error 'SyntaxError: bad input on line 10 in main.py'.](images/indent_error.png)
 
 --- /task ---
 
