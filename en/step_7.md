@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add more to your project. There are more emoji to choose from.
+Add more to your project. There are more emojis to choose from.
   </div>
 <div>
 
@@ -17,7 +17,7 @@ You could:
 + Write more functions to organise your code
 + Use `#` to add comments to your code
 
-Click on **emoji.py** to see the emoji variables that you can use. Click back on **main.py** to add to your code.
+Scroll to the **emoji** section in the code editor to see the emojis and example variables that you can use. Copy the ones you choose to save to a variable or add to your code.
 
 Here's an example function that asks about hobbies:
 
@@ -59,7 +59,7 @@ hobbies()
 title: Completed project
 ---
 
-You can view the [completed project here](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}.
+You can view the [completed project here](https://editor.raspberrypi.org/en/projects/hello-world-solution){:target="_blank"}.
 
 --- /collapse ---
 

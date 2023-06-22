@@ -41,7 +41,7 @@ The <span style="color: #0faeb0">yellow heart emoji</span> is often used to show
 
 What message would you send to a friend to cheer them up? Which emoji would you choose?
 
-Scroll to the **emoji** section in the code editor to see the emoji variables that you can use. Copy the ones you choose to add to your code.
+Scroll to the **emoji** section in the code editor to see the emojis and example variables that you can use. Copy the ones you choose to save to a variable or add to your code.
 
 You can add more emojis to the **emoji** section. Use this [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} to find the ones you want. 
 
