@@ -69,13 +69,13 @@ You can also use brackets if you want to control the order that Python calculate
 
 --- task ---
 
-If you have asked Python to calculate a really big sum, you might find the answer goes across multiple lines in the output area. 
+On the code editor, you might find the text too big or too small to read. You can easily change these settings to suit your preference. 
 
-**Tip:** Click on the **hamburger menu** (the icon with three lines) in the top-left of your Trinket editor. Then click on the **Fullscreen** button to view your project in fullscreen mode. 
+**Tip:** Click on the **Settings menu** (the icon next to the Save button) in the top-right of your code editor. Then click on any of the **Text Size** buttons to change the sise of the text. 
 
-![The Trinket editor with left-hand side menu expanded, via the hamburger menu, to show the fullscreen option.](images/full_screen.png)
+![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png)
 
-To exit fullscreen mode, click on the **Fullscreen** button again or press <kbd>Esc</kbd> on your keyboard.
+You can also switch between colour modes, click on the **Light & Dark** buttons to see the changes.
 
 --- /task ---
 
