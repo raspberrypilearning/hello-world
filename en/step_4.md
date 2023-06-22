@@ -34,13 +34,13 @@ line_highlights: 9-12
 
 def roll_dice(): #Don't forget the colon at the end of this line   
   max = input('How many sides for a 🎲?: ')   
-  print('Rolling a', max, 'sided dice ...')   
+  print('Rolling a', max, 'sided dice ...')
 
 --- /code ---
 
 The lines under `def roll_dice():` are **indented**. To do this, use the <kbd>Tab</kbd> character on your keyboard (usually above <kbd>CAPSLOCK</kbd> on the keyboard). Indenting code tells Python that the indented lines are part of the function.
 
-**Tip:** The underscore `_` is used to between words in variable and function names in Python to make them easier to read. You can't use a space. 
+**Tip:** The underscore `_` is used between words in variable and function names in Python to make them easier to read. You can't use a space. 
 
 --- collapse ---
 ---
@@ -99,20 +99,20 @@ Uses of random numbers include cryptography, data science, and adding variety in
 
 --- task ---
 
-The `fire` variable stores a 🔥 emoji. The code `print(fire * 3)` outputs three fire emoji '🔥🔥🔥'. You need to output the correct number of emoji to match the number rolled. 
+The function created uses a 🔥 emoji. The code `print(🔥 * 3)` outputs three fire emoji '🔥🔥🔥'. You need to output the correct number of emoji to match the number of sides the user inputs for the dice. 
 
 --- collapse ---
 ---
-title: What would happen if you use `print(fire * randint(1, 6))`? 
+title: What would happen if you use `print(🔥 * randint(1, 6))`? 
 ---
 
-You would get a new random number that is usually different from your first random number. 
+You would get a new random number that is usually different from your user input saved in the variable called `max`. 
 
 --- /collapse ---
 
 Hmm, how can you make sure you use the same random number?
 
-Change your code to save the value returned by `randint()` in a variable called `roll` and then use that variable to print out the number rolled with the matching number of 🔥 emoji.
+Change your code to save the value returned by `randint()` in a variable called `roll`. You will also set a range using the `max` variable created earlier. Use that variable to print out the number rolled with the matching number of 🔥 emoji.
  
 --- code ---
 ---
@@ -126,10 +126,10 @@ line_highlights: 11 - 13
 #Put function definitions under here
 
 def roll_dice():    
-  print(python, 'can make a', dice)    
-  roll = randint(1, 6) #Generate a random number between 1 and 6    
-  print('You rolled a', roll) #Print the value of the roll variable     
-  print(fire * roll) #Repeat the fire emoji to match the dice roll    
+  max = input('How many sides for a 🎲?: ') # Wait for input from the user  
+  print('Rolling a', max, 'sided dice ...') # Use the number the user entered    
+  roll = randint(1, int(max)) # Generate a random number between 1 and 6   
+  print(roll, '🔥' * roll) # Repeat the fire emoji to match the dice roll   
 
 --- /code ---
 
