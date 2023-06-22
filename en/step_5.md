@@ -41,9 +41,9 @@ The <span style="color: #0faeb0">yellow heart emoji</span> is often used to show
 
 What message would you send to a friend to cheer them up? Which emoji would you choose?
 
-Click on the **emoji.py** tab in Trinket to see the emoji variables that you can use. Click back on the **main.py** tab to add to your code.
+Scroll to the **emoji** section in the code editor to see the emoji variables that you can use. Copy the ones you choose to add to your code.
 
-You can add more emoji variables to **emoji.py**. Use this [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} to find the ones you want. 
+You can add more emojis to the **emoji** section. Use this [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} to find the ones you want. 
 
 --- /task ---
 
