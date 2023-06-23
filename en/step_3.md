@@ -71,7 +71,7 @@ You can also use brackets if you want to control the order that Python calculate
 
 On the code editor, you might find the text too big or too small to read. You can easily change these settings to suit your preference. 
 
-**Tip:** Click on the **Settings menu** (the icon next to the Save button) in the top-right of your code editor. Then click on any of the **Text Size** buttons to change the sise of the text. 
+**Tip:** Click on the **Settings menu** (the icon next to the Save button) in the top-right of your code editor. Then click on any of the **Text Size** buttons to change the size of the text. 
 
 ![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png)
 
