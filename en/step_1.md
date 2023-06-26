@@ -39,6 +39,6 @@ Can you see how your answers are used?
 
 --- print-only ---
 
-![Completed project](images/showcase_static.png)
+![Completed project showing example code on the code editor](images/showcase_static.png)
 
 --- /print-only ---
