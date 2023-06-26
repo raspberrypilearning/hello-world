@@ -4,7 +4,7 @@ If you are following the [Introduction to Python](https://projects.raspberrypi.o
 
 --- print-only ---
 
-![Archery project](images/archery-project.png)
+![Example result of the target practice project showing an Archery board](images/archery-project.png)
 
 --- /print-only ---
 
