@@ -45,3 +45,4 @@ Can you see how your answers are used?
 ![Completed project showing example code on the code editor](images/showcase_static.png){:width="640px"}
 
 --- /print-only ---
+![](http://code.org/api/hour/begin_codeclub_hworld.png)
