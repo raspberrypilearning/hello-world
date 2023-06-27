@@ -6,18 +6,24 @@ Add more to your project. There are more emojis to choose from.
   </div>
 <div>
 
-![A longer project in the output area with more text, emoji, and inputs.](images/upgrade_ideas.png){:width="300px"}
+![A longer project in the output area with more text, emoji, and inputs.](images/upgrade_ideas.png){:width="300px"} #TODO
 
 </div>
 </div>
 
 You could:
-+ Use `print` with different text and emoji
++ Use `print` with different text and emojis
 + Use `input` to get values from the user and store them as variables, then do sums with the variables
 + Write more functions to organise your code
 + Use `#` to add comments to your code
 
-Scroll to the **emoji** section in the code editor to see the emojis and example variables that you can use. Copy the ones you choose to save to a variable or add to your code.
+Scroll to the **emoji** section in the code editor to see the emojis and example variables that you can use. Copy the ones you choose and save them to a variable or add them directly to your code.
+
+**Tip:** To add emojis, find the comment # Emojis to copy and paste into your code. Copy the emojis you want to use then paste them into your code.
+
+📅🕒🎨🎮🔬🎉🕶️🎲🦄🚀💯⭐💛 😃😜❤️📚⚽🎾👟♻️🌳🔥✨🥺🌈
+
+[[[choose-an-emoji]]]
 
 Here's an example function that asks about hobbies:
 
@@ -27,11 +33,11 @@ language: python
 filename: main.py
 ---
 
-#Put code to run under here    
+# Put code to run under here    
 def hobbies():   
   hobby = input('What do you like?')   
-  print('That sounds', fun)   
-  print('You could make a', python, 'project about', hobby)   
+  print('That sounds', fun)   # You will need to create an emoji variable called 'fun'
+  print('You could make a', python, 'project about', hobby) 
 
 --- /code ---
 
@@ -47,12 +53,11 @@ filename: main.py
 
 roll_dice()
 
-input() #Wait for the user to tap Enter
+input() # Wait for the user to tap Enter
 
-hobbies()
+hobbies() # Calls the hobbies function
 
 --- /code ---
-
 
 --- collapse ---
 ---
