@@ -24,7 +24,7 @@ world = '🌍🌎🌏'
 
 Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
 
-![The output area from the code editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
+![The output area from the Trinket editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
 
 --- choices ---
 

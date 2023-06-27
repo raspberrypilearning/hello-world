@@ -6,7 +6,7 @@ Python is great at working with numbers and dates.
 </div>
 <div>
 
-![The text output area with five printed lines showing new sum and current date outputs.](images/sums_dates.png){:width="300px"} #TODO
+![The output area with five printed lines showing new sum and current date outputs.](images/sums_dates.png){:width="300px"}
 
 </div>
 </div>
@@ -19,48 +19,31 @@ In Python you can use maths operators to do sums:
 | / | divide |   
 | ** | to the power |   
 
-### Create a calculation
-
 --- task ---
 
 Add another two `print()` lines to your code including a sum for Python to work out:
-
-**Tip:** To get a `*` symbol press <kbd>Shift</kbd> and <kbd>8</kbd> at the same time.
 
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 18
-line_highlights: 20-21
+line_number_start: 12
+line_highlights: 14-15
 ---
 
 print('Hello', world)   
 print('Welcome to', python)   
-print(python, 'is very good at maths!')   
-print(230 * 5782 ** 2 / 23781) # Print the result of the sum
+print(python, 'is very good at', sums)   
+print(230 * 5782 ** 2 / 23781)   
 
 --- /code ---
-
-**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the code before the `#`.
 
 --- /task ---
 
 --- task ---
 
 **Test:** Run your code. Did Python calculate the sum correctly? Only joking! Python does the hard maths for you so you don't need to work it out.
-
-**Debug:**
-
---- collapse ---
----
-title: I have a syntax error
----
-
-Make sure that you have added a comma `,` between the items in `print()` and that you have spelled `python` correctly.
-
---- /collapse ---
 
 --- /task ---
 
@@ -80,19 +63,19 @@ You can also use brackets if you want to control the order that Python calculate
 
 **Test:** Run your code and get Python to calculate your sum.
 
-**Debug:** Make sure your sum has a left and right round bracket around it `( 2 * 45 )`. If you use extra brackets to control the order, make sure you have a right bracket to match every left bracket.
+**Debug:** Make sure your sum has a left and right round bracket around it `( 2 * 45 )`. If you use extra brackets to control the order, make you have a right bracket to match every left bracket.
 
 --- /task ---
 
 --- task ---
 
-On the code editor, you might find the text too big or too small to read. You can easily change these settings to suit your preference. 
+If you have asked Python to calculate a really big sum, you might find the answer goes across multiple lines in the output area. 
 
-**Tip:** Click on the **Settings menu** (the icon next to the Save button) in the top-right of your code editor. Then click on any of the **Text Size** buttons to change the size of the text. 
+**Tip:** Click on the **hamburger menu** (the icon with three lines) in the top-left of your Trinket editor. Then click on the **Fullscreen** button to view your project in fullscreen mode. 
 
-![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png) #TODO
+![The Trinket editor with left-hand side menu expanded, via the hamburger menu, to show the fullscreen option.](images/full_screen.png)
 
-You can also switch between colour modes, click on the **Light & Dark** buttons to see the changes.
+To exit fullscreen mode, click on the **Fullscreen** button again or press <kbd>Esc</kbd> on your keyboard.
 
 --- /task ---
 
@@ -104,7 +87,7 @@ One of the great things about Python is all the <span style="color: #0faeb0">**l
 
 --- task ---
 
-Add another line to your code to `print` the current date and time.
+Add another line to your code to `print` some more text and the emoji variables `calendar` and `clock`.
 
 Get the current date and time by using the `now()` function from the `datetime` library:
 
@@ -113,13 +96,13 @@ Get the current date and time by using the `now()` function from the `datetime` 
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 20
-line_highlights: 21-22
+line_number_start: 14
+line_highlights: 16-17
 ---
 
-print(python, 'is very good at maths!')    
-print(230 * 5782 ** 2 / 23781) # Print the result of the sum     
-print('The date and time is', datetime.now()) # Print the current date and time
+print(python, 'is very good at', sums)    
+print(230 * 5782 ** 2 / 23781) #Print the result of the sum     
+print('The', calendar, clock, 'is', datetime.now()) #Print with emoji    
  
 --- /code ---
 
@@ -129,7 +112,7 @@ print('The date and time is', datetime.now()) # Print the current date and time
 
 --- task ---
 
-**Test:** Run your code a couple of times to see the time update.
+**Test:** Run your code a couple of times to see the date and time update.
 
 **Debug:** Check that you have a fullstop `.` between `datetime` and `now`. Check all the punctuation carefully.
 
