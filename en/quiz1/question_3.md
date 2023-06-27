@@ -18,7 +18,7 @@ def two_dice():
 
 Which code will call the function to run it?
 
-![The code editor with output area showing two randomly generated numbers.](images/quiz3.png)
+![The Trinket editor with output area showing two randomly generated numbers.](images/quiz3.png)
 
 --- choices ---
 

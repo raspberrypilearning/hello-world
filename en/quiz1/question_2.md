@@ -6,7 +6,7 @@ legend: Question 2 of 3
 
 Which of these function definitions is correct and will print `I can code` when called? 
 
-![The code editor with output area showing `I can code`.](images/quiz2.png)
+![The Trinket editor with output area showing `I can code`.](images/quiz2.png)
 
 --- choices ---
 
