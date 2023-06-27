@@ -6,7 +6,7 @@ It's traditional to write a program to output 'Hello world!' when you learn a ne
 </div>
 <div>
 
-![The code editor output area showing the two printed lines of text and emoji.](images/say_hello.png){:width="200px"}
+![The code editor output area showing the two printed lines of text and emojis.](images/say_hello.png){:width="200px"}
 
 </div>
 </div>
