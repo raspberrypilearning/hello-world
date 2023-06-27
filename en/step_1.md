@@ -7,7 +7,7 @@
 Find out what the Python 🐍 programming language can do by writing an interactive project that uses emojis 😃.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Emoji**</span> are small colourful images 🥰 used to add extra meaning to messages. Emoji means 'picture word' in Japanese.
+<span style="color: #0faeb0">**Emojis**</span> are small colourful images 🥰 used to add extra meaning to messages. Emoji means 'picture word' in Japanese.
 </p>
 
 You will:
@@ -24,7 +24,8 @@ You will:
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
-Click on the <strong>Run</strong> button and read the output.
+
+Click on the **Run** button and read the output.
 
   When you are asked, type in a number and tap <kbd>Enter</kbd>. 
 
@@ -32,6 +33,8 @@ Can you see how your answers are used?
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/hello-world-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
+</div>
+</div>
 
 --- /task ---
 
@@ -39,6 +42,7 @@ Can you see how your answers are used?
 
 --- print-only ---
 
-![Completed project showing example code on the code editor](images/showcase_static.png)
+![Completed project showing example code on the code editor](images/showcase_static.png){:width="640px"}
+
 
 --- /print-only ---
