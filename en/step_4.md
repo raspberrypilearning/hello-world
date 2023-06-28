@@ -12,7 +12,7 @@ In Python:
 </div>
 <div>
 
-![The text output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll_dice.png){:width="300px"} #TODO
+![The text output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll_dice.png){:width="300px"} 
 
 </div>
 </div>
@@ -77,7 +77,7 @@ title: I have a syntax error
 
 - Check that the line under `def roll_dice()` is indented. It's really common to get this wrong in Python, so make sure to check.
 
-![The code editor showing the line of code inside the `roll_dice` function has not been indented. The line of code with the error is highlighted. The code has been run, with the error 'SyntaxError: bad input on line 16 in main.py'.](images/indent_error.png) #TODO
+![The code editor showing the line of code inside the `roll_dice` function has not been indented. The line of code with the error is highlighted. The code has been run, with the error 'SyntaxError: bad input on line 17 in main.py'.](images/indent_error.png)
 
 --- /collapse ---
 

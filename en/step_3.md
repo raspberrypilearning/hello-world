@@ -6,7 +6,7 @@ Python is great at working with numbers and dates.
 </div>
 <div>
 
-![The text output area with five printed lines showing new sum and current date outputs.](images/sums_dates.png){:width="300px"} #TODO
+![The text output area with five printed lines showing new sum and current date outputs.](images/sums_dates.png){:width="300px"} 
 
 </div>
 </div>
@@ -90,7 +90,7 @@ On the code editor, you might find the text too big or too small to read. You ca
 
 **Tip:** Click on the **Settings menu** (the icon next to the Save button) in the top-right of your code editor. Then click on any of the **Text Size** buttons to change the size of the text. 
 
-![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png) #TODO
+![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png)
 
 You can also switch between colour modes, click on the **Light & Dark** buttons to see the changes.
 

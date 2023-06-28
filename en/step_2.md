@@ -94,11 +94,11 @@ The comma `,` is next to the <kbd>M</kbd>.
 
 **Test:** Click on the **Run** button to run your code. In the code editor, the output will appear on the right:
 
-![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png) #TODO
+![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png) 
 
 **Debug:** If you get an error then check your code really carefully. In this example, the single quotes around `Hello` are missing so Python doesn't know it is supposed to be text.
 
-![The Code Editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 18 in main.py.](images/hello_error.png) #TODO
+![The Code Editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 18 in main.py.](images/hello_error.png) 
 
 --- /task ---
 
@@ -150,7 +150,7 @@ print('Hello', world)
 
 This example is missing the comma `,`. It's small but very important!
 
-![The code editor with missing single quotes and error 'SyntaxError: bad input on line 18 in main.py' displayed.](images/comma_error.png) #TODO
+![The code editor with missing single quotes and error 'SyntaxError: bad input on line 18 in main.py' displayed.](images/comma_error.png) 
 
 --- /task ---
 

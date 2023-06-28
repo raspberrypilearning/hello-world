@@ -6,7 +6,7 @@ Output more sentences from your project.
 </div>
 <div>
 
-![Some new print lines in the code editor output area with emoji and text sentences.](images/sentence_starter.png){:width="300px"} #TODO
+![Some new print lines in the code editor output area with emoji and text sentences.](images/sentence_starter.png){:width="300px"} 
 
 </div>
 </div>
