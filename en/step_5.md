@@ -24,7 +24,7 @@ line_number_start: 29
 line_highlights: 30-32
 ---
 
-roll_dice() # Call the roll dice function
+roll_dice()  # Call the roll dice function
 print('I ❤️ ...')   
 print('... makes me 😃')   
 print('I\'d like to make ... with', python)   

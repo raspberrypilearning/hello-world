@@ -35,9 +35,9 @@ filename: main.py
 
 # Put code to run under here    
 def hobbies():   
-  hobby = input('What do you like?')   
-  print('That sounds', fun)   # You will need to create an emoji variable called 'fun'
-  print('You could make a', python, 'project about', hobby) 
+    hobby = input('What do you like?')   
+    print('That sounds', fun)  # You will need to create an emoji variable called 'fun'
+    print('You could make a', python, 'project about', hobby) 
 
 --- /code ---
 
@@ -53,9 +53,9 @@ filename: main.py
 
 roll_dice()
 
-input() # Wait for the user to tap Enter
+input()  # Wait for the user to tap Enter
 
-hobbies() # Calls the hobbies function
+hobbies()  # Calls the hobbies function
 
 --- /code ---
 

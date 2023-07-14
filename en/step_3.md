@@ -39,7 +39,7 @@ line_highlights: 20-21
 print('Hello', world)   
 print('Welcome to', python)   
 print(python, 'is very good at maths!')   
-print(230 * 5782 ** 2 / 23781) # Print the result of the sum
+print(230 * 5782 ** 2 / 23781)  # Print the result of the sum
 
 --- /code ---
 
@@ -118,8 +118,8 @@ line_highlights: 21-22
 ---
 
 print(python, 'is very good at maths!')    
-print(230 * 5782 ** 2 / 23781) # Print the result of the sum     
-print('The date and time is', datetime.now()) # Print the current date and time
+print(230 * 5782 ** 2 / 23781)  # Print the result of the sum     
+print('The date and time is', datetime.now())  # Print the current date and time
  
 --- /code ---
 

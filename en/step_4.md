@@ -39,8 +39,8 @@ line_highlights: 16-17
 ---
 
 # Function definitions
-def roll_dice(): # Don't forget the colon at the end of this line   
-    print('You rolled a', randint(1, 6)) # randint(1, 6) is used to give a number between 1 and 6.
+def roll_dice():  # Don't forget the colon at the end of this line   
+    print('You rolled a', randint(1, 6))  # randint(1, 6) is used to give a number between 1 and 6.
 
 --- /code ---
 
@@ -100,7 +100,7 @@ line_highlights: 27
 
 print('The date and time is', datetime.now())
 
-roll_dice() # Call the roll dice function
+roll_dice()  # Call the roll dice function
 
 --- /code ---
 
@@ -135,8 +135,8 @@ line_highlights: 17-18
 
 # Function definitions
 def roll_dice():
-    roll = randint(1, 6) # Generate a random number between 1 and 6 and store it in the variable 'roll'
-    print('You rolled a', roll, fire * roll) # Repeat the fire emoji to match the random dice roll
+    roll = randint(1, 6)  # Generate a random number between 1 and 6 and store it in the variable 'roll'
+    print('You rolled a', roll, fire * roll)  # Repeat the fire emoji to match the random dice roll
 
 --- /code ---
 
@@ -179,10 +179,10 @@ line_highlights: 18-20
 # Function definitions
 
 def roll_dice():   
-  max = input('How many sides?:') # Wait for input from the user    
-  print('That\'s a D', max) # Use the number the user entered    
-  roll = randint(1, int(max)) # Use max to determine the number of sides the dice has
-  print('You rolled a', roll, fire * roll)   
+    max = input('How many sides?:')  # Wait for input from the user    
+    print('That\'s a D', max)  # Use the number the user entered    
+    roll = randint(1, int(max))  # Use max to determine the number of sides the dice has
+    print('You rolled a', roll, fire * roll)   
 
 --- /code ---
 
