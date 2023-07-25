@@ -114,7 +114,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 20
-line_highlights: 21-22
+line_highlights: 22
 ---
 
 print(python, 'is very good at maths!')    
