@@ -6,7 +6,7 @@ Python es excelente para trabajar con números y fechas.
 </div>
 <div>
 
-![El área de salida con cinco líneas impresas mostrando las nuevas salidas de cálculo y fecha actual.](images/sums_dates.png){:width="300px"}
+![El área de salida con cinco líneas impresas mostrando las nuevas salidas de cálculo y fecha actual.](images/sums_dates.png){:width="300px"} 
 
 </div>
 </div>
@@ -19,13 +19,17 @@ En Python, puedes usar operadores matemáticos para hacer cálculos:
 | / | división |   
 | ** | potencia |
 
+### Create a calculation
+
 --- task ---
 
 Añade otras dos líneas de `print()` a tu código, incluyendo un cálculo para que Python lo resuelva:
 
+**Tip:** To get a `*` symbol press <kbd>Shift</kbd> and <kbd>8</kbd> at the same time.
+
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 12
+language: python filename: main.py line_numbers: true line_number_start: 14
 line_highlights: 14-15
 ---
 
@@ -36,11 +40,24 @@ print(230 * 5782 ** 2 / 23781)
 
 --- /code ---
 
+**Tip:** No necesitas tipear los comentarios, solo están ahí para ayudarte a entender el código. Solo tipea la parte antes de `#`.
+
 --- /task ---
 
 --- task ---
 
-**Prueba:** Ejecuta tu código. ¿Python lo calculó correctamente? ¡Solo bromeo! Python se encarga de los cálculos difíciles, así que no necesitas resolverlos.
+**Test:** Ejecuta tu código. ¿Python lo calculó correctamente? ¡Solo bromeo! Only joking! Python se encarga de los cálculos difíciles, así que no necesitas resolverlos.
+
+**Debug:**
+
+--- collapse ---
+---
+title: I have a syntax error
+---
+
+Make sure that you have added a comma `,` between the items in `print()` and that you have spelled `python` correctly.
+
+--- /collapse ---
 
 --- /task ---
 
@@ -58,21 +75,21 @@ También puedes usar paréntesis si quieres controlar el orden en el que Python 
 
 --- task ---
 
-**Prueba:** Ejecuta tu código y deja que Python calcule tu ecuación.
+**Test:** Ejecuta tu código y deja que Python calcule tu ecuación.
 
-**Debug:** Asegúrate de que tu ecuación tenga los paréntesis de apertura y de cierre a los costados `( 2 * 45 )`. Si usas paréntesis extra para controlar el orden, asegúrate de tener un paréntesis de cierre por cada paréntesis de apertura.
+**Debug:** Asegúrate de que tu ecuación tenga los paréntesis de apertura y de cierre a los costados `( 2* 45 )`. Si usas paréntesis extra para controlar el orden, asegúrate de tener un paréntesis de cierre por cada paréntesis de apertura.
 
 --- /task ---
 
 --- task ---
 
-Si le has pedido a Python que calcule una suma realmente grande, verás que la respuesta se mostrará en varias líneas en el área de salida.
+On the code editor, you might find the text too big or too small to read. You can easily change these settings to suit your preference.
 
 **Tip:** Haz clic en **hamburger menu** (el ícono con tres líneas) al lado superior izquierdo del editor Trinket. Luego haz clic en el botón **Fullscreen** para ver tu proyecto en modo de pantalla completa.
 
-![El editor Trinket con el menú expandido al lado izquierdo, via el hamburger menu, para mostrar la opción de pantalla completa.](images/full_screen.png)
+![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png)
 
-Para salir de la pantalla completa, vuelve a hacer clic en el botón **Fullscreen** o presiona <kbd>Esc</kbd> en tu teclado.
+You can also switch between colour modes, click on the **Light & Dark** buttons to see the changes.
 
 --- /task ---
 
@@ -90,7 +107,7 @@ Obten la fecha y hora actual usando la función `now()` de la biblioteca `dateti
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 14
+language: python filename: main.py line_numbers: true line_number_start: 12
 line_highlights: 16-17
 ---
 
@@ -100,7 +117,7 @@ print('La', calendar, clock, 'es', datetime.now()) #Imprimir con emoji
 
 --- /code ---
 
-**Tip:** No necesitas tipear los comentarios, solo están ahí para ayudarte a entender el código. Solo tipea la parte antes de `#`.
+**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
 
 --- /task ---
 
