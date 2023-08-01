@@ -6,7 +6,7 @@ Mae Python yn hen law ar weithio gyda rhifau a dyddiadau.
 </div>
 <div>
 
-![Yr ardal allbwn gyda phum llinell wedi'u printio yn dangos allbynnau symiau newydd a'r dyddiad cyfredol.](images/sums_dates.png){:width="300px"}
+![Yr ardal allbwn gyda phum llinell wedi'u printio yn dangos allbynnau symiau newydd a'r dyddiad cyfredol.](images/sums_dates.png){:width="300px"} 
 
 </div>
 </div>
@@ -19,96 +19,114 @@ Yn Python, fe allwch chi ddefnyddio gweithredwyr mathemateg i wneud symiau:
 | / | rhannu |   
 | ** | i bŵer |
 
+### Create a calculation
+
 --- task ---
 
 Ychwanegwch ddwy linell `print()` arall at eich cod, gan gynnwys sym i Python ei gwneud:
 
+**Tip:** To get a `*` symbol press <kbd>Shift</kbd> and <kbd>8</kbd> at the same time.
+
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 12
-line_highlights: 14-15
----
-
 print('Helo', byd)   
 print('Croeso i', python)   
 print('mae', python, 'yn hen law ar', symiau)   
 print(230 * 5782 ** 2 / 23781)
+line_highlights: 14-15
+---
+
+print('Hello', world)   
+print('Welcome to', python)   
+print(python, 'is very good at maths!')   
+print(230 * 5782 ** 2 / 23781)  # Print the result of the sum
 
 --- /code ---
 
+**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the code before the `#`.
+
 --- /task ---
 
 --- task ---
 
-**Profi:** Rhedwch eich cod. Ydy Python wedi gwneud y sym yn gywir? Jôc! Mae Python yn gwneud y mathemateg anodd i chi felly does dim rhaid i chi ei gwneud.
+**Test:** Run your code. Did Python calculate the sum correctly? Only joking! Python does the hard maths for you so you don't need to work it out.
 
---- /task ---
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Fe wnaeth <span style="color: #0faeb0">**Emma Haruka Iwao**</span>, cyfrifiadurwr o Japan, ddefnyddio cyfrifiadur i gyfrifo gwerth Pi (*π*) i 31 triliwn digid. Mae'r ateb mor hir, byddai'n cymryd dros 300,000 o flynyddoedd i'w ddweud! 
-</p>
-
---- task ---
+**Debug:**
 
 Rhowch gynnig ar newid y sym er mwyn i Python wneud un cymhleth!
-
-Fe allwch chi hefyd ddefnyddio cromfachau os hoffech chi reoli ym mha drefn mae Python yn gwneud y sym: `print( (2 + 4) * (5 + 3) )`.
-
---- /task ---
-
---- task ---
-
-**Profi:** Rhedwch eich cod i wneud i Python gyfrifo eich sym.
-
-**Difa chwilod:** Gwnewch yn siŵr bod cromfach chwith a dde o amgylch eich sym `( 2 * 45 )`. Os ydych chi'n defnyddio cromfachau ychwanegol i reoli'r drefn, cofiwch fod angen cromfach dde i gyfateb i bob cromfach chwith.
-
---- /task ---
-
---- task ---
-
-Os ydych chi wedi gofyn i Python gyfrifo sym enfawr, efallai fe welwch chi fod yr ateb yn mynd ar draws mwy nag un llinell yn yr ardal allbwn.
-
-**Cyngor:** Cliciwch y **ddewislen byrger** (yr eicon tair llinell) yng nghornel chwith uchaf eich golygydd Trinket. Wedyn cliciwch y botwm **Fullscreen** i weld eich prosiect yn y modd sgrin lawn.
-
-![Y golygydd Trinket gyda'r ddewislen ochr chwith wedi'i hehangu, drwy'r ddewislen byrger, i ddangos yr opsiwn sgrin lawn.](images/full_screen.png)
-
-I adael y modd sgrin lawn, cliciwch y botwm **Fullscreen** eto neu bwyso <kbd>Esc</kbd> ar eich bysellfwrdd.
-
---- /task ---
-
-Mae'r llinell `from datetime import *` ar frig y tab **main.py** yn cynnwys llyfrgell gyda swyddogaethau defnyddiol i gael y dyddiad a'r amser cyfredol.
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Un o'r pethau gwych am Python yw'r holl <span style="color: #0faeb0">**lyfrgellau**</span> cod sydd ar gael. Mae llyfrgell Python yn gadael i chi ddefnyddio cod mae pobl eraill wedi'i ysgrifennu yn hawdd. Mae llyfrgelloedd ar gyfer llunio siartiau a graffiau, gwneud celf, cyfrifiadau, a llawer mwy.
-</p>
-
---- task ---
-
-Ychwanegwch linell arall at eich cod i brintio mwy o destun a'r newidynnau emoji `calendr` a `cloc`.
-
-Fe allwch chi gael y dyddiad a'r amser cyfredol drwy ddefnyddio'r swyddogaeth `nawr()` o'r llyfrgell `datetime`:
-
---- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 14
 line_highlights: 16-17
 ---
 
-print('mae', python, 'yn hen law ar', symiau)    
-print(230 * 5782 ** 2 / 23781) #Printio canlyniad y sym     
-print('Y', calendr, cloc, 'yw', datetime.now()) #Printio gydag emoji
+Fe allwch chi hefyd ddefnyddio cromfachau os hoffech chi reoli ym mha drefn mae Python yn gwneud y sym: `print( (2 + 4) * (5 + 3) )`.
 
---- /code ---
+--- /collapse ---
 
-**Cyngor:** Does dim rhaid i chi deipio'r sylwadau, maen nhw dim ond yno i'ch helpu i ddeall y cod. Dim ond y rhan cyn `#` mae angen i chi ei deipio.
+--- /task ---
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi (*π*) to 31 trillion digits. That answer is so long that it would take over 300,000 years just to say it! 
+</p>
+
+--- task ---
+
+Try changing the sum that Python does to a complicated one!
+
+You can also use brackets if you want to control the order that Python calculates the sum: `print( (2 + 4) * (5 + 3) )`.
 
 --- /task ---
 
 --- task ---
 
+**Test:** Run your code and get Python to calculate your sum.
+
+**Debug:** Make sure your sum has a left and right round bracket around it `( 2 * 45 )`. If you use extra brackets to control the order, make sure you have a right bracket to match every left bracket.
+
+--- /task ---
+
+--- task ---
+
+On the code editor, you might find the text too big or too small to read. You can easily change these settings to suit your preference.
+
+**Tip:** Click on the **Settings menu** (the icon next to the Save button) in the top-right of your code editor. Then click on any of the **Text Size** buttons to change the size of the text.
+
+![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png)
+
+Fe allwch chi gael y dyddiad a'r amser cyfredol drwy ddefnyddio'r swyddogaeth `now()` o'r llyfrgell `datetime`:
+
+--- /task ---
+
+language: python filename: main.py line_numbers: true line_number_start: 14
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. A Python library allows you to easily use code that other people have written. There are libraries for drawing charts and graphs, making art, doing calculations, and lots more.
+</p>
+
+--- task ---
+
+**Cyngor:** Does dim rhaid i chi deipio'r sylwadau, maen nhw dim ond yno i'ch helpu i ddeall y cod. Dim ond y rhan cyn `#` mae angen i chi ei deipio.
+
+Get the current date and time by using the `now()` function from the `datetime` library:
+
+--- code ---
+---
 **Profi:** Rhedwch eich cod cwpl o weithiau i weld y dyddiad a'r amser yn diweddaru.
+line_highlights: 22
+---
 
 **Difa chwilod:** Gwnewch yn siŵr bod atalnod llawn `.` rhwng `datetime` a `now`. Gwiriwch yr holl atalnodi'n ofalus.
+
+--- /code ---
+
+**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
+
+--- /task ---
+
+--- task ---
+
+**Test:** Run your code a couple of times to see the time update.
+
+**Debug:** Check that you have a fullstop `.` between `datetime` and `now`. Check all the punctuation carefully.
 
 --- /task ---
 
