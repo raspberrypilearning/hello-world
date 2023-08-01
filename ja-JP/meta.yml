@@ -2,6 +2,8 @@
 title: "こんにちは \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
 description: 絵文字を使用するインタラクティブなPythonプロジェクトを作成する
+meta_title: Python coding projects for kids and teens | Hello world
+meta_description: Learn Python with the Raspberry Pi Foundation. Make an interactive Python coding project that uses emojis.
 version: 4
 listed: true
 copyedit: true
