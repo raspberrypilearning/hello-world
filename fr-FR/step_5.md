@@ -6,7 +6,7 @@ Sors plus de phrases de ton projet.
 </div>
 <div>
 
-![Quelques nouvelles lignes d'impression dans la zone de sortie avec des emoji et des phrases textuelles.](images/sentence_starter.png){:width="300px"}
+![Quelques nouvelles lignes d'impression dans la zone de sortie avec des emoji et des phrases textuelles.](images/sentence_starter.png){:width="300px"} 
 
 </div>
 </div>
@@ -17,12 +17,12 @@ Ajoute plus de lignes `print` à ton code. Voici quelques débuts de phrases que
 
 --- code ---
 ---
-language: python
-filename: main.py
+language: python filename: main.py line_numbers: true line_number_start: 29
+line_highlights: 30-32
 ---
 
-print('J\'', coeur, '...')   
-print('... me rend', heureux)   
+print('J\'', heart, '...')   
+print('... me rend', happy)   
 print('J\'aimerais faire... avec', python)
 
 --- /code ---
@@ -30,6 +30,8 @@ print('J\'aimerais faire... avec', python)
 **Astuce :** `print` ajoute un espace entre chaque élément que tu imprimes.
 
 **Astuce :** Si tu as besoin d'afficher une apostrophe `'`, tu dois placer une barre oblique inverse `\` devant afin que Python sache qu'elle fait partie du texte.
+
+**Tip:** Add a `#` at the beginning of a line to turn it into a comment.
 
 --- /task ---
 
@@ -41,9 +43,13 @@ L'<span style="color: #0faeb0">emoji cœur jaune</span> est souvent utilisé pou
 
 Quel message voudrais-tu envoyer à un ami pour lui remonter le moral ? Quel emoji choisirais-tu ?
 
-Clique sur l'onglet **emoji.py** dans Trinket pour voir les variables emoji que tu peux utiliser. Clique de nouveau sur l'onglet **main.py** pour ajouter à ton code.
+Clique sur l'onglet **emoji.py** dans Trinket pour voir les variables emoji que tu peux utiliser. Copy the ones you choose and save them to a variable or add them directly to your code.
 
 Tu peux ajouter plus de variables emoji à **emoji.py**. Utilise cette [liste d'emoji](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} pour trouver ceux que tu veux.
+
+📅🕒🎨🎮🔬🎉🕶️🎲🦄🚀💯⭐💛 😃😜❤️📚⚽🎾👟♻️🌳🔥✨🥺🌈
+
+[[[choose-an-emoji]]]
 
 --- /task ---
 
