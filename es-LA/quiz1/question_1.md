@@ -1,8 +1,8 @@
-## Reflexión
+## Examen rapido
 
-Responde las siguientes tres preguntas para reflexionar sobre lo que has aprendido. There are hints to guide you to the correct answer.
+Responde las siguientes tres preguntas para reflexionar sobre lo que has aprendido. Hay pistas para guiarte hacia la respuesta correcta.
 
-Después de cada pregunta, presiona **enviar**. Vamos a guiarte hacia la respuesta correcta.
+Cuando hayas respondido a cada pregunta, haz clic en **Revisar mi respuesta**.
 
 ¡Qué te diviertas!
 
@@ -11,18 +11,18 @@ Después de cada pregunta, presiona **enviar**. Vamos a guiarte hacia la respues
 legend: Pregunta 1 de 3
 ---
 
-¡Qué te diviertas!
+Este código configura la variable `mundo` para que contenga el texto '🌍🌎🌏' (tres diferentes emojis de mundo):
 
 --- code ---
 ---
 language: python
 ---
 
-world = '🌍🌎🌏'
+mundo = '🌍🌎🌏'
 
 --- /code ---
 
-¿Qué código usa correctamente la variable `world` y muestra Hola 🌍🌎🌏?
+¿Qué código usa correctamente la variable `mundo` y muestra Hola 🌍🌎🌏?
 
 ![El área de salida del editor Trinket mostrando Hola 🌍🌎🌏.](images/quiz1.png)
 
@@ -35,7 +35,7 @@ world = '🌍🌎🌏'
 language: python
 ---
 
-output('Hola' world)
+output('Hola' mundo)
 
 --- /code ---
 
@@ -53,7 +53,7 @@ output('Hola' world)
 language: python
 ---
 
-print('Hola' world)
+print('Hola' mundo)
 
 --- /code ---
 
@@ -70,13 +70,13 @@ print('Hola' world)
 language: python
 ---
 
-print('Hola', world)
+print('Hola', mundo)
 
 --- /code ---
 
  --- feedback ---
 
- Correcto, en Python `print` genera mensajes en la pantalla. El texto de salida está entre comillas simples `'` , la coma separa dos objetos y proporciona espacio, luego llamamos a la variable `world`, que almacena el emoji 🌍🌎🌏, como aparece en tu proyecto.
+ Correcto, en Python `print` genera mensajes en la pantalla. El texto de salida está entre comillas simples `'` , la coma separa dos objetos y proporciona espacio, luego llamamos a la variable `mundo`, que almacena el emoji 🌍🌎🌏, como aparece en tu proyecto.
 
  --- /feedback ---
 
@@ -87,7 +87,7 @@ print('Hola', world)
 language: python
 ---
 
-print(Hola, world)
+print(Hola, mundo)
 
 --- /code ---
 
