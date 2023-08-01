@@ -16,7 +16,7 @@ def two_dice(): print('First number:', randint(1, 6)) print('Second number:', ra
 
 Which code will call the function to run it?
 
-![The Trinket editor with output area showing two randomly generated numbers.](images/quiz3.png)
+![The code editor with output area showing two randomly generated numbers.](images/quiz3.png)
 
 --- choices ---
 
