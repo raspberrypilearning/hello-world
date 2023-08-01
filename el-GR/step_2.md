@@ -13,43 +13,73 @@
 
 --- task ---
 
-Άνοιξε το [αρχικό έργο Γεια σου κόσμε](https://trinket.io/python/975f35023b){:target="_blank"}. Το Trinket θα ανοίξει σε νέα καρτέλα του φυλλομετρητή.
+Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
 
-![Το πρόγραμμα επεξεργασίας Trinket με τον κώδικα έναρξης του έργου στα αριστερά στην περιοχή του κώδικα. Στα δεξιά είναι η κενή περιοχή εξόδου.](images/starter_project.png)
+![The code editor with project starter code on the left in the code area. Στα δεξιά είναι η κενή περιοχή εξόδου.](images/starter_project.png)
+
+If you have a Raspberry Pi account, you can click on the **Save** button to save a copy to your **Projects**.
 
 --- /task ---
 
-Η γραμμή `#!/bin/python3` λέει απλά στο Trinket ότι χρησιμοποιούμε την Python 3 (τελευταία έκδοση). Οι γραμμές `import` λένε στην Python ότι πρόκειται να χρησιμοποιήσεις κώδικα που δεν έγραψες.
+--- collapse ---
 
-Στην Python, η συνάρτηση `print()` εξάγει κείμενο (λέξεις ή αριθμούς) στην οθόνη.
+---
+line_highlights: 12
+---
 
-Οι γραμμές που ξεκινούν με `#` είναι σχόλια, εξηγούν τον κώδικα στους ανθρώπους και αγνοούνται από την Python.
+If you're working on a Raspberry Pi using Chromium, you may not see the emojis. You need to install a font that supports them.
 
---- task ---
+Open a terminal and then type:
+
+```bash
+sudo apt install fonts-noto-color-emoji
+```
 
 Βρες τη γραμμή `# Τοποθέτησε κώδικα για εκτέλεση κάτω από εδώ`.
 
-Κάνε κλικ κάτω από αυτή τη γραμμή. Το `|` που αναβοσβήνει είναι ο δείκτης και δείχνει πού θα πληκτρολογήσεις.
+--- /collapse ---
 
-Πληκτρολόγησε τον κώδικα για να εμφανίσεις με τη βοήθεια της `print()` το γεια:
+### Print hello
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Lines beginning with a `#` are <span style="color: #0faeb0">**comments**</span>. They explain what the code will do. Comments are ignored by Python.
+</p>
+
+The `import` lines at the start of the code tell Python that you are going to use code you didn't write.
+
+language: python filename: main.py line_numbers: true line_number_start: 11
+
+--- task ---
+
+Find the `# Put code to run below here` line.
+
+Click below that line. The flashing `|` is the cursor and shows where you will type.
+
+--- /task ---
+
+--- task ---
+
+Type the code to `print()` Hello to the screen:
+
+**Tip:** When you type an opening bracket `(` or opening apostrophe `'` the code editor will automatically add a closing bracket `)` or closing apostrophe`'`:
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 11
-line_highlights: 12
+language: python filename: main.py line_numbers: true line_number_start: 17
+line_highlights: 18
 ---
 
 # Βάλε κώδικα για εκτέλεση εδώ
-print('Γεια')
+print('Hello')
 
 --- /code ---
 
 --- collapse ---
 ---
-title: Πληκτρολογώντας ειδικούς χαρακτήρες σε πληκτρολόγιο Η.Β. ή ΗΠΑ
+line_highlights: 12
 ---
 
-Σε ένα πληκτρολόγιο Η.Β. ή ΗΠΑ, η αριστερή `(` και η δεξιά `)` παρένθεση βρίσκονται στα πλήκτρα <kbd>9</kbd> και <kbd>0</kbd>. Για να πληκτρολογήσεις μια αριστερή παρένθεση, κράτησε πατημένο το πλήκτρο <kbd>Shift</kbd> (δίπλα στο <kbd>Z</kbd>) και μετά πάτησε <kbd>9</kbd>. Το μονό εισαγωγικό `'` βρίσκεται στην ίδια σειρά με το πλήκτρο <kbd>L</kbd>, ακριβώς πριν από το πλήκτρο <kbd>Enter</kbd>. Το κόμμα `,` είναι δίπλα στο <kbd>M</kbd>.
+On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kbd>9</kbd> and <kbd>0</kbd> keys. To type a left round bracket, hold down the <kbd>Shift</kbd> key (next to <kbd>Z</kbd>) and then tap <kbd>9</kbd>. The single quote `'` is on the same row as the <kbd>L</kbd> key, just before the <kbd>Enter</kbd> key. The comma `,` is next to the <kbd>M</kbd>.
 
 --- /collapse ---
 
@@ -57,83 +87,62 @@ title: Πληκτρολογώντας ειδικούς χαρακτήρες σε
 
 --- task ---
 
-**Δοκιμή**: Κάνε κλικ στο **Run** για να τρέξει ο κώδικάς σου. Στο Trinket, η έξοδος θα εμφανιστεί στα δεξιά:
+**Test:** Click on the **Run** button to run your code. In the code editor, the output will appear on the right:
 
-![Το εικονίδιο "Run" επισημαίνεται με το "Γεια σου" να εμφανίζεται στην περιοχή εξόδου. ](images/run_hello.png)
+![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
 
-**Εντοπισμός σφαλμάτων:** Εάν λάβεις ένα σφάλμα, έλεγξε τον κώδικά σου πολύ προσεκτικά. Σε αυτό το παράδειγμα, τα μονά εισαγωγικά γύρω από το `Γεια` λείπουν, επομένως η Python δεν γνωρίζει ότι υποτίθεται ότι είναι κείμενο.
+**Debug:** If you get an error then check your code really carefully. In this example, the single quotes around `Hello` are missing so Python doesn't know it is supposed to be text.
 
-![το πρόγραμμα επεξεργασίας Trinket με την απουσία μονών εισαγωγικών και το σφάλμα 'NameError: name 'Γεια σου' is not defined on line 10 in main.py.](images/hello_error.png)
-
---- /task ---
-
-Στην Python, μία </strong>μεταβλητή**χρησιμοποιείται για την αποθήκευση κειμένου ή αριθμών. Οι μεταβλητές διευκολύνουν τους ανθρώπους να διαβάζουν κώδικα. Μπορείς να χρησιμοποιήσεις την ίδια μεταβλητή σε πολλά σημεία στον κώδικά σου. </p>
-
-Έχουμε συμπεριλάβει ορισμένες μεταβλητές που αποθηκεύουν χαρακτήρες emoji.
-
---- task ---
-
-Στο Trinket σου, κάνε κλικ στην καρτέλα **emoji.py**. Βρες τη μεταβλητή `world`, η οποία αποθηκεύει το κείμενο "🌍🌍🌍".
+![The Code Editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 18 in main.py.](images/hello_error.png)
 
 --- /task ---
 
---- task ---
+## title: Δεν βλέπω το emoji
 
-Μπορείς να εκτυπώσεις με τη βοήθεια της `print()` περισσότερα από ένα στοιχεία κάθε φορά, συμπεριλαμβάνοντας κόμμα `,` μεταξύ των στοιχείων. Η `print()` θα προσθέσει ένα κενό ανάμεσα στα στοιχεία.
+In Python, a **variable** is used to store values such as text or numbers. Variables make it easier for humans to read code. You can use the same variable in lots of places in your code. Choosing a sensible name for a variable makes it easier for you to remember what it is for.
 
-Κάνε κλικ στην καρτέλα **main.py** για να επιστρέψεις στον κώδικα σου με την `print()`.
-
-Άλλαξε τον κωδικά σου για να εμφανίσεις με την `print()` τα περιεχόμενα της μεταβλητής `world`:
-
---- code ---
----
 language: python filename: main.py line_numbers: true line_number_start: 11
-line_highlights: 12
----
 
-# Βάλε κώδικα για εκτέλεση εδώ
-print('Γεια', world)
+--- task ---
 
---- /code ---
-
-**Συμβουλή:** `Το 'Γεια'` είναι μια συμβολοσειρά κειμένου επειδή έχει μονά εισαγωγικά γύρω της, ενώ το `world` είναι μια μεταβλητή, επομένως θα εμφανιστεί τιμή που είναι αποθηκευμένη σε αυτήν.
+In your code editor, scroll to the lines with the emojis stored into two different variables. Find the variable `world`, which stores the text '🌍🌍🌍'.
 
 --- /task ---
 
 --- task ---
+
+You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` will add a space between each item.
 
 **Δοκιμή:** Εκτέλεσε τον κωδικά σου για να δεις το αποτέλεσμα:
 
-![Η ενημερωμένη γραμμή κώδικα στην περιοχή κώδικα με τις λέξεις "Γεια σου" ακολουθούμενες από τρία emoji της υδρογείου που εμφανίζονται στην περιοχή εξόδου.](images/run_hello_world.png)
-
-Το emoji μπορεί να δείχνει διαφορετικό σε διαφορετικούς υπολογιστές, επομένως το δικό σου μπορεί να μην είναι ακριβώς το ίδιο.
-
-**Εντοπισμός σφαλμάτων:** Βεβαιώσου ότι έχεις προσθέσει κόμμα μεταξύ των στοιχείων στο `print()` και ότι έχεις γράψει σωστά το `world`.
-
-Από αυτό το παράδειγμα λείπει το κόμμα `,`. Είναι μικρό αλλά πολύ σημαντικό!
-
-![Το πρόγραμμα επεξεργασίας Trinket με απουσία μεμονωμένων εισαγωγικών και το σφάλμα που εμφανίζεται 'SyntaxError: bad input on line 12 in main.py'.](images/comma_error.png)
-
---- collapse ---
----
-title: Δεν βλέπω το emoji
----
-
-Οι περισσότεροι υπολογιστές σου επιτρέπουν να χρησιμοποιείς έγχρωμα emoji. Ωστόσο, εάν δεν μπορείς να χρησιμοποιήσεις emoji, τότε μπορείς να χρησιμοποιήσεις τα 'emoticon' αντ' αυτών, όπως κάναμε πριν εφευρεθούν τα emoji!
-
-Άλλαξε τη γραμμή `from emoji import *` σε:
-
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 3
+Το emoji μπορεί να δείχνει διαφορετικό σε διαφορετικούς υπολογιστές, επομένως το δικό σου μπορεί να μην είναι ακριβώς το ίδιο.
 line_highlights: 3
 ---
 
-from noemoji import *
+# Βάλε κώδικα για εκτέλεση εδώ
+**Εντοπισμός σφαλμάτων:** Βεβαιώσου ότι έχεις προσθέσει κόμμα μεταξύ των στοιχείων στο `print()` και ότι έχεις γράψει σωστά το `world`.
 
 --- /code ---
 
---- /collapse ---
+**Tip:** `'Hello'` is a text string because it has single quotes around it, whereas `world` is a variable so the value stored in it will be printed.
+
+--- /task ---
+
+--- task ---
+
+Άλλαξε τη γραμμή `from emoji import *` σε:
+
+![The updated line of code in the code area with the word 'Hello' followed by three world emojis showing in the output area.](images/run_hello_world.png)
+
+language: python filename: main.py line_numbers: true line_number_start: 3
+
+from noemoji import *
+
+This example is missing the comma `,`. It's small but very important!
+
+![The code editor with missing single quotes and error 'SyntaxError: bad input on line 18 in main.py' displayed.](images/comma_error.png)
 
 --- /task ---
 
@@ -160,7 +169,7 @@ print('Καλωσήρθες στην', python)
 
 **Δοκιμή:** Κάνε κλικ στο **run**.
 
-![Η πρόσθετη γραμμή κώδικα στην περιοχή κώδικα με τη λέξη "Γεια σου" ακολουθούμενη από τρία emoji με την υδρόγειο και τις λέξεις "Καλωσήρθες στην" ακολουθούμενες από ένα emoji φίδι και ένα πληκτρολόγιο που εμφανίζονται στην περιοχή εξόδου.](images/run_multiple.png)
+![The additional line of code in the code editor with the word 'Hello' followed by three world emojis and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
 
 **Συμβουλή:** Είναι καλή ιδέα να εκτελείς τον κώδικά σου μετά από κάθε αλλαγή, ώστε να μπορείς να διορθώνεις αμέσως τα προβλήματα.
 
@@ -169,7 +178,5 @@ print('Καλωσήρθες στην', python)
 --- /task ---
 
 Εάν έχεις λογαριασμό Trinket, μπορείς να κάνεις κλικ στο κουμπί **Remix** για να αποθηκεύσεις ένα αντίγραφο στη βιβλιοθήκη `My Trinkets`.
-
-Εάν δεν διαθέτεις λογαριασμό Trinket, μπορείς να επιστρέψεις στο έργο σου στο μέλλον στον ίδιο υπολογιστή χρησιμοποιώντας τον σύνδεσμο του έργου έναρξης.
 
 --- save ---
