@@ -6,7 +6,7 @@ legenda: Pergunta 2 de 3
 
 Qual dessas definições de função está correta e imprimirá `Eu posso codificar` quando chamada?
 
-![O editor Trinket com área de saída mostrando <code>Eu posso codificar</code>.](images/quiz2.png)
+![The code editor with output area showing <code>I can code</code>.](images/quiz2.png)
 
 --- choices ---
 
