@@ -2,13 +2,15 @@
 title: "Hello \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
 description: इमोजी का उपयोग करते हुए एक इंटरैक्टिव Python प्रोजेक्ट लिखें
+meta_title: Python coding projects for kids and teens | Hello world
+meta_description: Learn Python with the Raspberry Pi Foundation. Make an interactive Python coding project that uses emojis.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: परिचय
+    title: आप बनाएंगे
   - 
     title: hello कहें
   - 
@@ -22,7 +24,7 @@ steps:
     completion:
       - internal
   - 
-    title: सोचिए
+    title: प्रश्नोत्तरी
     knowledge_quiz:
       path: quiz1
       version: 1
