@@ -6,7 +6,7 @@ legend: ३ का प्रश्न २
 
 इनमें से किस फ़ंक्शन की परिभाषा सही हैं और कॉल करने पर `l can code` प्रिंट करेंगी?
 
-![The code editor with output area showing <code>I can code</code>.](images/quiz2.png)
+![आउटपुट क्षेत्र के साथ संपादक <code>I can code</code> दिखा रहा है।](images/quiz2.png)
 
 --- choices ---
 
