@@ -6,7 +6,7 @@ legend: Pregunta 2 de 3
 
 ¿Cuál de estas definiciones de función es correcta e imprimirá `Puedo codificar` cuando la llamemos?
 
-![El editor Trinket y el área de salida mostrando <code>Puedo codificar</code>.](images/quiz2.png)
+![The code editor with output area showing <code>I can code</code>.](images/quiz2.png)
 
 --- choices ---
 
@@ -23,7 +23,7 @@ def impresionante(): print('Puedo codificar')
 
  --- feedback ---
 
-Correcto, llamar a esta función imprimirá `Puedo codificar`. Notaste que las funciones necesitan paréntesis `(` `)` y `:` en la definición de función y que todo código a ejecutar debe estar indentado cuando llamamos a esa función.
+Correcto, llamar a esta función escribira `Puedo codificar`. Notaste que las funciones necesitan paréntesis `(` `)` y `:` en la definición de función y que todo código a ejecutar debe estar indentado cuando llamamos a esa función.
 
  --- /feedback ---
 
