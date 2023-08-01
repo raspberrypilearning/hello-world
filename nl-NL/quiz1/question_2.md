@@ -6,7 +6,7 @@ legend: Vraag 2 van 3
 
 Welke van deze functie definities is correct en drukt de tekst: `Ik kan coderen` als ze wordt aangeroepen?
 
-![De Trinket-editor met uitvoergebied <code>Ik kan coderen</code>.](images/quiz2.png)
+![Ik kan coderen</code>@@." />](images/quiz2.png)
 
 --- choices ---
 
