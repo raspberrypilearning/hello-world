@@ -13,30 +13,60 @@
 
 --- task ---
 
-Відкрий [ Стартовий проєкт Привіт 🌍🌎🌏](https://trinket.io/python/975f35023b){:target="_blank"}. Trinket відкриється в окремій вкладці браузера.
+Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
 
-![Редактор Trinket зі стартовим кодом проєкту зліва в області коду. Праворуч знаходиться порожнє поле для виведення даних.](images/starter_project.png)
+![The code editor with project starter code on the left in the code area. Праворуч знаходиться порожнє поле для виведення даних.](images/starter_project.png)
+
+If you have a Raspberry Pi account, you can click on the **Save** button to save a copy to your **Projects**.
 
 --- /task ---
 
-Рядок `#!/bin/python3` вказує Trinket, що використовується Python 3 (остання версія). Рядки `import` передають Python, що буде використано код, який був написаний не тобою.
+--- collapse ---
 
-У Python, код `print()` виводить текст (слова або числа) на екран.
+---
+line_highlights: 12
+---
 
-Рядки, які починаються з `#` - це коментарі. Вони пояснюють код людині та ігноруються Python.
+If you're working on a Raspberry Pi using Chromium, you may not see the emojis. You need to install a font that supports them.
+
+Open a terminal and then type:
+
+```bash
+sudo apt install fonts-noto-color-emoji
+```
+
+Знайди рядок `# Розмісти код для виконання тут`.
+
+--- /collapse ---
+
+### Print hello
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Lines beginning with a `#` are <span style="color: #0faeb0">**comments**</span>. They explain what the code will do. Comments are ignored by Python.
+</p>
+
+The `import` lines at the start of the code tell Python that you are going to use code you didn't write.
+
+language: python filename: main.py line_numbers: true line_number_start: 11
 
 --- task ---
 
-Знайди рядок `# Нижче розмісти код для виконання`.
+Find the `# Put code to run below here` line.
 
-Клацни нижче цього рядка. Блимаючий `|` є курсором і показує, де ти будеш вводити текст.
+Click below that line. The flashing `|` is the cursor and shows where you will type.
 
-Введи код, щоб зробити `print()` привіт:
+--- /task ---
+
+--- task ---
+
+Type the code to `print()` Hello to the screen:
+
+**Tip:** When you type an opening bracket `(` or opening apostrophe `'` the code editor will automatically add a closing bracket `)` or closing apostrophe`'`:
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 11
-line_highlights: 12
+language: python filename: main.py line_numbers: true line_number_start: 17
+title: Набір спеціальних символів на англійській розкладці клавіатури
 ---
 
 # Розмісти код для виконання тут
@@ -46,94 +76,73 @@ print('Hello')
 
 --- collapse ---
 ---
-title: Набір спеціальних символів на англійській розкладці клавіатури
----
-
-На англійській розкладці клавіатури, ліві `(` та праві `)` круглі дужки знаходяться на клавішах<kbd>9</kbd> та <kbd>0</kbd>. Щоб надрукувати ліву круглу дужку, натисни та утримуй клавішу <kbd>Shift</kbd> (поруч з <kbd>Z</kbd>) і натисни на <kbd>9</kbd>. Одинарна лапка `'` знаходиться в одному рядку з клавішею <kbd>L</kbd>, перед клавішею <kbd>Enter</kbd>. Кома `,` знаходиться поруч з клавішею <kbd>M</kbd>.
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
-**Тест:** Натисни на кнопку **Запуск**, щоб виконати твій код. У Trinket вихідні дані будуть відображатися праворуч:
-
-![Піктограма "Запуск" підсвічена. Напис "Привіт", відображений в області виводу. ](images/run_hello.png)
-
-**Налагодження:** Якщо виникла помилка, необхідно дуже уважно перевірити свій код. У цьому прикладі одинарні лапки навколо `Привіт` відсутні, тому Python не знає, що це має бути текстом.
-
-![редактор Trinket з відсутніми одинарними лапками та помилкою 'NameError: name 'Hello' is not defined' у рядку 10 у main.py.](images/hello_error.png)
-
---- /task ---
-
-У Python **змінна** використовується для зберігання тексту або чисел. Змінні полегшують читання коду для людей. Ти можеш використовувати одну і ту ж змінну в багатьох місцях твого коду.
-
-Ми вже додали деякі змінні, які зберігають символи емодзі.
-
---- task ---
-
-У власному Trinket, натисни на вкладку **emoji.py**. Знайди змінну `world`, в якій зберігається текст '🌍🌍🌍'.
-
---- /task ---
-
---- task ---
-
-Ти можеш зробити `print()` більше одного елемента водночас, використовуючи кому `,` між цими елементами. `print()` додасть пробіл між кожним елементом.
-
-Натисни на вкладку **main.py**, щоб повернутися до твого коду `print()`.
-
-Зміни свій код так, щоб зробити `print()` змісту змінної `world`:
-
---- code ---
----
-language: python filename: main.py line_numbers: true line_number_start: 11
 line_highlights: 12
 ---
 
-# Розмісти код для виконання тут
-print('Hello', world)
+On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kbd>9</kbd> and <kbd>0</kbd> keys. To type a left round bracket, hold down the <kbd>Shift</kbd> key (next to <kbd>Z</kbd>) and then tap <kbd>9</kbd>. The single quote `'` is on the same row as the <kbd>L</kbd> key, just before the <kbd>Enter</kbd> key. The comma `,` is next to the <kbd>M</kbd>.
 
---- /code ---
-
-**Порада:** `'Привіт'` - це текстовий рядок, тому що навколо нього розташовані одинарні лапки, в той час, як `world` - це змінна, тобто значення, що зберігається в ній, буде виведено на екран.
+--- /collapse ---
 
 --- /task ---
 
 --- task ---
 
+**Test:** Click on the **Run** button to run your code. In the code editor, the output will appear on the right:
+
+![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
+
+**Debug:** If you get an error then check your code really carefully. In this example, the single quotes around `Hello` are missing so Python doesn't know it is supposed to be text.
+
+![The Code Editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 18 in main.py.](images/hello_error.png)
+
+--- /task ---
+
+## title: Я не бачу емодзі
+
+In Python, a **variable** is used to store values such as text or numbers. Variables make it easier for humans to read code. You can use the same variable in lots of places in your code. Choosing a sensible name for a variable makes it easier for you to remember what it is for.
+
+language: python filename: main.py line_numbers: true line_number_start: 11
+
+--- task ---
+
+In your code editor, scroll to the lines with the emojis stored into two different variables. Find the variable `world`, which stores the text '🌍🌍🌍'.
+
+--- /task ---
+
+--- task ---
+
+You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` will add a space between each item.
+
 **Тест:** Запусти свій код, щоб побачити результат:
-
-![Оновлений рядок коду в області коду зі словом "Привіт", за яким в області виводу відображаються три емодзі світу.](images/run_hello_world.png)
-
-Емодзі можуть виглядати по-різному на різних комп'ютерах, тому на твоєму комп'ютері вони можуть виглядати не зовсім однаково.
-
-**Налагодження:** Переконайся, що кома додана між елементами в рядках `print()` і що `world` написано правильно.
-
-У цьому прикладі не вистачає коми `,`. Маленька, але дуже важлива!
-
-![Редактор Trinket з відсутніми одинарними лапками та помилкою "SyntaxError: bad input on line 12 in main.py".](images/comma_error.png)
-
---- collapse ---
----
-title: Я не бачу емодзі
----
-
-Більшість комп'ютерів підтримують використання кольорових емодзі. Однак, якщо ти не можеш використовувати емодзі, ти можеш використовувати "смайлики". Ми робили це до того, як емодзі були придумані!
-
-Зміни рядок `from emoji import *` на:
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 3
+Емодзі можуть виглядати по-різному на різних комп'ютерах, тому на твоєму комп'ютері вони можуть виглядати не зовсім однаково.
 line_highlights: 3
 ---
 
-from noemoji import *
+# Розмісти код для виконання тут
+**Налагодження:** Переконайся, що кома додана між елементами в рядках `print()` і що `world` написано правильно.
 
 --- /code ---
 
---- /collapse ---
+**Tip:** `'Hello'` is a text string because it has single quotes around it, whereas `world` is a variable so the value stored in it will be printed.
+
+--- /task ---
+
+--- task ---
+
+Зміни рядок `from emoji import *` на:
+
+![The updated line of code in the code area with the word 'Hello' followed by three world emojis showing in the output area.](images/run_hello_world.png)
+
+language: python filename: main.py line_numbers: true line_number_start: 3
+
+from noemoji import *
+
+This example is missing the comma `,`. It's small but very important!
+
+![The code editor with missing single quotes and error 'SyntaxError: bad input on line 18 in main.py' displayed.](images/comma_error.png)
 
 --- /task ---
 
@@ -169,7 +178,5 @@ print('Welcome to', python)
 --- /task ---
 
 Якщо у тебе є обліковий запис в Trinket, ти можеш натиснути на кнопку **Remix**, щоб зберегти копію у свою бібліотеку `My Trinkets`.
-
-Якщо у тебе немає облікового запису Trinket, ти все одно можеш повернутися до свого проєкту в майбутньому на тому ж комп'ютері, скориставшись посиланням на стартовий проєкт.
 
 --- save ---
