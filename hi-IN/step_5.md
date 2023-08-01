@@ -6,7 +6,7 @@
 </div>
 <div>
 
-![इमोजी और टेक्स्ट वाक्यों के साथ आउटपुट क्षेत्र में कुछ नई प्रिंट लाइनें।](images/squence_storter.png){:width="300px"}
+![Some new print lines in the code editor output area with emoji and text sentences.](images/sentence_starter.png){:width="300px"} 
 
 </div>
 </div>
@@ -17,33 +17,39 @@
 
 --- code ---
 ---
-language: python
-filename: main.py
+language: python filename: main.py line_numbers: true line_number_start: 29
+line_highlights: 30-32
 ---
 
-print('I', heart, '...')   
-print('... makes me', happy)   
+roll_dice()  # Call the roll dice function print('I ❤️ ...')   
+print('... makes me 😃')   
 print('I\'d like to make ... with', python)
 
 --- /code ---
 
-**टिप:** `print` आपके द्वारा प्रिंट किए जाने वाले प्रत्येक आइटम के बीच एक जगह जोड़ता है।
+**Tip:** Each use of `print` adds a line inbetween.
 
 **टिप:** यदि आपको एक एपोस्ट्रोफी `'` प्रिंट करने की आवश्यकता है, तो आपको एक बैकस्लैश `\` डालना होगा ताकि Python इसे टेक्स्ट का हिस्सा समझ सके।
+
+**Tip:** Add a `#` at the beginning of a line to turn it into a comment.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-<span style="color: #0faeb0">yellow heart emoji</span> का उपयोग अक्सर मित्रता और खुशी दिखाने के लिए किया जाता है।</p>
+The <span style="color: #0faeb0">yellow heart emoji 💛</span> is often used to show friendship and happiness.</p>
 
 --- task ---
 
-आप किसी मित्र को खुश करने के लिए कौन सा संदेश भेजेंगे? आप कौन सा इमोजी चुनेंगे?
+What message would you send to a friend to cheer them up? Which emoji would you choose?
 
-**emoji.py** टैब पर क्लिक करें ताकि आप उन इमोजी वेरिएबल्स को देख सकें जिनका आप उपयोग कर सकते हैं। अपने कोड में जोड़ने के लिए **main.py** टैब पर वापस क्लिक करें।
+Scroll to the **emoji** section in the code editor to see the emojis and example variables that you can use. Copy the ones you choose and save them to a variable or add them directly to your code.
 
-आप **emoji.py** में अधिक इमोजी वेरिएबल जोड़ सकते हैं। इस [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} का उपयोग करें ताकि आप जो चाहते हैं उसे खोज सकें।
+You can add more emojis to the **emoji** section. Use this [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} to find the ones you want.
+
+📅🕒🎨🎮🔬🎉🕶️🎲🦄🚀💯⭐💛 😃😜❤️📚⚽🎾👟♻️🌳🔥✨🥺🌈
+
+[[[choose-an-emoji]]]
 
 --- /task ---
 
