@@ -16,7 +16,7 @@ def two_dice(): print('First number:', randint(1, 6)) print('Second number:', ra
 
 इसे चलाने के लिए कौन सा कोड फंक्शन को कॉल करेगा?
 
-![The code editor with output area showing two randomly generated numbers.](images/quiz3.png)
+![आउटपुट क्षेत्र के साथ संपादक दो निरुद्देश्यता से जनरेट की गई संख्याएँ दिखाता है।](images/quiz3.png)
 
 --- choices ---
 
