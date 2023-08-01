@@ -6,7 +6,7 @@ legend: Питання 2 з 3
 
 Яке з цих визначень функції є правильним та виведе `Я вмію кодити`?
 
-![Редактор Trinket з областю виводу, де показано <code>Я вмію кодити</code>.](images/quiz2.png)
+![The code editor with output area showing <code>I can code</code>.](images/quiz2.png)
 
 --- choices ---
 
