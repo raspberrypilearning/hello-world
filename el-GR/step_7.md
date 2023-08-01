@@ -2,11 +2,11 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Πρόσθεσε περισσότερα στο έργο σου. Υπάρχουν περισσότερα emoji για να διαλέξεις.
+Πρόσθεσε περισσότερα στο έργο σου. There are more emojis to choose from.
   </div>
 <div>
 
-![Ένα μεγαλύτερο έργο στην περιοχή εξόδου με περισσότερο κείμενο, emoji και εισόδους.](images/upgrade_ideas.png){:width="300px"}
+![Ένα μεγαλύτερο έργο στην περιοχή εξόδου με περισσότερο κείμενο, emoji και εισόδους.](images/upgrade_ideas.png){:width="300px"} 
 
 </div>
 </div>
@@ -17,9 +17,18 @@
 + Δημιουργήσεις περισσότερες συναρτήσεις για να οργανώσεις τον κώδικά σου
 + Χρησιμοποιήσεις το `#` για να προσθέσεις σχόλια στον κώδικά σου
 
-Κάνε κλικ στην καρτέλα **emoji.py** για να δεις τις μεταβλητές emoji που μπορείς να χρησιμοποιήσεις. Κάνε κλικ ξανά στην καρτέλα **main.py** για να τις προσθέσεις στον κώδικά σου.
+Scroll to the **emoji** section in the code editor to see the emojis and example variables that you can use. Copy the ones you choose and save them to a variable or add them directly to your code.
 
-Ακολουθεί ένα παράδειγμα συνάρτησης που ρωτά για χόμπι:
+**Tip:** To add emojis, find the comment # Emojis to copy and paste into your code. Copy the emojis you want to use then paste them into your code.
+
+📅🕒🎨🎮🔬🎉🕶️🎲🦄🚀💯⭐💛 😃😜❤️📚⚽🎾👟♻️🌳🔥✨🥺🌈
+
+[[[choose-an-emoji]]]
+
+def hobbies():   
+hobby = input('Τι σου αρέσει να κάνεις;')   
+print('Ακούγεται', fun)   
+print('Θα μπορούσες να κάνεις ένα', python, 'έργο για', hobby)
 
 --- code ---
 ---
@@ -28,16 +37,13 @@ filename: main.py
 ---
 
 # Βάλε κώδικα για εκτέλεση εδώ
-def hobbies():   
-hobby = input('Τι σου αρέσει να κάνεις;')   
-print('Ακούγεται', fun)   
-print('Θα μπορούσες να κάνεις ένα', python, 'έργο για', hobby)
+Μπορείς να χρησιμοποιήσεις την εντολή `input` για να κάνεις το έργο σου να περιμένει μέχρι ο χρήστης να πατήσει <kbd>Enter</kbd> σε οποιοδήποτε σημείο αυτού του έργου.
 
 --- /code ---
 
-**Συμβουλή:** Μην ξεχνάς ότι θα χρειαστεί να καλέσεις τη συνάρτησή σου καθώς και να την ορίσεις.
+**Tip:** Don't forget you will need to call your function as well as define it.
 
-Μπορείς να χρησιμοποιήσεις την εντολή `input` για να κάνεις το έργο σου να περιμένει μέχρι ο χρήστης να πατήσει <kbd>Enter</kbd> σε οποιοδήποτε σημείο αυτού του έργου.
+You can use `input` to make your project wait for the user to tap <kbd>Enter</kbd> at any point in this project.
 
 --- code ---
 ---
@@ -47,19 +53,18 @@ filename: main.py
 
 roll_dice()
 
-input() #Περίμενε μέχρι να πατήσει ο χρήστης Enter
+input()  # Wait for the user to tap Enter
 
-hobbies()
+Μπορείς να δεις [ολοκληρωμένο το έργο εδώ](https://trinket.io/embed/python/750a2ac96b){:target="_blank"}.
 
 --- /code ---
-
 
 --- collapse ---
 ---
 title: Ολοκληρωμένο έργο
 ---
 
-Μπορείς να δεις [ολοκληρωμένο το έργο εδώ](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}.
+You can view the [completed project here](https://editor.raspberrypi.org/en/projects/hello-world-solution){:target="_blank"}.
 
 --- /collapse ---
 
