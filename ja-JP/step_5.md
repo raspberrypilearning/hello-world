@@ -6,7 +6,7 @@
 </div>
 <div>
 
-![絵文字とテキスト文を含むいくつかの新しく表示された出力領域の行](images/sentence_starter.png){:width="300px"}
+![絵文字とテキスト文を含むいくつかの新しく表示された出力領域の行](images/sentence_starter.png){:width="300px"} 
 
 </div>
 </div>
@@ -17,8 +17,8 @@
 
 --- code ---
 ---
-language: python
-filename: main.py
+language: python filename: main.py line_numbers: true line_number_start: 29
+line_highlights: 30-32
 ---
 
 print('私は', '...', heart)   
@@ -31,6 +31,8 @@ print('私は', python, 'で... を作りたいと思います')
 
 **ヒント：**アポストロフィ`'` を表示する必要がある場合は、その前にバックスラッシュ`\`を付けて、Pythonがアポストロフィもテキストの一部であることを認識できるようにする必要があります。
 
+**Tip:** Add a `#` at the beginning of a line to turn it into a comment.
+
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
@@ -41,9 +43,13 @@ print('私は', python, 'で... を作りたいと思います')
 
 友達を元気づけるために、どんなメッセージを送りますか？ どの絵文字を選びますか？
 
-Trinketの**emoji.py**タブをクリックして、使用できる絵文字変数を確認します。 **main.py**タブをクリックして戻り、コードに追加します。
+Trinketの**emoji.py**タブをクリックして、使用できる絵文字変数を確認します。 Copy the ones you choose and save them to a variable or add them directly to your code.
 
-**emoji.py**にさらに絵文字変数を追加できます。 この[絵文字リスト](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_ blank"}を使用して、欲しい絵文字を見つけてください。
+**emoji.py**にさらに絵文字変数を追加できます。 この[絵文字リスト](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"}を使用して、欲しい絵文字を見つけてください。
+
+📅🕒🎨🎮🔬🎉🕶️🎲🦄🚀💯⭐💛 😃😜❤️📚⚽🎾👟♻️🌳🔥✨🥺🌈
+
+[[[choose-an-emoji]]]
 
 --- /task ---
 
