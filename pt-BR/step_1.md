@@ -1,31 +1,32 @@
-## You will make
+<div class="c-survey-banner" style="width:100%">
+  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/f/code-editor-feedback" target="_blank">Take our survey</a> to help make our Code Editor better!
+</div>
 
-Descubra o que a linguagem de programação Python pode fazer escrevendo um projeto interativo que usa emoji.
+## Você vai fazer
+
+Find out what the Python 🐍 programming language can do by writing an interactive project that uses emojis 😃.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Emoji**</span> são pequenas imagens coloridas usadas para adicionar um significado extra às mensagens. Emoji significa "palavra imagem" em japonês.
+<span style="color: #0faeb0">**Emojis**</span> are small colourful images 🥰 used to add extra meaning to messages. Emoji significa "palavra imagem" em japonês.
 </p>
 
 Você deve:
-+ `print()` texto, incluindo emojis, e receba um `input()` do usuário
+
++ `print()` text, including emojis 😃, and get `input()` ⌨️ from the user
 + Armazenar texto e números em **variáveis**
 + Usar **funções** para organizar o seu código
 
 --- no-print ---
 
-### Play ▶️
+### Jogue ▶️
 
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
-Leia o resultado e pressione <kbd>Enter</kbd> para continuar. 
-Digite suas respostas para as perguntas. Você consegue ver como suas respostas são usadas?
-</div>
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/a54e164ac2?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-  <img src="images/hello-final.png">
+<div style="flex-basis: 175px; flex-grow: 1">
+
+<iframe src="" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
 </div>
 </div>
 
@@ -35,8 +36,6 @@ Digite suas respostas para as perguntas. Você consegue ver como suas respostas 
 
 --- print-only ---
 
-![Projeto concluído](images/showcase_static.png)
+![Completed project showing example code on the code editor](images/showcase_static.png){:width="640px"}
 
---- /print-only ---
-
-![](http://code.org/api/hour/begin_codeclub_hworld.png)
+--- /print-only --- ![](http://code.org/api/hour/begin_codeclub_hworld.png)
