@@ -1,3 +1,7 @@
+<div class="c-survey-banner" style="width:100%">
+  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/f/code-editor-feedback" target="_blank">Take our survey</a> to help make our Code Editor better!
+</div>
+
 ## Wat ga je maken
 
 Ontdek wat de programmeertaal Python kan door een interactief project te schrijven dat emoji gebruikt.
@@ -7,6 +11,7 @@ Ontdek wat de programmeertaal Python kan door een interactief project te schrijv
 </p>
 
 Je gaat:
+
 + Met `print()` tekst, inclusief emoji, tonen en `input()` van de gebruiker benutten
 + Tekst en getallen opslaan in **variabelen**
 + **Functies** gebruiken om je code te ordenen
@@ -18,14 +23,10 @@ Je gaat:
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
-Lees de uitvoer en tik vervolgens op <kbd>Enter</kbd> om door te gaan. 
-Typ jouw antwoorden op de vragen. Kun je zien hoe je antwoorden worden gebruikt?
-</div>
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/a54e164ac2?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-  <img src="images/hello-final.png">
+<div style="flex-basis: 175px; flex-grow: 1">
+
+<iframe src="" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
 </div>
 </div>
 
@@ -35,8 +36,6 @@ Typ jouw antwoorden op de vragen. Kun je zien hoe je antwoorden worden gebruikt?
 
 --- print-only ---
 
-![Voltooid project](images/showcase_static.png)
+![Completed project showing example code on the code editor](images/showcase_static.png){:width="640px"}
 
---- /print-only ---
-
-![](http://code.org/api/hour/begin_codeclub_hworld.png)
+--- /print-only ---![](http://code.org/api/hour/begin_codeclub_hworld.png)
