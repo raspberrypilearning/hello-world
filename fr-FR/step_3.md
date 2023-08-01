@@ -6,7 +6,7 @@ Python est excellent pour travailler avec des nombres et des dates.
 </div>
 <div>
 
-![La zone de sortie avec cinq lignes imprimées montrant les nouvelles sorties de somme et de date actuelle.](images/sums_dates.png){:width="300px"}
+![La zone de sortie avec cinq lignes imprimées montrant les nouvelles sorties de somme et de date actuelle.](images/sums_dates.png){:width="300px"} 
 
 </div>
 </div>
@@ -19,28 +19,45 @@ En Python, tu peux utiliser des opérateurs mathématiques pour faire des sommes
 | / | division |   
 | ** | puissance |
 
+### Create a calculation
+
 --- task ---
 
 Ajoute deux autres lignes `print()` à ton code, incluant une somme à calculer par Python :
 
+**Tip:** To get a `*` symbol press <kbd>Shift</kbd> and <kbd>8</kbd> at the same time.
+
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 12
+language: python filename: main.py line_numbers: true line_number_start: 14
 line_highlights: 14-15
 ---
 
-print('Bonjour', monde)   
+print('Bonjour', world)   
 print('Bienvenue dans, python)   
 print(python, 'est très bon en', sums)   
 print(230 * 5782 ** 2 / 23781)
 
 --- /code ---
 
+**Astuce :** Tu n'as pas besoin de taper les commentaires, ils sont juste là pour t'aider à comprendre le code. Tape simplement la partie avant le `#`.
+
 --- /task ---
 
 --- task ---
 
 **Test :** Exécute ton code. Python a-t-il calculé la somme correctement ? Je plaisante ! Python fait les calculs difficiles pour toi, tu n'as donc pas besoin de le résoudre.
+
+**Debug:**
+
+--- collapse ---
+---
+title: I have a syntax error
+---
+
+Make sure that you have added a comma `,` between the items in `print()` and that you have spelled `python` correctly.
+
+--- /collapse ---
 
 --- /task ---
 
@@ -50,7 +67,7 @@ L'informaticienne japonaise <span style="color: #0faeb0">**Emma Haruka Iwao**</s
 
 --- task ---
 
-Essaie de changer l'addition que Python fait en une addition compliquée !
+Essaye de changer l'addition que Python fait en une addition compliquée !
 
 Tu peux également utiliser des parenthèses si tu souhaites contrôler l'ordre dans lequel Python calcule la somme : `print( (2 + 4) * (5 + 3) )`.
 
@@ -60,19 +77,19 @@ Tu peux également utiliser des parenthèses si tu souhaites contrôler l'ordre 
 
 **Test :** Exécute ton code et demande à Python de calculer ta somme.
 
-**Débogage :** Assure-toi que ta somme est entourée d'une parenthèse gauche et droite `( 2 * 45 )`. Si tu utilises des parenthèses supplémentaires pour contrôler l'ordre, assure-toi d'avoir une parenthèse droite pour correspondre à chaque parenthèse gauche.
+**Débogage :** Assure-toi que ta somme est entourée d'une parenthèse gauche et droite `( 2* 45 )`. Si tu utilises des parenthèses supplémentaires pour contrôler l'ordre, assure-toi d'avoir une parenthèse droite pour correspondre à chaque parenthèse gauche.
 
 --- /task ---
 
 --- task ---
 
-Si tu as demandé à Python de calculer une très grosse somme, tu constateras peut-être que la réponse s'étend sur plusieurs lignes dans la zone de sortie.
+On the code editor, you might find the text too big or too small to read. You can easily change these settings to suit your preference.
 
 **Astuce :** Clique sur le **menu hamburger** (l'icône avec trois lignes) en haut à gauche de ton éditeur Trinket. Clique ensuite sur le bouton **Fullscreen** pour afficher ton projet en mode plein écran.
 
-![L'éditeur Trinket avec le menu de gauche développé, via le menu hamburger, pour afficher l'option plein écran.](images/full_screen.png)
+![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png)
 
-Pour quitter le mode plein écran, clique à nouveau sur le bouton **Fullscreen** ou appuie sur <kbd>Échap</kbd> (Esc) sur ton clavier.
+You can also switch between colour modes, click on the **Light & Dark** buttons to see the changes.
 
 --- /task ---
 
@@ -90,17 +107,17 @@ Obtiens la date et l'heure actuelles en utilisant la fonction `now()` de la bibl
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 14
+language: python filename: main.py line_numbers: true line_number_start: 12
 line_highlights: 16-17
 ---
 
 print(python, 'est très bon en', sums)    
-print(230 * 5782 ** 2 / 23781) #Affiche le résultat de la somme     
-print('Le', calendar, clock, 'est', datetime .now()) #Affiche avec l'emoji
+print(230 * 5782 ** 2 / 23781) #Imprime le résultat de la somme     
+print('Le', calendar, clock, 'est', datetime .now()) #Imprime avec l'emoji
 
 --- /code ---
 
-**Astuce :** Tu n'as pas besoin de taper les commentaires, ils sont juste là pour t'aider à comprendre le code. Tape simplement la partie avant le `#`.
+**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
 
 --- /task ---
 
