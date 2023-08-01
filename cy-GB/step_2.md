@@ -13,127 +13,136 @@ Mae'n draddodiadol ysgrifennu rhaglen i allbynnu 'Helo fyd!' pan fyddwch yn dysg
 
 --- task ---
 
-Agor y [prosiect dechreuol Helo 🌍🌎🌏](https://trinket.io/python/975f35023b){:target="_blank"}. Bydd Trinket yn agor mewn tab arall yn y porwr.
+Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
 
-![Y golygydd Trinket gyda'r cod dechrau prosiect ar y chwith yn yr ardal cod. Mae'r ardal allbwn wag ar y dde.](images/starter_project.png)
+![The code editor with project starter code on the left in the code area. Mae'r ardal allbwn wag ar y dde.](images/starter_project.png)
+
+If you have a Raspberry Pi account, you can click on the **Save** button to save a copy to your **Projects**.
 
 --- /task ---
 
-Mae'r llinell `#!/bin/python3` yn rhoi gwybod i Trinket eich bod yn defnyddio Python 3 (y fersiwn ddiweddaraf). Mae'r llinellau `import` yn rhoi gwybod i Python y byddwch yn defnyddio cod nad ydych chi wedi'i ysgrifennu.
+--- collapse ---
 
-Yn Python, mae `print()` yn allbynnu testun (geiriau neu rifau) i'r sgrin.
+---
+line_highlights: 12
+---
 
-Sylwadau yw llinellau sy'n dechrau gyda `#`, maen nhw'n esbonio'r cod i bobl ac yn cael eu hanwybyddu gan Python.
+If you're working on a Raspberry Pi using Chromium, you may not see the emojis. You need to install a font that supports them.
 
---- task ---
+Open a terminal and then type:
+
+```bash
+sudo apt install fonts-noto-color-emoji
+```
 
 Dewch o hyd i'r llinell `# Rhowch y cod i'w redeg o dan fan hyn`.
 
-Cliciwch o dan y llinell honno. Y cyrchwr yw'r `|` sy'n fflachio, a bydd yn dangos lle byddwch chi'n teipio.
+--- /collapse ---
 
-Teipiwch y cod, gyda `print()`, i ddangos helo:
+### Print hello
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Lines beginning with a `#` are <span style="color: #0faeb0">**comments**</span>. They explain what the code will do. Comments are ignored by Python.
+</p>
+
+The `import` lines at the start of the code tell Python that you are going to use code you didn't write.
+
+language: python filename: main.py line_numbers: true line_number_start: 11
+
+--- task ---
+
+Find the `# Put code to run below here` line.
+
+Click below that line. The flashing `|` is the cursor and shows where you will type.
+
+--- /task ---
+
+--- task ---
+
+Type the code to `print()` Hello to the screen:
+
+**Tip:** When you type an opening bracket `(` or opening apostrophe `'` the code editor will automatically add a closing bracket `)` or closing apostrophe`'`:
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 11
-line_highlights: 12
----
-
-# Rhowch y cod i'w redeg o dan fan hyn
-print('Helo')
-
---- /code ---
-
---- collapse ---
----
+language: python filename: main.py line_numbers: true line_number_start: 17
 title: Teipio nodau arbennig ar fysellfwrdd y DU neu UDA
 ---
 
-Ar fysellfwrdd y DU neu UDA, mae'r cromfachau chwith `(` a dde `)` ar y bysellau <kbd>9</kbd> a <kbd>0</kbd>. I deipio cromfach chwith, daliwch y fysell <kbd>Shift</kbd> (wrth ymyl <kbd>Z</kbd>) a tharo <kbd>9</kbd>. Mae'r dyfynod sengl `'` ar yr un rhes â'r fysell <kbd>L</kbd> ddim yn bell o'r fysell <kbd>Enter</kbd>. Mae'r coma `,` wrth ymyl <kbd>M</kbd>.
-
---- /collapse ---
-
---- /task ---
-
---- task ---
-
-**Profi:** Cliciwch y botwm **Run** i redeg eich cod. Yn Trinket, bydd yr allbwn yn ymddangos ar y dde:
-
-![Yr eicon Run wedi'i hamlygu gyda 'Helo' yn dangos yn yr ardal allbwn. ](images/run_hello.png)
-
-**Difa chwilod:** Os ydych chi'n cael gwall, gwnewch yn fanwl siŵr bod eich cod yn gywir. Yn yr enghraifft hon, mae'r dyfynodau sengl o amgylch `Hello` ar goll felly dydy Python ddim yn gwybod mai testun sydd i fod yno.
-
-![golygydd Trinket gyda dyfynodau sengl ar goll a'r gwall 'NameError: name 'Hello' is not defined on line 10 in main.py.](images/hello_error.png)
-
---- /task ---
-
-Yn Python, mae **newidyn** yn cael ei ddefnyddio i storio testun neu rifau. Mae newidynnau yn ei gwneud hi'n haws i bobl ddarllen cod. Fe allwch chi ddefnyddio'r un newidyn fwy nag unwaith yn eich cod.
-
-Rydyn ni wedi cynnwys rhai newidynnau sy'n storio nodau emoji.
-
---- task ---
-
-Yn Trinket, cliciwch y tab **emoji.py**. Dewch o hyd i'r newidyn `byd`, sy'n storio'r testun '🌍🌍🌍'.
-
---- /task ---
-
---- task ---
-
-Fe allwch chi brintio, gan ddefnyddio `print()`, fwy nag un eitem ar y tro drwy roi coma `,` rhwng yr eitemau. Bydd `print()` yn ychwanegu bwlch rhwng bob eitem.
-
-Cliciwch y tab **main.py** i ddychwelyd i'ch cod `print()`.
-
-Newidiwch eich cod i brintio cynnwys y newidyn `byd` hefyd:
-
---- code ---
----
-language: python filename: main.py line_numbers: true line_number_start: 11
-line_highlights: 12
----
-
 # Rhowch y cod i'w redeg o dan fan hyn
-print('Helo', byd)
+**Difa chwilod:** Os ydych chi'n cael gwall, gwnewch yn fanwl siŵr bod eich cod yn gywir. Yn yr enghraifft hon, mae'r dyfynodau sengl o amgylch `Helo` ar goll felly dydy Python ddim yn gwybod mai testun sydd i fod yno.
 
 --- /code ---
-
-**Cyngor:** Llinyn testun yw `'Helo'` oherwydd bod dyfynodau sengl o'i hamgylch, ond mae `byd` yn newidyn felly bydd y gwerth sydd wedi'i storio ynddo yn cael ei brintio.
-
---- /task ---
-
---- task ---
-
-**Profi:** Rhedwch eich cod i weld y canlyniad:
-
-![Y llinell cod newydd yn yr ardal cod gyda'r gair 'Helo' wedi'i ddilyn gan dri emoji byd yn yr ardal allbwn.](images/run_hello_world.png)
-
-Mae emoji'n gallu edrych yn wahanol ar wahanol gyfrifiaduron, felly efallai na fydd eich un chi yn edrych union yr un fath.
-
-**Difa chwilod:** Gwnewch yn siŵr eich bod wedi ychwanegu coma rhwng yr eitemau yn `print()` ac wedi sillafu `byd` yn gywir.
-
-Mae'r coma `,` ar goll yn yr enghraifft hon. Mae'n fach ond yn bwysig iawn!
-
-![Y golygydd Trinket gyda'r dyfynodau sengl ar goll a'r gwall 'SyntaxError: bad input on line 12 in main.py' wedi'i ddangos.](images/comma_error.png)
 
 --- collapse ---
 ---
-title: Wela' i ddim yr emoji
+line_highlights: 12
 ---
 
-Mae'r rhan fwyaf o gyfrifiaduron yn gadael i chi ddefnyddio emoji lliw. Ond os nad ydych chi'n gallu defnyddio emoji, fe allwch chi ddefnyddio 'gwenogluniau' ('emoticons') yn lle, fel yr oedden ni'n ei wneud cyn dyfeisiad emoji!
+On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kbd>9</kbd> and <kbd>0</kbd> keys. To type a left round bracket, hold down the <kbd>Shift</kbd> key (next to <kbd>Z</kbd>) and then tap <kbd>9</kbd>. The single quote `'` is on the same row as the <kbd>L</kbd> key, just before the <kbd>Enter</kbd> key. The comma `,` is next to the <kbd>M</kbd>.
 
-Newidiwch y llinell `from emoji import *` i:
+--- /collapse ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Click on the **Run** button to run your code. In the code editor, the output will appear on the right:
+
+![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
+
+**Debug:** If you get an error then check your code really carefully. In this example, the single quotes around `Hello` are missing so Python doesn't know it is supposed to be text.
+
+![The Code Editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 18 in main.py.](images/hello_error.png)
+
+--- /task ---
+
+## title: Wela' i ddim yr emoji
+
+In Python, a **variable** is used to store values such as text or numbers. Variables make it easier for humans to read code. You can use the same variable in lots of places in your code. Choosing a sensible name for a variable makes it easier for you to remember what it is for.
+
+language: python filename: main.py line_numbers: true line_number_start: 11
+
+--- task ---
+
+In your code editor, scroll to the lines with the emojis stored into two different variables. Find the variable `world`, which stores the text '🌍🌍🌍'.
+
+--- /task ---
+
+--- task ---
+
+You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` will add a space between each item.
+
+**Profi:** Rhedwch eich cod i weld y canlyniad:
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 3
+Mae emoji'n gallu edrych yn wahanol ar wahanol gyfrifiaduron, felly efallai na fydd eich un chi yn edrych union yr un fath.
 line_highlights: 3
 ---
 
-from noemoji import *
+# Rhowch y cod i'w redeg o dan fan hyn
+**Difa chwilod:** Gwnewch yn siŵr eich bod wedi ychwanegu coma rhwng yr eitemau yn `print()` ac wedi sillafu `byd` yn gywir.
 
 --- /code ---
 
---- /collapse ---
+**Tip:** `'Hello'` is a text string because it has single quotes around it, whereas `world` is a variable so the value stored in it will be printed.
+
+--- /task ---
+
+--- task ---
+
+Newidiwch y llinell `from emoji import *` i:
+
+![The updated line of code in the code area with the word 'Hello' followed by three world emojis showing in the output area.](images/run_hello_world.png)
+
+language: python filename: main.py line_numbers: true line_number_start: 3
+
+from noemoji import *
+
+This example is missing the comma `,`. It's small but very important!
+
+![The code editor with missing single quotes and error 'SyntaxError: bad input on line 18 in main.py' displayed.](images/comma_error.png)
 
 --- /task ---
 
@@ -169,7 +178,5 @@ print('Croeso i', python)
 --- /task ---
 
 Os oes gennych chi gyfrif Trinket, fe allwch chi glicio'r botwm **Remix** i gadw copi yn eich llyfrgell `My Trinkets`.
-
-Os nad oes gennych chi gyfrif Trinket, mae'n dal yn bosib i chi ddychwelyd i'ch prosiect yn y dyfodol ar yr un cyfrifiadur drwy ddefnyddio'r ddolen prosiect dechreuol.
 
 --- save ---
