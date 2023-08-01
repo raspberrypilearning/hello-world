@@ -24,7 +24,7 @@ Mae'r cod hwn yn gosod y newidyn `byd` i gynnwys y testun '🌍🌎🌏' (y tri 
 
 byd = '🌍🌎🌏'
 
-![The output area from the Trinket editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
+![The output area from the code editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
 
 --- choices ---
 
