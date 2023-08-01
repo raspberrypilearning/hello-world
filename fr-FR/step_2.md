@@ -13,25 +13,55 @@ Il est de coutume d'écrire un programme pour afficher « Bonjour le monde ! 
 
 --- task ---
 
-Ouvre le projet de démarrage [Bonjour 🌍🌎🌏](https://trinket.io/python/975f35023b){:target="_blank"}. Trinket s'ouvrira dans un autre onglet du navigateur.
+Ouvre le projet de démarrage [Bonjour 🌍🌎🌏](https://trinket.io/python/96adf5c600){:target="_blank"}. Trinket s'ouvrira dans un autre onglet du navigateur.
 
 ![L'éditeur Trinket avec le code de démarrage du projet à gauche dans la zone de code. Sur la droite se trouve la zone de sortie vierge.](images/starter_project.png)
 
+If you have a Raspberry Pi account, you can click on the **Save** button to save a copy to your **Projects**.
+
 --- /task ---
 
-La ligne `#!/bin/python3` précise à Trinket que nous utilisons Python 3 (la version la plus récente). Les lignes `import` indiquent à Python que tu vas utiliser du code que tu n'as pas écrit.
+--- collapse ---
 
-En Python, `print()` affiche du texte (mots ou nombres) à l'écran.
+---
+title: Working on a Raspberry Pi?
+---
+
+La plupart des ordinateurs te permettent d'utiliser des emoji de couleur. You need to install a font that supports them.
+
+Open a terminal and then type:
+
+```bash
+sudo apt install fonts-noto-color-emoji
+```
+
+Restart Chromium and you should see the colour emojis.
+
+--- /collapse ---
+
+### from noemoji import *
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Lines beginning with a `#` are <span style="color: #0faeb0">**comments**</span>. They explain what the code will do. Comments are ignored by Python.
+</p>
 
 Les lignes commençant par `#` sont des commentaires, elles expliquent le code aux humains et sont ignorées par Python.
 
+En Python, `print()` affiche du texte (mots ou nombres) à l'écran.
+
 --- task ---
 
-Trouve la ligne `# Mettre le code à exécuter ci-dessous `.
+Trouve la ligne `# Mettre le code à exécuter ci-dessous`.
 
 Clique sous cette ligne. Le `|` qui clignote est le curseur et indique où tu taperas.
 
-Tape le code `print()` bonjour:
+--- /task ---
+
+--- task ---
+
+Tape le code `print()` bonjour :
+
+Clique sur l'onglet **main.py** pour revenir à ton code `print()`.
 
 --- code ---
 ---
@@ -49,7 +79,7 @@ print('Bonjour')
 title: Saisie de caractères spéciaux sur un clavier français
 ---
 
-Sur un clavier français, la parenthèse gauche `(` et droite `)` se trouvent sur les touches <kbd>5</kbd> et <kbd>°</kbd>. Le guillemet simple `'` se trouve sur la touche <kbd>4</kbd>. La virgule `,` est à côté du <kbd>N</kbd>.
+Sur un clavier français, la parenthèse gauche `(` et droite `)` se trouvent sur les touches <kbd>5</kbd> et <kbd>°</kbd>. To type a left round bracket, hold down the <kbd>Shift</kbd> key (next to <kbd>Z</kbd>) and then tap <kbd>9</kbd>. The single quote `'` is on the same row as the <kbd>L</kbd> key, just before the <kbd>Enter</kbd> key. La virgule `,` est à côté du <kbd>N</kbd>.
 
 --- /collapse ---
 
@@ -67,13 +97,15 @@ Sur un clavier français, la parenthèse gauche `(` et droite `)` se trouvent su
 
 --- /task ---
 
-En Python, une **variable** est utilisée pour stocker du texte ou des nombres. Les variables facilitent la lecture du code par les humains. Tu peux utiliser la même variable à de nombreux endroits dans ton code.
+## Print 🌍🌎🌏
+
+En Python, une **variable** est utilisée pour stocker du texte ou des nombres. Les variables facilitent la lecture du code par les humains. Tu peux utiliser la même variable à de nombreux endroits dans ton code. Choosing a sensible name for a variable makes it easier for you to remember what it is for.
 
 Nous avons inclus quelques variables qui stockent les caractères emoji.
 
 --- task ---
 
-Dans ton Trinket, clique sur l'onglet **emoji.py**. Trouve la variable `monde`, qui stocke le texte '🌍🌍🌍'.
+Dans ton Trinket, clique sur l'onglet **emoji.py**. Trouve la variable `world`, qui stocke le texte '🌍🌍🌍'.
 
 --- /task ---
 
@@ -81,22 +113,20 @@ Dans ton Trinket, clique sur l'onglet **emoji.py**. Trouve la variable `monde`, 
 
 Tu peux `print()` plusieurs éléments à la fois en incluant une virgule `,` entre les éléments. `print()` ajoutera un espace entre chaque élément.
 
-Clique sur l'onglet **main.py** pour revenir à ton code `print()`.
-
-Change ton code pour aussi `print()` le contenu de la variable `monde` :
+Change ton code pour aussi `print()` le contenu de la variable `world` :
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: true line_number_start: 11
-line_highlights: 12
+line_highlights: 3
 ---
 
 # Mettre le code à exécuter ci-dessous
-print('Bonjour', monde)
+print('Bonjour', world)
 
 --- /code ---
 
-**Astuce :** `'Bonjour'` est une chaîne de texte car elle est entourée de guillemets simples, tandis que `monde` est une variable de sorte que la valeur qui y est stockée sera imprimée.
+**Astuce :** `'Bonjour'` est une chaîne de texte car elle est entourée de guillemets simples, tandis que `world` est une variable de sorte que la valeur qui y est stockée sera imprimée.
 
 --- /task ---
 
@@ -108,32 +138,11 @@ print('Bonjour', monde)
 
 Les emoji peuvent avoir un aspect différent sur différents ordinateurs, de sorte que le tien peut ne pas être exactement le même.
 
-**Débogage :** Assure-toi que tu as ajouté une virgule entre les éléments dans `print()` et que tu as correctement orthographié `monde`.
+**Débogage :** Assure-toi que tu as ajouté une virgule entre les éléments dans `print()` et que tu as correctement orthographié `world`.
 
 Il manque la virgule `,` dans cet exemple. C'est petit mais très important !
 
 ![L'éditeur Trinket avec des guillemets simples manquants et l'erreur 'SyntaxError: bad input on line 12 in main.py' affiché.](images/comma_error.png)
-
---- collapse ---
----
-title: Je ne vois pas l'emoji
----
-
-La plupart des ordinateurs te permettent d'utiliser des emoji de couleur. Cependant, si tu ne peux pas utiliser d'emoji, tu peux utiliser des « émoticônes » à la place, comme nous le faisions avant l'invention des emoji !
-
-Remplace la ligne `from emoji import *` par :
-
---- code ---
----
-language: python filename: main.py line_numbers: true line_number_start: 3
-line_highlights: 3
----
-
-from noemoji import *
-
---- /code ---
-
---- /collapse ---
 
 --- /task ---
 
@@ -169,7 +178,5 @@ print('Bienvenue dans', python)
 --- /task ---
 
 Si tu as un compte Trinket, tu peux cliquer sur le bouton **Remix** pour enregistrer une copie dans ta bibliothèque `My Trinkets`.
-
-Si tu n'as pas de compte Trinket, tu peux toujours revenir à ton projet à l'avenir sur le même ordinateur en utilisant le lien du projet de démarrage.
 
 --- save ---
