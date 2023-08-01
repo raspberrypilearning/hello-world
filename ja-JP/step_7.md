@@ -6,7 +6,7 @@
   </div>
 <div>
 
-![出力領域のより多くのテキスト、絵文字、入力で長くなったプロジェクト。](images/upgrade_ideas.png){:width="300px"}
+![出力領域のより多くのテキスト、絵文字、入力で長くなったプロジェクト。](images/upgrade_ideas.png){:width="300px"} 
 
 </div>
 </div>
@@ -17,7 +17,13 @@
 + もっと関数を書いてコードを整理する
 + `#`を使用して、コードにコメントを追加する
 
-**emoji.py**クリックして、使用できる絵文字変数を確認します。 **main.py**をクリックして戻り、コードに追加します。
+**emoji.py**クリックして、使用できる絵文字変数を確認します。 Copy the ones you choose and save them to a variable or add them directly to your code.
+
+**Tip:** To add emojis, find the comment # Emojis to copy and paste into your code. Copy the emojis you want to use then paste them into your code.
+
+📅🕒🎨🎮🔬🎉🕶️🎲🦄🚀💯⭐💛 😃😜❤️📚⚽🎾👟♻️🌳🔥✨🥺🌈
+
+[[[choose-an-emoji]]]
 
 趣味について尋ねる関数の例を次に示します。
 
@@ -53,13 +59,12 @@ hobbies()
 
 --- /code ---
 
-
 --- collapse ---
 ---
 title: 完成したプロジェクト
 ---
 
-[完成したプロジェクトはこちら](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}で確認できます。
+[完成したプロジェクトはこちら](https://trinket.io/embed/python/2dac038492){:target="_blank"}で確認できます。
 
 --- /collapse ---
 
