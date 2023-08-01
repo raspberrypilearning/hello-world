@@ -6,24 +6,48 @@
 </div>
 <div>
 
-![テキストと絵文字からなる2行を表示するTrinketの出力領域。](images/say_hello.png){:width="200px"}
+![テキストと絵文字からなる2行を表示するTrinketの出力領域。 ](images/say_hello.png){:width="200px"}
 
 </div>
 </div>
 
 --- task ---
 
-[こんにちは 🌍🌎🌏 基本プロジェクト](https://trinket.io/python/975f35023b){:target="_blank"}を開きます。 Trinketは別のブラウザタブで開きます。
+[こんにちは 🌍🌎🌏 基本プロジェクト](https://trinket.io/python/a7fcb2ede7){:target="_blank"}を開きます。 Trinketは別のブラウザタブで開きます。
 
 ![基本プロジェクトコードを左側のコード領域を表示するTrinketエディター。 右側は空白の出力領域。](images/starter_project.png)
 
+If you have a Raspberry Pi account, you can click on the **Save** button to save a copy to your **Projects**.
+
 --- /task ---
 
-`#!/bin/python3`という行は、Python 3（Pythonの最新バージョン）を使用していることをコンピュータに伝えます。 `import`行は、自分が書いたのではないコードを使用することをPythonに伝えます。
+--- collapse ---
 
-Pythonでは、 `print()`はテキスト（言葉や数字）を画面に出力します。
+---
+title: Working on a Raspberry Pi?
+---
+
+If you're working on a Raspberry Pi using Chromium, you may not see the emojis. You need to install a font that supports them.
+
+Open a terminal and then type:
+
+```bash
+sudo apt install fonts-noto-color-emoji
+```
+
+Restart Chromium and you should see the colour emojis.
+
+--- /collapse ---
+
+### from noemoji import *
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Lines beginning with a `#` are <span style="color: #0faeb0">**comments**</span>. They explain what the code will do. Comments are ignored by Python.
+</p>
 
 `#`で始まる行はコメントで、コードを人間に説明するために書きますが、Pythonは無視します。
+
+Pythonでは、 `print()`はテキスト（言葉や数字）を画面に出力します。
 
 --- task ---
 
@@ -31,7 +55,13 @@ Pythonでは、 `print()`はテキスト（言葉や数字）を画面に出力�
 
 その行の下をクリックします。 点滅する`|`はカーソルで、文字入力する場所を示しています。
 
+--- /task ---
+
+--- task ---
+
 こんにちはを表示(`print()`)するコードを入力します。
+
+**main.py**タブをクリックして`print()`コードに戻ります。
 
 --- code ---
 ---
@@ -57,7 +87,7 @@ title: 英国または米国のキーボードで特殊文字を入力する
 
 --- task ---
 
-**テスト：****Run**ボタンをクリックしてコードを実行します。 Trinketでは、出力は右側に表示されます。
+**テスト：** **Run**ボタンをクリックしてコードを実行します。 Trinketでは、出力は右側に表示されます。
 
 ![出力領域に「こんにちは」と表示されている、強調表示されたRunアイコン。 ](images/run_hello.png)
 
@@ -67,13 +97,15 @@ title: 英国または米国のキーボードで特殊文字を入力する
 
 --- /task ---
 
-Pythonでは、**変数**を使用してテキストまたは数値を格納します。 変数は人間がコードを読むのを簡単にしてくれます。 コード内の多くの場所で同じ変数を使用できます。
+## Print 🌍🌎🌏
+
+Pythonでは、**変数**を使用してテキストまたは数値を格納します。 変数は人間がコードを読むのを簡単にしてくれます。 コード内の多くの場所で同じ変数を使用できます。 Choosing a sensible name for a variable makes it easier for you to remember what it is for.
 
 絵文字を格納する変数をいくつか含めました。
 
 --- task ---
 
-Trinketで、**emoji.py**タブをクリックします。 変数`world`を探してください。「🌍🌍🌍」というテキストが格納されています。
+`from emoji import *`行を以下のように変更します。 変数`world`を探してください。 「🌍🌍🌍」というテキストが格納されています。
 
 --- /task ---
 
@@ -81,14 +113,12 @@ Trinketで、**emoji.py**タブをクリックします。 変数`world`を探�
 
 一度に複数のアイテムを`print()`するには、アイテムの間にコンマ`,`を入れます。 `print()`は、各アイテムの間にスペースを追加します。
 
-**main.py**タブをクリックして`print()`コードに戻ります。
-
 コードを変更して、変数`world`の内容も`print()`します。
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: true line_number_start: 11
-line_highlights: 12
+line_highlights: 3
 ---
 
 # 動かしたいコードをこの下に書く
@@ -106,34 +136,13 @@ print('こんにちは', world)
 
 ![出力領域に「こんにちは」という単語の後に3つの地球の絵文字が表示された、コード領域の更新されたコード行。](images/run_hello_world.png)
 
-絵文字はパソコンによって見た目が異なる場合があるため、まったく同じようには見えない場合があります。
+**Tip:** Emojis can look different on different computers, so yours might not look exactly the same.
 
 **デバッグ：**`print()`のアイテムの間にコンマを追加していること、`world`のスペルが正しいことを確認してください。
 
 この例では、コンマ`,`がありません。 小さなことですがとても重要です！
 
 ![引用符が抜け、'SyntaxError: bad input on line 12 in main.py'のエラーが表示されたTrinketエディター](images/comma_error.png)
-
---- collapse ---
----
-title: 絵文字が表示されません
----
-
-ほとんどのコンピューターでは、カラーの絵文字を使用できます。 ただし、絵文字を使用できない場合は、代わりに「顔文字」を使用できます。これは、絵文字が発明される前に使われていた方法です。
-
-`from emoji import *`行を以下のように変更します。
-
---- code ---
----
-language: python filename: main.py line_numbers: true line_number_start: 3
-line_highlights: 3
----
-
-from noemoji import *
-
---- /code ---
-
---- /collapse ---
 
 --- /task ---
 
@@ -168,8 +177,6 @@ print(python, 'へ ようこそ')
 
 --- /task ---
 
-Trinketアカウントをお持ちの場合は、**Remix**ボタンをクリックして、 `My Trinkets`ライブラリにコピーを保存できます。
-
-Trinketアカウントをお持ちでない場合でも、同じコンピューターでは基本プロジェクトのリンクを使用して、今後プロジェクトに戻ることができます。
+If you have a Raspberry Pi account, on your code editor you can click on the **Save** button to save a copy of your project to your Projects.
 
 --- save ---
