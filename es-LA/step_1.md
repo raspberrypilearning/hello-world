@@ -1,4 +1,8 @@
-## Introducción
+<div class="c-survey-banner" style="width:100%">
+  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/f/code-editor-feedback" target="_blank">Take our survey</a> to help make our Code Editor better!
+</div>
+
+## Lo que harás
 
 Descubre lo que el lenguaje de programación Python puede hacer escribiendo un proyecto interactivo que usa emojis.
 
@@ -7,25 +11,22 @@ Los <span style="color: #0faeb0">**Emojis**</span> son pequeñas imágenes color
 </p>
 
 Vas a:
+
 + `print()` texto, incluyendo emojis, y recibir `input()` del usuario
 + Almacenar texto y números en **variables**
 + Usar **funciones** para organizar tu código
 
 --- no-print ---
 
-### Pruébalo
+### Reproducir ▶️
 
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
-Lee la salida y presiona <kbd>Enter</kbd> para continuar. 
-Escribe tus respuestas. ¿Puedes ver cómo se usan tus respuestas?
-</div>
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/a54e164ac2?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-  <img src="images/hello-final.png">
+<div style="flex-basis: 175px; flex-grow: 1">
+
+<iframe src="" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
 </div>
 </div>
 
@@ -35,8 +36,6 @@ Escribe tus respuestas. ¿Puedes ver cómo se usan tus respuestas?
 
 --- print-only ---
 
-![Proyecto terminado](images/showcase_static.png)
+![Completed project showing example code on the code editor](images/showcase_static.png){:width="640px"}
 
---- /print-only ---
-
-![](http://code.org/api/hour/begin_codeclub_hworld.png)
+--- /print-only ---![](http://code.org/api/hour/begin_codeclub_hworld.png)
