@@ -1,12 +1,17 @@
+<div class="c-survey-banner" style="width:100%">
+  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/f/code-editor-feedback" target="_blank">Take our survey</a> to help make our Code Editor better!
+</div>
+
 ## Cyflwyniad
 
 Dewch i wybod beth gall iaith raglenni Python ei wneud drwy ysgrifennu prosiect rhyngweithiol sy'n defnyddio emoji.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Ystyr <span style="color: #0faeb0">**Emoji**</span> yw delweddau lliwgar, bach sy'n cael eu defnyddio i ychwanegu ystyr ychwanegol at negeseuon. Ystyr emoji yw 'gair llun' yn Japaneg.
+<span style="color: #0faeb0">**Emojis**</span> are small colourful images 🥰 used to add extra meaning to messages. Ystyr emoji yw 'gair llun' yn Japaneg.
 </p>
 
 Byddwch chi'n:
+
 + defnyddio `print()` i brintio testun, gan gynnwys emoji, ac `input()` i gael mewnbwn gan y defnyddiwr
 + Storio testun a rhifau mewn **newidynnau**
 + Defnyddio **swyddogaethau** i roi trefn ar eich cod
@@ -18,14 +23,10 @@ Byddwch chi'n:
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
-Darllenwch yr allbwn a tharo <kbd>Cyflwyno</kbd> i fwrw ymlaen. 
-Teipiwch eich atebion i'r cwestiynau. Ydych chi'n gallu gweld sut mae eich atebion yn cael eu defnyddio?
-</div>
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/a54e164ac2?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-  <img src="images/hello-final.png">
+<div style="flex-basis: 175px; flex-grow: 1">
+
+<iframe src="" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
 </div>
 </div>
 
@@ -35,8 +36,6 @@ Teipiwch eich atebion i'r cwestiynau. Ydych chi'n gallu gweld sut mae eich atebi
 
 --- print-only ---
 
-![Prosiect wedi'i gwblhau](images/showcase_static.png)
+![Completed project showing example code on the code editor](images/showcase_static.png){:width="640px"}
 
---- /print-only ---
-
-![](http://code.org/api/hour/begin_codeclub_hworld.png)
+--- /print-only ---![](http://code.org/api/hour/begin_codeclub_hworld.png)
