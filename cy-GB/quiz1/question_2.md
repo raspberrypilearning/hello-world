@@ -6,7 +6,7 @@ legend: Cwestiwn 2 o 3
 
 Pa un o'r diffiniadau swyddogaeth hyn sy'n gywir ac a fydd yn printio `Dwi'n gallu codio` pan fydd yn cael ei alw?
 
-![Y golygydd Trinket gydag ardal allbwn yn dangos <code>Dwi'n gallu codio</code>.](images/quiz2.png)
+![The code editor with output area showing <code>I can code</code>.](images/quiz2.png)
 
 --- choices ---
 
