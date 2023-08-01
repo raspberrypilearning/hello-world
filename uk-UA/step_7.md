@@ -2,11 +2,11 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Доповни свій проєкт. Є ще більше емодзі на вибір.
+Доповни свій проєкт. There are more emojis to choose from.
   </div>
 <div>
 
-![Більш складний проєкт, з більшою кількістю тексту, емодзі та вхідних даних.](images/upgrade_ideas.png){:width="300px"}
+![Більш складний проєкт, з більшою кількістю тексту, емодзі та вхідних даних.](images/upgrade_ideas.png){:width="300px"} 
 
 </div>
 </div>
@@ -17,9 +17,18 @@
 + Напиши більше функцій, щоб організувати свій код
 + Використовуй `#`, щоб додати коментарі до коду
 
-Натисни на вкладку **emoji.py**, щоб побачити змінні емодзі, які ти можеш використовувати. Повернись до вкладки **main.py**, щоб додати їх до свого коду.
+Scroll to the **emoji** section in the code editor to see the emojis and example variables that you can use. Copy the ones you choose and save them to a variable or add them directly to your code.
 
-Ось приклад функції, яка задає питання про хобі:
+**Tip:** To add emojis, find the comment # Emojis to copy and paste into your code. Copy the emojis you want to use then paste them into your code.
+
+📅🕒🎨🎮🔬🎉🕶️🎲🦄🚀💯⭐💛 😃😜❤️📚⚽🎾👟♻️🌳🔥✨🥺🌈
+
+[[[choose-an-emoji]]]
+
+def hobbies():   
+hobby = input('Що тобі подобається?')   
+print('Це звучить', fun)   
+print('Ти можеш створити', python, 'проєкт про', hobby)
 
 --- code ---
 ---
@@ -28,16 +37,13 @@ filename: main.py
 ---
 
 # Розмісти код для виконання тут
-def hobbies():   
-hobby = input('What do you like?')   
-print('That sounds', fun)   
-print('You could make a', python, 'project about', hobby)
+Ти можеш використовувати `input`, щоб змусити свій проєкт чекати, поки користувач натисне на <kbd>Enter</kbd>, на будь-якому етапі проєкту.
 
 --- /code ---
 
-**Порада:** Не забувай, що тобі потрібно буде викликати свою функцію, а також визначити її.
+**Tip:** Don't forget you will need to call your function as well as define it.
 
-Ти можеш використовувати `input`, щоб змусити свій проєкт чекати, поки користувач натисне на <kbd>Enter</kbd>, на будь-якому етапі проєкту.
+You can use `input` to make your project wait for the user to tap <kbd>Enter</kbd> at any point in this project.
 
 --- code ---
 ---
@@ -47,19 +53,18 @@ filename: main.py
 
 roll_dice()
 
-input() #Wait for the user to tap Enter
+input()  # Wait for the user to tap Enter
 
-hobbies()
+Ти можеш переглянути [завершений проєкт тут](https://trinket.io/embed/python/dff729ae04){:target="_blank"}.
 
 --- /code ---
-
 
 --- collapse ---
 ---
 title: Завершений проєкт
 ---
 
-Ти можеш переглянути [завершений проєкт тут](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}.
+You can view the [completed project here](https://editor.raspberrypi.org/en/projects/hello-world-solution){:target="_blank"}.
 
 --- /collapse ---
 
