@@ -6,7 +6,7 @@ Ajoute plus à ton projet. Il y a plus d'emoji parmi lesquels choisir.
   </div>
 <div>
 
-![Un projet plus long dans la zone de sortie avec plus de texte, d'emoji et d'entrées.](images/upgrade_ideas.png){:width="300px"}
+![Un projet plus long dans la zone de sortie avec plus de texte, d'emoji et d'entrées.](images/upgrade_ideas.png){:width="300px"} 
 
 </div>
 </div>
@@ -17,7 +17,13 @@ Tu pourrais :
 + Écrire plus de fonctions pour organiser ton code
 + Utiliser `#` pour ajouter des commentaires à ton code
 
-Clique sur **emoji.py** pour voir les variables emoji que tu peux utiliser. Clique de nouveau sur **main.py** pour ajouter à ton code.
+Clique sur **emoji.py** pour voir les variables emoji que tu peux utiliser. Copy the ones you choose and save them to a variable or add them directly to your code.
+
+**Tip:** To add emojis, find the comment # Emojis to copy and paste into your code. Copy the emojis you want to use then paste them into your code.
+
+📅🕒🎨🎮🔬🎉🕶️🎲🦄🚀💯⭐💛 😃😜❤️📚⚽🎾👟♻️🌳🔥✨🥺🌈
+
+[[[choose-an-emoji]]]
 
 Voici un exemple de fonction qui pose des questions sur les hobbies :
 
@@ -53,13 +59,12 @@ hobbies()
 
 --- /code ---
 
-
 --- collapse ---
 ---
 title: Le projet terminé
 ---
 
-Tu peux voir le [projet terminé ici](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}.
+Tu peux voir le [projet terminé ici](https://trinket.io/embed/python/e13f9e6c62){:target="_blank"}.
 
 --- /collapse ---
 
