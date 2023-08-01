@@ -6,7 +6,7 @@ legend : Question 2 sur 3
 
 Laquelle de ces définitions de fonction est correcte et affichera `Je peux coder` lorsqu'elle est appelée ?
 
-![L'éditeur Trinket avec la zone de sortie indiquant <code>Je peux coder</code>.](images/quiz2.png)
+![The code editor with output area showing <code>I can code</code>.](images/quiz2.png)
 
 --- choices ---
 
