@@ -6,7 +6,7 @@ Python відмінно працює з числами та датами.
 </div>
 <div>
 
-![Область виведення, яка містить п'ять рядків, що виводять нову суму та актуальну дату.](images/sums_dates.png){:width="300px"}
+![Область виведення, яка містить п'ять рядків, що виводять нову суму та актуальну дату.](images/sums_dates.png){:width="300px"} 
 
 </div>
 </div>
@@ -19,96 +19,116 @@ Python відмінно працює з числами та датами.
 | / | ділити |   
 | ** | піднести до степеня |
 
+### Create a calculation
+
 --- task ---
 
 Додай ще два рядки `print()` до свого коду, включаючи цифру, яку повинен опрацювати Python:
 
+**Tip:** To get a `*` symbol press <kbd>Shift</kbd> and <kbd>8</kbd> at the same time.
+
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 12
+print('Привіт', world)   
+print('Ласкаво просимо в', python)   
+print(python, 'дуже добре справляється з', sums)   
+print(230 * 5782 ** 2 / 23781)
 line_highlights: 14-15
 ---
 
 print('Hello', world)   
 print('Welcome to', python)   
-print(python, 'is very good at', sums)   
-print(230 * 5782 ** 2 / 23781)
+print(python, 'is very good at maths!')   
+print(230 * 5782 ** 2 / 23781)  # Print the result of the sum
 
 --- /code ---
 
+**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the code before the `#`.
+
 --- /task ---
 
 --- task ---
 
-**Тест:** Запусти свій код. Чи правильно Python порахував суму? Це жарт! Python виконує складні обчислення за тебе, тому можеш не замислюватися над ними.
+**Test:** Run your code. Did Python calculate the sum correctly? Only joking! Python does the hard maths for you so you don't need to work it out.
 
---- /task ---
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Японський вчений інформатики <span style="color: #0faeb0">**Емма Харука Івао**</span> використовувала комп'ютер для обчислення числа Пі (*π*) до 31 трильйона цифр. Ця цифра настільки довга, що знадобилося б понад 300 000 років, щоб її вимовити! 
-</p>
-
---- task ---
+**Debug:**
 
 Спробуй змінювати суму, яку обчислює Python, на складнішу!
-
-Ти також можеш використовувати дужки, якщо хочеш керувати послідовністю, в якій Python обчислює суму: `print( (2 + 4) * (5 + 3) )`.
-
---- /task ---
-
---- task ---
-
-**Тест:** Запусти свій код та змусь Python обчислити твою суму.
-
-**Налагодження:** Переконайся, що твоя сума оточена лівою та правою круглими дужками `( 2 * 45 )`. Якщо ти використовуєш додаткові дужки для управління послідовністю, переконайся, що кожна права дужка збігається з кожною лівою дужкою.
-
---- /task ---
-
---- task ---
-
-Якщо ти змусиш Python обчислити дуже велику суму, то можеш помітити, що відповідь займає декілька рядків у області виведення.
-
-**Порада:** Натисни на **гамбургер-меню** (іконка з трьома лініями) у верхньому лівому кутку редактора Trinket. Далі натисни на кнопку **Fullscreen**, щоб відкрити свій проєкт у повноекранному режимі.
-
-![Редактор Trinket з лівим боковим меню, розширений через гамбургер-меню, щоб відкрити повноекранний режим.](images/full_screen.png)
-
-Щоб вийти з повноекранного режиму, знову натисни на кнопку **Fullscreen** або <kbd>Esc</kbd> на клавіатурі.
-
---- /task ---
-
-Рядок `from datetime import *`, у верхній частині вкладки **main.py** містить бібліотеку з корисними функціями для отримання актуальної дати та часу.
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Чудова функція Python полягає в тому, що існують <span style="color: #0faeb0">**бібліотеки**</span> кодів, які завжди доступні для використання. Бібліотека Python дозволяє легко використовувати код, написаний іншими людьми. Існують бібліотеки для малювання діаграм та графіків, створення малюнків, розрахунків та багато іншого.
-</p>
-
---- task ---
-
-Додай ще один рядок до свого коду, щоб `вивести` більше тексту та змінних емодзі `calendar` або `clock`.
-
-Отримати поточну дату та час можна за допомогою функції `now()` з бібліотеки `datetime`:
-
---- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 14
 line_highlights: 16-17
 ---
 
-print(python, 'is very good at', sums)    
-print(230 * 5782 ** 2 / 23781) #Print the result of the sum     
-print('The', calendar, clock, 'is', datetime.now()) #Print with emoji
+Ти також можеш використовувати дужки, якщо хочеш керувати послідовністю, в якій Python обчислює суму: `print( (2 + 4) * (5 + 3) )`.
 
---- /code ---
+--- /collapse ---
 
-**Порада:** Тобі не потрібно писати коментарі, вони існують лише для того, щоб допомогти тобі зрозуміти код. Просто введи частину перед `#`.
+--- /task ---
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi (*π*) to 31 trillion digits. That answer is so long that it would take over 300,000 years just to say it! 
+</p>
+
+--- task ---
+
+Try changing the sum that Python does to a complicated one!
+
+You can also use brackets if you want to control the order that Python calculates the sum: `print( (2 + 4) * (5 + 3) )`.
 
 --- /task ---
 
 --- task ---
 
-**Тест:** Запусти свій код декілька разів, щоб побачити оновлення дати та часу.
+**Test:** Run your code and get Python to calculate your sum.
 
-**Налагодження:** Переконайся, чи стоїть крапка `.` між `datetime` та `now`. Уважно перевіряй всі пунктуаційні знаки.
+**Debug:** Make sure your sum has a left and right round bracket around it `( 2 * 45 )`. If you use extra brackets to control the order, make sure you have a right bracket to match every left bracket.
+
+--- /task ---
+
+--- task ---
+
+On the code editor, you might find the text too big or too small to read. You can easily change these settings to suit your preference.
+
+**Tip:** Click on the **Settings menu** (the icon next to the Save button) in the top-right of your code editor. Then click on any of the **Text Size** buttons to change the size of the text.
+
+![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png)
+
+Отримати поточну дату та час можна за допомогою функції `now()` з бібліотеки `datetime`:
+
+--- /task ---
+
+language: python filename: main.py line_numbers: true line_number_start: 14
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. A Python library allows you to easily use code that other people have written. There are libraries for drawing charts and graphs, making art, doing calculations, and lots more.
+</p>
+
+--- task ---
+
+Add another line to your code to `print` the current date and time.
+
+Get the current date and time by using the `now()` function from the `datetime` library:
+
+--- code ---
+---
+**Тест:** Запусти свій код декілька разів, щоб побачити оновлення дати та часу.
+line_highlights: 22
+---
+
+print(python, 'is very good at maths!')    
+print(230 * 5782 ** 2 / 23781)  # Print the result of the sum     
+print('The date and time is', datetime.now())  # Print the current date and time
+
+--- /code ---
+
+**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
+
+--- /task ---
+
+--- task ---
+
+**Test:** Run your code a couple of times to see the time update.
+
+**Debug:** Check that you have a fullstop `.` between `datetime` and `now`. Check all the punctuation carefully.
 
 --- /task ---
 
