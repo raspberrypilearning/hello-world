@@ -6,7 +6,7 @@ Allbynnu mwy o frawddegau o'ch prosiect.
 </div>
 <div>
 
-![Llinellau print newydd yn yr ardal allbwn gyda brawddegau emoji a thestun.](images/sentence_starter.png){:width="300px"}
+![Llinellau print newydd yn yr ardal allbwn gyda brawddegau emoji a thestun.](images/sentence_starter.png){:width="300px"} 
 
 </div>
 </div>
@@ -31,19 +31,25 @@ print('Hoffwn i wneud ... gyda', python)
 
 **Cyngor:** Os oes angen i chi brintio collnod, `'` rhaid i chi roi ôl-slaes `\` o'i flaen er mwyn i Python wybod ei fod yn rhan o'r testun.
 
+**Tip:** Add a `#` at the beginning of a line to turn it into a comment.
+
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-Mae'r <span style="color: #0faeb0">emoji calon felen</span> yn cael ei defnyddio i ddangos cyfeillgarwch a hapusrwydd yn aml.</p>
+The <span style="color: #0faeb0">yellow heart emoji 💛</span> is often used to show friendship and happiness.</p>
 
 --- task ---
 
-Pa neges fyddech chi'n ei hanfon at ffrind i godi eu calon? Pa emoji fyddech chi'n ei ddewis?
+What message would you send to a friend to cheer them up? Which emoji would you choose?
 
-Cliciwch y tab **emoji.py** yn Trinket i weld y newidynnau emoji gallwch chi eu defnyddio. Cliciwch yn ôl i'r tab **main.py** i ychwanegu at eich cod.
+Scroll to the **emoji** section in the code editor to see the emojis and example variables that you can use. Copy the ones you choose and save them to a variable or add them directly to your code.
 
-Fe allwch chi ychwanegu mwy o newidynnau emoji at **emoji.py**. Defnyddiwch y [rhestr emoji](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} hon i ddod o hyd i rai.
+You can add more emojis to the **emoji** section. Use this [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} to find the ones you want.
+
+📅🕒🎨🎮🔬🎉🕶️🎲🦄🚀💯⭐💛 😃😜❤️📚⚽🎾👟♻️🌳🔥✨🥺🌈
+
+[[[choose-an-emoji]]]
 
 --- /task ---
 
