@@ -6,7 +6,7 @@ Añade más cosas a tu proyecto. Hay más emojis que puedes elegir.
   </div>
 <div>
 
-![Un proyecto más largo en el área de salida con más texto, emojis y entradas.](images/upgrade_ideas.png){:width="300px"}
+![Un proyecto más largo en el área de salida con más texto, emojis y entradas.](images/upgrade_ideas.png){:width="300px"} 
 
 </div>
 </div>
@@ -17,7 +17,13 @@ Tú podrías:
 + Escribir más funciones para organizar tu código
 + Usar `#` para añadir más comentarios a tu código
 
-Haz clic en **emoji.py** para ver las variables de emoji que puedes usar. Vuelve a hacer clic en **main.py** para añadirlo tu código.
+Haz clic en **emoji.py** para ver las variables de emoji que puedes usar. Copy the ones you choose and save them to a variable or add them directly to your code.
+
+**Tip:** To add emojis, find the comment # Emojis to copy and paste into your code. Copy the emojis you want to use then paste them into your code.
+
+📅🕒🎨🎮🔬🎉🕶️🎲🦄🚀💯⭐💛 😃😜❤️📚⚽🎾👟♻️🌳🔥✨🥺🌈
+
+[[[choose-an-emoji]]]
 
 Aquí tenemos un ejemplo de función que pregunta sobre pasatiempos:
 
@@ -28,10 +34,10 @@ filename: main.py
 ---
 
 # Pon el código a ejecutar aquí abajo
-def hobbies():   
-hobby = input('¿Qué te gusta?')   
+def pasatiempos():   
+pasatiempo = input('¿Qué te gusta?')   
 print('Eso suena', fun)   
-print('Podrías hacer un proyecto', python, 'sobre', hobby)
+print('Podrías hacer un proyecto', python, 'sobre', pasatiempo)
 
 --- /code ---
 
@@ -49,17 +55,16 @@ roll_dice()
 
 input() #Esperar a que el usuario presione Enter
 
-hobbies()
+hobbies()  # Calls the hobbies function
 
 --- /code ---
-
 
 --- collapse ---
 ---
 title: Proyecto terminado
 ---
 
-Puedes ver el [proyecto terminado aquí](https://trinket.io/embed/python/a54e164ac2){:target="_blank"}.
+Puedes ver el [proyecto terminado aquí](https://trinket.io/embed/python/47b1053391){:target="_blank"}.
 
 --- /collapse ---
 
