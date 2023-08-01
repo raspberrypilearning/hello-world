@@ -13,17 +13,41 @@ Het is traditie om een programma te schrijven om 'Hallo wereld!' uit te voeren. 
 
 --- task ---
 
-Open het [Hallo 🌍🌎🌏 startproject](https://trinket.io/python/975f35023b){:target="_blank"}. Trinket wordt geopend in een ander browser tabblad.
+Open het [Hallo 🌍🌎🌏 startproject](https://trinket.io/python/ac1985a5b8){:target="_blank"}. Trinket wordt geopend in een ander browser tabblad.
 
 ![De Trinket-editor met project-startcode aan de linkerkant in het codegebied. Aan de rechterkant is het lege uitvoergebied.](images/starter_project.png)
 
+If you have a Raspberry Pi account, you can click on the **Save** button to save a copy to your **Projects**.
+
 --- /task ---
 
-De regel `#!/bin/python3` vertelt Trinket dat je Python 3 (de nieuwste versie) gebruikt. De `import`-regels vertellen Python dat je code gaat gebruiken die je niet zelf hebt geschreven.
+--- collapse ---
+
+---
+title: Working on a Raspberry Pi?
+---
+
+If you're working on a Raspberry Pi using Chromium, you may not see the emojis. You need to install a font that supports them.
+
+Open a terminal and then type:
+
+```bash
+sudo apt install fonts-noto-color-emoji
+```
+
+Restart Chromium and you should see the colour emojis.
+
+--- /collapse ---
+
+### from noemoji import *
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Lines beginning with a `#` are <span style="color: #0faeb0">**comments**</span>. They explain what the code will do. Comments are ignored by Python.
+</p>
+
+De `import`-regels vertellen Python dat je code gaat gebruiken die je niet zelf hebt geschreven.
 
 In Python voert `print()` tekst (woorden of cijfers) uit naar het scherm.
-
-Regels die beginnen met `#` zijn opmerkingen, ze leggen de code uit aan mensen en worden genegeerd door Python.
 
 --- task ---
 
@@ -31,7 +55,13 @@ Zoek de `# Zet de code om uit te voeren hieronder` regel.
 
 Klik onder die regel. De knipperende `|` is de cursor en geeft aan waar je gaat typen.
 
+--- /task ---
+
+--- task ---
+
 Typ de code voor `print()` hallo:
+
+Klik op het tabblad **main.py** om terug te gaan naar jouw `print()`-code.
 
 --- code ---
 ---
@@ -67,7 +97,9 @@ Op een Brits of Amerikaans toetsenbord staan de linker `(` en rechter `)` ronde 
 
 --- /task ---
 
-In Python wordt een **-variabele** gebruikt om tekst of getallen op te slaan. Variabelen maken het voor mensen gemakkelijker om code te lezen. Je kunt dezelfde variabele op veel plaatsen in je code gebruiken.
+## Print 🌍🌎🌏
+
+In Python wordt een **-variabele** gebruikt om tekst of getallen op te slaan. Variabelen maken het voor mensen gemakkelijker om code te lezen. Je kunt dezelfde variabele op veel plaatsen in je code gebruiken. Choosing a sensible name for a variable makes it easier for you to remember what it is for.
 
 We hebben enkele variabelen opgenomen die emoji-tekens opslaan.
 
@@ -81,14 +113,12 @@ Klik in Trinket op het tabblad **emoji.py**. Zoek de variabele `wereld`, die de 
 
 Je kunt met `print()` meer dan één item tegelijk laten zien door een komma `,` tussen de items op te nemen. `print()` voegt een spatie toe tussen elk item.
 
-Klik op het tabblad **main.py** om terug te gaan naar jouw `print()`-code.
-
 Verander je `print()` code om ook de inhoud van de `wereld` variabele te tonen:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: true line_number_start: 11
-line_highlights: 12
+line_highlights: 3
 ---
 
 # Zet de code om uit te voeren hier onder
@@ -113,27 +143,6 @@ Emoji kunnen er op verschillende computers anders uitzien, dus de jouwe ziet er 
 In dit voorbeeld ontbreekt de komma `,`. Het is klein maar heel belangrijk!
 
 ![De Trinket-editor met ontbrekende enkele aanhalingstekens en fout 'SyntaxError: slechte invoer op regel 12 in main.py' weergegeven.](images/comma_error.png)
-
---- collapse ---
----
-title: Ik zie de emoji niet
----
-
-Op de meeste computers kun je kleuren-emoji gebruiken. Als je emoji echter niet kunt gebruiken, kun je in plaats daarvan 'emoticons' gebruiken, zoals we deden voordat emoji werd uitgevonden!
-
-Wijzig de `from emoji import *` regel in:
-
---- code ---
----
-language: python filename: main.py line_numbers: true line_number_start: 3
-line_highlights: 3
----
-
-from noemoji import *
-
---- /code ---
-
---- /collapse ---
 
 --- /task ---
 
@@ -169,7 +178,5 @@ print('Welkom bij', python)
 --- /task ---
 
 Als je een Trinket-account hebt, kun je op de knop **Remix** klikken om een kopie op te slaan in je `My Trinkets`-bibliotheek.
-
-Als je geen Trinket-account hebt, kun je in de toekomst nog steeds op dezelfde computer terugkeren naar je project met behulp van de start-projectlink.
 
 --- save ---
