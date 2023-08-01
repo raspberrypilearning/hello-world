@@ -1,3 +1,7 @@
+<div class="c-survey-banner" style="width:100%">
+  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/f/code-editor-feedback" target="_blank">Take our survey</a> to help make our Code Editor better!
+</div>
+
 ## はじめに
 
 絵文字を使用するインタラクティブなプロジェクトを作成して、Pythonプログラミング言語で何ができるかを確認してください。
@@ -7,6 +11,7 @@
 </p>
 
 次のことを行います。
+
 + 絵文字を含むテキストを表示(`print()`)し、ユーザーから入力(`input()`)を得る
 + テキストや数値を**変数**に格納する
 + **関数**を使用してコードを整理する
@@ -18,14 +23,10 @@
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
-出力された文を読み、<kbd>Enter</kbd>をたたいて続行します。 
-質問への返答を入力します。 あなたの答えがどのように使われているのか分かりますか？
-</div>
-<div class="trinket">
-  <iframe src="https://trinket.io/embed/python/a54e164ac2?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-  <img src="images/hello-final.png">
+<div style="flex-basis: 175px; flex-grow: 1">
+
+<iframe src="" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
 </div>
 </div>
 
@@ -35,8 +36,6 @@
 
 --- print-only ---
 
-![完成したプロジェクト](images/showcase_static.png)
+![Completed project showing example code on the code editor](images/showcase_static.png){:width="640px"}
 
---- /print-only ---
-
-![](http://code.org/api/hour/begin_codeclub_hworld.png)
+--- /print-only ---![](http://code.org/api/hour/begin_codeclub_hworld.png)
