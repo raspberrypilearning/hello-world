@@ -6,7 +6,7 @@ legend: Ερώτηση 2 από 3
 
 Ποιος από αυτούς τους ορισμούς συναρτήσεων είναι σωστός και θα εμφανίσει `Μπορώ να προγραμματίσω` όταν καλείται;
 
-![Το πρόγραμμα επεξεργασίας Trinket με την περιοχή εξόδου να εμφανίζει <code>Μπορώ να προγραμματίσω</code>.](images/quiz2.png)
+![The code editor with output area showing <code>I can code</code>.](images/quiz2.png)
 
 --- choices ---
 
