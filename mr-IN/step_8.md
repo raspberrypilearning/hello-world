@@ -4,13 +4,15 @@ If you are following the [Introduction to Python](https://projects.raspberrypi.o
 
 --- print-only ---
 
-![Archery project](images/archery-project.png)
+![An archery target with a hit point on the outer circle. The text 'You hit the outer circle, 50 points!' is displayed underneath](images/blue-points.png){:width="640px"}
 
 --- /print-only ---
 
 --- no-print ---
 
-<iframe src="https://trinket.io/embed/python/f686c82d8a?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+Click the **Run** button to view an example of this project.
+
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/target-practice-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
 --- /no-print ---
