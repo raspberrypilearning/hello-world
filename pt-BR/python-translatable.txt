@@ -30,72 +30,72 @@ Primeiro número:
 
 Segundo número:
 
-hobbies
+passatempos
 
-hobby
+passatempo
 
-What do you like?
+Do que você gosta?
 
-That sounds ...
+Isso soa ...
 
-You could make a ...project about ...
+Você poderia fazer um ...projeto sobre ...
 
-roll_dice
+rolar_dado
 
-roll
+rolar
 
-now
+agora
 
-world 
+mundo 
 
-sums
+somas
 
-calendar
+calendário
 
-clock 
+relógio 
 
-projects 
+projetos 
 
-fun 
+diversão 
 
-dice 
+dados 
 
-unicorn 
+unicórnio 
 
-space 
+espaço 
 
-happy 
+feliz 
 
-silly 
+bobagem 
 
-heart 
+coração 
 
-games 
+jogos 
 
-books 
+livros 
 
-sports 
+esportes 
 
-green 
+verde 
 
-nature 
+natureza 
 
-fire 
+fogo 
 
-sparkles 
+brilhos 
 
-plead 
+pleitear 
 
-hundred 
+centenas 
 
-star 
+estrela 
 
-yellow_heart 
+coração_amarelo 
 
-rainbow
+arco-íris
 
-Choose the biggest number:
+Escolha o maior número:
 
-I <3 rainbows
+eu <3 arco-íris
 
-You hit the bullseye, 500 points!
+Você acertou o alvo, 500 pontos!
