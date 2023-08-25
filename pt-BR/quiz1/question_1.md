@@ -24,7 +24,7 @@ mundo = '🌍🌎🌏'
 
 Qual código usa corretamente a variável `world` e gera Olá 🌍🌎🌏?
 
-![The output area from the code editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
+![A área de saída do editor Trinket com Olá 🌍🌎🌏 aparecendo.](images/quiz1.png)
 
 --- choices ---
 
