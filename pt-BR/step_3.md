@@ -85,7 +85,7 @@ Você também pode usar parênteses se quiser controlar a ordem em que o Python 
 
 No editor de código, você pode achar o texto muito grande ou muito pequeno para ler. Você pode alterar facilmente essas configurações de acordo com sua preferência.
 
-**Dica:** Clique no menu **hambúrger** (o ícone com três linhas) no canto superior esquerdo do seu editor Trinket. Em seguida, clique em qualquer um dos botões **Text Size** para alterar o tamanho do texto.
+**Tip:** Click on the **Settings menu**  on the left of your code editor. Em seguida, clique em qualquer um dos botões **Text Size** para alterar o tamanho do texto.
 
 ![O editor de código com o menu de configurações expandido, para mostrar as opções Modo de cores e Tamanho do texto.](images/full_screen.png)
 
