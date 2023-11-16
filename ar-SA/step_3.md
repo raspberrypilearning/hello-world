@@ -85,7 +85,7 @@ Make sure that you have added a comma `,` between the items in `print()` and tha
 
 On the code editor, you might find the text too big or too small to read. You can easily change these settings to suit your preference.
 
-**نصيحة:** انقر فوق قائمة **hamburger** (أيقونة بها ثلاثة أسطر) في أعلى يسار محرر Trinket. ثم انقر فوق الزر **Fullscreen** لعرض مشروعك في وضع ملء الشاشة.
+ثم انقر فوق الزر **Fullscreen** لعرض مشروعك في وضع ملء الشاشة. **نصيحة:** انقر فوق قائمة **hamburger** (أيقونة بها ثلاثة أسطر) في أعلى يسار محرر Trinket.
 
 ![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png)
 
