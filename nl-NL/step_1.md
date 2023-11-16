@@ -23,9 +23,15 @@ Je gaat:
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">
+<div style="flex-basis: 175px; flex-grow: 1">  
 
-<iframe src="" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+Lees de uitvoer en tik vervolgens op <kbd>Enter</kbd> om door te gaan.
+
+  Typ jouw antwoorden op de vragen. 
+
+Kun je zien hoe je antwoorden worden gebruikt?
+
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/hello-world-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 </div>
 </div>
