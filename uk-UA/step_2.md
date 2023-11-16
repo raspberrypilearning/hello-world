@@ -13,7 +13,7 @@
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
+Open the [Hello 🌍🌎🌏 starter project](https://staging-editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
 
 ![The code editor with project starter code on the left in the code area. Праворуч знаходиться порожнє поле для виведення даних.](images/starter_project.png)
 
