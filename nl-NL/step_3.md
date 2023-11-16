@@ -85,7 +85,7 @@ Je kunt ook haakjes gebruiken als je de volgorde wilt bepalen waarin Python de s
 
 On the code editor, you might find the text too big or too small to read. You can easily change these settings to suit your preference.
 
-**Tip:** Klik op het **hamburger menu** (het pictogram met drie lijnen) linksboven in je Trinket-editor. Klik vervolgens op de knop **Fullscreen** om je project op volledig scherm te bekijken.
+Klik vervolgens op de knop **Fullscreen** om je project op volledig scherm te bekijken. **Tip:** Klik op het **hamburger menu** (het pictogram met drie lijnen) linksboven in je Trinket-editor.
 
 ![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png)
 
