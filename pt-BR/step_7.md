@@ -21,7 +21,7 @@ Role até a seção **emoji** no editor de código para ver os emojis e as vari�
 
 **Dica:** Para adicionar emojis, encontre o comentário # Emojis para copiar e colar em seu código. Copie os emojis que deseja usar e cole-os no seu código.
 
-📅🕒🎨🎮🔬🎉🕶️🎲🦄🚀💯⭐💛 😃😜❤️📚⚽🎾👟♻️🌳🔥✨🥺🌈
+🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒🎨🎮🔬🎉🕶️🎲 😊 🦄🚀💯⭐💛❤️📚⚽🏏🏀🥋🏆✨🥺🌈🔥♻️🌳 👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋🙋🏼🙋🏽🙋🏾🙋🏿
 
 [[[choose-an-emoji]]]
 
@@ -63,7 +63,7 @@ hobbies() # Chama a função hobbies
 título: Projeto Concluído
 ---
 
-Você pode ver o [projeto concluído aqui](https://editor.raspberrypi.org/en/projects/hello-world-solution){:target="_blank"}.
+You can view the [completed project here](https://staging-editor.raspberrypi.org/en/projects/hello-world-solution){:target="_blank"}.
 
 --- /collapse ---
 
