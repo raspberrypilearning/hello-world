@@ -85,7 +85,7 @@ Pythonが計算する順序を制御するために、`print((2 + 4) * (5 + 3))`
 
 On the code editor, you might find the text too big or too small to read. You can easily change these settings to suit your preference.
 
-**ヒント：**Trinketエディターの左上にある**ハンバーガーメニュー**（3本線のアイコン）をクリックします。 次に、**Fullscreen**ボタンをクリックして、プロジェクトを全画面モードで表示します。
+次に、**Fullscreen**ボタンをクリックして、プロジェクトを全画面モードで表示します。 **ヒント：**Trinketエディターの左上にある**ハンバーガーメニュー**（3本線のアイコン）をクリックします。
 
 ![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png)
 
