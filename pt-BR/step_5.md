@@ -47,7 +47,7 @@ Role até a seção **emoji** no editor de código para ver os emojis e as vari�
 
 Você pode adicionar mais emojis à seção **emoji**. Use essa [lista de emoji](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} para encontrar o que você deseja.
 
-📅🕒🎨🎮🔬🎉🕶️🎲🦄🚀💯⭐💛 😃😜❤️📚⚽🎾👟♻️🌳🔥✨🥺🌈
+🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳 👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
 
 [[[choose-an-emoji]]]
 
