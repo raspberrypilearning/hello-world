@@ -4,7 +4,7 @@
 
 ## You will make
 
-Find out what the Python 🐍 programming language can do by writing an interactive project that uses emojis 😃.
+Find out what the Python 🐍 programming language can do by writing an interactive project that uses emojis 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Emojis**</span> are small colourful images 🥰 used to add extra meaning to messages. Emoji means 'picture word' in Japanese.
@@ -12,7 +12,7 @@ Find out what the Python 🐍 programming language can do by writing an interact
 
 Co zrobisz:
 
-+ `print()` text, including emojis 😃, and get `input()` ⌨️ from the user
++ `print()` text, including emojis 🚀, and get `input()` ⌨️ from the user
 + Store text and numbers in **variables**
 + Use **functions** to organise your code
 
@@ -23,9 +23,15 @@ Co zrobisz:
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">
+<div style="flex-basis: 175px; flex-grow: 1">  
 
-<iframe src="" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+Click on the **Run** button and read the output.
+
+  When you are asked, type in a number and tap <kbd>Enter</kbd>. 
+
+Can you see how your answers are used?
+
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/hello-world-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 </div>
 </div>
