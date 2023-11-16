@@ -85,7 +85,7 @@ Tu peux également utiliser des parenthèses si tu souhaites contrôler l'ordre 
 
 On the code editor, you might find the text too big or too small to read. You can easily change these settings to suit your preference.
 
-**Astuce :** Clique sur le **menu hamburger** (l'icône avec trois lignes) en haut à gauche de ton éditeur Trinket. Clique ensuite sur le bouton **Fullscreen** pour afficher ton projet en mode plein écran.
+Clique ensuite sur le bouton **Fullscreen** pour afficher ton projet en mode plein écran. **Astuce :** Clique sur le **menu hamburger** (l'icône avec trois lignes) en haut à gauche de ton éditeur Trinket.
 
 ![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png)
 
