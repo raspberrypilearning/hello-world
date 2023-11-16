@@ -47,7 +47,7 @@ Clique sur l'onglet **emoji.py** dans Trinket pour voir les variables emoji que 
 
 Tu peux ajouter plus de variables emoji à **emoji.py**. Utilise cette [liste d'emoji](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} pour trouver ceux que tu veux.
 
-📅🕒🎨🎮🔬🎉🕶️🎲🦄🚀💯⭐💛 😃😜❤️📚⚽🎾👟♻️🌳🔥✨🥺🌈
+🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳 👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
 
 [[[choose-an-emoji]]]
 
