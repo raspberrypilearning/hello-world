@@ -47,7 +47,7 @@ Klik op het tabblad **emoji.py** in Trinket om de emoji-variabelen te zien die j
 
 Je kunt meer emoji-variabelen toevoegen aan **emoji.py**. Gebruik deze [emoji-lijst](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} om degene te vinden die je zoekt.
 
-📅🕒🎨🎮🔬🎉🕶️🎲🦄🚀💯⭐💛 😃😜❤️📚⚽🎾👟♻️🌳🔥✨🥺🌈
+🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳 👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
 
 [[[choose-an-emoji]]]
 
