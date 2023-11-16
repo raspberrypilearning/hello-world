@@ -85,7 +85,7 @@ También puedes usar paréntesis si quieres controlar el orden en el que Python 
 
 On the code editor, you might find the text too big or too small to read. You can easily change these settings to suit your preference.
 
-**Tip:** Haz clic en **hamburger menu** (el ícono con tres líneas) al lado superior izquierdo del editor Trinket. Luego haz clic en el botón **Fullscreen** para ver tu proyecto en modo de pantalla completa.
+Luego haz clic en el botón **Fullscreen** para ver tu proyecto en modo de pantalla completa. **Tip:** Haz clic en **hamburger menu** (el ícono con tres líneas) al lado superior izquierdo del editor Trinket.
 
 ![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png)
 
