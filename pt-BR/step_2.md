@@ -13,7 +13,7 @@ Tradicionalmente, ao aprender uma nova linguagem de programação, escrevemos pr
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://staging-editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. O Trinket será aberto em outra aba do navegador.
+Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. O Trinket será aberto em outra aba do navegador.
 
 ![O editor Trinket com o código inicial do projeto à esquerda na área de código. À direita está a área de saída em branco.](images/starter_project.png)
 
