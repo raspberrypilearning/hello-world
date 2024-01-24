@@ -1,31 +1,31 @@
-## Sums and dates
+## Somme e date
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Python is great at working with numbers and dates.
+Python è bravissimo a lavorare con numeri e date.
 </div>
 <div>
 
-![The text output area with five printed lines showing new sum and current date outputs.](images/sums_dates.png){:width="300px"} 
+![L'area di output del testo con cinque righe stampate che mostrano la nuova somma e la data corrente.](images/sums_dates.png){:width="300px"} 
 
 </div>
 </div>
 
-In Python you can use maths operators to do sums:
+In Python puoi usare gli operatori matematici per fare somme:
 
-| + | add |   
-| - | subtract |   
-| * | multiply |   
-| / | divide |   
-| ** | to the power |
+| + | aggiungere |   
+| - | sottrarre |   
+| *| moltiplicare |   
+| / | dividere |   
+| ** | elevare a potenza |
 
-### Create a calculation
+### Crea un calcolo
 
 --- task ---
 
-Add another two `print()` lines to your code including a sum for Python to work out:
+Aggiungi altre due righe `print()` al tuo codice inclusa una somma da far calcolare a Python:
 
-**Tip:** To get a `*` symbol press <kbd>Shift</kbd> and <kbd>8</kbd> at the same time.
+**Suggerimento:** Il simbolo `*` si trova nella parte destra della tastiera sul tasto <1>+</>.
 
 --- code ---
 ---
@@ -34,76 +34,77 @@ line_highlights: 20-21
 ---
 
 print('Hello', world)   
-print('Welcome to', python)   
-print(python, 'is very good at maths!')   
-print(230 * 5782 ** 2 / 23781)  # Print the result of the sum
+print('Benvenuto in', python)   
+print(python, 'è molto bravo in matematica!')   
+print(230 * 5782 ** 2 / 23781)  # Stampa il risultato dell'operazione
 
 --- /code ---
 
-**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the code before the `#`.
+**Suggerimento:** Non è necessario digitare i commenti, sono lì solo per aiutarti a capire il codice. Basta digitare il codice prima dello `#`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code. Did Python calculate the sum correctly? Only joking! Python does the hard maths for you so you don't need to work it out.
+**Test:** Esegui il codice. Python ha effettuato correttamente il calcolo? Era uno scherzo! Python fa i calcoli difficili per te, quindi non è necessario risolverli.
 
 **Debug:**
 
 --- collapse ---
 ---
-title: I have a syntax error
+title: Ho un syntax error
 ---
 
-Make sure that you have added a comma `,` between the items in `print()` and that you have spelled `python` correctly.
+`Debug:` Assicurati di aver aggiunto una virgola tra gli elementi in `print()` e di aver scritto correttamente `world`.
 
 --- /collapse ---
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi (*π*) to 31 trillion digits. That answer is so long that it would take over 300,000 years just to say it! 
-</p>
+L'informatica giapponese 
+
+<span style="color: #0faeb0">**Emma Haruka Iwao**</span> ha utilizzato un computer per calcolare il valore di Pi greci (*π*) composto da 31 trilioni di cifre. La risposta è così lunga che ci vorrebbero più di 300.000 anni solo per dirla! </p>
 
 --- task ---
 
-Try changing the sum that Python does to a complicated one!
+Prova a cambiare i calcoli fatti da Python fa in altri più complicati!
 
-You can also use brackets if you want to control the order that Python calculates the sum: `print( (2 + 4) * (5 + 3) )`.
+Puoi anche usare le parentesi se vuoi controllare l'ordine in cui Python calcola la somma: `print( (2 + 4) * (5 + 3) )`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and get Python to calculate your sum.
+**Test:** Esegui il tuo codice e chiedi a Python di risolvere l'operazione per te.
 
-**Debug:** Make sure your sum has a left and right round bracket around it `( 2 * 45 )`. If you use extra brackets to control the order, make sure you have a right bracket to match every left bracket.
+**Debug:** Assicurati che la tua operazione abbia una parentesi tonda sinistra e destra attorno ad essa `( 2 * 45 )`. Se utilizzi parentesi extra per controllare l'ordine, assicurati di avere una parentesi destra che corrisponda a ogni parentesi sinistra.
 
 --- /task ---
 
 --- task ---
 
-On the code editor, you might find the text too big or too small to read. You can easily change these settings to suit your preference.
+Nell'editor di codice, potresti trovare che il testo è troppo grande o troppo piccolo per essere letto senza fatica. Puoi facilmente modificare queste impostazioni in base alle tue preferenze.
 
-**Tip:** Click on the **Settings menu**  on the left of your code editor. Then click on any of the **Text Size** buttons to change the size of the text.
+**Suggerimento:** Fai clic sul menu **Impostazioni**  a sinistra dell'editor di codice. Quindi fare clic su uno qualsiasi dei pulsanti **Dimensione testo** per modificare la dimensione del testo.
 
-![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png)
+![L'editor di codice con il menu delle impostazioni aperto per mostrare le opzioni Modalità colore e Dimensioni testo.](images/full_screen.png)
 
-You can also switch between colour modes, click on the **Light & Dark** buttons to see the changes.
+Puoi anche passare da una modalità colore all'altra, clicca sui pulsanti **Chiaro & Scuro** per vedere le modifiche.
 
 --- /task ---
 
-The line `from datetime import *` at the top of the **main.py** tab includes a library with helpful functions for getting the current date and time.
+La riga `from datetime import *` nella parte superiore della scheda **main.py** serve ad importare una libreria con funzioni utili per ottenere la data e l'ora correnti.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. A Python library allows you to easily use code that other people have written. There are libraries for drawing charts and graphs, making art, doing calculations, and lots more.
+Una delle cose migliori di Python sono tutte le <span style="color: #0faeb0">**librerie**</span> di codice disponibili per l'uso. Una libreria Python ti consente di utilizzare facilmente il codice scritto da altre persone. Sono disponibili librerie per disegnare diagrammi e grafici, creare disegni, eseguire calcoli e molto altro ancora.
 </p>
 
 --- task ---
 
-Add another line to your code to `print` the current date and time.
+Aggiungi un'altra riga al tuo codice per `stampare` la data e l'ora correnti.
 
-Get the current date and time by using the `now()` function from the `datetime` library:
+Ottieni la data e l'ora correnti utilizzando la funzione `now()` dalla libreria `datetime`:
 
 --- code ---
 ---
@@ -111,21 +112,21 @@ language: python filename: main.py line_numbers: true line_number_start: 20
 line_highlights: 22
 ---
 
-print(python, 'is very good at maths!')    
-print(230 * 5782 ** 2 / 23781)  # Print the result of the sum     
-print('The date and time is', datetime.now())  # Print the current date and time
+print(python, 'è molto bravo in matematica!')    
+print(230 * 5782 ** 2 / 23781) # Stampa il risultato della somma     
+print('La data e l'ora sono', datetime.now()) # Stampa la data e l'ora correnti
 
 --- /code ---
 
-**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
+**Suggerimento:** Non è necessario digitare i commenti, sono lì solo per aiutarti a capire il codice. Basta digitare il codice prima dello `#`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code a couple of times to see the time update.
+**Test:** Esegui il codice un paio di volte per vedere l'aggiornamento dell'ora.
 
-**Debug:** Check that you have a fullstop `.` between `datetime` and `now`. Check all the punctuation carefully.
+**Debug:** Controlla di avere inserito un punto `.` tra `datetime` e `now`. Controlla attentamente tutta la punteggiatura.
 
 --- /task ---
 
