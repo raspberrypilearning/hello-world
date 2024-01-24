@@ -1,67 +1,67 @@
-## Say hello
+## Diciamo Hello
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's traditional to write a program to output 'Hello world!' when you learn a new programming language.
+Quando impari un nuovo linguaggio di programmazione è consuetudine scrivere un programma che visualizzi il messaggio "Hello world!".
 </div>
 <div>
 
-![The code editor output area showing the two printed lines of text and emojis.](images/say_hello.png){:width="200px"}
+![L'area di output dell'editor di codice che mostra le due righe stampate di testo ed emoji.](images/say_hello.png){:width="200px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
+Apri il progetto di partenza [Hello 🌍🌎🌏](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. L'editor si aprirà in un'altra scheda del browser.
 
-![The code editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
+![L'editor del codice con il codice del progetto iniziale a sinistra nell'area del codice. Sulla destra c'è l'area di output vuota.](images/starter_project.png)
 
-If you have a Raspberry Pi account, you can click on the **Save** button to save a copy to your **Projects**.
+Se disponi di un account Raspberry Pi, puoi fare clic sul pulsante **Salva** per salvarne una copia nei tuoi **Progetti**.
 
 --- /task ---
 
 --- collapse ---
 
 ---
-title: Working on a Raspberry Pi?
+title: Stai lavorando su un Raspberry Pi?
 ---
 
-If you're working on a Raspberry Pi using Chromium, you may not see the emojis. You need to install a font that supports them.
+Se stai lavorando su un Raspberry Pi utilizzando Chromium, potresti non vedere le emoji. È necessario installare un carattere che le supporti.
 
-Open a terminal and then type:
+Apri un terminale e poi digita:
 
 ```bash
 sudo apt install fonts-noto-color-emoji
 ```
 
-Restart Chromium and you should see the colour emojis.
+Riavvia Chromium e dovresti vedere le emoji colorate.
 
 --- /collapse ---
 
-### Print hello
+### Stampa hello
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Lines beginning with a `#` are <span style="color: #0faeb0">**comments**</span>. They explain what the code will do. Comments are ignored by Python.
+Le linee che cominciamo con un `#` sono<span style="color: #0faeb0">**commenti**</span>. Spiegano cosa farà il codice. I commenti vengono ignorati da Python.
 </p>
 
-The `import` lines at the start of the code tell Python that you are going to use code you didn't write.
+Le righe `import` all'inizio del codice indicano a Python che utilizzerai codice che non hai scritto tu.
 
-In Python, `print()` outputs text (words or numbers) to the screen.
+In Python, `print()` visualizza testo (parole o numeri) sullo schermo.
 
 --- task ---
 
-Find the `# Put code to run below here` line.
+Trova la riga di codice `# Inserisci il codice da eseguire qui sotto` .
 
-Click below that line. The flashing `|` is the cursor and shows where you will type.
+Fai clic sotto quella riga. Lo `| lampeggiante` è il cursore e mostra dove digiterai.
 
 --- /task ---
 
 --- task ---
 
-Type the code to `print()` Hello to the screen:
+Digita il codice per fare`print()` di Hello sullo schermo:
 
-**Tip:** When you type an opening bracket `(` or opening apostrophe `'` the code editor will automatically add a closing bracket `)` or closing apostrophe`'`:
+**Suggerimento:** Quando si digita una parentesi di apertura `(` o un apostrofo di apertura `'` l'editor del codice aggiungerà automaticamente una parentesi di chiusura `)` o un apostrofo di chiusura`'`:
 
 --- code ---
 ---
@@ -69,17 +69,17 @@ language: python filename: main.py line_numbers: true line_number_start: 17
 line_highlights: 18
 ---
 
-# Put code to run under here
+# Metti il codice da eseguire qui sotto
 print('Hello')
 
 --- /code ---
 
 --- collapse ---
 ---
-title: Typing special characters on a UK or US keyboard
+title: Digitazione di caratteri speciali su una tastiera del Regno Unito o degli Stati Uniti
 ---
 
-On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kbd>9</kbd> and <kbd>0</kbd> keys. To type a left round bracket, hold down the <kbd>Shift</kbd> key (next to <kbd>Z</kbd>) and then tap <kbd>9</kbd>. The single quote `'` is on the same row as the <kbd>L</kbd> key, just before the <kbd>Enter</kbd> key. The comma `,` is next to the <kbd>M</kbd>.
+Su una tastiera britannica o americana, le parentesi tonde sinistra `(` e destra `)` si trovano sui tasti <kbd>9</kbd> e <kbd>0</kbd>. Per digitare una parentesi tonda sinistra, tieni premuto il tasto <kbd>Maiusc</kbd> (accanto a <kbd>Z</kbd>) e quindi tocca <kbd>9</kbd>. La virgoletta singola `'` si trova sulla stessa riga del tasto <kbd>L</kbd> , appena prima del tasto <kbd>Invio</kbd>. La virgola `,` è accanto alla lettera <kbd>M</kbd>.
 
 --- /collapse ---
 
@@ -87,33 +87,33 @@ On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kb
 
 --- task ---
 
-**Test:** Click on the **Run** button to run your code. In the code editor, the output will appear on the right:
+**Test:** Fai clic sul pulsante **Run** per eseguire il tuo codice. Nell'editor del codice, l'output apparirà sulla destra:
 
-![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
+![L'icona Esegui evidenziata con "Ciao" visualizzato nell'area di output. ](images/run_hello.png)
 
-**Debug:** If you get an error then check your code really carefully. In this example, the single quotes around `Hello` are missing so Python doesn't know it is supposed to be text.
+**Debug:** Se ricevi un errore, controlla il codice con molta attenzione. In questo esempio, mancano le virgolette singole attorno `Hello`, quindi Python non capisce che dovrebbe essere testo.
 
-![The Code Editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 18 in main.py.](images/hello_error.png)
-
---- /task ---
-
-## Print 🌍🌎🌏
-
-In Python, a **variable** is used to store values such as text or numbers. Variables make it easier for humans to read code. You can use the same variable in lots of places in your code. Choosing a sensible name for a variable makes it easier for you to remember what it is for.
-
-We have included some variables that store emoji characters.
-
---- task ---
-
-In your code editor, scroll to the lines with the emojis stored into two different variables. Find the variable `world`, which stores the text '🌍🌍🌍'.
+![L'editor del codice con virgolette singole mancanti e l'errore 'NameError: nome 'Hello' is not defined on line 18 in main.py.](images/hello_error.png)
 
 --- /task ---
 
+## Stampa🌍🌎🌏
+
+In Python, una variabile **** viene utilizzata per memorizzare valori come testo o numeri. Le variabili rendono più semplice per gli esseri umani leggere il codice. Puoi utilizzare la stessa variabile in molti punti del tuo codice. Scegliere un nome sensato per una variabile rende più facile ricordare a cosa serve.
+
+Abbiamo incluso alcune variabili che memorizzano i caratteri emoji.
+
 --- task ---
 
-You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` will add a space between each item.
+Trova la variabile `world`, che memorizza il testo '🌍🌍🌍'.
 
-Change your code to also `print()` the contents of the `world` variable:
+--- /task ---
+
+--- task ---
+
+Puoi fare `print()` di più di un elemento alla volta includendo una virgola `,` tra gli elementi. `print()` aggiungerà uno spazio tra ogni elemento.
+
+Cambia il tuo codice per fare `print()` anche del contenuto della variabile `world`:
 
 --- code ---
 ---
@@ -121,34 +121,34 @@ language: python filename: main.py line_numbers: true line_number_start: 17
 line_highlights: 18
 ---
 
-# Put code to run under here
+# Metti il codice da eseguire qui sotto
 print('Hello', world)
 
 --- /code ---
 
-**Tip:** `'Hello'` is a text string because it has single quotes around it, whereas `world` is a variable so the value stored in it will be printed.
+**Suggerimento:** `'Hello'` è una stringa di testo perché è racchiusa tra virgolette singole, mentre `world` è una variabile, quindi il valore memorizzato in essa verrà stampato.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code to see the result:
+**Test:** Esegui il codice per vedere il risultato:
 
-![The updated line of code in the code area with the word 'Hello' followed by three world emojis showing in the output area.](images/run_hello_world.png)
+![La riga di codice aggiornata nell'area del codice con la parola "Ciao" seguita da tre emoji del mondo visualizzati nell'area di output.](images/run_hello_world.png)
 
-**Tip:** Emojis can look different on different computers, so yours might not look exactly the same.
+**Suggerimento:** Le emoji possono avere un aspetto diverso su computer diversi, quindi le tue potrebbero non essere esattamente lo stesso.
 
-**Debug:** Make sure that you have added a comma between the items in `print()` and that you have spelled `world` correctly.
+**Debug:** Assicurati di aver aggiunto una virgola tra gli elementi in `print()` e di aver scritto correttamente `world`.
 
-This example is missing the comma `,`. It's small but very important!
+In questo esempio manca la virgola `,`. È piccola ma molto importante!
 
-![The code editor with missing single quotes and error 'SyntaxError: bad input on line 18 in main.py' displayed.](images/comma_error.png)
+![Viene visualizzato l'editor di codice con virgolette singole mancanti e l'errore "SyntaxError: bad input on line 18 in main.py".](images/comma_error.png)
 
 --- /task ---
 
 --- task ---
 
-**Add** another line to your code to `print()` more text and emojis:
+**Aggiungi** un'altra riga al tuo codice `print()` altri testi ed emoji:
 
 --- code ---
 ---
@@ -161,22 +161,22 @@ print('Welcome to', python)
 
 --- /code ---
 
-**Tip:** The code you need to type is highlighted in a lighter colour. Code that is not highlighted helps you find where you need to add the new code.
+**Suggerimento:** Il codice che devi digitare è evidenziato in un colore più chiaro. Il codice non evidenziato ti aiuta a trovare dove devi aggiungere il nuovo codice.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Click **Run**.
+**Prova:** Clicca **Esegui**.
 
-![The additional line of code in the code editor with the word 'Hello' followed by three world emojis and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
+![La riga di codice aggiuntiva nell'editor di codice con la parola "Ciao" seguita da tre emoji del mondo e le parole "Benvenuto a" seguite da un serpente emoji e una tastiera visualizzata nell'area di output.](images/run_multiple.png)
 
-**Tip:** It's a good idea to run your code after every change so you can fix problems quickly.
+**Suggerimento:** È una buona idea eseguire il codice dopo ogni modifica in modo da poter risolvere rapidamente i problemi.
 
-**Debug:** Check carefully for brackets, quotes, commas, and correct spelling. Python needs you to be really accurate.
+**Debug:** Controlla attentamente la presenza di parentesi, virgolette, virgole e l'ortografia corretta. Python ha bisogno che tu sia veramente preciso.
 
 --- /task ---
 
-If you have a Raspberry Pi account, on your code editor you can click on the **Save** button to save a copy of your project to your Projects.
+Se disponi di un account Raspberry Pi, puoi fare clic sul pulsante **Salva** per salvarne una copia nei tuoi progetti.
 
 --- save ---
