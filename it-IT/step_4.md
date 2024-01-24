@@ -1,33 +1,33 @@
-## Roll a dice 🎲
+## Lancia un dado 🎲
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create a function for rolling a dice using random numbers. 
+Crea una funzione per lanciare un dado utilizzando numeri casuali. 
   
 In Python:
-  - **functions**, defined with `def`, are like 'my blocks' in Scratch,
-  - `randint` is like 'random' in Scratch, and
-  - `input` is like 'ask' in Scratch.
+  - **funzioni**, definite con `def`, sono come 'i miei blocchi' in Scratch,
+  - `randint` è come 'casuale' in Scratch e
+  - `input` è come 'chiedi' a Scratch.
 
 </div>
 <div>
 
-![The text output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll_dice.png){:width="300px"} 
+![L'area di output del testo con righe aggiuntive per chiedere all'utente di inserire il numero più grande per i suoi dadi e la risposta con il numero casuale.](images/roll_dice.png){:width="300px"} 
 
 </div>
 </div>
 
-In Python you **call** a **function()** to perfom an action. You have already used the `print()` function to output text.
+In Python **chiami** una **funzione()** per eseguire un'azione. Hai già utilizzato la funzione `print()` per visualizzare del testo.
 
-You can **define** a new **function** to group code together so that you can name it and reuse it.
+È possibile **definire** una nuova **funzione** per raggruppare il codice così da poterlo denominare e riutilizzare.
 
-### Define your function
+### Definisci la tua funzione
 
 --- task ---
 
-Functions need to be defined before you can call them. Look for the comment in the **main.py** file that says `# Function definitions`.
+Le funzioni devono essere definite prima che tu possa richiamarle. Cerca il commento nel file **main.py** che dice `# Definizioni di funzioni`.
 
-Define a new function called `roll_dice()` that uses the `randint()` function from the `random` library, to generate a random 'integer' (whole number) from 1 to 6 and output it to the screen.
+Definire una nuova funzione chiamata `lancia_il_dado()` che utilizza la funzione `randint()` dalla libreria `random`, per generare un "integer" (un numero intero) casuale da 1 a 6 e visualizzarlo sullo schermo.
 
 --- code ---
 ---
@@ -35,22 +35,22 @@ language: python filename: main.py line_numbers: true line_number_start: 15
 line_highlights: 16-17
 ---
 
-# Function definitions
-def roll_dice():  # Don't forget the colon at the end of this line   
-print('You rolled a', randint(1, 6))  # randint(1, 6) is used to give a number between 1 and 6.
+# Definizioni di funzioni
+def lancia_il_dado(): # Non dimenticare i due punti alla fine di questa riga   
+print('Hai ottenuto un ', randint(1, 6)) # randint(1, 6) viene utilizzato per fornire un numero compreso tra 1 e 6.
 
 --- /code ---
 
-The line under `def roll_dice():` is **indented**. To do this, use the <kbd>Tab</kbd> character on your keyboard (usually above <kbd>CAPSLOCK</kbd> on the keyboard). Indenting code tells Python that the indented lines are part of the function.
+La riga sotto `def lancia_un_dado():` è **indentata (rientrata)**. Per fare ciò, usa il tasto<kbd>Tab</kbd> sulla tastiera (di solito sopra <kbd>Blocca Maiuscole</kbd> sulla tastiera). Il codice rientrato dice a Python che le righe rientrate fanno parte della funzione.
 
-**Tip:** The underscore `_` is used between words in variable and function names in Python to make them easier to read. You can't use a space.
+**Suggerimento:** Il carattere di sottolineatura (underscore) `_` viene utilizzato tra le parole nei nomi di variabili e funzioni in Python per renderli più facili da leggere. Non puoi utilizzare uno spazio.
 
 --- collapse ---
 ---
-title: Typing special characters on a UK or US keyboard
+title: Digitazione di caratteri speciali su una tastiera del Regno Unito o degli Stati Uniti
 ---
 
-On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next to the <kbd>L</kbd> key: hold <kbd>Shift</kbd> and tap <kbd>;</kbd> to type a `:`. The underscore `_` is on the same key as the `-`, next to the <kbd>0</kbd>, hold <kbd>Shift</kbd> and tap <kbd>-</kbd> to type an `_`.
+Su una tastiera britannica o americana, i due punti `:` si trovano sullo stesso tasto del punto e virgola, accanto al tasto <kbd>L</kbd> : tieni premuto <kbd>Shift</kbd> e tocca <kbd>;</kbd> per digitare `:`. Il carattere di sottolineatura `_` si trova sullo stesso tasto di `-`, accanto a <kbd>0</kbd>, tieni premuto <kbd>Shift</kbd> e premi<kbd>-</kbd> per digitare `_`.
 
 --- /collapse ---
 
@@ -58,32 +58,32 @@ On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next 
 
 --- task ---
 
-**Test:** If you ‘Run’ your code now, it won't roll a dice. That’s because you have defined the `roll_dice()` function, but not called it yet.
+**Test:** Se esegui "Esegui" il codice ora, non lancerà un dado. Questo perché hai definito la funzione `lancia_un_dado()` , ma non l'hai ancora chiamata.
 
 **Debug:**
 
 --- collapse ---
 ---
-title: I have a syntax error
+title: Ho un syntax error
 ---
 
-- Make sure you have an underscore `_` between roll and dice to make the function name.
+- Assicurati di avere un carattere di sottolineatura `_` tra lancia, un e dado per creare il nome della funzione.
 
-- Make sure you have a colon `:` at the end of the line.
+- Assicurati di avere i due punti `:` alla fine della riga.
 
-- Check that the line under `def roll_dice()` is indented. It's really common to get this wrong in Python, so make sure to check.
+- Controlla che la riga sotto `lancia_un_dado()` sia rientrata. È un errore abbastanza comune in Python, quindi assicurati di controllare.
 
-![The code editor showing the line of code inside the <code>roll_dice</code> function has not been indented. The line of code with the error is highlighted. The code has been run, with the error 'SyntaxError: bad input on line 17 in main.py'.](images/indent_error.png)
+![L'editor di codice che mostra la riga di codice all'interno della funzione <code>lancia_un_dado</code> non è rientrato. Viene evidenziata la riga di codice con l'errore. Il codice è stato eseguito, e abbiamo l'errore 'SyntaxError: bad input on line 17 in main.py'.](images/indent_error.png)
 
 --- /collapse ---
 
 --- /task ---
 
-### Call your function
+### Chiama la tua funzione
 
 --- task ---
 
-To use a function, you need to **call** it in the code. Go to the end of your code and add a new line to call the `roll_dice()` function:
+Per utilizzare una funzione è necessario **chiamarla** nel codice. Vai alla fine del tuo codice e aggiungi una nuova riga per chiamare la funzione `lancia_un_dado()`:
 
 --- code ---
 ---
@@ -91,9 +91,9 @@ language: python filename: main.py line_numbers: true line_number_start: 25
 line_highlights: 27
 ---
 
-print('The date and time is', datetime.now())
+print('La data e l'ora attuali sono', datetime.now())
 
-roll_dice()  # Call the roll dice function
+lancia_un_dado() # Chiama la funzione lancia_un_dado
 
 --- /code ---
 
@@ -101,21 +101,21 @@ roll_dice()  # Call the roll dice function
 
 --- task ---
 
-**Test:** Run your project several times to see the random dice roll each time.
+**Test:** Esegui il tuo progetto più volte per vedere come ogni volta il risultato del lancio dei dadi sia casuale.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Uses of random numbers include cryptography, data science, and adding variety into games and computer art. Computers generate <span style="color: #0faeb0">**random numbers**</span> using an algorithm. For numbers that are really random, you need an unpredictable input from the real world.
+I numeri casuali sono utilizzati nella crittografia, in informatica e per aggiungere una maggior varietà ai giochi e alla computer art. I computer generano <span style="color: #0faeb0">**numeri casuali**</span> utilizzando un algoritmo. Per generare numeri veramente casuali, è necessario utilizzare un input imprevedibile dal mondo reale.
 </p>
 
-### Use 🔥🔥🔥 for the number rolled
+### Usa 🔥🔥🔥 per il numero ottenuto
 
 --- task ---
 
-Your function can use the 🔥 emoji variable. The code `print(fire * 3)` outputs three fire emojis '🔥🔥🔥'. You need to output the correct number of emojis to match the random number rolled by the dice.
+La tua funzione può utilizzare la variabile 🔥 emoji. Il codice `print(fire * 3)` visualizza tre emoji di fuoco '🔥🔥🔥'. Devi produrre il numero corretto di emoji in modo che corrisponda al numero casuale ottenuto dal lancio dei dadi.
 
-Change your code to save the value returned by `randint()` in a variable called `roll`. Use that variable to print out the number rolled with the matching number of 🔥 emojis.
+Modifica il tuo codice per salvare il valore restituito da `randint()` in una variabile chiamata `roll`. Usa quella variabile per stampare il numero lanciato con il numero corrispondente di emoji🔥 .
 
 --- code ---
 ---
@@ -123,37 +123,37 @@ language: python filename: main.py line_numbers: true line_number_start: 15
 line_highlights: 17-18
 ---
 
-# Function definitions
-def roll_dice(): roll = randint(1, 6)  # Generate a random number between 1 and 6 and store it in the variable 'roll' print('You rolled a', roll, fire * roll)  # Repeat the fire emoji to match the random dice roll
+# Definizioni di funzioni
+def lancia_un_dado(): roll = randint(1, 6) # Genera un numero casuale tra 1 e 6 e lo memorizza nella variabile 'roll' print('Hai ottenuto un', roll, fire * roll) # Ripete l'operazione emoji del fuoco per abbinarla al numero ottenuto con i dadi
 
 --- /code ---
 
-**Tip** You can use `star` or `heart` instead of `fire` if you prefer, by creating your own emoji variables.
+**Suggerimento** Puoi usare una `stella` o un `cuore` invece del `fuoco` se preferisci, e creare così le tue variabili emoji.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Test your project a few times. Make sure you understand how the code works.
+**Test:** Testa il tuo progetto alcune volte. Assicurati di capire come funziona il codice.
 
 --- /task ---
 
-### Choose the number of sides on the dice
+### Scegli il numero di facce del dado
 
-Upgrade your dice so that the user can choose the maximum number.
+Migliora i tuoi dadi in modo che l'utente possa scegliere il numero massimo.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Lots of games use many-sided dice. In the physical world, dice are made from regular geometric shapes. Common dice include D6, D12, and D20. On a computer, you can generate a <span style="color: #0faeb0">random</span> number to make a fair dice with any number of sides.</p>
+Molti giochi utilizzano dadi a molte facce. Nel mondo fisico, i dadi sono costituiti da forme geometriche regolari. I dadi comuni hanno 6, 12 e 20 facce. Su un computer, puoi generare un numero <span style="color: #0faeb0">casuale</span> per creare un dado con qualsiasi numero di facce.</p>
 
 --- task ---
 
-The `input()` function asks the user a question and then returns their answer.
+La funzione `input()` pone una domanda all'utente e quindi memorizza la risposta.
 
-**Add** code to ask the user for the biggest number on their dice and then save the result in a variable called `max` and `print` the number chosen into the output area:
+**Aggiungi** del codice per chiedere all'utente quale deve essere il numero più grande dei sui suoi dadi e poi salva quel numero in una variabile chiamata `max` e `visualizza` il numero scelto nell'area di output:
 
-Change your `roll` variable code to use `max` as the maximum value for `randint` when it generates a random number.
+Cambia il codice che genera la tua variabile `roll` utilizzando `max` come valore massimo per `randint` quando genera un numero casuale.
 
-When you get input from the user, Python treats it as text. But, `randint` needs an 'integer' (a positive whole number). The `int` function turns the user input into an integer.
+Quando ricevi un input dall'utente, Python lo tratta come se fosse testo. Ma `randint` necessita di un "integer" (un numero intero positivo). La funzione `int` trasforma l'input dell'utente in un numero intero.
 
 --- code ---
 ---
@@ -161,22 +161,22 @@ language: python filename: main.py line_numbers: true line_number_start: 15
 line_highlights: 18-20
 ---
 
-# Function definitions
+# Definizioni di funzioni
 
-def roll_dice():   
-max = input('How many sides?:')  # Wait for input from the user    
-print('That\'s a D', max)  # Use the number the user entered    
-roll = randint(1, int(max))  # Use max to determine the number of sides the dice has print('You rolled a', roll, fire * roll)
+def lancia_un_dado():   
+max = input('Quante facce ha il dado?:')  # Aspetta l'input dell'utente    
+print('Questo è un dado D', max)  # Usa il numero inserito dall'utente    
+roll = randint(1, int(max))  # Usa max per stabilire il numero di facce del dado print('Hai ottenuto un ', roll, fire * roll)
 
 --- /code ---
 
-To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
+Per stampare un apostrofo `'` in una parola, metti una barra rovesciata `\` prima in modo che Python sappia che fa parte del testo.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project. When the program reaches the `input` line, it will wait for you to enter a response before continuing. Type your response and then press <kbd>Enter</kbd>, this will allow the program to collect your response. Try it again with a different `input` number.
+**Test:** Esegui il codice. Quando il programma arriva alla riga `input` , attenderà che tu inserisca una risposta prima di continuare. Digita la tua risposta e quindi premi <kbd>Invio</kbd>, ciò consentirà al programma di memorizzare la tua risposta. Riprovare con un diverso numero in `input`.
 
 --- /task ---
 
