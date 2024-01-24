@@ -1,44 +1,44 @@
 Hello
 
-Welcome to ...
+Benvenuto ...
 
-...is very good at ...
+...è molto bravo a fare ...
 
-The ...is
+Il...è
 
-...can make a ...
+...può fare un...
 
-You rolled a ...
+Hai tirato un...
 
-How many sides?
+Quante facce?
 
-That’s a D ...
+Questo è D ...
 
-I <3 ...
+Io <3...
 
-...makes me ...
+...mi rende...
 
-I’d like to make ...with...
+Mi piacerebbe fare...con...
 
-awesome
+meraviglioso
 
-I can code
+So programmare
 
 two_dice
 
-First number:
+Primo numero:
 
-Second number:
+Secondo numero:
 
 hobbies
 
 hobby
 
-What do you like?
+Cosa ti piace?
 
-That sounds ...
+Sembra...
 
-You could make a ...project about ...
+Potresti realizzare un...progetto su...
 
 roll_dice
 
@@ -94,8 +94,8 @@ yellow_heart
 
 rainbow
 
-Choose the biggest number:
+Scegli il numero più grande:
 
-I <3 rainbows
+Io <3 arcobaleni
 
-You hit the bullseye, 500 points!
+Hai centrato il bersaglio, 500 punti!
