@@ -10,7 +10,7 @@ legend: Питання 3 з 3
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def two_dice(): print('Перше число:', randint(1, 6)) print('Друге число:', randint(1, 6))
 
 --- /code ---
 
@@ -27,7 +27,7 @@ def two_dice(): print('First number:', randint(1, 6)) print('Second number:', ra
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def two_dice(): print('Перше число:', randint(1, 6)) print('Друге число:', randint(1, 6))
 
 --- /code ---
 
