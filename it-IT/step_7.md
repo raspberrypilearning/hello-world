@@ -1,31 +1,31 @@
-## Upgrade your project
+## Migliora il tuo progetto
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Add more to your project. There are more emojis to choose from.
+Aggiungi altro al tuo progetto. Ci sono più emoji tra cui scegliere.
   </div>
 <div>
 
-![A longer project in the output area with more text, emoji, and inputs.](images/upgrade_ideas.png){:width="300px"} 
+![Un progetto più lungo nell'area di output con più testo, emoji e input.](images/upgrade_ideas.png){:width="300px"} 
 
 </div>
 </div>
 
-You could:
-+ Use `print` with different text and emojis
-+ Use `input` to get values from the user and store them as variables, then do sums with the variables
-+ Write more functions to organise your code
-+ Use `#` to add comments to your code
+Potresti:
++ Usa `print` con testo ed emoji diversi
++ Utilizzare `input` per ottenere valori dall'utente e memorizzarli come variabili, quindi esegui calcoli con le variabili
++ Usa le funzioni per organizzare il tuo codice
++ Usa `#` per aggiungere commenti al tuo codice
 
-Scroll to the **emoji** section in the code editor to see the emojis and example variables that you can use. Copy the ones you choose and save them to a variable or add them directly to your code.
+Scorri fino alla sezione **emoji** nell'editor del codice per vedere gli emoji e le variabili di esempio che puoi utilizzare. Copia quelli che scegli e salvali in una variabile o aggiungili direttamente al tuo codice.
 
-**Tip:** To add emojis, find the comment # Emojis to copy and paste into your code. Copy the emojis you want to use then paste them into your code.
+**Suggerimento:** Per aggiungere emoji, trova il commento # Emoji da copiare e incollare nel tuo codice. Copia gli emoji che desideri utilizzare e incollali nel tuo codice.
 
 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒🎨🎮🔬🎉🕶️🎲 😊 🦄🚀💯⭐💛❤️📚⚽🏏🏀🥋🏆✨🥺🌈🔥♻️🌳 👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋🙋🏼🙋🏽🙋🏾🙋🏿
 
 [[[choose-an-emoji]]]
 
-Here's an example function that asks about hobbies:
+Ecco una funzione di esempio che chiede informazioni sugli hobby:
 
 --- code ---
 ---
@@ -33,16 +33,16 @@ language: python
 filename: main.py
 ---
 
-# Put code to run under here
+# Metti il codice da eseguire qui sotto
 def hobbies():   
-hobby = input('What do you like?')   
-print('That sounds', fun)  # You will need to create an emoji variable called 'fun' print('You could make a', python, 'project about', hobby)
+hobby = input('Cosa ti piace?')   
+print('Sembra', divertente) # Dovrai creare una variabile emoji chiamata 'divertimento' print('Potresti creare un progetto Python, ' su', hobby)
 
 --- /code ---
 
-**Tip:** Don't forget you will need to call your function as well as define it.
+**Suggerimento:** Non dimenticare che dovrai chiamare la tua funzione oltre a definirla.
 
-You can use `input` to make your project wait for the user to tap <kbd>Enter</kbd> at any point in this project.
+Puoi usare `input` per fare in modo che il tuo progetto attenda che l'utente premi <kbd>Invio</kbd> in qualsiasi punto di questo progetto.
 
 --- code ---
 ---
@@ -50,20 +50,20 @@ language: python
 filename: main.py
 ---
 
-roll_dice()
+lancia_un_dado()
 
-input()  # Wait for the user to tap Enter
+input() # Attendi che l'utente prema Invio
 
-hobbies()  # Calls the hobbies function
+hobbies() # Chiama la funzione hobbies
 
 --- /code ---
 
 --- collapse ---
 ---
-title: Completed project
+title: Il progetto completo
 ---
 
-You can view the [completed project here](https://editor.raspberrypi.org/en/projects/hello-world-solution){:target="_blank"}.
+Qui puoi visualizzare il [progetto completati](https://editor.raspberrypi.org/en/projects/hello-world-solution){:target="_blank"}.
 
 --- /collapse ---
 
