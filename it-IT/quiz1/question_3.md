@@ -1,22 +1,22 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Domanda 3 di 3
 ---
 
-This function outputs two random numbers:
+Questa funzione restituisce due numeri casuali:
 
 --- code ---
 ---
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def two_dice(): print('Primo numero:', randint(1, 6)) print('Secondo numero:', randint(1, 6))
 
 --- /code ---
 
-Which code will call the function to run it?
+Quale codice richiamerà la funzione per eseguirla?
 
-![The code editor with output area showing two randomly generated numbers.](images/quiz3.png)
+![L'editor di codice con l'area di output che mostra due numeri generati casualmente.](images/quiz3.png)
 
 --- choices ---
 
@@ -27,13 +27,13 @@ Which code will call the function to run it?
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def two_dice(): print('Primo numero:', randint(1, 6)) print('Secondo numero:', randint(1, 6))
 
 --- /code ---
 
  --- feedback ---
 
- No, this is the code to define the function, but it does not run the function. You'll need to use different code to call it.
+ No, questo è il codice per definire la funzione, ma non esegue la funzione. Dovrai utilizzare un codice diverso per chiamarlo.
 
  --- /feedback ---
 
@@ -48,7 +48,7 @@ two_dice
 
  --- feedback ---
 
-Close! `two_dice` is the name of the function, but to call it you need more than just the name.
+Vicino! `two dice` è il nome della funzione, ma per chiamarla è necessario qualcosa di più del semplice nome.
 
  --- /feedback ---
 
@@ -65,7 +65,7 @@ two_dice[]
 
  --- feedback ---
 
- Not quite, think about they type of brackets you used to call the functions in your project.
+ Non proprio, pensa al tipo di parentesi che hai usato per chiamare le funzioni nel tuo progetto.
 
  --- /feedback ---
 
@@ -82,7 +82,7 @@ two_dice()
 
  --- feedback ---
 
- That's correct, using the function name followed by `(` `)` brackets will call the function.
+ Esatto, l'utilizzo del nome della funzione seguito da `(` `)` parentesi chiamerà la funzione.
 
  --- /feedback ---
 
