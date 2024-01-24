@@ -1,17 +1,17 @@
-## Quick quiz
+## Quiz veloce
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Rispondi alle tre domande. Ci sono alcuni suggerimenti per aiutarti a trovare la risposta corretta.
 
-When you have answered each question, click on **Check my answer**.
+Dopo aver risposto a ciascuna domanda, fai clic su **Controlla la mia risposta**.
 
-Have fun!
+Divertiti!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Domanda 1 di 3
 ---
 
-This code sets the `world` variable to contain the text '🌍🌎🌏' (the three different world emoji):
+Questo codice imposta la variabile `world` per contenere il testo '🌍🌎🌏' (le tre differenti emoji del mondo):
 
 --- code ---
 ---
@@ -22,9 +22,9 @@ world = '🌍🌎🌏'
 
 --- /code ---
 
-Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
+Quale codice utilizza correttamente la variabile `world` e restituisce Hello 🌍🌎🌏?
 
-![The output area from the code editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
+![L'area di output dell'editor del codice con Hello 🌍🌎🌏 visualizzato.](images/quiz1.png)
 
 --- choices ---
 
@@ -41,7 +41,7 @@ output('Hello' world)
 
  --- feedback ---
 
- Not quite, `output` is not the way to output messages to the screen.
+ Non proprio, `output` non è il modo di visualizzare i messaggi sullo schermo.
 
  --- /feedback ---
 
@@ -59,7 +59,7 @@ print('Hello' world)
 
  --- feedback ---
 
- Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+ Non proprio, in Python `print` visualizza messaggi sullo schermo, ma in questo esempio manca qualcosa.
 
  --- /feedback ---
 
@@ -76,7 +76,7 @@ print('Hello', world)
 
  --- feedback ---
 
- That's correct, in Python `print` outputs messages to the screen. The text output is inside single quotes `'` , a comma separates the two items and provides a space, then the `world` variable is called, which stores the earth emoji 🌍🌎🌏, like in your project.
+ Esatto, in Python `print` visualizza messaggi sullo schermo. L' output del testo è racchiuso tra virgolette singole `'` , una virgola separa i due elementi e aggiunge uno spazio, quindi viene richiamata la variabile `world` , che memorizza l'emoji della terra 🌍🌎🌏, come nel tuo progetto.
 
  --- /feedback ---
 
@@ -93,7 +93,7 @@ print(Hello, world)
 
  --- feedback ---
 
-  Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+  Non proprio, in Python `print` visualizza messaggi sullo schermo, ma in questo esempio manca qualcosa.
 
  --- /feedback ---
 
