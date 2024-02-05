@@ -115,7 +115,7 @@ Zu den Einsatzmöglichkeiten von Zufallszahlen gehören Kryptographie, Datenwiss
 
 Deine Funktion kann die Emoji-Variable 🔥 verwenden. Der Code `print(feuer * 3)` gibt drei Feuer-Emojis „🔥🔥🔥“ aus. Du musst die richtige Anzahl an Emojis ausgeben, um gewürfelten Zufallszahl zu entsprechen.
 
-Ändere Deinen Code, um den von `randint()` zurückgegebenen Wert in einer Variablen namens `wurf`zu speichern. Verwende diese Variable, um die gewürfelte Zahl mit der entsprechenden Anzahl an 🔥-Emojis auszudrucken.
+Ändere Deinen Code, um den von `randint()` zurückgegebenen Wert in einer Variablen namens `wurf` zu speichern. Verwende diese Variable, um die gewürfelte Zahl mit der entsprechenden Anzahl an 🔥-Emojis auszudrucken.
 
 --- code ---
 ---
@@ -149,7 +149,7 @@ Viele Spiele verwenden Würfel mit vielen Seiten. In der echten Welt bestehen W�
 
 Die Funktion `input()` stellt dem Benutzer eine Frage und gibt dann seine Antwort zurück.
 
-**Fügen Code hinzu**, um den Benutzer nach der größten Zahl auf seinen Würfeln zu fragen. Speichere das Ergebnis in einer Variable namens `max` und benutze `print` um die gewählte Zahl in dem Ausgabebereich darzustellen:
+**Füge Code hinzu**, um den Benutzer nach der größten Zahl auf seinen Würfeln zu fragen. Speichere das Ergebnis in einer Variable namens `max` und benutze `print` um die gewählte Zahl in dem Ausgabebereich darzustellen:
 
 Ändere Deine Codezeile die `wurf` definiert, um `max` als Maximalwert für `randint` zu verwenden, wenn eine Zufallszahl generiert wird.
 
