@@ -1,4 +1,4 @@
-## Verbessere dein Projekt
+## Verbessere Dein Projekt
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -36,7 +36,7 @@ filename: main.py
 # Hier Code einfügen der ab hier ausgeführt wird
 def hobbys():   
 hobby = input('Was macht Dir Spaß?')   
-print('Das klingt nach', spaß) # Du wirst eine Emoji Variable namens „spaß“ erstellen müssen print('Du könntest ein', python, 'Projekt zu', hobby, 'anfangen')
+print('Das klingt nach', spaß) # Du wirst eine Emoji Variable namens „spaß“ erstellen müssen print('Du könntest ein', python, 'Projekt anfangen - mit Thema', hobby')
 
 --- /code ---
 
