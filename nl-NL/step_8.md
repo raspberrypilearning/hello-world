@@ -4,17 +4,17 @@ Als je het [Inleiding tot Python](https://projects.raspberrypi.org/en/raspberryp
 
 --- print-only ---
 
-![An archery target with a hit point on the outer circle. The text 'You hit the outer circle, 50 points!' is displayed underneath](images/blue-points.png){:width="640px"}
+![Een boogschietdoel met een trefpunt op de buitenste cirkel. De tekst 'Je raakt de buitenste cirkel, 50 punten!' wordt eronder weergegeven](images/blue-points.png){:width="640px"}
 
 --- /print-only ---
 
 --- no-print ---
 
-Click the **Run** button to view an example of this project.
+Klik op de knop **Run** om een voorbeeld van dit project te bekijken.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/target-practice-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
 --- /no-print ---
 
-Als je meer plezier wilt hebben met het verkennen van Python, dan kun je een van deze projecten [uitproberen](https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=python).
+Als je meer plezier wilt hebben bij het verkennen van Python, dan kun je een van [deze projecten](https://projects.raspberrypi.org/en/projects?software%5B%5D=python) uitproberen.
