@@ -1,8 +1,8 @@
-## Diciamo Hello
+## Dire Ciao
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Quando impari un nuovo linguaggio di programmazione è consuetudine scrivere un programma che visualizzi il messaggio "Hello world!".
+Quando impari un nuovo linguaggio di programmazione è consuetudine scrivere un programma che visualizzi il messaggio 'Ciao Mondo!' (Hello World).
 </div>
 <div>
 
@@ -13,7 +13,7 @@ Quando impari un nuovo linguaggio di programmazione è consuetudine scrivere un 
 
 --- task ---
 
-Apri il progetto di partenza [Hello 🌍🌎🌏](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. L'editor si aprirà in un'altra scheda del browser.
+Apri il progetto di partenza [Ciao 🌍🌎🌏](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. L'editor si aprirà in un'altra scheda del browser.
 
 ![L'editor del codice con il codice del progetto iniziale a sinistra nell'area del codice. Sulla destra c'è l'area di output vuota.](images/starter_project.png)
 
@@ -39,7 +39,7 @@ Riavvia Chromium e dovresti vedere le emoji colorate.
 
 --- /collapse ---
 
-### Stampa hello
+### Stampa ciao
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Le linee che cominciamo con un `#` sono<span style="color: #0faeb0">**commenti**</span>. Spiegano cosa farà il codice. I commenti vengono ignorati da Python.
@@ -53,13 +53,13 @@ In Python, `print()` visualizza testo (parole o numeri) sullo schermo.
 
 Trova la riga di codice `# Inserisci il codice da eseguire qui sotto` .
 
-Fai clic sotto quella riga. Lo `| lampeggiante` è il cursore e mostra dove digiterai.
+Fai clic sotto quella riga. Il `| lampeggiante` è il cursore e mostra dove digiterai.
 
 --- /task ---
 
 --- task ---
 
-Digita il codice per fare`print()` di Hello sullo schermo:
+Digita il codice per fare`print()` di Ciao sullo schermo:
 
 **Suggerimento:** Quando si digita una parentesi di apertura `(` o un apostrofo di apertura `'` l'editor del codice aggiungerà automaticamente una parentesi di chiusura `)` o un apostrofo di chiusura`'`:
 
@@ -70,16 +70,16 @@ line_highlights: 18
 ---
 
 # Metti il codice da eseguire qui sotto
-print('Hello')
+print('Ciao')
 
 --- /code ---
 
 --- collapse ---
 ---
-title: Digitazione di caratteri speciali su una tastiera del Regno Unito o degli Stati Uniti
+title: Digitare caratteri speciali su una tastiera Italiana
 ---
 
-Su una tastiera britannica o americana, le parentesi tonde sinistra `(` e destra `)` si trovano sui tasti <kbd>9</kbd> e <kbd>0</kbd>. Per digitare una parentesi tonda sinistra, tieni premuto il tasto <kbd>Maiusc</kbd> (accanto a <kbd>Z</kbd>) e quindi tocca <kbd>9</kbd>. La virgoletta singola `'` si trova sulla stessa riga del tasto <kbd>L</kbd> , appena prima del tasto <kbd>Invio</kbd>. La virgola `,` è accanto alla lettera <kbd>M</kbd>.
+Su una tastiera italiana, le parentesi tonde sinistra `(` e destra `)` si trovano sui tasti <kbd>8</kbd> e <kbd>9</kbd>. Per digitare una parentesi tonda sinistra, tieni premuto il tasto <kbd>Maiusc</kbd> (accanto a <kbd>Z</kbd>) e quindi tocca <kbd>8</kbd>. La virgoletta singola `'` si trova sulla stessa riga dei numeri, a destra dello <kbd>0</kbd>, appena prima del tasto <kbd>Cancella</kbd>. La virgola `,` è accanto alla lettera <kbd>M</kbd>.
 
 --- /collapse ---
 
@@ -87,25 +87,25 @@ Su una tastiera britannica o americana, le parentesi tonde sinistra `(` e destra
 
 --- task ---
 
-**Test:** Fai clic sul pulsante **Run** per eseguire il tuo codice. Nell'editor del codice, l'output apparirà sulla destra:
+**Prova:** Fai clic sul pulsante **Run** per eseguire il tuo codice. Nell'editor del codice, l'output apparirà sulla destra:
 
 ![L'icona Esegui evidenziata con "Ciao" visualizzato nell'area di output. ](images/run_hello.png)
 
-**Debug:** Se ricevi un errore, controlla il codice con molta attenzione. In questo esempio, mancano le virgolette singole attorno `Hello`, quindi Python non capisce che dovrebbe essere testo.
+**Debug:** Se ricevi un errore, controlla il codice con molta attenzione. In questo esempio, mancano le virgolette singole attorno `Ciao`, quindi Python non capisce che dovrebbe essere testo.
 
-![L'editor del codice con virgolette singole mancanti e l'errore 'NameError: nome 'Hello' is not defined on line 18 in main.py.](images/hello_error.png)
+![L'editor del codice con virgolette singole mancanti e l'errore 'NameError: nome 'Ciao' is not defined on line 18 in main.py.](images/hello_error.png)
 
 --- /task ---
 
 ## Stampa🌍🌎🌏
 
-In Python, una variabile **** viene utilizzata per memorizzare valori come testo o numeri. Le variabili rendono più semplice per gli esseri umani leggere il codice. Puoi utilizzare la stessa variabile in molti punti del tuo codice. Scegliere un nome sensato per una variabile rende più facile ricordare a cosa serve.
+In Python, una **variabile** viene utilizzata per memorizzare valori come testo o numeri. Le variabili rendono più semplice per gli esseri umani leggere il codice. Puoi utilizzare la stessa variabile in molti punti del tuo codice. Scegliere un nome sensato per una variabile rende più facile ricordare a cosa serve.
 
 Abbiamo incluso alcune variabili che memorizzano i caratteri emoji.
 
 --- task ---
 
-Trova la variabile `world`, che memorizza il testo '🌍🌍🌍'.
+Nel tuo codice, scorri fino alle righe con le emoji salvate in due diverse variabili. Trova la variabile `mondo`, che memorizza il testo '🌍🌍🌍'.
 
 --- /task ---
 
@@ -122,23 +122,23 @@ line_highlights: 18
 ---
 
 # Metti il codice da eseguire qui sotto
-print('Hello', world)
+print('Ciao', mondo)
 
 --- /code ---
 
-**Suggerimento:** `'Hello'` è una stringa di testo perché è racchiusa tra virgolette singole, mentre `world` è una variabile, quindi il valore memorizzato in essa verrà stampato.
+**Suggerimento:** `'Ciao'` è una stringa di testo perché è racchiusa tra virgolette singole, mentre `mondo` è una variabile, quindi il valore memorizzato in essa verrà stampato.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Esegui il codice per vedere il risultato:
+**Prova:** Esegui il codice per vedere il risultato:
 
 ![La riga di codice aggiornata nell'area del codice con la parola "Ciao" seguita da tre emoji del mondo visualizzati nell'area di output.](images/run_hello_world.png)
 
 **Suggerimento:** Le emoji possono avere un aspetto diverso su computer diversi, quindi le tue potrebbero non essere esattamente lo stesso.
 
-**Debug:** Assicurati di aver aggiunto una virgola tra gli elementi in `print()` e di aver scritto correttamente `world`.
+**Debug:** Assicurati di aver aggiunto una virgola tra gli elementi in `print()` e di aver scritto correttamente `mondo`.
 
 In questo esempio manca la virgola `,`. È piccola ma molto importante!
 
@@ -169,7 +169,7 @@ print('Welcome to', python)
 
 **Prova:** Clicca **Esegui**.
 
-![La riga di codice aggiuntiva nell'editor di codice con la parola "Ciao" seguita da tre emoji del mondo e le parole "Benvenuto a" seguite da un serpente emoji e una tastiera visualizzata nell'area di output.](images/run_multiple.png)
+![La riga di codice aggiuntiva nell'editor di codice con la parola 'Ciao' seguita da tre emoji del mondo e le parole "Benvenuto a" seguite da un serpente emoji e una tastiera visualizzata nell'area di output.](images/run_multiple.png)
 
 **Suggerimento:** È una buona idea eseguire il codice dopo ogni modifica in modo da poter risolvere rapidamente i problemi.
 
