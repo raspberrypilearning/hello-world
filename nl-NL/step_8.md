@@ -4,23 +4,26 @@ Als je het [Inleiding tot Python](https://projects.raspberrypi.org/nl-NL/raspber
 
 --- print-only ---
 
-![Boogschieten project](images/archery-project.png)
+![Een boogschietdoel met een trefpunt op de buitenste cirkel. De tekst 'Je raakt de buitenste cirkel, 50 punten!' wordt eronder weergegeven](images/blue-points.png){:width="640px"}
 
 --- /print-only ---
 
 --- no-print ---
 
-<iframe src="https://trinket.io/embed/python/8fb27424fd?outputOnly=true&start=result" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark">
+Klik op de knop **Run** om een voorbeeld van dit project te bekijken.
+
+<iframe src="https://editor.raspberrypi.org/nl-NL/embed/viewer/target-practice-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
 --- /no-print ---
 
-Als je meer plezier wilt hebben met het verkennen van Python, dan kun je een van deze projecten [uitproberen](https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=python).
+Als je meer plezier wilt hebben bij het verkennen van Python, dan kun je een van [deze projecten](https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=python) uitproberen.
 
 ***
 Dit project werd vertaald door vrijwilligers:
 
 Max Schaaper
 Robert-Jan Kempenaar
+Iny van Beuningen
 
 Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).

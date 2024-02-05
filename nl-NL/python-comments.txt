@@ -1,0 +1,43 @@
+Zet de code om uit te voeren hier onder
+
+Print het resultaat van de som
+
+Afdrukken met emoji
+
+Zet de functie definities hier onder
+
+Vergeet de dubbele punt aan het einde van deze regel niet
+
+Roep de functie gooi_dobbelsteen aan
+
+Genereer een willekeurig getal tussen 1 en 6
+
+Druk de waarde van de worp variabele af
+
+Herhaal de vuuremoji om bij de dobbelsteenworp te passen
+
+Wacht op invoer van de gebruiker
+
+Gebruik het getal dat de gebruiker heeft ingevoerd
+
+randint vereist dat max een 'geheel getal' is
+
+Wacht tot de gebruiker op Enter drukt
+
+Nuttige tekens :',()*_/.#
+
+Emoji-variabelen die je in je project kunt gebruiken
+
+ASCII-kunstalternatieven toevoegen
+
+Voor emoji gebruikten we emoticons gemaakt van karakters
+
+vraag invoer van de gebruiker
+
+genereer een willekeurige getal
+
+herhaal worp keer de vuurtekst
+
+de huidige datum en tijd ophalen
+
+Roep de functie hobbies aan

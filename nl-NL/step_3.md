@@ -6,7 +6,7 @@ Python is geweldig in het werken met getallen en datums.
 </div>
 <div>
 
-![Het uitvoergebied met vijf gedrukte regels die de nieuwe som en huidige datum uitvoer tonen.](images/sums_dates.png){:width="300px"}
+![Het uitvoergebied met vijf gedrukte regels die de nieuwe som en huidige datum uitvoer tonen.](images/sums_dates.png){:width="300px"} 
 
 </div>
 </div>
@@ -19,31 +19,48 @@ In Python kun je wiskundige operatoren gebruiken om sommen te maken:
 | / | delen |   
 | ** | machtsverheffen |
 
+### Maak een berekening
+
 --- task ---
 
 Voeg nog twee `print()` regels toe aan je code, met daarin een som voor Python om uit te werken:
+
+**Tip:**Om een `*` symbool te krijgen, druk tegelijk op <kbd>Shift</kbd> en <kbd>8</kbd>.
 
 --- code ---
 ---
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 12
-line_highlights: 14-15
+line_number_start: 18
+line_highlights: 20-21
 ---
 
 print('Hallo', wereld)   
 print('Welkom bij', python)   
-print(python, 'is erg goed in', sommen)   
-print(230 * 5782 ** 2 / 23781)
+print(python, 'is erg goed in wiskunde!')   
+print(230 * 5782 ** 2 / 23781) # Print het resultaat van de som
 
 --- /code ---
+
+**Tip:** Je hoeft de opmerkingen niet te typen, ze zijn er alleen om je te helpen de code te begrijpen. Typ gewoon het gedeelte voor de `#`.
 
 --- /task ---
 
 --- task ---
 
 **Test:** Voer je code uit om het resultaat te zien. Heeft Python de som correct berekend? Grapje! Python doet de moeilijke wiskunde voor je, dus je hoeft het niet uit te werken.
+
+**Fouten oplossen:**
+
+--- collapse ---
+---
+title: Ik heb een syntax fout
+---
+
+Zorg ervoor dat je een komma `,` hebt toegevoegd tussen de items in `print()` en dat je `python` correct hebt gespeld.
+
+--- /collapse ---
 
 --- /task ---
 
@@ -53,7 +70,7 @@ De Japanse computerwetenschapper <span style="color: #0faeb0">**Emma Haruka Iwao
 
 --- task ---
 
-Probeer de som te veranderen in een ingewikkelde!
+Probeer de som die Python doet te veranderen in een ingewikkelde som!
 
 Je kunt ook haakjes gebruiken als je de volgorde wilt bepalen waarin Python de som berekent: `print( (2 + 4) * (5 + 3) )`.
 
@@ -63,19 +80,19 @@ Je kunt ook haakjes gebruiken als je de volgorde wilt bepalen waarin Python de s
 
 **Test:** Voer je code uit en laat Python je som berekenen.
 
-**Debuggen:**Zorg ervoor dat om je som er een linker en rechter rond haakje staat `(2* 45)`. Als je extra haakjes gebruikt om de volgorde te controleren, zorg dan dat je een rechter haakje laat passen bij het linker haakje.
+**Debuggen:**Zorg ervoor dat om je som er een linker en rechter rond haakje staat `(2 * 45)`. Als je extra haakjes gebruikt om de volgorde te controleren, zorg dan dat je een rechter haakje laat passen bij het linker haakje.
 
 --- /task ---
 
 --- task ---
 
-Als je Python hebt gevraagd om een heel groot bedrag te berekenen, kan het zijn dat het antwoord over meerdere regels in het uitvoergebied gaat.
+In de code-editor is de tekst misschien te groot of te klein om te lezen. Je kunt deze instellingen eenvoudig aanpassen aan jouw voorkeur.
 
-**Tip:** Klik op het **hamburger menu** (het pictogram met drie lijnen) linksboven in je Trinket-editor. Klik vervolgens op de knop **Fullscreen** om je project op volledig scherm te bekijken.
+**Tip:** Klik op het **Instellingenmenu**  aan de linkerkant van je code-editor. Klik vervolgens op een van de knoppen **Text Size** (tekstgrootte) om de grootte van de tekst te wijzigen.
 
-![De Trinket-editor met menu aan de linkerkant uitgebreid, via het hamburgermenu, om de optie op volledig scherm weer te geven.](images/full_screen.png)
+![De code-editor met het instellingenmenu uitgevouwen om de opties Colour Mode en Text Size weer te geven.](images/full_screen.png)
 
-Om de modus Volledig scherm te verlaten, klik je nogmaals op de knop **Fullscreen** of je drukt op <kbd>Esc</kbd> op je toetsenbord.
+Je kunt ook schakelen tussen kleureninstellingen, klik op de **Light & Dark** knoppen om de wijzigingen te zien.
 
 --- /task ---
 
@@ -87,7 +104,7 @@ Een van de geweldige dingen van Python zijn alle <span style="color: #0faeb0">**
 
 --- task ---
 
-Voeg nog een `print`regel toe aan je code om wat meer tekst en de emoji-variabelen `kalender` en `klok` te tonen.
+Voeg nog een regel toe aan je code om de huidige datum en tijd te `print`-en.
 
 Haal de huidige datum en tijd op door de functie `now()` uit de `datetime` -bibliotheek te gebruiken:
 
@@ -96,13 +113,13 @@ Haal de huidige datum en tijd op door de functie `now()` uit de `datetime` -bibl
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 14
-line_highlights: 16-17
+line_number_start: 20
+line_highlights: 22
 ---
 
-print(python, 'is erg goed in', sommen)    
-print(230 * 5782 ** 2 / 23781) #Print het resultaat van de som     
-print('De', kalendar, klok, 'is', datetime.now()) #Print met emoji
+print(python, 'is erg goed in wiskunde!')    
+print(230 * 5782 ** 2 / 23781) # Print het resultaat van de som     
+print('De datum en tijd is', datetime.now()) # Druk de huidige datum en tijd af
 
 --- /code ---
 

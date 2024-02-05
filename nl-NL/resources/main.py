@@ -14,7 +14,7 @@ def gooi_dobbelsteen():
   print('Je hebt een', worp, 'gegooid') # print de waarde van de worpvariabele
   print(vuur * worp) # herhaal de vuurtekst worp keer
 
-def hobbys():
+def hobbies():
   hobby = input('Wat vind je leuk?')
   print('Dat klinkt', leuk)
   print('Je zou een', python, 'project over jouw', hobby, 'kunnen maken')
@@ -40,7 +40,7 @@ gooi_dobbelsteen() #Roep de dobbelsteen functie aan
 
 input()
 
-hobbys() # Roep de functie hobby's aan
+hobbies() # Roep de functie hobby's aan
 
 
 

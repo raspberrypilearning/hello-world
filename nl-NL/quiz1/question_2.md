@@ -6,7 +6,7 @@ legend: Vraag 2 van 3
 
 Welke van deze functie definities is correct en drukt de tekst: `Ik kan coderen` als ze wordt aangeroepen?
 
-![De Trinket-editor met uitvoergebied <code>Ik kan coderen</code>.](images/quiz2.png)
+![De code editor met uitvoergebied dat <code>Ik kan coderen</code> laat zien.](images/quiz2.png)
 
 --- choices ---
 
@@ -17,8 +17,8 @@ Welke van deze functie definities is correct en drukt de tekst: `Ik kan coderen`
 language: python
 ---
 
-def geweldig(): 
-  print('Ik kan coderen')
+def geweldig():
+    print('Ik kan coderen')
 
 --- /code ---
 
@@ -35,7 +35,7 @@ Dat klopt, als je deze functie aanroept, wordt `Ik kan coderen` afgedrukt. Je he
 language: python
 ---
 
-def geweldig(): 
+def geweldig():
 print('Ik kan coderen')
 
 --- /code ---
@@ -53,8 +53,8 @@ print('Ik kan coderen')
 language: python
 ---
 
-def geweldig() 
-  print('Ik kan coderen')
+def geweldig()
+    print('Ik kan coderen')
 
 --- /code ---
 
