@@ -10,11 +10,11 @@
 
 --- no-print ---
 
-Click the **Run** button to view an example of this project.
+इस प्रोजेक्ट का उदाहरण देखने के लिए **Run** बटन पर क्लिक करें।
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/target-practice-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
 --- /no-print ---
 
-If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
+यदि आप पायथन की खोज में अधिक मज़ा लेना चाहते हैं, तो आप इनमें से किसी भी [प्रोजेक्ट](https://projects.raspberrypi.org/en/projects?software%5B%5D=python)को आज़मा सकते हैं।
