@@ -33,7 +33,7 @@ language: python filename: main.py line_numbers: true line_number_start: 18
 line_highlights: 20-21
 ---
 
-print('Hello', world)   
+print('Ciao', mondo)   
 print('Benvenuto in', python)   
 print(python, 'è molto bravo in matematica!')   
 print(230 * 5782 ** 2 / 23781)  # Stampa il risultato dell'operazione
@@ -46,7 +46,7 @@ print(230 * 5782 ** 2 / 23781)  # Stampa il risultato dell'operazione
 
 --- task ---
 
-**Test:** Esegui il codice. Python ha effettuato correttamente il calcolo? Era uno scherzo! Python fa i calcoli difficili per te, quindi non è necessario risolverli.
+**Prova:** Esegui il codice. Python ha effettuato correttamente il calcolo? Era uno scherzo! Python fa i calcoli difficili per te, quindi non è necessario risolverli.
 
 **Debug:**
 
@@ -55,7 +55,7 @@ print(230 * 5782 ** 2 / 23781)  # Stampa il risultato dell'operazione
 title: Ho un syntax error
 ---
 
-`Debug:` Assicurati di aver aggiunto una virgola tra gli elementi in `print()` e di aver scritto correttamente `world`.
+`Debug:` Assicurati di aver aggiunto una virgola tra gli elementi in `print()` e di aver scritto correttamente `mondo`.
 
 --- /collapse ---
 
@@ -76,7 +76,7 @@ Puoi anche usare le parentesi se vuoi controllare l'ordine in cui Python calcola
 
 --- task ---
 
-**Test:** Esegui il tuo codice e chiedi a Python di risolvere l'operazione per te.
+**Prova:** Esegui il tuo codice e chiedi a Python di risolvere l'operazione per te.
 
 **Debug:** Assicurati che la tua operazione abbia una parentesi tonda sinistra e destra attorno ad essa `( 2 * 45 )`. Se utilizzi parentesi extra per controllare l'ordine, assicurati di avere una parentesi destra che corrisponda a ogni parentesi sinistra.
 
@@ -124,7 +124,7 @@ print('La data e l'ora sono', datetime.now()) # Stampa la data e l'ora correnti
 
 --- task ---
 
-**Test:** Esegui il codice un paio di volte per vedere l'aggiornamento dell'ora.
+**Prova:** Esegui il codice un paio di volte per vedere l'aggiornamento dell'ora.
 
 **Debug:** Controlla di avere inserito un punto `.` tra `datetime` e `now`. Controlla attentamente tutta la punteggiatura.
 
