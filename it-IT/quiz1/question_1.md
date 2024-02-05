@@ -11,20 +11,20 @@ Divertiti!
 legend: Domanda 1 di 3
 ---
 
-Questo codice imposta la variabile `world` per contenere il testo '🌍🌎🌏' (le tre differenti emoji del mondo):
+Questo codice imposta la variabile `mondo` per contenere il testo '🌍🌎🌏' (le tre differenti emoji del mondo):
 
 --- code ---
 ---
 language: python
 ---
 
-world = '🌍🌎🌏'
+mondo = '🌍🌎🌏'
 
 --- /code ---
 
-Quale codice utilizza correttamente la variabile `world` e restituisce Hello 🌍🌎🌏?
+Quale codice utilizza correttamente la variabile `mondo` e restituisce Ciao 🌍🌎🌏?
 
-![L'area di output dell'editor del codice con Hello 🌍🌎🌏 visualizzato.](images/quiz1.png)
+![L'area di output dell'editor del codice con Ciao 🌍🌎🌏 visualizzato.](images/quiz1.png)
 
 --- choices ---
 
@@ -35,7 +35,7 @@ Quale codice utilizza correttamente la variabile `world` e restituisce Hello �
 language: python
 ---
 
-output('Hello' world)
+output('Ciao' mondo)
 
 --- /code ---
 
@@ -53,7 +53,7 @@ output('Hello' world)
 language: python
 ---
 
-print('Hello' world)
+print('Ciao' mondo)
 
 --- /code ---
 
@@ -70,13 +70,13 @@ print('Hello' world)
 language: python
 ---
 
-print('Hello', world)
+print('Ciao', mondo)
 
 --- /code ---
 
  --- feedback ---
 
- Esatto, in Python `print` visualizza messaggi sullo schermo. L' output del testo è racchiuso tra virgolette singole `'` , una virgola separa i due elementi e aggiunge uno spazio, quindi viene richiamata la variabile `world` , che memorizza l'emoji della terra 🌍🌎🌏, come nel tuo progetto.
+ Esatto, in Python `print` visualizza messaggi sullo schermo. L' output del testo è racchiuso tra virgolette singole `'` , una virgola separa i due elementi e aggiunge uno spazio, quindi viene richiamata la variabile `mondo` , che memorizza l'emoji della terra 🌍🌎🌏, come nel tuo progetto.
 
  --- /feedback ---
 
@@ -87,7 +87,7 @@ print('Hello', world)
 language: python
 ---
 
-print(Hello, world)
+print(Ciao, mondo)
 
 --- /code ---
 
