@@ -27,7 +27,7 @@ In Python **chiami** una **funzione()** per eseguire un'azione. Hai già utilizz
 
 Le funzioni devono essere definite prima che tu possa richiamarle. Cerca il commento nel file **main.py** che dice `# Definizioni di funzioni`.
 
-Definire una nuova funzione chiamata `lancia_il_dado()` che utilizza la funzione `randint()` dalla libreria `random`, per generare un "integer" (un numero intero) casuale da 1 a 6 e visualizzarlo sullo schermo.
+Definire una nuova funzione chiamata `tira_dado()` che utilizza la funzione `randint()` dalla libreria `random`, per generare un "integer" (un numero intero) casuale da 1 a 6 e visualizzarlo sullo schermo.
 
 --- code ---
 ---
@@ -36,21 +36,21 @@ line_highlights: 16-17
 ---
 
 # Definizioni di funzioni
-def lancia_il_dado(): # Non dimenticare i due punti alla fine di questa riga   
+def tira_dado(): # Non dimenticare i due punti alla fine di questa riga   
 print('Hai ottenuto un ', randint(1, 6)) # randint(1, 6) viene utilizzato per fornire un numero compreso tra 1 e 6.
 
 --- /code ---
 
-La riga sotto `def lancia_un_dado():` è **indentata (rientrata)**. Per fare ciò, usa il tasto<kbd>Tab</kbd> sulla tastiera (di solito sopra <kbd>Blocca Maiuscole</kbd> sulla tastiera). Il codice rientrato dice a Python che le righe rientrate fanno parte della funzione.
+La riga sotto `def tira_dado():` è **indentata (rientrata)**. Per fare ciò, usa il tasto<kbd>Tab</kbd> sulla tastiera (di solito sopra <kbd>Blocca Maiuscole</kbd> sulla tastiera). Il codice rientrato dice a Python che le righe rientrate fanno parte della funzione.
 
 **Suggerimento:** Il carattere di sottolineatura (underscore) `_` viene utilizzato tra le parole nei nomi di variabili e funzioni in Python per renderli più facili da leggere. Non puoi utilizzare uno spazio.
 
 --- collapse ---
 ---
-title: Digitazione di caratteri speciali su una tastiera del Regno Unito o degli Stati Uniti
+title: Digitare caratteri speciali su una tastiera Italiana
 ---
 
-Su una tastiera britannica o americana, i due punti `:` si trovano sullo stesso tasto del punto e virgola, accanto al tasto <kbd>L</kbd> : tieni premuto <kbd>Shift</kbd> e tocca <kbd>;</kbd> per digitare `:`. Il carattere di sottolineatura `_` si trova sullo stesso tasto di `-`, accanto a <kbd>0</kbd>, tieni premuto <kbd>Shift</kbd> e premi<kbd>-</kbd> per digitare `_`.
+Su una tastiera italiana, i due punti `:` si trovano sullo stesso tasto del punto, accanto al tasto <kbd>M</kbd>: tieni premuto <kbd>Shift</kbd> e tocca <kbd>.</kbd> per digitare `:`. Il carattere di sottolineatura `_` si trova sullo stesso tasto di `-`, accanto a <kbd>.</kbd>, tieni premuto <kbd>Shift</kbd> e premi<kbd>-</kbd> per digitare `_`.
 
 --- /collapse ---
 
@@ -58,7 +58,7 @@ Su una tastiera britannica o americana, i due punti `:` si trovano sullo stesso 
 
 --- task ---
 
-**Test:** Se esegui "Esegui" il codice ora, non lancerà un dado. Questo perché hai definito la funzione `lancia_un_dado()` , ma non l'hai ancora chiamata.
+**Prova:** Se esegui "Esegui" il codice ora, non lancerà un dado. Questo perché hai definito la funzione `tira_dado()`, ma non l'hai ancora chiamata.
 
 **Debug:**
 
@@ -67,13 +67,13 @@ Su una tastiera britannica o americana, i due punti `:` si trovano sullo stesso 
 title: Ho un syntax error
 ---
 
-- Assicurati di avere un carattere di sottolineatura `_` tra lancia, un e dado per creare il nome della funzione.
+- Assicurati di avere un carattere di sottolineatura `_` tra tira e dado per creare il nome della funzione.
 
 - Assicurati di avere i due punti `:` alla fine della riga.
 
-- Controlla che la riga sotto `lancia_un_dado()` sia rientrata. È un errore abbastanza comune in Python, quindi assicurati di controllare.
+- Controlla che la riga sotto `tira_dado()` sia rientrata. È un errore abbastanza comune in Python, quindi assicurati di controllare.
 
-![L'editor di codice che mostra la riga di codice all'interno della funzione <code>lancia_un_dado</code> non è rientrato. Viene evidenziata la riga di codice con l'errore. Il codice è stato eseguito, e abbiamo l'errore 'SyntaxError: bad input on line 17 in main.py'.](images/indent_error.png)
+![L'editor di codice che mostra la riga di codice all'interno della funzione <code>tira_dado</code> non è rientrato. Viene evidenziata la riga di codice con l'errore. Il codice è stato eseguito, e abbiamo l'errore 'SyntaxError: bad input on line 17 in main.py'.](images/indent_error.png)
 
 --- /collapse ---
 
@@ -83,7 +83,7 @@ title: Ho un syntax error
 
 --- task ---
 
-Per utilizzare una funzione è necessario **chiamarla** nel codice. Vai alla fine del tuo codice e aggiungi una nuova riga per chiamare la funzione `lancia_un_dado()`:
+Per utilizzare una funzione è necessario **chiamarla** nel codice. Vai alla fine del tuo codice e aggiungi una nuova riga per chiamare la funzione `tira_dado()`:
 
 --- code ---
 ---
@@ -93,7 +93,7 @@ line_highlights: 27
 
 print('La data e l'ora attuali sono', datetime.now())
 
-lancia_un_dado() # Chiama la funzione lancia_un_dado
+tira_dado() # Chiama la funzione lancia_un_dado
 
 --- /code ---
 
@@ -101,7 +101,7 @@ lancia_un_dado() # Chiama la funzione lancia_un_dado
 
 --- task ---
 
-**Test:** Esegui il tuo progetto più volte per vedere come ogni volta il risultato del lancio dei dadi sia casuale.
+**Prova:** Esegui il tuo progetto più volte per vedere come ogni volta il risultato del lancio dei dadi sia casuale.
 
 --- /task ---
 
@@ -113,9 +113,9 @@ I numeri casuali sono utilizzati nella crittografia, in informatica e per aggiun
 
 --- task ---
 
-La tua funzione può utilizzare la variabile 🔥 emoji. Il codice `print(fire * 3)` visualizza tre emoji di fuoco '🔥🔥🔥'. Devi produrre il numero corretto di emoji in modo che corrisponda al numero casuale ottenuto dal lancio dei dadi.
+La tua funzione può utilizzare la variabile 🔥 emoji. Il codice `print(fuoco * 3)` visualizza tre emoji di fuoco '🔥🔥🔥'. Devi produrre il numero corretto di emoji in modo che corrisponda al numero casuale ottenuto dal lancio dei dadi.
 
-Modifica il tuo codice per salvare il valore restituito da `randint()` in una variabile chiamata `roll`. Usa quella variabile per stampare il numero lanciato con il numero corrispondente di emoji🔥 .
+Modifica il tuo codice per salvare il valore restituito da `randint()` in una variabile chiamata `risultato`. Usa quella variabile per stampare il numero lanciato con il numero corrispondente di emoji🔥 .
 
 --- code ---
 ---
@@ -124,7 +124,7 @@ line_highlights: 17-18
 ---
 
 # Definizioni di funzioni
-def lancia_un_dado(): roll = randint(1, 6) # Genera un numero casuale tra 1 e 6 e lo memorizza nella variabile 'roll' print('Hai ottenuto un', roll, fire * roll) # Ripete l'operazione emoji del fuoco per abbinarla al numero ottenuto con i dadi
+def tira_dado(): risultato = randint(1, 6) # Genera un numero casuale tra 1 e 6 e lo memorizza nella variabile 'risultato' print('Hai ottenuto un', risultato, fuoco * risultato) # Ripete l'operazione emoji del fuoco per abbinarla al numero ottenuto con i dadi
 
 --- /code ---
 
@@ -134,7 +134,7 @@ def lancia_un_dado(): roll = randint(1, 6) # Genera un numero casuale tra 1 e 6 
 
 --- task ---
 
-**Test:** Testa il tuo progetto alcune volte. Assicurati di capire come funziona il codice.
+**Prova:** Testa il tuo progetto alcune volte. Assicurati di capire come funziona il codice.
 
 --- /task ---
 
@@ -149,9 +149,9 @@ Molti giochi utilizzano dadi a molte facce. Nel mondo fisico, i dadi sono costit
 
 La funzione `input()` pone una domanda all'utente e quindi memorizza la risposta.
 
-**Aggiungi** del codice per chiedere all'utente quale deve essere il numero più grande dei sui suoi dadi e poi salva quel numero in una variabile chiamata `max` e `visualizza` il numero scelto nell'area di output:
+**Aggiungi** del codice per chiedere all'utente quale deve essere il numero più grande dei sui suoi dadi e poi salva quel numero in una variabile chiamata `massimo` e `visualizza` il numero scelto nell'area di output:
 
-Cambia il codice che genera la tua variabile `roll` utilizzando `max` come valore massimo per `randint` quando genera un numero casuale.
+Cambia il codice che genera la tua variabile `risultato` utilizzando `massimo` come valore massimo per `randint` quando genera un numero casuale.
 
 Quando ricevi un input dall'utente, Python lo tratta come se fosse testo. Ma `randint` necessita di un "integer" (un numero intero positivo). La funzione `int` trasforma l'input dell'utente in un numero intero.
 
@@ -163,10 +163,10 @@ line_highlights: 18-20
 
 # Definizioni di funzioni
 
-def lancia_un_dado():   
-max = input('Quante facce ha il dado?:')  # Aspetta l'input dell'utente    
-print('Questo è un dado D', max)  # Usa il numero inserito dall'utente    
-roll = randint(1, int(max))  # Usa max per stabilire il numero di facce del dado print('Hai ottenuto un ', roll, fire * roll)
+def tira_dado():   
+massimo = input('Quante facce ha il dado?:')  # Aspetta l'input dell'utente    
+print('Questo è un dado D', massimo)  # Usa il numero inserito dall'utente    
+risultato = randint(1, int(massimo))  # Usa max per stabilire il numero di facce del dado print('Hai ottenuto un ', risultato, fuoco * risultato)
 
 --- /code ---
 
@@ -176,7 +176,7 @@ Per stampare un apostrofo `'` in una parola, metti una barra rovesciata `\` prim
 
 --- task ---
 
-**Test:** Esegui il codice. Quando il programma arriva alla riga `input` , attenderà che tu inserisca una risposta prima di continuare. Digita la tua risposta e quindi premi <kbd>Invio</kbd>, ciò consentirà al programma di memorizzare la tua risposta. Riprovare con un diverso numero in `input`.
+**Prova:** Esegui il codice. Quando il programma arriva alla riga `input` , attenderà che tu inserisca una risposta prima di continuare. Digita la tua risposta e quindi premi <kbd>Invio</kbd>, ciò consentirà al programma di memorizzare la tua risposta. Riprova con un diverso numero in `input`.
 
 --- /task ---
 
