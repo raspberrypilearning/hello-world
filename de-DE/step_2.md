@@ -99,7 +99,7 @@ Auf einer deutschen Tastatur befinden sich die linken `(` und die rechten `)` ru
 
 ## 🌍🌎🌏 ausgeben
 
-In Python wird eine **-Variable** zum Speichern von Werten wie Text oder Zahlen verwendet. Variablen erleichtern Menschen das Lesen von Code. Du kannst dieselbe Variable an vielen Stellen in Deinem Code verwenden. Wählst Du einen passenden Namen für eine Variable, machst Du es Dir leichter zu erinnern wofür sie da ist.
+In Python wird eine **Variable** zum Speichern von Werten wie Text oder Zahlen verwendet. Variablen erleichtern Menschen das Lesen von Code. Du kannst dieselbe Variable an vielen Stellen in Deinem Code verwenden. Wählst Du einen passenden Namen für eine Variable, machst Du es Dir leichter zu erinnern wofür sie da ist.
 
 Wir haben einige Variablen eingefügt, die Emoji Zeichen speichern.
 
