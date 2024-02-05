@@ -34,7 +34,7 @@ line_highlights: 20-21
 ---
 
 print('Hallo', welt)   
-print('Willkommen zu', python)   
+print('Willkommen bei', python)   
 print(python, 'ist sehr gut in Mathe!')   
 print(230 * 5782 ** 2 / 23781)  # Gib das Ergebnis der Rechnung aus
 
