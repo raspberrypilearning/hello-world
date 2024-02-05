@@ -19,24 +19,24 @@ In Python kun je wiskundige operatoren gebruiken om sommen te maken:
 | / | delen |   
 | ** | machtsverheffen |
 
-### Create a calculation
+### Maak een berekening
 
 --- task ---
 
 Voeg nog twee `print()` regels toe aan je code, met daarin een som voor Python om uit te werken:
 
-**Tip:** To get a `*` symbol press <kbd>Shift</kbd> and <kbd>8</kbd> at the same time.
+**Tip:** Om een `*` symbool te krijgen, druk tegelijk op <kbd>Shift</kbd> en <kbd>8</kbd>.
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 14
-line_highlights: 14-15
+language: python filename: main.py line_numbers: true line_number_start: 18
+line_highlights: 20-21
 ---
 
 print('Hallo', wereld)   
 print('Welkom bij', python)   
-print(python, 'is erg goed in', sommen)   
-print(230 * 5782 ** 2 / 23781)
+print(python, 'is erg goed in wiskunde!')   
+print(230 * 5782 ** 2 / 23781) # Print het resultaat van de som
 
 --- /code ---
 
@@ -48,14 +48,14 @@ print(230 * 5782 ** 2 / 23781)
 
 **Test:** Voer je code uit om het resultaat te zien. Heeft Python de som correct berekend? Grapje! Python doet de moeilijke wiskunde voor je, dus je hoeft het niet uit te werken.
 
-**Debug:**
+**Fouten oplossen:**
 
 --- collapse ---
 ---
-title: I have a syntax error
+title: ik heb een syntax fout
 ---
 
-Make sure that you have added a comma `,` between the items in `print()` and that you have spelled `python` correctly.
+Zorg ervoor dat je een komma `,` hebt toegevoegd tussen de items in `print()` en dat je `python` correct hebt gespeld.
 
 --- /collapse ---
 
@@ -67,7 +67,7 @@ De Japanse computerwetenschapper <span style="color: #0faeb0">**Emma Haruka Iwao
 
 --- task ---
 
-Try changing the sum that Python does to a complicated one!
+Probeer de som die Python doet te veranderen in een ingewikkelde som!
 
 Je kunt ook haakjes gebruiken als je de volgorde wilt bepalen waarin Python de som berekent: `print( (2 + 4) * (5 + 3) )`.
 
@@ -83,13 +83,13 @@ Je kunt ook haakjes gebruiken als je de volgorde wilt bepalen waarin Python de s
 
 --- task ---
 
-On the code editor, you might find the text too big or too small to read. You can easily change these settings to suit your preference.
+In de code-editor is de tekst misschien te groot of te klein om te lezen. Je kunt deze instellingen eenvoudig aanpassen aan jouw voorkeur.
 
-Klik vervolgens op de knop **Fullscreen** om je project op volledig scherm te bekijken. **Tip:** Klik op het **hamburger menu** (het pictogram met drie lijnen) linksboven in je Trinket-editor.
+**Tip:** Klik op het **Instellingenmenu**  aan de linkerkant van je code-editor. Klik vervolgens op een van de knoppen **Text Size** (tekstgrootte) om de grootte van de tekst te wijzigen.
 
-![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png)
+![De code-editor met het instellingenmenu uitgevouwen om de opties Colour Mode en Text Size weer te geven.](images/full_screen.png)
 
-You can also switch between colour modes, click on the **Light & Dark** buttons to see the changes.
+Je kunt ook schakelen tussen kleureninstellingen, klik op de **Light & Dark** knoppen om de wijzigingen te zien.
 
 --- /task ---
 
@@ -101,23 +101,23 @@ Een van de geweldige dingen van Python zijn alle <span style="color: #0faeb0">**
 
 --- task ---
 
-Voeg nog een `print`regel toe aan je code om wat meer tekst en de emoji-variabelen `kalender` en `klok` te tonen.
+Voeg nog een regel toe aan je code om de huidige datum en tijd te `print`-en.
 
 Haal de huidige datum en tijd op door de functie `now()` uit de `datetime` -bibliotheek te gebruiken:
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 12
-line_highlights: 16-17
+language: python filename: main.py line_numbers: true line_number_start: 20
+line_highlights: 22
 ---
 
-print(python, 'is erg goed in', sommen)    
-print(230 * 5782 ** 2 / 23781) #Print het resultaat van de som     
-print('De', kalendar, klok, 'is', datetime.now()) #Print met emoji
+print(python, 'is erg goed in wiskunde!')    
+print(230 * 5782 ** 2 / 23781) # Print het resultaat van de som     
+print('De datum en tijd is', datetime.now()) # Druk de huidige datum en tijd af
 
 --- /code ---
 
-**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
+**Tip:** Je hoeft de opmerkingen niet te typen, ze zijn er alleen om je te helpen de code te begrijpen. Typ gewoon het gedeelte voor de `#`.
 
 --- /task ---
 
