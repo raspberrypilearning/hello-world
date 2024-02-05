@@ -1,8 +1,8 @@
 ---
-title: "Hello \U0001F30D\U0001F30E\U0001F30F"
+title: "Ciao \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
 description: Scrivi un progetto Python interattivo che utilizzi le emoji
-meta_title: Progetti di codifica Python per bambini e adolescenti | Hello world
+meta_title: Progetti di programmazione Python per bambini e ragazzi | Ciao mondo
 meta_description: Impara Python con la Raspberry Pi Foundation. Realizza un progetto di codifica Python interattivo che utilizzi gli emoji.
 version: 4
 listed: true
@@ -12,7 +12,7 @@ steps:
   - 
     title: Quello che farai
   - 
-    title: Diciamo Hello
+    title: Dire Ciao
   - 
     title: Somme e date
     completion:
@@ -20,7 +20,7 @@ steps:
   - 
     title: Lancia un dado
   - 
-    title: Sentence starter
+    title: Inizia una frase
     completion:
       - internal
   - 
