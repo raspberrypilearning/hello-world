@@ -24,7 +24,7 @@ wereld = '🌍🌎🌏'
 
 Welke code gebruikt de `wereld` variabele correct en geeft Hallo 🌍🌎🌏 als resultaat?
 
-![Het uitvoergebied van de Trinket-editor met Hallo 🌍🌎🌏 wordt weergegeven.](images/quiz1.png)
+![Het uitvoergebied van de code-editor waarin Hallo 🌍🌎🌏 wordt weergegeven.](images/quiz1.png)
 
 --- choices ---
 
