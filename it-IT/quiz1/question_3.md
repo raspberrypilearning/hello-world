@@ -10,7 +10,7 @@ Questa funzione restituisce due numeri casuali:
 language: python
 ---
 
-def two_dice(): print('Primo numero:', randint(1, 6)) print('Secondo numero:', randint(1, 6))
+def due_dadi(): print('Primo numero:', randint(1, 6)) print('Secondo numero:', randint(1, 6))
 
 --- /code ---
 
@@ -27,7 +27,7 @@ Quale codice richiamerà la funzione per eseguirla?
 language: python
 ---
 
-def two_dice(): print('Primo numero:', randint(1, 6)) print('Secondo numero:', randint(1, 6))
+def due_dadi(): print('Primo numero:', randint(1, 6)) print('Secondo numero:', randint(1, 6))
 
 --- /code ---
 
@@ -42,13 +42,13 @@ def two_dice(): print('Primo numero:', randint(1, 6)) print('Secondo numero:', r
 language: python
 ---
 
-two_dice
+due_dadi
 
 --- /code ---
 
  --- feedback ---
 
-Vicino! `two dice` è il nome della funzione, ma per chiamarla è necessario qualcosa di più del semplice nome.
+Vicino! `due_dadi` è il nome della funzione, ma per chiamarla è necessario qualcosa di più del semplice nome.
 
  --- /feedback ---
 
@@ -59,7 +59,7 @@ Vicino! `two dice` è il nome della funzione, ma per chiamarla è necessario qua
 language: python
 ---
 
-two_dice[]
+due_dadi[]
 
 --- /code ---
 
@@ -76,13 +76,13 @@ two_dice[]
 language: python
 ---
 
-two_dice()
+due_dadi()
 
 --- /code ---
 
  --- feedback ---
 
- Esatto, l'utilizzo del nome della funzione seguito da `(` `)` parentesi chiamerà la funzione.
+ Esatto, l'utilizzo del nome della funzione seguito dalle parentesi `(` `)` chiamerà la funzione.
 
  --- /feedback ---
 
