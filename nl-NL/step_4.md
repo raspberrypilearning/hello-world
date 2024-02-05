@@ -37,7 +37,7 @@ line_highlights: 16-17
 
 # Functiedefinities
 def gooi_dobbelsteen(): # Vergeet de dubbele punt aan het einde van deze regel niet   
-print('Je hebt gegooid: ', randint(1, 6)) # randint(1, 6) wordt gebruikt om een getal tussen 1 en 6 te geven.
+print('Je hebt een ', randint(1, 6), 'gegooid') # randint(1, 6) wordt gebruikt om een getal tussen 1 en 6 te geven.
 
 --- /code ---
 
