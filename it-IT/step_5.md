@@ -21,7 +21,7 @@ language: python filename: main.py line_numbers: true line_number_start: 29
 line_highlights: 30-32
 ---
 
-lancia_un_dado() # Chiama la funzione lancia dadi print('Io ❤️ ...')   
+tira_dado() # Chiama la funzione lancia dadi print('Io ❤️ ...')   
 print('... mi rende 😃')   
 print('Mi piacerebbe fare... con' , python)
 
