@@ -33,59 +33,59 @@ language: python filename: main.py line_numbers: true line_number_start: 18
 line_highlights: 20-21
 ---
 
-print('Hello', world)   
-print('Welcome to', python)   
-print(python, 'is very good at maths!')   
-print(230 * 5782 ** 2 / 23781)  # Print the result of the sum
+प्रिंट('हैलो', दुनिया)   
+प्रिंट('आपका स्वागत है', पायथन)   
+प्रिंट(पायथन, ' गणित में बहुत अच्छा है!')   
+प्रिंट(230 * 5782 ** 2 / 23781) # योग का परिणाम प्रिंट करें
 
 --- /code ---
 
-**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the code before the `#`.
+**युक्ति:** आपको टिप्पणियाँ टाइप करने की आवश्यकता नहीं है, वे केवल आपको कोड समझने में मदद करने के लिए हैं। बस `#`से पहले कोड टाइप करें।
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code. Did Python calculate the sum correctly? Only joking! Python does the hard maths for you so you don't need to work it out.
+**परीक्षण:** अपना प्रोजेक्ट चलाएँ। क्या पायथन ने योग की सही गणना की? केवल मजाक कर रहा है! पायथन आपके लिए कठिन गणित करता है इसलिए आपको इसे हल करने की आवश्यकता नहीं है।
 
-**Debug:**
+**डीबग:**
 
 --- collapse ---
 ---
-title: I have a syntax error
+शीर्षक: मेरे पास एक सिंटैक्स त्रुटि है
 ---
 
-Make sure that you have added a comma `,` between the items in `print()` and that you have spelled `python` correctly.
+`डीबग:` सुनिश्चित करें कि आपने `print()` में आइटम्स के बीच एक अल्पविराम जोड़ा है और आपने `world` को सही ढंग से लिखा है।
 
 --- /collapse ---
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi (*π*) to 31 trillion digits. That answer is so long that it would take over 300,000 years just to say it! 
+जापानी कंप्यूटर वैज्ञानिक <span style="color: #0faeb0">**एम्मा हारुका इवाओ**</span> ने पाई (*π*) के मान को 31 ट्रिलियन अंकों तक परिकलित करने के लिए एक कंप्यूटर का उपयोग किया। यह उत्तर इतना लंबा है कि इसे कहने में 300,000 वर्ष से अधिक का समय लग जाएगा! 
 </p>
 
 --- task ---
 
-Try changing the sum that Python does to a complicated one!
+Python द्वारा किए गए योग को एक जटिल योग में बदलने का प्रयास करें!
 
-You can also use brackets if you want to control the order that Python calculates the sum: `print( (2 + 4) * (5 + 3) )`.
-
---- /task ---
-
---- task ---
-
-**Test:** Run your code and get Python to calculate your sum.
-
-**Debug:** Make sure your sum has a left and right round bracket around it `( 2 * 45 )`. If you use extra brackets to control the order, make sure you have a right bracket to match every left bracket.
+आप कोष्ठक का उपयोग भी कर सकते हैं यदि आप उस क्रम को नियंत्रित करना चाहते हैं जिसमें Python योग की गणना करता है: `print ((2 + 4) * (5 + 3))`।
 
 --- /task ---
 
 --- task ---
 
-On the code editor, you might find the text too big or too small to read. You can easily change these settings to suit your preference.
+**परीक्षण:** अपना कोड चलाएं और अपनी राशि की गणना करने के लिए पायथन प्राप्त करें।
 
-**Tip:** Click on the **Settings menu**  on the left of your code editor. Then click on any of the **Text Size** buttons to change the size of the text.
+**डिबग:** सुनिश्चित करें कि आपके योग के चारों ओर बाएँ और दाएँ गोल ब्रैकेट हैं `(2 * 45)`। यदि आप ऑर्डर को नियंत्रित करने के लिए अतिरिक्त कोष्ठकों का उपयोग करते हैं, तो प्रत्येक बाएँ ब्रैकेट से मेल करने के लिए आपके पास एक दायाँ ब्रैकेट है।
+
+--- /task ---
+
+--- task ---
+
+कोड संपादक पर, आपको पाठ पढ़ने के लिए बहुत बड़ा या बहुत छोटा लग सकता है। आप अपनी पसंद के अनुरूप इन सेटिंग्स को आसानी से बदल सकते हैं।
+
+**टिप:** अपने कोड संपादक के बाईं ओर **सेटिंग्स मेनू**  पर क्लिक करें। फिर टेक्स्ट का आकार बदलने के लिए किसी भी **टेक्स्ट साइज़** बटन पर क्लिक करें।
 
 ![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png)
 
@@ -103,7 +103,7 @@ One of the great things about Python is all the <span style="color: #0faeb0">**l
 
 Add another line to your code to `print` the current date and time.
 
-Get the current date and time by using the `now()` function from the `datetime` library:
+`datetime` लाइब्रेरी से `now()` फ़ंक्शन का उपयोग करके वर्तमान दिनांक और समय प्राप्त करें:
 
 --- code ---
 ---
@@ -111,21 +111,21 @@ language: python filename: main.py line_numbers: true line_number_start: 20
 line_highlights: 22
 ---
 
-print(python, 'is very good at maths!')    
-print(230 * 5782 ** 2 / 23781)  # Print the result of the sum     
-print('The date and time is', datetime.now())  # Print the current date and time
+प्रिंट (Python, 'इस पर बहुत अच्छा है', रकम)    
+प्रिंट (230 * 5782 ** 2/23781) # योग का परिणाम प्रिंट करें     
+प्रिंट ( 'The', calendar, clock, 'is', datetime.now()) #इमोजी के साथ प्रिंट करें
 
 --- /code ---
 
-**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
+**युक्ति:** आपको टिप्पणियाँ टाइप करने की आवश्यकता नहीं है, वे कोड को समझने में आपकी मदद करने के लिए बस वहाँ हैं। बस `#` से पहले के भाग को टाइप करें।
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code a couple of times to see the time update.
+**परीक्षण:** दिनांक और समय अपडेट देखने के लिए अपना कोड कुछ बार चलाएं।
 
-**Debug:** Check that you have a fullstop `.` between `datetime` and `now`. Check all the punctuation carefully.
+**डिबग:** जांचें कि आपके पास `datetime` और `now` के बीच फुलस्टॉप `.` है सभी विराम चिह्न सावधानीपूर्वक जांचें।
 
 --- /task ---
 
