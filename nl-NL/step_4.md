@@ -1,13 +1,13 @@
-## Roll a dice 🎲
+## Gooi een dobbelsteen 🎲
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create a function for rolling a dice using random numbers. 
+Maak een functie voor het gooien van een dobbelsteen met behulp van willekeurige getallen. 
   
-In Python:
-  - **functions**, defined with `def`, are like 'my blocks' in Scratch,
-  - `randint` is like 'random' in Scratch, and
-  - `input` is like 'ask' in Scratch.
+In Python: 
+- **functies**, gedefinieerd door 'def', zijn hetzelfde als 'mijn blokken' in Scratch,
+- 'randint' is hetzelfde als 'willekeurig' in Scratch, en
+- 'input' is hetzelfde als 'vraag' in Scratch.
 
 </div>
 <div>
@@ -21,24 +21,23 @@ In Python **roep** je een **functie()** aan om een actie uit te voeren. Je hebt 
 
 Je kunt een nieuwe **functie** **definiëren** om code te groeperen, zodat je deze een naam kunt geven en opnieuw kunt gebruiken.
 
-### Zet de functie definities hier onder
+### Definieer je functie
 
 --- task ---
 
-Functies moeten gedefinieerd worden voordat je ze kunt aanroepen. Zoek naar de opmerking bovenaan het tabblad **main.py** met de tekst `#Zet functie definities hier onder`.
+Functies moeten gedefinieerd worden voordat je ze kunt aanroepen. Zoek naar de opmerking bovenaan het tabblad **main.py** met de tekst `#Functiedefinities`.
 
 Definieer een nieuwe functie genaamd `gooi_dobbelsteen()` die de functie `randint()` gebruikt, uit de `random` bibliotheek, om een willekeurig 'integer' (geheel getal) van 1 tot 6 te genereren en op het scherm uit te tonen.
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 7
-line_highlights: 9-12
+language: python filename: main.py line_numbers: true line_number_start: 15
+line_highlights: 16-17
 ---
 
-# Zet hier de functie definities hier onder
-def gooi_dobbelsteen(): #Vergeet de dubbele punt aan het einde van deze regel niet   
-print(python, 'kan een', dobbelsteen, 'maken')   
-print('Je gooit een', randint(1, 6))
+# Functiedefinities
+def gooi_dobbelsteen(): # Vergeet de dubbele punt aan het einde van deze regel niet   
+print('Je hebt gegooid: ', randint(1, 6)) # randint(1, 6) wordt gebruikt om een getal tussen 1 en 6 te geven.
 
 --- /code ---
 
@@ -61,26 +60,26 @@ Op een Brits of Amerikaans toetsenbord staat de dubbele punt `:` op dezelfde toe
 
 **Test:** Als je jouw code nu 'uitvoert' door op Run te klikken, wordt er geen dobbelsteen gegooid. Dat komt omdat je de functie `gooi_dobbelsteen()` wel hebt gedefinieerd, maar nog niet hebt aangeroepen.
 
-**Debug:**
+**Fouten oplossen:**
 
 --- collapse ---
 ---
-title: I have a syntax error
+title: ik heb een syntaxfout
 ---
 
-- **Debuggen:** Zorg dat je een underscore `_` hebt tussen gooi en dobbelsteen om de functienaam te maken.
+- Zorg ervoor dat er een onderstrepingsteken `_` tussen gooi en dobbelsteen staat om de functienaam te maken.
 
 - Zorg ervoor dat je een dubbele punt `:` aan het einde van de regel hebt staan.
 
-- **Debuggen:** Controleer of de regels onder `def gooi_dobbelsteen()` zijn ingesprongen. Het wordt vaak verkeerd gedaan in Python, dus zorg ervoor dat je het controleert.
+- Controleer of de regel onder `def gooi_dobbelsteen()` is ingesprongen. Het wordt vaak verkeerd gedaan in Python, dus zorg ervoor dat je het controleert.
 
-![The code editor showing the line of code inside the <code>roll_dice</code> function has not been indented. The line of code with the error is highlighted. De code is uitgevoerd en is gemarkeerd op regel 10, de eerste regel die moet worden ingesprongen, met de fout 'SyntaxError: bad input on line 10 in main.py'." />](images/indent_error.png)
+![De code editor die de coderegels voor de functie <code>gooi_dobbelsteen</code> toont, is niet ingesprongen. De coderegel met de fout wordt gemarkeerd. De code is uitgevoerd, met de fout 'SyntaxError: bad input on line 17 in main.py'.](images/indent_error.png)
 
 --- /collapse ---
 
 --- /task ---
 
-### Call your function
+### Roep je functie aan
 
 --- task ---
 
@@ -88,13 +87,13 @@ Om een functie te gebruiken, moet je deze in de code aanroepen. Ga naar het eind
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 20
-line_highlights: 22
+language: python filename: main.py line_numbers: true line_number_start: 25
+line_highlights: 27
 ---
 
-print('De', kalendar, klok, 'is', datetime.now())
+print('De datum en tijd zijn', datetime.now())
 
-gooi_dobbelsteen() #Roep de dobbelsteen functie aan
+gooi_dobbelsteen() # Roep de dobbelsteen functie aan
 
 --- /code ---
 
@@ -110,26 +109,26 @@ gooi_dobbelsteen() #Roep de dobbelsteen functie aan
 Het gebruik van willekeurige getallen omvat cryptografie, datawetenschap en het toevoegen van variatie in games en computerkunst. Computers genereren <span style="color: #0faeb0">**willekeurige getallen**</span> met behulp van een algoritme. Voor getallen die echt willekeurig zijn, heb je een onvoorspelbare invoer vanuit de echte wereld nodig.
 </p>
 
-### Use 🔥🔥🔥 for the number rolled
+### Gebruik 🔥🔥🔥 voor het gegooide getal
 
 --- task ---
 
-De variabele `vuur` bevat een 🔥-emoji. De code `print(vuur * 3)` geeft drie vuur-emoji '🔥🔥🔥' weer. Je wilt het aantal emoji's tonen dat gelijk is aan het door de dobbelsteen gegooide getal.
+Je functie kan de 🔥 emoji-variabele gebruiken. De code `print(vuur * 3)` geeft drie vuur-emoji '🔥🔥🔥' weer. Je wilt het aantal emoji's tonen dat gelijk is aan het door de dobbelsteen gegooide getal.
 
-Wijzig je code om de waarde die wordt teruggegeven door `randint()` op te slaan in een variabele met de naam `worp` en gebruik die variabele vervolgens om het gegooide nummer te tonen met het overeenkomende aantal 🔥-emoji's. Use that variable to print out the number rolled with the matching number of 🔥 emojis.
+Wijzig je code om de waarde die wordt geretourneerd door `randint()` op te slaan in een variabele met de naam `worp`. Gebruik die variabele om het getal te laten zien dat is gegooid met het overeenkomende aantal 🔥 emoji's.
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 7
-line_highlights: 11 - 13
+language: python filename: main.py line_numbers: true line_number_start: 15
+line_highlights: 17-18
 ---
 
-# Zet hier de functie definities hier onder
-def roll_dice(): roll = randint(1, 6)  # Generate a random number between 1 and 6 and store it in the variable 'roll' print('You rolled a', roll, fire * roll)  # Repeat the fire emoji to match the random dice roll
+# Functiedefinities
+def gooi_dobbelsteen(): worp = randint(1, 6) # Genereer een willekeurig getal tussen 1 en 6 en sla dit op in de variabele 'worp' print('Je hebt een ', worp, vuur * worp, 'gegooid') # Herhaal de vuur-emoji zodat deze overeenkomt met de willekeurige dobbelsteenworp
 
 --- /code ---
 
-Je kunt `ster` of `hart` gebruiken in plaats van `vuur` als je dat liever hebt.
+**Tip** Je kunt `ster` of `hart` gebruiken in plaats van `vuur` als je wilt, door je eigen emoji-variabelen te maken.
 
 --- /task ---
 
@@ -139,7 +138,7 @@ Je kunt `ster` of `hart` gebruiken in plaats van `vuur` als je dat liever hebt.
 
 --- /task ---
 
-### Choose the number of sides on the dice
+### Kies het aantal zijden van de dobbelsteen
 
 Verbeter je dobbelsteen zodat de gebruiker het maximale getal kan kiezen.
 
@@ -150,7 +149,7 @@ Veel spellen gebruiken veel-kantige dobbelstenen. In de fysieke wereld worden do
 
 De functie `input()` stelt de gebruiker een vraag en geeft vervolgens het antwoord terug.
 
-Voeg code toe om de gebruiker om het grootste getal op zijn dobbelsteen te vragen en sla het resultaat vervolgens op in een variabele genaamd `max` en `print` het gekozen nummer in het uitvoergebied:
+**Voeg** code toe om de gebruiker om het grootste getal op zijn dobbelsteen te vragen en sla het resultaat vervolgens op in een variabele met de naam `max` en `print` het gekozen getal in het uitvoergebied:
 
 Verander je `worp` variabele code om `max` te gebruiken als de maximale waarde voor `randint` wanneer het een willekeurig getal genereert.
 
@@ -158,29 +157,26 @@ Wanneer je invoer van een gebruiker krijgt, behandelt Python deze als tekst. Maa
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 7
-line_highlights: 11-12
+language: python filename: main.py line_numbers: true line_number_start: 15
+line_highlights: 18-20
 ---
 
-# Zet de functie definities hier onder
+# Functiedefinities
 
 def gooi_dobbelsteen():   
-print(python, 'kan een', dobbelsteen, 'maken')   
-max = input('Hoeveel kanten?:') #Wacht op input van de gebruiker   
-print('Dat is een D ', max) #Gebruik het nummer dat de gebruiker heeft ingevoerd   
-worp = randint(1, int(max)) # voor randint  moet max een integer zijn    
-print('Je hebt een', worp, 'gegooid')   
-print(vuur * worp)
+max = input('Hoeveel kanten?:') # Wacht op invoer van de gebruiker    
+print('Dat is een D ', max) #Gebruik het getal dat de gebruiker heeft ingevoerd    
+worp = randint(1, int(max)) # voor randint  moet max een integer zijn print('Je hebt een', worp, 'gegooid')
 
 --- /code ---
 
-To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
+Om een aanhalingsteken `'` af te drukken in een woord als `Zo'n`, plaats je een backslash `\` ervoor zodat Python weet dat het deel uitmaakt van de tekst.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Voer je project uit. Wanneer het programma de regel `input` bereikt, wacht het totdat je een antwoord invoert voordat het verder gaat. Type your response and then press <kbd>Enter</kbd>, this will allow the program to collect your response. Probeer het opnieuw met een ander `input` nummer.
+**Test:** Voer je project uit. Wanneer het programma de regel `input` bereikt, wacht het totdat je een antwoord invoert voordat het verder gaat. Typ je antwoord en druk vervolgens op <kbd>Enter</kbd>, hierdoor kan het programma je antwoord opslaan. Probeer het opnieuw met een ander `input` getal.
 
 --- /task ---
 
