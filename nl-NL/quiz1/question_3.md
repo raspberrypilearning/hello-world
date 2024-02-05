@@ -10,15 +10,15 @@ Deze functie geeft twee willekeurige getallen:
 language: python
 ---
 
-def twee_getallen(): 
-  print('Eerste getal: ', randint(1, 6)) 
-  print('Tweede getal: ', randint(1, 6))
+def twee_getallen():
+    print('Eerste getal: ', randint(1, 6))
+    print('Tweede getal: ', randint(1, 6))
 
 --- /code ---
 
 Welke code roept de functie aan om uit te voeren?
 
-![De Trinket-editor met uitvoergebied met twee willekeurig gegenereerde nummers.](images/quiz3.png)
+![De code editor met uitvoergebied met twee willekeurig gegenereerde getallen.](images/quiz3.png)
 
 --- choices ---
 
@@ -29,9 +29,9 @@ Welke code roept de functie aan om uit te voeren?
 language: python
 ---
 
-def twee_getallen(): 
-  print('Eerste getal: ', randint(1, 6)) 
-  print('Tweede getal: ', randint(1, 6))
+def twee_getallen():
+    print('Eerste getal: ', randint(1, 6))
+    print('Tweede getal: ', randint(1, 6))
 
 --- /code ---
 

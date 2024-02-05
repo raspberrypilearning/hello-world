@@ -6,24 +6,48 @@ Het is traditie om een programma te schrijven om 'Hallo wereld!' uit te voeren. 
 </div>
 <div>
 
-![Het Trinket-uitvoergebied met de twee afgedrukte regels tekst en emoji.](images/say_hello.png){:width="200px"}
+![Het uitvoergebied van de code-editor toont de twee afgedrukte regels tekst en emoji's.](images/say_hello.png){:width="200px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open het [Hallo 🌍🌎🌏 startproject](https://trinket.io/python/ac1985a5b8){:target="_blank"}. Trinket wordt geopend in een ander browser tabblad.
+Open het [Hallo 🌍🌎🌏 startproject](https://editor.raspberrypi.org/nl-NL/projects/hello-world-starter){:target="_blank"}. De code-editor wordt geopend in een ander browsertabblad.
 
-![De Trinket-editor met project-startcode aan de linkerkant in het codegebied. Aan de rechterkant is het lege uitvoergebied.](images/starter_project.png)
+![De code-editor met projectstartcode aan de linkerkant in het codegebied. Aan de rechterkant is het lege uitvoergebied.](images/starter_project.png)
+
+Als je een Raspberry Pi-account hebt, kun je op de **Save** knop klikken om een kopie op te slaan in je **Projects**.
 
 --- /task ---
 
-De regel `#!/bin/python3` vertelt Trinket dat je Python 3 (de nieuwste versie) gebruikt. De `import`-regels vertellen Python dat je code gaat gebruiken die je niet zelf hebt geschreven.
+--- collapse ---
 
-In Python voert `print()` tekst (woorden of cijfers) uit naar het scherm.
+---
+title: Werk je op een Raspberry Pi?
+---
 
-Regels die beginnen met `#` zijn opmerkingen, ze leggen de code uit aan mensen en worden genegeerd door Python.
+Als je met Chromium op een Raspberry Pi werkt, zie je de emoji's misschien niet. Je moet een lettertype installeren dat ze ondersteunt.
+
+Open een terminal en typ dan:
+
+```bash
+sudo apt install fonts-noto-color-emoji
+```
+
+Start Chromium opnieuw op en nu zou je de kleurenemoji's moeten kunnen zien.
+
+--- /collapse ---
+
+### Druk hallo af
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Regels die beginnen met een `#` zijn <span style="color: #0faeb0">**opmerkingen**</span>. Ze leggen uit wat de code doet. Opmerkingen worden genegeerd door Python.
+</p>
+
+De `import`-regels vertellen Python dat je code gaat gebruiken die je niet zelf hebt geschreven.
+
+In Python voert `print()` tekst (woorden of getallen) uit naar het scherm.
 
 --- task ---
 
@@ -31,18 +55,24 @@ Zoek de `# Zet de code om uit te voeren hieronder` regel.
 
 Klik onder die regel. De knipperende `|` is de cursor en geeft aan waar je gaat typen.
 
-Typ de code voor `print()` hallo:
+--- /task ---
+
+--- task ---
+
+Typ de code om Hallo op het scherm te `print()`-en:
+
+**Tip:** Wanneer je een haakje openen `(` of een aanhalingsteken openen `'` typt, zal de code-editor automatisch een haakje sluiten `)` of aanhalingsteken sluiten`'` toevoegen:
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: true 
-line_number_start: 11
-line_highlights: 12
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 17
+line_highlights: 18
 ---
 
-#Zet de code om uit te voeren hier onder
+# Zet de code om uit te voeren hier onder
 print('Hallo')
 
 --- /code ---
@@ -60,23 +90,25 @@ Op een Brits of Amerikaans toetsenbord staan de linker `(` en rechter `)` ronde 
 
 --- task ---
 
-**Test:** Klik op de knop **Run** om je code uit te voeren. In Trinket verschijnt de uitvoer aan de rechterkant:
+**Test:** Klik op de knop **Run** om je code uit te voeren. In de code-editor verschijnt de uitvoer aan de rechterkant:
 
-![Het pictogram Uitvoeren gemarkeerd met 'Hallo' wordt weergegeven in het uitvoergebied. ](images/run_hello.png)
+![Het pictogram Uitvoeren gemarkeerd terwijl 'Hallo' weergegeven wordt in het uitvoergebied. ](images/run_hello.png)
 
 **Debuggen:** Als je een foutmelding krijgt, controleer dan je code heel goed. In dit voorbeeld ontbreken de enkele aanhalingstekens rond `Hallo` zodat Python niet weet dat het tekst moet zijn.
 
-![de Trinket-editor met ontbrekende enkele aanhalingstekens en fout 'NameError: naam 'Hallo' is niet gedefinieerd op regel 10 in main.py.](images/hello_error.png)
+![De Code-editor met ontbrekende enkele aanhalingstekens en de fout 'NameError: name 'Hallo' is niet gedefinieerd op regel 18 in main.py.](images/hello_error.png)
 
 --- /task ---
 
-In Python wordt een **-variabele** gebruikt om tekst of getallen op te slaan. Variabelen maken het voor mensen gemakkelijker om code te lezen. Je kunt dezelfde variabele op veel plaatsen in je code gebruiken.
+## Print 🌍🌎🌏
+
+In Python wordt een **variabele** gebruikt om tekst of getallen op te slaan. Variabelen maken het voor mensen gemakkelijker om code te lezen. Je kunt dezelfde variabele op veel plaatsen in je code gebruiken. Als je een logische naam kiest voor een variabele, dan kun je later gemakkelijker onthouden waarvoor deze dient.
 
 We hebben enkele variabelen opgenomen die emoji-tekens opslaan.
 
 --- task ---
 
-Klik in Trinket op het tabblad **emoji.py**. Zoek de variabele `wereld`, die de tekst '🌍🌍🌍' opslaat.
+Blader in je code-editor naar de regels met de emoji's opgeslagen in twee verschillende variabelen. Zoek de variabele `wereld`, die de tekst '🌍🌍🌍' opslaat.
 
 --- /task --- 
 
@@ -84,20 +116,18 @@ Klik in Trinket op het tabblad **emoji.py**. Zoek de variabele `wereld`, die de 
 
 Je kunt met `print()` meer dan één item tegelijk laten zien door een komma `,` tussen de items op te nemen. `print()` voegt een spatie toe tussen elk item.
 
-Klik op het tabblad **main.py** om terug te gaan naar jouw `print()`-code.
-
 Verander je `print()` code om ook de inhoud van de `wereld` variabele te tonen:
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: true 
-line_number_start: 11
-line_highlights: 12
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 17
+line_highlights: 18
 ---
 
-#Zet de code om uit te voeren hier onder
+# Zet de code om uit te voeren hier onder
 print('Hallo', wereld)
 
 --- /code ---
@@ -112,37 +142,13 @@ print('Hallo', wereld)
 
 ![De bijgewerkte regel code in het codegebied met het woord 'Hallo' gevolgd door drie emoji-werelden die worden weergegeven in het uitvoergebied.](images/run_hello_world.png)
 
-Emoji kunnen er op verschillende computers anders uitzien, dus de jouwe ziet er misschien niet precies hetzelfde uit.
+**Tip:**Emoji's kunnen er op verschillende computers anders uitzien, dus de jouwe zien er misschien niet precies hetzelfde uit.
 
 **Debuggen:** Zorg ervoor dat je een komma hebt toegevoegd tussen de items `print()` en dat je `wereld` correct hebt gespeld.
 
 In dit voorbeeld ontbreekt de komma `,`. Het is klein maar heel belangrijk!
 
-![De Trinket-editor met ontbrekende enkele aanhalingstekens en fout 'SyntaxError: slechte invoer op regel 12 in main.py' weergegeven.](images/comma_error.png)
-
---- collapse ---
----
-title: Ik zie de emoji niet
----
-
-Op de meeste computers kun je kleuren-emoji gebruiken. Als je emoji echter niet kunt gebruiken, kun je in plaats daarvan 'emoticons' gebruiken, zoals we deden voordat emoji werd uitgevonden!
-
-Wijzig de `from emoji import *` regel in:
-
---- code ---
----
-language: python 
-filename: main.py 
-line_numbers: true 
-line_number_start: 3
-line_highlights: 3
----
-
-from noemoji import *
-
---- /code ---
-
---- /collapse ---
+![De code-editor met ontbrekende enkele aanhalingstekens en de fout 'SyntaxError: bad input on line 18 in main.py' wordt weergegeven.](images/comma_error.png)
 
 --- /task ---
 
@@ -152,11 +158,11 @@ Voeg nog een regel toe aan je `print()` code om meer tekst en emoji te maken:
 
 --- code ---
 ---
-language: python 
-filename: main.py 
-line_numbers: true 
-line_number_start: 12
-line_highlights: 13
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 18
+line_highlights: 19
 ---
 
 print('Hallo', wereld)    
@@ -180,8 +186,6 @@ print('Welkom bij', python)
 
 --- /task ---
 
-Als je een Trinket-account hebt, kun je op de knop **Remix** klikken om een kopie op te slaan in je `My Trinkets`-bibliotheek.
-
-Als je geen Trinket-account hebt, kun je in de toekomst nog steeds op dezelfde computer terugkeren naar je project met behulp van de start-projectlink.
+Als je een Raspberry Pi-account hebt, kun je in je code-editor op de knop **Save** klikken om een kopie van je project in jouw projecten op te slaan.
 
 --- save ---

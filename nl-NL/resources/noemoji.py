@@ -1,16 +1,17 @@
-# Voeg ASCII-kunst alternatieven toe
-# Voor emoji’s gebruikten we emoticons gemaakt van tekens
+# Add ASCII art alternatives
+# Before emoji we used emoticons made from characters
 
-wereld = 'o'
+world = 'o'
 python = '~~~-<'
-blij = ':-)
-hart = '♡' # of '<3'
-ster = '☆'
-fonkelingen = '✺'
-dwaas = ';)'
-sommen = '+-*/'
-honderd = '100!'
-pleiten = '◔◔'
-vuur = '/'
-boeken = '≣'
-regenboog = '⌒'
+happy = ':-)
+heart = '♡' # or '<3'
+star = '☆'
+sparkles = '✺'
+silly = ';)'
+sums = '+-*/'
+hundred = '100!'
+plead = '◔◔'
+fire = '/'
+books = '≣'
+rainbow = '⌒'
+

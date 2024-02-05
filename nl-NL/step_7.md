@@ -6,7 +6,7 @@ Voeg meer toe aan je project. Er zijn meer emoji om uit te kiezen.
   </div>
 <div>
 
-![Een langer project in het uitvoergebied met meer tekst, emoji en invoer.](images/upgrade_ideas.png){:width="300px"}
+![Een langer project in het uitvoergebied met meer tekst, emoji en invoer.](images/upgrade_ideas.png){:width="300px"} 
 
 </div>
 </div>
@@ -17,7 +17,13 @@ Je kunt:
 + meer functies gebruiken om je code te ordenen
 + `#` gebruiken om opmerkingen aan je code toe te voegen
 
-Klik op **emoji.py** om de emoji-variabelen te zien die je kunt gebruiken. Klik terug op **main.py** om code toe te voegen.
+Scroll naar de sectie **emoji** in de code-editor om de emoji's en voorbeeldvariabelen te zien die je kunt gebruiken. Kopieer degene die je kiest en sla ze op in een variabele of voeg ze rechtstreeks toe aan je code.
+
+**Tip:** Om emoji's toe te voegen, zoek je de opmerking # Emoji's om deze te kopiëren en in je code te plakken. Kopieer de emoji's die je wilt gebruiken en plak ze in je code.
+
+🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒🎨🎮🔬🎉🕶️🎲 😊 🦄🚀💯⭐💛❤️📚⚽🏏🏀🥋🏆✨🥺🌈🔥♻️🌳 👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋🙋🏼🙋🏽🙋🏾🙋🏿
+
+[[[choose-an-emoji]]]
 
 Hier is een voorbeeld functie die naar hobby's vraagt:
 
@@ -27,11 +33,11 @@ language: python
 filename: main.py
 ---
 
-#Zet de code om uit te voeren hier onder
-def hobbys():    
-  hobby = input('Wat vind je leuk?')   
-  print('Dat klinkt', leuk)   
-  print('Je zou een', python, 'project over jouw', hobby, 'kunnen maken')
+# Zet de code om uit te voeren hier onder
+def hobbys():   
+    hobby = input('Wat vind je leuk?')   
+    print('Dat klinkt', leuk) # Je hebt dit nodig om een emoji-variabele te maken met de naam 'leuk'
+    print('Je zou een', python, 'project over', hobby, 'kunnen maken')
 
 --- /code ---
 
@@ -47,19 +53,18 @@ filename: main.py
 
 gooi_dobbelsteen()
 
-input() #Wacht tot de gebruiker op Enter drukt
+input() # Wacht tot de gebruiker op Enter drukt
 
-hobbys()
+hobbys() # Roept de hobbyfunctie aan
 
 --- /code ---
-
 
 --- collapse ---
 ---
 title: Voltooid project
 ---
 
-Je kunt het [voltooide project hier](https://trinket.io/embed/python/e8b24c1279){:target="_blank"} bekijken.
+Je kunt het [voltooide project hier](https://editor.raspberrypi.org/nl-NL/projects/hello-world-solution){:target="_blank"} bekijken.
 
 --- /collapse ---
 

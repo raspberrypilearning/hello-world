@@ -1,8 +1,8 @@
 ## Snelle quiz
 
-Beantwoord de drie vragen. Beantwoord de drie vragen.
+Beantwoord de drie vragen. Je krijgt hints die je naar het juiste antwoord leiden.
 
-Druk na elke vraag op **Controleer mijn antwoord**. Je wordt naar het juiste antwoord geleid
+Druk na elke vraag op **Controleer mijn antwoord**. Je wordt naar het juiste antwoord geleid.
 
 Veel plezier!
 
@@ -24,7 +24,7 @@ wereld = '🌍🌎🌏'
 
 Welke code gebruikt de `wereld` variabele correct en geeft Hallo 🌍🌎🌏 als resultaat?
 
-![Het uitvoergebied van de Trinket-editor met Hallo 🌍🌎🌏 wordt weergegeven.](images/quiz1.png)
+![Het uitvoergebied van de code-editor waarin Hallo 🌍🌎🌏 wordt weergegeven.](images/quiz1.png)
 
 --- choices ---
 
