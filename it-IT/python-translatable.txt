@@ -1,4 +1,4 @@
-Hello
+Ciao
 
 Benvenuto ...
 
@@ -24,7 +24,7 @@ meraviglioso
 
 So programmare
 
-two_dice
+due_dadi
 
 Primo numero:
 
@@ -40,59 +40,59 @@ Sembra...
 
 Potresti realizzare un...progetto su...
 
-roll_dice
+tira_dado
 
-roll
+risultato
 
 now
 
-world 
+mondo 
 
-sums
+somme
 
-calendar
+calendario
 
-clock 
+orologio 
 
-projects 
+progetti 
 
-fun 
+divertimento 
 
-dice 
+dadi 
 
-unicorn 
+unicorno 
 
-space 
+spazio 
 
-happy 
+felice 
 
-silly 
+buffo 
 
-heart 
+cuore 
 
-games 
+giochi 
 
-books 
+libri 
 
-sports 
+sport 
 
-green 
+verde 
 
-nature 
+natura 
 
-fire 
+fuoco 
 
-sparkles 
+particelle 
 
-plead 
+pregare 
 
-hundred 
+cento 
 
-star 
+stella 
 
-yellow_heart 
+cuore_giallo 
 
-rainbow
+arcobaleno
 
 Scegli il numero più grande:
 
