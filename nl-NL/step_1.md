@@ -1,5 +1,5 @@
 <div class="c-survey-banner" style="width:100%">
-  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/f/code-editor-feedback" target="_blank">Take our survey</a> to help make our Code Editor better!
+  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/f/code-editor-feedback" target="_blank">Doe mee aan onze enquête</a> om onze Code Editor te verbeteren!
 </div>
 
 ## Wat ga je maken
@@ -12,22 +12,22 @@ Ontdek wat de programmeertaal Python kan door een interactief project te schrijv
 
 Je gaat:
 
-+ Met `print()` tekst, inclusief emoji, tonen en `input()` van de gebruiker benutten
++ Met `print()` tekst, inclusief emoji 🚀, tonen en `input()` van de gebruiker ontvangen
 + Tekst en getallen opslaan in **variabelen**
 + **Functies** gebruiken om je code te ordenen
 
 --- no-print ---
 
-### Probeer het uit
+### Afspelen ▶️
 
 --- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-Lees de uitvoer en tik vervolgens op <kbd>Enter</kbd> om door te gaan.
+Klik op de knop **Run** en lees de uitvoer.
 
-  Typ jouw antwoorden op de vragen. 
+  Wanneer je daarom wordt gevraagd, voer je een getal in en druk je op <kbd>Enter</kbd>. 
 
 Kun je zien hoe je antwoorden worden gebruikt?
 
@@ -42,6 +42,6 @@ Kun je zien hoe je antwoorden worden gebruikt?
 
 --- print-only ---
 
-![Completed project showing example code on the code editor](images/showcase_static.png){:width="640px"}
+![Voltooid project met voorbeeldcode in de code-editor](images/showcase_static.png){:width="640px"}
 
 --- /print-only ---![](http://code.org/api/hour/begin_codeclub_hworld.png)
