@@ -8,11 +8,11 @@ Metti le definizioni delle funzioni qui sotto
 
 Non dimenticare i due punti alla fine di questa riga
 
-Chiama la funzione roll_dice
+Chiama la funzione tira_dado
 
-#sceglie un numero a caso fra 1 e 6
+Sceglie un numero a caso fra 1 e 6
 
-Stampa il valore della variabile roll
+Stampa il valore della variabile risultato
 
 Ripeti l'emoji del fuoco per abbinare il lancio dei dadi
 
@@ -20,7 +20,7 @@ Attendi l'input dell'utente
 
 Utilizza il numero immesso dall'utente
 
-Randint ha bisogno che max sia un 'intero'
+randint ha bisogno che massimo sia un 'intero'
 
 Attendi che l'utente prema Invio
 
@@ -30,13 +30,13 @@ Variabili Emoji da utilizzare nel tuo progetto
 
 Aggiungi alternative ASCII artistiche
 
-Prima delle emoji usavamo emoticon realizzate con personaggi
+Prima delle emoji usavamo emoticon realizzate con i caratteri
 
 ottieni l'input dall'utente
 
 generare un numero casuale
 
-scrive la parola fuoco tante volte quanto il valore di roll
+ripete il contenuto di fuoco un numero di volte pari a risultato
 
 ottiene la data e l'ora correnti
 
