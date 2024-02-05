@@ -36,7 +36,7 @@ filename: main.py
 # Metti il codice da eseguire qui sotto
 def hobbies():   
 hobby = input('Cosa ti piace?')   
-print('Sembra', divertente) # Dovrai creare una variabile emoji chiamata 'divertimento' print('Potresti creare un progetto Python, ' su', hobby)
+print('Sembra', divertente) # Dovrai creare una variabile emoji chiamata 'divertente' print('Potresti creare un progetto Python, ' su', hobby)
 
 --- /code ---
 
@@ -50,7 +50,7 @@ language: python
 filename: main.py
 ---
 
-lancia_un_dado()
+tira_dado()
 
 input() # Attendi che l'utente prema Invio
 
@@ -63,7 +63,7 @@ hobbies() # Chiama la funzione hobbies
 title: Il progetto completo
 ---
 
-Qui puoi visualizzare il [progetto completati](https://editor.raspberrypi.org/en/projects/hello-world-solution){:target="_blank"}.
+Qui puoi visualizzare il [progetto completat](https://editor.raspberrypi.org/en/projects/hello-world-solution){:target="_blank"}.
 
 --- /collapse ---
 
