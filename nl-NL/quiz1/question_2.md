@@ -6,7 +6,7 @@ legend: Vraag 2 van 3
 
 Welke van deze functie definities is correct en drukt de tekst: `Ik kan coderen` als ze wordt aangeroepen?
 
-![Ik kan coderen</code>@@." />](images/quiz2.png)
+![De code editor met uitvoergebied dat <code>Ik kan coderen</code> laat zien.](images/quiz2.png)
 
 --- choices ---
 
