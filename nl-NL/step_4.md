@@ -50,10 +50,10 @@ De regels onder `def gooi_dubbelsteen():` zijn **ingesprongen**. Gebruik hiervoo
 
 --- collapse ---
 ---
-title: Speciale tekens typen op een Brits of Amerikaans toetsenbord
+title: Speciale tekens typen op een toetsenbord
 ---
 
-Op een Brits of Amerikaans toetsenbord staat de dubbele punt `:` op dezelfde toets als de puntkomma, naast de <kbd>L</kbd> toets: houd <kbd>Shift</kbd> ingedrukt en tik op <kbd>;</kbd> om een `:` te typen. Het lage streepje `_` staat op dezelfde toets als de `-`, naast de <kbd>0</kbd>, houd <kbd>Shift</kbd> ingedrukt en tik op <kbd>-</kbd> om een `_` te typen.
+Op een toetsenbord staat de dubbele punt `:` op dezelfde toets als de puntkomma, naast de <kbd>L</kbd> toets: houd <kbd>Shift</kbd> ingedrukt en tik op <kbd>;</kbd> om een `:` te typen. Het lage streepje `_` staat op dezelfde toets als de `-`, naast de <kbd>0</kbd>, houd <kbd>Shift</kbd> ingedrukt en tik op <kbd>-</kbd> om een `_` te typen.
 
 --- /collapse ---
 
