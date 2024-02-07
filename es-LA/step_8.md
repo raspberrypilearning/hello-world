@@ -17,4 +17,4 @@ Click the **Run** button to view an example of this project.
 
 --- /no-print ---
 
-Si quieres divertirte más explorando Python, puedes probar cualquiera de [estos proyectos](https://projects.raspberrypi.org/es-LA/projects?software%5B%5D=python).
+If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
