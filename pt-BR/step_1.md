@@ -1,24 +1,24 @@
 <div class="c-survey-banner" style="width:100%">
-  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/f/code-editor-feedback" target="_blank">Responda à nossa pesquisa</a> para ajudar a melhorar nosso Editor de código!
+  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/f/code-editor-feedback" target="_blank">Take our survey</a> to help make our Code Editor better!
 </div>
 
-## Você vai fazer
+## You will make
 
 Find out what the Python 🐍 programming language can do by writing an interactive project that uses emojis 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Emoji**</span> são pequenas imagens coloridas usadas para adicionar um significado extra às mensagens. Emoji significa "palavra imagem" em japonês.
+<span style="color: #0faeb0">**Emojis**</span> are small colourful images 🥰 used to add extra meaning to messages. Emoji means 'picture word' in Japanese.
 </p>
 
-Você deve:
+You will:
 
 + `print()` text, including emojis 🚀, and get `input()` ⌨️ from the user
-+ Armazenar texto e números em **variáveis**
-+ Usar **funções** para organizar o seu código
++ Store text and numbers in **variables**
++ Use **functions** to organise your code
 
 --- no-print ---
 
-### Jogue ▶️
+### Play ▶️
 
 --- task ---
 
@@ -42,6 +42,6 @@ Can you see how your answers are used?
 
 --- print-only ---
 
-![Projeto concluído mostrando código de exemplo no editor de código](images/showcase_static.png){:width="640px"}
+![Completed project showing example code on the code editor](images/showcase_static.png){:width="640px"}
 
---- /print-only ---![](http://code.org/api/hour/begin_codeclub_hworld.png)
+--- /print-only --- ![](http://code.org/api/hour/begin_codeclub_hworld.png)
