@@ -12,7 +12,7 @@ In Python:
 </div>
 <div>
 
-![La zone de sortie avec des lignes supplémentaires pour demander à l'utilisateur de saisir le plus grand nombre pour son dé et la réponse avec le nombre aléatoire.](images/roll_dice.png){:width="300px"} 
+![The text output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll_dice.png){:width="300px"} 
 
 </div>
 </div>
@@ -21,30 +21,29 @@ En Python, tu **appelles** une **fonction()** pour effectuer une action. Tu as d
 
 Tu peux **définir** une nouvelle **fonction** pour regrouper le code afin de pouvoir le nommer et le réutiliser.
 
-### Mettre les définitions de fonction ci-dessous
+### Define your function
 
 --- task ---
 
-Les fonctions doivent être définies avant de pouvoir les appeler. Recherche le commentaire en haut de l'onglet **main.py** qui indique `#Mettre les définitions de fonction ci-dessous`.
+Les fonctions doivent être définies avant de pouvoir les appeler. Look for the comment in the **main.py** file that says `# Function definitions`.
 
-Définis une nouvelle fonction appelée `roule_de()` qui utilise la fonction `randint()`, de la bibliothèque `random`, pour générer un "entier" aléatoire (nombre entier) de 1 à 6 et le sortir à l'écran.
+Define a new function called `roll_dice()` that uses the `randint()` function from the `random` library, to generate a random 'integer' (whole number) from 1 to 6 and output it to the screen.
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 7
-line_highlights: 9-12
+language: python filename: main.py line_numbers: true line_number_start: 15
+line_highlights: 16-17
 ---
 
-# Mettre les définitions de fonction ci-dessous
-def roule_de(): #N'oublie pas les deux-points à la fin de cette ligne   
-print(python, 'peut faire un ', dice)   
-print('Tu as tiré un', randint(1, 6))
+# Function definitions
+def roll_dice():  # Don't forget the colon at the end of this line   
+print('You rolled a', randint(1, 6))  # randint(1, 6) is used to give a number between 1 and 6.
 
 --- /code ---
 
-Les lignes sous `def roule_de():` sont **indentées**. Pour ce faire, utilise le caractère <kbd>Tab</kbd> de ton clavier (généralement au-dessus de <kbd>VER MAJ</kbd> sur le clavier). Le code d'indentation indique à Python que les lignes indentées font partie de la fonction.
+The line under `def roll_dice():` is **indented**. Pour ce faire, utilise le caractère <kbd>Tab</kbd> de ton clavier (généralement au-dessus de <kbd>VER MAJ</kbd> sur le clavier). Le code d'indentation indique à Python que les lignes indentées font partie de la fonction.
 
-**Astuce :** Le trait de soulignement `_` est utilisé entre les mots dans les noms de variables et de fonctions en Python pour les rendre plus faciles à lire. Tu ne peux pas utiliser d'espace.
+**Tip:** The underscore `_` is used between words in variable and function names in Python to make them easier to read. Tu ne peux pas utiliser d'espace.
 
 --- collapse ---
 ---
@@ -68,13 +67,13 @@ Sur un clavier français, le deux-points `:` se trouve sur la même touche que l
 title: I have a syntax error
 ---
 
-- **Debogage :** Assure-toi d'avoir un trait de soulignement `_` entre le roule et de pour créer le nom de la fonction.
+- Make sure you have an underscore `_` between roll and dice to make the function name.
 
-- Assure-toi d'avoir un deux-points `:` à la fin de la ligne.
+- Make sure you have a colon `:` at the end of the line.
 
-- **Debogage :** Vérifie que les lignes sous `def roule_de()` sont indentées. Il est très courant de se tromper en Python, alors assure-toi de vérifier.
+- Check that the line under `def roll_dice()` is indented. It's really common to get this wrong in Python, so make sure to check.
 
-![roule_de</code>@@ n'a pas été indenté. The line of code with the error is highlighted. Le code a été exécuté et est mis en surbrillance sur la ligne 10, la première ligne qui doit être indentée, avec l'erreur 'SyntaxError: bad input on line 10 in main.py'."](images/indent_error.png)
+![The code editor showing the line of code inside the <code>roll_dice</code> function has not been indented. The line of code with the error is highlighted. The code has been run, with the error 'SyntaxError: bad input on line 17 in main.py'.](images/indent_error.png)
 
 --- /collapse ---
 
@@ -84,17 +83,17 @@ title: I have a syntax error
 
 --- task ---
 
-Pour utiliser une fonction, tu dois l'appeler dans le code. Va à la fin de ton code et ajoute une nouvelle ligne pour appeler la fonction `roule_de()` :
+To use a function, you need to **call** it in the code. Go to the end of your code and add a new line to call the `roll_dice()` function:
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 20
-line_highlights: 22
+language: python filename: main.py line_numbers: true line_number_start: 25
+line_highlights: 27
 ---
 
-print('Le', calendar, clock, 'est', datetime.now())
+print('The date and time is', datetime.now())
 
-roule_de() #Appelle la fonction lancer de dés
+roll_dice()  # Call the roll dice function
 
 --- /code ---
 
@@ -102,83 +101,82 @@ roule_de() #Appelle la fonction lancer de dés
 
 --- task ---
 
-**Test :** Exécute ton projet plusieurs fois pour voir les dés aléatoires lancés à chaque fois.
+**Test:** Run your project several times to see the random dice roll each time.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Les utilisations des nombres aléatoires incluent la cryptographie, la science des données et l'ajout de variété dans les jeux et l'art informatique. Les ordinateurs génèrent des <span style="color: #0faeb0">**nombres aléatoires**</span> à l'aide d'un algorithme. Pour les nombres vraiment aléatoires, tu as besoin d'une entrée imprévisible du monde réel.
+Uses of random numbers include cryptography, data science, and adding variety into games and computer art. Computers generate <span style="color: #0faeb0">**random numbers**</span> using an algorithm. For numbers that are really random, you need an unpredictable input from the real world.
 </p>
 
 ### Use 🔥🔥🔥 for the number rolled
 
 --- task ---
 
-La variable `fire` stocke un emoji 🔥. Le code `print(fire * 3)` génère trois emoji de feu '🔥🔥🔥'. Tu dois sortir le nombre correct d'emoji pour correspondre au nombre obtenu.
+Your function can use the 🔥 emoji variable. The code `print(fire * 3)` outputs three fire emojis '🔥🔥🔥'. You need to output the correct number of emojis to match the random number rolled by the dice.
 
 Change your code to save the value returned by `randint()` in a variable called `roll`. Use that variable to print out the number rolled with the matching number of 🔥 emojis.
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 7
-line_highlights: 11 - 13
+language: python filename: main.py line_numbers: true line_number_start: 15
+line_highlights: 17-18
 ---
 
-# Mettre les définitions de fonction ci-dessous
-Modifie ton code pour enregistrer la valeur renvoyée par `randint()` dans une variable appelée `roll` , puis utilise cette variable pour imprimer le nombre obtenu avec le nombre correspondant d'emoji 🔥.
+# Function definitions
+def roll_dice(): roll = randint(1, 6)  # Generate a random number between 1 and 6 and store it in the variable 'roll' print('You rolled a', roll, fire * roll)  # Repeat the fire emoji to match the random dice roll
 
 --- /code ---
 
-Tu peux utiliser `star` ou `heart` au lieu de `fire` si tu préféres.
+**Tip** You can use `star` or `heart` instead of `fire` if you prefer, by creating your own emoji variables.
 
 --- /task ---
 
 --- task ---
 
-**Test :** Teste ton projet plusieurs fois. Assure-toi de bien comprendre le fonctionnement du code.
+**Test:** Test your project a few times. Make sure you understand how the code works.
 
 --- /task ---
 
 ### Choose the number of sides on the dice
 
-Améliore tes dés afin que l'utilisateur puisse choisir le nombre maximum.
+Upgrade your dice so that the user can choose the maximum number.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-De nombreux jeux utilisent des dés à plusieurs côtés. Dans le monde physique, les dés sont fabriqués à partir de formes géométriques régulières. Les dés courants incluent D6, D12 et D20. Sur un ordinateur, tu peux générer un nombre <span style="color: #0faeb0">aléatoire</span> pour faire un dé équitable avec n'importe quel nombre de côtés.</p>
+Lots of games use many-sided dice. In the physical world, dice are made from regular geometric shapes. Common dice include D6, D12, and D20. On a computer, you can generate a <span style="color: #0faeb0">random</span> number to make a fair dice with any number of sides.</p>
 
 --- task ---
 
-La fonction `input()` pose une question à l'utilisateur puis renvoie sa réponse.
+The `input()` function asks the user a question and then returns their answer.
 
-Ajoute du code pour demander à l'utilisateur le plus grand nombre sur ses dés, puis enregistre le résultat dans une variable appelée `max` et `print` le nombre choisi dans la zone de sortie :
+**Add** code to ask the user for the biggest number on their dice and then save the result in a variable called `max` and `print` the number chosen into the output area:
 
-Modifie ton code variable `roll` pour utiliser `max` comme valeur maximale pour `randint` lorsqu'il génère un nombre aléatoire.
+Change your `roll` variable code to use `max` as the maximum value for `randint` when it generates a random number.
 
-Lorsque tu reçois une entrée de l'utilisateur, Python la traite comme du texte. Mais, `randint` a besoin d'un "entier" (un nombre entier positif). La fonction `int` transforme l'entrée utilisateur en entier.
+When you get input from the user, Python treats it as text. But, `randint` needs an 'integer' (a positive whole number). The `int` function turns the user input into an integer.
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 7
-line_highlights: 11-12
+language: python filename: main.py line_numbers: true line_number_start: 15
+line_highlights: 18-20
 ---
 
-# Mettre les définitions de fonction ci-dessous
+# Function definitions
 
-def roule_de():    
-print(python, 'peut faire un', dice)    
-roll = randint(1, 6) #Génère un nombre aléatoire entre 1 et 6    
-print('Tu as tiré un', roll) #Imprime la valeur de la variable roll     
-print(fire * roll) #Répéte l'emoji de feu pour qu'il corresponde au lancer de dés
+def roll_dice():   
+max = input('How many sides?:')  # Wait for input from the user    
+print('That\'s a D', max)  # Use the number the user entered    
+roll = randint(1, int(max))  # Use max to determine the number of sides the dice has print('You rolled a', roll, fire * roll)
 
 --- /code ---
 
-Pour imprimer une apostrophe `'` dans un mot comme `C'est`, place une barre oblique inverse `\` devant afin que Python sache que cela fait partie du texte.
+To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
 
 --- /task ---
 
 --- task ---
 
-**Test :** Exécute ton projet. Lorsque le programme atteint la ligne `input`, il attendra que tu saisisses une réponse avant de continuer. Type your response and then press <kbd>Enter</kbd>, this will allow the program to collect your response. Essaye à nouveau avec un autre nombre dans `input`.
+**Test:** Run your project. When the program reaches the `input` line, it will wait for you to enter a response before continuing. Type your response and then press <kbd>Enter</kbd>, this will allow the program to collect your response. Try it again with a different `input` number.
 
 --- /task ---
 
