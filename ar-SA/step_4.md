@@ -12,7 +12,7 @@ In Python:
 </div>
 <div>
 
-![منطقة الإخراج ذات الأسطر الإضافية لتطلب من المستخدم إدخال أكبر رقم لنرده والاستجابة بالرقم العشوائي.](images/roll_dice.png){:width="300px"} 
+![The text output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll_dice.png){:width="300px"} 
 
 </div>
 </div>
@@ -25,26 +25,25 @@ In Python:
 
 --- task ---
 
-يجب تعريف الدوال أولاً قبل أن تتمكن من استدعائها. ابحث عن التعليق بالقرب من أعلى علامة التبويب **main.py** التي تنص على `# ضع تعريفات الدوال بالأسفل`.
+يجب تعريف الدوال أولاً قبل أن تتمكن من استدعائها. Look for the comment in the **main.py** file that says `# Function definitions`.
 
-حدد دالة جديدة تسمى `()roll_dice` التي تستخدم دالة `()randint` ، من مكتبة `random`، لتوليد "عدد صحيح" عشوائي (عدد طبيعي) من 1 إلى 6 وإخراجها إلى الشاشة.
+Define a new function called `roll_dice()` that uses the `randint()` function from the `random` library, to generate a random 'integer' (whole number) from 1 to 6 and output it to the screen.
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 7
-line_highlights: 9-12
+language: python filename: main.py line_numbers: true line_number_start: 15
+line_highlights: 16-17
 ---
 
 # Function definitions
-def roll_dice(): # لا تنس النقطتين في نهاية هذا السطر   
-print(python, 'can make a', dice)   
-print('You rolled a', randint(1, 6))
+def roll_dice():  # Don't forget the colon at the end of this line   
+print('You rolled a', randint(1, 6))  # randint(1, 6) is used to give a number between 1 and 6.
 
 --- /code ---
 
-الأسطر الموجودة أسفل `:()def roll_dice` تحوي **مسافة بادئة**. للقيام بذلك ، استخدم المفتاح <kbd>Tab</kbd> على لوحة المفاتيح (عادةً أعلى من <kbd>CAPSLOCK</kbd> على لوحة المفاتيح). تخبر المسافة البادئة لغة Python أن الأسطر ذات المسافة البادئة هي جزء من الدالة.
+The line under `def roll_dice():` is **indented**. للقيام بذلك ، استخدم المفتاح <kbd>Tab</kbd> على لوحة المفاتيح (عادةً أعلى من <kbd>CAPSLOCK</kbd> على لوحة المفاتيح). تخبر المسافة البادئة لغة Python أن الأسطر ذات المسافة البادئة هي جزء من الدالة.
 
-**نصيحة:** يتم استخدام الشرطة السفلية `_` بين الكلمات في أسماء المتغيرات والدوال في Python لتسهيل قراءتها. لا يمكنك استخدام مسافة فارغة (space).
+**Tip:** The underscore `_` is used between words in variable and function names in Python to make them easier to read. لا يمكنك استخدام مسافة فارغة (space).
 
 --- collapse ---
 ---
@@ -68,13 +67,13 @@ title: كتابة أحرف خاصة على لوحة مفاتيح المملكة 
 title: I have a syntax error
 ---
 
-- **تتبع الخطأ:** تأكد من وجود شرطة سفلية `_` بين كلمتي roll و dice لاسم الدالة.
+- Make sure you have an underscore `_` between roll and dice to make the function name.
 
-- تأكد من وجود نقطتين `:` في نهاية السطر.
+- Make sure you have a colon `:` at the end of the line.
 
-- **تتبع الخطأ:** تحقق من أن الأسطر الموجودة أسفل `()def roll_dice` تحتوي مسافة بادئة. من الشائع حقًا وجود هذا الخطأ في Python، لذا تأكد من التحقق.
+- Check that the line under `def roll_dice()` is indented. It's really common to get this wrong in Python, so make sure to check.
 
-![The code editor showing the line of code inside the <code>roll_dice</code> function has not been indented. The line of code with the error is highlighted. تم تشغيل المقطع الرمجي وتم تمييزه في السطر 10 ، السطر الأول الذي يجب وضع مسافة بادئة له ، مع ظهور الخطأ "SyntaxError: bad input on line 10 in main.py"." />](images/indent_error.png)
+![The code editor showing the line of code inside the <code>roll_dice</code> function has not been indented. The line of code with the error is highlighted. The code has been run, with the error 'SyntaxError: bad input on line 17 in main.py'.](images/indent_error.png)
 
 --- /collapse ---
 
@@ -84,17 +83,17 @@ title: I have a syntax error
 
 --- task ---
 
-لاستخدام الدالة، تحتاج إلى استدعائها في الكود. انتقل إلى نهاية المقطع البرمجي وأضف سطرًا جديدًا لاستدعاء الدالة `()roll_dice`:
+To use a function, you need to **call** it in the code. Go to the end of your code and add a new line to call the `roll_dice()` function:
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 20
-line_highlights: 22
+language: python filename: main.py line_numbers: true line_number_start: 25
+line_highlights: 27
 ---
 
-print('The', calendar, clock, 'is', datetime.now())
+print('The date and time is', datetime.now())
 
-roll_dice() #استدعي دالة ال roll_dice
+roll_dice()  # Call the roll dice function
 
 --- /code ---
 
@@ -102,89 +101,82 @@ roll_dice() #استدعي دالة ال roll_dice
 
 --- task ---
 
-**اختبار:** قم بتنفيذ مشروعك عدة مرات لرؤية رمية النرد العشوائية في كل مرة.
+**Test:** Run your project several times to see the random dice roll each time.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-تشمل استخدامات الأرقام العشوائية التشفير وعلوم البيانات وإضافة مجموعة متنوعة إلى الألعاب وفنون الحاسوب. تنشئ أجهزة الحاسوب <span style="color: #0faeb0">**أرقامًا عشوائية**</span> باستخدام خوارزمية. بالنسبة للارقام التي تكون عشوائية بصورة كبيرة، ستحتاج الى مدخلات غير متوقعة من العالم الخارجي.
+Uses of random numbers include cryptography, data science, and adding variety into games and computer art. Computers generate <span style="color: #0faeb0">**random numbers**</span> using an algorithm. For numbers that are really random, you need an unpredictable input from the real world.
 </p>
 
 ### Use 🔥🔥🔥 for the number rolled
 
 --- task ---
 
-يخزن المتغير `fire` رمز تعبيري 🔥. المخرجات من النص البرمجي `print(fire * 3)` ستكون بشكل ثلاثة رموز تعبيريّة عن النار "🔥🔥🔥". تحتاج إلى إخراج العدد الصحيح من الرموز التعبيرية لمطابقة الرقم الذي تم رميه من النرد.
+Your function can use the 🔥 emoji variable. The code `print(fire * 3)` outputs three fire emojis '🔥🔥🔥'. You need to output the correct number of emojis to match the random number rolled by the dice.
 
-قم بتغيير المقطع البرمجي الخاص بك لحفظ القيمة التي تم إرجاعها بواسطة `()randint` في متغير يسمى `roll` ثم استخدم هذا المتغير لطباعة الرقم الذي تم تسجيله مع الرقم المطابق للايموجي 🔥. Use that variable to print out the number rolled with the matching number of 🔥 emojis.
+Change your code to save the value returned by `randint()` in a variable called `roll`. Use that variable to print out the number rolled with the matching number of 🔥 emojis.
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 7
-line_highlights: 11 - 13
+language: python filename: main.py line_numbers: true line_number_start: 15
+line_highlights: 17-18
 ---
 
 # Function definitions
-def roll_dice():    
-print(python، 'can make a'، dice)    
-roll = randint (1، 6) #قم بإنشاء رقم عشوائي بين 1 و 6    
-print('You rolled a'، roll) #اطبع قيمة رمية النرد المتغيرة     
-print(fire * roll) #كرر ايموجي النار ليتناسب مع رمية النرد
+def roll_dice(): roll = randint(1, 6)  # Generate a random number between 1 and 6 and store it in the variable 'roll' print('You rolled a', roll, fire * roll)  # Repeat the fire emoji to match the random dice roll
 
 --- /code ---
 
-يمكنك استخدام `نجمة star` أو `قلب heart` بدلاً من `نار fire` إذا كنت تفضل ذلك.
+**Tip** You can use `star` or `heart` instead of `fire` if you prefer, by creating your own emoji variables.
 
 --- /task ---
 
 --- task ---
 
-**اختبار:** اختبر مشروعك عدة مرات. تأكد من فهمك لكيفية عمل المقطع البرمجي.
+**Test:** Test your project a few times. Make sure you understand how the code works.
 
 --- /task ---
 
 ### Choose the number of sides on the dice
 
-قم بترقية النرد الخاص بك بحيث يمكن للمستخدم اختيار العدد الاكبر.
+Upgrade your dice so that the user can choose the maximum number.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-تستخدم الكثير من الألعاب النرد متعدد الجوانب. في العالم المادي ، يتكون النرد من أشكال هندسية منتظمة. تشمل النردات الشائعة D6 و D12 و D20. على جهاز الحاسوب ، يمكنك إنشاء رقم <span style="color: #0faeb0">عشوائي</span> لعمل نرد مناسب مع عدد من الجوانب.</p>
+Lots of games use many-sided dice. In the physical world, dice are made from regular geometric shapes. Common dice include D6, D12, and D20. On a computer, you can generate a <span style="color: #0faeb0">random</span> number to make a fair dice with any number of sides.</p>
 
 --- task ---
 
-تطرح دالة `()input` سؤالاً على المستخدم ثم تُعيد الإجابة.
+The `input()` function asks the user a question and then returns their answer.
 
-أضف تعليمات برمجية لمطالبة المستخدم بأكبر رقم على نرده ثم احفظ النتيجة في متغير يسمى `max` و `اطبع` الرقم المختار في منطقة الإخراج:
+**Add** code to ask the user for the biggest number on their dice and then save the result in a variable called `max` and `print` the number chosen into the output area:
 
-غيّر رمز المتغير `roll` لاستخدام `max` كقيمة قصوى لـ `randint` عندما يُنشئ رقمًا عشوائيًا.
+Change your `roll` variable code to use `max` as the maximum value for `randint` when it generates a random number.
 
-عندما تحصل على المدخلات من المستخدم، فإن لغة Python تعاملها كنص. لكن ، `randint` يحتاج إلى "عدد صحيح" (عدد صحيح موجب). تعمل دالة `int` على تحويل القيمة المدخلة باستخدام دالة input من المستخدم إلى عدد صحيح.
+When you get input from the user, Python treats it as text. But, `randint` needs an 'integer' (a positive whole number). The `int` function turns the user input into an integer.
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 7
-line_highlights: 11-12
+language: python filename: main.py line_numbers: true line_number_start: 15
+line_highlights: 18-20
 ---
 
 # Function definitions
 
 def roll_dice():   
-print(python, 'can make a', dice)   
-max = input('How many sides?:') #انتظر الادخال من المستخدم    
-print('That\'s a D', max) #تستخدم الرقم الذي ادخله المستخدم    
-roll = randint(1, 6)    
-print('You rolled a', roll)    
-print(fire * roll)
+max = input('How many sides?:')  # Wait for input from the user    
+print('That\'s a D', max)  # Use the number the user entered    
+roll = randint(1, int(max))  # Use max to determine the number of sides the dice has print('You rolled a', roll, fire * roll)
 
 --- /code ---
 
-لطباعة علامة اقتباس أحادية `'` في كلمة انكليزي مثل `That's`، ضع خط مائل للخلف `\` قبلها حتى تعرف Python أنها جزء من النص.
+To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
 
 --- /task ---
 
 --- task ---
 
-**اختبار:** قم بتشغيل مشروعك. عندما يصل البرنامج إلى سطر `input` سينتظر منك إدخال رد قبل المتابعة. Type your response and then press <kbd>Enter</kbd>, this will allow the program to collect your response. حاول مرة أخرى بادخال رقم مختلف لدالة `input`.
+**Test:** Run your project. When the program reaches the `input` line, it will wait for you to enter a response before continuing. Type your response and then press <kbd>Enter</kbd>, this will allow the program to collect your response. Try it again with a different `input` number.
 
 --- /task ---
 
