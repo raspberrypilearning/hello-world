@@ -1,20 +1,20 @@
-## Wie geht es weiter?
+## What next?
 
-Wenn Du dem Pfad [Einführung in Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) folgst, könntest Du mit dem Projekt [Zielübungen](https://projects.raspberrypi.org/en/projects/target-practice) fortfahren. In diesem Projekt zeichnest Du ein Ziel und erstellst dann ein Bogenschießspiel, bei dem Du Pfeile abschießt, um Punkte zu erzielen.
+If you are following the [Introduction to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [Target practice](https://projects.raspberrypi.org/en/projects/target-practice) project. In this project, you will draw a target then make an archery game that shoots arrows to score points.
 
 --- print-only ---
 
-![Ein Bogenschießziel mit einem Trefferpunkt am äußeren Kreis. Der Text „Du triffst den äußeren Kreis, 50 Punkte!“ wird darunter angezeigt](images/blue-points.png){:width="640px"}
+![An archery target with a hit point on the outer circle. The text 'You hit the outer circle, 50 points!' is displayed underneath](images/blue-points.png){:width="640px"}
 
 --- /print-only ---
 
 --- no-print ---
 
-Klick auf die Schaltfläche **Ausführen**, um ein Beispiel dieses Projekts anzuzeigen.
+Click the **Run** button to view an example of this project.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/target-practice-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
 --- /no-print ---
 
-Wenn du mehr Spaß beim Erkunden von Python haben willst, dann könntest du einige [dieser Projekte](https://projects.raspberrypi.org/en/projects?software%5B%5D=python) ausprobieren.
+If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
