@@ -2,9 +2,9 @@
   <a class="c-survey-banner__link" href="https://form.raspberrypi.org/f/code-editor-feedback" target="_blank">Take our survey</a> to help make our Code Editor better!
 </div>
 
-## Εισαγωγή
+## You will make
 
-Μάθε τι μπορεί να κάνει η γλώσσα προγραμματισμού Python γράφοντας ένα διαδραστικό έργο που χρησιμοποιεί emoji.
+Find out what the Python 🐍 programming language can do by writing an interactive project that uses emojis 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Emojis**</span> are small colourful images 🥰 used to add extra meaning to messages. Το Emoji σημαίνει «εικονική λέξη» στα Ιαπωνικά.
@@ -12,13 +12,13 @@
 
 Θα χρειαστεί να:
 
-+ Να εμφανίσεις κείμενο με την χρήση της συνάρτησης `print()`, συμπεριλαμβανομένων των emoji, και να λάβεις είσοδο από τον χρήστη με την χρήση της συνάρτησης `input()`
++ `print()` text, including emojis 🚀, and get `input()` ⌨️ from the user
 + Να αποθηκεύσεις κείμενο και αριθμούς σε **μεταβλητές**
 + Να χρησιμοποιήσεις **συναρτήσεις** για να οργανώσεις τον κώδικά σου
 
 --- no-print ---
 
-### Δοκίμασέ το
+### Play ▶️
 
 --- task ---
 
@@ -44,4 +44,4 @@ Can you see how your answers are used?
 
 ![Completed project showing example code on the code editor](images/showcase_static.png){:width="640px"}
 
---- /print-only ---![](http://code.org/api/hour/begin_codeclub_hworld.png)
+--- /print-only --- ![](http://code.org/api/hour/begin_codeclub_hworld.png)
