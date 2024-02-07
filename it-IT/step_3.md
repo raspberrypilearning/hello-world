@@ -25,7 +25,7 @@ In Python puoi usare gli operatori matematici per fare somme:
 
 Aggiungi altre due righe `print()` al tuo codice inclusa una somma da far calcolare a Python:
 
-**Suggerimento:** Il simbolo `*` si trova nella parte destra della tastiera sul tasto <1>+</>.
+**Suggerimento:** Il simbolo `*` si trova nella parte destra della tastiera sul tasto `+`.
 
 --- code ---
 ---

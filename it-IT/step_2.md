@@ -42,7 +42,7 @@ Riavvia Chromium e dovresti vedere le emoji colorate.
 ### Stampa ciao
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Le linee che cominciamo con un `#` sono<span style="color: #0faeb0">**commenti**</span>. Spiegano cosa farà il codice. I commenti vengono ignorati da Python.
+Le linee che cominciamo con un `#` sono <span style="color: #0faeb0">**commenti**</span>. Spiegano cosa farà il codice. I commenti vengono ignorati da Python.
 </p>
 
 Le righe `import` all'inizio del codice indicano a Python che utilizzerai codice che non hai scritto tu.
@@ -51,7 +51,7 @@ In Python, `print()` visualizza testo (parole o numeri) sullo schermo.
 
 --- task ---
 
-Trova la riga di codice `# Inserisci il codice da eseguire qui sotto` .
+Trova la riga di codice `# Inserisci il codice da eseguire qui sotto`.
 
 Fai clic sotto quella riga. Il `|` lampeggiante è il cursore e mostra dove digiterai.
 
