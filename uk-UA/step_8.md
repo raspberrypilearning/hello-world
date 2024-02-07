@@ -1,6 +1,6 @@
-## Що далі?
+## What next?
 
-Якщо ти йдеш по мануалу [Знайомство з Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro), можеш перейти до проєкту [Стрільба по мішені](https://projects.raspberrypi.org/en/projects/target-practice). У цьому проєкті ти намалюєш мішень, а потім зробиш гру, в якій будеш стріляти з лука, щоб набрати бали.
+If you are following the [Introduction to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [Target practice](https://projects.raspberrypi.org/en/projects/target-practice) project. In this project, you will draw a target then make an archery game that shoots arrows to score points.
 
 --- print-only ---
 
