@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Pytanie 3 z 3
+legend: Question 3 of 3
 ---
 
 This function outputs two random numbers:
