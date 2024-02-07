@@ -6,7 +6,7 @@
 </div>
 <div>
 
-![Η περιοχή εξόδου Trinket δείχνει τις δύο εκτυπωμένες γραμμές κειμένου και τα emoji.](images/say_hello.png){:width="200px"}
+![The code editor output area showing the two printed lines of text and emojis.](images/say_hello.png){:width="200px"}
 
 </div>
 </div>
@@ -24,7 +24,7 @@ If you have a Raspberry Pi account, you can click on the **Save** button to save
 --- collapse ---
 
 ---
-line_highlights: 12
+title: Working on a Raspberry Pi?
 ---
 
 If you're working on a Raspberry Pi using Chromium, you may not see the emojis. You need to install a font that supports them.
@@ -35,7 +35,7 @@ Open a terminal and then type:
 sudo apt install fonts-noto-color-emoji
 ```
 
-Βρες τη γραμμή `# Τοποθέτησε κώδικα για εκτέλεση κάτω από εδώ`.
+Restart Chromium and you should see the colour emojis.
 
 --- /collapse ---
 
@@ -47,7 +47,7 @@ Lines beginning with a `#` are <span style="color: #0faeb0">**comments**</span>.
 
 The `import` lines at the start of the code tell Python that you are going to use code you didn't write.
 
-language: python filename: main.py line_numbers: true line_number_start: 11
+In Python, `print()` outputs text (words or numbers) to the screen.
 
 --- task ---
 
@@ -76,7 +76,7 @@ print('Hello')
 
 --- collapse ---
 ---
-line_highlights: 12
+title: Typing special characters on a UK or US keyboard
 ---
 
 On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kbd>9</kbd> and <kbd>0</kbd> keys. To type a left round bracket, hold down the <kbd>Shift</kbd> key (next to <kbd>Z</kbd>) and then tap <kbd>9</kbd>. The single quote `'` is on the same row as the <kbd>L</kbd> key, just before the <kbd>Enter</kbd> key. The comma `,` is next to the <kbd>M</kbd>.
@@ -97,11 +97,11 @@ On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kb
 
 --- /task ---
 
-## title: Δεν βλέπω το emoji
+## Print 🌍🌎🌏
 
 In Python, a **variable** is used to store values such as text or numbers. Variables make it easier for humans to read code. You can use the same variable in lots of places in your code. Choosing a sensible name for a variable makes it easier for you to remember what it is for.
 
-language: python filename: main.py line_numbers: true line_number_start: 11
+We have included some variables that store emoji characters.
 
 --- task ---
 
@@ -113,16 +113,16 @@ In your code editor, scroll to the lines with the emojis stored into two differe
 
 You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` will add a space between each item.
 
-**Δοκιμή:** Εκτέλεσε τον κωδικά σου για να δεις το αποτέλεσμα:
+Change your code to also `print()` the contents of the `world` variable:
 
 --- code ---
 ---
-Το emoji μπορεί να δείχνει διαφορετικό σε διαφορετικούς υπολογιστές, επομένως το δικό σου μπορεί να μην είναι ακριβώς το ίδιο.
-line_highlights: 3
+language: python filename: main.py line_numbers: true line_number_start: 17
+line_highlights: 18
 ---
 
 # Βάλε κώδικα για εκτέλεση εδώ
-**Εντοπισμός σφαλμάτων:** Βεβαιώσου ότι έχεις προσθέσει κόμμα μεταξύ των στοιχείων στο `print()` και ότι έχεις γράψει σωστά το `world`.
+print('Hello', world)
 
 --- /code ---
 
@@ -132,13 +132,13 @@ line_highlights: 3
 
 --- task ---
 
-Άλλαξε τη γραμμή `from emoji import *` σε:
+**Test:** Run your code to see the result:
 
 ![The updated line of code in the code area with the word 'Hello' followed by three world emojis showing in the output area.](images/run_hello_world.png)
 
-language: python filename: main.py line_numbers: true line_number_start: 3
+**Tip:** Emojis can look different on different computers, so yours might not look exactly the same.
 
-from noemoji import *
+**Debug:** Make sure that you have added a comma between the items in `print()` and that you have spelled `world` correctly.
 
 This example is missing the comma `,`. It's small but very important!
 
@@ -148,12 +148,12 @@ This example is missing the comma `,`. It's small but very important!
 
 --- task ---
 
-Πρόσθεσε άλλη μια γραμμή στον κώδικά σου για να εκτυπώσεις με την `print()` περισσότερο κείμενο και emoji:
+**Add** another line to your code to `print()` more text and emojis:
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 12
-line_highlights: 13
+language: python filename: main.py line_numbers: true line_number_start: 18
+line_highlights: 19
 ---
 
 print('Γεια', world)    
@@ -167,7 +167,7 @@ print('Καλωσήρθες στην', python)
 
 --- task ---
 
-**Δοκιμή:** Κάνε κλικ στο **run**.
+**Test:** Click **Run**.
 
 ![The additional line of code in the code editor with the word 'Hello' followed by three world emojis and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
 
@@ -177,6 +177,6 @@ print('Καλωσήρθες στην', python)
 
 --- /task ---
 
-Εάν έχεις λογαριασμό Trinket, μπορείς να κάνεις κλικ στο κουμπί **Remix** για να αποθηκεύσεις ένα αντίγραφο στη βιβλιοθήκη `My Trinkets`.
+If you have a Raspberry Pi account, on your code editor you can click on the **Save** button to save a copy of your project to your Projects.
 
 --- save ---
