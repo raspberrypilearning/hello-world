@@ -1,33 +1,33 @@
 from datetime import datetime
 from random import randint
 
-# Emoji-Variablen zur Verwendung in Deinem Projekt
-welt = '🌍🌎🌏'
+# Emoji variables to use in your project
+world = '🌍🌎🌏'
 python = 'Python 🐍'
-feuer = '🔥'
+fire = '🔥'
 
-# Emojis zum Kopieren und Einfügen:
+# Emojis to copy and paste into your code:
 # 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊
 # 👩‍🦽 👩🏼‍🦽 👩🏽‍🦽 👩🏾‍🦽 👩🏿‍🦽 🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
-# 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥♻️ 🌳
+# 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳
 
-# Nützliche Zeichen:',()*_/.#
+# Useful characters :',()*_/.#
 
-# Funktionsdefinitionen
-def würfel_werfen():
-    max = input('Wie viele Seiten?:')  # Warte auf Eingabe vom Benutzer
-    print('Das ist ein W', max)  # Nutze die Zahl die vom Benutzer eingegeben wurde
-    wurf = randint(1, int(max))  # Benutze max als Anzahl Seiten des Würfels
-    print('Du hast gewürfelt:', wurf, feuer * wurf) # Wiederhole das Feuer-Emoji so oft wie der Würfelwurf anzeigt
+# Function definitions
+def roll_dice():
+    max = input('How many sides?:')  # Wait for input from the user
+    print('That\'s a D', max)  # Use the number the user entered
+    roll = randint(1, int(max))  # Use max to determine the number of sides the dice has
+    print('You rolled a', roll, fire * roll)  # Repeat the fire emoji to match the dice roll
 
-# Hier Code einfügen der ab hier ausgeführt wird
-print('Hallo', welt)
-print('Willkommen bei', python)
-print(python, 'ist sehr gut in Mathe!')
-print(230 * 5782 ** 2 / 23781) # Gib das Ergebnis der Rechnung aus
-print('Datum und Uhrzeit sind', datetime.now())  # Gib aktuelles Datum und Uhrzeit aus
+# Put code to run under here
+print('Hello', world)
+print('Welcome to', python)
+print(python, 'is very good at maths!')
+print(230 * 5782 ** 2 / 23781)  # Print the result of the sum
+print('The date and time is', datetime.now())  # Print the current date and time
 
-würfel_werfen() # Rufe die würfeln Funktion auf
-print('Ich ❤️ Regenbögen 🌈')
-print('Einhörner 🦄 machen mich 😃')
-print('Ich möchte eine Geschichte erfinden 📖 mit', Python)
+roll_dice()  # Call the roll dice function
+print('I ❤️ rainbows 🌈')
+print('Unicorns 🦄 make me 😃')
+print('I\'d like to make a story 📖 with', python)
