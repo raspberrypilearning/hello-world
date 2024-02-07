@@ -1,35 +1,35 @@
-## Початок речення
+## Sentence starter
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Виведи більше речень з твого проєкту.
+Output more sentences from your project.
 </div>
 <div>
 
-![Кілька нових рядків в області виводу з емодзі та текстовими реченнями.](images/sentence_starter.png){:width="300px"} 
+![Some new print lines in the code editor output area with emoji and text sentences.](images/sentence_starter.png){:width="300px"} 
 
 </div>
 </div>
 
 --- task ---
 
-Додай більше рядків `print` до твого коду. Ось деякі речення, які ти можеш використати для початку:
+Add more `print` lines to your code. Here are some sentence starters that you can use:
 
 --- code ---
 ---
-language: python
-filename: main.py
+language: python filename: main.py line_numbers: true line_number_start: 29
+line_highlights: 30-32
 ---
 
-print('Я', heart, '...')   
-print('... робить мене', happy)   
-print('Я хотів би зробити ... y', python)
+roll_dice()  # Call the roll dice function print('I ❤️ ...')   
+print('... makes me 😃')   
+print('I\'d like to make ... with', python)
 
 --- /code ---
 
-**Порада:** `print` додає пробіл між кожним надрукованим елементом.
+**Tip:** Each use of `print` adds a line inbetween.
 
-**Порада:** Якщо потрібно надрукувати апостроф `'`, необхідно ввести символ бекслэш `\` перед апострофом, щоб Python знав, що це частина тексту.
+**Tip:** If you need to print an apostrophe `'` then you need to put a backslash `\` before it so Python knows it's part of the text.
 
 **Tip:** Add a `#` at the beginning of a line to turn it into a comment.
 
