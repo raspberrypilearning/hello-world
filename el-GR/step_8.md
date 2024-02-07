@@ -17,4 +17,4 @@ Click the **Run** button to view an example of this project.
 
 --- /no-print ---
 
-Το έργο αυτό μεταφράστηκε από τους εθελοντές:
+If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
