@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legenda: Pergunta 2 de 3
+legend: Question 2 of 3
 ---
 
-Qual dessas definições de função está correta e imprimirá `Eu posso codificar` quando chamada?
+Which of these function definitions is correct and will print `I can code` when called?
 
-![O editor Trinket com área de saída mostrando <code>Eu posso codificar</code>.](images/quiz2.png)
+![The code editor with output area showing <code>I can code</code>.](images/quiz2.png)
 
 --- choices ---
 
@@ -17,13 +17,13 @@ Qual dessas definições de função está correta e imprimirá `Eu posso codifi
 language: python
 ---
 
-def maravilha(): print('Eu posso codificar')
+def awesome(): print('I can code')
 
 --- /code ---
 
  --- feedback ---
 
-Isso mesmo, chamar esta função irá imprimir `Eu posso codificar`. Você notou que as funções precisam de `(` `)` parênteses e um `:` na definição da função, e que todo código a ser executado quando essa função é chamada deve ser recuado.
+That's correct, calling this function will print `I can code`. You spotted that functions need `(` `)` brackets and a `:` in the function definition, and that all code to be run when that function is called must be indented.
 
  --- /feedback ---
 
@@ -34,13 +34,13 @@ Isso mesmo, chamar esta função irá imprimir `Eu posso codificar`. Você notou
 language: python
 ---
 
-def maravilha(): print('Eu posso codificar')
+def awesome(): print('I can code')
 
 --- /code ---
 
  --- feedback ---
 
- Não exatamente, o layout neste exemplo causaria um erro.
+ Not quite, the layout in this example would cause an error.
 
  --- /feedback ---
 
@@ -51,13 +51,13 @@ def maravilha(): print('Eu posso codificar')
 language: python
 ---
 
-def maravilha(): print('Eu posso codificar')
+def awesome() print('I can code')
 
 --- /code ---
 
  --- feedback ---
 
-Não exatamente, há algo faltando na definição da função que causaria um erro.
+Not quite, there is something missing from the function definition that woud cause an error.
 
  --- /feedback ---
 
