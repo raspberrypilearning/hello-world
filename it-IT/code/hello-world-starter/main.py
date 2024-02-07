@@ -1,5 +1,5 @@
-
-
+from datetime import datetime
+from random import randint
 
 # Variabili emoji da utilizzare nel tuo progetto
 mondo = '🌍🌎🌏'
@@ -7,8 +7,8 @@ python = 'Python 🐍'
 fuoco = '🔥'
 
 # Emoji da copiare e incollare nel tuo codice:
-
-
+# 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊
+# 👩‍🦽 👩🏼‍🦽 👩🏽‍🦽 👩🏾‍🦽 👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
 # 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳
 
 # Caratteri utili :',()*_/.#
