@@ -1,22 +1,22 @@
 --- question ---
 ---
-legend: Питання 3 з 3
+legend: Question 3 of 3
 ---
 
-Ця функція виводить два випадкових числа:
+This function outputs two random numbers:
 
 --- code ---
 ---
 language: python
 ---
 
-def two_dice(): print('Перше число:', randint(1, 6)) print('Друге число:', randint(1, 6))
+def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
 
 --- /code ---
 
-Який код забезпечить запуск функції та її виконання?
+Which code will call the function to run it?
 
-![Редактор Trinket з областю виведення двох випадково згенерованих чисел.](images/quiz3.png)
+![The code editor with output area showing two randomly generated numbers.](images/quiz3.png)
 
 --- choices ---
 
@@ -27,13 +27,13 @@ def two_dice(): print('Перше число:', randint(1, 6)) print('Друге
 language: python
 ---
 
-def two_dice(): print('Перше число:', randint(1, 6)) print('Друге число:', randint(1, 6))
+def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
 
 --- /code ---
 
  --- feedback ---
 
- Ні! Це код для визначення функції, але він не запускає функцію. Використовуй інший код для виклику.
+ No, this is the code to define the function, but it does not run the function. You'll need to use different code to call it.
 
  --- /feedback ---
 
@@ -48,7 +48,7 @@ two_dice
 
  --- feedback ---
 
-Близько! `two_dice` - це ім'я функції. Але для її виклику потрібно більше, ніж просто ім'я.
+Close! `two_dice` is the name of the function, but to call it you need more than just the name.
 
  --- /feedback ---
 
@@ -65,7 +65,7 @@ two_dice[]
 
  --- feedback ---
 
- Не зовсім так. Подумай про тип дужок, які використовувалися для виклику функцій у твоєму проєкті.
+ Not quite, think about they type of brackets you used to call the functions in your project.
 
  --- /feedback ---
 
@@ -82,7 +82,7 @@ two_dice()
 
  --- feedback ---
 
- Правильно! Використовуй назву функції в дужках `(` `)`, щоб викликати функцію.
+ That's correct, using the function name followed by `(` `)` brackets will call the function.
 
  --- /feedback ---
 
