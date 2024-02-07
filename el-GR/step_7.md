@@ -12,7 +12,7 @@
 </div>
 
 Θα μπορούσες να:
-+ Χρησιμοποιήσεις την εντολή `print` με διαφορετικό κείμενο και emoji
++ Use `print` with different text and emojis
 + Χρησιμοποιήσεις την εντολή `input` για να λάβεις τιμές από τον χρήστη και να τις αποθηκεύσεις ως μεταβλητές και, στη συνέχεια, να κάνεις πράξεις με τις μεταβλητές
 + Δημιουργήσεις περισσότερες συναρτήσεις για να οργανώσεις τον κώδικά σου
 + Χρησιμοποιήσεις το `#` για να προσθέσεις σχόλια στον κώδικά σου
@@ -25,10 +25,7 @@ Scroll to the **emoji** section in the code editor to see the emojis and example
 
 [[[choose-an-emoji]]]
 
-def hobbies():   
-hobby = input('Τι σου αρέσει να κάνεις;')   
-print('Ακούγεται', fun)   
-print('Θα μπορούσες να κάνεις ένα', python, 'έργο για', hobby)
+Here's an example function that asks about hobbies:
 
 --- code ---
 ---
@@ -37,7 +34,9 @@ filename: main.py
 ---
 
 # Βάλε κώδικα για εκτέλεση εδώ
-Μπορείς να χρησιμοποιήσεις την εντολή `input` για να κάνεις το έργο σου να περιμένει μέχρι ο χρήστης να πατήσει <kbd>Enter</kbd> σε οποιοδήποτε σημείο αυτού του έργου.
+def hobbies():   
+hobby = input('What do you like?')   
+print('That sounds', fun)  # You will need to create an emoji variable called 'fun' print('You could make a', python, 'project about', hobby)
 
 --- /code ---
 
@@ -55,7 +54,7 @@ roll_dice()
 
 input()  # Wait for the user to tap Enter
 
-Μπορείς να δεις [ολοκληρωμένο το έργο εδώ](https://trinket.io/embed/python/750a2ac96b){:target="_blank"}.
+hobbies()  # Calls the hobbies function
 
 --- /code ---
 
