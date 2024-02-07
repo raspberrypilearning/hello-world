@@ -2,23 +2,23 @@
   <a class="c-survey-banner__link" href="https://form.raspberrypi.org/f/code-editor-feedback" target="_blank">Take our survey</a> to help make our Code Editor better!
 </div>
 
-## Ти зробиш
+## You will make
 
-Дізнаєшся, на що здатна мова програмування Python, написавши інтерактивний проєкт, який використовує емодзі.
+Find out what the Python 🐍 programming language can do by writing an interactive project that uses emojis 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**Emojis**</span> are small colourful images 🥰 used to add extra meaning to messages. Емодзі в перекладі з японської означає "слово-картинка".
+<span style="color: #0faeb0">**Emojis**</span> are small colourful images 🥰 used to add extra meaning to messages. Emoji means 'picture word' in Japanese.
 </p>
 
-Зможеш:
+You will:
 
-+ Вивести текст за допомогою `print()`, включаючи емодзі, та отримати від користувача `input()` (вхідні дані)
-+ Зберігати текст і числа у **змінних**
-+ Використовувати **функції**, щоб упорядкувати свій код
++ `print()` text, including emojis 🚀, and get `input()` ⌨️ from the user
++ Store text and numbers in **variables**
++ Use **functions** to organise your code
 
 --- no-print ---
 
-### Грати ▶️
+### Play ▶️
 
 --- task ---
 
@@ -44,4 +44,4 @@ Can you see how your answers are used?
 
 ![Completed project showing example code on the code editor](images/showcase_static.png){:width="640px"}
 
---- /print-only ---![](http://code.org/api/hour/begin_codeclub_hworld.png)
+--- /print-only --- ![](http://code.org/api/hour/begin_codeclub_hworld.png)
