@@ -1,101 +1,101 @@
-Olá
+Hello
 
-Bem-vindo ao ...
+Welcome to ...
 
-...é muito bom em...
+...is very good at ...
 
-O é
+The ...is
 
-...pode fazer um...
+...can make a ...
 
-Você rolou um...
+You rolled a ...
 
-Quantos lados?
+How many sides?
 
-Isso é um D...
+That’s a D ...
 
-eu <3...
+I <3 ...
 
-...me faz ...
+...makes me ...
 
-Eu gostaria de fazer... com...
+I’d like to make ...with...
 
-incrível
+awesome
 
-eu posso codificar
+I can code
 
-dois_dados
+two_dice
 
-Primeiro número:
+First number:
 
-Segundo número:
+Second number:
 
-passatempos
+hobbies
 
-passatempo
+hobby
 
-Do que você gosta?
+What do you like?
 
-Isso soa ...
+That sounds ...
 
-Você poderia fazer um ...projeto sobre ...
+You could make a ...project about ...
 
-rolar_dado
+roll_dice
 
-rolar
+roll
 
-agora
+now
 
-mundo 
+world 
 
-somas
+sums
 
-calendário
+calendar
 
-relógio 
+clock 
 
-projetos 
+projects 
 
-diversão 
+fun 
 
-dados 
+dice 
 
-unicórnio 
+unicorn 
 
-espaço 
+space 
 
-feliz 
+happy 
 
-bobagem 
+silly 
 
-coração 
+heart 
 
-jogos 
+games 
 
-livros 
+books 
 
-esportes 
+sports 
 
-verde 
+green 
 
-natureza 
+nature 
 
-fogo 
+fire 
 
-brilhos 
+sparkles 
 
-pleitear 
+plead 
 
-centenas 
+hundred 
 
-estrela 
+star 
 
-coração_amarelo 
+yellow_heart 
 
-arco-íris
+rainbow
 
-Escolha o maior número:
+Choose the biggest number:
 
-eu <3 arco-íris
+I <3 rainbows
 
-Você acertou o alvo, 500 pontos!
+You hit the bullseye, 500 points!
