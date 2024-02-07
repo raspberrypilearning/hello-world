@@ -1,4 +1,4 @@
-## Ulepsz swój projekt
+## Upgrade your project
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -11,7 +11,7 @@ Add more to your project. There are more emojis to choose from.
 </div>
 </div>
 
-Mógłbyś:
+You could:
 + Use `print` with different text and emojis
 + Use `input` to get values from the user and store them as variables, then do sums with the variables
 + Write more functions to organise your code
@@ -60,7 +60,7 @@ hobbies()  # Calls the hobbies function
 
 --- collapse ---
 ---
-title: Ukończony projekt
+title: Completed project
 ---
 
 You can view the [completed project here](https://editor.raspberrypi.org/en/projects/hello-world-solution){:target="_blank"}.
