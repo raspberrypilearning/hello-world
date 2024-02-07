@@ -1,4 +1,4 @@
-## Улучшение своего проекта
+## Upgrade your project
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -60,7 +60,7 @@ hobbies()  # Calls the hobbies function
 
 --- collapse ---
 ---
-title: Завершённый проект
+title: Completed project
 ---
 
 You can view the [completed project here](https://editor.raspberrypi.org/en/projects/hello-world-solution){:target="_blank"}.
