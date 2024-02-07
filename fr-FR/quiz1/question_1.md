@@ -24,7 +24,7 @@ monde = '🌍🌎🌏'
 
 Quel code utilise correctement la variable `monde` et affiche Bonjour 🌍🌎🌏 ?
 
-![La zone de sortie de l'éditeur Trinket avec Bonjour 🌍🌎🌏 affiché.](images/quiz1.png)
+![The output area from the code editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
 
 --- choices ---
 
