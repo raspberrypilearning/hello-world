@@ -10,7 +10,7 @@ Find out what the Python 🐍 programming language can do by writing an interact
 <span style="color: #0faeb0">**Emojis**</span> are small colourful images 🥰 used to add extra meaning to messages. Emoji means 'picture word' in Japanese.
 </p>
 
-तुम्ही हे कारल:
+You will:
 
 + `print()` text, including emojis 🚀, and get `input()` ⌨️ from the user
 + Store text and numbers in **variables**
