@@ -6,7 +6,7 @@
 </div>
 <div>
 
-![Η περιοχή εξόδου με πέντε εκτυπωμένες γραμμές που εμφανίζουν νέες εξόδους αθροίσματος και τρέχουσας ημερομηνίας.](images/sums_dates.png){:width="300px"} 
+![The text output area with five printed lines showing new sum and current date outputs.](images/sums_dates.png){:width="300px"} 
 
 </div>
 </div>
@@ -29,11 +29,8 @@
 
 --- code ---
 ---
-print('Γεια σου', world)   
-print('Καλώς ήρθες στην ', python)   
-print(python, 'είναι πολύ καλή στα', sums)   
-print(230 * 5782 ** 2 / 23781)
-line_highlights: 14-15
+language: python filename: main.py line_numbers: true line_number_start: 18
+line_highlights: 20-21
 ---
 
 print('Hello', world)   
@@ -53,12 +50,12 @@ print(230 * 5782 ** 2 / 23781)  # Print the result of the sum
 
 **Debug:**
 
-Δοκίμασε να αλλάξεις την πράξη που πραγματοποιεί η Python σε μία περίπλοκη!
+--- collapse ---
 ---
-line_highlights: 16-17
+title: I have a syntax error
 ---
 
-Μπορείς επίσης να χρησιμοποιήσεις παρενθέσεις αν θέλεις για να ελέγξεις τη σειρά με την οποία η Python πραγματοποιεί την πράξη: `print( (2 + 4) * (5 + 3) )`.
+Make sure that you have added a comma `,` between the items in `print()` and that you have spelled `python` correctly.
 
 --- /collapse ---
 
@@ -92,11 +89,11 @@ On the code editor, you might find the text too big or too small to read. You ca
 
 ![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png)
 
-Λάβε την τρέχουσα ημερομηνία και ώρα χρησιμοποιώντας τη συνάρτηση `now()` από τη βιβλιοθήκη `datetime`:
+You can also switch between colour modes, click on the **Light & Dark** buttons to see the changes.
 
 --- /task ---
 
-language: python filename: main.py line_numbers: true line_number_start: 14
+The line `from datetime import *` at the top of the **main.py** tab includes a library with helpful functions for getting the current date and time.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. A Python library allows you to easily use code that other people have written. There are libraries for drawing charts and graphs, making art, doing calculations, and lots more.
@@ -110,7 +107,7 @@ Get the current date and time by using the `now()` function from the `datetime` 
 
 --- code ---
 ---
-**Δοκιμή:** Εκτέλεσε τον κώδικά σου μερικές φορές για να δεις την ενημέρωση της ημερομηνίας και της ώρας.
+language: python filename: main.py line_numbers: true line_number_start: 20
 line_highlights: 22
 ---
 
