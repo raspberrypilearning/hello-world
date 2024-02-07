@@ -1,101 +1,101 @@
-Hallo
+Hello
 
-Willkommen bei ...
+Welcome to ...
 
-...ist sehr gut in ...
+...is very good at ...
 
-Die ... ist
+The ...is
 
-... kann ...
+...can make a ...
 
-Das hast Du gewürfelt: ...
+You rolled a ...
 
-Wie viele Seiten?
+How many sides?
 
-Das ist ein W ...
+That’s a D ...
 
-Ich <3 ...
+I <3 ...
 
-...macht mich ...
+...makes me ...
 
-Als nächstes mache ich ... mit ...
+I’d like to make ...with...
 
-prima
+awesome
 
-Ich kann programmieren
+I can code
 
-zwei_würfel
+two_dice
 
-Erste Zahl:
+First number:
 
-Zweite Zahl:
+Second number:
 
-Hobbys
+hobbies
 
-Hobby
+hobby
 
-Was macht Dir Spaß?
+What do you like?
 
-Das klingt nach ...
+That sounds ...
 
-Du könntest ein ... Projekt anfangen, mit Thema ...
+You could make a ...project about ...
 
-würfel_werfen
+roll_dice
 
-wurf
+roll
 
-jetzt
+now
 
-welt 
+world 
 
-operatoren
+sums
 
-kalender
+calendar
 
-uhr 
+clock 
 
-projekte 
+projects 
 
-spaß 
+fun 
 
-würfel 
+dice 
 
-einhorn 
+unicorn 
 
-weltall 
+space 
 
-fröhlich 
+happy 
 
-albern 
+silly 
 
-herz 
+heart 
 
-spiele 
+games 
 
-bücher 
+books 
 
-sport 
+sports 
 
-grün 
+green 
 
-natur 
+nature 
 
-feuer 
+fire 
 
-funken 
+sparkles 
 
-flehen 
+plead 
 
-hundert 
+hundred 
 
-stern 
+star 
 
-gelbes_herz 
+yellow_heart 
 
-regenbogen
+rainbow
 
-Wähle die größte Zahl:
+Choose the biggest number:
 
-Ich <3 Regenbögen
+I <3 rainbows
 
-Du hast ins Schwarze getroffen, 500 Punkte!
+You hit the bullseye, 500 points!
