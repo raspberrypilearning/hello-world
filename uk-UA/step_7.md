@@ -1,21 +1,21 @@
-## Вдосконалення твого проєкту
+## Upgrade your project
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Доповни свій проєкт. There are more emojis to choose from.
+Add more to your project. There are more emojis to choose from.
   </div>
 <div>
 
-![Більш складний проєкт, з більшою кількістю тексту, емодзі та вхідних даних.](images/upgrade_ideas.png){:width="300px"} 
+![A longer project in the output area with more text, emoji, and inputs.](images/upgrade_ideas.png){:width="300px"} 
 
 </div>
 </div>
 
-Ти можеш:
-+ Використовувати різній текст та емодзі для `print`
-+ Використовувати `input`, щоб отримувати значення від користувача та зберігати їх як змінні, а потім виконувати обчислення зі змінними
-+ Напиши більше функцій, щоб організувати свій код
-+ Використовуй `#`, щоб додати коментарі до коду
+You could:
++ Use `print` with different text and emojis
++ Use `input` to get values from the user and store them as variables, then do sums with the variables
++ Write more functions to organise your code
++ Use `#` to add comments to your code
 
 Scroll to the **emoji** section in the code editor to see the emojis and example variables that you can use. Copy the ones you choose and save them to a variable or add them directly to your code.
 
@@ -25,10 +25,7 @@ Scroll to the **emoji** section in the code editor to see the emojis and example
 
 [[[choose-an-emoji]]]
 
-def hobbies():   
-hobby = input('Що тобі подобається?')   
-print('Це звучить', fun)   
-print('Ти можеш створити', python, 'проєкт про', hobby)
+Here's an example function that asks about hobbies:
 
 --- code ---
 ---
@@ -36,8 +33,10 @@ language: python
 filename: main.py
 ---
 
-# Розмісти код для виконання тут
-Ти можеш використовувати `input`, щоб змусити свій проєкт чекати, поки користувач натисне на <kbd>Enter</kbd>, на будь-якому етапі проєкту.
+# Put code to run under here
+def hobbies():   
+hobby = input('What do you like?')   
+print('That sounds', fun)  # You will need to create an emoji variable called 'fun' print('You could make a', python, 'project about', hobby)
 
 --- /code ---
 
@@ -55,13 +54,13 @@ roll_dice()
 
 input()  # Wait for the user to tap Enter
 
-Ти можеш переглянути [завершений проєкт тут](https://trinket.io/embed/python/dff729ae04){:target="_blank"}.
+hobbies()  # Calls the hobbies function
 
 --- /code ---
 
 --- collapse ---
 ---
-title: Завершений проєкт
+title: Completed project
 ---
 
 You can view the [completed project here](https://editor.raspberrypi.org/en/projects/hello-world-solution){:target="_blank"}.
