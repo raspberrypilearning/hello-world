@@ -1,101 +1,101 @@
-Привіт
+Hello
 
-Ласкаво просимо в ...
+Welcome to ...
 
-...дуже добре справляється з ...
+...is very good at ...
 
-...-
+The ...is
 
-...може зробити ...
+...can make a ...
 
-Тобі випало число: ...
+You rolled a ...
 
-Скільки сторін буде мати кубик?
+How many sides?
 
-Тип твого кубика: D ...
+That’s a D ...
 
-Я <3 ...
+I <3 ...
 
-...робить мене ...
+...makes me ...
 
-Я хотів би зробити ... у ...
+I’d like to make ...with...
 
-чудово
+awesome
 
-Я вмію ходити
+I can code
 
-дві_кубики
+two_dice
 
-Перше число:
+First number:
 
-Друге число:
+Second number:
 
-хобі
+hobbies
 
-хобі
+hobby
 
-Що тобі подобається?
+What do you like?
 
-Це звучить ...
+That sounds ...
 
-Ти можеш створити ... проєкт про ...
+You could make a ...project about ...
 
-кидок_кубики
+roll_dice
 
-котити
+roll
 
-тепер
+now
 
-світ 
+world 
 
-суми
+sums
 
-календар
+calendar
 
-годинник 
+clock 
 
 projects 
 
-веселощі 
+fun 
 
-кубики 
+dice 
 
-єдиноріг 
+unicorn 
 
 space 
 
-щасливий 
+happy 
 
-дурний 
+silly 
 
-серце 
+heart 
 
-ігри 
+games 
 
-книги 
+books 
 
-спорт 
+sports 
 
 green 
 
-природи 
+nature 
 
-вогонь 
+fire 
 
-блискітки 
+sparkles 
 
-благати 
+plead 
 
-сто 
+hundred 
 
-зірка 
+star 
 
-жовте_серце 
+yellow_heart 
 
-веселка
+rainbow
 
-Обери найбільше число:
+Choose the biggest number:
 
-I <3 веселки
+I <3 rainbows
 
-В яблучко - 500 балів!
+You hit the bullseye, 500 points!
