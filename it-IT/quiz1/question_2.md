@@ -4,9 +4,9 @@
 legend: Domanda 2 di 3
 ---
 
-Quale di queste definizioni di funzione è corretta e stamperà `So scrivere codice` quando viene chiamata?
+Quale di queste definizioni di funzione è corretta e stamperà `So programmare` quando viene chiamata?
 
-![L'editor di codice con l'area di output che mostra <code>So scrivere codice</code>.](images/quiz2.png)
+![L'editor di codice con l'area di output che mostra <code>So programmare</code>.](images/quiz2.png)
 
 --- choices ---
 
@@ -23,7 +23,7 @@ def awesome(): print('I can code')
 
  --- feedback ---
 
-Esatto, chiamando questa funzione verrà stampato `So scrivere codice`. Hai notato che le funzioni hanno bisogno delle parentesi `(` `)` e `:` nella definizione della funzione e che tutto il codice da eseguire quando viene chiamata quella funzione deve essere indentato.
+Esatto, chiamando questa funzione verrà stampato `So programmare`. Hai notato che le funzioni hanno bisogno delle parentesi `(` `)` e `:` nella definizione della funzione e che tutto il codice da eseguire quando viene chiamata quella funzione deve essere indentato.
 
  --- /feedback ---
 
