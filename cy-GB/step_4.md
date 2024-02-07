@@ -1,4 +1,4 @@
-## Taflu dis
+## Roll a dice 🎲
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -12,7 +12,7 @@ In Python:
 </div>
 <div>
 
-![Yr ardal allbwn gyda llinellau ychwanegol i ofyn i'r defnyddiwr roi'r rhif mwyaf ar gyfer ei ddis a'r ymateb gyda'r rhif ar hap.](images/roll_dice.png){:width="300px"} 
+![The text output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll_dice.png){:width="300px"} 
 
 </div>
 </div>
@@ -27,18 +27,17 @@ Fe allwch chi **ddiffinio** **swyddogaeth** newydd i grwpio cod gyda'i gilydd er
 
 Rhaid diffinio swyddogaethau cyn eu galw. Look for the comment in the **main.py** file that says `# Function definitions`.
 
-Diffiniwch swyddogaeth newydd o'r enw `taflu_dis()` sy'n defnyddio'r swyddogaeth `randint()` o'r llyfrgell `random` i gynhyrchu cyfanrif ar hap rhwng 1 a 6, a'i allbynnu ar y sgrin.
+Define a new function called `roll_dice()` that uses the `randint()` function from the `random` library, to generate a random 'integer' (whole number) from 1 to 6 and output it to the screen.
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 7
-line_highlights: 9-12
+language: python filename: main.py line_numbers: true line_number_start: 15
+line_highlights: 16-17
 ---
 
-# Rhowch ddiffiniadau swyddogaethau o dan fan hyn
-def taflu_dis(): #Cofiwch y colon ar ddiwedd y llinell hon   
-print('mae', python, 'yn gallu gwneud', dis)   
-print('Rydych chi wedi taflu', randint(1, 6))
+# Function definitions
+def roll_dice():  # Don't forget the colon at the end of this line   
+print('You rolled a', randint(1, 6))  # randint(1, 6) is used to give a number between 1 and 6.
 
 --- /code ---
 
@@ -65,7 +64,7 @@ Ar fysellfwrdd y DU neu UDA, mae'r colon `:` ar yr un fysell â'r hanner colon, 
 
 --- collapse ---
 ---
-line_highlights: 22
+title: I have a syntax error
 ---
 
 - Make sure you have an underscore `_` between roll and dice to make the function name.
@@ -89,12 +88,12 @@ To use a function, you need to **call** it in the code. Go to the end of your co
 --- code ---
 ---
 language: python filename: main.py line_numbers: true line_number_start: 25
-title: Beth fyddai'n digwydd pe baech chi'n defnyddio `print(fflam * randint(1, 6))`?
+line_highlights: 27
 ---
 
 print('The date and time is', datetime.now())
 
-**Profi:** Rhedwch eich prosiect nifer o weithiau i weld y tafliad dis ar hap bob tro.
+roll_dice()  # Call the roll dice function
 
 --- /code ---
 
@@ -120,16 +119,16 @@ Change your code to save the value returned by `randint()` in a variable called 
 
 --- code ---
 ---
-Hmm, sut mae gwneud yn siŵr eich bod yn defnyddio'r un rhif ar hap?
-line_highlights: 11 - 13
+language: python filename: main.py line_numbers: true line_number_start: 15
+line_highlights: 17-18
 ---
 
-# Rhowch ddiffiniadau swyddogaethau o dan fan hyn
-Newidiwch eich cod i gadw'r gwerth sy'n cael ei ddychwelyd gan `randint()` mewn newidyn o'r enw `taflu` ac yna defnyddio'r newidyn hwnnw i brintio'r rhif sy'n cael ei rolio gyda nifer yr emoji 🔥 sy'n cyfateb.
+# Function definitions
+def roll_dice(): roll = randint(1, 6)  # Generate a random number between 1 and 6 and store it in the variable 'roll' print('You rolled a', roll, fire * roll)  # Repeat the fire emoji to match the random dice roll
 
 --- /code ---
 
-language: python filename: main.py line_numbers: true line_number_start: 7
+**Tip** You can use `star` or `heart` instead of `fire` if you prefer, by creating your own emoji variables.
 
 --- /task ---
 
@@ -148,27 +147,30 @@ Lots of games use many-sided dice. In the physical world, dice are made from reg
 
 --- task ---
 
-**Cyngor:** Mae newidynnau'n ddefnyddiol pan fydd angen i chi ddefnyddio'r un gwerth fwy nag unwaith yn eich cod. Mae rhoi enw synhwyrol i'ch newidynnau yn gwneud eich cod yn haws ei ddeall hefyd.
+The `input()` function asks the user a question and then returns their answer.
 
 **Add** code to ask the user for the biggest number on their dice and then save the result in a variable called `max` and `print` the number chosen into the output area:
 
-Uwchraddiwch eich dis er mwyn i'r defnyddiwr allu dewis y rhif mwyaf.
+Change your `roll` variable code to use `max` as the maximum value for `randint` when it generates a random number.
 
 When you get input from the user, Python treats it as text. But, `randint` needs an 'integer' (a positive whole number). The `int` function turns the user input into an integer.
 
 --- code ---
 ---
-Mae'r swyddogaeth `input()` yn gofyn cwestiwn i'r defnyddiwr, ac yn dychwelyd eu hateb.
-line_highlights: 11-12
+language: python filename: main.py line_numbers: true line_number_start: 15
+line_highlights: 18-20
 ---
 
-# Rhowch ddiffiniadau swyddogaethau o dan fan hyn
+# Function definitions
 
-Ychwanegwch god i ofyn i'r defnyddiwr am y rhif mwyaf ar ei ddis ac yna cadw'r canlyniad mewn newidyn o'r enw `mwyaf` a phrintio'r rhif sy'n cael ei ddewis yn yr ardal allbwn:
+def roll_dice():   
+max = input('How many sides?:')  # Wait for input from the user    
+print('That\'s a D', max)  # Use the number the user entered    
+roll = randint(1, int(max))  # Use max to determine the number of sides the dice has print('You rolled a', roll, fire * roll)
 
 --- /code ---
 
-language: python filename: main.py line_numbers: true line_number_start: 7
+To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
 
 --- /task ---
 
