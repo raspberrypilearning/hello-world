@@ -17,7 +17,7 @@ Quale di queste definizioni di funzione è corretta e stamperà `So programmare`
 language: python
 ---
 
-def awesome(): print('I can code')
+def meraviglioso(): print('So programmare')
 
 --- /code ---
 
@@ -34,7 +34,7 @@ Esatto, chiamando questa funzione verrà stampato `So programmare`. Hai notato c
 language: python
 ---
 
-def awesome(): print('I can code')
+def meraviglioso(): print('So programmare')
 
 --- /code ---
 
@@ -51,7 +51,7 @@ def awesome(): print('I can code')
 language: python
 ---
 
-def awesome() print('I can code')
+def meraviglioso() print('So programmare')
 
 --- /code ---
 
