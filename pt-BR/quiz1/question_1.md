@@ -1,30 +1,30 @@
-## Teste rápido
+## Quick quiz
 
-Responda às três perguntas. Há dicas para guiá-lo para a resposta correta.
+Answer the three questions. There are hints to guide you to the correct answer.
 
-Após responder cada pergunta, clique em **Verificar resposta**.
+When you have answered each question, click on **Check my answer**.
 
-Divirta-se!
+Have fun!
 
 --- question ---
 ---
-Legenda: Pergunta 1 de 3
+legend: Question 1 of 3
 ---
 
-Este código define a variável `world` para conter o texto '🌍🌎🌏' (os três emojis diferentes de mundos):
+This code sets the `world` variable to contain the text '🌍🌎🌏' (the three different world emoji):
 
 --- code ---
 ---
 language: python
 ---
 
-mundo = '🌍🌎🌏'
+world = '🌍🌎🌏'
 
 --- /code ---
 
-Qual código usa corretamente a variável `world` e gera Olá 🌍🌎🌏?
+Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
 
-![A área de saída do editor Trinket com Olá 🌍🌎🌏 aparecendo.](images/quiz1.png)
+![The output area from the code editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
 
 --- choices ---
 
@@ -35,13 +35,13 @@ Qual código usa corretamente a variável `world` e gera Olá 🌍🌎🌏?
 language: python
 ---
 
-Saída('Olá', mundo)
+output('Hello' world)
 
 --- /code ---
 
  --- feedback ---
 
- Não exatamente, `output` não é a maneira de enviar mensagens para a tela.
+ Not quite, `output` is not the way to output messages to the screen.
 
  --- /feedback ---
 
@@ -53,13 +53,13 @@ Saída('Olá', mundo)
 language: python
 ---
 
-Saída('Olá', mundo)
+print('Hello' world)
 
 --- /code ---
 
  --- feedback ---
 
- Não exatamente, em Python `print` envia mensagens para a tela, mas algo está faltando neste exemplo.
+ Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
 
  --- /feedback ---
 
@@ -70,13 +70,13 @@ Saída('Olá', mundo)
 language: python
 ---
 
-saída('Olá', mundo)
+print('Hello', world)
 
 --- /code ---
 
  --- feedback ---
 
- Está correto, em Python `print` envia mensagens para a tela. A saída de texto está entre aspas simples `'` , uma vírgula separa os dois itens e fornece um espaço, então a variável `world` é chamada, que armazena o emoji da Terra 🌍🌎🌏, como no seu projeto.
+ That's correct, in Python `print` outputs messages to the screen. The text output is inside single quotes `'` , a comma separates the two items and provides a space, then the `world` variable is called, which stores the earth emoji 🌍🌎🌏, like in your project.
 
  --- /feedback ---
 
@@ -87,13 +87,13 @@ saída('Olá', mundo)
 language: python
 ---
 
-saída('Olá', mundo)
+print(Hello, world)
 
 --- /code ---
 
  --- feedback ---
 
-  Não exatamente, em Python `print` envia mensagens para a tela, mas algo está faltando neste exemplo.
+  Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
 
  --- /feedback ---
 
