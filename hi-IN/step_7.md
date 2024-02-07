@@ -40,9 +40,9 @@ print('That sounds', fun)  # You will need to create an emoji variable called 'f
 
 --- /code ---
 
-**टिप:** मत भूलो कि आपको अपने फ़ंक्शन को कॉल करने के साथ-साथ इसे परिभाषित करने की आवश्यकता होगी।
+**Tip:** Don't forget you will need to call your function as well as define it.
 
-आप इस प्रोजेक्ट में किसी भी समय <kbd>Enter</kbd> पर टैप कर अपने प्रोजेक्ट को प्रतीक्षा कराने के लिए `input` का उपयोग कर सकते हैं।
+You can use `input` to make your project wait for the user to tap <kbd>Enter</kbd> at any point in this project.
 
 --- code ---
 ---
