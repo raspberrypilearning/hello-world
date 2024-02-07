@@ -2,17 +2,17 @@
   <a class="c-survey-banner__link" href="https://form.raspberrypi.org/f/code-editor-feedback" target="_blank">Take our survey</a> to help make our Code Editor better!
 </div>
 
-## المقدمة
+## You will make
 
-اكتشف ما يمكن أن تفعله لغة برمجة Python من خلال كتابة مشروع تفاعلي يستخدم الرموز او الاشكال التعبيرية.
+Find out what the Python 🐍 programming language can do by writing an interactive project that uses emojis 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-<span style="color: #0faeb0">**الرموز التعبيرية (ايموجي)**</span> عبارة عن صور صغيرة ملونة تُستخدم لإضافة معنى إضافي للرسائل. ايموجي تعني "كلمة مصورة" باللغة اليابانية.
+<span style="color: #0faeb0">**Emojis**</span> are small colourful images 🥰 used to add extra meaning to messages. ايموجي تعني "كلمة مصورة" باللغة اليابانية.
 </p>
 
 سوف تقوم بما يلي:
 
-+ طباعة نص باستخدام `()print`، بما في ذلك الرموز التعبيرية، والحصول على مدخلات من المستخدم باستخدام `()input`
++ `print()` text, including emojis 🚀, and get `input()` ⌨️ from the user
 + تخزين النص والأرقام في **متغيرات**
 + استخدم **الدوال (functions)** لتنظيم التعليمات البرمجية الخاصة بك
 
@@ -25,11 +25,11 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-اقرأ المخرجات ثم انقر فوق <kbd>Enter</kbd> في لوحة المفاتيح للمتابعة.
+Click on the **Run** button and read the output.
 
-  اكتب إجاباتك على الأسئلة. 
+  When you are asked, type in a number and tap <kbd>Enter</kbd>. 
 
-هل يمكنك أن ترى كيف يتم استخدام إجاباتك؟
+Can you see how your answers are used?
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/hello-world-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
@@ -44,4 +44,4 @@
 
 ![Completed project showing example code on the code editor](images/showcase_static.png){:width="640px"}
 
---- /print-only ---![](http://code.org/api/hour/begin_codeclub_hworld.png)
+--- /print-only --- ![](http://code.org/api/hour/begin_codeclub_hworld.png)
