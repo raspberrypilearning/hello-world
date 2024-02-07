@@ -6,7 +6,7 @@ legend: 質問2/3
 
 これらの関数定義のどれが正しく、`私はコーディングができます`を出力しますか？
 
-![私はコーディングできます</code>@@を出力領域に表示したTrinketエディター。](images/quiz2.png)
+![The code editor with output area showing <code>I can code</code>.](images/quiz2.png)
 
 --- choices ---
 
