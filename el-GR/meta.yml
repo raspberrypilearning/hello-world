@@ -1,5 +1,5 @@
 ---
-title: "Γεια σου \U0001F30D\U0001F30E\U0001F30F"
+title: "Hello \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
 description: Δημιούργησε ένα διαδραστικό έργο Python που χρησιμοποιεί emoji
 meta_title: Python coding projects for kids and teens | Hello world
@@ -10,7 +10,7 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: Εισαγωγή
+    title: You will make
   - 
     title: Πες γεια
   - 
@@ -24,7 +24,7 @@ steps:
     completion:
       - internal
   - 
-    title: Αναστοχασμός
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
