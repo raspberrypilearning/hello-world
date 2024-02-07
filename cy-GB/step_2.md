@@ -6,7 +6,7 @@ Mae'n draddodiadol ysgrifennu rhaglen i allbynnu 'Helo fyd!' pan fyddwch yn dysg
 </div>
 <div>
 
-![Ardal allbwn Trinket yn dangos y ddwy linell wedi'u printio o destun ac emoji.](images/say_hello.png){:width="200px"}
+![The code editor output area showing the two printed lines of text and emojis.](images/say_hello.png){:width="200px"}
 
 </div>
 </div>
@@ -24,7 +24,7 @@ If you have a Raspberry Pi account, you can click on the **Save** button to save
 --- collapse ---
 
 ---
-line_highlights: 12
+title: Working on a Raspberry Pi?
 ---
 
 If you're working on a Raspberry Pi using Chromium, you may not see the emojis. You need to install a font that supports them.
@@ -35,7 +35,7 @@ Open a terminal and then type:
 sudo apt install fonts-noto-color-emoji
 ```
 
-Dewch o hyd i'r llinell `# Rhowch y cod i'w redeg o dan fan hyn`.
+Restart Chromium and you should see the colour emojis.
 
 --- /collapse ---
 
@@ -47,7 +47,7 @@ Lines beginning with a `#` are <span style="color: #0faeb0">**comments**</span>.
 
 The `import` lines at the start of the code tell Python that you are going to use code you didn't write.
 
-language: python filename: main.py line_numbers: true line_number_start: 11
+In Python, `print()` outputs text (words or numbers) to the screen.
 
 --- task ---
 
@@ -66,17 +66,17 @@ Type the code to `print()` Hello to the screen:
 --- code ---
 ---
 language: python filename: main.py line_numbers: true line_number_start: 17
-title: Teipio nodau arbennig ar fysellfwrdd y DU neu UDA
+line_highlights: 18
 ---
 
 # Rhowch y cod i'w redeg o dan fan hyn
-**Difa chwilod:** Os ydych chi'n cael gwall, gwnewch yn fanwl siŵr bod eich cod yn gywir. Yn yr enghraifft hon, mae'r dyfynodau sengl o amgylch `Helo` ar goll felly dydy Python ddim yn gwybod mai testun sydd i fod yno.
+print('Hello')
 
 --- /code ---
 
 --- collapse ---
 ---
-line_highlights: 12
+title: Typing special characters on a UK or US keyboard
 ---
 
 On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kbd>9</kbd> and <kbd>0</kbd> keys. To type a left round bracket, hold down the <kbd>Shift</kbd> key (next to <kbd>Z</kbd>) and then tap <kbd>9</kbd>. The single quote `'` is on the same row as the <kbd>L</kbd> key, just before the <kbd>Enter</kbd> key. The comma `,` is next to the <kbd>M</kbd>.
@@ -97,11 +97,11 @@ On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kb
 
 --- /task ---
 
-## title: Wela' i ddim yr emoji
+## Print 🌍🌎🌏
 
 In Python, a **variable** is used to store values such as text or numbers. Variables make it easier for humans to read code. You can use the same variable in lots of places in your code. Choosing a sensible name for a variable makes it easier for you to remember what it is for.
 
-language: python filename: main.py line_numbers: true line_number_start: 11
+We have included some variables that store emoji characters.
 
 --- task ---
 
@@ -113,16 +113,16 @@ In your code editor, scroll to the lines with the emojis stored into two differe
 
 You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` will add a space between each item.
 
-**Profi:** Rhedwch eich cod i weld y canlyniad:
+Change your code to also `print()` the contents of the `world` variable:
 
 --- code ---
 ---
-Mae emoji'n gallu edrych yn wahanol ar wahanol gyfrifiaduron, felly efallai na fydd eich un chi yn edrych union yr un fath.
-line_highlights: 3
+language: python filename: main.py line_numbers: true line_number_start: 17
+line_highlights: 18
 ---
 
 # Rhowch y cod i'w redeg o dan fan hyn
-**Difa chwilod:** Gwnewch yn siŵr eich bod wedi ychwanegu coma rhwng yr eitemau yn `print()` ac wedi sillafu `byd` yn gywir.
+print('Hello', world)
 
 --- /code ---
 
@@ -132,13 +132,13 @@ line_highlights: 3
 
 --- task ---
 
-Newidiwch y llinell `from emoji import *` i:
+**Test:** Run your code to see the result:
 
 ![The updated line of code in the code area with the word 'Hello' followed by three world emojis showing in the output area.](images/run_hello_world.png)
 
-language: python filename: main.py line_numbers: true line_number_start: 3
+**Tip:** Emojis can look different on different computers, so yours might not look exactly the same.
 
-from noemoji import *
+**Debug:** Make sure that you have added a comma between the items in `print()` and that you have spelled `world` correctly.
 
 This example is missing the comma `,`. It's small but very important!
 
@@ -148,12 +148,12 @@ This example is missing the comma `,`. It's small but very important!
 
 --- task ---
 
-Ychwanegwch linell arall at eich cod i brintio mwy o destun ac emoji:
+**Add** another line to your code to `print()` more text and emojis:
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 12
-line_highlights: 13
+language: python filename: main.py line_numbers: true line_number_start: 18
+line_highlights: 19
 ---
 
 print('Helo', byd)    
@@ -167,9 +167,9 @@ print('Croeso i', python)
 
 --- task ---
 
-**Profi:** Cliciwch **run**.
+**Test:** Click **Run**.
 
-![Y llinell cod ychwanegol yn yr ardal cod gyda'r gair 'Helo' wedi'i ddilyn gan dri emoji byd a'r geiriau 'Croeso i' wedi'u dilyn gan emoji neidr a bysellfwrdd yn yr ardal allbwn.](images/run_multiple.png)
+![The additional line of code in the code editor with the word 'Hello' followed by three world emojis and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
 
 **Cyngor:** Mae'n syniad da rhedeg eich cod ar ôl pob newid er mwyn gallu datrys problemau'n gyflym.
 
@@ -177,6 +177,6 @@ print('Croeso i', python)
 
 --- /task ---
 
-Os oes gennych chi gyfrif Trinket, fe allwch chi glicio'r botwm **Remix** i gadw copi yn eich llyfrgell `My Trinkets`.
+If you have a Raspberry Pi account, on your code editor you can click on the **Save** button to save a copy of your project to your Projects.
 
 --- save ---
