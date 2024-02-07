@@ -17,4 +17,4 @@ Click the **Run** button to view an example of this project.
 
 --- /no-print ---
 
-Pythonのさまざまな機能を触ってみたい場合は[これらのプロジェクト](https://projects.raspberrypi.org/ja-JP/projects?software%5B%5D=python)を試してみてください。
+If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
