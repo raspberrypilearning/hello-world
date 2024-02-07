@@ -1,19 +1,19 @@
-## Satzanfang
+## Sentence starter
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Gebe weitere Sätze aus Deinem Projekt aus.
+Output more sentences from your project.
 </div>
 <div>
 
-![Einige neue Zeilen im Ausgabebereich des Code Editors mit Emojis und Textsätzen.](images/sentence_starter.png){:width="300px"} 
+![Some new print lines in the code editor output area with emoji and text sentences.](images/sentence_starter.png){:width="300px"} 
 
 </div>
 </div>
 
 --- task ---
 
-Füge Deinem Code weitere `print` Zeilen hinzu. Hier sind einige Satzanfänge, die Du verwenden kannst:
+Add more `print` lines to your code. Here are some sentence starters that you can use:
 
 --- code ---
 ---
@@ -21,31 +21,31 @@ language: python filename: main.py line_numbers: true line_number_start: 29
 line_highlights: 30-32
 ---
 
-würfel_werfen()  # rufe die würfeln Funktion auf print('Ich ❤️ ...')   
-print('... macht mich 😃')   
-print('Als nächstes mache ich ... mit', python)
+roll_dice()  # Call the roll dice function print('I ❤️ ...')   
+print('... makes me 😃')   
+print('I\'d like to make ... with', python)
 
 --- /code ---
 
-**Tipp:** Bei jeder Verwendung von `print` wird eine Zeile dazwischen hinzugefügt.
+**Tip:** Each use of `print` adds a line inbetween.
 
-**Tipp:** Wenn Du ein Apostroph `'` oder Anführungszeichen `"` ausgeben möchtest, musst Du davor einen Backslash <1>\</1> einfügen, sodass Python weiß, dass es Teil des Textes ist.
+**Tip:** If you need to print an apostrophe `'` then you need to put a backslash `\` before it so Python knows it's part of the text.
 
-**Tipp:** Füge am Anfang einer Zeile ein `#` hinzu, um daraus einen Kommentar zu machen.
+**Tip:** Add a `#` at the beginning of a line to turn it into a comment.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-Das Emoji <span style="color: #0faeb0">gelbes Herz 💛</span> wird oft verwendet, um Freundschaft und Glück zu zeigen.</p>
+The <span style="color: #0faeb0">yellow heart emoji 💛</span> is often used to show friendship and happiness.</p>
 
 --- task ---
 
-Welche Nachricht würdest Du Freunden senden, um sie aufzuheitern? Welches Emoji würdest Du wählen?
+What message would you send to a friend to cheer them up? Which emoji would you choose?
 
-Scroll im Code Editor zum Abschnitt **Emoji**, um die Emojis und Beispielvariablen anzuzeigen, die Du verwenden kannst. Kopiere alle die Du möchtest und speichere sie in einer Variable oder füge sie direkt Deinem Code hinzu.
+Scroll to the **emoji** section in the code editor to see the emojis and example variables that you can use. Copy the ones you choose and save them to a variable or add them directly to your code.
 
-Du kannst dem Abschnitt **Emoji** weitere Emojis hinzufügen. Verwende diese [Emoji Liste](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"}, um ein paar auszusuchen.
+You can add more emojis to the **emoji** section. Use this [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} to find the ones you want.
 
 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳 👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
 
