@@ -6,16 +6,16 @@ Es tradicional escribir un programa para generar '¡Hola mundo!' cuando aprendes
 </div>
 <div>
 
-![El área de salida de Trinket mostrando las dos líneas impresas de texto y emoji.](images/say_hello.png){:width="200px"}
+![The code editor output area showing the two printed lines of text and emojis.](images/say_hello.png){:width="200px"}
 
 </div>
 </div>
 
 --- task ---
 
-Abre el [proyecto de iniciación Hola🌍🌎🌏](https://trinket.io/python/7a6d677fb1){:target="_blank"}. Trinket se abrirá en otra pestaña del navegador.
+Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
 
-![El editor Trinket y el código del proyecto de iniciación están a la izquierda en el área de código. A la derecha está el área de salida en blanco.](images/starter_project.png)
+![The code editor with project starter code on the left in the code area. A la derecha está el área de salida en blanco.](images/starter_project.png)
 
 If you have a Raspberry Pi account, you can click on the **Save** button to save a copy to your **Projects**.
 
@@ -39,47 +39,47 @@ Restart Chromium and you should see the colour emojis.
 
 --- /collapse ---
 
-### print('Hola')
+### Print hello
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 Lines beginning with a `#` are <span style="color: #0faeb0">**comments**</span>. They explain what the code will do. Comments are ignored by Python.
 </p>
 
-Las líneas que comienzan con `#` son comentarios que explican el código a los humanos y que Python ignora.
+The `import` lines at the start of the code tell Python that you are going to use code you didn't write.
 
-En Python, `print()` genera texto (palabras o números) en la pantalla.
+In Python, `print()` outputs text (words or numbers) to the screen.
 
 --- task ---
 
-Encuentra la línea `# Pon el código a ejecutar debajo de aquí`.
+Find the `# Put code to run below here` line.
 
-Haz clic debajo de esa línea. El `|` parpadeante es el puntero del ratón y muestra dónde tipearás.
+Click below that line. The flashing `|` is the cursor and shows where you will type.
 
 --- /task ---
 
 --- task ---
 
-Tipea el código para `print()` hola:
+Type the code to `print()` Hello to the screen:
 
-Haz clic en la pestaña **main.py** para regresar a tu código `print()`.
+**Tip:** When you type an opening bracket `(` or opening apostrophe `'` the code editor will automatically add a closing bracket `)` or closing apostrophe`'`:
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 11
-line_highlights: 12
+language: python filename: main.py line_numbers: true line_number_start: 17
+line_highlights: 18
 ---
 
 # Pon el código a ejecutar aquí abajo
-Cambia la línea `from emoji import *` a:
+print('Hello')
 
 --- /code ---
 
 --- collapse ---
 ---
-title: Tipear caracteres especiales en un teclado del Reino Unido o los Estados Unidos
+title: Typing special characters on a UK or US keyboard
 ---
 
-En un teclado del Reino Unido o los Estados Unidos, los paréntesis de apertura `(` y de cierre `)` se encuentran en las teclas <kbd>9</kbd> y <kbd>0</kbd>. Para tipear el paréntesis de apertura, mantén presionado la tecla <kbd>Shift</kbd> (al lado de la <kbd>Z</kbd>) y luego presiona <kbd>9</kbd>. La comilla simple `'` se encuentra en la misma fila que la tecla <kbd>L</kbd>, justo antes de la tecla <kbd>Enter</kbd>. La coma `,` está al costado de la <kbd>M</kbd>.
+On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kbd>9</kbd> and <kbd>0</kbd> keys. To type a left round bracket, hold down the <kbd>Shift</kbd> key (next to <kbd>Z</kbd>) and then tap <kbd>9</kbd>. The single quote `'` is on the same row as the <kbd>L</kbd> key, just before the <kbd>Enter</kbd> key. The comma `,` is next to the <kbd>M</kbd>.
 
 --- /collapse ---
 
@@ -87,73 +87,73 @@ En un teclado del Reino Unido o los Estados Unidos, los paréntesis de apertura 
 
 --- task ---
 
-**Test:** Haz clic en el botón **Run** para ejecutar tu código. En Trinket, la salida aparecerá a la derecha:
+**Test:** Click on the **Run** button to run your code. In the code editor, the output will appear on the right:
 
-![El ícono Run resaltado con 'Hola' mostrando el área de salida. ](images/run_hello.png)
+![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
 
-**Debug:** Si obtienes un error, verifica tu código cuidadosamente. En este ejemplo, faltan las comillas simples alrededor de `Hola`, así que Python no sabe que es un texto.
+**Debug:** If you get an error then check your code really carefully. In this example, the single quotes around `Hello` are missing so Python doesn't know it is supposed to be text.
 
-![El editor Trinket sin comillas simples y el error 'NameError: name 'Hola' is not defined on line 10 in main.py.](images/hello_error.png)
-
---- /task ---
-
-## line_highlights: 12
-
-En Python, se usan las **variables** para almacenar texto o números. Las variables les facilita la lectura de códigos a los humanos. Puedes usar la misma variable en varias partes de tu código. Choosing a sensible name for a variable makes it easier for you to remember what it is for.
-
-Hemos incluido algunas variables que almacenan caracteres de emoji.
-
---- task ---
-
-En tu Trinket, haz clic en la pestaña **emoji.py**. Encuentra la variable `world`, que almacena el texto '🌍🌍🌍'.
+![The Code Editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 18 in main.py.](images/hello_error.png)
 
 --- /task ---
 
+## Print 🌍🌎🌏
+
+In Python, a **variable** is used to store values such as text or numbers. Variables make it easier for humans to read code. You can use the same variable in lots of places in your code. Choosing a sensible name for a variable makes it easier for you to remember what it is for.
+
+We have included some variables that store emoji characters.
+
 --- task ---
 
-Puedes `print()` más de un objeto a la vez al incluir una coma `,` entre los objetos. `print()` añadirá un espacio entre cada objeto.
+In your code editor, scroll to the lines with the emojis stored into two different variables. Find the variable `world`, which stores the text '🌍🌍🌍'.
 
-Cambia tu código para `print()` también el contenido de la variable `world`:
+--- /task ---
+
+--- task ---
+
+You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` will add a space between each item.
+
+Change your code to also `print()` the contents of the `world` variable:
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 11
-line_highlights: 3
+language: python filename: main.py line_numbers: true line_number_start: 17
+line_highlights: 18
 ---
 
 # Pon el código a ejecutar aquí abajo
-print('Hola', world)
+print('Hello', world)
 
 --- /code ---
 
-**Tip:** `'Hola'` es una cadena de texto porque tiene comillas simples alrededor, mientras que `world` es una variable, así que se imprimirá el valor que tiene almacenado.
+**Tip:** `'Hello'` is a text string because it has single quotes around it, whereas `world` is a variable so the value stored in it will be printed.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Ejecuta tu código para ver el resultado:
+**Test:** Run your code to see the result:
 
-![La línea de código actualizada en el área de código con la palabra 'Hola' seguido de tres emojis de mundo mostrándose en el área de salida.](images/run_hello_world.png)
+![The updated line of code in the code area with the word 'Hello' followed by three world emojis showing in the output area.](images/run_hello_world.png)
 
-Los emojis pueden verse distintos en diferentes computadoras, así que puede que el tuyo no se vea exactamente igual.
+**Tip:** Emojis can look different on different computers, so yours might not look exactly the same.
 
-**Debug:** Asegúrate de haber añadido una coma entre los objetos en `print()` y que escribiste `world` correctamente.
+**Debug:** Make sure that you have added a comma between the items in `print()` and that you have spelled `world` correctly.
 
-A este ejemplo le falta la coma `,`. ¡Es pequeño, pero muy importante!
+This example is missing the comma `,`. It's small but very important!
 
-![El editor Trinket sin comillas simples y el error 'SyntaxError: bad input on line 12 in main.py'.](images/comma_error.png)
+![The code editor with missing single quotes and error 'SyntaxError: bad input on line 18 in main.py' displayed.](images/comma_error.png)
 
 --- /task ---
 
 --- task ---
 
-Añade otra línea a tu código para `print()` más texto y emojis:
+**Add** another line to your code to `print()` more text and emojis:
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 12
-line_highlights: 13
+language: python filename: main.py line_numbers: true line_number_start: 18
+line_highlights: 19
 ---
 
 print('Hola', world)    
@@ -167,9 +167,9 @@ print('Bienvenido a', python)
 
 --- task ---
 
-**Test:** Haz clic en **run**.
+**Test:** Click **Run**.
 
-![La línea de código adicional en el área de código con la palabra 'Hola' seguido de tres emojis de mundo y las palabras 'Bienvenido a' seguido de un emoji de serpiente y teclado que se muestran el área de salida.](images/run_multiple.png)
+![The additional line of code in the code editor with the word 'Hello' followed by three world emojis and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
 
 **Tip:** Es buena idea que ejecutes tu código luego de cada cambio para que puedas arreglar los problemas rápidamente.
 
@@ -177,6 +177,6 @@ print('Bienvenido a', python)
 
 --- /task ---
 
-Si tienes una cuenta en Trinket, puedes hacer clic en el botón **Remix** para guardar una copia en tu bibliotecla `My Trinkets`.
+If you have a Raspberry Pi account, on your code editor you can click on the **Save** button to save a copy of your project to your Projects.
 
 --- save ---
