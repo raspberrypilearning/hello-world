@@ -1,43 +1,43 @@
-Розмісти код для виконання тут
+Put code to run under here
 
-Вивести результати обчислення сум
+Print the result of the sum
 
-Виведення емодзі
+Print with emoji
 
-Помісти сюди визначення функцій
+Put function definitions under here
 
-Не забуваймо про двокрапку в кінці цього рядка
+Don't forget the colon at the end of this line
 
-Виклик функції roll_dice
+Call the roll_dice function
 
-Генерація випадкового числа від 1 до 6
+Generate a random number between 1 and 6
 
-Отримати значення змінної roll
+Print the value of the roll variable
 
-Повторення емодзі вогню, яке відповідає результату випадіння рандомного числа
+Repeat the fire emoji to match the dice roll
 
-Очікування на введення даних від користувача
+Wait for input from the user
 
-Використання числа, яке ввів користувач
+Use the number the user entered
 
-randint повинен мати значення max, щоб бути 'цілим числом'
+randint needs max to be an 'integer'
 
-Очікування натискання користувачем клавіші Enter
+Wait for the user to tap Enter
 
-Корисні символи :',()*_/.#
+Useful characters :',()*_/.#
 
-Змінні емодзі для подальшого використання у твоєму проєкті
+Emoji variables to use in your project
 
-Додай альтернативи ASCII-артів
+Add ASCII art alternatives
 
-Раніше ми використовували смайлики, зроблені з символів
+Before emoji we used emoticons made from characters
 
-отримати вхідні дані від користувача
+get input from the user
 
-згенерувати випадкове число
+generate a random number
 
-повторити ємодзі вогню відповідно до числа кубика
+repeat the fire text roll times
 
-отримати поточну дату та час
+get the current date and time
 
-Виклик функції hobbies
+Call the hobbies function
