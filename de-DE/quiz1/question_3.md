@@ -1,22 +1,22 @@
 --- question ---
 ---
-legend: Frage 3 von 3
+legend: Question 3 of 3
 ---
 
-Diese Funktion gibt zwei Zufallszahlen aus:
+This function outputs two random numbers:
 
 --- code ---
 ---
 language: python
 ---
 
-def zwei_würfel(): print('Erste Zahl:', randint(1, 6)) print('Zweite Zahl:', randint(1, 6))
+def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
 
 --- /code ---
 
-Welcher Code ruft die Funktion auf, um sie auszuführen?
+Which code will call the function to run it?
 
-![Der Code Editor mit Ausgabebereich, der zwei zufällig generierte Zahlen anzeigt.](images/quiz3.png)
+![The code editor with output area showing two randomly generated numbers.](images/quiz3.png)
 
 --- choices ---
 
@@ -27,13 +27,13 @@ Welcher Code ruft die Funktion auf, um sie auszuführen?
 language: python
 ---
 
-def zwei_würfel(): print('Erste Zahl:', randint(1, 6)) print('Zweite Zahl:', randint(1, 6))
+def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
 
 --- /code ---
 
  --- feedback ---
 
- Nein, das ist der Code um die Funktion zu definieren, aber er führt die Funktion nicht aus. Du musst anderen Code verwenden, um sie aufzurufen.
+ No, this is the code to define the function, but it does not run the function. You'll need to use different code to call it.
 
  --- /feedback ---
 
@@ -42,13 +42,13 @@ def zwei_würfel(): print('Erste Zahl:', randint(1, 6)) print('Zweite Zahl:', ra
 language: python
 ---
 
-zwei_würfel
+two_dice
 
 --- /code ---
 
  --- feedback ---
 
-Fast! `zwei_würfel` ist der Name der Funktion, aber um sie aufzurufen, braucht man mehr als nur den Namen.
+Close! `two_dice` is the name of the function, but to call it you need more than just the name.
 
  --- /feedback ---
 
@@ -59,13 +59,13 @@ Fast! `zwei_würfel` ist der Name der Funktion, aber um sie aufzurufen, braucht 
 language: python
 ---
 
-zwei_würfel[]
+two_dice[]
 
 --- /code ---
 
  --- feedback ---
 
- Nicht ganz, denk an die Art von Klammern, die Du zum Aufrufen der Funktionen in Deinem Projekt verwendet hast.
+ Not quite, think about they type of brackets you used to call the functions in your project.
 
  --- /feedback ---
 
@@ -76,13 +76,13 @@ zwei_würfel[]
 language: python
 ---
 
-zwei_würfel()
+two_dice()
 
 --- /code ---
 
  --- feedback ---
 
- Das ist richtig. Wenn Du den Funktionsnamen gefolgt von den Klammern `(` `)` verwendest, wird die Funktion aufgerufen.
+ That's correct, using the function name followed by `(` `)` brackets will call the function.
 
  --- /feedback ---
 
