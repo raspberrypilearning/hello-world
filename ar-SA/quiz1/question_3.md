@@ -16,7 +16,7 @@ def two_dice(): print('First number:', randint(1, 6)) print('Second number:', ra
 
 ما هو المقطع البرمجي الذي سيستدعي الدالة لتشغيله؟
 
-![يُظهر محرر Trinket بمنطقة الإخراج رقمين تم إنشاؤهما عشوائيًا.](images/quiz3.png)
+![The code editor with output area showing two randomly generated numbers.](images/quiz3.png)
 
 --- choices ---
 
