@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Frage 2 von 3
+legend: Question 2 of 3
 ---
 
-Welche dieser Funktionsdefinitionen ist korrekt und gibt `Ich kann programmieren` aus wenn sie aufgerufen wird?
+Which of these function definitions is correct and will print `I can code` when called?
 
-![Der Code Editor mit dem Ausgabebereich zeigt <code>Ich kann programmieren</code> an.](images/quiz2.png)
+![The code editor with output area showing <code>I can code</code>.](images/quiz2.png)
 
 --- choices ---
 
@@ -23,7 +23,7 @@ def awesome(): print('I can code')
 
  --- feedback ---
 
-Das ist richtig, der Aufruf dieser Funktion gibt `Ich kann programmieren` aus. Du hast richtig gesehen, dass Funktionen Klammern `(` `)` und ein `:` in der Funktionsdefinition benötigen, und dass der ganze Code der beim Aufruf dieser Funktion ausgeführt werden soll, eingerückt sein muss.
+That's correct, calling this function will print `I can code`. You spotted that functions need `(` `)` brackets and a `:` in the function definition, and that all code to be run when that function is called must be indented.
 
  --- /feedback ---
 
@@ -40,7 +40,7 @@ def awesome(): print('I can code')
 
  --- feedback ---
 
- Nicht ganz, die Einrücktiefe in diesem Beispiel würde einen Fehler verursachen.
+ Not quite, the layout in this example would cause an error.
 
  --- /feedback ---
 
@@ -57,7 +57,7 @@ def awesome() print('I can code')
 
  --- feedback ---
 
-Nicht ganz, in der Funktionsdefinition fehlt etwas, das einen Fehler verursachen würde.
+Not quite, there is something missing from the function definition that woud cause an error.
 
  --- /feedback ---
 
