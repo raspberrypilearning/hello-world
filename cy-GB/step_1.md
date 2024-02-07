@@ -2,9 +2,9 @@
   <a class="c-survey-banner__link" href="https://form.raspberrypi.org/f/code-editor-feedback" target="_blank">Take our survey</a> to help make our Code Editor better!
 </div>
 
-## Cyflwyniad
+## You will make
 
-Dewch i wybod beth gall iaith raglenni Python ei wneud drwy ysgrifennu prosiect rhyngweithiol sy'n defnyddio emoji.
+Find out what the Python 🐍 programming language can do by writing an interactive project that uses emojis 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 <span style="color: #0faeb0">**Emojis**</span> are small colourful images 🥰 used to add extra meaning to messages. Ystyr emoji yw 'gair llun' yn Japaneg.
@@ -12,13 +12,13 @@ Dewch i wybod beth gall iaith raglenni Python ei wneud drwy ysgrifennu prosiect 
 
 Byddwch chi'n:
 
-+ defnyddio `print()` i brintio testun, gan gynnwys emoji, ac `input()` i gael mewnbwn gan y defnyddiwr
++ `print()` text, including emojis 🚀, and get `input()` ⌨️ from the user
 + Storio testun a rhifau mewn **newidynnau**
 + Defnyddio **swyddogaethau** i roi trefn ar eich cod
 
 --- no-print ---
 
-### Rhowch gynnig arni
+### Play ▶️
 
 --- task ---
 
@@ -44,4 +44,4 @@ Can you see how your answers are used?
 
 ![Completed project showing example code on the code editor](images/showcase_static.png){:width="640px"}
 
---- /print-only ---![](http://code.org/api/hour/begin_codeclub_hworld.png)
+--- /print-only --- ![](http://code.org/api/hour/begin_codeclub_hworld.png)
