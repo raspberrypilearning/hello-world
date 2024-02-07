@@ -12,7 +12,7 @@ Ychwanegu mwy at eich prosiect. There are more emojis to choose from.
 </div>
 
 Gallech chi wneud y canlynol:
-+ Defnyddio `print` gyda gwahanol destun ac emoji
++ Use `print` with different text and emojis
 + Defnyddio `input` i gael gwerthoedd gan y defnyddiwr a'u storio fel newidynnau, ac wedyn gwneud symiau gyda'r newidynnau
 + Ysgrifennu mwy o swyddogaethau i roi trefn ar eich cod
 + Defnyddio `#` i ychwanegu sylwadau at eich cod
@@ -25,10 +25,7 @@ Scroll to the **emoji** section in the code editor to see the emojis and example
 
 [[[choose-an-emoji]]]
 
-def diddordebau():   
-diddordeb = input('Beth wyt ti\'n hoffi ei wneud?')   
-print('Mae hynny\'n swnio\'n', hwyl)   
-print('Gallet ti wneud prosiect', python, 'am', diddordeb)
+Here's an example function that asks about hobbies:
 
 --- code ---
 ---
@@ -37,13 +34,15 @@ filename: main.py
 ---
 
 # Rhowch y cod i'w redeg o dan fan hyn
-Fe allwch chi ddefnyddio `input` i wneud eich prosiect aros i'r defnyddiwr daro <kbd>Enter</kbd> ar unrhyw bwynt yn y prosiect hwn.
+def hobbies():   
+hobby = input('What do you like?')   
+print('That sounds', fun)  # You will need to create an emoji variable called 'fun' print('You could make a', python, 'project about', hobby)
 
 --- /code ---
 
 **Tip:** Don't forget you will need to call your function as well as define it.
 
-taflu_dis()
+You can use `input` to make your project wait for the user to tap <kbd>Enter</kbd> at any point in this project.
 
 --- code ---
 ---
@@ -55,7 +54,7 @@ roll_dice()
 
 input()  # Wait for the user to tap Enter
 
-Gallwch chi weld y [prosiect gorffenedig yma](https://trinket.io/embed/python/7cbddc178c){:target="_blank"}.
+hobbies()  # Calls the hobbies function
 
 --- /code ---
 
