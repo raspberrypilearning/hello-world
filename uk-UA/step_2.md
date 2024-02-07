@@ -1,12 +1,12 @@
-## Скажи "привіт"
+## Say hello
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Традиція при вивченні нової мови програмування - написати програму, яка виведе "Привіт, світ!".
+It's traditional to write a program to output 'Hello world!' when you learn a new programming language.
 </div>
 <div>
 
-![Область видачі у Trinket, яка показує два надруковані рядки тексту та емодзі.](images/say_hello.png){:width="200px"}
+![The code editor output area showing the two printed lines of text and emojis.](images/say_hello.png){:width="200px"}
 
 </div>
 </div>
@@ -15,7 +15,7 @@
 
 Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
 
-![The code editor with project starter code on the left in the code area. Праворуч знаходиться порожнє поле для виведення даних.](images/starter_project.png)
+![The code editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
 
 If you have a Raspberry Pi account, you can click on the **Save** button to save a copy to your **Projects**.
 
@@ -24,7 +24,7 @@ If you have a Raspberry Pi account, you can click on the **Save** button to save
 --- collapse ---
 
 ---
-line_highlights: 12
+title: Working on a Raspberry Pi?
 ---
 
 If you're working on a Raspberry Pi using Chromium, you may not see the emojis. You need to install a font that supports them.
@@ -35,7 +35,7 @@ Open a terminal and then type:
 sudo apt install fonts-noto-color-emoji
 ```
 
-Знайди рядок `# Розмісти код для виконання тут`.
+Restart Chromium and you should see the colour emojis.
 
 --- /collapse ---
 
@@ -47,7 +47,7 @@ Lines beginning with a `#` are <span style="color: #0faeb0">**comments**</span>.
 
 The `import` lines at the start of the code tell Python that you are going to use code you didn't write.
 
-language: python filename: main.py line_numbers: true line_number_start: 11
+In Python, `print()` outputs text (words or numbers) to the screen.
 
 --- task ---
 
@@ -66,17 +66,17 @@ Type the code to `print()` Hello to the screen:
 --- code ---
 ---
 language: python filename: main.py line_numbers: true line_number_start: 17
-title: Набір спеціальних символів на англійській розкладці клавіатури
+line_highlights: 18
 ---
 
-# Розмісти код для виконання тут
+# Put code to run under here
 print('Hello')
 
 --- /code ---
 
 --- collapse ---
 ---
-line_highlights: 12
+title: Typing special characters on a UK or US keyboard
 ---
 
 On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kbd>9</kbd> and <kbd>0</kbd> keys. To type a left round bracket, hold down the <kbd>Shift</kbd> key (next to <kbd>Z</kbd>) and then tap <kbd>9</kbd>. The single quote `'` is on the same row as the <kbd>L</kbd> key, just before the <kbd>Enter</kbd> key. The comma `,` is next to the <kbd>M</kbd>.
@@ -97,11 +97,11 @@ On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kb
 
 --- /task ---
 
-## title: Я не бачу емодзі
+## Print 🌍🌎🌏
 
 In Python, a **variable** is used to store values such as text or numbers. Variables make it easier for humans to read code. You can use the same variable in lots of places in your code. Choosing a sensible name for a variable makes it easier for you to remember what it is for.
 
-language: python filename: main.py line_numbers: true line_number_start: 11
+We have included some variables that store emoji characters.
 
 --- task ---
 
@@ -113,16 +113,16 @@ In your code editor, scroll to the lines with the emojis stored into two differe
 
 You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` will add a space between each item.
 
-**Тест:** Запусти свій код, щоб побачити результат:
+Change your code to also `print()` the contents of the `world` variable:
 
 --- code ---
 ---
-Емодзі можуть виглядати по-різному на різних комп'ютерах, тому на твоєму комп'ютері вони можуть виглядати не зовсім однаково.
-line_highlights: 3
+language: python filename: main.py line_numbers: true line_number_start: 17
+line_highlights: 18
 ---
 
-# Розмісти код для виконання тут
-**Налагодження:** Переконайся, що кома додана між елементами в рядках `print()` і що `world` написано правильно.
+# Put code to run under here
+print('Hello', world)
 
 --- /code ---
 
@@ -132,13 +132,13 @@ line_highlights: 3
 
 --- task ---
 
-Зміни рядок `from emoji import *` на:
+**Test:** Run your code to see the result:
 
 ![The updated line of code in the code area with the word 'Hello' followed by three world emojis showing in the output area.](images/run_hello_world.png)
 
-language: python filename: main.py line_numbers: true line_number_start: 3
+**Tip:** Emojis can look different on different computers, so yours might not look exactly the same.
 
-from noemoji import *
+**Debug:** Make sure that you have added a comma between the items in `print()` and that you have spelled `world` correctly.
 
 This example is missing the comma `,`. It's small but very important!
 
@@ -148,12 +148,12 @@ This example is missing the comma `,`. It's small but very important!
 
 --- task ---
 
-Додай ще один рядок до коду, щоб зробити `print()` додаткового тексту та емодзі:
+**Add** another line to your code to `print()` more text and emojis:
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 12
-line_highlights: 13
+language: python filename: main.py line_numbers: true line_number_start: 18
+line_highlights: 19
 ---
 
 print('Hello', world)    
@@ -161,22 +161,22 @@ print('Welcome to', python)
 
 --- /code ---
 
-**Порада:** Код, який потрібно ввести, виділено світлішим кольором. Код, який не підсвічується, допомагає знайти місце, де необхідно додати новий код.
+**Tip:** The code you need to type is highlighted in a lighter colour. Code that is not highlighted helps you find where you need to add the new code.
 
 --- /task ---
 
 --- task ---
 
-**Тест:** Клацни на кнопку **запуску**.
+**Test:** Click **Run**.
 
-![Додатковий рядок коду в області коду зі словом "Привіт", за яким слідують три емодзі світу та слова "Ласкаво просимо", за якими слідує емодзі змії та клавіатура, що відображається в області виводу.](images/run_multiple.png)
+![The additional line of code in the code editor with the word 'Hello' followed by three world emojis and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
 
-**Порада:** Рекомендується запускати код після кожної зміни, щоб можна було швидко усунути помилки.
+**Tip:** It's a good idea to run your code after every change so you can fix problems quickly.
 
-**Налагодження:** Уважно перевіряй наявність дужок, лапок, ком та правопис. Python вимагає від тебе особливої уважності.
+**Debug:** Check carefully for brackets, quotes, commas, and correct spelling. Python needs you to be really accurate.
 
 --- /task ---
 
-Якщо у тебе є обліковий запис в Trinket, ти можеш натиснути на кнопку **Remix**, щоб зберегти копію у свою бібліотеку `My Trinkets`.
+If you have a Raspberry Pi account, on your code editor you can click on the **Save** button to save a copy of your project to your Projects.
 
 --- save ---
