@@ -1,10 +1,10 @@
 
 --- question ---
 ---
-legend: Питання 2 з 3
+legend: Question 2 of 3
 ---
 
-Яке з цих визначень функції є правильним та виведе `Я вмію кодити`?
+Which of these function definitions is correct and will print `I can code` when called?
 
 ![The code editor with output area showing <code>I can code</code>.](images/quiz2.png)
 
@@ -23,7 +23,7 @@ def awesome(): print('I can code')
 
  --- feedback ---
 
-Правильно! Виклик цієї функції виведе `Я вмію кодити`. Зауважимо, що функції потребують дужки `(` `)` та `:` у визначенні функції, і весь код, який буде виконуватися при виклику цієї функції, повинен мати відступи.
+That's correct, calling this function will print `I can code`. You spotted that functions need `(` `)` brackets and a `:` in the function definition, and that all code to be run when that function is called must be indented.
 
  --- /feedback ---
 
@@ -40,7 +40,7 @@ def awesome(): print('I can code')
 
  --- feedback ---
 
- Не зовсім так. Макет, наведений у цьому прикладі, призведе до помилки.
+ Not quite, the layout in this example would cause an error.
 
  --- /feedback ---
 
@@ -57,7 +57,7 @@ def awesome() print('I can code')
 
  --- feedback ---
 
-Не зовсім так. У визначенні функції чогось не вистачає і це може викликати помилку.
+Not quite, there is something missing from the function definition that woud cause an error.
 
  --- /feedback ---
 
