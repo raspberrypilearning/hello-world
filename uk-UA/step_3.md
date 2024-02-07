@@ -1,39 +1,36 @@
-## Цифри та дати
+## Sums and dates
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Python відмінно працює з числами та датами.
+Python is great at working with numbers and dates.
 </div>
 <div>
 
-![Область виведення, яка містить п'ять рядків, що виводять нову суму та актуальну дату.](images/sums_dates.png){:width="300px"} 
+![The text output area with five printed lines showing new sum and current date outputs.](images/sums_dates.png){:width="300px"} 
 
 </div>
 </div>
 
-У Python можна використовувати математичні операції для обчислення сум:
+In Python you can use maths operators to do sums:
 
-| + | додати |   
-| - | відняти |   
-| * | множити |   
-| / | ділити |   
-| ** | піднести до степеня |
+| + | add |   
+| - | subtract |   
+| * | multiply |   
+| / | divide |   
+| ** | to the power |
 
 ### Create a calculation
 
 --- task ---
 
-Додай ще два рядки `print()` до свого коду, включаючи цифру, яку повинен опрацювати Python:
+Add another two `print()` lines to your code including a sum for Python to work out:
 
 **Tip:** To get a `*` symbol press <kbd>Shift</kbd> and <kbd>8</kbd> at the same time.
 
 --- code ---
 ---
-print('Привіт', world)   
-print('Ласкаво просимо в', python)   
-print(python, 'дуже добре справляється з', sums)   
-print(230 * 5782 ** 2 / 23781)
-line_highlights: 14-15
+language: python filename: main.py line_numbers: true line_number_start: 18
+line_highlights: 20-21
 ---
 
 print('Hello', world)   
@@ -53,12 +50,12 @@ print(230 * 5782 ** 2 / 23781)  # Print the result of the sum
 
 **Debug:**
 
-Спробуй змінювати суму, яку обчислює Python, на складнішу!
+--- collapse ---
 ---
-line_highlights: 16-17
+title: I have a syntax error
 ---
 
-Ти також можеш використовувати дужки, якщо хочеш керувати послідовністю, в якій Python обчислює суму: `print( (2 + 4) * (5 + 3) )`.
+Make sure that you have added a comma `,` between the items in `print()` and that you have spelled `python` correctly.
 
 --- /collapse ---
 
@@ -92,11 +89,11 @@ On the code editor, you might find the text too big or too small to read. You ca
 
 ![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png)
 
-Отримати поточну дату та час можна за допомогою функції `now()` з бібліотеки `datetime`:
+You can also switch between colour modes, click on the **Light & Dark** buttons to see the changes.
 
 --- /task ---
 
-language: python filename: main.py line_numbers: true line_number_start: 14
+The line `from datetime import *` at the top of the **main.py** tab includes a library with helpful functions for getting the current date and time.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. A Python library allows you to easily use code that other people have written. There are libraries for drawing charts and graphs, making art, doing calculations, and lots more.
@@ -110,7 +107,7 @@ Get the current date and time by using the `now()` function from the `datetime` 
 
 --- code ---
 ---
-**Тест:** Запусти свій код декілька разів, щоб побачити оновлення дати та часу.
+language: python filename: main.py line_numbers: true line_number_start: 20
 line_highlights: 22
 ---
 
