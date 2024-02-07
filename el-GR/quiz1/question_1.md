@@ -1,17 +1,17 @@
-## Και τώρα;
+## Quick quiz
 
 Answer the three questions. There are hints to guide you to the correct answer.
 
-Τώρα, ήρθε η ώρα να εξετάσεις τις νέες γνώσεις- ο αναστοχασμός είναι σημαντικό μέρος της μάθησης, επειδή βοηθά στη δημιουργία νέων συνδέσεων στον εγκέφαλό σου.
+When you have answered each question, click on **Check my answer**.
 
-Απάντησε στις τρεις ερωτήσεις παρακάτω για να διαπιστώσεις τι έμαθες.
+Have fun!
 
 --- question ---
 ---
 legend: Ερώτηση 1 από 3
 ---
 
-Καλή διασκέδαση!
+This code sets the `world` variable to contain the text '🌍🌎🌏' (the three different world emoji):
 
 --- code ---
 ---
