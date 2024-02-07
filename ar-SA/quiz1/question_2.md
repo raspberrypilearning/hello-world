@@ -6,7 +6,7 @@ legend: السؤال 2 من 3
 
 أي من تعريفات الوظائف التالية صحيح وسوف يطبع `I can code` عند استدعائه؟
 
-![I can code</code>@@." />](images/quiz2.png)
+![The code editor with output area showing <code>I can code</code>.](images/quiz2.png)
 
 --- choices ---
 
