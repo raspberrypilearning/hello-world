@@ -6,7 +6,7 @@ Allbynnu mwy o frawddegau o'ch prosiect.
 </div>
 <div>
 
-![Llinellau print newydd yn yr ardal allbwn gyda brawddegau emoji a thestun.](images/sentence_starter.png){:width="300px"} 
+![Some new print lines in the code editor output area with emoji and text sentences.](images/sentence_starter.png){:width="300px"} 
 
 </div>
 </div>
@@ -17,17 +17,17 @@ Ychwanegwch fwy o linellau `print` at eich cod. Dyma rai frawddegau enghreifftio
 
 --- code ---
 ---
-language: python
-filename: main.py
+language: python filename: main.py line_numbers: true line_number_start: 29
+line_highlights: 30-32
 ---
 
-print('Dwi\n', calon, '...')   
-print('Mae', '... yn fy ngwneud i\'n', hapus)   
-print('Hoffwn i wneud ... gyda', python)
+roll_dice()  # Call the roll dice function print('I ❤️ ...')   
+print('... makes me 😃')   
+print('I\'d like to make ... with', python)
 
 --- /code ---
 
-**Cyngor:** Mae `print` yn ychwanegu bwlch rhwng bob eitem rydych chi'n ei phrintio.
+**Tip:** Each use of `print` adds a line inbetween.
 
 **Cyngor:** Os oes angen i chi brintio collnod, `'` rhaid i chi roi ôl-slaes `\` o'i flaen er mwyn i Python wybod ei fod yn rhan o'r testun.
 
