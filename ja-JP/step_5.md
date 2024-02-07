@@ -6,7 +6,7 @@
 </div>
 <div>
 
-![絵文字とテキスト文を含むいくつかの新しく表示された出力領域の行](images/sentence_starter.png){:width="300px"} 
+![Some new print lines in the code editor output area with emoji and text sentences.](images/sentence_starter.png){:width="300px"} 
 
 </div>
 </div>
@@ -21,13 +21,13 @@ language: python filename: main.py line_numbers: true line_number_start: 29
 line_highlights: 30-32
 ---
 
-print('私は', '...', heart)   
-print('... を見ると', happy, 'な気持ちになります')   
-print('私は', python, 'で... を作りたいと思います')
+roll_dice()  # Call the roll dice function print('I ❤️ ...')   
+print('... makes me 😃')   
+print('I\'d like to make ... with', python)
 
 --- /code ---
 
-**ヒント：**`print` は、表示する各アイテムの間にスペースを追加します。
+**Tip:** Each use of `print` adds a line inbetween.
 
 **ヒント：**アポストロフィ`'` を表示する必要がある場合は、その前にバックスラッシュ`\`を付けて、Pythonがアポストロフィもテキストの一部であることを認識できるようにする必要があります。
 
@@ -37,15 +37,15 @@ print('私は', python, 'で... を作りたいと思います')
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-<span style="color: #0faeb0">黄色のハートの絵文字</span> は、友情と幸福を示すためによく使用されます。</p>
+The <span style="color: #0faeb0">yellow heart emoji 💛</span> is often used to show friendship and happiness.</p>
 
 --- task ---
 
-友達を元気づけるために、どんなメッセージを送りますか？ どの絵文字を選びますか？
+What message would you send to a friend to cheer them up? Which emoji would you choose?
 
-Trinketの**emoji.py**タブをクリックして、使用できる絵文字変数を確認します。 Copy the ones you choose and save them to a variable or add them directly to your code.
+Scroll to the **emoji** section in the code editor to see the emojis and example variables that you can use. Copy the ones you choose and save them to a variable or add them directly to your code.
 
-**emoji.py**にさらに絵文字変数を追加できます。 この[絵文字リスト](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"}を使用して、欲しい絵文字を見つけてください。
+You can add more emojis to the **emoji** section. Use this [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} to find the ones you want.
 
 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳 👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
 
