@@ -4,15 +4,15 @@
 
 ## Lo que harás
 
-Descubre lo que el lenguaje de programación Python puede hacer escribiendo un proyecto interactivo que usa emojis.
+Find out what the Python 🐍 programming language can do by writing an interactive project that uses emojis 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Los <span style="color: #0faeb0">**Emojis**</span> son pequeñas imágenes coloridas que se usan para añadir un significado extra a los mensajes. Emoji significa 'palabra imagen' en japonés.
+<span style="color: #0faeb0">**Emojis**</span> are small colourful images 🥰 used to add extra meaning to messages. Emoji significa 'palabra imagen' en japonés.
 </p>
 
 Vas a:
 
-+ `print()` texto, incluyendo emojis, y recibir `input()` del usuario
++ `print()` text, including emojis 🚀, and get `input()` ⌨️ from the user
 + Almacenar texto y números en **variables**
 + Usar **funciones** para organizar tu código
 
@@ -25,11 +25,11 @@ Vas a:
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-Lee la salida y presiona <kbd>Enter</kbd> para continuar.
+Click on the **Run** button and read the output.
 
-  Escribe tus respuestas. 
+  When you are asked, type in a number and tap <kbd>Enter</kbd>. 
 
-¿Puedes ver cómo se usan tus respuestas?
+Can you see how your answers are used?
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/hello-world-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
@@ -44,4 +44,4 @@ Lee la salida y presiona <kbd>Enter</kbd> para continuar.
 
 ![Completed project showing example code on the code editor](images/showcase_static.png){:width="640px"}
 
---- /print-only ---![](http://code.org/api/hour/begin_codeclub_hworld.png)
+--- /print-only --- ![](http://code.org/api/hour/begin_codeclub_hworld.png)
