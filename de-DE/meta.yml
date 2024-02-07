@@ -1,30 +1,30 @@
 ---
-title: "Hallo \U0001F30D\U0001F30E\U0001F30F"
+title: "Hello \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
-description: Schreibe ein interaktives Python-Projekt, das Emojis verwendet
-meta_title: Python Programmierprojekte für Kinder und Jugendliche | Hallo Welt
-meta_description: Lerne Python mit der Raspberry Pi Foundation. Erstelle ein interaktives Python-Programmierprojekt, das Emojis verwendet.
+description: Write an interactive Python project that uses emoji
+meta_title: Python coding projects for kids and teens | Hello world
+meta_description: Learn Python with the Raspberry Pi Foundation. Make an interactive Python coding project that uses emojis.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: Das wirst du machen
+    title: You will make
   - 
-    title: Sag Hallo
+    title: Say hello
   - 
-    title: Rechnen und Daten
+    title: Sums and dates
     completion:
       - engaged
   - 
-    title: Wirf einen Würfel
+    title: Roll a dice
   - 
-    title: Satzanfang
+    title: Sentence starter
     completion:
       - internal
   - 
-    title: Kurzes Quiz
+    title: Quick quiz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -33,6 +33,6 @@ steps:
     completion:
       - external
   - 
-    title: Verbessere Dein Projekt
+    title: Upgrade your project
   - 
-    title: Wie geht es weiter?
+    title: What next?
