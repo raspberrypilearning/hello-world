@@ -6,7 +6,7 @@
 </div>
 <div>
 
-![Μερικές νέες γραμμές που εμφανίζονται στην περιοχή εξόδου με emoji και προτάσεις κειμένου.](images/sentence_starter.png){:width="300px"} 
+![Some new print lines in the code editor output area with emoji and text sentences.](images/sentence_starter.png){:width="300px"} 
 
 </div>
 </div>
@@ -17,8 +17,8 @@
 
 --- code ---
 ---
-language: python
-filename: main.py
+language: python filename: main.py line_numbers: true line_number_start: 29
+line_highlights: 30-32
 ---
 
 roll_dice()  # Call the roll dice function print('I ❤️ ...')   
@@ -27,7 +27,7 @@ print('I\'d like to make ... with', python)
 
 --- /code ---
 
-**Συμβουλή:** Η εντολή `print` προσθέτει ένα κενό ανάμεσα σε κάθε στοιχείο που εμφανίζει.
+**Tip:** Each use of `print` adds a line inbetween.
 
 **Συμβουλή:** Εάν πρέπει να εμφανίσεις μια απόστροφο `'`, τότε πρέπει να βάλεις μια ανάστροφη κάθετο `\` πριν από αυτήν, ώστε η Python να γνωρίζει ότι είναι μέρος του κειμένου.
 
