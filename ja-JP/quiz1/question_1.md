@@ -1,17 +1,17 @@
-## ふりかえり
+## Quick quiz
 
-Answer the three questions. 正しい答えが表示されます。
+Answer the three questions. There are hints to guide you to the correct answer.
 
-各質問の後、**答えを確認する**を押してください。
+When you have answered each question, click on **Check my answer**.
 
-以下の3つの質問に答えて、学んだことをふりかえってみましょう。
+Have fun!
 
 --- question ---
 ---
 legend: 質問1/3
 ---
 
-お楽しみください！
+This code sets the `world` variable to contain the text '🌍🌎🌏' (the three different world emoji):
 
 --- code ---
 ---
@@ -22,9 +22,9 @@ world = '🌍🌎🌏'
 
 --- /code ---
 
-`world`変数を正しく使用し、こんにちは 🌍🌎🌏を出力するコードはどれですか？
+Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
 
-![こんにちは 🌍🌎🌏が表示されたTrinketエディターの出力領域。](images/quiz1.png)
+![The output area from the code editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
 
 --- choices ---
 
@@ -35,13 +35,13 @@ world = '🌍🌎🌏'
 language: python
 ---
 
-output('こんにちは' world)
+output('Hello' world)
 
 --- /code ---
 
  --- feedback ---
 
- 残念ですが、 `output`は画面にメッセージを出力するものではありません。
+ Not quite, `output` is not the way to output messages to the screen.
 
  --- /feedback ---
 
@@ -53,13 +53,13 @@ output('こんにちは' world)
 language: python
 ---
 
-print('こんにちは' world)
+print('Hello' world)
 
 --- /code ---
 
  --- feedback ---
 
- ふりかえり
+ Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
 
  --- /feedback ---
 
@@ -70,13 +70,13 @@ print('こんにちは' world)
 language: python
 ---
 
-print('こんにちは', world)
+print('Hello', world)
 
 --- /code ---
 
  --- feedback ---
 
- 正解です。 Pythonでは、`print`はメッセージを画面に出力します。 出力するテキストはシングルクォート`'`で囲まれ、コンマで2つの項目を区切り、スペースを出力します。 次に、プロジェクトのように、地球の絵文字🌍🌎🌏を格納する`world`変数が呼び出されます。
+ That's correct, in Python `print` outputs messages to the screen. The text output is inside single quotes `'` , a comma separates the two items and provides a space, then the `world` variable is called, which stores the earth emoji 🌍🌎🌏, like in your project.
 
  --- /feedback ---
 
@@ -87,13 +87,13 @@ print('こんにちは', world)
 language: python
 ---
 
-print(こんにちは, world)
+print(Hello, world)
 
 --- /code ---
 
  --- feedback ---
 
-  以下の3つの質問に答えて、学んだことをふりかえってみましょう。
+  Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
 
  --- /feedback ---
 
