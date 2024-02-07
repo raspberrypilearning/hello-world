@@ -6,7 +6,7 @@ Sors plus de phrases de ton projet.
 </div>
 <div>
 
-![Quelques nouvelles lignes d'impression dans la zone de sortie avec des emoji et des phrases textuelles.](images/sentence_starter.png){:width="300px"} 
+![Some new print lines in the code editor output area with emoji and text sentences.](images/sentence_starter.png){:width="300px"} 
 
 </div>
 </div>
@@ -21,13 +21,13 @@ language: python filename: main.py line_numbers: true line_number_start: 29
 line_highlights: 30-32
 ---
 
-print('J\'', heart, '...')   
-print('... me rend', happy)   
-print('J\'aimerais faire... avec', python)
+roll_dice()  # Call the roll dice function print('I ❤️ ...')   
+print('... makes me 😃')   
+print('I\'d like to make ... with', python)
 
 --- /code ---
 
-**Astuce :** `print` ajoute un espace entre chaque élément que tu imprimes.
+**Tip:** Each use of `print` adds a line inbetween.
 
 **Astuce :** Si tu as besoin d'afficher une apostrophe `'`, tu dois placer une barre oblique inverse `\` devant afin que Python sache qu'elle fait partie du texte.
 
@@ -37,15 +37,15 @@ print('J\'aimerais faire... avec', python)
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-L'<span style="color: #0faeb0">emoji cœur jaune</span> est souvent utilisé pour montrer l'amitié et le bonheur.</p>
+The <span style="color: #0faeb0">yellow heart emoji 💛</span> is often used to show friendship and happiness.</p>
 
 --- task ---
 
-Quel message voudrais-tu envoyer à un ami pour lui remonter le moral ? Quel emoji choisirais-tu ?
+What message would you send to a friend to cheer them up? Which emoji would you choose?
 
-Clique sur l'onglet **emoji.py** dans Trinket pour voir les variables emoji que tu peux utiliser. Copy the ones you choose and save them to a variable or add them directly to your code.
+Scroll to the **emoji** section in the code editor to see the emojis and example variables that you can use. Copy the ones you choose and save them to a variable or add them directly to your code.
 
-Tu peux ajouter plus de variables emoji à **emoji.py**. Utilise cette [liste d'emoji](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} pour trouver ceux que tu veux.
+You can add more emojis to the **emoji** section. Use this [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} to find the ones you want.
 
 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳 👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
 
