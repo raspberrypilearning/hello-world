@@ -1,18 +1,18 @@
 from datetime import datetime
 from random import randint
 
-# Emoji-Variablen zur Verwendung in Deinem Projekt
-welt = '🌍🌎🌏'
+# Emoji variables to use in your project
+world = '🌍🌎🌏'
 python = 'Python 🐍'
-feuer = '🔥'
+fire = '🔥'
 
-# Emojis zum Kopieren und Einfügen:
+# Emojis to copy and paste into your code:
 # 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊
 # 👩‍🦽 👩🏼‍🦽 👩🏽‍🦽 👩🏾‍🦽 👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
 # 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳
 
-# Nützliche Zeichen:',()*_/.#
+# Useful characters :',()*_/.#
 
-# Funktionsdefinitionen
+# Function definitions
 
-# Hier Code einfügen der ab hier ausgeführt wird
+# Put code to run under here
