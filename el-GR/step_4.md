@@ -1,4 +1,4 @@
-## Ρίξε ένα ζάρι
+## Roll a dice 🎲
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -12,7 +12,7 @@ In Python:
 </div>
 <div>
 
-![Η περιοχή εξόδου με πρόσθετες γραμμές για να ζητήσει από τον χρήστη να εισαγάγει τον μεγαλύτερο αριθμό για τα ζάρια του και την απάντηση με τον τυχαίο αριθμό.](images/roll_dice.png){:width="300px"} 
+![The text output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll_dice.png){:width="300px"} 
 
 </div>
 </div>
@@ -27,18 +27,17 @@ In Python:
 
 Οι συναρτήσεις πρέπει να οριστούν για να μπορέσεις να τις καλέσεις. Look for the comment in the **main.py** file that says `# Function definitions`.
 
-Όρισε μια νέα συνάρτηση που ονομάζεται `roll_dice()` που χρησιμοποιεί τη συνάρτηση `randint()`, από τη βιβλιοθήκη `random`, για να δημιουργήσει έναν τυχαίο «ακέραιο» αριθμό από το 1 έως το 6 και να τον εμφανίσει στην οθόνη.
+Define a new function called `roll_dice()` that uses the `randint()` function from the `random` library, to generate a random 'integer' (whole number) from 1 to 6 and output it to the screen.
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 7
-line_highlights: 9-12
+language: python filename: main.py line_numbers: true line_number_start: 15
+line_highlights: 16-17
 ---
 
-# Τοποθέτησε ορισμούς συναρτήσεων κάτω από εδώ
-def roll_dice(): #Μην ξεχνάς την άνω και κάτω τελεία στο τέλος αυτής της γραμμής   
-print(python, 'μπορεί να δημιουργήσει ένα', dice)   
-print('Έριξες ', randint(1, 6))
+# Function definitions
+def roll_dice():  # Don't forget the colon at the end of this line   
+print('You rolled a', randint(1, 6))  # randint(1, 6) is used to give a number between 1 and 6.
 
 --- /code ---
 
@@ -65,7 +64,7 @@ title: Χρήση ειδικών χαρακτήρων σε πληκτρολόγ�
 
 --- collapse ---
 ---
-line_highlights: 22
+title: I have a syntax error
 ---
 
 - Make sure you have an underscore `_` between roll and dice to make the function name.
@@ -89,12 +88,12 @@ To use a function, you need to **call** it in the code. Go to the end of your co
 --- code ---
 ---
 language: python filename: main.py line_numbers: true line_number_start: 25
-title: Τι θα συνέβαινε αν χρησιμοποιούσες `print(fire * randint(1, 6))`;
+line_highlights: 27
 ---
 
 print('The date and time is', datetime.now())
 
-**Δοκιμή:** Εκτέλεσε το έργο σου πολλές φορές για να βλέπεις την τυχαία ρίψη ζαριών κάθε φορά.
+roll_dice()  # Call the roll dice function
 
 --- /code ---
 
@@ -120,16 +119,16 @@ Change your code to save the value returned by `randint()` in a variable called 
 
 --- code ---
 ---
-Χμ, πώς μπορείς να βεβαιωθείς ότι χρησιμοποιείς τον ίδιο τυχαίο αριθμό;
-line_highlights: 11 - 13
+language: python filename: main.py line_numbers: true line_number_start: 15
+line_highlights: 17-18
 ---
 
-# Τοποθέτησε τους ορισμούς των συναρτήσεων κάτω από εδώ
-Άλλαξε τον κωδικά σου για να αποθηκεύσεις την τιμή που επιστρέφεται από το `randint()` σε μια μεταβλητή που ονομάζεται `roll` και, στη συνέχεια, χρησιμοποίσε αυτήν τη μεταβλητή για να εμφανίσεις τον αριθμό που έφερε το ζάρι με το αντίστοιχο πλήθος 🔥 emoji.
+# Function definitions
+def roll_dice(): roll = randint(1, 6)  # Generate a random number between 1 and 6 and store it in the variable 'roll' print('You rolled a', roll, fire * roll)  # Repeat the fire emoji to match the random dice roll
 
 --- /code ---
 
-language: python filename: main.py line_numbers: true line_number_start: 7
+**Tip** You can use `star` or `heart` instead of `fire` if you prefer, by creating your own emoji variables.
 
 --- /task ---
 
@@ -152,23 +151,26 @@ The `input()` function asks the user a question and then returns their answer.
 
 **Add** code to ask the user for the biggest number on their dice and then save the result in a variable called `max` and `print` the number chosen into the output area:
 
-Αναβάθμισε το ζάρι σου έτσι ώστε ο χρήστης να μπορεί να επιλέξει τον μέγιστο αριθμό.
+Change your `roll` variable code to use `max` as the maximum value for `randint` when it generates a random number.
 
 When you get input from the user, Python treats it as text. But, `randint` needs an 'integer' (a positive whole number). The `int` function turns the user input into an integer.
 
 --- code ---
 ---
-Η συνάρτηση `input()` κάνει στον χρήστη μια ερώτηση και στη συνέχεια επιστρέφει την απάντησή του.
-line_highlights: 11-12
+language: python filename: main.py line_numbers: true line_number_start: 15
+line_highlights: 18-20
 ---
 
-# Τοποθέτησε ορισμούς συναρτήσεων κάτω από εδώ
+# Function definitions
 
-Πρόσθεσε κώδικα για να ζητήσεις από τον χρήστη τον μεγαλύτερο αριθμό στο ζάρι του και, στη συνέχεια, αποθήκευσε το αποτέλεσμα σε μια μεταβλητή που ονομάζεται `max` και `εμφάνισε` τον αριθμό που έχει επιλεγεί στην περιοχή εξόδου:
+def roll_dice():   
+max = input('How many sides?:')  # Wait for input from the user    
+print('That\'s a D', max)  # Use the number the user entered    
+roll = randint(1, int(max))  # Use max to determine the number of sides the dice has print('You rolled a', roll, fire * roll)
 
 --- /code ---
 
-language: python filename: main.py line_numbers: true line_number_start: 7
+To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
 
 --- /task ---
 
