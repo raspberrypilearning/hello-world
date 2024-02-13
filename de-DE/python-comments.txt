@@ -1,43 +1,43 @@
-Put code to run under here
+Füge hier den Code ein, der ausgeführt werden soll
 
-Print the result of the sum
+Gib das Ergebnis der Rechnung aus
 
-Print with emoji
+Ausgabe mit Emoji
 
-Put function definitions under here
+Füge hier Funktionsdefinitionen ein
 
-Don't forget the colon at the end of this line
+Vergiss nicht den Doppelpunkt am Ende dieser Zeile
 
-Call the roll_dice function
+Rufe die Funktion wuerfel_werfen auf
 
-Generate a random number between 1 and 6
+Erzeuge eine Zufallszahl zwischen 1 und 6
 
-Print the value of the roll variable
+Gib den Wert der Variable wurf aus
 
-Repeat the fire emoji to match the dice roll
+Wiederhole das Feuer-Emoji so oft wie der Würfelwurf anzeigt
 
-Wait for input from the user
+Warte auf Eingabe vom Benutzer
 
-Use the number the user entered
+Verwende die vom Benutzer eingegebene Zahl
 
-randint needs max to be an 'integer'
+Das max in randint muss eine Ganzzahl (engl.: 'integer') sein
 
-Wait for the user to tap Enter
+Warte, bis der Benutzer die Eingabetaste drückt
 
-Useful characters :',()*_/.#
+Hilfreiche Zeichen:',()*_/.#
 
-Emoji variables to use in your project
+Emoji-Variablen zur Verwendung in Deinem Projekt
 
-Add ASCII art alternatives
+Füge ASCII-Grafikalternativen hinzu
 
-Before emoji we used emoticons made from characters
+Vor Emoji verwendeten wir Emoticons, die aus Schriftzeichen bestanden
 
-get input from the user
+Eingabe vom Benutzer erhalten
 
-generate a random number
+erzeuge eine Zufallszahl
 
-repeat the fire text roll times
+Wiederhole den feuer Text wurf mal
 
-get the current date and time
+aktuelles Datum und Uhrzeit abfragen
 
-Call the hobbies function
+Rufe die Funktion hobbies auf
