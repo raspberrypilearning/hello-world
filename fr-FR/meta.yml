@@ -1,9 +1,9 @@
 ---
 title: "Bonjour \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
-description: Écrire un projet Python interactif qui utilise des emoji
-meta_title: Python coding projects for kids and teens | Hello world
-meta_description: Learn Python with the Raspberry Pi Foundation. Make an interactive Python coding project that uses emojis.
+description: Écris un projet Python interactif qui utilise des emojis
+meta_title: Projets de codage Python pour enfants et adolescents | Bonjour le monde
+meta_description: Apprends Python avec la Raspberry Pi Foundation. Crée un projet de codage Python interactif qui utilise des emojis.
 version: 4
 listed: true
 copyedit: true
