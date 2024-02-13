@@ -1,33 +1,33 @@
 from datetime import datetime
 from random import randint
 
-# Emoji variables to use in your project
-world = '🌍🌎🌏'
+# Variables Emoji à utiliser dans ton projet
+monde = '🌍🌎🌏'
 python = 'Python 🐍'
-fire = '🔥'
+feu = '🔥'
 
-# Emojis to copy and paste into your code:
+# Emojis à copier et coller dans ton code :
 # 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊
 # 👩‍🦽 👩🏼‍🦽 👩🏽‍🦽 👩🏾‍🦽 👩🏿‍🦽 🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
 # 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳
 
-# Useful characters :',()*_/.#
+# Caractères utiles :',()*_/.#
 
-# Function definitions
-def roll_dice():
-    max = input('How many sides?:')  # Wait for input from the user
-    print('That\'s a D', max)  # Use the number the user entered
-    roll = randint(1, int(max))  # Use max to determine the number of sides the dice has
-    print('You rolled a', roll, fire * roll)  # Repeat the fire emoji to match the dice roll
+# Définitions de fonctions
+def roule_de():
+    max = input('Combien de côtés ?:') # Attendre la saisie de l'utilisateur
+    print('C\'est un D', max) # Utiliser le nombre entré par l'utilisateur
+    rouler = randint(1, int(max)) # Utiliser max pour déterminer le nombre de faces du dé
+    print('Tu as un ', rouler, feu * rouler) # Répète l'emoji de feu pour correspondre au lancer de dé
 
-# Put code to run under here
-print('Hello', world)
-print('Welcome to', python)
-print(python, 'is very good at maths!')
-print(230 * 5782 ** 2 / 23781)  # Print the result of the sum
-print('The date and time is', datetime.now())  # Print the current date and time
+# Mettre le code à exécuter ci-dessous
+print('Bonjour', monde)
+print('Bienvenue sur', python)
+print(python, 'est très bon en maths !')
+print(230 * 5782 ** 2 / 23781) # Imprimer le résultat du calcul
+print('La date et l\'heure sont', datetime.now()) # Imprimer la date et l'heure actuelles
 
-roll_dice()  # Call the roll dice function
-print('I ❤️ rainbows 🌈')
-print('Unicorns 🦄 make me 😃')
-print('I\'d like to make a story 📖 with', python)
+roule_de() #Appelle la fonction lancer de dés
+print('J\' ❤️ les arcs-en-ciel 🌈')
+print('Les licornes 🦄 me font 😃')
+print('J\'aimerais créer une histoire 📖 avec', python)
