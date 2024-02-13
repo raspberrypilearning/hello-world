@@ -1,8 +1,8 @@
-## Sentence starter
+## Satzanfang
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Output more sentences from your project.
+Gebe weitere Sätze aus Deinem Projekt aus.
 </div>
 <div>
 
@@ -13,7 +13,7 @@ Output more sentences from your project.
 
 --- task ---
 
-Add more `print` lines to your code. Here are some sentence starters that you can use:
+Füge Deinem Code weitere `print` Zeilen hinzu. Hier sind einige Satzanfänge, die Du verwenden kannst:
 
 --- code ---
 ---
@@ -27,25 +27,25 @@ print('I\'d like to make ... with', python)
 
 --- /code ---
 
-**Tip:** Each use of `print` adds a line inbetween.
+**Tipp:** Bei jeder Verwendung von `print` wird eine Zeile dazwischen hinzugefügt.
 
-**Tip:** If you need to print an apostrophe `'` then you need to put a backslash `\` before it so Python knows it's part of the text.
+**Tipp:** Wenn Du ein Apostroph `'` oder Anführungszeichen `"` ausgeben möchtest, musst Du davor einen Backslash <1>\</1> einfügen, sodass Python weiß, dass es Teil des Textes ist.
 
-**Tip:** Add a `#` at the beginning of a line to turn it into a comment.
+**Tipp:** Füge am Anfang einer Zeile ein `#` hinzu, um daraus einen Kommentar zu machen.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-The <span style="color: #0faeb0">yellow heart emoji 💛</span> is often used to show friendship and happiness.</p>
+Das Emoji <span style="color: #0faeb0">gelbes Herz 💛</span> wird oft verwendet, um Freundschaft und Glück zu zeigen.</p>
 
 --- task ---
 
-What message would you send to a friend to cheer them up? Which emoji would you choose?
+Welche Nachricht würdest Du Freunden senden, um sie aufzuheitern? Welches Emoji würdest Du wählen?
 
-Scroll to the **emoji** section in the code editor to see the emojis and example variables that you can use. Copy the ones you choose and save them to a variable or add them directly to your code.
+Scroll to the **emoji** section in the code editor to see the emojis and example variables that you can use. Kopiere alle die Du möchtest und speichere sie in einer Variable oder füge sie direkt Deinem Code hinzu.
 
-You can add more emojis to the **emoji** section. Use this [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} to find the ones you want.
+Du kannst dem Abschnitt **Emoji** weitere Emojis hinzufügen. Verwende diese [Emoji Liste](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"}, um ein paar auszusuchen.
 
 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳 👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
 
