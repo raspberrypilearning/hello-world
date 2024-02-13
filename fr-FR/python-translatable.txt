@@ -12,9 +12,9 @@ Tu as obtenu un ...
 
 Combien de côtés ?
 
-C'est un D ...
+C\'est un D ...
 
-J'<3 ...
+J\'<3 ...
 
 ... me rend ...
 
@@ -34,7 +34,7 @@ hobbies
 
 hobby
 
-Qu'est-ce que tu aimes ?
+Qu\'est-ce que tu aimes ?
 
 Cela a l'air ...
 
@@ -96,6 +96,6 @@ arc-en-ciel
 
 Choisis le plus grand nombre :
 
-J' <3 les arcs-en-ciel
+J\' <3 les arcs-en-ciel
 
 Tu as touché le centre, 500 points !
