@@ -83,7 +83,7 @@ title: ik heb een syntaxfout
 
 --- task ---
 
-Om een functie te gebruiken, moet je deze in de code aanroepen. Ga naar het einde van je code en voeg een nieuwe regel toe om de functie `gooi_dobbelsteen()` aan te roepen:
+Om een functie te gebruiken, moet je deze in de code **aanroepen**. Ga naar het einde van je code en voeg een nieuwe regel toe om de functie `gooi_dobbelsteen()` aan te roepen:
 
 --- code ---
 ---
