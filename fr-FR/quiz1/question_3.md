@@ -16,7 +16,7 @@ def deux_des(): print('Premier nombre :', randint(1, 6)) print('Deuxième nombre
 
 Quel code appellera la fonction pour l'exécuter ?
 
-![The code editor with output area showing two randomly generated numbers.](images/quiz3.png)
+![Le Code Editor avec une zone de sortie affichant deux nombres générés aléatoirement.](images/quiz3.png)
 
 --- choices ---
 
@@ -48,7 +48,7 @@ deux_des
 
  --- feedback ---
 
-Fermer! `deux_des` est le nom de la fonction, mais pour l'appeler, il faut plus que le nom.
+Fermer ! `deux_des` est le nom de la fonction, mais pour l'appeler, il faut plus que le nom.
 
  --- /feedback ---
 
