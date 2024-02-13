@@ -6,62 +6,62 @@ Il est de coutume d'écrire un programme pour afficher « Bonjour le monde ! 
 </div>
 <div>
 
-![The code editor output area showing the two printed lines of text and emojis.](images/say_hello.png){:width="200px"}
+![La zone de sortie du Code Editor montrant les deux lignes imprimées de texte et d'emojis.](images/say_hello.png){:width="200px"}
 
 </div>
 </div>
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
+Ouvre le projet de démarrage [Bonjour 🌍🌎🌏](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. Le Code Editor s'ouvrira dans un autre onglet du navigateur.
 
-![The code editor with project starter code on the left in the code area. Sur la droite se trouve la zone de sortie vierge.](images/starter_project.png)
+![Le Code Editor avec le code de démarrage du projet à gauche dans la zone de code. Sur la droite se trouve la zone de sortie vierge.](images/starter_project.png)
 
-If you have a Raspberry Pi account, you can click on the **Save** button to save a copy to your **Projects**.
+Si tu as d'un compte Raspberry Pi, tu peux cliquer sur le bouton **Enregistrer** pour enregistrer une copie dans tes **Projets**.
 
 --- /task ---
 
 --- collapse ---
 
 ---
-title: Working on a Raspberry Pi?
+title: Travailler sur Raspberry Pi ?
 ---
 
-If you're working on a Raspberry Pi using Chromium, you may not see the emojis. You need to install a font that supports them.
+Si tu travailles sur un Raspberry Pi en utilisant Chromium, il se peut que tu ne voies pas les emojis. Tu dois installer une police qui les prend en charge.
 
-Open a terminal and then type:
+Ouvre un terminal puis tape :
 
 ```bash
 sudo apt install fonts-noto-color-emoji
 ```
 
-Restart Chromium and you should see the colour emojis.
+Redémarre Chromium et tu devrais voir les emojis de couleur.
 
 --- /collapse ---
 
-### Print hello
+### Print Bonjour
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Lines beginning with a `#` are <span style="color: #0faeb0">**comments**</span>. They explain what the code will do. Comments are ignored by Python.
+Les lignes commençant par un `#` sont <span style="color: #0faeb0">**des commentaires**</span>. Ils expliquent ce que fera le code. Les commentaires sont ignorés par Python.
 </p>
 
-The `import` lines at the start of the code tell Python that you are going to use code you didn't write.
+Les lignes `import` au début du code indiquent à Python que tu vas utiliser du code que tu n'as pas écrit.
 
-In Python, `print()` outputs text (words or numbers) to the screen.
+En Python, `print()` affiche du texte (mots ou nombres) à l'écran.
 
 --- task ---
 
-Find the `# Put code to run below here` line.
+Trouve la ligne `# Mettre le code à exécuter ci-dessous`.
 
-Click below that line. The flashing `|` is the cursor and shows where you will type.
+Clique sous cette ligne. Le `|` qui clignote est le curseur et indique où tu taperas.
 
 --- /task ---
 
 --- task ---
 
-Type the code to `print()` Hello to the screen:
+Tape le code pour `print()` Bonjour à l'écran :
 
-**Tip:** When you type an opening bracket `(` or opening apostrophe `'` the code editor will automatically add a closing bracket `)` or closing apostrophe`'`:
+**Astuce :** lorsque tu tapes une parenthèse ouvrante `(` ou une apostrophe ouvrante `'`, le Code Editor ajoute automatiquement une parenthèse fermante `)` ou une apostrophe fermante`'` :
 
 --- code ---
 ---
@@ -70,16 +70,16 @@ line_highlights: 18
 ---
 
 # Mettre le code à exécuter ci-dessous
-print('Hello')
+print('Bonjour')
 
 --- /code ---
 
 --- collapse ---
 ---
-title: Typing special characters on a UK or US keyboard
+title: Saisie de caractères spéciaux sur un clavier français
 ---
 
-On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kbd>9</kbd> and <kbd>0</kbd> keys. To type a left round bracket, hold down the <kbd>Shift</kbd> key (next to <kbd>Z</kbd>) and then tap <kbd>9</kbd>. The single quote `'` is on the same row as the <kbd>L</kbd> key, just before the <kbd>Enter</kbd> key. The comma `,` is next to the <kbd>M</kbd>.
+Sur un clavier français, la parenthèse gauche `(` et droite `)` se trouvent sur les touches <kbd>5</kbd> et <kbd>°</kbd>. Pour saisir un crochet gauche, maintiens la touche <kbd>Maj</kbd> enfoncée (à côté de <kbd>Z</kbd>), puis appuie sur <kbd>9</kbd>. Le guillemet simple `'` se trouve sur la touche <kbd>4</kbd>. La virgule `,` est à côté du <kbd>N</kbd>.
 
 --- /collapse ---
 
@@ -87,33 +87,33 @@ On a UK or US keyboard, the left `(` and right `)` round brackets are on the <kb
 
 --- task ---
 
-**Test:** Click on the **Run** button to run your code. In the code editor, the output will appear on the right:
+**Test :** clique sur le bouton **Run** pour exécuter ton code. Dans le Code Editor, la sortie apparaîtra à droite :
 
-![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
+![L'icône Run est mise en évidence avec "Bonjour" dans la zone de sortie. ](images/run_hello.png)
 
-**Debug:** If you get an error then check your code really carefully. In this example, the single quotes around `Hello` are missing so Python doesn't know it is supposed to be text.
+**Débogage :** si tu obtiens une erreur, vérifie ton code très attentivement. Dans cet exemple, les guillemets simples autour de `Bonjour` sont manquants donc Python ne sait pas qu'il est censé être du texte.
 
-![The Code Editor with missing single quotes and error 'NameError: name 'Hello' is not defined on line 18 in main.py.](images/hello_error.png)
+![Le Code Editor avec des guillemets simples manquants et l'erreur 'NameError: name 'Bonjour' is not defined on line 18 in main.py.](images/hello_error.png)
 
 --- /task ---
 
 ## Print 🌍🌎🌏
 
-In Python, a **variable** is used to store values such as text or numbers. Variables make it easier for humans to read code. You can use the same variable in lots of places in your code. Choosing a sensible name for a variable makes it easier for you to remember what it is for.
+En Python, une **variable** est utilisée pour stocker du texte ou des nombres. Les variables facilitent la lecture du code par les humains. Tu peux utiliser la même variable à de nombreux endroits dans ton code. Choisir un nom judicieux pour une variable te permet de te rappeler plus facilement à quoi elle sert.
 
-We have included some variables that store emoji characters.
+Nous avons inclus quelques variables qui stockent les caractères emoji.
 
 --- task ---
 
-In your code editor, scroll to the lines with the emojis stored into two different variables. Find the variable `world`, which stores the text '🌍🌍🌍'.
+Dans ton Code Editor, fais défiler jusqu'aux lignes où les emojis sont stockés dans deux variables différentes. Trouve la variable `monde`, qui stocke le texte '🌍🌍🌍'.
 
 --- /task ---
 
 --- task ---
 
-You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` will add a space between each item.
+Tu peux `print()` plus d'un élément à la fois en incluant une virgule `,` entre les éléments. `print()` ajoutera un espace entre chaque élément.
 
-Change your code to also `print()` the contents of the `world` variable:
+Change ton code pour aussi `print()` le contenu de la variable `monde` :
 
 --- code ---
 ---
@@ -122,33 +122,33 @@ line_highlights: 18
 ---
 
 # Mettre le code à exécuter ci-dessous
-print('Hello', world)
+print('Bonjour', monde)
 
 --- /code ---
 
-**Tip:** `'Hello'` is a text string because it has single quotes around it, whereas `world` is a variable so the value stored in it will be printed.
+**Astuce :** `'Bonjour'` est une chaîne de texte car elle est entourée de guillemets simples, alors que `monde` est une variable, donc la valeur qui y est stockée sera imprimée.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code to see the result:
+**Test :** exécute ton code pour voir le résultat :
 
-![The updated line of code in the code area with the word 'Hello' followed by three world emojis showing in the output area.](images/run_hello_world.png)
+![La ligne de code mise à jour dans la zone de code avec le mot "Bonjour" suivi de trois emojis monde dans la zone de sortie.](images/run_hello_world.png)
 
-**Tip:** Emojis can look different on different computers, so yours might not look exactly the same.
+**Astuce :** Les emojis peuvent avoir un aspect différent selon les ordinateurs, il se peut donc que le tien ne soit pas exactement le même.
 
-**Debug:** Make sure that you have added a comma between the items in `print()` and that you have spelled `world` correctly.
+**Débogage :** assure-toi que tu as ajouté une virgule entre les éléments dans `print()` et que tu as correctement orthographié `monde`.
 
-This example is missing the comma `,`. It's small but very important!
+Dans cet exemple, il manque la virgule `,`. C'est petit mais très important !
 
-![The code editor with missing single quotes and error 'SyntaxError: bad input on line 18 in main.py' displayed.](images/comma_error.png)
+![Le Code Editor avec les guillemets simples manquants et l'erreur 'SyntaxError: bad input on line 18 in main.py' s'affiche.](images/comma_error.png)
 
 --- /task ---
 
 --- task ---
 
-**Add** another line to your code to `print()` more text and emojis:
+**Ajoute** une autre ligne à ton code pour `print()` plus de texte et d'emojis :
 
 --- code ---
 ---
@@ -167,16 +167,16 @@ print('Bienvenue dans', python)
 
 --- task ---
 
-**Test:** Click **Run**.
+**Test :** clique sur **Run**.
 
-![The additional line of code in the code editor with the word 'Hello' followed by three world emojis and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
+![La ligne de code supplémentaire dans le Code Editor avec le mot "Bonjour" suivi de trois emojis monde et les mots "Bienvenue sur" suivis d'un serpent emoji et d'un clavier apparaissant dans la zone de sortie.](images/run_multiple.png)
 
-**Astuce :** Il est conseillé d'exécuter ton code après chaque modification afin de pouvoir résoudre rapidement les problèmes.
+**Astuce :** il est conseillé d'exécuter ton code après chaque modification afin de pouvoir résoudre rapidement les problèmes.
 
-**Débogage :** Vérifie attentivement les parenthèses, les guillemets, les virgules et l'orthographe correcte. Python a besoin que tu sois vraiment précis.
+**Débogage :** vérifie attentivement les parenthèses, les guillemets, les virgules et l'orthographe correcte. Python a besoin que tu sois vraiment précis.
 
 --- /task ---
 
-If you have a Raspberry Pi account, on your code editor you can click on the **Save** button to save a copy of your project to your Projects.
+Si tu as un compte Raspberry Pi, sur ton Code Editor, tu peux cliquer sur le bouton **Enregistrer** pour enregistrer une copie de ton projet dans tes Projets.
 
 --- save ---
