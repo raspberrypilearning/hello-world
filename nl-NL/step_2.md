@@ -136,7 +136,7 @@ print('Hallo', wereld)
 
 ![De bijgewerkte regel code in het codegebied met het woord 'Hallo' gevolgd door drie emoji-werelden die worden weergegeven in het uitvoergebied.](images/run_hello_world.png)
 
-**Tip:**Emoji's kunnen er op verschillende computers anders uitzien, dus de jouwe zien er misschien niet precies hetzelfde uit.
+**Tip:** Emoji's kunnen er op verschillende computers anders uitzien, dus de jouwe zien er misschien niet precies hetzelfde uit.
 
 **Debuggen:** Zorg ervoor dat je een komma hebt toegevoegd tussen de items `print()` en dat je `wereld` correct hebt gespeld.
 
