@@ -17,7 +17,7 @@ Ouvre le projet de démarrage [Bonjour 🌍🌎🌏](https://editor.raspberrypi.
 
 ![Le Code Editor avec le code de démarrage du projet à gauche dans la zone de code. Sur la droite se trouve la zone de sortie vierge.](images/starter_project.png)
 
-Si tu as d'un compte Raspberry Pi, tu peux cliquer sur le bouton **Enregistrer** pour enregistrer une copie dans tes **Projets**.
+Si tu as un compte Raspberry Pi, tu peux cliquer sur le bouton **Enregistrer** pour enregistrer une copie dans tes **Projets**.
 
 --- /task ---
 
