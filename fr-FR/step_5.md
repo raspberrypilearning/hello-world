@@ -45,7 +45,7 @@ Quel message voudrais-tu envoyer à un ami pour lui remonter le moral ? Quel emo
 
 Fais défiler la section **emoji** dans le Code Editor pour voir les emojis et les variables d'exemple que tu peux utiliser. Copie ceux que tu choisis et enregistre-les dans une variable ou ajoute-les directement à ton code.
 
-Tu peux ajouter d'autres emojis dans la section **emoji**. Utilise cette [liste d'emoji](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} pour trouver ceux que tu veux.
+Tu peux ajouter d'autres emojis dans la section **emoji**. Utilise cette [liste d'emojis](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} pour trouver ceux que tu veux.
 
 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳 👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
 
