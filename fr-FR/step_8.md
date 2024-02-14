@@ -1,6 +1,6 @@
 ## Et ensuite ?
 
-Si tu suis le parcours [Introduction à Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro), tu peux passer au projet [Entraînement au tir](https://projects.raspberrypi.org/en/projects/target-practice). Dans ce projet, tu vas dessiner une cible puis créer un jeu de tir à l'arc qui tire des flèches pour marquer des points.
+Si tu suis le parcours [Introduction à Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro), tu peux passer au projet [Tir sur cible](https://projects.raspberrypi.org/en/projects/target-practice). Dans ce projet, tu vas dessiner une cible puis créer un jeu de tir à l'arc qui tire des flèches pour marquer des points.
 
 --- print-only ---
 
