@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend : Question 3 sur 3
+legend: Question 3 sur 3
 ---
 
 Cette fonction génère deux nombres aléatoires :
@@ -10,15 +10,15 @@ Cette fonction génère deux nombres aléatoires :
 language: python
 ---
 
-def deux_des(): 
-  print('Premier nombre :', randint(1, 6)) 
-  print('Deuxième nombre :', randint(1, 6))
+def deux_des():
+    print('Premier nombre :', randint(1, 6))
+    print('Deuxième nombre :', randint(1, 6))
 
 --- /code ---
 
 Quel code appellera la fonction pour l'exécuter ?
 
-![L'éditeur Trinket avec une zone de sortie affichant deux nombres générés aléatoirement.](images/quiz3.png)
+![Le Code Editor avec une zone de sortie affichant deux nombres générés aléatoirement.](images/quiz3.png)
 
 --- choices ---
 
@@ -29,9 +29,9 @@ Quel code appellera la fonction pour l'exécuter ?
 language: python
 ---
 
-def deux_des(): 
-  print('Premier nombre :', randint(1, 6)) 
-  print('Deuxième nombre :', randint(1, 6))
+def deux_des():
+    print('Premier nombre :', randint(1, 6))
+    print('Deuxième nombre :', randint(1, 6))
 
 --- /code ---
 
@@ -53,7 +53,7 @@ deux_des
 
  --- feedback ---
 
-Fermer! `deux_des` est le nom de la fonction, mais pour l'appeler, il faut plus que le nom.
+Fermer ! `deux_des` est le nom de la fonction, mais pour l'appeler, il faut plus que le nom.
 
  --- /feedback ---
 

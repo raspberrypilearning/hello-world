@@ -1,0 +1,101 @@
+Bonjour
+
+Bienvenue à ...
+
+...est très doué pour...
+
+Le ... est
+
+...peut faire un...
+
+Tu as obtenu un ...
+
+Combien de côtés ?
+
+C\'est un D ...
+
+J\'<3 ...
+
+... me rend ...
+
+Je voudrais faire ... avec ...
+
+fantastique
+
+Je peux coder
+
+deux_des
+
+Premier numéro :
+
+Deuxième numéro :
+
+hobbies
+
+hobby
+
+Qu\'est-ce que tu aimes ?
+
+Cela a l'air ...
+
+Tu pourrais faire un ... projet sur ...
+
+roule_de
+
+roule
+
+maintenant
+
+monde 
+
+sommes
+
+calendrier
+
+horloge 
+
+projets 
+
+amusant 
+
+dé 
+
+licorne 
+
+espace 
+
+heureux 
+
+idiot 
+
+cœur 
+
+jeux 
+
+livres 
+
+sports 
+
+vert 
+
+nature 
+
+feu 
+
+étincelles 
+
+implorer 
+
+cent 
+
+étoile 
+
+coeur_jaune 
+
+arc-en-ciel
+
+Choisis le plus grand nombre :
+
+J\' <3 les arcs-en-ciel
+
+Tu as touché le centre, 500 points !

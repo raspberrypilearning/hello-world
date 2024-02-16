@@ -1,0 +1,43 @@
+Mettre le code à exécuter ci-dessous
+
+Imprimer le résultat de la somme
+
+Imprimer avec l'emoji
+
+Mettre les définitions des fonctions ici
+
+Ne pas oublier les deux points à la fin de cette ligne
+
+Appelle la fonction roule_de
+
+Générer un nombre aléatoire entre 1 et 6
+
+Imprimer la valeur de la variable roule
+
+Répéter l'emoji de feu pour correspondre au lancer de dés
+
+Attendre l'entrée de l'utilisateur
+
+Utiliser le numéro que l'utilisateur a saisi
+
+randint a besoin que max soit un "entier"
+
+Attendre que l'utilisateur appuie sur Entrée
+
+Caractères utiles : ',()*_/.#
+
+Variables Emoji à utiliser dans ton projet
+
+Ajouter des alternatives d'art ASCII
+
+Avant les emoji, nous utilisions des émoticônes faites à partir de caractères
+
+obtenir l'entrée de l'utilisateur
+
+générer un nombre aléatoire
+
+répéter le texte feu plusieurs fois
+
+obtenir la date et l'heure actuelles
+
+Appeler la fonction hobbies
