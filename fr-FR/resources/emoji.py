@@ -1,4 +1,4 @@
-# Les variables emoji à utiliser dans ton projet
+# Emoji variables to use in your project
 
 world = '🌍🌎🌏'
 python = '🐍⌨️'

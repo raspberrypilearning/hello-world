@@ -1,10 +1,10 @@
-# Ajouter des alternatives d'art ASCII 
-# Avant les emoji, nous utilisions des émoticônes faites à partir de caractères
+# Add ASCII art alternatives
+# Before emoji we used emoticons made from characters
 
 world = 'o'
 python = '~~~-<'
 happy = ':-)
-heart = '♡' # ou '<3'
+heart = '♡' # or '<3'
 star = '☆'
 sparkles = '✺'
 silly = ';)'
@@ -14,3 +14,4 @@ plead = '◔◔'
 fire = '/'
 books = '≣'
 rainbow = '⌒'
+

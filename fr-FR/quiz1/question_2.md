@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend : Question 2 sur 3
+legend: Question 2 sur 3
 ---
 
 Laquelle de ces définitions de fonction est correcte et affichera `Je peux coder` lorsqu'elle est appelée ?
 
-![L'éditeur Trinket avec la zone de sortie indiquant <code>Je peux coder</code>.](images/quiz2.png)
+![Le Code Editor avec la zone de sortie affichant <code>Je peux coder</code>.](images/quiz2.png)
 
 --- choices ---
 
@@ -17,8 +17,8 @@ Laquelle de ces définitions de fonction est correcte et affichera `Je peux code
 language: python
 ---
 
-def impressionnant(): 
-  print('Je peux coder')
+def impressionnant():
+    print('Je peux coder')
 
 --- /code ---
 
@@ -35,7 +35,7 @@ C'est exact, appeler cette fonction imprimera `Je peux coder`. Tu as remarqué q
 language: python
 ---
 
-def impressionnant(): 
+def impressionnant():
 print('Je peux coder')
 
 --- /code ---
@@ -53,8 +53,8 @@ print('Je peux coder')
 language: python
 ---
 
-def impressionnant() 
-  print('Je peux coder')
+def impressionnant()
+    print('Je peux coder')
 
 --- /code ---
 
