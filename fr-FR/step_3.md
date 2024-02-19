@@ -123,6 +123,8 @@ print('La date et l\'heure est', datetime.now())  # Imprime la date et l'heure a
 
 --- /code ---
 
+Pour imprimer une apostrophe `'` dans un mot comme `l'heure`, place une barre oblique inverse `\` devant afin que Python sache que cela fait partie du texte.
+
 **Astuce :** tu n'as pas besoin de taper les commentaires, ils sont juste là pour t'aider à comprendre le code. Tape simplement la partie avant le `#`.
 
 --- /task ---

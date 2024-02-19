@@ -40,7 +40,7 @@ line_highlights: 16-17
 
 # Définitions de fonctions
 def roule_de():  # N'oublie pas les deux points à la fin de cette ligne   
-    print('Tu as un', randint(1, 6))  # randint(1, 6) est utilisé pour donner un nombre entre 1 et 6.
+  print('Tu as un', randint(1, 6))  # randint(1, 6) est utilisé pour donner un nombre entre 1 et 6.
 
 --- /code ---
 
@@ -103,8 +103,6 @@ roule_de() # Appelle la fonction roule de
 
 --- /code ---
 
-**Astuce :** si tu as besoin d'afficher une apostrophe `'`, tu dois placer une barre oblique inverse `\` devant afin que Python sache qu'elle fait partie du texte.
-
 --- /task ---
 
 --- task ---
@@ -136,8 +134,8 @@ line_highlights: 17-18
 
 # Définitions de fonctions
 def roule_de():
-  rouler = randint(1, 6)  # Générer un nombre aléatoire entre 1 et 6 et le stocker dans la variable "rouler"
-  print('Tu as un', rouler, feu * rouler)  # Répète l'emoji feu pour qu'il corresponde au lancer de dé aléatoire
+    rouler = randint(1, 6)  # Générer un nombre aléatoire entre 1 et 6 et le stocker dans la variable "rouler".
+    print('Tu as un', rouler, feu * rouler)  # Répète l'emoji feu pour qu'il corresponde au lancer de dé aléatoire
 
 --- /code ---
 
@@ -180,10 +178,10 @@ line_highlights: 18-20
 # Définitions de fonctions
 
 def roule_de():   
-  max = input('Combien de côtés ?:')  # Attendre l'intervention de l'utilisateur    
-  print('C\'est un D', max)  # Utiliser le numéro que l'utilisateur a saisi    
-  rouler = randint(1, int(max))  # Utiliser la valeur maximale pour déterminer le nombre de faces du dé
-  print('Tu as un', rouler, feu * rouler)
+    max = input('Combien de côtés ?:')  # Attendre l'intervention de l'utilisateur    
+    print('C\'est un D', max)  # Utiliser le numéro que l'utilisateur a saisi    
+    rouler = randint(1, int(max))  # Utiliser la valeur maximale pour déterminer le nombre de faces du dé
+    print('Tu as un', rouler, feu * rouler)
 
 --- /code ---
 

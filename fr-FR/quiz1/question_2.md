@@ -6,7 +6,7 @@ legend: Question 2 sur 3
 
 Laquelle de ces définitions de fonction est correcte et affichera `Je peux coder` lorsqu'elle est appelée ?
 
-![Le Code Editor avec la zone de sortie affichant `Je peux coder`.](images/quiz2.png)
+![Le Code Editor avec la zone de sortie affichant <code>Je peux coder</code>.](images/quiz2.png)
 
 --- choices ---
 
