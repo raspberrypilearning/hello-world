@@ -1,43 +1,61 @@
 Füge hier den Code ein, der ausgeführt werden soll
 
+Hello
+
+Welcome to
+
+is very good at maths!
+
 Gib das Ergebnis der Rechnung aus
 
-Ausgabe mit Emoji
+The date and time is
 
-Füge hier Funktionsdefinitionen ein
+Print the current date and time
+
+Function definitions
 
 Vergiss nicht den Doppelpunkt am Ende dieser Zeile
 
-Rufe die Funktion wuerfel_werfen auf
+You rolled a
 
-Erzeuge eine Zufallszahl zwischen 1 und 6
+randint(1, 6) is used to give a number between 1 and 6.
 
-Gib den Wert der Variable wurf aus
+Call the roll dice function
 
-Wiederhole das Feuer-Emoji so oft wie der Würfelwurf anzeigt
+Generate a random number between 1 and 6 and store it in the variable 'roll'
+
+Repeat the fire emoji to match the random dice roll
+
+How many sides?:
 
 Warte auf Eingabe vom Benutzer
 
+That's a D
+
 Verwende die vom Benutzer eingegebene Zahl
 
-Das max in randint muss eine Ganzzahl (engl.: 'integer') sein
+Use max to determine the number of sides the dice has
+
+I ❤️ ...
+
+... makes me 😃
+
+I'd like to make ... with
+
+I can code
+
+First number:
+
+Second number:
+
+What do you like?
+
+That sounds
+
+You will need to create an emoji variable called 'fun'
+
+('You could make a', python, 'project about', hobby)
 
 Warte, bis der Benutzer die Eingabetaste drückt
 
-Hilfreiche Zeichen:',()*_/.#
-
-Emoji-Variablen zur Verwendung in Deinem Projekt
-
-Füge ASCII-Grafikalternativen hinzu
-
-Vor Emoji verwendeten wir Emoticons, die aus Schriftzeichen bestanden
-
-Eingabe vom Benutzer erhalten
-
-erzeuge eine Zufallszahl
-
-Wiederhole den feuer Text wurf mal
-
-aktuelles Datum und Uhrzeit abfragen
-
-Rufe die Funktion hobbies auf
+Calls the hobbies function
