@@ -1,61 +1,61 @@
 Zet de code om uit te voeren hier onder
 
-Hello
+Hallo
 
-Welcome to
+Welkom bij
 
-is very good at maths!
+is heel goed in wiskunde!
 
 Print het resultaat van de som
 
-The date and time is
+De datum en tijd zijn
 
-Print the current date and time
+De huidige datum en tijd ophalen
 
-Function definitions
+Functiedefinities
 
 Vergeet de dubbele punt aan het einde van deze regel niet
 
-You rolled a
+Je gooide een
 
-randint(1, 6) is used to give a number between 1 and 6.
+randint(1, 6) wordt gebruikt om een getal tussen 1 en 6 te geven.
 
-Call the roll dice function
+Roep de gooi dobbelsteen functie aan
 
-Generate a random number between 1 and 6 and store it in the variable 'roll'
+Genereer een willekeurig getal tussen 1 en 6 en sla dit op in de variabele 'worp'
 
-Repeat the fire emoji to match the random dice roll
+Herhaal de vuur emoji om bij de dobbelsteenworp te passen
 
-How many sides?:
+Hoeveel kanten?:
 
 Wacht op invoer van de gebruiker
 
-That's a D
+Dat is een D
 
 Gebruik het getal dat de gebruiker heeft ingevoerd
 
-Use max to determine the number of sides the dice has
+Gebruik max om het aantal zijden van de dobbelsteen te bepalen
 
-I ❤️ ...
+Ik ❤️...
 
-... makes me 😃
+... maakt mij 😃
 
-I'd like to make ... with
+Ik wil graag maken ... met
 
-I can code
+Ik kan coderen
 
-First number:
+Eerste getal:
 
-Second number:
+Tweede getal:
 
-What do you like?
+Wat vind je leuk?
 
-That sounds
+Dat klinkt
 
-You will need to create an emoji variable called 'fun'
+Je moet een emoji variabele maken met de naam 'leuk'
 
-('You could make a', python, 'project about', hobby)
+('Je zou een', python, 'project over', hobby, 'kunnen maken')
 
 Wacht tot de gebruiker op Enter drukt
 
-Calls the hobbies function
+Roep de hobbies functie aan
