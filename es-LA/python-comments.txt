@@ -1,43 +1,61 @@
 Pon el código a ejecutar aquí abajo
 
+Hello
+
+Welcome to
+
+is very good at maths!
+
 Escribe el resultado de la suma
 
-Escribe con emoji
+The date and time is
 
-Pon las definiciones de función aquí abajo
+Print the current date and time
+
+Function definitions
 
 No olvide los dos puntos al final de esta línea
 
-Llama a la función lanzar_dados
+You rolled a
 
-Generar un número aleatorio entre 1 y 6
+randint(1, 6) is used to give a number between 1 and 6.
 
-Escribe el valor de la variable lanzar
+Call the roll dice function
 
-Repite el emoji de fuego para que coincida con el lanzado de dados
+Generate a random number between 1 and 6 and store it in the variable 'roll'
+
+Repeat the fire emoji to match the random dice roll
+
+How many sides?:
 
 Espera el ingreso del usuario
 
+That's a D
+
 Usa el número que el usuario ingresó
 
-randint necesita que max sea un 'entero'
+Use max to determine the number of sides the dice has
+
+I ❤️ ...
+
+... makes me 😃
+
+I'd like to make ... with
+
+I can code
+
+First number:
+
+Second number:
+
+What do you like?
+
+That sounds
+
+You will need to create an emoji variable called 'fun'
+
+('You could make a', python, 'project about', hobby)
 
 Espere a que el usuario toque Entrar
 
-Caracteres útiles :',()*_/.#
-
-Variables emoji para usar en tu proyecto
-
-Agregar alternativas de arte ASCII
-
-Antes de los emoji usábamos emoticonos hechos de signos
-
-obtener información del usuario
-
-generar un número aleatorio
-
-repetir la veces del rollo de texto de fuego
-
-obtener la fecha y hora actual
-
-Llame a la función de pasatiempos
+Calls the hobbies function
