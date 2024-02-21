@@ -1,43 +1,61 @@
 Metti il codice da eseguire qui sotto
 
+Hello
+
+Welcome to
+
+is very good at maths!
+
 Stampa il risultato della somma
 
-Stampa con emoji
+The date and time is
 
-Metti le definizioni delle funzioni qui sotto
+Print the current date and time
+
+Function definitions
 
 Non dimenticare i due punti alla fine di questa riga
 
-Chiama la funzione tira_dado
+You rolled a
 
-Sceglie un numero a caso fra 1 e 6
+randint(1, 6) is used to give a number between 1 and 6.
 
-Stampa il valore della variabile risultato
+Call the roll dice function
 
-Ripeti l'emoji del fuoco per abbinare il lancio dei dadi
+Generate a random number between 1 and 6 and store it in the variable 'roll'
+
+Repeat the fire emoji to match the random dice roll
+
+How many sides?:
 
 Attendi l'input dell'utente
 
+That's a D
+
 Utilizza il numero immesso dall'utente
 
-randint ha bisogno che massimo sia un 'intero'
+Use max to determine the number of sides the dice has
+
+I ❤️ ...
+
+... makes me 😃
+
+I'd like to make ... with
+
+I can code
+
+First number:
+
+Second number:
+
+What do you like?
+
+That sounds
+
+You will need to create an emoji variable called 'fun'
+
+('You could make a', python, 'project about', hobby)
 
 Attendi che l'utente prema Invio
 
-Caratteri utili :',()*_/.#
-
-Variabili Emoji da utilizzare nel tuo progetto
-
-Aggiungi alternative ASCII artistiche
-
-Prima delle emoji usavamo emoticon realizzate con i caratteri
-
-ottieni l'input dall'utente
-
-generare un numero casuale
-
-ripete il contenuto di fuoco un numero di volte pari a risultato
-
-ottiene la data e l'ora correnti
-
-Chiama la funzione hobbies
+Calls the hobbies function
