@@ -1,101 +1,21 @@
-Hallo
+welt
 
-Willkommen bei ...
-
-...ist sehr gut in ...
-
-Die ... ist
-
-...can make a ...
-
-Du hast gewürfelt: ...
-
-Wie viele Seiten?
-
-That’s a D ...
-
-Ich <3 ...
-
-...macht mich ...
-
-Als nächstes mache ich ... mit ...
-
-prima
-
-Ich kann programmieren
-
-zwei_würfel
-
-Erste Zahl:
-
-Zweite Zahl:
-
-Hobbys
-
-Hobby
-
-Was macht Dir Spaß?
-
-Das klingt nach ...
-
-Du könntest ein ... Projekt anfangen, mit Thema ...
+python
 
 wuerfel_werfen
 
 wurf
 
-jetzt
+feuer
 
-welt 
+max
 
-operatoren
+prima
 
-kalender
+zwei_würfel
 
-uhr 
+Hobbys
 
-projekte 
+Hobby
 
-spass 
-
-wuerfel 
-
-einhorn 
-
-weltall 
-
-froehlich 
-
-albern 
-
-herz 
-
-spiele 
-
-buecher 
-
-sport 
-
-gruen 
-
-natur 
-
-feuer 
-
-funken 
-
-flehen 
-
-hundert 
-
-stern 
-
-gelbes_herz 
-
-regenbogen
-
-Wähle die größte Zahl:
-
-Ich <3 Regenbögen
-
-Du hast ins Schwarze getroffen, 500 Punkte!
+spass
