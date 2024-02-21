@@ -1,43 +1,61 @@
 Zet de code om uit te voeren hier onder
 
+Hello
+
+Welcome to
+
+is very good at maths!
+
 Print het resultaat van de som
 
-Afdrukken met emoji
+The date and time is
 
-Zet de functie definities hier onder
+Print the current date and time
+
+Function definitions
 
 Vergeet de dubbele punt aan het einde van deze regel niet
 
-Roep de functie gooi_dobbelsteen aan
+You rolled a
 
-Genereer een willekeurig getal tussen 1 en 6
+randint(1, 6) is used to give a number between 1 and 6.
 
-Druk de waarde van de worp variabele af
+Call the roll dice function
 
-Herhaal de vuuremoji om bij de dobbelsteenworp te passen
+Generate a random number between 1 and 6 and store it in the variable 'roll'
+
+Repeat the fire emoji to match the random dice roll
+
+How many sides?:
 
 Wacht op invoer van de gebruiker
 
+That's a D
+
 Gebruik het getal dat de gebruiker heeft ingevoerd
 
-randint vereist dat max een 'geheel getal' is
+Use max to determine the number of sides the dice has
+
+I ❤️ ...
+
+... makes me 😃
+
+I'd like to make ... with
+
+I can code
+
+First number:
+
+Second number:
+
+What do you like?
+
+That sounds
+
+You will need to create an emoji variable called 'fun'
+
+('You could make a', python, 'project about', hobby)
 
 Wacht tot de gebruiker op Enter drukt
 
-Nuttige tekens :',()*_/.#
-
-Emoji-variabelen die je in je project kunt gebruiken
-
-ASCII-kunstalternatieven toevoegen
-
-Voor emoji gebruikten we emoticons gemaakt van karakters
-
-vraag invoer van de gebruiker
-
-genereer een willekeurige getal
-
-herhaal worp keer de vuurtekst
-
-de huidige datum en tijd ophalen
-
-Roep de functie hobbies aan
+Calls the hobbies function
