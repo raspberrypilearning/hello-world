@@ -1,43 +1,61 @@
 Rhowch y cod i'w redeg o dan fan hyn
 
+Hello
+
+Welcome to
+
+is very good at maths!
+
 Printio canlyniad y sym
 
-Printio gydag emoji
+The date and time is
 
-Rhowch ddiffiniadau swyddogaethau o dan fan hyn
+Print the current date and time
+
+Function definitions
 
 Cofiwch y colon ar ddiwedd y llinell hon
 
-Galw'r swyddogaeth taflu_dis
+You rolled a
 
-Cynhyrchu rhif ar hap rhwng 1 a 6
+randint(1, 6) is used to give a number between 1 and 6.
 
-Printio gwerth y newidyn tafliad
+Call the roll dice function
 
-Ailadrodd yr emoji fflam i gyfateb i'r tafliad dis
+Generate a random number between 1 and 6 and store it in the variable 'roll'
+
+Repeat the fire emoji to match the random dice roll
+
+How many sides?:
 
 Aros am fewnbwn gan y defnyddiwr
 
+That's a D
+
 Defnyddio'r rhif mae'r defnyddiwr wedi'i roi
 
-Mae randint angen i mwyaf fod yn gyfanrif
+Use max to determine the number of sides the dice has
+
+I ❤️ ...
+
+... makes me 😃
+
+I'd like to make ... with
+
+I can code
+
+First number:
+
+Second number:
+
+What do you like?
+
+That sounds
+
+You will need to create an emoji variable called 'fun'
+
+('You could make a', python, 'project about', hobby)
 
 Aros i'r defnyddiwr daro Enter
 
-Nodau defnyddiol :',()*_/.#
-
-Newidynnau emoji i'w defnyddio yn eich prosiect
-
-Ychwanegu dewisiadau celf ASCII gwahanol
-
-Cyn emoji roedden ni'n defnyddio gwenogluniau wedi'u ffurfio o nodau
-
-cael mewnbwn gan y defnyddiwr
-
-cynhyrchu rhif ar hap
-
-ailadrodd y testun fflam i gyfateb i rif y tafliad
-
-cael y dyddiad a'r amser cyfredol
-
-Galw'r swyddogaeth diddordebau
+Calls the hobbies function
