@@ -1,101 +1,21 @@
-Hola
+mundo
 
-Bienvenido ...
-
-...es muy bueno en...
-
-El ... es
-
-...puede hacer un...
-
-Has rodado un...
-
-¿Cuántos lados?
-
-Eso es un D ...
-
-Yo <3...
-
-...me hace ...
-
-Me gustaría hacer... con...
-
-genial
-
-Puedo escribir codigo
-
-dos_dados
-
-Primer número:
-
-Segundo número:
-
-pasatiempos
-
-pasatiempo
-
-¿Que es lo que te gusta?
-
-Eso suena ...
-
-Podrías hacer un... proyecto sobre...
+python
 
 lanza_dados
 
 lanza
 
-ahora
+fuego
 
-mundo 
+max
 
-sumas
+genial
 
-calendario
+dos_dados
 
-reloj 
+pasatiempos
 
-proyectos 
+pasatiempo
 
-diversion 
-
-dados 
-
-unicornio 
-
-espacio 
-
-feliz 
-
-tonto 
-
-corazón 
-
-juegos 
-
-libros 
-
-deportes 
-
-verde 
-
-naturaleza 
-
-fuego 
-
-destellos 
-
-suplicar 
-
-cien 
-
-estrella 
-
-corazon_amarillo 
-
-arcoiris
-
-Elige el número más grande:
-
-Yo <3 arcoiris
-
-¡Le diste a la diana, 500 puntos!
+diversion
