@@ -1,101 +1,21 @@
-Ciao
+mondo
 
-Benvenuto ...
-
-...è molto bravo a fare ...
-
-Il...è
-
-...può fare un...
-
-Hai tirato un...
-
-Quante facce?
-
-Questo è D ...
-
-Io <3...
-
-...mi rende...
-
-Mi piacerebbe fare...con...
-
-meraviglioso
-
-So programmare
-
-due_dadi
-
-Primo numero:
-
-Secondo numero:
-
-hobbies
-
-hobby
-
-Cosa ti piace?
-
-Sembra...
-
-Potresti realizzare un...progetto su...
+python
 
 tira_dado
 
 risultato
 
-now
+fuoco
 
-mondo 
+max
 
-somme
+meraviglioso
 
-calendario
+due_dadi
 
-orologio 
+hobbies
 
-progetti 
+hobby
 
-divertimento 
-
-dadi 
-
-unicorno 
-
-spazio 
-
-felice 
-
-buffo 
-
-cuore 
-
-giochi 
-
-libri 
-
-sport 
-
-verde 
-
-natura 
-
-fuoco 
-
-particelle 
-
-pregare 
-
-cento 
-
-stella 
-
-cuore_giallo 
-
-arcobaleno
-
-Scegli il numero più grande:
-
-Io <3 arcobaleni
-
-Hai centrato il bersaglio, 500 punti!
+divertimento
