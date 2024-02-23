@@ -18,7 +18,7 @@ def gooi_dobbelsteen():
     max = input('Hoeveel zijden?:') # Wacht op invoer van de gebruiker
     print('Dat is een D', max) # Gebruik het getal dat de gebruiker heeft ingevoerd
     worp = randint(1, int(max)) # Gebruik max om het aantal zijden van de dobbelsteen te bepalen
-    print('Je hebt een ', worp, vuur * worp, 'gegooid') # Herhaal de vuur-emoji zodat deze overeenkomt met de dobbelsteenworp
+    print('Je hebt een', worp, vuur * worp, 'gegooid') # Herhaal de vuur-emoji zodat deze overeenkomt met de dobbelsteenworp
 
 # Zet de code om uit te voeren hieronder
 print('Hallo', wereld)
