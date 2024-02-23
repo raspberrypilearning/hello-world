@@ -86,7 +86,7 @@ title: Ik heb een syntaxfout
 
 --- task ---
 
-Om een functie te gebruiken, moet je deze in de code aanroepen. Ga naar het einde van je code en voeg een nieuwe regel toe om de functie `gooi_dobbelsteen()` aan te roepen:
+Om een functie te gebruiken, moet je deze in de code **aanroepen**. Ga naar het einde van je code en voeg een nieuwe regel toe om de functie `gooi_dobbelsteen()` aan te roepen:
 
 --- code ---
 ---
@@ -180,7 +180,7 @@ line_highlights: 18-20
 def gooi_dobbelsteen():   
     max = input('Hoeveel kanten?:') # Wacht op invoer van de gebruiker    
     print('Dat is een D', max) #Gebruik het getal dat de gebruiker heeft ingevoerd    
-    worp = randint(1, int(max)) # voor randint  moet max een integer zijn print('Je hebt een ', worp, 'gegooid')
+    worp = randint(1, int(max)) # voor randint  moet max een integer zijn print('Je hebt een', worp, 'gegooid')
 
 --- /code ---
 
