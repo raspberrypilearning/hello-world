@@ -1,20 +1,20 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Питання 3 з 3
 ---
 
-This function outputs two random numbers:
+Ця функція виводить два випадкових числа:
 
 --- code ---
 ---
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def two_dice(): print('Перше число:', randint(1, 6)) print('Друге число:', randint(1, 6))
 
 --- /code ---
 
-Which code will call the function to run it?
+Яким кодом можна викликати і запустити цю функцію?
 
 ![The code editor with output area showing two randomly generated numbers.](images/quiz3.png)
 
@@ -27,7 +27,7 @@ Which code will call the function to run it?
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def two_dice(): print('Перше число:', randint(1, 6)) print('Друге число:', randint(1, 6))
 
 --- /code ---
 
