@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Frage 2 von 3
 ---
 
-Which of these function definitions is correct and will print `I can code` when called?
+Welche dieser Funktionsdefinitionen ist korrekt und gibt `Ich kann programmieren` aus wenn sie aufgerufen wird?
 
-![The code editor with output area showing <code>I can code</code>.](images/quiz2.png)
+![Der Code Editor mit dem Ausgabebereich zeigt <code>Ich kann programmieren</code> an.](images/quiz2.png)
 
 --- choices ---
 
@@ -17,13 +17,13 @@ Which of these function definitions is correct and will print `I can code` when 
 language: python
 ---
 
-def awesome(): print('I can code')
+def prima(): print('Ich kann programmieren')
 
 --- /code ---
 
  --- feedback ---
 
-That's correct, calling this function will print `I can code`. You spotted that functions need `(` `)` brackets and a `:` in the function definition, and that all code to be run when that function is called must be indented.
+Das ist richtig, der Aufruf dieser Funktion gibt `Ich kann programmieren` aus. Du hast richtig gesehen, dass Funktionen Klammern `(` `)` und ein `:` in der Funktionsdefinition benötigen, und dass der ganze Code der beim Aufruf dieser Funktion ausgeführt werden soll, eingerückt sein muss.
 
  --- /feedback ---
 
@@ -34,13 +34,13 @@ That's correct, calling this function will print `I can code`. You spotted that 
 language: python
 ---
 
-def awesome(): print('I can code')
+def prima(): print('Ich kann programmieren')
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, the layout in this example would cause an error.
+ Nicht ganz, die Einrücktiefe in diesem Beispiel würde einen Fehler verursachen.
 
  --- /feedback ---
 
@@ -51,13 +51,13 @@ def awesome(): print('I can code')
 language: python
 ---
 
-def awesome() print('I can code')
+def prima() print('Ich kann programmieren')
 
 --- /code ---
 
  --- feedback ---
 
-Not quite, there is something missing from the function definition that woud cause an error.
+Nicht ganz, in der Funktionsdefinition fehlt etwas, das einen Fehler verursachen würde.
 
  --- /feedback ---
 
