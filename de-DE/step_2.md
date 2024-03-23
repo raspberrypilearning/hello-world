@@ -2,18 +2,18 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-It's traditional to write a program to output 'Hello world!' when you learn a new programming language.
+Es ist Tradition, ein Programm zu schreiben, das „Hallo Welt!“ ausgibt, wenn Du eine neue Programmiersprache lernst.
 </div>
 <div>
 
-![The code editor output area showing the two printed lines of text and emojis.](images/say_hello.png){:width="200px"}
+![Der Ausgabebereich des Code-Editors mit den beiden ausgegebenen Zeilen mit Text und Emojis.](images/say_hello.png){:width="200px"}
 
 </div>
 </div>
 
 --- task ---
 
-Öffne das [Hallo 🌍🌎🌏 Starterprojekt](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
+Öffne das [Hallo 🌍🌎🌏 Starterprojekt](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. Der Code-Editor wird in einem anderen Tab im Browser geöffnet.
 
 ![The code editor with project starter code on the left in the code area. Auf der rechten Seite befindet sich der leere Ausgabebereich.](images/starter_project.png)
 
@@ -51,7 +51,7 @@ In Python gibt `print()` Text (Wörter oder Zahlen) auf dem Bildschirm aus.
 
 --- task ---
 
-Find the `# Put code to run below here` line.
+Suchen die Zeile mit `# Füge hier den Code ein, der ausgeführt werden soll`.
 
 Klicke unterhalb dieser Zeile. Das blinkende `|` ist der Cursor und zeigt an, wo Du tippen wirst.
 
@@ -69,7 +69,7 @@ language: python filename: main.py line_numbers: true line_number_start: 17
 line_highlights: 18
 ---
 
-# Put code to run under here
+# Füge hier den Code ein, der ausgeführt werden soll
 print('Hallo')
 
 --- /code ---
@@ -79,7 +79,7 @@ print('Hallo')
 title: Sonderzeichen auf einer deutschen Tastatur eingeben
 ---
 
-Auf einer deutschen Tastatur befinden sich die linken `(` und die rechten `)` runden Klammern auf den <kbd>8</kbd> und <kbd>9</kbd> Tasten. To type a left round bracket, hold down the <kbd>Shift</kbd> key (next to <kbd>Z</kbd>) and then tap <kbd>9</kbd>. The single quote `'` is on the same row as the <kbd>L</kbd> key, just before the <kbd>Enter</kbd> key. Das Komma `,` ist neben dem <kbd>M</kbd>.
+Auf einer deutschen Tastatur befinden sich die linken `(` und die rechten `)` runden Klammern auf den <kbd>8</kbd> und <kbd>9</kbd> Tasten. Um eine linke runde Klammer zu tippen, halte die <kbd>Umschalt</kbd> Taste gedrückt (neben dem <kbd><</kbd>) und tippe dann die <kbd>8</kbd>. Das einfache Anführungszeichen `'` befindet sich in derselben Zeile wie die Taste <kbd>Ä</kbd>, direkt vor der <kbd>Eingabe</kbd> Taste. Das Komma `,` ist neben dem <kbd>M</kbd>.
 
 --- /collapse ---
 
@@ -87,7 +87,7 @@ Auf einer deutschen Tastatur befinden sich die linken `(` und die rechten `)` ru
 
 --- task ---
 
-**Test:** Klicke auf den **Ausführen** Knopf, um Deinen Code auszuführen. In the code editor, the output will appear on the right:
+**Test:** Klicke auf den **Ausführen** Knopf, um Deinen Code auszuführen. Im Code-Editor erscheint rechts die Ausgabe:
 
 ![Das mit „Hallo“ hervorgehobene Ausführungssymbol wird im Ausgabebereich angezeigt. ](images/run_hello.png)
 
@@ -99,21 +99,21 @@ Auf einer deutschen Tastatur befinden sich die linken `(` und die rechten `)` ru
 
 ## 🌍🌎🌏 ausgeben
 
-In Python wird eine **Variable** zum Speichern von Werten wie Text oder Zahlen verwendet. Variablen erleichtern Menschen das Lesen von Code. Du kannst dieselbe Variable an vielen Stellen in Deinem Code verwenden. Choosing a sensible name for a variable makes it easier for you to remember what it is for.
+In Python wird eine **Variable** zum Speichern von Werten wie Text oder Zahlen verwendet. Variablen erleichtern Menschen das Lesen von Code. Du kannst dieselbe Variable an vielen Stellen in Deinem Code verwenden. Einen sinnvollen Namen für eine Variable zu wählen hilft Dir, dich leichter zu erinnern, wozu sie dient.
 
-We have included some variables that store emoji characters.
+Wir haben einige Variablen eingefügt, die Emoji-Zeichen speichern.
 
 --- task ---
 
-In your code editor, scroll to the lines with the emojis stored into two different variables. Find the variable `world`, which stores the text '🌍🌍🌍'.
+Blättere im Code Editor zu den Zeilen, in denen die Emojis in zwei verschiedenen Variablen gespeichert sind. Suche die Variable `welt`, die den Text „🌍🌍🌍“ speichert. (Anmerkung: in Python werden Variablennamen normalerweise mit Kleinbuchstaben angefangen).
 
 --- /task ---
 
 --- task ---
 
-You can `print()` more than one item at a time by including a comma `,` in between the items. `print()` fügt zwischen jedem Element ein Leerzeichen ein.
+Du kannst mit `print()` mehr als ein Element gleichzeitig ausgeben, indem Du zwischen den Elementen ein Komma `,` einfügst. `print()` fügt zwischen jedem Element ein Leerzeichen ein.
 
-Change your code to also `print()` the contents of the `world` variable:
+Ändere Deinen Code so, dass `print()` auch den Inhalt der Variablen `welt` ausgibt:
 
 --- code ---
 ---
@@ -121,12 +121,12 @@ language: python filename: main.py line_numbers: true line_number_start: 17
 line_highlights: 18
 ---
 
-# Put code to run under here
+# Füge hier den Code ein, der ausgeführt werden soll
 print('Hallo', welt)
 
 --- /code ---
 
-**Tip:** `'Hello'` is a text string because it has single quotes around it, whereas `world` is a variable so the value stored in it will be printed.
+**Tipp:** `'Hallo'` ist ein Text, da in einfache Anführungszeichen gesetzt, während `welt` eine Variable ist, sodass der darin gespeicherte Wert ausgegeben wird.
 
 --- /task ---
 
