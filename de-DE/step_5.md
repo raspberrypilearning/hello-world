@@ -6,7 +6,7 @@ Gebe weitere Sätze aus Deinem Projekt aus.
 </div>
 <div>
 
-![Some new print lines in the code editor output area with emoji and text sentences.](images/sentence_starter.png){:width="300px"} 
+![Einige neue Zeilen im Ausgabebereich des Code-Editors mit Emoji- und Textsätzen.](images/sentence_starter.png){:width="300px"} 
 
 </div>
 </div>
@@ -21,9 +21,9 @@ language: python filename: main.py line_numbers: true line_number_start: 29
 line_highlights: 30-32
 ---
 
-roll_dice()  # Call the roll dice function print('I ❤️ ...')   
-print('... makes me 😃')   
-print('I\'d like to make ... with', python)
+wuerfel_werfen()  # rufe die Funktion zum Würfel werfen auf print('Ich ❤️ ...')   
+print('... macht mich 😃')   
+print('Als Nächstes mache ich ... mit', python)
 
 --- /code ---
 
@@ -43,7 +43,7 @@ Das Emoji <span style="color: #0faeb0">gelbes Herz 💛</span> wird oft verwende
 
 Welche Nachricht würdest Du Freunden senden, um sie aufzuheitern? Welches Emoji würdest Du wählen?
 
-Scroll to the **emoji** section in the code editor to see the emojis and example variables that you can use. Kopiere alle die Du möchtest und speichere sie in einer Variable oder füge sie direkt Deinem Code hinzu.
+Blättere im Code-Editor zum Abschnitt **Emoji**, um die Emojis und Beispiele für Variablen, die Du verwenden kannst, anzuzeigen. Kopiere alle die Du möchtest und speichere sie in einer Variable oder füge sie direkt Deinem Code hinzu.
 
 Du kannst dem Abschnitt **Emoji** weitere Emojis hinzufügen. Verwende diese [Emoji Liste](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"}, um ein paar auszusuchen.
 
