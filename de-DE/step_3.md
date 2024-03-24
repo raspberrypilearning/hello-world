@@ -93,17 +93,17 @@ You can also switch between colour modes, click on the **Light & Dark** buttons 
 
 --- /task ---
 
-The line `from datetime import *` at the top of the **main.py** tab includes a library with helpful functions for getting the current date and time.
+Die Zeile `from datetime import *` oben auf dem **main.py** Tab enthält eine Bibliothek mit hilfreichen Funktionen zum Abrufen des aktuellen Datums und der aktuellen Uhrzeit.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-One of the great things about Python is all the <span style="color: #0faeb0">**libraries**</span> of code that are available to use. A Python library allows you to easily use code that other people have written. There are libraries for drawing charts and graphs, making art, doing calculations, and lots more.
+Eines der großartigen Dinge an Python sind die vielen <span style="color: #0faeb0">**Bibliotheken**</span>, die man verwenden kann. Eine Python Bibliothek erlaubt es, Code zu verwenden, den andere geschrieben haben. Es gibt Bibliotheken zum Zeichnen von Diagrammen und Grafiken, zum Erstellen von Kunstwerken, zum Durchführen von Berechnungen und vielem mehr.
 </p>
 
 --- task ---
 
-Add another line to your code to `print` the current date and time.
+Füge Deinem Code eine weitere Zeile hinzu, um mit `print` das aktuelle Datum und die aktuelle Uhrzeit auszugeben.
 
-Get the current date and time by using the `now()` function from the `datetime` library:
+Ruf das aktuelle Datum und die aktuelle Uhrzeit ab, indem Du die Funktion `now()` aus der Bibliothek `datetime` verwendest:
 
 --- code ---
 ---
@@ -117,15 +117,15 @@ print('The date and time is', datetime.now())  # Print the current date and time
 
 --- /code ---
 
-**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the part before the `#`.
+**Tipp:** Du musst die Kommentare nicht eingeben. Sie dienen nur dazu, Dir das Verständnis des Codes zu erleichtern. Gib einfach den Code vor dem `#` ein.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code a couple of times to see the time update.
+**Test:** Führe Deinen Code ein paar Mal aus, um die Zeitaktualisierung zu sehen.
 
-**Debug:** Check that you have a fullstop `.` between `datetime` and `now`. Check all the punctuation carefully.
+**Fehlersuche:** Achte darauf, dass Du einen Punkt `.` zwischen `datetime` und `now` stehen hast. Überprüfe alle Satzzeichen sorgfältig.
 
 --- /task ---
 
