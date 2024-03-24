@@ -83,7 +83,7 @@ Du kannst auch Klammern verwenden, wenn Du die Reihenfolge steuern möchten, in 
 
 --- task ---
 
-On the code editor, you might find the text too big or too small to read. You can easily change these settings to suit your preference.
+Im Code Editor ist der Text möglicherweise zu groß oder zu klein zum Lesen. Du kannst diese Einstellungen ganz einfach nach Belieben ändern.
 
 **Tip:** Click on the **Settings menu**  on the left of your code editor. Then click on any of the **Text Size** buttons to change the size of the text.
 
