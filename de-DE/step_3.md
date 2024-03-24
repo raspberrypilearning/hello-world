@@ -2,7 +2,7 @@
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Python is great at working with numbers and dates.
+Python eignet sich hervorragend für die Arbeit mit Zahlen und Datumsangaben.
 </div>
 <div>
 
@@ -11,21 +11,21 @@ Python is great at working with numbers and dates.
 </div>
 </div>
 
-In Python you can use maths operators to do sums:
+In Python kannst Du mathematische Operatoren verwenden, um Rechenergebnisse zu erzeugen:
 
-| + | add |   
-| - | subtract |   
-| * | multiply |   
-| / | divide |   
-| ** | to the power |
+| + | addieren |   
+| - | subtrahieren |   
+| * | multiplizieren |   
+| / | dividieren |   
+| ** | Exponent |
 
-### Create a calculation
+### Erstelle eine Berechnung
 
 --- task ---
 
-Add another two `print()` lines to your code including a sum for Python to work out:
+Füge Deinem Code zwei weitere Zeilen mit `print()` Ausdrücken hinzu, einschließlich einer Summe, die Python berechnen kann:
 
-**Tip:** To get a `*` symbol press <kbd>Shift</kbd> and <kbd>8</kbd> at the same time.
+**Tipp:** Um das `*` Symbol zu erhalten, halte <kbd>Umschalten</kbd> gedrückt und klicke das <kbd>+</kbd> (neben der Enter Taste).
 
 --- code ---
 ---
@@ -33,51 +33,51 @@ language: python filename: main.py line_numbers: true line_number_start: 18
 line_highlights: 20-21
 ---
 
-print('Hello', world)   
-print('Welcome to', python)   
-print(python, 'is very good at maths!')   
-print(230 * 5782 ** 2 / 23781)  # Print the result of the sum
+print('Hallo', welt)   
+print('Willkommen bei', python)   
+print(python, 'ist sehr gut in Mathe!')   
+print(230 * 5782 ** 2 / 23781)  # Gib das Ergebnis der Rechnung aus
 
 --- /code ---
 
-**Tip:** You don't need to type the comments, they are just there to help you understand the code. Just type the code before the `#`.
+**Tipp:** Du musst die Kommentare nicht eingeben. Sie dienen nur dazu, Dir das Verständnis des Codes zu erleichtern. Gib einfach den Code vor dem `#` ein.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code. Did Python calculate the sum correctly? Only joking! Python does the hard maths for you so you don't need to work it out.
+**Test:** Führe Deinen Code aus. Hat Python richtig gerechnet? Nur ein Scherz! Python erledigt die schwierigen Berechnungen für Dich, sodass Du nicht selbst rechnen musst.
 
-**Debug:**
+**Fehlersuche:**
 
 --- collapse ---
 ---
-title: I have a syntax error
+title: Ich habe einen Syntaxfehler
 ---
 
-Make sure that you have added a comma `,` between the items in `print()` and that you have spelled `python` correctly.
+Achte darauf, dass Du in dem Aufruf von `print()` ein Komma `,` zwischen den Elementen gesetzt hast und `python` richtig geschrieben ist.
 
 --- /collapse ---
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Japanese computer scientist <span style="color: #0faeb0">**Emma Haruka Iwao**</span> used a computer to calculate the value of Pi (*π*) to 31 trillion digits. That answer is so long that it would take over 300,000 years just to say it! 
+Die japanische Informatikerin <span style="color: #0faeb0">**Emma Haruka Iwao**</span> berechnete mit einem Computer den Wert von Pi (*π*) auf 31 Billionen Stellen. Diese Antwort ist so lang, dass es über 300.000 Jahre dauern würde, sie nur auszusprechen! 
 </p>
 
 --- task ---
 
-Try changing the sum that Python does to a complicated one!
+Versuche mal, die Rechnung, die Python macht, komplizierter zu machen!
 
-You can also use brackets if you want to control the order that Python calculates the sum: `print( (2 + 4) * (5 + 3) )`.
+Du kannst auch Klammern verwenden, wenn Du die Reihenfolge steuern möchten, in der Python das Ergebnis berechnet: `print( (2 + 4) * (5 + 3) )`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code and get Python to calculate your sum.
+**Test:** Führe Deinen Code aus und lass Python das Ergebnis berechnen.
 
-**Debug:** Make sure your sum has a left and right round bracket around it `( 2 * 45 )`. If you use extra brackets to control the order, make sure you have a right bracket to match every left bracket.
+**Fehlersuche:** Achte darauf, dass Dein Rechnungsausdruck linke und rechte runde Klammer hat `( 2 * 45 )`. If you use extra brackets to control the order, make sure you have a right bracket to match every left bracket.
 
 --- /task ---
 
