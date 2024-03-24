@@ -1,31 +1,31 @@
-## Roll a dice 🎲
+## Wirf einen Würfel 🎲
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Create a function for rolling a dice using random numbers. 
+Erstelle eine Funktion zum Würfeln mithilfe von Zufallszahlen. 
   
 In Python:
-  - **functions**, defined with `def`, are like 'my blocks' in Scratch,
-  - `randint` is like 'random' in Scratch, and
-  - `input` is like 'ask' in Scratch.
+  - sind **Funktionen**, definiert durch `def`, wie „Meine Blöcke“ in Scratch,
+  - `randint` ist wie 'Zufallszahl' in Scratch, und
+  - `input` ist wie 'Frage' in Scratch.
 
 </div>
 <div>
 
-![The text output area with additional lines to ask the user to input the biggest number for their dice and the response with the random number.](images/roll_dice.png){:width="300px"} 
+![Der Textausgabebereich mit zusätzlichen Zeilen, um den Benutzer aufzufordern, die größte Zahl für seine Würfel einzugeben, und die Antwort mit der Zufallszahl.](images/roll_dice.png){:width="300px"} 
 
 </div>
 </div>
 
-In Python you **call** a **function()** to perfom an action. You have already used the `print()` function to output text.
+In Python kannst Du eine **funktion()** **aufrufen**, um eine Aktion auszuführen. Du hast bereits die Funktion `print()` zum Ausgeben von Text verwendet.
 
-You can **define** a new **function** to group code together so that you can name it and reuse it.
+Du kannst eine neue **Funktion** **definieren**, um Code zu gruppieren, sodass Du ihn benennen und wiederverwenden kannst.
 
-### Define your function
+### Definiere Deine Funktion
 
 --- task ---
 
-Functions need to be defined before you can call them. Look for the comment in the **main.py** file that says `# Function definitions`.
+Funktionen müssen definiert werden, bevor Du sie aufrufen kannst. Look for the comment in the **main.py** file that says `# Function definitions`.
 
 Define a new function called `roll_dice()` that uses the `randint()` function from the `random` library, to generate a random 'integer' (whole number) from 1 to 6 and output it to the screen.
 
