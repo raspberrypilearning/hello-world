@@ -25,9 +25,9 @@ Du kannst eine neue **Funktion** **definieren**, um Code zu gruppieren, sodass D
 
 --- task ---
 
-Funktionen müssen definiert werden, bevor Du sie aufrufen kannst. Look for the comment in the **main.py** file that says `# Function definitions`.
+Funktionen müssen definiert werden, bevor Du sie aufrufen kannst. Finde in der Datei **main.py** den Kommentar `# Funktionsdefinitionen`.
 
-Define a new function called `roll_dice()` that uses the `randint()` function from the `random` library, to generate a random 'integer' (whole number) from 1 to 6 and output it to the screen.
+Definiere eine neue Funktion namens `wuerfel_werfen()`, welche die Funktion `randint()` aus der Bibliothek `random` verwendet, um eine zufällige ganze Zahl (engl.: „integer“) von 1 bis 6 zu erzeugen und auf dem Bildschirm auszugeben.
 
 --- code ---
 ---
@@ -35,7 +35,7 @@ language: python filename: main.py line_numbers: true line_number_start: 15
 line_highlights: 16-17
 ---
 
-# Function definitions
+# Funktionsdefinitionen
 def roll_dice():  # Don't forget the colon at the end of this line   
 print('You rolled a', randint(1, 6))  # randint(1, 6) is used to give a number between 1 and 6.
 
