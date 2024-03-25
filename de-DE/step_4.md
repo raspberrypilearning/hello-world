@@ -36,21 +36,21 @@ line_highlights: 16-17
 ---
 
 # Funktionsdefinitionen
-def roll_dice():  # Don't forget the colon at the end of this line   
-print('You rolled a', randint(1, 6))  # randint(1, 6) is used to give a number between 1 and 6.
+def wuerfel_werfen(): # Vergiss nicht den Doppelpunkt am Ende dieser Zeile   
+print('Das hast Du gewürfelt:', randint(1, 6)) # randint(1, 6) wird verwendet, um eine Zahl zwischen 1 und 6 zu erzeugen.
 
 --- /code ---
 
-The line under `def roll_dice():` is **indented**. To do this, use the <kbd>Tab</kbd> character on your keyboard (usually above <kbd>CAPSLOCK</kbd> on the keyboard). Indenting code tells Python that the indented lines are part of the function.
+Die Zeile unter `def wuerfel_werfen():` ist **eingerückt**. Verwende dazu die <kbd>Tab</kbd> Taste auf Deiner Tastatur (normalerweise über der <kbd>Feststelltaste</kbd> auf der Tastatur). Durch das Einrücken von Code wird Python mitgeteilt, dass die eingerückten Zeilen Teil der Funktion sind.
 
-**Tip:** The underscore `_` is used between words in variable and function names in Python to make them easier to read. You can't use a space.
+**Tipp:** Der Unterstrich `_` wird in Python zwischen Wörtern in Variablen- und Funktionsnamen verwendet, um sie leichter lesbar zu machen. Leerzeichen darfst Du dafür nicht verwenden.
 
 --- collapse ---
 ---
-title: Typing special characters on a UK or US keyboard
+title: Sonderzeichen auf einer deutschen Tastatur eingeben
 ---
 
-On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next to the <kbd>L</kbd> key: hold <kbd>Shift</kbd> and tap <kbd>;</kbd> to type a `:`. The underscore `_` is on the same key as the `-`, next to the <kbd>0</kbd>, hold <kbd>Shift</kbd> and tap <kbd>-</kbd> to type an `_`.
+On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next to the <kbd>L</kbd> key: hold <kbd>Shift</kbd> and tap <kbd>;</kbd> to type a `:`. Der Unterstrich `_` ist auf der gleichen Taste wie `-`, neben der rechten <kbd>Umschalttaste</kbd>. Halte <kbd>Umschalten</kbd> gedrückt und tippe <kbd>-</kbd> um ein `_` zu schreiben.
 
 --- /collapse ---
 
@@ -58,32 +58,32 @@ On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next 
 
 --- task ---
 
-**Test:** If you ‘Run’ your code now, it won't roll a dice. That’s because you have defined the `roll_dice()` function, but not called it yet.
+**Test:** Wenn Du jetzt Deinen Code ausführst, wird nicht gewürfelt. Das liegt daran, dass Du Deine Funktion `wuerfel_werfen()` zwar definiert hast, sie aber noch nicht aufgerufen hast.
 
-**Debug:**
+**Fehlersuche:**
 
 --- collapse ---
 ---
-title: I have a syntax error
+title: Ich habe einen Syntaxfehler
 ---
 
-- Make sure you have an underscore `_` between roll and dice to make the function name.
+- Achte darauf, dass im Funktionsnamen zwischen „wuerfel“ und „werfen“ ein Unterstrich `_` steht.
 
-- Make sure you have a colon `:` at the end of the line.
+- Achte darauf, dass am Ende der Zeile ein Doppelpunkt `:` steht.
 
-- Check that the line under `def roll_dice()` is indented. It's really common to get this wrong in Python, so make sure to check.
+- Überprüfe, ob die Zeile unter `def wuerfel_werfen():` eingerückt ist. Das ist ein wirklich häufig gemachter Fehler in Python. Sieh also nochmal nach.
 
-![The code editor showing the line of code inside the <code>roll_dice</code> function has not been indented. The line of code with the error is highlighted. The code has been run, with the error 'SyntaxError: bad input on line 17 in main.py'.](images/indent_error.png)
+![Der Code Editor, der die nicht eingerückte Codezeile innerhalb der Funktion <code>wuerfel_werfen</code> anzeigt. Die Codezeile mit dem Fehler wird hervorgehoben. The code has been run, with the error 'SyntaxError: bad input on line 17 in main.py'.](images/indent_error.png)
 
 --- /collapse ---
 
 --- /task ---
 
-### Call your function
+### Ruf Deine Funktion auf
 
 --- task ---
 
-To use a function, you need to **call** it in the code. Go to the end of your code and add a new line to call the `roll_dice()` function:
+Um eine Funktion zu verwenden, musst Du sie im Code **aufrufen**. Geh bis zum Ende Deines Codes und füge eine neue Zeile hinzu, um die Funktion `wuerfel_werfen()` aufzurufen:
 
 --- code ---
 ---
@@ -91,9 +91,9 @@ language: python filename: main.py line_numbers: true line_number_start: 25
 line_highlights: 27
 ---
 
-print('The date and time is', datetime.now())
+print('Datum und die Uhrzeit sind', datetime.now())
 
-roll_dice()  # Call the roll dice function
+wuerfel_werfen() # Rufe die würfeln Funktion auf
 
 --- /code ---
 
@@ -101,21 +101,21 @@ roll_dice()  # Call the roll dice function
 
 --- task ---
 
-**Test:** Run your project several times to see the random dice roll each time.
+**Test:** Führe Dein Projekt mehrmals aus, um zufällige Würfelwürfe zu sehen.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Uses of random numbers include cryptography, data science, and adding variety into games and computer art. Computers generate <span style="color: #0faeb0">**random numbers**</span> using an algorithm. For numbers that are really random, you need an unpredictable input from the real world.
+Zu den Einsatzmöglichkeiten von Zufallszahlen gehören Kryptographie, Datenwissenschaft und um Abwechslung in Spielen und Computerkunst zu erzeugen. Computer erzeugen mithilfe eines Algorithmus <span style="color: #0faeb0">**Zufallszahlen**</span>. Für Zahlen, die wirklich zufällig sind, benötigst Du eine unvorhersehbare Eingabe aus der realen Welt.
 </p>
 
-### Use 🔥🔥🔥 for the number rolled
+### Verwende 🔥🔥🔥 für die gewürfelte Zahl
 
 --- task ---
 
-Your function can use the 🔥 emoji variable. The code `print(fire * 3)` outputs three fire emojis '🔥🔥🔥'. You need to output the correct number of emojis to match the random number rolled by the dice.
+Deine Funktion kann die Emoji-Variable 🔥 verwenden. Der Code `print(feuer * 3)` gibt drei Feuer-Emojis „🔥🔥🔥“ aus. Du musst die richtige Anzahl an Emojis ausgeben, um gewürfelten Zufallszahl zu entsprechen.
 
-Change your code to save the value returned by `randint()` in a variable called `roll`. Use that variable to print out the number rolled with the matching number of 🔥 emojis.
+Ändere Deinen Code, um den von `randint()` zurückgegebenen Wert in einer Variablen namens `wurf` zu speichern. Verwende diese Variable, um die gewürfelte Zahl mit der entsprechenden Anzahl an 🔥-Emojis auszudrucken.
 
 --- code ---
 ---
@@ -123,31 +123,31 @@ language: python filename: main.py line_numbers: true line_number_start: 15
 line_highlights: 17-18
 ---
 
-# Function definitions
-def roll_dice(): roll = randint(1, 6)  # Generate a random number between 1 and 6 and store it in the variable 'roll' print('You rolled a', roll, fire * roll)  # Repeat the fire emoji to match the random dice roll
+# Funktionsdefinitionen
+def wuerfel_werfen(): wurf = randint(1, 6) # Erzeuge eine Zufallszahl zwischen 1 und 6 und speichere sie in der Variable 'wurf' print('Das hast Du gewürfelt:', wurf, feuer * wurf) # Wiederhole das Feuer-Emoji so oft wie es der gewürfelten Zahl entspricht
 
 --- /code ---
 
-**Tip** You can use `star` or `heart` instead of `fire` if you prefer, by creating your own emoji variables.
+**Tipp** Erstelle Deine eigenen Emoji Variablen `stern` oder `herz` und nutze diese anstelle von `feuer`.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Test your project a few times. Make sure you understand how the code works.
+**Test:** Teste Dein Projekt ein paar Mal. Achte darauf, dass Du verstehst, wie der Code funktioniert.
 
 --- /task ---
 
-### Choose the number of sides on the dice
+### Wähle die Anzahl der Würfelseiten
 
-Upgrade your dice so that the user can choose the maximum number.
+Werte Deinen Würfel auf, sodass der Benutzer die maximale Anzahl auswählen kann.
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Lots of games use many-sided dice. In the physical world, dice are made from regular geometric shapes. Common dice include D6, D12, and D20. On a computer, you can generate a <span style="color: #0faeb0">random</span> number to make a fair dice with any number of sides.</p>
+Viele Spiele verwenden Würfel mit vielen Seiten. In der echten Welt bestehen Würfel aus regelmäßigen geometrischen Formen. Zu den üblichen Würfeln gehören W6, W12 und W20. Auf einem Computer kannst Du eine <span style="color: #0faeb0">Zufallszahl</span> generieren, um einen fairen Würfel mit beliebig vielen Seiten zu erstellen.</p>
 
 --- task ---
 
-The `input()` function asks the user a question and then returns their answer.
+Die Funktion `input()` stellt dem Benutzer eine Frage und gibt dann seine Antwort zurück.
 
 **Add** code to ask the user for the biggest number on their dice and then save the result in a variable called `max` and `print` the number chosen into the output area:
 
