@@ -111,9 +111,9 @@ language: python filename: main.py line_numbers: true line_number_start: 20
 line_highlights: 22
 ---
 
-print(python, 'is very good at maths!')    
-print(230 * 5782 ** 2 / 23781)  # Print the result of the sum     
-print('The date and time is', datetime.now())  # Print the current date and time
+print(python, 'ist sehr gut in Mathe!')    
+print(230 * 5782 ** 2 / 23781)  # Gib das Ergebnis der Rechnung aus     
+print('Datum und Uhrzeit sind', datetime.now())  # Gib aktuelles Datum und Uhrzeit aus
 
 --- /code ---
 
