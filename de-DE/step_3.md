@@ -1,4 +1,4 @@
-## Sums and dates
+## Rechnen und Daten
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
@@ -6,7 +6,7 @@ Python eignet sich hervorragend für die Arbeit mit Zahlen und Datumsangaben.
 </div>
 <div>
 
-![The text output area with five printed lines showing new sum and current date outputs.](images/sums_dates.png){:width="300px"} 
+![Der Textausgabebereich mit fünf Zeilen, die neue Rechnungs- und aktuelle Datumsausgaben anzeigen.](images/sums_dates.png){:width="300px"} 
 
 </div>
 </div>
@@ -77,7 +77,7 @@ Du kannst auch Klammern verwenden, wenn Du die Reihenfolge steuern möchten, in 
 
 **Test:** Führe Deinen Code aus und lass Python das Ergebnis berechnen.
 
-**Fehlersuche:** Achte darauf, dass Dein Rechnungsausdruck linke und rechte runde Klammer hat `( 2 * 45 )`. If you use extra brackets to control the order, make sure you have a right bracket to match every left bracket.
+**Fehlersuche:** Achte darauf, dass Dein Rechnungsausdruck linke und rechte runde Klammer hat `( 2 * 45 )`. Wenn Du zusätzliche Klammern verwendest, um die Reihenfolge zu kontrollieren, achte darauf, dass Du für jede linke Klammer eine rechte passende rechte Klammer setzt.
 
 --- /task ---
 
@@ -85,7 +85,7 @@ Du kannst auch Klammern verwenden, wenn Du die Reihenfolge steuern möchten, in 
 
 Im Code Editor ist der Text möglicherweise zu groß oder zu klein zum Lesen. Du kannst diese Einstellungen ganz einfach nach Belieben ändern.
 
-**Tip:** Click on the **Settings menu**  on the left of your code editor. Then click on any of the **Text Size** buttons to change the size of the text.
+**Tipp:** Klick auf das **Einstellungen Menü**  links in Deinem Code Editor. Klick dann auf eine der **Textgröße** Schaltflächen, um die Größe des Texts zu ändern.
 
 ![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png)
 
