@@ -50,7 +50,7 @@ Die Zeile unter `def wuerfel_werfen():` ist **eingerückt**. Verwende dazu die <
 title: Sonderzeichen auf einer deutschen Tastatur eingeben
 ---
 
-On a UK or US keyboard, the colon `:` is on the same key as the semicolon, next to the <kbd>L</kbd> key: hold <kbd>Shift</kbd> and tap <kbd>;</kbd> to type a `:`. Der Unterstrich `_` ist auf der gleichen Taste wie `-`, neben der rechten <kbd>Umschalttaste</kbd>. Halte <kbd>Umschalten</kbd> gedrückt und tippe <kbd>-</kbd> um ein `_` zu schreiben.
+Auf der deutschen Tastatur findest Du den Doppelpunkt `:` auf derselben Taste wie der Punkt. Die Taste befindet sich unterhalb der <kbd>L</kbd> Taste. Halte die <kbd>Umschalt</kbd> Taste gedrückt und tippe dann <kbd>.</kbd> um ein `:` zu schreiben. Der Unterstrich `_` ist auf der gleichen Taste wie `-`, neben der rechten <kbd>Umschalttaste</kbd>. Halte <kbd>Umschalten</kbd> gedrückt und tippe <kbd>-</kbd> um ein `_` zu schreiben.
 
 --- /collapse ---
 
@@ -73,7 +73,7 @@ title: Ich habe einen Syntaxfehler
 
 - Überprüfe, ob die Zeile unter `def wuerfel_werfen():` eingerückt ist. Das ist ein wirklich häufig gemachter Fehler in Python. Sieh also nochmal nach.
 
-![Der Code Editor, der die nicht eingerückte Codezeile innerhalb der Funktion <code>wuerfel_werfen</code> anzeigt. Die Codezeile mit dem Fehler wird hervorgehoben. The code has been run, with the error 'SyntaxError: bad input on line 17 in main.py'.](images/indent_error.png)
+![Der Code Editor, der die nicht eingerückte Codezeile innerhalb der Funktion <code>wuerfel_werfen</code> anzeigt. Die Codezeile mit dem Fehler wird hervorgehoben. Der Code wurde mit dem Fehler „SyntaxError: bad input on line 17 in main.py'“ ausgeführt.](images/indent_error.png)
 
 --- /collapse ---
 
@@ -149,11 +149,11 @@ Viele Spiele verwenden Würfel mit vielen Seiten. In der echten Welt bestehen W�
 
 Die Funktion `input()` stellt dem Benutzer eine Frage und gibt dann seine Antwort zurück.
 
-**Add** code to ask the user for the biggest number on their dice and then save the result in a variable called `max` and `print` the number chosen into the output area:
+**Füge Code hinzu**, um den Benutzer nach der größten Zahl auf seinen Würfeln zu fragen. Speichere das Ergebnis in einer Variable namens `max` und benutze `print` um die gewählte Zahl in dem Ausgabebereich darzustellen:
 
-Change your `roll` variable code to use `max` as the maximum value for `randint` when it generates a random number.
+Ändere Deine Codezeile die `wurf` definiert, um `max` als Maximalwert für `randint` zu verwenden, wenn eine Zufallszahl generiert wird.
 
-When you get input from the user, Python treats it as text. But, `randint` needs an 'integer' (a positive whole number). The `int` function turns the user input into an integer.
+Wenn Du Eingaben vom Benutzer erhältst, behandelt Python diese als Text. Aber `randint` benötigt eine ganze Zahl (engl.: „integer“), die zudem auch nicht negativ sein darf. Die Funktion `int` wandelt die Benutzereingabe in eine ganze Zahl um.
 
 --- code ---
 ---
@@ -161,22 +161,22 @@ language: python filename: main.py line_numbers: true line_number_start: 15
 line_highlights: 18-20
 ---
 
-# Function definitions
+# Funktionsdefinitionen
 
-def roll_dice():   
-max = input('How many sides?:')  # Wait for input from the user    
-print('That\'s a D', max)  # Use the number the user entered    
-roll = randint(1, int(max))  # Use max to determine the number of sides the dice has print('You rolled a', roll, fire * roll)
+def würfel_werfen():   
+max = input('Wie viele Seiten?:')  # Warte auf Eingabe vom Benutzer    
+print('Das ist ein W', max)  # Nutze die Zahl die vom Benutzer eingegeben wurde    
+wurf = randint(1, int(max))  # Benutze max als Anzahl Seiten des Würfels print('Du hast gewürfelt:', wurf, feuer * wurf)
 
 --- /code ---
 
-To print an apostrophe `'` in a word like `That's`, put a backslash `\` before it so Python knows it's part of the text.
+`Tipp:` Wenn Du ein Apostroph <1>'</1> oder Anführungszeichen <1>"</1> ausgeben möchtest, musst Du davor einen Backslash <1>\</1> einfügen, sodass Python weiß, dass es Teil des Textes ist.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your project. When the program reaches the `input` line, it will wait for you to enter a response before continuing. Type your response and then press <kbd>Enter</kbd>, this will allow the program to collect your response. Try it again with a different `input` number.
+**Test:** Führe Deinen Code aus. Wenn das Programm die Eingabezeile `input` erreicht, wartet es darauf, dass Du eine Antwort eingibst, bevor es fortfährt. Gib Deine Antwort ein und drücke dann <kbd>Enter</kbd>. So kann das Programm Deine Antwort erhalten. Versuche es noch einmal mit einer anderen Zahl.
 
 --- /task ---
 
