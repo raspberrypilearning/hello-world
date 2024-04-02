@@ -87,9 +87,9 @@ Im Code Editor ist der Text möglicherweise zu groß oder zu klein zum Lesen. Du
 
 **Tipp:** Klick auf das **Einstellungen Menü**  links in Deinem Code Editor. Klick dann auf eine der **Textgröße** Schaltflächen, um die Größe des Texts zu ändern.
 
-![The code editor with the settings menu expanded, to show the Colour Mode and Text Size options.](images/full_screen.png)
+![Der Code Editor mit Einstellungen Menü aufgeklappt, um die Optionen Farbmodus und Textgröße anzuzeigen.](images/full_screen.png)
 
-You can also switch between colour modes, click on the **Light & Dark** buttons to see the changes.
+Du kannst auch zwischen den Farbmodi wechseln. Klick auf die Schaltflächen **Hell & Dunkel**, um die Änderungen anzuzeigen.
 
 --- /task ---
 
