@@ -1,0 +1,61 @@
+Put code to run under here
+
+Hello
+
+Welcome to
+
+is very good at maths!
+
+Print the result of the sum
+
+The date and time is
+
+Print the current date and time
+
+Function definitions
+
+Don't forget the colon at the end of this line
+
+You rolled a
+
+randint(1, 6) is used to give a number between 1 and 6.
+
+Call the roll dice function
+
+Generate a random number between 1 and 6 and store it in the variable 'roll'
+
+Repeat the fire emoji to match the random dice roll
+
+How many sides?:
+
+Wait for input from the user
+
+That's a D
+
+Use the number the user entered
+
+Use max to determine the number of sides the dice has
+
+I ❤️ ...
+
+... makes me 😃
+
+I'd like to make ... with
+
+I can code
+
+First number:
+
+Second number:
+
+What do you like?
+
+That sounds
+
+You will need to create an emoji variable called 'fun'
+
+('You could make a', python, 'project about', hobby)
+
+Wait for the user to tap Enter
+
+Calls the hobbies function
