@@ -1,61 +1,61 @@
 Füge hier den Code ein, der ausgeführt werden soll
 
-Hello
+Hallo
 
-Welcome to
+Willkommen bei
 
-is very good at maths!
+ist sehr gut in Mathe!
 
 Gib das Ergebnis der Rechnung aus
 
-The date and time is
+Das Datum und die Uhrzeit sind
 
-Print the current date and time
+Gebe das aktuelle Datum und die Uhrzeit aus
 
-Function definitions
+Funktionsdefinitionen
 
 Vergiss nicht den Doppelpunkt am Ende dieser Zeile
 
-You rolled a
+Du hast gewürfelt
 
-randint(1, 6) is used to give a number between 1 and 6.
+randint(1, 6) wird verwendet, um eine Zahl zwischen 1 und 6 zu geben.
 
-Call the roll dice function
+Rufe die würfeln Funktion auf
 
-Generate a random number between 1 and 6 and store it in the variable 'roll'
+Erzeuge eine Zufallszahl zwischen 1 und 6 und speichere diese in der Variable „roll“
 
-Repeat the fire emoji to match the random dice roll
+Wiederhole das Feuer-Emoji so oft wie der zufällige Würfelwurf anzeigt
 
-How many sides?:
+Wie viele Seiten?:
 
 Warte auf Eingabe vom Benutzer
 
-That's a D
+Das ist ein W
 
 Verwende die vom Benutzer eingegebene Zahl
 
-Use max to determine the number of sides the dice has
+Bestimme mit max die Anzahl der Seiten des Würfels
 
-I ❤️ ...
+Ich ❤️ ...
 
-... makes me 😃
+... macht mich 😃
 
-I'd like to make ... with
+Als nächstes mache ich ... mit
 
-I can code
+Ich kann programmieren
 
-First number:
+Erste Zahl:
 
-Second number:
+Zweite Zahl:
 
-What do you like?
+Was macht Dir Spaß?
 
-That sounds
+Das klingt nach
 
-You will need to create an emoji variable called 'fun'
+Du musst eine Emoji-Variable namens „fun“ erstellen
 
-('You could make a', python, 'project about', hobby)
+('Du könntest ein', python, 'Projekt über', hobby, 'machen')
 
 Warte, bis der Benutzer die Eingabetaste drückt
 
-Calls the hobbies function
+Ruft die Funktion hobbies auf
