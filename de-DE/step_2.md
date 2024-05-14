@@ -15,7 +15,7 @@ Es ist Tradition, ein Programm zu schreiben, das „Hallo Welt!“ ausgibt, wenn
 
 Öffne das [Hallo 🌍🌎🌏 Starterprojekt](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. Der Code-Editor wird in einem anderen Tab im Browser geöffnet.
 
-![The code editor with project starter code on the left in the code area. Auf der rechten Seite befindet sich der leere Ausgabebereich.](images/starter_project.png)
+![Der Code-Editor mit Projektstartercode links im Codebereich. Auf der rechten Seite befindet sich der leere Ausgabebereich.](images/starter_project.png)
 
 Wenn Du ein Raspberry Pi Konto hast, kannst Du auf **Speichern** klicken, um eine Kopie in Deinen **Projekten**zu speichern.
 
