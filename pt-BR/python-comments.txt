@@ -1,61 +1,61 @@
-Put code to run under here
+Coloque o código para ser executado logo abaixo
 
-Hello
+Olá
 
-Welcome to
+Bem-vindo ao
 
-is very good at maths!
+é muito bom em matemática!
 
-Print the result of the sum
+Imprima o resultado da soma
 
-The date and time is
+A data e hora são
 
-Print the current date and time
+Imprime a data e hora atuais
 
-Function definitions
+Definições de função
 
-Don't forget the colon at the end of this line
+Não se esqueça dos dois pontos no final desta linha
 
-You rolled a
+Você rolou um
 
-randint(1, 6) is used to give a number between 1 and 6.
+randint(1, 6) é usado para dar um número entre 1 e 6.
 
-Call the roll dice function
+Chama a função rolar dado
 
-Generate a random number between 1 and 6 and store it in the variable 'roll'
+Gere um número aleatório entre 1 e 6 e armazene-o na variável 'rolar'
 
-Repeat the fire emoji to match the random dice roll
+Repita o disparar emoji para corresponder ao rolo de dados aleatório
 
-How many sides?:
+Quantos lados?:
 
-Wait for input from the user
+Aguarde a entrada do usuário
 
-That's a D
+Isso é um D
 
-Use the number the user entered
+Use o número que o usuário digitou
 
-Use max to determine the number of sides the dice has
+Use max para determinar o número de lados que o dado tem
 
-I ❤️ ...
+Eu ❤️ ...
 
-... makes me 😃
+... me faz 😃
 
-I'd like to make ... with
+Eu gostaria de fazer... com
 
-I can code
+Eu posso codificar
 
-First number:
+Primeiro número:
 
-Second number:
+Segundo número:
 
-What do you like?
+Do que você gosta?
 
-That sounds
+Isso soa
 
-You will need to create an emoji variable called 'fun'
+Você precisará criar uma variável de emoji chamada 'diversão'
 
-('You could make a', python, 'project about', hobby)
+('Você poderia fazer um projeto ', python, ' sobre', hobby)
 
-Wait for the user to tap Enter
+Aguarde que o usuário toque em Enter
 
-Calls the hobbies function
+Chame a função de hobbies
