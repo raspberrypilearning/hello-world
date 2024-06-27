@@ -1,19 +1,19 @@
-## Sentence starter
+## Iniciador de frase
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Output more sentences from your project.
+Emita mais frases do seu projeto.
 </div>
 <div>
 
-![Some new print lines in the code editor output area with emoji and text sentences.](images/sentence_starter.png){:width="300px"} 
+![Algumas novas linhas de impressão na área de saída do editor de código com emoji e frases de texto.](images/sentence_starter.png){:width="300px"} 
 
 </div>
 </div>
 
 --- task ---
 
-Add more `print` lines to your code. Here are some sentence starters that you can use:
+Adicione mais linhas ao seu código com `print`. Aqui estão alguns iniciadores de frases que você pode usar:
 
 --- code ---
 ---
@@ -21,31 +21,31 @@ language: python filename: main.py line_numbers: true line_number_start: 29
 line_highlights: 30-32
 ---
 
-roll_dice()  # Call the roll dice function print('I ❤️ ...')   
-print('... makes me 😃')   
-print('I\'d like to make ... with', python)
+rolar_dado() # Chama a função de rolagem de dados print('Eu ❤️ ...')   
+print('... me faz 😃')   
+print('Eu gostaria de fazer com..., python)
 
 --- /code ---
 
-**Tip:** Each use of `print` adds a line inbetween.
+**Dica:** Cada uso de `print()` adiciona uma linha intermediária.
 
-**Tip:** If you need to print an apostrophe `'` then you need to put a backslash `\` before it so Python knows it's part of the text.
+**Dica:** Se você precisa imprimir um apóstrofo `'`, então você precisa colocar uma barra invertida `\` antes dele para que o Python saiba que é parte do texto.
 
-**Tip:** Add a `#` at the beginning of a line to turn it into a comment.
+**Dica:** Adicione um `#` no início de uma linha para transformá-la em um comentário.
 
 --- /task ---
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
 
-The <span style="color: #0faeb0">yellow heart emoji 💛</span> is often used to show friendship and happiness.</p>
+O <span style="color: #0faeb0">emoji de coração amarelo 💛</span> é frequentemente usado para mostrar amizade e felicidade.</p>
 
 --- task ---
 
-What message would you send to a friend to cheer them up? Which emoji would you choose?
+Que mensagem você enviaria para um amigo para animá-lo? Qual emoji você escolheria?
 
-Scroll to the **emoji** section in the code editor to see the emojis and example variables that you can use. Copy the ones you choose and save them to a variable or add them directly to your code.
+Role até a seção **emoji** no editor de código para ver os emojis e as variáveis de exemplo que você pode usar. Copie os que você escolher e salve-os em uma variável ou adicione-os diretamente ao seu código.
 
-You can add more emojis to the **emoji** section. Use this [emoji list](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} to find the ones you want.
+Você pode adicionar mais emojis à seção **emoji**. Use essa [lista de emoji](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} para encontrar o que você deseja.
 
 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳 👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
 
