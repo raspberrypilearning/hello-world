@@ -1,21 +1,21 @@
-world
+mundo
 
 python
 
-roll_dice
+rolar_dado
 
-roll
+rolar
 
-fire
+fogo
 
-max
+maximo
 
-awesome
+incrível
 
-two_dice
+dois_dados
 
-hobbies
+passatempos
 
-hobby
+passatempo
 
-fun
+diversão
