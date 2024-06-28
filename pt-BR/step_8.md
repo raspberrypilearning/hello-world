@@ -26,4 +26,4 @@ Este projeto foi traduzido por voluntários:
 Flavio Miranda Da Silva
 Anáiram
 
-Graças a voluntários, podemos dar às pessoas de todo o mundo a chance de aprender em seu próprio idioma. Você pode nos ajudar a alcançar mais pessoas oferecendo-se para traduzir - mais informações em rpf.io/translate.
+Graças a voluntários, podemos dar às pessoas de todo o mundo a chance de aprender em seu próprio idioma. Você pode nos ajudar a alcançar mais pessoas oferecendo-se para traduzir - mais informações em [rpf.io/translate](https://rpf.io/translate).

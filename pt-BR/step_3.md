@@ -25,7 +25,7 @@ Em Python você pode usar operadores matemáticos para fazer contas:
 
 Adicione outras duas linhas `print()` ao seu código, incluindo uma operação para o Python calcular:
 
-**Dica:**Para obter um símbolo `*` , pressione <kbd>Shift</kbd> e <kbd>8</kbd> ao mesmo tempo.
+**Dica:** Para obter um símbolo `*` , pressione <kbd>Shift</kbd> e <kbd>8</kbd> ao mesmo tempo.
 
 --- code ---
 ---
@@ -80,7 +80,7 @@ Você também pode usar parênteses se quiser controlar a ordem em que o Python 
 
 **Teste:** Execute seu código e faça o Python calcular sua soma.
 
-**Depurar:**Certifique-se de que sua soma tenha um colchete esquerdo e direito em torno dela `( 2 * 45 )`. Se você usar parênteses extras para controlar a ordem, faça com que você tenha um parêntese direito para corresponder a cada parêntese esquerdo.
+**Depurar:** Certifique-se de que sua soma tenha um colchete esquerdo e direito em torno dela `( 2 * 45 )`. Se você usar parênteses extras para controlar a ordem, faça com que você tenha um parêntese direito para corresponder a cada parêntese esquerdo.
 
 --- /task ---
 

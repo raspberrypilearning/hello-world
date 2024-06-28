@@ -139,7 +139,7 @@ def rolar_dado():
 
 --- /code ---
 
-**Dica** Você pode usar `estrelas` ou `coração` em vez de `fogo` se preferir, criando suas próprias variáveis de emoji.
+**Dica:** Você pode usar `estrelas` ou `coração` em vez de `fogo` se preferir, criando suas próprias variáveis de emoji.
 
 --- /task ---
 
