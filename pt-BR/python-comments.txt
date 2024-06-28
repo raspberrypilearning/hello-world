@@ -1,0 +1,61 @@
+Coloque o código para ser executado logo abaixo
+
+Olá
+
+Bem-vindo ao
+
+é muito bom em matemática!
+
+Imprima o resultado da soma
+
+A data e hora são
+
+Imprime a data e hora atuais
+
+Definições de função
+
+Não se esqueça dos dois pontos no final desta linha
+
+Você rolou um
+
+randint(1, 6) é usado para dar um número entre 1 e 6.
+
+Chama a função rolar dado
+
+Gere um número aleatório entre 1 e 6 e armazene-o na variável 'rolar'
+
+Repita o disparar emoji para corresponder ao rolo de dados aleatório
+
+Quantos lados?:
+
+Aguarde a entrada do usuário
+
+Isso é um D
+
+Use o número que o usuário digitou
+
+Use max para determinar o número de lados que o dado tem
+
+Eu ❤️ ...
+
+... me faz 😃
+
+Eu gostaria de fazer... com
+
+Eu posso codificar
+
+Primeiro número:
+
+Segundo número:
+
+Do que você gosta?
+
+Isso soa
+
+Você precisará criar uma variável de emoji chamada 'diversão'
+
+('Você poderia fazer um projeto ', python, ' sobre', hobby)
+
+Aguarde que o usuário toque em Enter
+
+Chame a função de hobbies

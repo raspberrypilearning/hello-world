@@ -1,0 +1,30 @@
+---
+title: "Olá \U0001F30D\U0001F30E\U0001F30F"
+hero_image: images/banner.png
+description: Escreva um projeto Python interativo que usa emojis
+meta_title: Projetos de codificação Python para crianças e adolescentes | Olá Mundo
+meta_description: Aprenda Python com o Raspberry Pi Foundation. Crie um projeto de codificação Python interativo que use emojis.
+version: 4
+listed: true
+copyedit: true
+last_tested: "2021-10-06"
+steps:
+  - title: Você vai fazer
+  - title: Diga olá
+  - title: Somas e datas
+    completion:
+      - engaged
+  - title: Role um dado
+  - title: Iniciador de frase
+    completion:
+      - internal
+  - title: Questionário rápido
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Melhore o seu projeto
+  - title: E agora?
