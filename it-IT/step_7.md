@@ -63,7 +63,7 @@ hobbies() # Chiama la funzione hobbies
 title: Il progetto completo
 ---
 
-Qui puoi visualizzare il [progetto completat](https://editor.raspberrypi.org/en/projects/hello-world-solution){:target="_blank"}.
+Qui puoi visualizzare il [progetto completato](https://editor.raspberrypi.org/en/projects/hello-world-solution){:target="_blank"}.
 
 --- /collapse ---
 
