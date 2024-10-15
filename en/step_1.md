@@ -7,9 +7,6 @@
 Write an interactive program that uses emojis 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿.
 
 --- no-print ---
-### Play 
-
---- task ---
 
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
@@ -20,8 +17,6 @@ Click on the **Run** button
 </iframe>
 </div>
 </div>
-
---- /task ---
 
 --- /no-print ---
 
