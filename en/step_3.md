@@ -13,7 +13,7 @@ You can use **arithmetic operators** such as `+` and `-`  to do calculations:
 
 --- task ---
 
-Add two more `print()` lines to your code including a multiplication for Python to calculate:
+Add two more `print()`{:.language-python} lines to your code including a multiplication for Python to calculate:
 
 --- code ---
 ---
@@ -26,7 +26,7 @@ line_highlights: 20-21
 # Put code to run under here
 print(f'Hello {world}')
 print(f'Welcome to {python}')
-print(f'Python {python} is good at maths!')
+print(f'{python} is good at maths!')
 print(f'{111111111 * 111111111}')
 
 --- /code ---
@@ -49,11 +49,11 @@ Python 🐍 is good at maths!
 
 Python has many **modules** that you can use in your code to help perform certain tasks.
 
-The `datetime` module helps with writing code that uses dates and times.
+The `datetime`{:.language-python} module helps with writing code that uses dates and times.
 
 --- task ---
 
-Add another line to your code to `print` the current date and time by using the `now()` function from the `datetime` library:
+Add another line to your code to `print`{:.language-python} the current date and time by using the `now()`{:.language-python} function from the `datetime`{:.language-python} library:
 
 --- code ---
 ---

@@ -11,7 +11,7 @@ Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/
 
 --- task ---
 
-Find the `# Put code to run below here` line.
+Find the `# Put code to run below here`{:.language-python} line.
 
 Click below that line. The flashing `|` is the cursor and shows where you will type.
 
@@ -25,8 +25,8 @@ Type the code to `print()`{:.language-python} Hello to the screen:
 ---
 language: python
 line_numbers: true
-line_number_start: 10
-line_highlights: 11
+line_number_start: 17
+line_highlights: 18
 ---
 # Put code to run under here.
 print(f'Hello')
@@ -47,7 +47,7 @@ A **variable** is used to store values such as text or numbers. We have included
 
 --- task ---
 
-Change your code to also `print()` the contents of the `world` variable. You can do this by adding the variable name in curly brackets `{}`
+Change your code to also `print()`{:.language-python} the contents of the `world`{:.language-python} variable. You can do this by adding the variable name in curly brackets `{}`{:.language-python}
 
 
 --- code ---
@@ -60,7 +60,7 @@ line_number_start: 17
 print(f'Hello {world}')
 --- /code --- 
 
-The `f` character inside the print lets you easily print variables along with strings of text.
+The `f`{:.language-python} character inside the print lets you easily print variables along with strings of text.
 
 --- /task ---
 
@@ -74,7 +74,7 @@ The `f` character inside the print lets you easily print variables along with st
 
 --- task ---
 
-**Add** another line to your code to `print()` more text and emojis:
+**Add** another line to your code to `print()`{:.language-python} more text and emojis:
 
 --- code ---
 ---

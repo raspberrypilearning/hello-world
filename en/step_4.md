@@ -15,25 +15,25 @@ def add_one_and_one():
     print(x)
 --- /code ---
 
-The name of this function is `add_one_and_one`. 
+The name of this function is `add_one_and_one`{:.language-python}. 
 
 The code for the task you want the function to do needs to be **indented**, which means that you need to add **four spaces** before each line of code.
 
-**Calling** a function runs the code inside it. You **call** a function by using its name. In this case `add_one_and_one()`.
+**Calling** a function runs the code inside it. You **call** a function by using its name. In this case `add_one_and_one()`{:.language-python}.
 
 
 --- task ---
 
-Look for the comment in the **main.py** file that says `# Function definitions`.
+Look for the comment in the **main.py** file that says `# Function definitions`{:.language-python}.
 
-Create a function called `roll_dice()`, that prints out the number 4. 
+Create a function called `roll_dice()`{:.language-python}, that prints out the number 4. 
 
 --- code ---
 ---
 language: python
 line_numbers: true
-line_number_start: 9
-line_highlights: 10, 11
+line_number_start: 15
+line_highlights: 16-18
 ---
 # Function definitions        
 def roll_dice():
@@ -51,8 +51,8 @@ Then, call the function at the bottom of your code.
 ---
 language: python
 line_numbers: true
-line_number_start: 18
-line_highlights: 19
+line_number_start: 24
+line_highlights: 25
 ---
 print(f'The date and time is {datetime.now()}')
 roll_dice()
@@ -67,15 +67,15 @@ roll_dice()
 --- /task ---
 
 --- task ---
-Another module called `random` can be used to create random numbers. 
-Change your code to use the `randint` function to choose a random number between 1 and 6 for the dice roll.
+Another module called `random`{:.language-python} can be used to create random numbers. 
+Change your code to use the `randint`{:.language-python} function to choose a random number between 1 and 6 for the dice roll.
 
 --- code ---
 ---
 language: python
 line_numbers: true
-line_number_start: 10
-line_highlights: 12
+line_number_start: 15
+line_highlights: 17
 ---
 # Function definitions 
 def roll_dice():
@@ -91,14 +91,14 @@ Now when you run your code, a new random number between 1 and 6 will be chosen e
 In Python you can multiply strings such as emojis or whole words by a number, so they print out several times.
 
 --- task ---
-Store the random number in a variable called `roll`.
+Change your function to store the random number in a variable called `roll`{:.language-python}.
 
 --- code ---
 ---
 language: python
 line_numbers: true
-line_number_start: 10
-line_highlights: 12
+line_number_start: 15
+line_highlights: 17
 ---
 # Function definitions        
 def roll_dice():
@@ -107,14 +107,14 @@ def roll_dice():
 --- /task ---
 
 --- task ---
-Multiply the random number stored in `roll` by the 🔥 emoji, and print the result.
+Multiply the random number stored in `roll`{:.language-python} by the 🔥 emoji, and print the result.
 
 --- code ---
 ---
 language: python
 line_numbers: true
-line_number_start: 10
-line_highlights: 13
+line_number_start: 15
+line_highlights: 18
 ---
 # Function definitions        
 def roll_dice():
