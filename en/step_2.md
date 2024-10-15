@@ -9,10 +9,6 @@ Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/
 ![The code editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
 --- /task ---
 
-### Print hello
-
-
-
 --- task ---
 
 Find the `# Put code to run below here` line.
@@ -46,8 +42,6 @@ print(f'Hello')
 ![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png) 
 
 --- /task ---
-
-## Print 🌍🌎🌏
 
 A **variable** is used to store values such as text or numbers. We have included some variables that store emoji characters.
 
