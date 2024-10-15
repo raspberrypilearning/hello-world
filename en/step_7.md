@@ -1,4 +1,6 @@
-## Upgrade your project
+## Challenge
+
+--- challenge ---
 
 --- task ---
 Practice adding more `print` lines to your code. 
@@ -28,6 +30,6 @@ Here is a list of some emojis you might like to use:
 
 --- /task ---
 
-
+--- /challenge ---
 
 
