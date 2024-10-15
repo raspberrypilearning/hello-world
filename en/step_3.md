@@ -51,6 +51,7 @@ Python 🐍 is good at maths!
 Python has many **modules** that you can use in your code to help perform certain tasks. To use a module, you first need to **import** it. 
 
 The `datetime` module helps with writing code that uses dates and times.
+
 --- task ---
 
 Add another line to your code to `print` the current date and time.
@@ -71,7 +72,6 @@ print(f'{111111111 * 111111111}')
 print(f'The date and time is {datetime.now()}')
  
 --- /code ---
-
 --- /task ---
 
 --- task ---
