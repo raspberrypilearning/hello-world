@@ -25,7 +25,7 @@ def roll_dice():
 
 --- task ---
 
-**Test:** Click the **Run** button.
+**Test:** Click the **Run** button and type in a number of sides.
 Ensure you press the <kbd> Enter </kbd> key after inputting how many sides.
 This is what you should see when you run your code.
 
