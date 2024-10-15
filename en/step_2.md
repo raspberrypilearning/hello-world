@@ -1,15 +1,6 @@
 ## Print hello
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
 In Python, `print()`{:.language-python} outputs strings (words or numbers) to the screen.
-</div>
-<div>
-
-![The code editor output area showing the two printed lines of text and emojis.](images/say_hello.png){:width="200px"}
-
-</div>
-</div>
 
 --- task ---
 
@@ -58,9 +49,7 @@ print(f'Hello')
 
 ## Print 🌍🌎🌏
 
-A **variable** is used to store values such as text or numbers. Choosing a sensible name for a variable makes it easier for you to remember what it is for.
-
-We have included some variables that store emoji characters.
+A **variable** is used to store values such as text or numbers. We have included some variables that store emoji characters.
 
 --- task ---
 
@@ -104,8 +93,6 @@ line_highlights: 19
 print(f'Hello {world}')
 print(f'Welcome to {python}')
 --- /code ---
-
-**Tip:** The code you need to type is highlighted in a lighter colour. Code that is not highlighted helps you find where you need to add the new code.
 
 --- /task ---
 
