@@ -28,13 +28,6 @@ Here is a list of some emojis you might like to use:
 
 --- /task ---
 
---- collapse ---
----
-title: Completed project
----
 
-You can view the [completed project here](https://editor.raspberrypi.org/en/projects/hello-world-solution){:target="_blank"}.
-
---- /collapse ---
 
 
