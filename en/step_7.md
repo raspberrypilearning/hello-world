@@ -3,9 +3,7 @@
 --- challenge ---
 
 --- task ---
-Practice adding more `print` lines to your code. 
-
-
+Practise adding more `print` lines to your code. 
 
 Here are some sentence starters that you can use:
 

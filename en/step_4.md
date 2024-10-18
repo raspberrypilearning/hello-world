@@ -23,7 +23,9 @@ The code for the task you want the function to do needs to be **indented**, whic
 
 --- task ---
 
-Look for the comment in the **main.py** file that says `# Function definitions`{:.language-python}.
+Look for the comment in the **main.py** file that says 
+
+`# Function definitions`{:.language-python}.
 
 Create a function called `roll_dice()`{:.language-python}, that prints out the number 4. 
 

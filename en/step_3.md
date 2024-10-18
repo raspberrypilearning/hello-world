@@ -27,7 +27,7 @@ line_highlights: 20-21
 print(f'Hello {world}')
 print(f'Welcome to {python}')
 print(f'{python} is good at maths!')
-print(f'{111111111 * 111111111}')
+print(f'{3 * 9}')
 
 --- /code ---
 
@@ -42,7 +42,7 @@ This is what you should see when you run your code.
 Hello 🌍🌎🌏
 Welcome to Python 🐍
 Python 🐍 is good at maths!
-12345678987654321
+27
 ```
 
 --- /task ---
@@ -53,7 +53,7 @@ The `datetime`{:.language-python} module helps with writing code that uses dates
 
 --- task ---
 
-Add another line to your code to `print`{:.language-python} the current date and time by using the `now()`{:.language-python} function from the `datetime`{:.language-python} library:
+Add another line to your code to `print`{:.language-python} the current date and time by using the `now()`{:.language-python} method from the `datetime`{:.language-python} library:
 
 --- code ---
 ---
@@ -65,7 +65,7 @@ line_highlights: 22
 ---
 
 print(f'{python} is good at maths!')
-print(f'{111111111 * 111111111}')
+print(f'{3 * 9}')
 print(f'The date and time is {datetime.now()}')
  
 --- /code ---
