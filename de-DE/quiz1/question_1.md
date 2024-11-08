@@ -53,7 +53,7 @@ ausgabe('Hallo' welt)
 language: python
 ---
 
-print('Hallo' welt)
+print(f'Hello world')
 
 --- /code ---
 
@@ -70,13 +70,13 @@ print('Hallo' welt)
 language: python
 ---
 
-print('Hallo', welt)
+print(f'Hello{world}')
 
 --- /code ---
 
  --- feedback ---
 
- Das ist richtig, in Python gibt `print` Meldungen auf dem Bildschirm aus. Die Textausgabe steht in einfachen Anführungszeichen `'`, ein Komma trennt die beiden Elemente und stellt ein Leerzeichen bereit, dann wird die Variable `welt` benutzt, welche, wie in deinem Projekt, die gespeicherten Erde Emoji 🌍🌎🌏 enthält.
+ Das ist richtig, in Python gibt `print` Meldungen auf dem Bildschirm aus. The text output is inside single quotes `'` , then the `world` variable contains the earth emoji 🌍🌎🌏.
 
  --- /feedback ---
 
@@ -87,7 +87,7 @@ print('Hallo', welt)
 language: python
 ---
 
-print(Hallo, welt)
+print('Hello{world}')
 
 --- /code ---
 
