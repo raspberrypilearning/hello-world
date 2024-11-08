@@ -10,7 +10,7 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: You will make
+    title: What you will make
   - 
     title: Say hello
   - 
@@ -20,7 +20,7 @@ steps:
   - 
     title: Roll a dice
   - 
-    title: Sentence starter
+    title: Get input
     completion:
       - internal
   - 
@@ -33,6 +33,7 @@ steps:
     completion:
       - external
   - 
-    title: Upgrade your project
+    title: Challenge
+    challenge: true
   - 
     title: What next?
