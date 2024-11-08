@@ -1,70 +1,26 @@
-## قم بترقية مشروعك
+## Challenge
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-أضف المزيد إلى مشروعك. There are more emojis to choose from.
-  </div>
-<div>
+--- challenge ---
 
-![مشروع أطول في منطقة الإخراج به مزيد من النص والرموز التعبيرية والمدخلات.](images/upgrade_ideas.png){:width="300px"} 
+--- task --- Practise adding more `print` lines to your code.
 
-</div>
-</div>
+Here are some sentence starters that you can use:
 
-يمكنك:
-+ Use `print` with different text and emojis
-+ استخدام `input` للحصول على القيم من المستخدم وتخزينها كمتغيرات، ثم قم بإجراء عمليات الجمع باستخدام المتغيرات
-+ اكتب المزيد من الدوال لتنظيم التعليمات البرمجية الخاصة بك
-+ استخدم `#` لإضافة تعليقات إلى التعليمات البرمجية الخاصة بك
+--- code ---
+---
+language: python line_numbers: true line_number_start: 23
+line_highlights: 24-26
+---
+roll_dice() print(f'I ❤️ ...')   
+print(f'... makes me 😃')   
+print(f'I would like to make ... with {python}') --- /code ---
 
-Scroll to the **emoji** section in the code editor to see the emojis and example variables that you can use. Copy the ones you choose and save them to a variable or add them directly to your code.
-
-**Tip:** To add emojis, find the comment # Emojis to copy and paste into your code. Copy the emojis you want to use then paste them into your code.
+Here is a list of some emojis you might like to use:
 
 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒🎨🎮🔬🎉🕶️🎲 😊 🦄🚀💯⭐💛❤️📚⚽🏏🏀🥋🏆✨🥺🌈🔥♻️🌳 👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋🙋🏼🙋🏽🙋🏾🙋🏿
 
-[[[choose-an-emoji]]]
+--- /task ---
 
-Here's an example function that asks about hobbies:
+--- /challenge ---
 
---- code ---
----
-language: python
-filename: main.py
----
 
-# ضع مقطعاً برمجياً هنا لتشغيله
-def hobbies():   
-hobby = input('What do you like?')   
-print('That sounds', fun)  # You will need to create an emoji variable called 'fun' print('You could make a', python, 'project about', hobby)
-
---- /code ---
-
-**Tip:** Don't forget you will need to call your function as well as define it.
-
-You can use `input` to make your project wait for the user to tap <kbd>Enter</kbd> at any point in this project.
-
---- code ---
----
-language: python
-filename: main.py
----
-
-roll_dice()
-
-input()  # Wait for the user to tap Enter
-
-hobbies()  # Calls the hobbies function
-
---- /code ---
-
---- collapse ---
----
-title: مشروع مكتمل
----
-
-You can view the [completed project here](https://editor.raspberrypi.org/en/projects/hello-world-solution){:target="_blank"}.
-
---- /collapse ---
-
---- save ---
