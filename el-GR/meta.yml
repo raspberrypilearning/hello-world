@@ -10,7 +10,7 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: You will make
+    title: What you will make
   - 
     title: Πες γεια
   - 
@@ -20,7 +20,7 @@ steps:
   - 
     title: Ρίξε ένα ζάρι
   - 
-    title: Έναρξη πρότασης
+    title: Get input
     completion:
       - internal
   - 
@@ -33,6 +33,7 @@ steps:
     completion:
       - external
   - 
-    title: Αναβάθμιση του έργου σου
+    title: Challenge
+    challenge: true
   - 
     title: Και τώρα;
