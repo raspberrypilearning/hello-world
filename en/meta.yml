@@ -9,13 +9,13 @@ listed: true
 copyedit: true
 last_tested: "2021-10-06"
 steps:
-  - title: You will make
+  - title: What you will make
   - title: Say hello
   - title: Sums and dates
     completion:
       - engaged
   - title: Roll a dice
-  - title: Sentence starter
+  - title: Get input
     completion:
       - internal
   - title: Quick quiz
@@ -26,5 +26,6 @@ steps:
       passing_score: 3
     completion:
       - external
-  - title: Upgrade your project
+  - title: Challenge
+    challenge: true
   - title: What next?

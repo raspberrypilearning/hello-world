@@ -53,7 +53,7 @@ output('Hello' world)
 language: python
 ---
 
-print('Hello' world)
+print(f'Hello world')
 
 --- /code ---
 
@@ -70,13 +70,13 @@ print('Hello' world)
 language: python
 ---
 
-print('Hello', world)
+print(f'Hello{world}')
 
 --- /code ---
 
  --- feedback ---
 
- That's correct, in Python `print` outputs messages to the screen. The text output is inside single quotes `'` , a comma separates the two items and provides a space, then the `world` variable is called, which stores the earth emoji 🌍🌎🌏, like in your project.
+ That's correct, in Python `print` outputs messages to the screen. The text output is inside single quotes `'` , then the `world` variable contains the earth emoji 🌍🌎🌏.
 
  --- /feedback ---
 
@@ -87,7 +87,7 @@ print('Hello', world)
 language: python
 ---
 
-print(Hello, world)
+print('Hello{world}')
 
 --- /code ---
 
