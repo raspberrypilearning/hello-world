@@ -10,7 +10,7 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: आप बनाएंगे
+    title: What you will make
   - 
     title: hello कहें
   - 
@@ -20,7 +20,7 @@ steps:
   - 
     title: एक डाईस रोल करें
   - 
-    title: सेंटेंस स्टार्टर
+    title: Get input
     completion:
       - internal
   - 
@@ -33,6 +33,7 @@ steps:
     completion:
       - external
   - 
-    title: प्रोजेक्ट को अपग्रेड करें
+    title: Challenge
+    challenge: true
   - 
     title: आगे क्या?
