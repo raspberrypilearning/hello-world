@@ -53,7 +53,7 @@ output('Olá', mundo)
 language: python
 ---
 
-print('Olá' mundo)
+print(f'Hello world')
 
 --- /code ---
 
@@ -70,13 +70,13 @@ print('Olá' mundo)
 language: python
 ---
 
-print('Olá', mundo)
+print(f'Hello{world}')
 
 --- /code ---
 
  --- feedback ---
 
- Está correto, em Python `print` envia mensagens para a tela. A saída de texto está entre aspas simples `'` , uma vírgula separa os dois itens e fornece um espaço, então a variável `world` é chamada, que armazena o emoji da Terra 🌍🌎🌏, como no seu projeto.
+ Está correto, em Python `print` envia mensagens para a tela. The text output is inside single quotes `'` , then the `world` variable contains the earth emoji 🌍🌎🌏.
 
  --- /feedback ---
 
@@ -87,7 +87,7 @@ print('Olá', mundo)
 language: python
 ---
 
-print(Olá, mundo)
+print('Hello{world}')
 
 --- /code ---
 
