@@ -10,7 +10,7 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: Você vai fazer
+    title: What you will make
   - 
     title: Diga olá
   - 
@@ -20,7 +20,7 @@ steps:
   - 
     title: Role um dado
   - 
-    title: Iniciador de frase
+    title: Get input
     completion:
       - internal
   - 
@@ -33,6 +33,7 @@ steps:
     completion:
       - external
   - 
-    title: Melhore o seu projeto
+    title: Challenge
+    challenge: true
   - 
     title: E agora?
