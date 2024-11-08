@@ -53,7 +53,7 @@ output('Hola' mundo)
 language: python
 ---
 
-print('Hola' mundo)
+print(f'Hello world')
 
 --- /code ---
 
@@ -70,13 +70,13 @@ print('Hola' mundo)
 language: python
 ---
 
-print('Hola', mundo)
+print(f'Hello{world}')
 
 --- /code ---
 
  --- feedback ---
 
- Correcto, en Python `print` genera mensajes en la pantalla. El texto de salida está entre comillas simples `'` , la coma separa dos objetos y proporciona espacio, luego llamamos a la variable `mundo`, que almacena el emoji 🌍🌎🌏, como aparece en tu proyecto.
+ Correcto, en Python `print` genera mensajes en la pantalla. The text output is inside single quotes `'` , then the `world` variable contains the earth emoji 🌍🌎🌏.
 
  --- /feedback ---
 
@@ -87,7 +87,7 @@ print('Hola', mundo)
 language: python
 ---
 
-print(Hola, mundo)
+print('Hello{world}')
 
 --- /code ---
 
