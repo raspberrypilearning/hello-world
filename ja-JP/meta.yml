@@ -10,7 +10,7 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: You will make
+    title: What you will make
   - 
     title: こんにちはと言う
   - 
@@ -20,7 +20,7 @@ steps:
   - 
     title: サイコロを振る
   - 
-    title: 文のとっかかり
+    title: Get input
     completion:
       - internal
   - 
@@ -33,6 +33,7 @@ steps:
     completion:
       - external
   - 
-    title: プロジェクトをアップグレードする
+    title: Challenge
+    challenge: true
   - 
     title: 次は何をしますか？
