@@ -1,56 +1,54 @@
-## Frasi di partenza
+## Get input
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Produci più frasi dal tuo progetto.
-</div>
-<div>
+You can use `input()`{:.language-python} to ask the person using your program to enter text.
 
-![Alcune nuove righe di stampa nell'area di output dell'editor di codice con emoji e frasi di testo.](images/sentence_starter.png){:width="300px"} 
-
-</div>
-</div>
-
---- task ---
-
-Aggiungi altri `print` al tuo codice. Per iniziare, ecco alcune frasi che puoi utilizzare:
+--- task --- Change your function to ask the person using your program to enter how many sides on the dice, and save it as a variable.
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 29
-line_highlights: 30-32
+language: python line_numbers: true line_number_start: 15
+line_highlights: 17-18
 ---
-
-tira_dado() # Chiama la funzione lancia dadi print('Io ❤️ ...')   
-print('... mi rende 😃')   
-print('Mi piacerebbe fare... con' , python)
-
---- /code ---
-
-**Suggerimento:** Ogni volta che esegui un `print` viene aggiunta una linea in mezzo.
-
-**Suggerimento:** Se devi stampare un apostrofo `'` allora devi mettere una barra rovesciata `\` prima di esso in modo che Python sappia che fa parte del testo.
-
-**Suggerimento:** Aggiungi `#` all'inizio di una riga per trasformarla in un commento.
+# Function definitions
+def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a D {max}') roll = randint(1,6) print(f'You rolled a {roll} {fire * roll}') --- /code ---
 
 --- /task ---
 
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-
-L'emoji del cuore giallo <span style="color: #0faeb0">💛</span> è spesso usato per mostrare amicizia e felicità.</p>
 
 --- task ---
 
-Quale messaggio manderesti a un amico per tirarlo su di morale? Quale emoji sceglieresti?
+**Test:** Click the **Run** button and type in a number of sides. Ensure you press the <kbd> Enter </kbd> key after inputting how many sides. This is what you should see when you run your code.
 
-Scorri fino alla sezione **emoji** nell'editor del codice per vedere gli emoji e le variabili di esempio che puoi utilizzare. Copia quelli che scegli e salvali in una variabile o aggiungili direttamente al tuo codice.
+<div class="c-project-output">
+```
+Hello 🌍🌎🌏
+Welcome to Python 🐍
+Python 🐍 is good at maths!
+12345678987654321
+The date and time is 2023-11-21 16:20:41.323000
+How many sides on your dice?:
+20 
+That is a D 20
+You rolled a 1 🔥
+```
+ --- /task ---
 
-Puoi aggiungere altre emoji alla sezione **emoji**. Usa questo elenco di [emoji](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} per trovare quelli che desideri.
+Inputs are always stored as text, but we need to use the input stored in `max` to specify the largest number that could be rolled.
 
-🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳 👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
+--- task ---
 
-[[[choose-an-emoji]]]
+`max` is a string, so it needs to be changed to an integer `int()`{:.language-python}.
+
+
+--- code ---
+---
+language: python line_numbers: true line_number_start: 15
+line_highlights: 19
+---
+# Function definitions
+def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a D {max}') roll = randint(1, int(max)) print(f'You rolled a {roll} {fire * roll}') --- /code ---
 
 --- /task ---
 
---- save ---
+--- task --- **Test:** Click the **Run** button a few times. Check that the dice rolls a random number each time. --- /task ---
+
