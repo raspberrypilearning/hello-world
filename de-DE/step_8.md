@@ -15,6 +15,4 @@ Klick auf die Schaltfläche **Ausführen**, um ein Beispiel dieses Projekts anzu
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/target-practice-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
---- /no-print ---
-
-Wenn du mehr Spaß beim Erkunden von Python haben willst, dann könntest du einige [dieser Projekte](https://projects.raspberrypi.org/en/projects?software%5B%5D=python) ausprobieren.
+--- /no-print --- If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
