@@ -53,7 +53,7 @@ output('Ciao' mondo)
 language: python
 ---
 
-print('Ciao' mondo)
+print(f'Hello world')
 
 --- /code ---
 
@@ -70,13 +70,13 @@ print('Ciao' mondo)
 language: python
 ---
 
-print('Ciao', mondo)
+print(f'Hello{world}')
 
 --- /code ---
 
  --- feedback ---
 
- Esatto, in Python `print` visualizza messaggi sullo schermo. L' output del testo è racchiuso tra virgolette singole `'` , una virgola separa i due elementi e aggiunge uno spazio, quindi viene richiamata la variabile `mondo` , che memorizza l'emoji della terra 🌍🌎🌏, come nel tuo progetto.
+ Esatto, in Python `print` visualizza messaggi sullo schermo. The text output is inside single quotes `'` , then the `world` variable contains the earth emoji 🌍🌎🌏.
 
  --- /feedback ---
 
@@ -87,7 +87,7 @@ print('Ciao', mondo)
 language: python
 ---
 
-print(Ciao, mondo)
+print('Hello{world}')
 
 --- /code ---
 
