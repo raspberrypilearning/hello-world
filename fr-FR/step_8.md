@@ -1,4 +1,4 @@
-## Et ensuite ?
+## What can you do now?
 
 Si tu suis le parcours [Introduction à Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro), tu peux passer au projet [Tir sur cible](https://projects.raspberrypi.org/en/projects/target-practice). Dans ce projet, tu vas dessiner une cible puis créer un jeu de tir à l'arc qui tire des flèches pour marquer des points.
 
@@ -15,4 +15,7 @@ Clique sur le bouton **Run** pour afficher un exemple de ce projet.
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/target-practice-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
---- /no-print --- If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
+--- /no-print ---
+
+Or, why not try out another [Python](https://projects.raspberrypi.org/en/projects?software%5B%5D=python) project.
+
