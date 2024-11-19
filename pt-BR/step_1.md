@@ -1,10 +1,14 @@
-<div class="c-survey-banner" style="width:100%">
-  <a class="c-survey-banner__link" href="https://form.raspberrypi.org/f/code-editor-feedback" target="_blank">Responda à nossa pesquisa</a> para ajudar a melhorar nosso Editor de código!
-</div>
-
 ## What you will make
 
 Write an interactive program that uses emojis 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿.
+
+
+--- print-only ---
+
+![Projeto concluído mostrando código de exemplo no editor de código](images/showcase_static.png){:width="640px"}
+
+--- /print-only ---
+
 
 --- no-print ---
 
@@ -19,11 +23,3 @@ Click on the **Run** button
 </div>
 
 --- /no-print ---
-
---- print-only ---
-
-![Projeto concluído mostrando código de exemplo no editor de código](images/showcase_static.png){:width="640px"}
-
---- /print-only ---
-
-![](http://code.org/api/hour/begin_codeclub_hworld.png)
