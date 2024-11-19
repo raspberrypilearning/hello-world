@@ -1,4 +1,4 @@
-## 次は何をしますか？
+## What can you do now?
 
 [Python入門](https://projects.raspberrypi.org/en/raspberrypi/python-intro)パスに沿って進めている方は、[射的](https://projects.raspberrypi.org/en/projects/target-practice)プロジェクトに進みましょう。 このプロジェクトでは、的を描き、矢を放ってポイントを獲得するアーチェリーゲームを作成します。
 
@@ -15,4 +15,7 @@ Click the **Run** button to view an example of this project.
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/target-practice-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
---- /no-print --- If you want to have more fun exploring Python, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=python).
+--- /no-print ---
+
+Or, why not try out another [Python](https://projects.raspberrypi.org/en/projects?software%5B%5D=python) project.
+
