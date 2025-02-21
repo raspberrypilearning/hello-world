@@ -6,7 +6,9 @@ In Python, `print()`{:.language-python} outputs strings (words or numbers) to th
 
 Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
 
-![The code editor with project starter code on the left in the code area. दाईं ओर रिक्त आउटपुट क्षेत्र है।](images/starter_project.png) --- /task ---
+![The code editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
+
+--- /task ---
 
 --- task ---
 
@@ -26,8 +28,9 @@ language: python line_numbers: true line_number_start: 17
 line_highlights: 18
 ---
 # Put code to run under here.
-print(f'Hello') --- /code ---
+print(f'Hello')
 
+--- /code ---
 
 --- /task ---
 
@@ -52,7 +55,9 @@ language: python line_numbers: true
 line_number_start: 17
 ---
 # यहां चलाने के लिए कोड डालें
-print(f'Hello {world}') --- /code ---
+print(f'Hello {world}')
+
+--- /code ---
 
 The `f`{:.language-python} character inside the print lets you easily print variables along with strings of text.
 
@@ -76,7 +81,9 @@ language: python line_numbers: true line_number_start: 17
 line_highlights: 19
 ---
 # Put code to run under here
-print(f'Hello {world}') print(f'Welcome to {python}') --- /code ---
+print(f'Hello {world}') print(f'Welcome to {python}')
+
+--- /code ---
 
 --- /task ---
 
