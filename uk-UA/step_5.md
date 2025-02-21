@@ -1,18 +1,18 @@
-## Get input
+## Отримай дані
 
-You can use `input()`{:.language-python} to ask the person using your program to enter text.
+За допомогою функції `input()`{:.language-python} (англійською «вхідні дані») ти можеш попросити людину, яка використовує твою програму, ввести якийсь текст.
 
 --- task ---
 
-Change your function to ask the person using your program to enter how many sides on the dice, and save it as a variable.
+Зміни свою функцію: попроси користувача твоєї програми ввести кількість сторін кубика і збережи це число як змінну.
 
 --- code ---
 ---
 language: python line_numbers: true line_number_start: 15
 line_highlights: 17-18
 ---
-# Function definitions
-def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a D {max}') roll = randint(1,6) print(f'You rolled a {roll} {fire * roll}')
+# Визначення функцій
+def roll_dice(): max = input('Кількість сторін кубика:') print(f'Цей кубик називається D {max}') roll = randint(1,6) print(f'Тобі випало число {roll} {fire * roll}')
 
 --- /code ---
 
@@ -20,28 +20,28 @@ def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a 
 
 --- task ---
 
-**Test:** Click the **Run** button and type in a number of sides. Ensure you press the <kbd> Enter </kbd> key after inputting how many sides. This is what you should see when you run your code.
+**Протестуй:** натисни кнопку ** Run ** та введи кількість сторін. Обовʼязково натисни клавішу введення (<kbd>Enter</kbd>) після того, як введеш кількість сторін. Ось що ти маєш побачити.
 
 <div class="c-project-output">
 ```
-Hello 🌍🌎🌏
-Welcome to Python 🐍
-Python 🐍 is good at maths!
+Привіт, 🌍🌎🌏
+Ласкаво просимо до Python 🐍
+Python 🐍 знається на математиці!
 12345678987654321
-The date and time is 2023-11-21 16:20:41.323000
-How many sides on your dice?:
+Дата й час: 2023-11-21 16:20:41.323000
+Кількість сторін кубика:
 20 
-That is a D 20
-You rolled a 1 🔥
+Цей кубик називається D 20
+Тобі випало число 1 🔥
 ```
 
 --- /task ---
 
-Inputs are always stored as text, but we need to use the input stored in `max` to specify the largest number that could be rolled.
+Вхідні дані завжди зберігаються як текст, але нам потрібно використати дані змінної `max`, щоб вказати найбільше число на кубику.
 
 --- task ---
 
-`max` is a string, so it needs to be changed to an integer `int()`{:.language-python}.
+`max` — це текстовий рядок, тому нам потрібно змінити її на ціле число за допомогою функції `int()`{:.language-python}.
 
 
 --- code ---
@@ -49,8 +49,8 @@ Inputs are always stored as text, but we need to use the input stored in `max` t
 language: python line_numbers: true line_number_start: 15
 line_highlights: 19
 ---
-# Function definitions
-def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a D {max}') roll = randint(1, int(max)) print(f'You rolled a {roll} {fire * roll}')
+# Визначення функцій
+def roll_dice(): max = input('Кількість сторін кубика:') print(f'Цей кубик називається D {max}') roll = randint(1, int(max)) print(f'Тобі випало число {roll} {fire * roll}')
 
 --- /code ---
 
@@ -58,7 +58,7 @@ def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a 
 
 --- task ---
 
-**Test:** Click the **Run** button a few times. Check that the dice rolls a random number each time.
+**Протестуй:** натисни на кнопку **Run** кілька разів. Кубик щоразу має викидати випадкове число.
 
 --- /task ---
 
