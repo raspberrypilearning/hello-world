@@ -1,34 +1,34 @@
-## Print hello
+## Виведи на екран привітання
 
-In Python, `print()`{:.language-python} outputs strings (words or numbers) to the screen.
+У мові програмування Python слово `print()`{:.language-python} виводить на екран рядки слів або чисел.
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
+Відкрий [стартовий проєкт «Привіт, 🌍🌎🌏»](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. Редактор коду відкриється в окремій вкладці браузера.
 
-![The code editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
+![Редактор із кодом стартового проєкту зліва в області коду. Праворуч знаходиться порожнє поле для виведення даних.](images/starter_project.png)
 
 --- /task ---
 
 --- task ---
 
-Find the `# Put code to run below here`{:.language-python} line.
+Знайди рядок `# Нижче розмісти код, який потрібно виконати`{:.language-python}.
 
-Click below that line. The flashing `|` is the cursor and shows where you will type.
+Клацни нижче цього рядка. Миготливий символ `|` — це курсор. Він показує, де ти будеш вводити текст.
 
 --- /task ---
 
 --- task ---
 
-Type the code to `print()`{:.language-python} Hello to the screen:
+Введи такий код, щоб вивести на екран слово «Привіт»:
 
 --- code ---
 ---
 language: python line_numbers: true line_number_start: 17
 line_highlights: 18
 ---
-# Put code to run under here.
-print(f'Hello')
+# Нижче розмісти код, який потрібно виконати
+print(f'Привіт')
 
 --- /code ---
 
@@ -36,17 +36,17 @@ print(f'Hello')
 
 --- task ---
 
-**Test:** Click on the **Run** button to run your code. This is what you should see when you run your code:
+**Протестуй:** натисни на кнопку **Run** («Запустити»), щоб виконати код. Ось що ти маєш побачити:
 
-![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
+![Кнопка Run («Запустити») підсвічена. У полі виведення даних написане слово «Привіт». ](images/run_hello.png)
 
 --- /task ---
 
-A **variable** is used to store values such as text or numbers. We have included some variables that store emoji characters.
+Використовуй **змінні**, щоб зберігати певні значення, як-от текст або числа. Ми вже додали декілька змінних, які зберігають емоджі.
 
 --- task ---
 
-Change your code to also `print()`{:.language-python} the contents of the `world`{:.language-python} variable. You can do this by adding the variable name in curly brackets `{}`{:.language-python}
+Зміни свій код так, щоб він також виводив вміст змінної `world`{:.language-python} (англійською «світ») на екран за допомогою `print()`{:.language-python}. Щоб це зробити, додай назву змінної у фігурних дужках `{}`{:.language-python}.
 
 
 --- code ---
@@ -54,34 +54,34 @@ Change your code to also `print()`{:.language-python} the contents of the `world
 language: python line_numbers: true
 line_number_start: 17
 ---
-# Put code to run under here
-print(f'Hello {world}')
+# Нижче розмісти код, який потрібно виконати
+print('Привіт,' {world}')
 
 --- /code ---
 
-The `f`{:.language-python} character inside the print lets you easily print variables along with strings of text.
+Символ `f`{:.language-python} всередині `print`{:.language-python} дозволяє тобі легко виводити на екран змінні разом із рядками тексту.
 
 --- /task ---
 
 --- task ---
 
-**Test:** Run your code to see the result:
+**Протестуй:** запусти свій код і подивись, що вийшло:
 
-![The updated line of code in the code area with the word 'Hello' followed by three world emojis showing in the output area.](images/run_hello_world.png)
+![Оновлений рядок коду в області коду зі словом «Привіт», після якого в області виводу бачимо три емоджі земної кулі.](images/run_hello_world.png)
 
 --- /task ---
 
 --- task ---
 
-**Add** another line to your code to `print()`{:.language-python} more text and emojis:
+**Додай** ще один рядок до коду, щоб вивести на екран додатковий текст і емоджі за допомогою `print()`{:.language-python}:
 
 --- code ---
 ---
 language: python line_numbers: true line_number_start: 17
 line_highlights: 19
 ---
-# Put code to run under here
-print(f'Hello {world}') print(f'Welcome to {python}')
+# Нижче розмісти код, який потрібно виконати
+print(f'Привіт, {world}') print(f'Ласкаво просимо до {python}')
 
 --- /code ---
 
@@ -89,11 +89,11 @@ print(f'Hello {world}') print(f'Welcome to {python}')
 
 --- task ---
 
-**Test:** Click **Run**.
+**Протестуй:** натисни кнопку **Run**.
 
-![The additional line of code in the code editor with the word 'Hello' followed by three world emojis and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
+![Додатковий рядок коду в області коду зі словом «Привіт», після якого бачимо три емоджі земної кулі та слова «Ласкаво просимо до», після яких бачимо емоджі змії в області виводу.](images/run_multiple.png)
 
-**Tip:** It's a good idea to run your code after every change so you can fix problems quickly.
+**Порада:** запускай код після кожної зміни, щоб можна було швидко усунути помилки.
 
 
 --- /task ---
