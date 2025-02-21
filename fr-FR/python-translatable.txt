@@ -1,21 +1,15 @@
 monde
 
-python
+add_one_and_one
 
 roule_de
 
 roule
 
-feu
-
 max
+
+feu
 
 fantastique
 
 deux_des
-
-hobbies
-
-hobby
-
-amusant
