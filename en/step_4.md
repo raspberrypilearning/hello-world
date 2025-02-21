@@ -101,6 +101,7 @@ Now when you run your code, a new random number between 1 and 6 will be chosen e
 In Python you can multiply strings such as emojis or whole words by a number, so they print out several times.
 
 --- task ---
+
 Change your function to store the random number in a variable called `roll`{:.language-python}.
 
 --- code ---
