@@ -6,13 +6,15 @@ In Python, `print()`{:.language-python} outputs strings (words or numbers) to th
 
 Abra o [projeto inicial Olá 🌍🌎🌏 ](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. O Trinket será aberto em outra aba do navegador.
 
-![O editor de código com o código inicial do projeto à esquerda na área de código. À direita está a área de saída em branco.](images/starter_project.png) --- /task ---
+![The code editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
+
+--- /task ---
 
 --- task ---
 
 Find the `# Put code to run below here`{:.language-python} line.
 
-Clique abaixo dessa linha. O `|` piscando é o cursor e mostra onde você irá digitar.
+Click below that line. The flashing `|` is the cursor and shows where you will type.
 
 --- /task ---
 
@@ -26,8 +28,9 @@ language: python line_numbers: true line_number_start: 17
 line_highlights: 18
 ---
 # Put code to run under here.
-print(f'Hello') --- /code ---
+print(f'Hello')
 
+--- /code ---
 
 --- /task ---
 
@@ -52,7 +55,9 @@ language: python line_numbers: true
 line_number_start: 17
 ---
 # Put code to run under here
-print(f'Hello {world}') --- /code ---
+print(f'Hello {world}')
+
+--- /code ---
 
 The `f`{:.language-python} character inside the print lets you easily print variables along with strings of text.
 
@@ -76,7 +81,9 @@ language: python line_numbers: true line_number_start: 17
 line_highlights: 19
 ---
 # Put code to run under here
-print(f'Hello {world}') print(f'Welcome to {python}') --- /code ---
+print(f'Hello {world}') print(f'Welcome to {python}')
+
+--- /code ---
 
 --- /task ---
 
