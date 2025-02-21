@@ -33,7 +33,7 @@ Create a function called `roll_dice()`{:.language-python}, that prints out the n
 language: python line_numbers: true line_number_start: 15
 line_highlights: 16-18
 ---
-# Functiedefinities
+# Function definitions
 def roll_dice(): print(f'You rolled a {4}')
 
 # Put code to run under here
@@ -72,7 +72,7 @@ Another module called `random`{:.language-python} can be used to create random n
 language: python line_numbers: true line_number_start: 15
 line_highlights: 17
 ---
-# Functiedefinities
+# Function definitions
 def roll_dice(): print(f'You rolled a {randint(1, 6)}')
 
 --- /code ---
@@ -87,14 +87,16 @@ def roll_dice(): print(f'You rolled a {randint(1, 6)}')
 
 In Python you can multiply strings such as emojis or whole words by a number, so they print out several times.
 
---- task --- Change your function to store the random number in a variable called `roll`{:.language-python}.
+--- task ---
+
+Change your function to store the random number in a variable called `roll`{:.language-python}.
 
 --- code ---
 ---
 language: python line_numbers: true line_number_start: 15
 line_highlights: 17
 ---
-# Functiedefinities
+# Function definitions
 def roll_dice(): roll = randint(1,6)
 
 --- /code ---
