@@ -4,14 +4,14 @@
 
 Відповівши на кожне питання, натисни на **Перевірити мою відповідь**.
 
-Розважайся!
+Успіхів!
 
 --- question ---
 ---
 legend: Питання 1 з 3
 ---
 
-Цей код встановлює змінну `world`, яка буде містити текст '🌍🌎🌏' (три різні емодзі світу):
+Цей код встановлює змінну `world` (англійською «світ»), яка буде містити текст '🌍🌎🌏' (три різні емоджі земної кулі):
 
 --- code ---
 ---
@@ -22,9 +22,9 @@ world = '🌍🌎🌏'
 
 --- /code ---
 
-Який код коректно використовує змінну `world` та видає «Привіт 🌍🌎🌏»?
+Який код правилько використовує змінну `world` та видає «Привіт, 🌍🌎🌏»?
 
-![Область виведення у редакторі Code Editor з виведенням на екран повідомлення «Привіт 🌍🌎🌏».](images/quiz1.png)
+![Область виведення у редакторі Code Editor, де видно повідомлення «Привіт, 🌍🌎🌏».](images/quiz1.png)
 
 --- choices ---
 
@@ -35,7 +35,7 @@ world = '🌍🌎🌏'
 language: python
 ---
 
-output('Привіт' world)
+output('Привіт,' world)
 
 --- /code ---
 
@@ -53,7 +53,7 @@ output('Привіт' world)
 language: python
 ---
 
-print(f'Hello world')
+print(f'Привіт, world')
 
 --- /code ---
 
@@ -70,13 +70,13 @@ print(f'Hello world')
 language: python
 ---
 
-print(f'Hello{world}')
+print(f'Привіт, {world}')
 
 --- /code ---
 
  --- feedback ---
 
- Правильно! У Python `print` виводить повідомлення на екран. The text output is inside single quotes `'` , then the `world` variable contains the earth emoji 🌍🌎🌏.
+ Правильно! У Python `print` виводить повідомлення на екран. Текст знаходиться в одинарних лапках `'`, а змінна `world` містить емоджі земної кулі 🌍🌎🌏.
 
  --- /feedback ---
 
@@ -87,7 +87,7 @@ print(f'Hello{world}')
 language: python
 ---
 
-print('Hello{world}')
+print('Привіт, {world}')
 
 --- /code ---
 
