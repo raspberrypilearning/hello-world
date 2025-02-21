@@ -1,19 +1,21 @@
 ---
-title: "Привіт \U0001F30D\U0001F30E\U0001F30F"
+title: "Привіт, \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
-description: Створюємо інтерактивний проєкт на Python, який використовує емодзі
+description: Створи інтерактивний проєкт на Python, який використовує емоджі
+meta_title: Проєкти з кодування для дітей і підлітків | Привіт, світе
+meta_description: Вивчай Python разом з Raspberry Pi Foundation. Створи інтерактивний проєкт мовою програмування Python з використанням емоджі.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
 steps:
-  - title: Ти зробиш
-  - title: Скажи "привіт"
-  - title: Цифри та дати
+  - title: Що ти зробиш
+  - title: Привітайся
+  - title: Числа й дати
     completion:
       - engaged
   - title: Підкинь кубик
-  - title: Початок речення
+  - title: Отримай дані
     completion:
       - internal
   - title: Швидкий тест
@@ -24,5 +26,6 @@ steps:
       passing_score: 3
     completion:
       - external
-  - title: Вдосконалення твого проєкту
-  - title: Що далі?
+  - title: Додаткове завдання
+    challenge: true
+  - title: Що ти тепер вмієш?
