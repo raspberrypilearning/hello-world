@@ -1,21 +1,15 @@
 world
 
-python
+add_one_and_one
 
 roll_dice
 
 roll
 
-fire
-
 max
+
+fire
 
 awesome
 
 two_dice
-
-hobbies
-
-hobby
-
-fun
