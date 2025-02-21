@@ -1,46 +1,20 @@
-Zet de code om uit te voeren hier onder
+Put code to run under here.
 
 Hallo
 
-Welkom bij
+Welcome to {python}
 
-is heel goed in wiskunde!
+{python} is good at maths!
 
-Print het resultaat van de som
-
-De datum en tijd zijn
-
-De huidige datum en tijd ophalen
+The date and time is {datetime.now()}
 
 Functiedefinities
 
-Vergeet de dubbele punt aan het einde van deze regel niet
+You rolled a {4}
 
-Je gooide een
+How many sides on your dice?:
 
-randint(1, 6) wordt gebruikt om een getal tussen 1 en 6 te geven.
-
-Roep de gooi dobbelsteen functie aan
-
-Genereer een willekeurig getal tussen 1 en 6 en sla dit op in de variabele 'worp'
-
-Herhaal de vuur emoji om bij de dobbelsteenworp te passen
-
-Hoeveel kanten?:
-
-Wacht op invoer van de gebruiker
-
-Dat is een D
-
-Gebruik het getal dat de gebruiker heeft ingevoerd
-
-Gebruik max om het aantal zijden van de dobbelsteen te bepalen
-
-Ik ❤️...
-
-... maakt mij 😃
-
-Ik wil graag maken ... met
+That is a D {max}
 
 Ik kan coderen
 
@@ -48,14 +22,8 @@ Eerste getal:
 
 Tweede getal:
 
-Wat vind je leuk?
+Ik ❤️...
 
-Dat klinkt
+... maakt mij 😃
 
-Je moet een emoji variabele maken met de naam 'leuk'
-
-('Je zou een', python, 'project over', hobby, 'kunnen maken')
-
-Wacht tot de gebruiker op Enter drukt
-
-Roep de hobbies functie aan
+I would like to make ... with {python}
