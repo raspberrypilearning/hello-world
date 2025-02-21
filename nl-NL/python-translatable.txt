@@ -1,21 +1,15 @@
 wereld
 
-python
+add_one_and_one
 
 gooi_dobbelsteen
 
 worp
 
-vuur
-
 max
+
+vuur
 
 geweldig
 
 twee_dobbelstenen
-
-hobbies
-
-hobby
-
-plezier
