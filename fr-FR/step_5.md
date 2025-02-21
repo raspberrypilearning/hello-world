@@ -2,7 +2,9 @@
 
 You can use `input()`{:.language-python} to ask the person using your program to enter text.
 
---- task --- Change your function to ask the person using your program to enter how many sides on the dice, and save it as a variable.
+--- task ---
+
+Change your function to ask the person using your program to enter how many sides on the dice, and save it as a variable.
 
 --- code ---
 ---
@@ -10,10 +12,11 @@ language: python line_numbers: true line_number_start: 15
 line_highlights: 17-18
 ---
 # Function definitions
-def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a D {max}') roll = randint(1,6) print(f'You rolled a {roll} {fire * roll}') --- /code ---
+def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a D {max}') roll = randint(1,6) print(f'You rolled a {roll} {fire * roll}')
+
+--- /code ---
 
 --- /task ---
-
 
 --- task ---
 
@@ -31,7 +34,8 @@ How many sides on your dice?:
 That is a D 20
 You rolled a 1 🔥
 ```
- --- /task ---
+
+--- /task ---
 
 Inputs are always stored as text, but we need to use the input stored in `max` to specify the largest number that could be rolled.
 
@@ -46,9 +50,15 @@ language: python line_numbers: true line_number_start: 15
 line_highlights: 19
 ---
 # Function definitions
-def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a D {max}') roll = randint(1, int(max)) print(f'You rolled a {roll} {fire * roll}') --- /code ---
+def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a D {max}') roll = randint(1, int(max)) print(f'You rolled a {roll} {fire * roll}')
+
+--- /code ---
 
 --- /task ---
 
---- task --- **Test:** Click the **Run** button a few times. Check that the dice rolls a random number each time. --- /task ---
+--- task ---
+
+**Test:** Click the **Run** button a few times. Check that the dice rolls a random number each time.
+
+--- /task ---
 
