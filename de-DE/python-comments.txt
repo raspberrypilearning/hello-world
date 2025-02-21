@@ -1,46 +1,20 @@
-Füge hier den Code ein, der ausgeführt werden soll
+Put code to run under here.
 
 Hallo
 
-Willkommen bei
+Welcome to {python}
 
-ist sehr gut in Mathe!
+{python} is good at maths!
 
-Gib das Ergebnis der Rechnung aus
-
-Das Datum und die Uhrzeit sind
-
-Gebe das aktuelle Datum und die Uhrzeit aus
+The date and time is {datetime.now()}
 
 Funktionsdefinitionen
 
-Vergiss nicht den Doppelpunkt am Ende dieser Zeile
+You rolled a {4}
 
-Du hast gewürfelt
+How many sides on your dice?:
 
-randint(1, 6) wird verwendet, um eine Zahl zwischen 1 und 6 zu geben.
-
-Rufe die würfeln Funktion auf
-
-Erzeuge eine Zufallszahl zwischen 1 und 6 und speichere diese in der Variable „roll“
-
-Wiederhole das Feuer-Emoji so oft wie der zufällige Würfelwurf anzeigt
-
-Wie viele Seiten?:
-
-Warte auf Eingabe vom Benutzer
-
-Das ist ein W
-
-Verwende die vom Benutzer eingegebene Zahl
-
-Bestimme mit max die Anzahl der Seiten des Würfels
-
-Ich ❤️ ...
-
-... macht mich 😃
-
-Als nächstes mache ich ... mit
+That is a D {max}
 
 Ich kann programmieren
 
@@ -48,14 +22,8 @@ Erste Zahl:
 
 Zweite Zahl:
 
-Was macht Dir Spaß?
+Ich ❤️ ...
 
-Das klingt nach
+... macht mich 😃
 
-Du musst eine Emoji-Variable namens „fun“ erstellen
-
-('Du könntest ein', python, 'Projekt über', hobby, 'machen')
-
-Warte, bis der Benutzer die Eingabetaste drückt
-
-Ruft die Funktion hobbies auf
+I would like to make ... with {python}
