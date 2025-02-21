@@ -1,30 +1,30 @@
 ---
-title: "Привіт \U0001F30D\U0001F30E\U0001F30F"
+title: "Привіт, \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
-description: Write an interactive Python project that uses emoji
-meta_title: Python coding projects for kids and teens | Hello world
-meta_description: Learn Python with the Raspberry Pi Foundation. Make an interactive Python coding project that uses emojis.
+description: Створи інтерактивний проєкт на Python, який використовує емоджі
+meta_title: Проєкти з кодування для дітей і підлітків | Привіт, світе
+meta_description: Вивчай Python разом з Raspberry Pi Foundation. Створи інтерактивний проєкт мовою програмування Python з використанням емоджі.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: What you will make
+    title: Що ти зробиш
   - 
-    title: Say hello
+    title: Привітайся
   - 
-    title: Sums and dates
+    title: Цифри й дати
     completion:
       - engaged
   - 
-    title: Roll a dice
+    title: Підкинь кубик
   - 
-    title: Get input
+    title: Отримай дані
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Швидкий тест
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -33,7 +33,7 @@ steps:
     completion:
       - external
   - 
-    title: Challenge
+    title: Додаткове завдання
     challenge: true
   - 
-    title: What can you do now?
+    title: Що ти тепер вмієш?
