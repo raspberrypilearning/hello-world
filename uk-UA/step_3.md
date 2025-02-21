@@ -1,4 +1,4 @@
-## Sums and dates
+## Числа й дати
 
 In Python you can work with numbers and dates.
 
