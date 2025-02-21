@@ -1,21 +1,15 @@
 mundo
 
-python
+add_one_and_one
 
 lanza_dados
 
 lanza
 
-fuego
-
 max
+
+fuego
 
 genial
 
 dos_dados
-
-pasatiempos
-
-pasatiempo
-
-diversion
