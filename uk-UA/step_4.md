@@ -1,8 +1,8 @@
-## Roll a dice 🎲
+## Підкинь кубик
 
-Functions are blocks of code that perform specific tasks. They can be used over and over again.
+Функції — це блоки коду, які виконують певні завдання. Їх можна використовувати знову і знову.
 
-Here is an example of a function:
+Ось приклад функції:
 
 --- code ---
 ---
@@ -13,30 +13,30 @@ def add_one_and_one(): x = 1 + 1 print(x)
 
 --- /code ---
 
-The name of this function is `add_one_and_one`{:.language-python}.
+Назва цієї функції — `add_one_and_one`{:.language-python} (англійською «додай_один_плюс_один»).
 
-The code for the task you want the function to do needs to be **indented**, which means that you need to add **four spaces** before each line of code.
+Код для завдання, яке ти хочеш виконати цією функцією, повинен мати **відступи**. Це означає, що ти маєш додати **чотири пробіли** перед кожним рядком коду.
 
-**Calling** a function runs the code inside it. You **call** a function by using its name. In this case `add_one_and_one()`{:.language-python}.
+**Виклик** функції — це запуск коду всередині неї. Ти можеш **викликати** функцію, написавши її назву. У цьому випадку `add_one_and_one()`{:.language-python}.
 
 
 --- task ---
 
-Look for the comment in the **main.py** file that says
+Знайди у файлі **main.py** такий коментар:
 
-`# Function definitions`{:.language-python}.
+`# Визначення функцій`{:.language-python}
 
-Create a function called `roll_dice()`{:.language-python}, that prints out the number 4.
+Створи функцію з назвою `roll_dice()`{:.language-python} (англійською «кинути_кубик»), яка виводить на екран число 4.
 
 --- code ---
 ---
 language: python line_numbers: true line_number_start: 15
 line_highlights: 16-18
 ---
-# Function definitions
-def roll_dice(): print(f'You rolled a {4}')
+# Визначення функцій
+def roll_dice(): print(f'Тобі випало число {4}')
 
-# Put code to run under here
+# Нижче розмісти код, який потрібно виконати
 
 --- /code ---
 
@@ -44,14 +44,14 @@ def roll_dice(): print(f'You rolled a {4}')
 
 --- task ---
 
-Then, call the function at the bottom of your code.
+Тепер виклич функцію під кодом.
 
 --- code ---
 ---
 language: python line_numbers: true line_number_start: 24
 line_highlights: 25
 ---
-print(f'The date and time is {datetime.now()}') roll_dice()
+print(f'Дата й час — {datetime.now()}') roll_dice()
 
 --- /code ---
 
@@ -59,21 +59,21 @@ print(f'The date and time is {datetime.now()}') roll_dice()
 
 --- task ---
 
-**Test:** Run your project several times to see the dice roll each time - it will always be 4.
+**Протестуй:** запусти свій проєкт декілька разів, — кожного разу тобі випадатиме 4.
 
 --- /task ---
 
 --- task ---
 
-Another module called `random`{:.language-python} can be used to create random numbers. Change your code to use the `randint`{:.language-python} function to choose a random number between 1 and 6 for the dice roll.
+Існує ще один модуль, який називається `random`{:.language-python} (англійською «випадковий»). Він використовується, щоб створювати випадкові числа. Зміни свій код і використай у ньому функцію `randint`{:.language-python}, щоб вона обирала випадкове число від 1 до 6, яке випаде на кубику.
 
 --- code ---
 ---
 language: python line_numbers: true line_number_start: 15
 line_highlights: 17
 ---
-# Function definitions
-def roll_dice(): print(f'You rolled a {randint(1, 6)}')
+# Визначення функцій
+def roll_dice(): print(f'Тобі випало число {randint(1, 6)}')
 
 --- /code ---
 
@@ -81,22 +81,22 @@ def roll_dice(): print(f'You rolled a {randint(1, 6)}')
 
 --- task ---
 
-**Test:** Click the **Run** button. Now when you run your code, a new random number between 1 and 6 will be chosen each time.
+**Протестуй:** натисни на кнопку **Run**. Щоразу як ти запускаєш код, вибиратиметься нове випадкове число від 1 до 6.
 
 --- /task ---
 
-In Python you can multiply strings such as emojis or whole words by a number, so they print out several times.
+У Python ти можеш помножити на якесь число рядки, наприклад емоджі або цілі слова, і вони виводитимуться кілька разів.
 
 --- task ---
 
-Change your function to store the random number in a variable called `roll`{:.language-python}.
+Зміни свою функцію так, щоб вона зберігала випадкове число у змінній під назвою `roll`{:.language-python} (англійською «кидок»).
 
 --- code ---
 ---
 language: python line_numbers: true line_number_start: 15
 line_highlights: 17
 ---
-# Function definitions
+# Визначення функцій
 def roll_dice(): roll = randint(1,6)
 
 --- /code ---
@@ -105,15 +105,15 @@ def roll_dice(): roll = randint(1,6)
 
 --- task ---
 
-Multiply the random number stored in `roll`{:.language-python} by the 🔥 emoji, and print the result.
+Помнож випадкове число, що зберігається у змінній `roll`{:.language-python}, на емоджі 🔥 та виведи результат на екран.
 
 --- code ---
 ---
 language: python line_numbers: true line_number_start: 15
 line_highlights: 18
 ---
-# Function definitions
-def roll_dice(): roll = randint(1,6) print(f'You rolled a {roll} {fire * roll}')
+# Визначення функцій
+def roll_dice(): roll = randint(1,6) print(f'Тобі випало число {roll} {fire * roll}')
 
 --- /code ---
 
@@ -121,15 +121,15 @@ def roll_dice(): roll = randint(1,6) print(f'You rolled a {roll} {fire * roll}')
 
 --- task ---
 
-**Test:** Click the **Run** button. Your output code should look something like this:
+**Протестуй:** натисни на кнопку **Run**. Твій код на виході має виглядати приблизно так:
 
 ```
-Hello 🌍🌎🌏
-Welcome to Python 🐍
-Python 🐍 is good at maths!
+Привіт, 🌍🌎🌏
+Ласкаво просимо до Python 🐍
+Python 🐍 знається на математиці!
 12345678987654321
-The date and time is 2023-11-21 16:14:45.140000
-You rolled a 4 🔥🔥🔥🔥
+Дата й час — 2023-11-21 16:14:45.140000
+Тобі випало число 4 🔥🔥🔥🔥
 ```
 
 --- /task ---
