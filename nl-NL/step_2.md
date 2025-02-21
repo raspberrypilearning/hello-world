@@ -54,7 +54,7 @@ Change your code to also `print()`{:.language-python} the contents of the `world
 language: python line_numbers: true
 line_number_start: 17
 ---
-# Zet de code om uit te voeren hier onder
+# Put code to run under here
 print(f'Hello {world}')
 
 --- /code ---
