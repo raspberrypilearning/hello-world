@@ -9,7 +9,9 @@ Here is an example of a function:
 language: python
 line_numbers: false
 ---
-def add_one_and_one(): x = 1 + 1 print(x) --- /code ---
+def add_one_and_one(): x = 1 + 1 print(x)
+
+--- /code ---
 
 The name of this function is `add_one_and_one`{:.language-python}.
 
@@ -35,7 +37,10 @@ line_highlights: 16-18
 def roll_dice(): print(f'You rolled a {4}')
 
 # Put code to run under here
---- /code --- --- /task ---
+
+--- /code ---
+
+--- /task ---
 
 --- task ---
 
@@ -46,7 +51,9 @@ Then, call the function at the bottom of your code.
 language: python line_numbers: true line_number_start: 24
 line_highlights: 25
 ---
-print(f'The date and time is {datetime.now()}') roll_dice() --- /code ---
+print(f'The date and time is {datetime.now()}') roll_dice()
+
+--- /code ---
 
 --- /task ---
 
@@ -56,7 +63,9 @@ print(f'The date and time is {datetime.now()}') roll_dice() --- /code ---
 
 --- /task ---
 
---- task --- Another module called `random`{:.language-python} can be used to create random numbers. Change your code to use the `randint`{:.language-python} function to choose a random number between 1 and 6 for the dice roll.
+--- task ---
+
+Another module called `random`{:.language-python} can be used to create random numbers. Change your code to use the `randint`{:.language-python} function to choose a random number between 1 and 6 for the dice roll.
 
 --- code ---
 ---
@@ -64,9 +73,17 @@ language: python line_numbers: true line_number_start: 15
 line_highlights: 17
 ---
 # Funktionsdefinitionen
-def roll_dice(): print(f'You rolled a {randint(1, 6)}') --- /code --- --- /task ---
+def roll_dice(): print(f'You rolled a {randint(1, 6)}')
 
---- task --- **Test:** Click the **Run** button. Now when you run your code, a new random number between 1 and 6 will be chosen each time. --- /task ---
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Click the **Run** button. Now when you run your code, a new random number between 1 and 6 will be chosen each time.
+
+--- /task ---
 
 In Python you can multiply strings such as emojis or whole words by a number, so they print out several times.
 
@@ -78,9 +95,15 @@ language: python line_numbers: true line_number_start: 15
 line_highlights: 17
 ---
 # Funktionsdefinitionen
-def roll_dice(): roll = randint(1,6) --- /code --- --- /task ---
+def roll_dice(): roll = randint(1,6)
 
---- task --- Multiply the random number stored in `roll`{:.language-python} by the 🔥 emoji, and print the result.
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+Multiply the random number stored in `roll`{:.language-python} by the 🔥 emoji, and print the result.
 
 --- code ---
 ---
@@ -88,9 +111,15 @@ language: python line_numbers: true line_number_start: 15
 line_highlights: 18
 ---
 # Function definitions
-def roll_dice(): roll = randint(1,6) print(f'You rolled a {roll} {fire * roll}') --- /code --- --- /task ---
+def roll_dice(): roll = randint(1,6) print(f'You rolled a {roll} {fire * roll}')
 
---- task --- **Test:** Click the **Run** button. Your output code should look something like this:
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test:** Click the **Run** button. Your output code should look something like this:
 
 ```
 Hello 🌍🌎🌏
@@ -100,4 +129,5 @@ Python 🐍 is good at maths!
 The date and time is 2023-11-21 16:14:45.140000
 You rolled a 4 🔥🔥🔥🔥
 ```
+
 --- /task ---
