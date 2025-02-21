@@ -1,46 +1,20 @@
-Mettre le code à exécuter ci-dessous
+Put code to run under here.
 
 Hello
 
-Welcome to
+Welcome to {python}
 
-is very good at maths!
+{python} is good at maths!
 
-Imprimer le résultat de la somme
-
-The date and time is
-
-Print the current date and time
+The date and time is {datetime.now()}
 
 Function definitions
 
-Ne pas oublier les deux points à la fin de cette ligne
+You rolled a {4}
 
-You rolled a
+How many sides on your dice?:
 
-randint(1, 6) is used to give a number between 1 and 6.
-
-Call the roll dice function
-
-Generate a random number between 1 and 6 and store it in the variable 'roll'
-
-Repeat the fire emoji to match the random dice roll
-
-How many sides?:
-
-Attendre l'entrée de l'utilisateur
-
-That's a D
-
-Utiliser le numéro que l'utilisateur a saisi
-
-Use max to determine the number of sides the dice has
-
-I ❤️ ...
-
-... makes me 😃
-
-I'd like to make ... with
+That is a D {max}
 
 I can code
 
@@ -48,14 +22,8 @@ First number:
 
 Second number:
 
-What do you like?
+I ❤️ ...
 
-That sounds
+... makes me 😃
 
-You will need to create an emoji variable called 'fun'
-
-('You could make a', python, 'project about', hobby)
-
-Attendre que l'utilisateur appuie sur Entrée
-
-Calls the hobbies function
+I would like to make ... with {python}
