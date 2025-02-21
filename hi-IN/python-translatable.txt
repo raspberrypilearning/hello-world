@@ -1,21 +1,15 @@
 world
 
-python
+add_one_and_one
 
 डाइस रोल करें
 
 रोल
 
-आग
-
 max
+
+आग
 
 बहुत बढ़िया
 
 two_dice
-
-शौक
-
-शौक
-
-मज़ेदार
