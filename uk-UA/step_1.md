@@ -1,11 +1,11 @@
-## What you will make
+## Що ти зробиш
 
-Write an interactive program that uses emojis 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿.
+Створи інтерактивну програму, яка використовує емоджі 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿.
 
 
 --- print-only ---
 
-![Completed project showing example code on the code editor](images/showcase_static.png){:width="640px"}
+![Завершений проєкт із прикладом коду в редакторі коду](images/showcase_static.png){:width="640px"}
 
 --- /print-only ---
 
@@ -15,7 +15,7 @@ Write an interactive program that uses emojis 🙌 🙌🏼 🙌🏽 🙌🏾 �
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-Click on the **Run** button
+Натисни на кнопку **Run** («Запустити»).
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/hello-world-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
