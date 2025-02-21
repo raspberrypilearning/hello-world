@@ -1,27 +1,27 @@
 ## Числа й дати
 
-In Python you can work with numbers and dates.
+У Python можна працювати з числами та датами.
 
-You can use **arithmetic operators** such as `+` and `-`  to do calculations:
+Ти можеш використовувати **арифметичні оператори**, як-от `+` і `-`, щоб виконувати розрахунки:
 
-| + | add |   
-| - | subtract |   
-| * | multiply |   
-| / | divide |   
-| ** | to the power |
+| + | додати |   
+| - | відняти |   
+| * | множити |   
+| / | ділити |   
+| ** | піднести до степеня |
 
 
 --- task ---
 
-Add two more `print()`{:.language-python} lines to your code including a multiplication for Python to calculate:
+Додай ще два рядки `print()`{:.language-python} до свого коду, де Python буде множити одне число на інше:
 
 --- code ---
 ---
 language: python filename: main.py line_numbers: true line_number_start: 17
 line_highlights: 20-21
 ---
-# Put code to run under here
-print(f'Hello {world}') print(f'Welcome to {python}') print(f'{python} is good at maths!') print(f'{3 * 9}')
+# Нижче розмісти код, який потрібно виконати
+print(f'Привіт, {world}') print(f'Ласкаво просимо до {python}') print(f'{python} знається на математиці!') print(f'{3 * 9}')
 
 --- /code ---
 
@@ -29,24 +29,24 @@ print(f'Hello {world}') print(f'Welcome to {python}') print(f'{python} is good a
 
 --- task ---
 
-**Test:** Click the **Run** button. This is what you should see when you run your code.
+**Протестуй:** натисни на кнопку **Run**. Ось що ти маєш побачити.
 
 ```
-Hello 🌍🌎🌏
-Welcome to Python 🐍
-Python 🐍 is good at maths!
+Привіт, 🌍🌎🌏
+Ласкаво просимо до Python 🐍
+Python 🐍 знається на математиці!
 27
 ```
 
 --- /task ---
 
-Python has many **modules** that you can use in your code to help perform certain tasks.
+Python має багато **модулів**, які ти можеш використовувати для виконання різних завдань.
 
-The `datetime`{:.language-python} module helps with writing code that uses dates and times.
+Модуль `datetime`{:.language-python} допомагає писати код, у якому є дата й час.
 
 --- task ---
 
-Add another line to your code to `print`{:.language-python} the current date and time by using the `now()`{:.language-python} method from the `datetime`{:.language-python} library:
+Додай ще один рядок до свого коду, щоб вивести на екран (`print`{:.language-python}) поточну дату й час з використанням методу `now()`{:.language-python} з бібліотеки `datetime`{:.language-python}:
 
 --- code ---
 ---
@@ -54,7 +54,7 @@ language: python filename: main.py line_numbers: true line_number_start: 20
 line_highlights: 22
 ---
 
-print(f'{python} is good at maths!') print(f'{3 * 9}') print(f'The date and time is {datetime.now()}')
+print(f'{python} знається на математиці!') print(f'{3 * 9}') print(f'Дата й час — {datetime.now()}')
 
 --- /code ---
 
@@ -62,7 +62,7 @@ print(f'{python} is good at maths!') print(f'{3 * 9}') print(f'The date and time
 
 --- task ---
 
-**Test:** Run your code a couple of times to see the time update.
+**Протестуй:** запусти свій код декілька разів, щоб побачити кожен раз новий час.
 
 --- /task ---
 
