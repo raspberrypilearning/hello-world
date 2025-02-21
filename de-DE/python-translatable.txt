@@ -1,21 +1,15 @@
 welt
 
-python
+add_one_and_one
 
 wuerfel_werfen
 
 wurf
 
-feuer
-
 max
+
+feuer
 
 prima
 
 zwei_würfel
-
-Hobbys
-
-Hobby
-
-spass
