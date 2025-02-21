@@ -1,29 +1,29 @@
-Put code to run under here.
+Нижче розмісти код, який потрібно виконати
 
-Hello
+Привіт
 
-Welcome to {python}
+Ласкаво просимо до {python}
 
-{python} is good at maths!
+{python} знається на математиці!
 
-The date and time is {datetime.now()}
+Дата й час — {datetime.now()}
 
-Function definitions
+Визначення функцій
 
-You rolled a {4}
+Тобі випало число {4}
 
-How many sides on your dice?:
+Кількість сторін кубика:
 
-That is a D {max}
+Цей кубик називається D {max}
 
-I can code
+Я вмію кодувати
 
-First number:
+Перше число:
 
-Second number:
+Друге число:
 
-I ❤️ ...
+Я ❤️ ...
 
-... makes me 😃
+... викликає у мене 😃
 
-I would like to make ... with {python}
+Я хочу створювати ... у {python}
