@@ -87,7 +87,9 @@ def roll_dice(): print(f'You rolled a {randint(1, 6)}')
 
 In Python you can multiply strings such as emojis or whole words by a number, so they print out several times.
 
---- task --- Change your function to store the random number in a variable called `roll`{:.language-python}.
+--- task ---
+
+Change your function to store the random number in a variable called `roll`{:.language-python}.
 
 --- code ---
 ---
