@@ -1,21 +1,15 @@
 byd
 
-python
+add_one_and_one
 
 taflu_dis
 
 tafliad
 
-fflam
-
 max
+
+fflam
 
 gwych
 
 dau_ddis
-
-diddordebau
-
-diddordeb
-
-hwyl
