@@ -56,7 +56,9 @@ line_highlights: 22
 
 print(f'{python} is good at maths!') print(f'{3 * 9}') print(f'The date and time is {datetime.now()}')
 
---- /code --- --- /task ---
+--- /code ---
+
+--- /task ---
 
 --- task ---
 
