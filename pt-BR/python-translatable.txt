@@ -1,21 +1,15 @@
 mundo
 
-python
+add_one_and_one
 
 rolar_dado
 
 rolar
 
-fogo
-
 maximo
+
+fogo
 
 incrível
 
 dois_dados
-
-passatempos
-
-passatempo
-
-diversão
