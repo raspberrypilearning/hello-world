@@ -1,21 +1,15 @@
 mondo
 
-python
+add_one_and_one
 
 tira_dado
 
 risultato
 
-fuoco
-
 max
+
+fuoco
 
 meraviglioso
 
 due_dadi
-
-hobbies
-
-hobby
-
-divertimento
