@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend : Question 2 sur 3
+legend: Question 2 sur 3
 ---
 
 Laquelle de ces définitions de fonction est correcte et affichera `Je peux coder` lorsqu'elle est appelée ?
