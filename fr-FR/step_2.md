@@ -1,4 +1,4 @@
-## Print Bonjour
+## Imprimer (print) Bonjour
 
 In Python, `print()`{:.language-python} outputs strings (words or numbers) to the screen.
 
