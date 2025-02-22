@@ -8,7 +8,7 @@ Amuse-toi bien !
 
 --- question ---
 ---
-legend : Question 1 sur 3
+legend: Question 1 sur 3
 ---
 
 Ce code définit la variable `monde` pour qu'elle contienne le texte '🌍🌎🌏' (les trois emojis de monde différents) :
