@@ -1,6 +1,6 @@
 ## Imprimer (print) Bonjour
 
-In Python, `print()`{:.language-python} outputs strings (words or numbers) to the screen.
+En Python, `print()`{:.language-python} affiche des chaînes (mots ou nombres) à l'écran.
 
 --- task ---
 
@@ -12,15 +12,15 @@ Ouvre le projet de démarrage [Bonjour 🌍🌎🌏](https://editor.raspberrypi.
 
 --- task ---
 
-Find the `# Put code to run below here`{:.language-python} line.
+Trouve la ligne `# Mettre le code à exécuter ci-dessous`{:.language-python}.
 
-Click below that line. The flashing `|` is the cursor and shows where you will type.
+Clique sous cette ligne. Le `|` qui clignote est le curseur et indique où tu taperas.
 
 --- /task ---
 
 --- task ---
 
-Type the code to `print()`{:.language-python} Hello to the screen:
+Tape le code `print()`{:.language-python} Bonjour à l'écran :
 
 --- code ---
 ---
@@ -36,13 +36,13 @@ print(f'Hello')
 
 --- task ---
 
-**Test :** clique sur le bouton **Run** pour exécuter ton code. This is what you should see when you run your code:
+**Test :** clique sur le bouton **Run** pour exécuter ton code. Tu devrais voir ceci lorsque tu exécutes ton code :
 
 ![L'icône Run est mise en évidence avec "Bonjour" dans la zone de sortie. ](images/run_hello.png)
 
 --- /task ---
 
-A **variable** is used to store values such as text or numbers. Nous avons inclus quelques variables qui stockent les caractères emoji.
+Une **variable** est utilisée pour stocker des valeurs telles que du texte ou des nombres. Nous avons inclus quelques variables qui stockent les caractères emoji.
 
 --- task ---
 
