@@ -1,6 +1,6 @@
-## What you will make
+## Ce que tu vas faire
 
-Write an interactive program that uses emojis 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿.
+Écris un programme interactif qui utilise des emojis 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿.
 
 
 --- print-only ---
@@ -15,7 +15,7 @@ Write an interactive program that uses emojis 🙌 🙌🏼 🙌🏽 🙌🏾 �
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-Click on the **Run** button
+Clique sur le bouton **Run**
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/hello-world-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
