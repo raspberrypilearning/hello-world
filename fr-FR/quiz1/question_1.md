@@ -53,7 +53,7 @@ output('Bonjour' monde)
 language: python
 ---
 
-print(f'Hello world')
+print(f'Bonjour le monde')
 
 --- /code ---
 
@@ -70,7 +70,7 @@ print(f'Hello world')
 language: python
 ---
 
-print(f'Hello{world}')
+print(f'Bonjour {world}')
 
 --- /code ---
 
