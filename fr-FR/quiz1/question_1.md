@@ -76,7 +76,7 @@ print(f'Bonjour {world}')
 
  --- feedback ---
 
- C'est exact, en Python `print` affiche des messages à l'écran. The text output is inside single quotes `'` , then the `world` variable contains the earth emoji 🌍🌎🌏.
+ C'est exact, en Python `print` affiche des messages à l'écran. La sortie de texte est à l'intérieur de guillemets simples `'` , puis la variable `monde` contient l'emoji Terre 🌍🌎🌏.
 
  --- /feedback ---
 
@@ -87,7 +87,7 @@ print(f'Bonjour {world}')
 language: python
 ---
 
-print('Hello{world}')
+print('Bonjour {world}')
 
 --- /code ---
 
