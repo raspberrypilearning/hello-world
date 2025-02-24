@@ -1,8 +1,8 @@
 ## Sommes et dates
 
-In Python you can work with numbers and dates.
+En Python, tu peux travailler avec des nombres et des dates.
 
-You can use **arithmetic operators** such as `+` and `-`  to do calculations:
+Tu peux utiliser les **opérateurs arithmétiques** tels que `+` et `-`  pour effectuer des calculs :
 
 | + | addition |   
 | - | soustraction |   
@@ -13,7 +13,7 @@ You can use **arithmetic operators** such as `+` and `-`  to do calculations:
 
 --- task ---
 
-Add two more `print()`{:.language-python} lines to your code including a multiplication for Python to calculate:
+Ajoute deux autres lignes `print()`{:.language-python} à ton code ainsi qu'une multiplication pour que Python puisse calculer :
 
 --- code ---
 ---
@@ -29,7 +29,7 @@ print(f'Hello {world}') print(f'Welcome to {python}') print(f'{python} is good a
 
 --- task ---
 
-**Test:** Click the **Run** button. This is what you should see when you run your code.
+**Test :** clique sur le bouton **Run** . Tu devrais voir ceci lorsque tu exécutes ton code .
 
 ```
 Hello 🌍🌎🌏
@@ -40,13 +40,13 @@ Python 🐍 is good at maths!
 
 --- /task ---
 
-Python has many **modules** that you can use in your code to help perform certain tasks.
+Python possède de nombreux **modules** que tu peux utiliser dans ton code pour t'aider à effectuer certaines tâches.
 
-The `datetime`{:.language-python} module helps with writing code that uses dates and times.
+Le module `datetime`{:.language-python} aide à écrire du code qui utilise des dates et des heures.
 
 --- task ---
 
-Add another line to your code to `print`{:.language-python} the current date and time by using the `now()`{:.language-python} method from the `datetime`{:.language-python} library:
+Ajoute une autre ligne à ton code pour `print`{:.language-python} la date et l'heure actuelles en utilisant la méthode `now()`{:.language-python} de la bibliothèque `datetime`{:.language-python} :
 
 --- code ---
 ---
