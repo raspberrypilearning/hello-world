@@ -46,7 +46,7 @@ Une **variable** est utilisée pour stocker des valeurs telles que du texte ou d
 
 --- task ---
 
-Change your code to also `print()`{:.language-python} the contents of the `world`{:.language-python} variable. You can do this by adding the variable name in curly brackets `{}`{:.language-python}
+Modifie ton code pour également `print()`{:.language-python} le contenu de la variable `world`{:.language-python} . You can do this by adding the variable name in curly brackets `{}`{:.language-python}
 
 
 --- code ---
