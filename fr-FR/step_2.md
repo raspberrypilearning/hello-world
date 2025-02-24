@@ -6,7 +6,7 @@ En Python, `print()`{:.language-python} affiche des chaînes (mots ou nombres) �
 
 Ouvre le projet de démarrage [Bonjour 🌍🌎🌏](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. Le Code Editor s'ouvrira dans un autre onglet du navigateur.
 
-![The code editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
+![Le Code Editor avec le code de démarrage du projet à gauche dans la zone de code. Sur la droite se trouve la zone de sortie vide.](images/starter_project.png)
 
 --- /task ---
 
@@ -46,7 +46,7 @@ Une **variable** est utilisée pour stocker des valeurs telles que du texte ou d
 
 --- task ---
 
-Modifie ton code pour également `print()`{:.language-python} le contenu de la variable `world`{:.language-python} . You can do this by adding the variable name in curly brackets `{}`{:.language-python}
+Modifie ton code pour également `print()`{:.language-python} le contenu de la variable `world`{:.language-python} . Tu peux le faire en ajoutant le nom de la variable entre accolades `{}`{:.language-python}
 
 
 --- code ---
@@ -59,7 +59,7 @@ print(f'Hello {world}')
 
 --- /code ---
 
-The `f`{:.language-python} character inside the print lets you easily print variables along with strings of text.
+Le caractère `f`{:.language-python} à l'intérieur de print te permet d'imprimer facilement des variables avec des chaînes de texte.
 
 --- /task ---
 
@@ -73,7 +73,7 @@ The `f`{:.language-python} character inside the print lets you easily print vari
 
 --- task ---
 
-**Add** another line to your code to `print()`{:.language-python} more text and emojis:
+**Ajoute** une autre ligne à ton code pour `print()`{:.language-python} plus de texte et d'emojis :
 
 --- code ---
 ---
