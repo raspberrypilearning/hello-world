@@ -1,8 +1,8 @@
 ## Lancer un dé 🎲
 
-Functions are blocks of code that perform specific tasks. They can be used over and over again.
+Les fonctions sont des blocs de code qui exécutent des tâches spécifiques. Elles peuvent être utilisées à l'infini.
 
-Here is an example of a function:
+Voici un exemple de fonction :
 
 --- code ---
 ---
@@ -13,7 +13,7 @@ def add_one_and_one(): x = 1 + 1 print(x)
 
 --- /code ---
 
-The name of this function is `add_one_and_one`{:.language-python}.
+Le nom de cette fonction s'appelle `add_one_and_one`{:.language-python}.
 
 The code for the task you want the function to do needs to be **indented**, which means that you need to add **four spaces** before each line of code.
 
