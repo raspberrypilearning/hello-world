@@ -1,12 +1,12 @@
-## Challenge
+## Défi
 
 --- challenge ---
 
 --- task ---
 
-Practise adding more `print` lines to your code.
+Entraîne-toi à ajouter plus de lignes `print` à ton code.
 
-Here are some sentence starters that you can use:
+Voici quelques débuts de phrases que tu peux utiliser :
 
 --- code ---
 ---
@@ -19,7 +19,7 @@ print(f'I would like to make ... with {python}')
 
 --- /code ---
 
-Here is a list of some emojis you might like to use:
+Voici une liste d'emojis que tu pourrais utiliser :
 
 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒🎨🎮🔬🎉🕶️🎲 😊 🦄🚀💯⭐💛❤️📚⚽🏏🏀🥋🏆✨🥺🌈🔥♻️🌳 👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋🙋🏼🙋🏽🙋🏾🙋🏿
 
