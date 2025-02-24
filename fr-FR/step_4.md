@@ -15,18 +15,18 @@ def add_one_and_one(): x = 1 + 1 print(x)
 
 Le nom de cette fonction s'appelle `add_one_and_one`{:.language-python}.
 
-The code for the task you want the function to do needs to be **indented**, which means that you need to add **four spaces** before each line of code.
+Le code de la tâche que tu souhaites que la fonction effectue doit être **indenté**, ce qui signifie que tu dois ajouter **quatre espaces** avant chaque ligne de code.
 
-**Calling** a function runs the code inside it. You **call** a function by using its name. In this case `add_one_and_one()`{:.language-python}.
+**L'appel ** d'une fonction exécute le code qu'elle contient. Tu **appelles** une fonction en utilisant son nom. Ici, `add_one_and_one()`{:.language-python}.
 
 
 --- task ---
 
-Look for the comment in the **main.py** file that says
+Recherche le commentaire dans le fichier **main.py** qui dit
 
-`# Function definitions`{:.language-python}.
+`# Définitions de fonctions`{:.language-python}.
 
-Create a function called `roll_dice()`{:.language-python}, that prints out the number 4.
+Crée une fonction appelée `roule_de()`{:.language-python}, qui imprime le nombre 4.
 
 --- code ---
 ---
@@ -44,7 +44,7 @@ def roll_dice(): print(f'You rolled a {4}')
 
 --- task ---
 
-Then, call the function at the bottom of your code.
+Ensuite, appelle la fonction en bas de ton code.
 
 --- code ---
 ---
@@ -59,13 +59,13 @@ print(f'The date and time is {datetime.now()}') roll_dice()
 
 --- task ---
 
-**Test:** Run your project several times to see the dice roll each time - it will always be 4.
+**Test :** exécute ton projet plusieurs fois pour voir le résultat du dé à chaque fois : ce sera toujours 4.
 
 --- /task ---
 
 --- task ---
 
-Another module called `random`{:.language-python} can be used to create random numbers. Change your code to use the `randint`{:.language-python} function to choose a random number between 1 and 6 for the dice roll.
+Un autre module appelé `random`{:.language-python} peut être utilisé pour créer des nombres aléatoires. Modifie ton code pour utiliser la fonction `randint`{:.language-python} pour choisir un nombre aléatoire entre 1 et 6 pour le lancer de dés.
 
 --- code ---
 ---
@@ -81,15 +81,15 @@ def roll_dice(): print(f'You rolled a {randint(1, 6)}')
 
 --- task ---
 
-**Test:** Click the **Run** button. Now when you run your code, a new random number between 1 and 6 will be chosen each time.
+**Test :** clique sur le bouton **Run** . Maintenant, lorsque tu exécutes ton code, un nouveau nombre aléatoire entre 1 et 6 sera choisi à chaque fois.
 
 --- /task ---
 
-In Python you can multiply strings such as emojis or whole words by a number, so they print out several times.
+En Python, tu peux multiplier des chaînes de caractères telles que des emojis ou des mots entiers par un nombre, afin qu'elles s'impriment plusieurs fois.
 
 --- task ---
 
-Change your function to store the random number in a variable called `roll`{:.language-python}.
+Modifie ta fonction pour stocker le nombre aléatoire dans une variable appelée `rouler`{:.language-python}.
 
 --- code ---
 ---
@@ -105,7 +105,7 @@ def roll_dice(): roll = randint(1,6)
 
 --- task ---
 
-Multiply the random number stored in `roll`{:.language-python} by the 🔥 emoji, and print the result.
+Multiplie le nombre aléatoire stocké dans `rouler`{:.language-python} par l'emoji 🔥 et imprime le résultat.
 
 --- code ---
 ---
@@ -121,7 +121,7 @@ def roll_dice(): roll = randint(1,6) print(f'You rolled a {roll} {fire * roll}')
 
 --- task ---
 
-**Test:** Click the **Run** button. Your output code should look something like this:
+**Test :** clique sur le bouton **Run** . Ton code de sortie devrait ressembler à ceci :
 
 ```
 Hello 🌍🌎🌏
