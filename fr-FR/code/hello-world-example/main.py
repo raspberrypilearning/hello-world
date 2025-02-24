@@ -2,7 +2,7 @@ from datetime import datetime
 from random import randint
 
 # Variables Emoji à utiliser dans ton projet
-monde = '🌍🌎🌏'
+world = '🌍🌎🌏'
 python = 'Python 🐍'
 feu = '🔥'
 
@@ -21,7 +21,7 @@ def roule_de():
     print('Tu as un ', rouler, feu * rouler) # Répète l'emoji de feu pour correspondre au lancer de dé
 
 # Mettre le code à exécuter ci-dessous
-print('Bonjour', monde)
+print('Bonjour', world)
 print('Bienvenue sur', python)
 print(python, 'est très bon en maths !')
 print(230 * 5782 ** 2 / 23781) # Imprimer le résultat du calcul
