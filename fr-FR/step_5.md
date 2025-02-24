@@ -1,10 +1,10 @@
-## Get input
+## Obtenir une entrée
 
-You can use `input()`{:.language-python} to ask the person using your program to enter text.
+Tu peux utiliser `input()`{:.language-python} pour demander à la personne qui utilise ton programme de saisir du texte.
 
 --- task ---
 
-Change your function to ask the person using your program to enter how many sides on the dice, and save it as a variable.
+Modifie ta fonction pour demander à la personne qui utilise ton programme d'indiquer le nombre de faces du dé, et enregistre-le comme variable.
 
 --- code ---
 ---
@@ -20,7 +20,7 @@ def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a 
 
 --- task ---
 
-**Test:** Click the **Run** button and type in a number of sides. Ensure you press the <kbd> Enter </kbd> key after inputting how many sides. This is what you should see when you run your code.
+**Test :** clique sur le bouton **Run** et saisis un nombre de faces. Assure-toi d'appuyer sur la touche <kbd> Entrée</kbd> après avoir saisi le nombre de faces. Tu devrais voir ceci lorsque tu exécutes ton code .
 
 <div class="c-project-output">
 ```
@@ -37,11 +37,11 @@ You rolled a 1 🔥
 
 --- /task ---
 
-Inputs are always stored as text, but we need to use the input stored in `max` to specify the largest number that could be rolled.
+Les entrées sont toujours stockées sous forme de texte, mais nous devons utiliser l'entrée stockée dans `max` pour spécifier le plus grand nombre qui pourrait être obtenu.
 
 --- task ---
 
-`max` is a string, so it needs to be changed to an integer `int()`{:.language-python}.
+`max` est une chaîne, elle doit donc être changée en un entier `int()`{:.language-python}.
 
 
 --- code ---
@@ -58,7 +58,7 @@ def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a 
 
 --- task ---
 
-**Test:** Click the **Run** button a few times. Check that the dice rolls a random number each time.
+**Test :** clique sur le bouton **Run** plusieurs fois. Vérifie que le dé génère un nombre aléatoire à chaque fois.
 
 --- /task ---
 
