@@ -1,8 +1,8 @@
-## Sommen en datums
+## Sommen en data
 
-In Python you can work with numbers and dates.
+In Python kun je met getallen en data werken.
 
-You can use **arithmetic operators** such as `+` and `-`  to do calculations:
+Je kunt **rekenkundige operatoren** gebruiken, zoals `+` en `-`  om berekeningen uit te voeren:
 
 | + | optellen |   
 | - | aftrekken |   
@@ -13,7 +13,7 @@ You can use **arithmetic operators** such as `+` and `-`  to do calculations:
 
 --- task ---
 
-Add two more `print()`{:.language-python} lines to your code including a multiplication for Python to calculate:
+Voeg nog twee `print()`{:.language-python} regels toe aan je code, inclusief een vermenigvuldiging die Python moet berekenen:
 
 --- code ---
 ---
@@ -29,7 +29,7 @@ print(f'Hello {world}') print(f'Welcome to {python}') print(f'{python} is good a
 
 --- task ---
 
-**Test:** Click the **Run** button. This is what you should see when you run your code.
+**Test:** Klik op de knop **Run**. Dit is wat je zou moeten zien wanneer je jouw code uitvoert.
 
 ```
 Hello 🌍🌎🌏
@@ -40,13 +40,13 @@ Python 🐍 is good at maths!
 
 --- /task ---
 
-Python has many **modules** that you can use in your code to help perform certain tasks.
+Python heeft veel **modules** die je in jouw code kunt gebruiken om bepaalde taken uit te voeren.
 
-The `datetime`{:.language-python} module helps with writing code that uses dates and times.
+De module `datetime`{:.language-python} helpt bij het schrijven van code die gebruik maakt van data en tijden.
 
 --- task ---
 
-Add another line to your code to `print`{:.language-python} the current date and time by using the `now()`{:.language-python} method from the `datetime`{:.language-python} library:
+Voeg nog een `print`{:.language-python} regel toe voor de huidige datum en tijd door de `now()`{:.language-python} methode te gebruiken van de `datetime`{:.language-python} bibliotheek:
 
 --- code ---
 ---
