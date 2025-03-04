@@ -10,7 +10,7 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: What you will make
+    title: Wat je gaat maken
   - 
     title: Zeg hallo
   - 
@@ -20,7 +20,7 @@ steps:
   - 
     title: Gooi een dobbelsteen
   - 
-    title: Get input
+    title: Input ophalen
     completion:
       - internal
   - 
@@ -33,7 +33,7 @@ steps:
     completion:
       - external
   - 
-    title: Challenge
+    title: Uitdaging
     challenge: true
   - 
-    title: What can you do now?
+    title: Wat kun je verder nog doen?
