@@ -57,7 +57,7 @@ def geweldig() print('Ik kan coderen')
 
  --- feedback ---
 
-Niet helemaal, er ontbreekt iets in de functiedefinitie en deze lay-out zou een fout veroorzaken.
+Niet helemaal, er ontbreekt iets in de functiedefinitie dat een fout zou veroorzaken.
 
  --- /feedback ---
 
