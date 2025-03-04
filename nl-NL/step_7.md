@@ -1,12 +1,12 @@
-## Challenge
+## Uitdaging
 
 --- challenge ---
 
 --- task ---
 
-Practise adding more `print` lines to your code.
+Oefen met het toevoegen van meer `print` regels aan je code.
 
-Here are some sentence starters that you can use:
+Hier zijn enkele startzinnen die je kunt gebruiken:
 
 --- code ---
 ---
@@ -19,7 +19,7 @@ print(f'I would like to make ... with {python}')
 
 --- /code ---
 
-Here is a list of some emojis you might like to use:
+Hier is een lijst met emoji's die je zou kunnen gebruiken:
 
 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒🎨🎮🔬🎉🕶️🎲 😊 🦄🚀💯⭐💛❤️📚⚽🏏🏀🥋🏆✨🥺🌈🔥♻️🌳 👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋🙋🏼🙋🏽🙋🏾🙋🏿
 
