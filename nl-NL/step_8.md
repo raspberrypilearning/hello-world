@@ -1,4 +1,4 @@
-## What can you do now?
+## Wat kun je verder nog doen?
 
 Als je het [Inleiding tot Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pad volgt, kun je doorgaan naar het [Boogschieten](https://projects.raspberrypi.org/en/projects/target-practice) project. In dit project teken je een doelwit en maak je vervolgens een boogschietspel dat pijlen schiet om punten te scoren.
 
@@ -17,6 +17,6 @@ Klik op de knop **Run** om een voorbeeld van dit project te bekijken.
 
 --- /no-print ---
 
-Or, why not try out another [Python](https://projects.raspberrypi.org/en/projects?software%5B%5D=python) project.
+Of probeer een ander [Python](https://projects.raspberrypi.org/en/projects?software%5B%5D=python) project.
 
 
