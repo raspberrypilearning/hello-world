@@ -1,6 +1,6 @@
 wereld
 
-add_one_and_one
+tel_een_en_een_op
 
 gooi_dobbelsteen
 
