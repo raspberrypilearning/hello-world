@@ -1,26 +1,26 @@
 ## Druk hallo af
 
-In Python, `print()`{:.language-python} outputs strings (words or numbers) to the screen.
+In Python worden met `print()`{:.language-python} strings (woorden of getallen) op het scherm weergegeven.
 
 --- task ---
 
 Open het [Hallo 🌍🌎🌏 startproject](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. De code-editor wordt geopend in een ander browsertabblad.
 
-![The code editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
+![De code-editor met startprojectcode aan de linkerkant in het codegebied. Aan de rechterkant is het lege uitvoergebied.](images/starter_project.png)
 
 --- /task ---
 
 --- task ---
 
-Find the `# Put code to run below here`{:.language-python} line.
+Zoek de regel `# Plaats de code die moet worden uitgevoerd hieronder`{:.language-python}.
 
-Click below that line. The flashing `|` is the cursor and shows where you will type.
+Klik onder die regel. De knipperende `|` is de cursor en geeft aan waar je gaat typen.
 
 --- /task ---
 
 --- task ---
 
-Type the code to `print()`{:.language-python} Hello to the screen:
+Typ de code in zodat Hallo wordt ge`print()`{:.language-python} op het scherm:
 
 --- code ---
 ---
@@ -36,17 +36,17 @@ print(f'Hello')
 
 --- task ---
 
-**Test:** Klik op de knop **Run** om je code uit te voeren. This is what you should see when you run your code:
+**Test:** Klik op de knop **Run** om je code uit te voeren. Dit is wat je zou moeten zien wanneer je jouw code uitvoert:
 
-![Het pictogram Uitvoeren gemarkeerd terwijl 'Hallo' weergegeven wordt in het uitvoergebied. ](images/run_hello.png)
+![Het pictogram Run gemarkeerd terwijl 'Hallo' weergegeven wordt in het uitvoergebied. ](images/run_hello.png)
 
 --- /task ---
 
-A **variable** is used to store values such as text or numbers. We hebben enkele variabelen opgenomen die emoji-tekens opslaan.
+Een **variabele** wordt gebruikt om waarden zoals tekst of getallen op te slaan. We hebben enkele variabelen opgenomen die emoji-tekens opslaan.
 
 --- task ---
 
-Change your code to also `print()`{:.language-python} the contents of the `world`{:.language-python} variable. You can do this by adding the variable name in curly brackets `{}`{:.language-python}
+Wijzig je code zodat ook er een `print()`{:.language-python} wordt gedaan van de inhoud van de `wereld`{:.language-python} variabele. Je kan dit doen door de variabelenaam tussen accolades `{}`{:.language-python} toe te voegen
 
 
 --- code ---
@@ -59,7 +59,7 @@ print(f'Hello {world}')
 
 --- /code ---
 
-The `f`{:.language-python} character inside the print lets you easily print variables along with strings of text.
+Met het teken `f`{:.language-python} in het print commando kun je eenvoudig variabelen samen met tekstreeksen afdrukken.
 
 --- /task ---
 
@@ -73,7 +73,7 @@ The `f`{:.language-python} character inside the print lets you easily print vari
 
 --- task ---
 
-**Add** another line to your code to `print()`{:.language-python} more text and emojis:
+**Voeg** nog een regel toe aan je code om meer tekst en emoji's te printen via het commando `print()`{:.language-python}:
 
 --- code ---
 ---
