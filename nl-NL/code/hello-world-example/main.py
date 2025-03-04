@@ -27,7 +27,7 @@ print(python, 'is erg goed in wiskunde!')
 print(230 * 5782 ** 2 / 23781) # Laat het resultaat van de som zien
 print('De datum en tijd is', datetime.now()) # Laat de huidige datum en tijd zien
 
-gooi_dobbelsteen() #Roep de dobbelsteen functie aan
+gooi_dobbelsteen() # Roep de dobbelsteen functie aan
 print('Ik ❤️ regenbogen 🌈')
 print('Eenhoorns 🦄 maken mij 😃')
 print('Ik wil graag een verhaal 📖 maken met', python)
