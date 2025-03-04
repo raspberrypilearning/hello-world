@@ -1,10 +1,10 @@
-## Get input
+## Input ophalen
 
-You can use `input()`{:.language-python} to ask the person using your program to enter text.
+Je kunt `input()`{:.language-python} gebruiken om de persoon die jouw programma gebruikt te vragen tekst in te voeren.
 
 --- task ---
 
-Change your function to ask the person using your program to enter how many sides on the dice, and save it as a variable.
+Wijzig je functie zodat de persoon die jouw programma gebruikt, moet invoeren hoeveel zijden de dobbelsteen heeft en sla dit op als een variabele.
 
 --- code ---
 ---
@@ -20,7 +20,7 @@ def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a 
 
 --- task ---
 
-**Test:** Click the **Run** button and type in a number of sides. Ensure you press the <kbd> Enter </kbd> key after inputting how many sides. This is what you should see when you run your code.
+**Test:** Klik op de knop **Run** en typ een aantal zijden in. Zorg ervoor dat je op de knop <kbd>Enter</kbd> klikt nadat je het aantal kanten hebt ingevoerd. Dit is wat je zou moeten zien wanneer je jouw code uitvoert.
 
 <div class="c-project-output">
 ```
@@ -37,11 +37,11 @@ You rolled a 1 🔥
 
 --- /task ---
 
-Inputs are always stored as text, but we need to use the input stored in `max` to specify the largest number that could be rolled.
+Invoer wordt altijd opgeslagen als tekst, maar we moeten de invoer die is opgeslagen in `max` gebruiken om het grootste getal op te geven dat kan worden gerold.
 
 --- task ---
 
-`max` is a string, so it needs to be changed to an integer `int()`{:.language-python}.
+`max` is een string, dus deze moet worden gewijzigd in een integer (geheel getal) `int()`{:.language-python}.
 
 
 --- code ---
@@ -58,7 +58,7 @@ def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a 
 
 --- task ---
 
-**Test:** Click the **Run** button a few times. Check that the dice rolls a random number each time.
+**Test:** Klik een paar keer op de knop **Run**. Controleer of de dobbelsteen iedere keer een willekeurig getal gooit.
 
 --- /task ---
 
