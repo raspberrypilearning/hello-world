@@ -76,7 +76,7 @@ print(f'Hallo{wereld}')
 
  --- feedback ---
 
- Dat klopt, in Python stuurt `print` berichten naar het scherm. The text output is inside single quotes `'` , then the `world` variable contains the earth emoji 🌍🌎🌏.
+ Dat klopt, in Python stuurt `print` berichten naar het scherm. De tekstuitvoer staat tussen enkele aanhalingstekens `'`, waarna de variabele `wereld` de aarde-emoji bevat 🌍🌎🌏.
 
  --- /feedback ---
 
