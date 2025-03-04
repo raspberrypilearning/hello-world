@@ -1,8 +1,8 @@
 ## Gooi een dobbelsteen 🎲
 
-Functions are blocks of code that perform specific tasks. They can be used over and over again.
+Functies zijn codeblokken die specifieke taken uitvoeren. Ze kunnen steeds opnieuw gebruikt worden.
 
-Here is an example of a function:
+Hier is een voorbeeld van een functie:
 
 --- code ---
 ---
@@ -13,20 +13,20 @@ def add_one_and_one(): x = 1 + 1 print(x)
 
 --- /code ---
 
-The name of this function is `add_one_and_one`{:.language-python}.
+De naam van deze functie is `tel_een_en_een_op`{:.language-python}.
 
-The code for the task you want the function to do needs to be **indented**, which means that you need to add **four spaces** before each line of code.
+De code voor de taak die je wil dat de functie uitvoert, moet **ingesprongen zijn**, wat betekent dat je **vier spaties** moet toevoegen vóór elke regel code.
 
-**Calling** a function runs the code inside it. You **call** a function by using its name. In this case `add_one_and_one()`{:.language-python}.
+Door een functie **aan te roepen**, wordt de code erbinnen uitgevoerd. Het **aanroepen** van een functie doe je door de naam in te typen. In dit geval `tel_een_en_een_op()`{:.language-python}.
 
 
 --- task ---
 
-Look for the comment in the **main.py** file that says
+Vind de opmerking in het bestand **main.py** waarin staat
 
-`# Function definitions`{:.language-python}.
+`# Functiedefinities`{:.language-python}.
 
-Create a function called `roll_dice()`{:.language-python}, that prints out the number 4.
+Maak een functie genaamd `gooi_dobbelsteen()`{:.language-python}, die het getal 4 afdrukt.
 
 --- code ---
 ---
@@ -44,7 +44,7 @@ def roll_dice(): print(f'You rolled a {4}')
 
 --- task ---
 
-Then, call the function at the bottom of your code.
+Roep vervolgens de functie onderaan je code aan.
 
 --- code ---
 ---
@@ -59,13 +59,13 @@ print(f'The date and time is {datetime.now()}') roll_dice()
 
 --- task ---
 
-**Test:** Run your project several times to see the dice roll each time - it will always be 4.
+**Test:** Voer je project meerdere keren uit en kijk elke keer hoe de dobbelstenen rollen - de uitkomst zal altijd 4 zijn.
 
 --- /task ---
 
 --- task ---
 
-Another module called `random`{:.language-python} can be used to create random numbers. Change your code to use the `randint`{:.language-python} function to choose a random number between 1 and 6 for the dice roll.
+Een andere module, genaamd `random`{:.language-python}, kan worden gebruikt om willekeurige getallen te creëren. Wijzig je code om de functie `randint`{:.language-python} te gebruiken om een willekeurig getal tussen 1 en 6 te kiezen voor de dobbelsteenworp.
 
 --- code ---
 ---
@@ -81,15 +81,15 @@ def roll_dice(): print(f'You rolled a {randint(1, 6)}')
 
 --- task ---
 
-**Test:** Click the **Run** button. Now when you run your code, a new random number between 1 and 6 will be chosen each time.
+**Test:** Klik op de knop **Run**. Wanneer je nu je code nog eens uitvoert, zal er elke keer een nieuw willekeurig getal tussen 1 en 6 worden gekozen.
 
 --- /task ---
 
-In Python you can multiply strings such as emojis or whole words by a number, so they print out several times.
+In Python kun je strings zoals emoji's of hele woorden vermenigvuldigen met een getal, zodat ze meerdere keren worden geprint.
 
 --- task ---
 
-Change your function to store the random number in a variable called `roll`{:.language-python}.
+Wijzig je functie om het willekeurige getal op te slaan in een variabele met de naam `worp`{:.language-python}.
 
 --- code ---
 ---
@@ -105,7 +105,7 @@ def roll_dice(): roll = randint(1,6)
 
 --- task ---
 
-Multiply the random number stored in `roll`{:.language-python} by the 🔥 emoji, and print the result.
+Vermenigvuldig het willekeurige getal opgeslagen in `worp`{:.language-python} met de 🔥 emoji en druk het resultaat af.
 
 --- code ---
 ---
@@ -121,7 +121,7 @@ def roll_dice(): roll = randint(1,6) print(f'You rolled a {roll} {fire * roll}')
 
 --- task ---
 
-**Test:** Click the **Run** button. Your output code should look something like this:
+**Test:** Klik op de knop **Run**. Je uitvoer zou er ongeveer zo uit moeten zien:
 
 ```
 Hello 🌍🌎🌏
