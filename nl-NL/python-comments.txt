@@ -1,20 +1,20 @@
-Put code to run under here.
+Zet de code om uit te voeren hieronder.
 
 Hallo
 
-Welcome to {python}
+Welkom bij {python}
 
-{python} is good at maths!
+{python} is goed in wiskunde!
 
-The date and time is {datetime.now()}
+De datum en tijd is {datetime.now()}
 
 Functiedefinities
 
-You rolled a {4}
+Je hebt een {4} gegooid
 
-How many sides on your dice?:
+Hoeveel zijden heeft jouw dobbelsteen?:
 
-That is a D {max}
+Dat is een D {max}
 
 Ik kan coderen
 
@@ -26,4 +26,4 @@ Ik ❤️...
 
 ... maakt mij 😃
 
-I would like to make ... with {python}
+Ik wil graag ... maken met {python}
