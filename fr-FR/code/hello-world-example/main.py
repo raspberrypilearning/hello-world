@@ -2,9 +2,9 @@ from datetime import datetime
 from random import randint
 
 # Variables Emoji à utiliser dans ton projet
-world = "🌍🌎🌏"
+monde = "🌍🌎🌏"
 python = "Python 🐍"
-fire = "🔥"
+feu = "🔥"
 
 # Emojis à copier et coller dans ton code :
 # 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊
@@ -16,22 +16,22 @@ fire = "🔥"
 
 # Définitions de fonctions
 def roule_de():
-    max = input("How many sides?:")  # Wait for input from the user
-    print("That's a D", max)  # Use the number the user entered
+    max = input('Combien de faces ? :') # Attendre la saisie de l'utilisateur
+    print("C\'est un D", max) # Utiliser le nombre entré par l'utilisateur
     rouler = randint(1, int(max)) # Utiliser max pour déterminer le nombre de faces du dé
     print(
-        "You rolled a", roll, fire * roll
-    )  # Repeat the fire emoji to match the dice roll
+        "Tu as obtenu un", roule, feu * roule
+    )  # Répéter l'emoji de feu pour correspondre au lancer de dés
 
 
 # Mettre le code à exécuter ci-dessous
-print("Hello", world)
-print("Welcome to", python)
-print(python, "is very good at maths!")
-print(230 * 5782**2 / 23781)  # Print the result of the sum
-print("The date and time is", datetime.now())  # Print the current date and time
+print("Bonjour", monde)
+print("Bienvenue sur", python)
+print(python, "est très bon en maths !")
+print(230 * 5782**2 / 23781) # Imprimer le résultat du calcul
+print("La date et l\'heure sont", datetime.now()) # Imprimer la date et l'heure actuelles
 
 roule_de() # Appel la fonction lancer de dés
-print("I ❤️ rainbows 🌈")
-print("Unicorns 🦄 make me 😃")
-print("I'd like to make a story 📖 with", python)
+print("J\' ❤️ les arcs-en-ciel 🌈")
+print("Les licornes 🦄 me font 😃")
+print("J\'aimerais créer une histoire 📖 avec", python)
