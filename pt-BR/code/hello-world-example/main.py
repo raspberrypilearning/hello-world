@@ -2,9 +2,9 @@ from datetime import datetime
 from random import randint
 
 # Variáveis de emoji para usar em seu projeto
-mundo = '🌍🌎🌏'
-python = 'Python 🐍'
-fogo = '🔥'
+world = "🌍🌎🌏"
+python = "Python 🐍"
+fire = "🔥"
 
 # Emojis para copiar e colar no seu código:
 # 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊
@@ -13,21 +13,25 @@ fogo = '🔥'
 
 # Caracteres úteis :',()*_/.#
 
+
 # Definições de função
 def rolar_dado():
-    maximo = input('Quantos lados?') # Aguarde e entrada do usuário
-    print('Esse é um dado D', maximo) # Usa o número que o usuário digitou
+    max = input("How many sides?:")  # Wait for input from the user
+    print("That's a D", max)  # Use the number the user entered
     rolar = randint(1, int(maximo)) # Use max para determinar o número de lados que o dado tem
-    print('Você rolou um', rolar, fogo * rolar) # Repita o emoji de fogo para combinar com o lançamento dos dados
+    print(
+        "You rolled a", roll, fire * roll
+    )  # Repeat the fire emoji to match the dice roll
+
 
 # Coloque o código para ser executado logo abaixo
-print('Olá', mundo)
-print('Bem vindo a', python)
-print(python, 'é muito bom em matemática!')
-print(230 * 5782 ** 2 / 23781) # Imprime o resultado da soma
-print('A data e hora são', datetime.now()) # Imprime a data e hora atuais
+print("Hello", world)
+print("Welcome to", python)
+print(python, "is very good at maths!")
+print(230 * 5782**2 / 23781)  # Print the result of the sum
+print("The date and time is", datetime.now())  # Print the current date and time
 
 rolar_dado() #Chama a função rolar dado
-print('Eu ❤️ arco-íris 🌈')
-print('Unicórnios 🦄 me fazem 😃')
-print('Eu gostaria de fazer uma história 📖 com', python)
+print("I ❤️ rainbows 🌈")
+print("Unicorns 🦄 make me 😃")
+print("I'd like to make a story 📖 with", python)
