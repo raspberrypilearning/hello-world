@@ -2,9 +2,9 @@ from datetime import datetime
 from random import randint
 
 # Variabili emoji da utilizzare nel tuo progetto
-mondo = '🌍🌎🌏'
-python = 'Python 🐍'
-fuoco = '🔥'
+world = "🌍🌎🌏"
+python = "Python 🐍"
+fire = "🔥"
 
 # Emoji da copiare e incollare nel tuo codice:
 # 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊
@@ -13,21 +13,25 @@ fuoco = '🔥'
 
 # Caratteri utili :',()*_/.#
 
+
 # Definizione delle funzioni
 def tira_dado():
-    massimo = input('Quanti lati?:') # Aspetta l'input dell'utente
-    print('Questo è un D', massimo) # Usa il numero che l'utente ha inserito
+    max = input("How many sides?:")  # Wait for input from the user
+    print("That's a D", max)  # Use the number the user entered
     risultato = randint(1, int(massimo)) # Utilizza il massimo per determinare il numero di lati del dado
-    print('Hai tirato un', risultato, fuoco * risultato) # Ripeti l'emoji fuoco tante volte quante il risultato
+    print(
+        "You rolled a", roll, fire * roll
+    )  # Repeat the fire emoji to match the dice roll
+
 
 # Metti qui sotto il codice che verrà eseguito
-print('Ciao', mondo)
-print('Benvenuti in ', python)
-print(python, 'è molto bravo in matematica!')
-print(230 * 5782 ** 2 / 23781)  # Stampa il risultato della somma
-print('La data e l\'ora sono', datetime.now()) # Stampa la data e l'ora corrente
+print("Hello", world)
+print("Welcome to", python)
+print(python, "is very good at maths!")
+print(230 * 5782**2 / 23781)  # Print the result of the sum
+print("The date and time is", datetime.now())  # Print the current date and time
 
 tira_dado() # Chiama la funzione per tirare il dado
-print('Io ❤️ gli arcobaleni 🌈')
-print('Gli unicorni 🦄 mi rendono 😃')
-print('Mi piacerebbe creare una storia 📖 con', python)
+print("I ❤️ rainbows 🌈")
+print("Unicorns 🦄 make me 😃")
+print("I'd like to make a story 📖 with", python)
