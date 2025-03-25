@@ -1,0 +1,29 @@
+Put code to run under here.
+
+Hello
+
+Welcome to {python}
+
+{python} is good at maths!
+
+The date and time is {datetime.now()}
+
+Function definitions
+
+You rolled a {4}
+
+How many sides on your dice?:
+
+That is a D {max}
+
+I can code
+
+First number:
+
+Second number:
+
+I ❤️ ...
+
+... makes me 😃
+
+I would like to make ... with {python}
