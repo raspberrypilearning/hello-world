@@ -5,7 +5,7 @@ Write an interactive program that uses emojis 🙌 🙌🏼 🙌🏽 🙌🏾 �
 
 --- print-only ---
 
-![Completed project showing example code on the code editor](images/showcase_static.png){:width="640px"}
+![Ukończony projekt pokazujący przykładowy kod w edytorze kodu](images/showcase_static.png){:width="640px"}
 
 --- /print-only ---
 
