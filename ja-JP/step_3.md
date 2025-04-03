@@ -18,7 +18,7 @@ Add two more `print()`{:.language-python} lines to your code including a multipl
 --- code ---
 ---
 language: python filename: main.py line_numbers: true line_number_start: 17
-line_highlights: 20-21
+line_highlights: 14-15
 ---
 # Put code to run under here
 print(f'Hello {world}') print(f'Welcome to {python}') print(f'{python} is good at maths!') print(f'{3 * 9}')
@@ -50,8 +50,8 @@ Add another line to your code to `print`{:.language-python} the current date and
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 20
-line_highlights: 22
+language: python filename: main.py line_numbers: true line_number_start: 12
+line_highlights: 16-17
 ---
 
 print(f'{python} is good at maths!') print(f'{3 * 9}') print(f'The date and time is {datetime.now()}')
@@ -62,7 +62,7 @@ print(f'{python} is good at maths!') print(f'{3 * 9}') print(f'The date and time
 
 --- task ---
 
-**Test:** Run your code a couple of times to see the time update.
+**テスト：**コードを数回実行して、日付と時刻変わるのを確認します。
 
 --- /task ---
 
