@@ -1,10 +1,10 @@
-## Print hello
+## नमस्ते प्रिंट करें
 
 In Python, `print()`{:.language-python} outputs strings (words or numbers) to the screen.
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
+[हेलो 🌍🌎🌏 स्टार्टर प्रोजेक्ट](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target='_blank'} खोलें। कोड संपादक दूसरे ब्राउज़र टैब में खुलेगा.
 
 ![The code editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
 
@@ -36,13 +36,13 @@ print(f'Hello')
 
 --- task ---
 
-**Test:** Click on the **Run** button to run your code. This is what you should see when you run your code:
+**परीक्षण:** अपने कोड को चलाने के लिए **Run** बटन पर क्लिक करें। This is what you should see when you run your code:
 
-![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
+![आउटपुट क्षेत्र में 'Hello' के साथ हाइलाइट किया गया Run आइकन। ](images/run_hello.png)
 
 --- /task ---
 
-A **variable** is used to store values such as text or numbers. We have included some variables that store emoji characters.
+A **variable** is used to store values such as text or numbers. हमने कुछ वेरिएबल शामिल किए हैं जो इमोजी वर्णों को स्टोर करते हैं।
 
 --- task ---
 
@@ -65,7 +65,7 @@ The `f`{:.language-python} character inside the print lets you easily print vari
 
 --- task ---
 
-**Test:** Run your code to see the result:
+**परीक्षण:** परिणाम देखने के लिए अपना कोड चलाएं:
 
 ![The updated line of code in the code area with the word 'Hello' followed by three world emojis showing in the output area.](images/run_hello_world.png)
 
