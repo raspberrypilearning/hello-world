@@ -1,4 +1,4 @@
-## Roll a dice 🎲
+## Rzuć kostką?
 
 Functions are blocks of code that perform specific tasks. They can be used over and over again.
 
@@ -33,7 +33,7 @@ Create a function called `roll_dice()`{:.language-python}, that prints out the n
 language: python line_numbers: true line_number_start: 15
 line_highlights: 16-18
 ---
-# Function definitions
+# Definicje funkcji
 def roll_dice(): print(f'You rolled a {4}')
 
 # Put code to run under here
@@ -72,7 +72,7 @@ Another module called `random`{:.language-python} can be used to create random n
 language: python line_numbers: true line_number_start: 15
 line_highlights: 17
 ---
-# Function definitions
+# Definicje funkcji
 def roll_dice(): print(f'You rolled a {randint(1, 6)}')
 
 --- /code ---
@@ -96,7 +96,7 @@ Change your function to store the random number in a variable called `roll`{:.la
 language: python line_numbers: true line_number_start: 15
 line_highlights: 17
 ---
-# Function definitions
+# Definicje funkcji
 def roll_dice(): roll = randint(1,6)
 
 --- /code ---
