@@ -1,18 +1,18 @@
 from datetime import datetime
 from random import randint
 
-# Emoji variables to use in your project
+# Proměnné emotikonů k použití ve vašem projektu
 world = '🌍🌎🌏'
 python = 'Python 🐍'
-fire = '🔥'
+oheň = '🔥'
 
-# Emojis to copy and paste into your code:
+# Emotikony ke zkopírování a vložení do kódu:
 # 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊
 # 👩‍🦽 👩🏼‍🦽 👩🏽‍🦽 👩🏾‍🦽 👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
 # 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳
 
-# Useful characters :',()*_/.#
+# Užitečné znaky :',()*_/.#
 
-# Function definitions
+# Definice funkcí
 
-# Put code to run under here
+# Sem vložte kód pro spuštění
