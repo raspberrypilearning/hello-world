@@ -1,15 +1,15 @@
-svět
+svet
 
 add_one_and_one
 
 hod_kostkami
 
-rrole
+hod
 
 max
 
-oheň
+ohen
 
-děsivý
+desivy
 
-dvě_kostky
+dve_kostky
