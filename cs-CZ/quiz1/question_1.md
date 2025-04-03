@@ -1,30 +1,30 @@
-## Quick quiz
+## Rychlý kvíz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Odpověz na následující tři otázky. Zde jsou nápovědy, které tě dovedou ke správné odpovědi.
 
-When you have answered each question, click on **Check my answer**.
+Po zodpovězení každé otázky klikni na **Zkontrolovat mou odpověď**.
 
-Have fun!
+Bav se!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legenda: Otázka 1 ze 3
 ---
 
-This code sets the `world` variable to contain the text '🌍🌎🌏' (the three different world emoji):
+Tento kód nastavuje proměnnou `world` tak, aby obsahovala text '🌍🌎🌏' (tři různé emotikony světa):
 
 --- code ---
 ---
 language: python
 ---
 
-world = '🌍🌎🌏'
+svět = '🌍🌎🌏'
 
 --- /code ---
 
-Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
+Který kód správně používá proměnnou `world` a vydává Ahoj 🌍🌎🌏?
 
-![The output area from the code editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
+![Výstupní oblast z editoru kódu se zobrazením Ahoj 🌍🌎🌏.](images/quiz1.png)
 
 --- choices ---
 
@@ -35,13 +35,13 @@ Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
 language: python
 ---
 
-output('Hello' world)
+výstup ('Ahoj' světe)
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, `output` is not the way to output messages to the screen.
+ Ne tak docela, výstup `` není způsob výstupu zpráv na obrazovku.
 
  --- /feedback ---
 
@@ -53,13 +53,13 @@ output('Hello' world)
 language: python
 ---
 
-print(f'Hello world')
+tisknout (f'Ahoj světe')
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+ Ne tak docela, v Pythonu `tisk` vypisuje zprávy na obrazovku, ale v tomto příkladu něco chybí.
 
  --- /feedback ---
 
@@ -70,13 +70,13 @@ print(f'Hello world')
 language: python
 ---
 
-print(f'Hello{world}')
+tisknout(f'Ahoj{world}')
 
 --- /code ---
 
  --- feedback ---
 
- That's correct, in Python `print` outputs messages to the screen. The text output is inside single quotes `'` , then the `world` variable contains the earth emoji 🌍🌎🌏.
+ To je správně, v Pythonu `tisk` vypisuje zprávy na obrazovku. Textový výstup je v jednoduchých uvozovkách `'` , poté proměnná `world` obsahuje emoji země 🌍🌎🌏.
 
  --- /feedback ---
 
@@ -87,13 +87,13 @@ print(f'Hello{world}')
 language: python
 ---
 
-print('Hello{world}')
+print('Ahoj{world}')
 
 --- /code ---
 
  --- feedback ---
 
-  Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+  Ne tak docela, v Pythonu `tisk` vypisuje zprávy na obrazovku, ale v tomto příkladu něco chybí.
 
  --- /feedback ---
 
