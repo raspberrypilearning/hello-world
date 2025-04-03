@@ -1,30 +1,30 @@
 ---
-title: "Hello \U0001F30D\U0001F30E\U0001F30F"
+title: "Dobrý den \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
-description: Write an interactive Python project that uses emoji
-meta_title: Python coding projects for kids and teens | Hello world
-meta_description: Learn Python with the Raspberry Pi Foundation. Make an interactive Python coding project that uses emojis.
+description: Napište interaktivní projekt Python, který používá emotikony
+meta_title: Projekty kódování v Pythonu pro děti a dospívající | Ahoj světe
+meta_description: Nauč se Python s Raspberry Pi Foundation. Vytvoř interaktivní projekt kódování Pythonu, který používá emotikony.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: What you will make
+    title: Co budeš dělat
   - 
-    title: Say hello
+    title: Řekni ahoj
   - 
-    title: Sums and dates
+    title: Hodnoty a operátory
     completion:
       - engaged
   - 
-    title: Roll a dice
+    title: Hod kostkou
   - 
-    title: Get input
+    title: Vstup od uživatele
     completion:
       - internal
   - 
-    title: Quick quiz
+    title: Rychlý kvíz
     knowledge_quiz:
       path: quiz1
       version: 1
@@ -33,7 +33,7 @@ steps:
     completion:
       - external
   - 
-    title: Challenge
+    title: Výzva
     challenge: true
   - 
-    title: What can you do now?
+    title: Co můžeš dělat nyní?
