@@ -1,22 +1,22 @@
-## What can you do now?
+## Co můžeš dělat nyní?
 
-If you are following the [Introduction to Python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) pathway, you can move on to the [Target practice](https://projects.raspberrypi.org/en/projects/target-practice) project. In this project, you will draw a target then make an archery game that shoots arrows to score points.
+Pokud postupujete po cestě [Úvod do Pythonu](https://projects.raspberrypi.org/en/raspberrypi/python-intro) , můžete přejít k projektu [Target practice](https://projects.raspberrypi.org/en/projects/target-practice) . V tomto projektu si nakreslíte cíl a poté vytvoříte lukostřelbu, která střílí šípy, abyste získali body.
 
 --- print-only ---
 
-![An archery target with a hit point on the outer circle. The text 'You hit the outer circle, 50 points!' is displayed underneath](images/blue-points.png){:width="640px"}
+![Lukostřelecký terč se zásahovým bodem na vnějším kruhu. Text „Trefili jste vnější kruh, 50 bodů!“ se zobrazuje vespod](images/blue-points.png){:width="640px"}
 
 --- /print-only ---
 
 --- no-print ---
 
-Click the **Run** button to view an example of this project.
+Kliknutím na tlačítko **Spustit** zobrazíte příklad tohoto projektu.
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/target-practice-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
 
 --- /no-print ---
 
-Or, why not try out another [Python](https://projects.raspberrypi.org/en/projects?software%5B%5D=python) project.
+Nebo proč nezkusit jiný [Python](https://projects.raspberrypi.org/en/projects?software%5B%5D=python) projekt.
 
 
