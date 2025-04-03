@@ -1,10 +1,10 @@
-## Get input
+## Vstup od uživatele
 
-You can use `input()`{:.language-python} to ask the person using your program to enter text.
+Můžete použít `input()`{:.language-python} a požádat osobu používající váš program o zadání textu.
 
 --- task ---
 
-Change your function to ask the person using your program to enter how many sides on the dice, and save it as a variable.
+Změňte svou funkci a požádejte osobu používající váš program, aby zadala, kolik stran na kostce má, a uložte ji jako proměnnou.
 
 --- code ---
 ---
@@ -20,7 +20,7 @@ def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a 
 
 --- task ---
 
-**Test:** Click the **Run** button and type in a number of sides. Ensure you press the <kbd> Enter </kbd> key after inputting how many sides. This is what you should see when you run your code.
+**Test:** Klikněte na tlačítko **Spustit** a zadejte počet stran. Ujistěte se, že jste po zadání počtu stran stiskli klávesu <kbd> Enter </kbd> . To je to, co byste měli vidět, když spustíte svůj kód.
 
 <div class="c-project-output">
 ```
@@ -37,11 +37,11 @@ You rolled a 1 🔥
 
 --- /task ---
 
-Inputs are always stored as text, but we need to use the input stored in `max` to specify the largest number that could be rolled.
+Vstupy jsou vždy uloženy jako text, ale musíme použít vstup uložený v `max` k určení největšího čísla, které lze hodit.
 
 --- task ---
 
-`max` is a string, so it needs to be changed to an integer `int()`{:.language-python}.
+`max` je řetězec, takže je třeba jej změnit na celé číslo `int()`{:.language-python}.
 
 
 --- code ---
@@ -58,7 +58,7 @@ def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a 
 
 --- task ---
 
-**Test:** Click the **Run** button a few times. Check that the dice rolls a random number each time.
+**Test:** Klikni na tlačítko **Run** (Spustit). Zkontrolujte, zda kostka pokaždé hodí náhodné číslo.
 
 --- /task ---
 
