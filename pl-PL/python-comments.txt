@@ -1,6 +1,6 @@
 Put code to run under here.
 
-Hello
+Cześć
 
 Welcome to {python}
 
@@ -8,7 +8,7 @@ Welcome to {python}
 
 The date and time is {datetime.now()}
 
-Function definitions
+Definicje funkcji
 
 You rolled a {4}
 
@@ -16,14 +16,14 @@ How many sides on your dice?:
 
 That is a D {max}
 
-I can code
+Umiem kodować
 
-First number:
+Pierwsza liczba:
 
-Second number:
+Druga liczba:
 
 I ❤️ ...
 
-... makes me 😃
+... sprawia, że jestem?
 
 I would like to make ... with {python}
