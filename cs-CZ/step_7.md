@@ -1,12 +1,12 @@
-## Challenge
+## Výzva
 
 --- challenge ---
 
 --- task ---
 
-Practise adding more `print` lines to your code.
+Procvičte si přidávání dalších `tisku` řádků do vašeho kódu.
 
-Here are some sentence starters that you can use:
+Zde jsou některé spouštěče vět, které můžete použít:
 
 --- code ---
 ---
@@ -19,7 +19,7 @@ print(f'I would like to make ... with {python}')
 
 --- /code ---
 
-Here is a list of some emojis you might like to use:
+Zde je seznam některých emotikonů, které byste mohli chtít použít:
 
 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒🎨🎮🔬🎉🕶️🎲 😊 🦄🚀💯⭐💛❤️📚⚽🏏🏀🥋🏆✨🥺🌈🔥♻️🌳 👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋🙋🏼🙋🏽🙋🏾🙋🏿
 
