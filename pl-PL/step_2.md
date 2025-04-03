@@ -1,10 +1,10 @@
-## Print hello
+## Drukuj cześć
 
 In Python, `print()`{:.language-python} outputs strings (words or numbers) to the screen.
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
+Otwórz [ Cześć ??? projekt startowy ](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. Edytor kodu otworzy się w innej karcie przeglądarki.
 
 ![The code editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
 
@@ -36,13 +36,13 @@ print(f'Hello')
 
 --- task ---
 
-**Test:** Click on the **Run** button to run your code. This is what you should see when you run your code:
+** Test:** Kliknij przycisk ** **, aby uruchomić swój kod. This is what you should see when you run your code:
 
-![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
+![Ikona Uruchom podświetlona, a w obszarze wyjściowym wyświetlany jest komunikat „Cześć”. ](images/run_hello.png)
 
 --- /task ---
 
-A **variable** is used to store values such as text or numbers. We have included some variables that store emoji characters.
+A **variable** is used to store values such as text or numbers. Dodaliśmy kilka zmiennych, które przechowują znaki emoji.
 
 --- task ---
 
@@ -54,7 +54,7 @@ Change your code to also `print()`{:.language-python} the contents of the `world
 language: python line_numbers: true
 line_number_start: 17
 ---
-# Put code to run under here
+# Umieść tutaj kod do uruchomienia
 print(f'Hello {world}')
 
 --- /code ---
@@ -65,9 +65,9 @@ The `f`{:.language-python} character inside the print lets you easily print vari
 
 --- task ---
 
-**Test:** Run your code to see the result:
+** Test:** Uruchom swój kod, aby zobaczyć wynik:
 
-![The updated line of code in the code area with the word 'Hello' followed by three world emojis showing in the output area.](images/run_hello_world.png)
+![Zaktualizowana linia kodu w obszarze kodu ze słowem „Hello”, a następnie trzema emotikonami świata wyświetlanymi w obszarze wyjściowym.](images/run_hello_world.png)
 
 --- /task ---
 
@@ -89,11 +89,11 @@ print(f'Hello {world}') print(f'Welcome to {python}')
 
 --- task ---
 
-**Test:** Click **Run**.
+Test **:** Kliknij ** **.
 
-![The additional line of code in the code editor with the word 'Hello' followed by three world emojis and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
+![Dodatkowa linia kodu w edytorze kodu ze słowem „Hello”, po którym znajdują się trzy emoji świata i słowa „Welcome to”, a następnie wąż emoji i klawiatura wyświetlane w obszarze wyjściowym.](images/run_multiple.png)
 
-**Tip:** It's a good idea to run your code after every change so you can fix problems quickly.
+** Wskazówka:** dobrze jest uruchomić kod po każdej zmianie, aby szybko rozwiązać problemy.
 
 
 --- /task ---
