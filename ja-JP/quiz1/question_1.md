@@ -1,17 +1,17 @@
-## Quick quiz
+## ふりかえり
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Answer the three questions. 正しい答えが表示されます。
 
-When you have answered each question, click on **Check my answer**.
+各質問の後、**答えを確認する**を押してください。
 
-Have fun!
+以下の3つの質問に答えて、学んだことをふりかえってみましょう。
 
 --- question ---
 ---
 legend: 質問1/3
 ---
 
-This code sets the `world` variable to contain the text '🌍🌎🌏' (the three different world emoji):
+お楽しみください！
 
 --- code ---
 ---
@@ -22,9 +22,9 @@ world = '🌍🌎🌏'
 
 --- /code ---
 
-Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
+`world`変数を正しく使用し、こんにちは 🌍🌎🌏を出力するコードはどれですか？
 
-![The output area from the code editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
+![こんにちは 🌍🌎🌏が表示されたTrinketエディターの出力領域。](images/quiz1.png)
 
 --- choices ---
 
@@ -35,13 +35,13 @@ Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
 language: python
 ---
 
-output('Hello' world)
+output('こんにちは' world)
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, `output` is not the way to output messages to the screen.
+ 残念ですが、 `output`は画面にメッセージを出力するものではありません。
 
  --- /feedback ---
 
@@ -59,7 +59,7 @@ print(f'Hello world')
 
  --- feedback ---
 
- Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+ ふりかえり
 
  --- /feedback ---
 
@@ -76,7 +76,7 @@ print(f'Hello{world}')
 
  --- feedback ---
 
- That's correct, in Python `print` outputs messages to the screen. The text output is inside single quotes `'` , then the `world` variable contains the earth emoji 🌍🌎🌏.
+ 正解です。 Pythonでは、`print`はメッセージを画面に出力します。 The text output is inside single quotes `'` , then the `world` variable contains the earth emoji 🌍🌎🌏.
 
  --- /feedback ---
 
@@ -93,7 +93,7 @@ print('Hello{world}')
 
  --- feedback ---
 
-  Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+  以下の3つの質問に答えて、学んだことをふりかえってみましょう。
 
  --- /feedback ---
 
