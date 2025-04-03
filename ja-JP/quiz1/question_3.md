@@ -7,7 +7,7 @@ legend: 質問3/3
 
 --- code ---
 ---
-language: python
+言語：python
 ---
 
 def two_dice(): print('最初の数字:', randint(1, 6)) print('2番目の数字:', randint(1, 6))
@@ -16,7 +16,7 @@ def two_dice(): print('最初の数字:', randint(1, 6)) print('2番目の数字
 
 関数を呼び出して実行するコードはどれですか？
 
-![The code editor with output area showing two randomly generated numbers.](images/quiz3.png)
+![ランダムに生成された2つの数値を出力領域に表示したTrinketエディター。](images/quiz3.png)
 
 --- choices ---
 
