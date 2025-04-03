@@ -1,8 +1,8 @@
-## Roll a dice 🎲
+## Hod kostkou 🎲
 
-Functions are blocks of code that perform specific tasks. They can be used over and over again.
+Funkce jsou bloky kódu, které provádějí specifické úkoly. Lze je používat znovu a znovu.
 
-Here is an example of a function:
+Zde je příklad funkce:
 
 --- code ---
 ---
@@ -13,20 +13,20 @@ def add_one_and_one(): x = 1 + 1 print(x)
 
 --- /code ---
 
-The name of this function is `add_one_and_one`{:.language-python}.
+Název této funkce je `add_one_and_one`{:.language-python}.
 
-The code for the task you want the function to do needs to be **indented**, which means that you need to add **four spaces** before each line of code.
+Kód úlohy, kterou má funkce provést, musí být **odsazený**, což znamená, že před každý řádek kódu musíte přidat **čtyři mezery** .
 
-**Calling** a function runs the code inside it. You **call** a function by using its name. In this case `add_one_and_one()`{:.language-python}.
+**Volání** funkce spustí kód uvnitř ní. Funkci můžeš vyvolat napsáním jejího názvu. V tomto případě `add_one_and_one()`{:.language-python}.
 
 
 --- task ---
 
-Look for the comment in the **main.py** file that says
+Hledejte komentář v souboru **main.py** , který říká
 
-`# Function definitions`{:.language-python}.
+`# Definice funkcí`{:.language-python}.
 
-Create a function called `roll_dice()`{:.language-python}, that prints out the number 4.
+Vytvořte funkci s názvem `roll_dice()`{:.language-python}, která vypíše číslo 4.
 
 --- code ---
 ---
@@ -44,7 +44,7 @@ def roll_dice(): print(f'You rolled a {4}')
 
 --- task ---
 
-Then, call the function at the bottom of your code.
+Poté zavolejte funkci v dolní části kódu.
 
 --- code ---
 ---
@@ -59,13 +59,13 @@ print(f'The date and time is {datetime.now()}') roll_dice()
 
 --- task ---
 
-**Test:** Run your project several times to see the dice roll each time - it will always be 4.
+**Test:** Spusťte svůj projekt několikrát, abyste viděli, jak hází kostkou pokaždé - vždy to bude 4.
 
 --- /task ---
 
 --- task ---
 
-Another module called `random`{:.language-python} can be used to create random numbers. Change your code to use the `randint`{:.language-python} function to choose a random number between 1 and 6 for the dice roll.
+Další modul s názvem `random`{:.language-python} lze použít k vytváření náhodných čísel. Změňte svůj kód tak, aby používal funkci `randint`{:.language-python} pro výběr náhodného čísla mezi 1 a 6 pro hod kostkou.
 
 --- code ---
 ---
@@ -81,15 +81,15 @@ def roll_dice(): print(f'You rolled a {randint(1, 6)}')
 
 --- task ---
 
-**Test:** Click the **Run** button. Now when you run your code, a new random number between 1 and 6 will be chosen each time.
+**Test:** Klikni na tlačítko **Run** (Spustit). Nyní, když spustíte svůj kód, bude pokaždé vybráno nové náhodné číslo mezi 1 a 6.
 
 --- /task ---
 
-In Python you can multiply strings such as emojis or whole words by a number, so they print out several times.
+V Pythonu můžete řetězce, jako jsou emoji nebo celá slova, násobit číslem, takže se vytisknou několikrát.
 
 --- task ---
 
-Change your function to store the random number in a variable called `roll`{:.language-python}.
+Změňte svou funkci a uložte náhodné číslo do proměnné s názvem `roll`{:.language-python}.
 
 --- code ---
 ---
@@ -105,7 +105,7 @@ def roll_dice(): roll = randint(1,6)
 
 --- task ---
 
-Multiply the random number stored in `roll`{:.language-python} by the 🔥 emoji, and print the result.
+Vynásobte náhodné číslo uložené v `roll`{:.language-python} emoji 🔥 a vytiskněte výsledek.
 
 --- code ---
 ---
@@ -121,7 +121,7 @@ def roll_dice(): roll = randint(1,6) print(f'You rolled a {roll} {fire * roll}')
 
 --- task ---
 
-**Test:** Click the **Run** button. Your output code should look something like this:
+**Test:** Klikni na tlačítko **Run** (Spustit). Scéna by teď měla vypadat nějak takto:
 
 ```
 Hello 🌍🌎🌏
