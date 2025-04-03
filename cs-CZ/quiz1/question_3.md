@@ -1,22 +1,22 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Otázka 3 z 3
 ---
 
-This function outputs two random numbers:
+Tato funkce generuje dvě náhodná čísla:
 
 --- code ---
 ---
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def two_dice(): print('První číslo:', randint(1, 6)) print('Druhé číslo:', randint(1, 6))
 
 --- /code ---
 
-Which code will call the function to run it?
+Který kód zavolá funkci, aby ji spustil?
 
-![The code editor with output area showing two randomly generated numbers.](images/quiz3.png)
+![Editor kódu s výstupní oblastí zobrazující dvě náhodně generovaná čísla.](images/quiz3.png)
 
 --- choices ---
 
@@ -27,13 +27,13 @@ Which code will call the function to run it?
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def two_dice(): print('První číslo:', randint(1,6)) print('Druhé číslo:', randint(1,6))
 
 --- /code ---
 
  --- feedback ---
 
- No, this is the code to define the function, but it does not run the function. You'll need to use different code to call it.
+ Ne, toto je kód pro definování funkce, ale nespouští funkci. K jeho volání budete muset použít jiný kód.
 
  --- /feedback ---
 
@@ -42,13 +42,13 @@ def two_dice(): print('First number:', randint(1, 6)) print('Second number:', ra
 language: python
 ---
 
-two_dice
+dvě_kostky
 
 --- /code ---
 
  --- feedback ---
 
-Close! `two_dice` is the name of the function, but to call it you need more than just the name.
+Blízko! `two_dice` je název funkce, ale k jejímu volání potřebujete víc než jen název.
 
  --- /feedback ---
 
@@ -59,13 +59,13 @@ Close! `two_dice` is the name of the function, but to call it you need more than
 language: python
 ---
 
-two_dice[]
+dvě_kostky[]
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, think about they type of brackets you used to call the functions in your project.
+ Ne tak docela, přemýšlejte o typu závorek, které jste použili k volání funkcí ve vašem projektu.
 
  --- /feedback ---
 
@@ -76,13 +76,13 @@ two_dice[]
 language: python
 ---
 
-two_dice()
+dvě_kostky()
 
 --- /code ---
 
  --- feedback ---
 
- That's correct, using the function name followed by `(` `)` brackets will call the function.
+ To je správně, za použití názvu funkce následovaného `(` `)` hranaté závorky funkci zavolá.
 
  --- /feedback ---
 
