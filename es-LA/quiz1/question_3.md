@@ -16,7 +16,7 @@ def dos_dados(): print('Primer número:', randint(1, 6)) print('Segundo número:
 
 ¿Qué código llamará a la función para ejecutarla?
 
-![The code editor with output area showing two randomly generated numbers.](images/quiz3.png)
+![El editor Trinket y el área de salida mostrando dos números generados aleatoriamente.](images/quiz3.png)
 
 --- choices ---
 
