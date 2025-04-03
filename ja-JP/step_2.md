@@ -1,10 +1,10 @@
-## Print hello
+## from noemoji import *
 
 In Python, `print()`{:.language-python} outputs strings (words or numbers) to the screen.
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
+[こんにちは 🌍🌎🌏 基本プロジェクト](https://trinket.io/python/a7fcb2ede7){:target="_blank"}を開きます。 Trinketは別のブラウザタブで開きます。
 
 ![The code editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
 
@@ -25,7 +25,7 @@ Type the code to `print()`{:.language-python} Hello to the screen:
 --- code ---
 ---
 language: python line_numbers: true line_number_start: 17
-line_highlights: 18
+line_highlights: 12
 ---
 # Put code to run under here.
 print(f'Hello')
@@ -36,13 +36,13 @@ print(f'Hello')
 
 --- task ---
 
-**Test:** Click on the **Run** button to run your code. This is what you should see when you run your code:
+**テスト：** **Run**ボタンをクリックしてコードを実行します。 This is what you should see when you run your code:
 
-![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
+![出力領域に「こんにちは」と表示されている、強調表示されたRunアイコン。 ](images/run_hello.png)
 
 --- /task ---
 
-A **variable** is used to store values such as text or numbers. We have included some variables that store emoji characters.
+A **variable** is used to store values such as text or numbers. 絵文字を格納する変数をいくつか含めました。
 
 --- task ---
 
@@ -65,9 +65,9 @@ The `f`{:.language-python} character inside the print lets you easily print vari
 
 --- task ---
 
-**Test:** Run your code to see the result:
+**テスト：**コードを実行して、結果を確認します。
 
-![The updated line of code in the code area with the word 'Hello' followed by three world emojis showing in the output area.](images/run_hello_world.png)
+![出力領域に「こんにちは」という単語の後に3つの地球の絵文字が表示された、コード領域の更新されたコード行。](images/run_hello_world.png)
 
 --- /task ---
 
@@ -78,7 +78,7 @@ The `f`{:.language-python} character inside the print lets you easily print vari
 --- code ---
 ---
 language: python line_numbers: true line_number_start: 17
-line_highlights: 19
+line_highlights: 13
 ---
 # Put code to run under here
 print(f'Hello {world}') print(f'Welcome to {python}')
@@ -89,9 +89,9 @@ print(f'Hello {world}') print(f'Welcome to {python}')
 
 --- task ---
 
-**Test:** Click **Run**.
+**テスト：****Run**をクリックします。
 
-![The additional line of code in the code editor with the word 'Hello' followed by three world emojis and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
+![出力領域に「こんにちは」という単語の後に3つの地球の絵文字が表示され、ヘビの絵文字の後に「へ ようこそ」という単語が表示された、コード領域の追加されたコード行。](images/run_multiple.png)
 
 **ヒント：**問題をすばやく修正できるように、変更のたびにコードを実行することをお勧めします。
 
