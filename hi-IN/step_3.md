@@ -62,7 +62,7 @@ print(f'{python} is good at maths!') print(f'{3 * 9}') print(f'The date and time
 
 --- task ---
 
-**Test:** Run your code a couple of times to see the time update.
+**परीक्षण:** दिनांक और समय अपडेट देखने के लिए अपना कोड कुछ बार चलाएं।
 
 --- /task ---
 
