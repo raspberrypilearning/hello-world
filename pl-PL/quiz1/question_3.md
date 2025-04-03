@@ -1,22 +1,22 @@
 --- question ---
 ---
-legend: Question 3 of 3
+legend: Pytanie 3 z 3
 ---
 
-This function outputs two random numbers:
+Ta funkcja wyświetla dwie losowe liczby:
 
 --- code ---
 ---
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def two_dice(): Print('Pierwsza liczba:', randint(1, 6)) print('Druga liczba:', randint(1, 6))
 
 --- /code ---
 
-Which code will call the function to run it?
+Który kod wywoła funkcję, aby go uruchomić?
 
-![The code editor with output area showing two randomly generated numbers.](images/quiz3.png)
+![Edytor kodu z obszarem wyjściowym pokazującym dwie losowo wygenerowane liczby.](images/quiz3.png)
 
 --- choices ---
 
@@ -27,13 +27,13 @@ Which code will call the function to run it?
 language: python
 ---
 
-def two_dice(): print('First number:', randint(1, 6)) print('Second number:', randint(1, 6))
+def two_dice(): Print('Pierwsza liczba:', randint(1, 6)) print('Druga liczba:', randint(1, 6))
 
 --- /code ---
 
  --- feedback ---
 
- No, this is the code to define the function, but it does not run the function. You'll need to use different code to call it.
+ Nie, jest to kod definiujący funkcję, ale nie uruchamia funkcji. Będziesz musiał użyć innego kodu, aby go wywołać.
 
  --- /feedback ---
 
@@ -42,13 +42,13 @@ def two_dice(): print('First number:', randint(1, 6)) print('Second number:', ra
 language: python
 ---
 
-two_dice
+dwie_kości
 
 --- /code ---
 
  --- feedback ---
 
-Close! `two_dice` is the name of the function, but to call it you need more than just the name.
+Zamknij! ` two_` to nazwa funkcji, ale aby ją wywołać, potrzebujesz czegoś więcej niż tylko nazwy.
 
  --- /feedback ---
 
@@ -59,13 +59,13 @@ Close! `two_dice` is the name of the function, but to call it you need more than
 language: python
 ---
 
-two_dice[]
+dwie_kości[]
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, think about they type of brackets you used to call the functions in your project.
+ Nie do końca, pomyśl o typie nawiasów, których użyłeś do wywołania funkcji w swoim projekcie.
 
  --- /feedback ---
 
@@ -82,7 +82,7 @@ two_dice()
 
  --- feedback ---
 
- That's correct, using the function name followed by `(` `)` brackets will call the function.
+ To prawda, użycie nazwy funkcji i nawiasów `(` `)` spowoduje wywołanie funkcji.
 
  --- /feedback ---
 
