@@ -18,13 +18,13 @@ Este código configura la variable `mundo` para que contenga el texto '🌍🌎�
 language: python
 ---
 
-world = '🌍🌎🌏'
+mundo = '🌍🌎🌏'
 
 --- /code ---
 
 ¿Qué código usa correctamente la variable `mundo` y muestra Hola 🌍🌎🌏?
 
-![The output area from the code editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
+![El área de salida del editor Trinket mostrando Hola 🌍🌎🌏.](images/quiz1.png)
 
 --- choices ---
 
