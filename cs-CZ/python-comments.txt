@@ -1,29 +1,29 @@
-Put code to run under here.
+Sem vložte kód pro spuštění.
 
-Hello
+Ahoj
 
-Welcome to {python}
+Vítejte v {pythonu}
 
-{python} is good at maths!
+{python} je dobrý v matematice!
 
-The date and time is {datetime.now()}
+Datum a čas je {datetime.now()}
 
-Function definitions
+Definice funkcí
 
-You rolled a {4}
+Hodili jste {4}
 
-How many sides on your dice?:
+Kolik stran máš na kostce?:
 
-That is a D {max}
+To je D {max}
 
-I can code
+Umím kódovat
 
-First number:
+První číslo:
 
-Second number:
+Druhé číslo:
 
-I ❤️ ...
+Já ❤️...
 
-... makes me 😃
+... dělá mě 😃
 
-I would like to make ... with {python}
+Chtěl bych udělat... s {pythonem}
