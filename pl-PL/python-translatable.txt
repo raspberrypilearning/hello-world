@@ -1,15 +1,15 @@
-world
+świat
 
 add_one_and_one
 
 roll_dice
 
-roll
+obróć
 
-max
+maks
 
-fire
+ogień
 
-awesome
+niesamowite
 
-two_dice
+dwie_kości
