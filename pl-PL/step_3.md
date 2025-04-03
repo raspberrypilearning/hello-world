@@ -1,14 +1,14 @@
-## Sums and dates
+## Sumy i daty
 
 In Python you can work with numbers and dates.
 
 You can use **arithmetic operators** such as `+` and `-`  to do calculations:
 
-| + | add |   
-| - | subtract |   
-| * | multiply |   
-| / | divide |   
-| ** | to the power |
+| + | dodaj |   
+| - | odejmij |   
+| * | pomnóż |   
+| / | podziel |   
+| ** | do potęgi |
 
 
 --- task ---
@@ -62,7 +62,7 @@ print(f'{python} is good at maths!') print(f'{3 * 9}') print(f'The date and time
 
 --- task ---
 
-**Test:** Run your code a couple of times to see the time update.
+Test **:** Uruchom kod kilka razy, aby zobaczyć aktualizację czasu.
 
 --- /task ---
 
