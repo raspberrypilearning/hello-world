@@ -46,7 +46,7 @@ Modul `datetime`{:.language-python} pomáhá s psaním kódu, který používá 
 
 --- task ---
 
-Jako další řádek to tvého kódu přidá současný datum a čas.
+Jako další řádek do tvého kódu přidej současný datum a čas pomocí metody `now()`{:.language-python} z knihovny `datetime`{:.language-python}:
 
 --- code ---
 ---
