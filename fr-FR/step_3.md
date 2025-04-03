@@ -18,7 +18,7 @@ Ajoute deux autres lignes `print()`{:.language-python} à ton code ainsi qu'une 
 --- code ---
 ---
 language: python filename: main.py line_numbers: true line_number_start: 17
-line_highlights: 20-21
+line_highlights: 14-15
 ---
 # Put code to run under here
 print(f'Hello {world}') print(f'Welcome to {python}') print(f'{python} is good at maths!') print(f'{3 * 9}')
@@ -32,9 +32,9 @@ print(f'Hello {world}') print(f'Welcome to {python}') print(f'{python} is good a
 **Test :** clique sur le bouton **Run** . Tu devrais voir ceci lorsque tu exécutes ton code .
 
 ```
-Hello 🌍🌎🌏
-Welcome to Python 🐍
-Python 🐍 is good at maths!
+Bonjour le 🌍🌎🌏
+Bienvenue dans Python 🐍
+Python 🐍 est bon en maths !
 27
 ```
 
@@ -50,8 +50,8 @@ Ajoute une autre ligne à ton code pour `print`{:.language-python} la date et l'
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 20
-line_highlights: 22
+language: python filename: main.py line_numbers: true line_number_start: 12
+line_highlights: 16-17
 ---
 
 print(f'{python} is good at maths!') print(f'{3 * 9}') print(f'The date and time is {datetime.now()}')
