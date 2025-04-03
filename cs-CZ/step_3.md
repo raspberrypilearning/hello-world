@@ -2,7 +2,7 @@
 
 V Pythonu můžete pracovat s čísly a daty.
 
-K výpočtům můžete použít **aritmetické operátory** , například `+` a `-`  :
+K výpočtům můžete použít **aritmetické operátory**, například `+` a `-`  :
 
 | + | přidat |   
 | - | odečíst |   
