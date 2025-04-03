@@ -78,7 +78,7 @@ Le caractère `f`{:.language-python} à l'intérieur de print te permet d'imprim
 --- code ---
 ---
 language: python line_numbers: true line_number_start: 17
-line_highlights: 19
+line_highlights: 13
 ---
 # Put code to run under here
 print(f'Hello {world}') print(f'Welcome to {python}')
