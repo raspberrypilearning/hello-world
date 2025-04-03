@@ -18,7 +18,7 @@ Add two more `print()`{:.language-python} lines to your code including a multipl
 --- code ---
 ---
 language: python filename: main.py line_numbers: true line_number_start: 17
-line_highlights: 20-21
+line_highlights: 14-15
 ---
 # Put code to run under here
 print(f'Hello {world}') print(f'Welcome to {python}') print(f'{python} is good at maths!') print(f'{3 * 9}')
@@ -50,7 +50,7 @@ Add another line to your code to `print`{:.language-python} the current date and
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 20
+**Δοκιμή:** Εκτέλεσε τον κώδικά σου μερικές φορές για να δεις την ενημέρωση της ημερομηνίας και της ώρας.
 line_highlights: 22
 ---
 
