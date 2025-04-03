@@ -1,19 +1,19 @@
-## Sums and dates
+## Hodnoty a operátory
 
-In Python you can work with numbers and dates.
+V Pythonu můžete pracovat s čísly a daty.
 
-You can use **arithmetic operators** such as `+` and `-`  to do calculations:
+K výpočtům můžete použít **aritmetické operátory** , například `+` a `-`  :
 
-| + | add |   
-| - | subtract |   
-| * | multiply |   
-| / | divide |   
-| ** | to the power |
+| + | přidat |   
+| - | odečíst |   
+| * | násobit |   
+| / | rozdělit |   
+| ** | mocnina |
 
 
 --- task ---
 
-Add two more `print()`{:.language-python} lines to your code including a multiplication for Python to calculate:
+Přidejte další dva `print()`{:.language-python} do svého kódu včetně násobení pro Python pro výpočet:
 
 --- code ---
 ---
@@ -29,7 +29,7 @@ print(f'Hello {world}') print(f'Welcome to {python}') print(f'{python} is good a
 
 --- task ---
 
-**Test:** Click the **Run** button. This is what you should see when you run your code.
+**Test:** Klikni na tlačítko **Run** (Spustit). To je to, co byste měli vidět, když spustíte svůj kód.
 
 ```
 Hello 🌍🌎🌏
@@ -40,13 +40,13 @@ Python 🐍 is good at maths!
 
 --- /task ---
 
-Python has many **modules** that you can use in your code to help perform certain tasks.
+Python má mnoho **modulů** , které můžete ve svém kódu použít k provádění určitých úkolů.
 
-The `datetime`{:.language-python} module helps with writing code that uses dates and times.
+Modul `datetime`{:.language-python} pomáhá s psaním kódu, který používá data a časy.
 
 --- task ---
 
-Add another line to your code to `print`{:.language-python} the current date and time by using the `now()`{:.language-python} method from the `datetime`{:.language-python} library:
+Jako další řádek to tvého kódu přidá současný datum a čas.
 
 --- code ---
 ---
@@ -62,7 +62,7 @@ print(f'{python} is good at maths!') print(f'{3 * 9}') print(f'The date and time
 
 --- task ---
 
-**Test:** Run your code a couple of times to see the time update.
+**Test:** Spusťte kód několikrát, abyste viděli aktualizaci času.
 
 --- /task ---
 
