@@ -1,30 +1,30 @@
-## Quick quiz
+## 快速測驗
 
-Answer the three questions. There are hints to guide you to the correct answer.
+回答以下三個問題。 我們會提供提示引導你找到正確答案。
 
-When you have answered each question, click on **Check my answer**.
+回答問題後，請點選**檢查我的答案**。
 
-Have fun!
+玩得開心！
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: 問題 1（共 3 題）
 ---
 
-This code sets the `world` variable to contain the text '🌍🌎🌏' (the three different world emoji):
+此程式碼將 `world` 變數設定為包含文字「🌍🌎🌏」（三個不同世界的表情符號）：
 
 --- code ---
 ---
 language: python
 ---
 
-world = '🌍🌎🌏'
+世界='🌍🌎🌏'
 
 --- /code ---
 
-Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
+哪個程式碼正確使用 `世界` 變數並輸出「哈囉 🌍🌎🌏」？
 
-![The output area from the code editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
+![代碼編輯器的輸出區域顯示「哈囉 🌍🌎🌏」。](images/quiz1.png)
 
 --- choices ---
 
@@ -35,13 +35,13 @@ Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
 language: python
 ---
 
-output('Hello' world)
+output('哈囉'世界)
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, `output` is not the way to output messages to the screen.
+ 不正確，`output` 不能將訊息輸出。
 
  --- /feedback ---
 
@@ -59,7 +59,7 @@ print(f'Hello world')
 
  --- feedback ---
 
- Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+ 不正確，在 Python 裡，`print`可以將訊息輸出，但此範例中還缺少一些內容。
 
  --- /feedback ---
 
@@ -76,7 +76,7 @@ print(f'Hello{world}')
 
  --- feedback ---
 
- That's correct, in Python `print` outputs messages to the screen. The text output is inside single quotes `'` , then the `world` variable contains the earth emoji 🌍🌎🌏.
+ 沒錯，在 Python 中 `print` 可以將訊息輸出到螢幕。 The text output is inside single quotes `'` , then the `world` variable contains the earth emoji 🌍🌎🌏.
 
  --- /feedback ---
 
@@ -93,7 +93,7 @@ print('Hello{world}')
 
  --- feedback ---
 
-  Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+  不正確，在 Python 裡，`print`可以將訊息輸出，但此範例中還缺少一些內容。
 
  --- /feedback ---
 
