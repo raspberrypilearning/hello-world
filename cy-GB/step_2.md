@@ -25,7 +25,7 @@ Type the code to `print()`{:.language-python} Hello to the screen:
 --- code ---
 ---
 language: python line_numbers: true line_number_start: 17
-line_highlights: 18
+title: Teipio nodau arbennig ar fysellfwrdd y DU neu UDA
 ---
 # Put code to run under here.
 print(f'Hello')
@@ -42,7 +42,7 @@ print(f'Hello')
 
 --- /task ---
 
-A **variable** is used to store values such as text or numbers. We have included some variables that store emoji characters.
+A **variable** is used to store values such as text or numbers. language: python filename: main.py line_numbers: true line_number_start: 11
 
 --- task ---
 
@@ -65,7 +65,7 @@ The `f`{:.language-python} character inside the print lets you easily print vari
 
 --- task ---
 
-**Test:** Run your code to see the result:
+Newidiwch y llinell `from emoji import *` i:
 
 ![The updated line of code in the code area with the word 'Hello' followed by three world emojis showing in the output area.](images/run_hello_world.png)
 
@@ -78,7 +78,7 @@ The `f`{:.language-python} character inside the print lets you easily print vari
 --- code ---
 ---
 language: python line_numbers: true line_number_start: 17
-line_highlights: 19
+line_highlights: 13
 ---
 # Put code to run under here
 print(f'Hello {world}') print(f'Welcome to {python}')
@@ -89,9 +89,9 @@ print(f'Hello {world}') print(f'Welcome to {python}')
 
 --- task ---
 
-**Test:** Click **Run**.
+**Profi:** Cliciwch **run**.
 
-![The additional line of code in the code editor with the word 'Hello' followed by three world emojis and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
+![Y llinell cod ychwanegol yn yr ardal cod gyda'r gair 'Helo' wedi'i ddilyn gan dri emoji byd a'r geiriau 'Croeso i' wedi'u dilyn gan emoji neidr a bysellfwrdd yn yr ardal allbwn.](images/run_multiple.png)
 
 **Cyngor:** Mae'n syniad da rhedeg eich cod ar ôl pob newid er mwyn gallu datrys problemau'n gyflym.
 
