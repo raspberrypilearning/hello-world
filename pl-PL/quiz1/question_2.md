@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Pytanie 2 z 3
 ---
 
-Which of these function definitions is correct and will print `I can code` when called?
+Która z tych definicji funkcji jest poprawna i będzie drukować kod ` i CAN Can ` po wywołaniu?
 
-![The code editor with output area showing <code>I can code</code>.](images/quiz2.png)
+![Edytor kodu z obszarem wyjściowym pokazującym <code> i może kodować </code>.](images/quiz2.png)
 
 --- choices ---
 
@@ -17,13 +17,13 @@ Which of these function definitions is correct and will print `I can code` when 
 language: python
 ---
 
-def awesome(): print('I can code')
+def awesome(): Print('Can code')
 
 --- /code ---
 
  --- feedback ---
 
-That's correct, calling this function will print `I can code`. You spotted that functions need `(` `)` brackets and a `:` in the function definition, and that all code to be run when that function is called must be indented.
+To prawda, wywołanie tej funkcji spowoduje wydrukowanie kodu ` i CAN `. Zauważyłeś, że funkcje potrzebują nawiasów `(` `)` i `:` w definicji funkcji i że cały kod, który ma być uruchamiany, gdy ta funkcja jest wywołana, musi być wcięty.
 
  --- /feedback ---
 
@@ -34,13 +34,13 @@ That's correct, calling this function will print `I can code`. You spotted that 
 language: python
 ---
 
-def awesome(): print('I can code')
+def awesome(): Print('Can code')
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, the layout in this example would cause an error.
+ Nie do końca, układ w tym przykładzie spowodowałby błąd.
 
  --- /feedback ---
 
@@ -51,13 +51,13 @@ def awesome(): print('I can code')
 language: python
 ---
 
-def awesome() print('I can code')
+def awesome() print('Can code')
 
 --- /code ---
 
  --- feedback ---
 
-Not quite, there is something missing from the function definition that woud cause an error.
+Nie do końca, w definicji funkcji brakuje czegoś, co spowodowałoby błąd.
 
  --- /feedback ---
 
