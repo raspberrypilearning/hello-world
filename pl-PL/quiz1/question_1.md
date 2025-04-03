@@ -1,30 +1,30 @@
-## Quick quiz
+## Szybki quiz
 
-Answer the three questions. There are hints to guide you to the correct answer.
+Odpowiedz na trzy pytania. Istnieją wskazówki, które poprowadzą Cię do prawidłowej odpowiedzi.
 
-When you have answered each question, click on **Check my answer**.
+Po udzieleniu odpowiedzi na każde pytanie kliknij ** Sprawdź moją odpowiedź **.
 
-Have fun!
+Miłej zabawy!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Pytanie 1 z 3
 ---
 
-This code sets the `world` variable to contain the text '🌍🌎🌏' (the three different world emoji):
+Ten kod ustawia zmienną ` ` tak, aby zawierała tekst '????' (trzy różne emoji świata):
 
 --- code ---
 ---
 language: python
 ---
 
-world = '🌍🌎🌏'
+świat = '???'
 
 --- /code ---
 
-Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
+Który kod poprawnie używa zmiennej ` ` i wyświetla Hello ????
 
-![The output area from the code editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
+![Obszar wyjściowy z edytora kodu z Hello ??? pokazanie.](images/quiz1.png)
 
 --- choices ---
 
@@ -35,13 +35,13 @@ Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
 language: python
 ---
 
-output('Hello' world)
+Output('Hello' świat)
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, `output` is not the way to output messages to the screen.
+ Nie do końca, ` ` nie jest sposobem na wysyłanie wiadomości na ekran.
 
  --- /feedback ---
 
@@ -59,7 +59,7 @@ print(f'Hello world')
 
  --- feedback ---
 
- Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+ Nie do końca, w Pythonie ` wydrukuj ` wysyła wiadomości na ekran, ale czegoś brakuje w tym przykładzie.
 
  --- /feedback ---
 
@@ -76,7 +76,7 @@ print(f'Hello{world}')
 
  --- feedback ---
 
- That's correct, in Python `print` outputs messages to the screen. The text output is inside single quotes `'` , then the `world` variable contains the earth emoji 🌍🌎🌏.
+ To prawda, w Pythonie ` wydrukuj ` wysyła wiadomości na ekran. The text output is inside single quotes `'` , then the `world` variable contains the earth emoji 🌍🌎🌏.
 
  --- /feedback ---
 
@@ -93,7 +93,7 @@ print('Hello{world}')
 
  --- feedback ---
 
-  Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+  Nie do końca, w Pythonie ` wydrukuj ` wysyła wiadomości na ekran, ale czegoś brakuje w tym przykładzie.
 
  --- /feedback ---
 
