@@ -2,7 +2,7 @@ Sem vložte kód pro spuštění.
 
 Ahoj
 
-Vítejte v {pythonu}
+Vítejte v {python}
 
 {python} je dobrý v matematice!
 
@@ -26,4 +26,4 @@ Já ❤️...
 
 ... dělá mě 😃
 
-Chtěl bych udělat... s {pythonem}
+Chtěl bych udělat... s {python}
