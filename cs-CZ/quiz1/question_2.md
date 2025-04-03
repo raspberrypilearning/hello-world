@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Otázka 2 z 3
 ---
 
-Which of these function definitions is correct and will print `I can code` when called?
+Která z těchto definic funkcí je správná a při volání vypíše `Mohu kódovat` ?
 
-![The code editor with output area showing <code>I can code</code>.](images/quiz2.png)
+![Editor kódu s výstupní oblastí zobrazující <code>Mohu kódovat</code>.](images/quiz2.png)
 
 --- choices ---
 
@@ -17,13 +17,13 @@ Which of these function definitions is correct and will print `I can code` when 
 language: python
 ---
 
-def awesome(): print('I can code')
+def awesome(): print('Mohu kódovat')
 
 --- /code ---
 
  --- feedback ---
 
-That's correct, calling this function will print `I can code`. You spotted that functions need `(` `)` brackets and a `:` in the function definition, and that all code to be run when that function is called must be indented.
+Správně, volání této funkce vypíše `Mohu kódovat`. Všimli jste si, že funkce potřebují `(` `)` závorky a `:` v definici funkce a že veškerý kód, který se má spustit při volání této funkce, musí být odsazen.
 
  --- /feedback ---
 
@@ -34,13 +34,13 @@ That's correct, calling this function will print `I can code`. You spotted that 
 language: python
 ---
 
-def awesome(): print('I can code')
+def awesome(): print('Dokážu kódovat')
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, the layout in this example would cause an error.
+ Ne tak docela, rozložení v tomto příkladu by způsobilo chybu.
 
  --- /feedback ---
 
@@ -51,13 +51,13 @@ def awesome(): print('I can code')
 language: python
 ---
 
-def awesome() print('I can code')
+def awesome() print('Dokážu kódovat')
 
 --- /code ---
 
  --- feedback ---
 
-Not quite, there is something missing from the function definition that woud cause an error.
+Ne tak docela, v definici funkce chybí něco, co by způsobilo chybu.
 
  --- /feedback ---
 
