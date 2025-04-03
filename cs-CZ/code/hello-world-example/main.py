@@ -1,37 +1,37 @@
 from datetime import datetime
 from random import randint
 
-# Emoji variables to use in your project
+# Proměnné emotikonů k použití ve vašem projektu
 world = "🌍🌎🌏"
 python = "Python 🐍"
-fire = "🔥"
+oheň = "🔥"
 
-# Emojis to copy and paste into your code:
+# Emojis ke zkopírování a vložení do kódu:
 # 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊
 # 👩‍🦽 👩🏼‍🦽 👩🏽‍🦽 👩🏾‍🦽 👩🏿‍🦽 🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
 # 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳
 
-# Useful characters :',()*_/.#
+# Užitečné znaky :',()*_/.#
 
 
-# Function definitions
+# Definice funkcí
 def roll_dice():
-    max = input("How many sides?:")  # Wait for input from the user
-    print("That's a D", max)  # Use the number the user entered
-    roll = randint(1, int(max))  # Use max to determine the number of sides the dice has
+    max = input("Kolik stran?:") # Počkejte na vstup od uživatele
+    print("To je D", max) # Použijte číslo zadané uživatelem
+    hod = randint(1, int(max)) # Použijte max k určení počtu stran, které má kostka
     print(
-        "You rolled a", roll, fire * roll
-    )  # Repeat the fire emoji to match the dice roll
+        "Hodil jsi", hoď, hoď * hoď
+    ) # Opakujte emotikon ohně tak, aby odpovídal hodu kostkou
 
 
-# Put code to run under here
-print("Hello", world)
-print("Welcome to", python)
-print(python, "is very good at maths!")
-print(230 * 5782**2 / 23781)  # Print the result of the sum
-print("The date and time is", datetime.now())  # Print the current date and time
+# Sem vložte kód pro spuštění
+print("Ahoj", world)
+print("Vítejte", python)
+print (python, "je velmi dobrý v matematice!")
+print(230 * 5782**2 / 23781) # Tisk výsledku součtu
+print("Datum a čas je", datetime.now()) # Vytiskne aktuální datum a čas
 
-roll_dice()  # Call the roll dice function
-print("I ❤️ rainbows 🌈")
-print("Unicorns 🦄 make me 😃")
-print("I'd like to make a story 📖 with", python)
+roll_dice() # Volání funkce hod kostkou
+tisk ("Já ❤️ duhy 🌈")
+tisk ("Unicorns 🦄 make me 😃")
+print("Chtěl bych vytvořit příběh 📖 s", python)
