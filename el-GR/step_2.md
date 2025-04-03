@@ -42,7 +42,7 @@ print(f'Hello')
 
 --- /task ---
 
-A **variable** is used to store values such as text or numbers. We have included some variables that store emoji characters.
+A **variable** is used to store values such as text or numbers. language: python filename: main.py line_numbers: true line_number_start: 11
 
 --- task ---
 
@@ -65,7 +65,7 @@ The `f`{:.language-python} character inside the print lets you easily print vari
 
 --- task ---
 
-**Test:** Run your code to see the result:
+Άλλαξε τη γραμμή `from emoji import *` σε:
 
 ![The updated line of code in the code area with the word 'Hello' followed by three world emojis showing in the output area.](images/run_hello_world.png)
 
@@ -78,7 +78,7 @@ The `f`{:.language-python} character inside the print lets you easily print vari
 --- code ---
 ---
 language: python line_numbers: true line_number_start: 17
-line_highlights: 19
+line_highlights: 13
 ---
 # Put code to run under here
 print(f'Hello {world}') print(f'Welcome to {python}')
@@ -89,7 +89,7 @@ print(f'Hello {world}') print(f'Welcome to {python}')
 
 --- task ---
 
-**Test:** Click **Run**.
+**Δοκιμή:** Κάνε κλικ στο **run**.
 
 ![The additional line of code in the code editor with the word 'Hello' followed by three world emojis and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
 
