@@ -10,7 +10,7 @@
 
 --- no-print ---
 
-Click the **Run** button to view an example of this project.
+इस प्रोजेक्ट का उदाहरण देखने के लिए **Run** बटन पर क्लिक करें।
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/target-practice-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
