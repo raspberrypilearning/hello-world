@@ -1,11 +1,11 @@
-## What you will make
+## Co budeš dělat
 
-Write an interactive program that uses emojis 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿.
+Napište interaktivní program, který používá emotikony 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿.
 
 
 --- print-only ---
 
-![Completed project showing example code on the code editor](images/showcase_static.png){:width="640px"}
+![Dokončený projekt zobrazující ukázkový kód v editoru kódu](images/showcase_static.png){:width="640px"}
 
 --- /print-only ---
 
@@ -15,7 +15,7 @@ Write an interactive program that uses emojis 🙌 🙌🏼 🙌🏽 🙌🏾 �
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-Click on the **Run** button
+Klikněte na tlačítko **Spustit**
 
 <iframe src="https://editor.raspberrypi.org/en/embed/viewer/hello-world-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
