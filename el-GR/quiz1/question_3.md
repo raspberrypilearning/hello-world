@@ -16,7 +16,7 @@ def two_dice(): print('Πρώτος αριθμός:', randint(1, 6)) print('Δε
 
 Ποιος κώδικας θα καλέσει τη συνάρτηση για να την εκτελέσει;
 
-![The code editor with output area showing two randomly generated numbers.](images/quiz3.png)
+![Το πρόγραμμα επεξεργασίας Trinket με περιοχή εξόδου που εμφανίζει δύο τυχαία δημιουργημένους αριθμούς.](images/quiz3.png)
 
 --- choices ---
 
