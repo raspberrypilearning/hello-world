@@ -4,7 +4,7 @@ In Python, `print()`{:.language-python} outputs strings (words or numbers) to th
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
+فتح مشروع البداية [Hello 🌍🌎🌏](https://trinket.io/python/683f0efa91){:target="_blank"}. سيتم فتح Trinket في علامة تبويب متصفح أخرى.
 
 ![The code editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
 
@@ -25,7 +25,7 @@ Type the code to `print()`{:.language-python} Hello to the screen:
 --- code ---
 ---
 language: python line_numbers: true line_number_start: 17
-line_highlights: 18
+line_highlights: 12
 ---
 # Put code to run under here.
 print(f'Hello')
@@ -36,13 +36,13 @@ print(f'Hello')
 
 --- task ---
 
-**Test:** Click on the **Run** button to run your code. This is what you should see when you run your code:
+**اختبار:** انقر فوق الزر **Run** لتشغيل التعليمات البرمجية الخاصة بك. This is what you should see when you run your code:
 
-![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png)
+![يظهر المقطع البرمجي التشغيل المميز بعلامة "مرحبًا" في منطقة الإخراج. ](images/run_hello.png)
 
 --- /task ---
 
-A **variable** is used to store values such as text or numbers. We have included some variables that store emoji characters.
+A **variable** is used to store values such as text or numbers. لقد قمنا بتضمين بعض المتغيرات التي تخزن أحرف الرموز التعبيرية.
 
 --- task ---
 
@@ -65,9 +65,9 @@ The `f`{:.language-python} character inside the print lets you easily print vari
 
 --- task ---
 
-**Test:** Run your code to see the result:
+**اختبار:** قم بتشغيل المقطع البرمجي الخاص بك لرؤية النتيجة:
 
-![The updated line of code in the code area with the word 'Hello' followed by three world emojis showing in the output area.](images/run_hello_world.png)
+![سطر المقطع البرمجي المحدث في منطقة المقطع البرمجي مع كلمة "مرحبًا" متبوعة بثلاثة عوالم رموز تعبيرية تظهر في منطقة الإخراج.](images/run_hello_world.png)
 
 --- /task ---
 
@@ -78,7 +78,7 @@ The `f`{:.language-python} character inside the print lets you easily print vari
 --- code ---
 ---
 language: python line_numbers: true line_number_start: 17
-line_highlights: 19
+line_highlights: 13
 ---
 # Put code to run under here
 print(f'Hello {world}') print(f'Welcome to {python}')
@@ -89,9 +89,9 @@ print(f'Hello {world}') print(f'Welcome to {python}')
 
 --- task ---
 
-**Test:** Click **Run**.
+**اختبار:** انقر **run**.
 
-![The additional line of code in the code editor with the word 'Hello' followed by three world emojis and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
+![سطر المقاطع البرمجية الإضافي في منطقة المقطع البرمجي مع كلمة "مرحبًا" متبوعة بثلاثة عوالم رموز تعبيرية وكلمات "مرحبًا بك في" متبوعة Python رمز تعبيري ولوحة مفاتيح تظهر في منطقة الإخراج.](images/run_multiple.png)
 
 **نصيحة:** من الجيد تشغيل المقطع البرمجي الخاص بك بعد كل تغيير حتى تتمكن من حل المشكلات بسرعة.
 
