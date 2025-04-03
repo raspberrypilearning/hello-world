@@ -1,0 +1,29 @@
+Sem vložte kód pro spuštění.
+
+Ahoj
+
+Vítejte v {pythonu}
+
+{python} je dobrý v matematice!
+
+Datum a čas je {datetime.now()}
+
+Definice funkcí
+
+Hodili jste {4}
+
+Kolik stran máš na kostce?:
+
+To je D {max}
+
+Umím kódovat
+
+První číslo:
+
+Druhé číslo:
+
+Já ❤️...
+
+... dělá mě 😃
+
+Chtěl bych udělat... s {pythonem}
