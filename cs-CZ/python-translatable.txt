@@ -1,15 +1,15 @@
-world
+svět
 
 add_one_and_one
 
-roll_dice
+hod_kostkami
 
-roll
+rrole
 
 max
 
-fire
+oheň
 
-awesome
+děsivý
 
-two_dice
+dvě_kostky
