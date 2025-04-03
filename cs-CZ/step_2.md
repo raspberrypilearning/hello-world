@@ -4,7 +4,7 @@ V Pythonu `print()`{:.language-python} vypíše na obrazovku řetězce (slova ne
 
 --- task ---
 
-Otevři [startovací projekt výzvy Mission Zero](https://missions.astro-pi.org/cs/mz/code_submissions/new){:target="_blank"}. Editor kódu se otevře v nové záložce prohlížeče.
+Otevři [startovací projekt Ahoj 🌍🌎🌏](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. Editor kódu se otevře v nové záložce prohlížeče.
 
 ![Editor kódu se spouštěcím kódem projektu vlevo v oblasti kódu. Vpravo je prázdná výstupní oblast.](images/starter_project.png)
 
