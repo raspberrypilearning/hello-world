@@ -16,7 +16,7 @@ def dau_ddis(): print('Rhif cyntaf:', randint(1, 6)) print('Ail rif:', randint(1
 
 Pa god fydd yn galw'r swyddogaeth i'w rhedeg?
 
-![The code editor with output area showing two randomly generated numbers.](images/quiz3.png)
+![Y golygydd Trinket gyda'r ardal allbwn yn dangos dau rif wedi'u cynhyrchu ar hap.](images/quiz3.png)
 
 --- choices ---
 
