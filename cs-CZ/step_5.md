@@ -1,10 +1,10 @@
 ## Vstup od uživatele
 
-Můžete použít `input()`{:.language-python} a požádat osobu používající váš program o zadání textu.
+Můžeš použít `input()`{:.language-python} a požádat osobu používající tvůj program o zadání textu.
 
 --- task ---
 
-Změňte svou funkci a požádejte osobu používající váš program, aby zadala, kolik stran na kostce má, a uložte ji jako proměnnou.
+Změň svou funkci a požádej osobu používající tvůj program, aby zadala, kolik stran má kostka. Hodnotu ulož jako proměnnou.
 
 --- code ---
 ---
@@ -20,7 +20,7 @@ def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a 
 
 --- task ---
 
-**Test:** Klikněte na tlačítko **Spustit** a zadejte počet stran. Ujistěte se, že jste po zadání počtu stran stiskli klávesu <kbd> Enter </kbd> . To je to, co byste měli vidět, když spustíte svůj kód.
+**Test:** Klikněte na tlačítko **Spustit** a zadej počet stran. Ujisti se, že po zadání počtu stran byla stisknuta klávesa <kbd> Enter </kbd>. To je to, co bys měl vidět, když spustíš svůj kód.
 
 <div class="c-project-output">
 ```
@@ -58,7 +58,7 @@ def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a 
 
 --- task ---
 
-**Test:** Klikni na tlačítko **Run** (Spustit). Zkontrolujte, zda kostka pokaždé hodí náhodné číslo.
+**Test:** Klikni na tlačítko **Run** (Spustit). Zkontroluj, zda kostka pokaždé hodí náhodné číslo.
 
 --- /task ---
 
