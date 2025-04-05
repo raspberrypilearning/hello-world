@@ -1,6 +1,6 @@
 ## Napiš ahoj
 
-V Pythonu `print()`{:.language-python} vypíše na obrazovku řetězce (slova nebo čísla).
+Pomocí funkce `print()`{:.language-python} vypíšeš na obrazovku řetězce (slova nebo čísla).
 
 --- task ---
 
@@ -12,7 +12,7 @@ Otevři [úvodní projekt výzvy Mission Zero](https://missions.astro-pi.org/cs/
 
 --- task ---
 
-Zde najdete řádek `# Vložte kód ke spuštění`{:.language-python} .
+Zde najdete řádek `# Sem vložte kód ke spuštění`{:.language-python}.
 
 Klikněte pod tímto řádkem. Blikající `|` je kurzor a ukazuje, kam budete psát.
 
@@ -20,7 +20,7 @@ Klikněte pod tímto řádkem. Blikající `|` je kurzor a ukazuje, kam budete p
 
 --- task ---
 
-Zadejte kód pro `print()`{:.language-python} Dobrý den na obrazovce:
+Napište kód pro funkci`print()`{:.language-python}, která vypíše Ahoj na obrazovku:
 
 --- code ---
 ---
@@ -36,17 +36,17 @@ print(f'Hello')
 
 --- task ---
 
-**Test:** Kliknutím na tlačítko **Spustit** spustíte svůj kód. Toto byste měli vidět při spuštění kódu:
+**Test:** Kliknutím na tlačítko **Run** spustíš svůj kód. Toto bys měl vidět při spuštění kódu:
 
-![Zvýrazněná ikona spuštění v náhledu kódu stránky Nakresli si anime. ](images/run_hello.png)
+![Ikona Run zvýrazněná s 'Hello' zobrazeným ve výstupní oblasti. ](images/run_hello.png)
 
 --- /task ---
 
-Proměnná **** se používá k uložení hodnot, jako je text nebo čísla. Zahrnuli jsme některé proměnné, které ukládají znaky emoji.
+**Proměnná** se používá k uložení hodnot, jako je text nebo čísla. Zahrnuli jsme některé proměnné, které ukládají emoji znaky.
 
 --- task ---
 
-Změňte svůj kód také na `print()`{:.language-python} obsah proměnné `world`{:.language-python} . Můžete to udělat přidáním názvu proměnné do složených závorek `{}`{:.language-python}
+Změňte svůj kód a také funkci`print()`{:.language-python} včetně obsahu proměnné `world`{:.language-python}. Můžete to udělat přidáním názvu proměnné do složených závorek `{}`{:.language-python}
 
 
 --- code ---
@@ -59,7 +59,7 @@ print(f'Hello {world}')
 
 --- /code ---
 
-Znak `f`{:.language-python} uvnitř tisku umožňuje snadno tisknout proměnné spolu s řetězci textu.
+Znak `f`{:.language-python} uvnitř tisku umožňuje snadno tisknout proměnné spolu s řetězci textu, tzv. f-string.
 
 --- /task ---
 
@@ -73,7 +73,7 @@ Znak `f`{:.language-python} uvnitř tisku umožňuje snadno tisknout proměnné 
 
 --- task ---
 
-**Přidejte do svého kódu** další řádek pro `print()`{:.language-python} další text a emotikony:
+**Přidejte do svého kódu** další řádek `print()`{:.language-python}, který vitiskne další text a emotikony:
 
 --- code ---
 ---
@@ -89,9 +89,9 @@ print(f'Hello {world}') print(f'Welcome to {python}')
 
 --- task ---
 
-**Test:** Klikni na tlačítko **Run** (Spustit).
+**Test:** Klikni na tlačítko **Run**.
 
-![Dodatečný řádek kódu v editoru kódu se slovem „Ahoj“ následovaným třemi světovými emotikony a slovy „Vítejte“ následovaným hadem emodži a klávesnicí zobrazenou ve výstupní oblasti.](images/run_multiple.png)
+![Dodatečný řádek kódu v editoru kódu se slovem „Ahoj“ následovaným třemi světovými emotikony a slovy „Vítejte“ následovaným hadem emoji a klávesnicí zobrazenou ve výstupní oblasti.](images/run_multiple.png)
 
 **Tip:** Je dobrý nápad spustit kód po každé změně, abyste mohli rychle opravit problémy.
 
