@@ -1,4 +1,4 @@
-## Що ти тепер вмієш?
+## Що робити далі?
 
 Якщо ти йдеш напрямом [Вступ до Python](https://projects.raspberrypi.org/uk-UA/raspberrypi/python-intro), можеш перейти до проєкту [Влучний постріл](https://projects.raspberrypi.org/uk-UA/projects/target-practice). У цьому проєкті ти намалюєш мішень і зробиш гру, в якій будеш стріляти з лука й отримувати бали.
 
