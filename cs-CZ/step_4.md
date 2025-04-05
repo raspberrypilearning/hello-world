@@ -15,18 +15,18 @@ def add_one_and_one(): x = 1 + 1 print(x)
 
 Název této funkce je `add_one_and_one`{:.language-python}.
 
-Kód úlohy, kterou má funkce provést, musí být **odsazený**, což znamená, že před každý řádek kódu musíte přidat **čtyři mezery** .
+Kód úlohy, kterou má funkce provést, musí být **odsazený**, což znamená, že před každý řádek kódu musíte přidat **čtyři mezery, nebo jeden stisk klávesy Tab**.
 
-**Volání** funkce spustí kód uvnitř ní. Funkci můžeš vyvolat napsáním jejího názvu. V tomto případě `add_one_and_one()`{:.language-python}.
+**Volání** funkce spustí kód uvnitř těla funkce. Funkci lze**volat** pomocí jejího názvu. V tomto případě `add_one_and_one()`{:.language-python}.
 
 
 --- task ---
 
-Hledejte komentář v souboru **main.py** , který říká
+Zkus vyhledat komentář v souboru **main.py**, který říká
 
 `# Definice funkcí`{:.language-python}.
 
-Vytvořte funkci s názvem `roll_dice()`{:.language-python}, která vypíše číslo 4.
+Vytvoř funkci s názvem `roll_dice()`{:.language-python}, která vypíše číslo 4.
 
 --- code ---
 ---
@@ -44,7 +44,7 @@ def roll_dice(): print(f'You rolled a {4}')
 
 --- task ---
 
-Poté zavolejte funkci v dolní části kódu.
+Poté zavolej funkci v dolní části kódu.
 
 --- code ---
 ---
@@ -65,7 +65,7 @@ print(f'The date and time is {datetime.now()}') roll_dice()
 
 --- task ---
 
-Další modul s názvem `random`{:.language-python} lze použít k vytváření náhodných čísel. Změňte svůj kód tak, aby používal funkci `randint`{:.language-python} pro výběr náhodného čísla mezi 1 a 6 pro hod kostkou.
+Modul s názvem `random`{:.language-python} lze použít k vytváření náhodných čísel. Změň svůj kód tak, aby používal funkci `randint`{:.language-python} pro výběr náhodného čísla mezi 1 a 6 při hodu kostkou.
 
 --- code ---
 ---
@@ -85,7 +85,7 @@ def roll_dice(): print(f'You rolled a {randint(1, 6)}')
 
 --- /task ---
 
-V Pythonu můžete řetězce, jako jsou emoji nebo celá slova, násobit číslem, takže se vytisknou několikrát.
+V Pythonu můžete řetězce, jako jsou emoji nebo celá slova, násobit číslem, takže se vypíší několikrát.
 
 --- task ---
 
@@ -105,7 +105,7 @@ def roll_dice(): roll = randint(1,6)
 
 --- task ---
 
-Vynásobte náhodné číslo uložené v `roll`{:.language-python} emoji 🔥 a vytiskněte výsledek.
+Vynásob náhodné číslo uložené v `roll`{:.language-python} emoji 🔥 a vypíš výsledek.
 
 --- code ---
 ---
