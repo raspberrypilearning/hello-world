@@ -2,7 +2,7 @@
 
 V Pythonu můžete pracovat s čísly a daty.
 
-K výpočtům můžete použít **aritmetické operátory** , například `+` a `-`  :
+K výpočtům můžete použít **aritmetické operátory**, například `+` a `-`:
 
 | + | přidat |   
 | - | odečíst |   
@@ -13,7 +13,7 @@ K výpočtům můžete použít **aritmetické operátory** , například `+` a 
 
 --- task ---
 
-Přidejte další dva `print()`{:.language-python} do svého kódu včetně násobení pro Python pro výpočet:
+Přidejte další dvě funkce`print()`{:.language-python} do svého kódu včetně násobení, aby Python provedl výpočet:
 
 --- code ---
 ---
@@ -29,7 +29,7 @@ print(f'Hello {world}') print(f'Welcome to {python}') print(f'{python} is good a
 
 --- task ---
 
-**Test:** Klikni na tlačítko **Run** (Spustit). To je to, co byste měli vidět, když spustíte svůj kód.
+**Test:** Klikni na tlačítko **Run** (Spustit). To je to, co bys měl vidět, když spustíš svůj kód.
 
 ```
 Hello 🌍🌎🌏
@@ -40,9 +40,9 @@ Python 🐍 is good at maths!
 
 --- /task ---
 
-Python má mnoho **modulů** , které můžete ve svém kódu použít k provádění určitých úkolů.
+Python má mnoho **modulů**, které můžeš ve svém kódu použít k provádění určitých úkolů.
 
-Modul `datetime`{:.language-python} pomáhá s psaním kódu, který používá data a časy.
+Modul `datetime`{:.language-python} pomůže s psaním kódu, který používá datum a čas.
 
 --- task ---
 
