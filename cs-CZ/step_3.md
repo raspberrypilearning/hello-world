@@ -13,7 +13,7 @@ K výpočtům můžete použít **aritmetické operátory**, například `+` a `
 
 --- task ---
 
-Přidejte další dva `print()`{:.language-python} do svého kódu včetně násobení pro Python pro výpočet:
+Přidejte další dvě funkce`print()`{:.language-python} do svého kódu včetně násobení, aby Python provedl výpočet:
 
 --- code ---
 ---
@@ -24,7 +24,7 @@ line_number_start: 17
 line_highlights: 20-21
 ---
 # Sem vložte kód pro spuštění.
-print(f'Ahoj {svet}')
+print(f'Ahoj {world}')
 print(f'Vítejte v {python}')
 print(f'{python} je dobrý v matematice!')
 print(f'{3 * 9}')
@@ -35,7 +35,7 @@ print(f'{3 * 9}')
 
 --- task ---
 
-**Test:** Klikni na tlačítko **Run** (Spustit). To je to, co byste měli vidět, když spustíte svůj kód.
+**Test:** Klikni na tlačítko **Run** (Spustit). To je to, co bys měl vidět, když spustíš svůj kód.
 
 ```
 Ahoj 🌍🌎🌏
@@ -46,13 +46,13 @@ Python 🐍 je dobrý v matematice!
 
 --- /task ---
 
-Python má mnoho **modulů** , které můžete ve svém kódu použít k provádění určitých úkolů.
+Python má mnoho **modulů**, které můžeš ve svém kódu použít k provádění určitých úkolů.
 
-Modul `datetime`{:.language-python} pomáhá s psaním kódu, který používá data a časy.
+Modul `datetime`{:.language-python} pomůže s psaním kódu, který používá datum a čas.
 
 --- task ---
 
-Jako další řádek to tvého kódu přidá současný datum a čas.
+Jako další řádek do tvého kódu přidej současný datum a čas pomocí metody `now()`{:.language-python} z knihovny `datetime`{:.language-python}:
 
 --- code ---
 ---

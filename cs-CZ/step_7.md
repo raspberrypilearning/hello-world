@@ -4,9 +4,9 @@
 
 --- task ---
 
-Procvičte si přidávání dalších `tisku` řádků do vašeho kódu.
+Procvič si přidávání dalších řádků funkce `print` do tvého kódu.
 
-Zde jsou některé spouštěče vět, které můžete použít:
+Zde jsou některé řádky kódu, které můžeš použít:
 
 --- code ---
 ---
@@ -15,14 +15,14 @@ line_numbers: true
 line_number_start: 23
 line_highlights: 24-26
 ---
-hod_kostkami()
+roll_dice()
 print(f'Já ❤️ ...')   
 print(f'... dělá mě 😃')   
 print(f'Chtěl bych udělat ... s {python}')
 
 --- /code ---
 
-Zde je seznam některých emotikonů, které byste mohli chtít použít:
+Zde je seznam některých emotikonů, které můžeš použít:
 
 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒🎨🎮🔬🎉🕶️🎲 😊
 🦄🚀💯⭐💛❤️📚⚽🏏🏀🥋🏆✨🥺🌈🔥♻️🌳

@@ -1,10 +1,10 @@
 ## Vstup od uživatele
 
-Můžete použít `input()`{:.language-python} a požádat osobu používající váš program o zadání textu.
+Můžeš použít `input()`{:.language-python} a požádat osobu používající tvůj program o zadání textu.
 
 --- task ---
 
-Změňte svou funkci a požádejte osobu používající váš program, aby zadala, kolik stran na kostce má, a uložte ji jako proměnnou.
+Změň svou funkci a požádej osobu používající tvůj program, aby zadala, kolik stran má kostka. Hodnotu ulož jako proměnnou.
 
 --- code ---
 ---
@@ -14,11 +14,11 @@ line_number_start: 15
 line_highlights: 17-18
 ---
 # Function definitions
-def hod_kostkami():
+def roll_dice():
     max = input('Kolik stran máš na kostce?:')
     print(f'To je D  {max}')
-    hod = randint(1,6)
-    print(f'Hodili jste {hod} {ohen * hod}')
+    roll = randint(1,6)
+    print(f'Hodili jste {roll} {fire * roll}')
 
 --- /code ---
 
@@ -26,7 +26,7 @@ def hod_kostkami():
 
 --- task ---
 
-**Test:** Klikněte na tlačítko **Run** (Spustit) a zadejte počet stran. Ujistěte se, že jste po zadání počtu stran stiskli klávesu <kbd>Enter</kbd> . To je to, co byste měli vidět, když spustíte svůj kód.
+**Test:** Klikněte na tlačítko **Spustit** a zadej počet stran. Ujisti se, že po zadání počtu stran byla stisknuta klávesa <kbd> Enter </kbd>. To je to, co bys měl vidět, když spustíš svůj kód.
 
 <div class="c-project-output">
 ```
@@ -58,11 +58,11 @@ line_number_start: 15
 line_highlights: 19
 ---
 # Function definitions        
-def hod_kostkami():
+def roll_dice():
     max = input('Kolik stran máš na kostce?:')
     print(f'To je D {max}')
-    hod = randint(1, int(max))
-    print(f'Hodili jste a {hod} {ohen * hod}')
+    roll = randint(1, int(max))
+    print(f'Hodili jste a {roll} {fire * roll}')
 
 --- /code ---
 
@@ -70,7 +70,7 @@ def hod_kostkami():
 
 --- task ---
 
-**Test:** Klikni na tlačítko **Run** (Spustit). Zkontrolujte, zda kostka pokaždé hodí náhodné číslo.
+**Test:** Klikni na tlačítko **Run** (Spustit). Zkontroluj, zda kostka pokaždé hodí náhodné číslo.
 
 --- /task ---
 

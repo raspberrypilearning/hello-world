@@ -17,18 +17,18 @@ def add_one_and_one():
 
 Název této funkce je `add_one_and_one`{:.language-python}.
 
-Kód úlohy, kterou má funkce provést, musí být **odsazený**, což znamená, že před každý řádek kódu musíte přidat **čtyři mezery** .
+Kód úlohy, kterou má funkce provést, musí být **odsazený**, což znamená, že před každý řádek kódu musíte přidat **čtyři mezery, nebo jeden stisk klávesy Tab**.
 
-**Volání** funkce spustí kód uvnitř ní. Funkci můžeš vyvolat napsáním jejího názvu. V tomto případě `add_one_and_one()`{:.language-python}.
+**Volání** funkce spustí kód uvnitř těla funkce. Funkci lze **volat** pomocí jejího názvu. V tomto případě `add_one_and_one()`{:.language-python}.
 
 
 --- task ---
 
-Hledejte komentář v souboru **main.py** , který říká
+Zkus vyhledat komentář v souboru **main.py**, který říká
 
 `# Definice funkcí`{:.language-python}.
 
-Vytvořte funkci s názvem `hod_kostkami()`{:.language-python}, která vypíše číslo 4.
+Vytvoř funkci s názvem `roll_dice()`{:.language-python}, která vypíše číslo 4.
 
 --- code ---
 ---
@@ -38,7 +38,7 @@ line_number_start: 15
 line_highlights: 16-18
 ---
 # Definice funkcí
-def hod_kostkami():
+def roll_dice():
     print(f'Hodili jste {4}')
 
 # Sem vložte kód pro spuštění
@@ -49,7 +49,7 @@ def hod_kostkami():
 
 --- task ---
 
-Poté zavolejte funkci v dolní části kódu.
+Poté zavolej funkci v dolní části kódu.
 
 --- code ---
 ---
@@ -59,7 +59,7 @@ line_number_start: 24
 line_highlights: 25
 ---
 print(f'Datum a čas je {datetime.now()}')
-hod_kostkami()
+roll_dice()
 
 --- /code ---
 
@@ -73,7 +73,7 @@ hod_kostkami()
 
 --- task ---
 
-Další modul s názvem `random`{:.language-python} lze použít k vytváření náhodných čísel. Změňte svůj kód tak, aby používal funkci `randint`{:.language-python} pro výběr náhodného čísla mezi 1 a 6 pro hod kostkou.
+Modul s názvem `random`{:.language-python} lze použít k vytváření náhodných čísel. Změň svůj kód tak, aby používal funkci `randint`{:.language-python} pro výběr náhodného čísla mezi 1 a 6 při hodu kostkou.
 
 --- code ---
 ---
@@ -83,7 +83,7 @@ line_number_start: 15
 line_highlights: 17
 ---
 # Definice funkcí
-def hod_kostkami():
+def roll_dice():
     print(f'Hodili jste {randint(1, 6)}')
 
 --- /code ---
@@ -96,11 +96,11 @@ def hod_kostkami():
 
 --- /task ---
 
-V Pythonu můžete řetězce, jako jsou emoji nebo celá slova, násobit číslem, takže se vytisknou několikrát.
+V Pythonu můžete řetězce, jako jsou emoji nebo celá slova, násobit číslem, takže se vypíší několikrát.
 
 --- task ---
 
-Změňte svou funkci a uložte náhodné číslo do proměnné s názvem `hod`{:.language-python}.
+Změňte svou funkci a uložte náhodné číslo do proměnné s názvem `roll`{:.language-python}.
 
 --- code ---
 ---
@@ -110,8 +110,8 @@ line_number_start: 15
 line_highlights: 17
 ---
 # Definice funkcí
-def hod_kostkami():
-    hod = randint(1,6)
+def roll_dice():
+    roll = randint(1,6)
 
 --- /code ---
 
@@ -119,7 +119,7 @@ def hod_kostkami():
 
 --- task ---
 
-Vynásobte náhodné číslo uložené v `hod`{:.language-python} emoji 🔥 a vytiskněte výsledek.
+Vynásob náhodné číslo uložené v `roll`{:.language-python} emoji 🔥 a vypíš výsledek.
 
 --- code ---
 ---
@@ -129,9 +129,9 @@ line_number_start: 15
 line_highlights: 18
 ---
 # Definice funkcí
-def hod_kostkami():
-    hod = randint(1,6)
-    print(f'Hodili jste {hod} {ohen * hod}')
+def roll_dice():
+    roll = randint(1,6)
+    print(f'Hodili jste {roll} {fire * roll}')
 
 --- /code ---
 

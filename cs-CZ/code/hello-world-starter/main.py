@@ -2,9 +2,9 @@ from datetime import datetime
 from random import randint
 
 # Proměnné emotikonů k použití ve vašem projektu
-svet = '🌍🌎🌏'
+world = '🌍🌎🌏'
 python = 'Python 🐍'
-ohen = '🔥'
+fire = '🔥'
 
 # Emotikony ke zkopírování a vložení do kódu:
 # 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊
