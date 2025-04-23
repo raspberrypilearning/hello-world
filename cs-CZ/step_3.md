@@ -13,7 +13,7 @@ K výpočtům můžete použít **aritmetické operátory**, například `+` a `
 
 --- task ---
 
-Přidejte další dvě funkce`print()`{:.language-python} do svého kódu včetně násobení, aby Python provedl výpočet:
+Přidejte další dvě funkce `print()`{:.language-python} do svého kódu včetně násobení, aby Python provedl výpočet:
 
 --- code ---
 ---

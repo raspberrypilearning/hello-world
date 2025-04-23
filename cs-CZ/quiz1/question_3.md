@@ -10,7 +10,7 @@ Tato funkce generuje dvě náhodná čísla:
 language: python
 ---
 
-def dve_kostky():
+def two_dice():
   print('První číslo:', randint(1, 6))
   print('Druhé číslo:', randint(1, 6))
 
@@ -29,7 +29,7 @@ Který kód zavolá funkci, aby ji spustil?
 language: python
 ---
 
-def dve_kostky():
+def two_dice():
   print('První číslo:', randint(1, 6))
   print('Druhé číslo:', randint(1, 6))
 
@@ -47,13 +47,13 @@ def dve_kostky():
 language: python
 ---
 
-dve_kostky
+two_dice
 
 --- /code ---
 
  --- feedback ---
 
-Blízko! `dve_kostky` je název funkce, ale k jejímu volání potřebujete víc než jen název.
+Blízko! `two_dice` je název funkce, ale k jejímu volání potřebujete víc než jen název.
 
  --- /feedback ---
 
@@ -64,7 +64,7 @@ Blízko! `dve_kostky` je název funkce, ale k jejímu volání potřebujete víc
 language: python
 ---
 
-dve_kostky[]
+two_dice[]
 
 --- /code ---
 
@@ -81,7 +81,7 @@ dve_kostky[]
 language: python
 ---
 
-dve_kostky()
+two_dice()
 
 --- /code ---
 

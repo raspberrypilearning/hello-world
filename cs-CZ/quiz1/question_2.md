@@ -4,7 +4,7 @@
 legend: Otázka 2 z 3
 ---
 
-Která z těchto definic funkcí je správná a při volání vypíše `Mohu kódovat` ?
+Která z těchto definic funkcí je správná a při volání vypíše `Mohu kódovat`?
 
 ![Editor kódu s výstupní oblastí zobrazující `Mohu kódovat`.](images/quiz2.png)
 
@@ -17,7 +17,7 @@ Která z těchto definic funkcí je správná a při volání vypíše `Mohu kó
 language: python
 ---
 
-def desivy():
+def awesome():
   print('Mohu kódovat')
 
 --- /code ---
@@ -35,7 +35,7 @@ Správně, volání této funkce vypíše `Mohu kódovat`. Všimli jste si, že 
 language: python
 ---
 
-def desivy():
+def awesome():
 print('Mohu kódovat')
 
 --- /code ---
@@ -53,7 +53,7 @@ print('Mohu kódovat')
 language: python
 ---
 
-def desivy()
+def awesome()
   print('Mohu kódovat')
 
 --- /code ---

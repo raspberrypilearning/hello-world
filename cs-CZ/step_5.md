@@ -13,7 +13,7 @@ line_numbers: true
 line_number_start: 15
 line_highlights: 17-18
 ---
-# Function definitions
+# Definice funkcí
 def roll_dice():
     max = input('Kolik stran máš na kostce?:')
     print(f'To je D  {max}')
@@ -26,7 +26,7 @@ def roll_dice():
 
 --- task ---
 
-**Test:** Klikněte na tlačítko **Spustit** a zadej počet stran. Ujisti se, že po zadání počtu stran byla stisknuta klávesa <kbd> Enter </kbd>. To je to, co bys měl vidět, když spustíš svůj kód.
+**Test:** Klikněte na tlačítko **Spustit** a zadej počet stran. Ujisti se, že po zadání počtu stran byla stisknuta klávesa <kbd>Enter</kbd>. To je to, co bys měl vidět, když spustíš svůj kód.
 
 <div class="c-project-output">
 ```
@@ -57,7 +57,7 @@ line_numbers: true
 line_number_start: 15
 line_highlights: 19
 ---
-# Function definitions        
+# Definice funkcí        
 def roll_dice():
     max = input('Kolik stran máš na kostce?:')
     print(f'To je D {max}')

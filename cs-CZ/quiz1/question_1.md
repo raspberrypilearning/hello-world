@@ -11,18 +11,18 @@ Bav se!
 legend: Otázka 1 ze 3
 ---
 
-Tento kód nastavuje proměnnou `svet` tak, aby obsahovala text '🌍🌎🌏' (tři různé emotikony světa):
+Tento kód nastavuje proměnnou `world` tak, aby obsahovala text '🌍🌎🌏' (tři různé emotikony světa):
 
 --- code ---
 ---
 language: python
 ---
 
-svet = '🌍🌎🌏'
+world = '🌍🌎🌏'
 
 --- /code ---
 
-Který kód správně používá proměnnou `svet` a vydává Ahoj 🌍🌎🌏?
+Který kód správně používá proměnnou `world` a vydává Ahoj 🌍🌎🌏?
 
 ![Výstupní oblast z editoru kódu se zobrazením Ahoj 🌍🌎🌏.](images/quiz1.png)
 
@@ -35,7 +35,7 @@ Který kód správně používá proměnnou `svet` a vydává Ahoj 🌍🌎🌏?
 language: python
 ---
 
-output('Ahoj' svet)
+output('Ahoj' world)
 
 --- /code ---
 
@@ -53,7 +53,7 @@ output('Ahoj' svet)
 language: python
 ---
 
-tisknout (f'Ahoj světe')
+tisknout (f'Ahoj world')
 
 --- /code ---
 
@@ -70,13 +70,13 @@ tisknout (f'Ahoj světe')
 language: python
 ---
 
-print(f'Ahoj{svet}')
+print(f'Ahoj{world}')
 
 --- /code ---
 
  --- feedback ---
 
- To je správně, v Pythonu `print` vypisuje zprávy na obrazovku. Textový výstup je v jednoduchých uvozovkách `'` , poté proměnná `svet` obsahuje emoji země 🌍🌎🌏.
+ To je správně, v Pythonu `print` vypisuje zprávy na obrazovku. Textový výstup je v jednoduchých uvozovkách `'` , poté proměnná `world` obsahuje emoji země 🌍🌎🌏.
 
  --- /feedback ---
 
@@ -87,7 +87,7 @@ print(f'Ahoj{svet}')
 language: python
 ---
 
-print('Ahoj{svet}')
+print('Ahoj{world}')
 
 --- /code ---
 

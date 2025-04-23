@@ -29,7 +29,7 @@ line_numbers: true
 line_number_start: 17
 line_highlights: 18
 ---
-# Vložte kód ke spuštění.
+#  Sem vložte kód ke spuštění.
 print(f'Ahoj')
 
 --- /code ---
