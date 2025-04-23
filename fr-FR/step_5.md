@@ -1,62 +1,76 @@
-## Début de phrase
+## Obtenir une entrée
 
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 200px; flex-grow: 1; margin-right: 15px;">
-Sors plus de phrases de ton projet.
-</div>
-<div>
-
-![De nouvelles lignes d'impression dans la zone de sortie du Code Editor avec des emojis et du texte](images/sentence_starter.png){:width="300px"} 
-
-</div>
-</div>
+Tu peux utiliser `input()`{:.language-python} pour demander à la personne qui utilise ton programme de saisir du texte.
 
 --- task ---
 
-Ajoute plus de lignes `print` à ton code. Voici quelques débuts de phrases que tu peux utiliser :
+Modifie ta fonction pour demander à la personne qui utilise ton programme d'indiquer le nombre de faces du dé, et enregistre-le comme variable.
 
 --- code ---
 ---
 language: python
-filename: main.py
 line_numbers: true
-line_number_start: 29
-line_highlights: 30-32
+line_number_start: 15
+line_highlights: 17-18
 ---
-
-roule_de()  # Appeler la fonction roule de
-print('J\' ❤️ ...')   
-print('... me rend 😃')   
-print('J\'aimerais créer ... avec', python)
+# Définitions de fonctions
+def roule_de():
+    max = input('Combien de faces sur ton dé ? :')
+    print(f'C\'est un D {max}')
+    roule = randint(1,6)
+    print(f'Tu as obtenu un {roule} {feu * roule}')
 
 --- /code ---
 
-**Astuce :** chaque utilisation de `print` ajoute une ligne entre les deux.
-
-**Astuce :** si tu as besoin d'afficher une apostrophe `'`, tu dois placer une barre oblique inverse `\` devant afin que Python sache qu'elle fait partie du texte.
-
-**Astuce :** ajoute un `#` au début d'une ligne pour la transformer en commentaire.
-
 --- /task ---
-
-<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-
-L'<span style="color: #0faeb0">emoji cœur jaune 💛</span> est souvent utilisé pour exprimer l'amitié et le bonheur.</p>
 
 --- task ---
 
-Quel message voudrais-tu envoyer à un ami pour lui remonter le moral ? Quel emoji choisirais-tu ?
+**Test :** clique sur le bouton **Run** et saisis un nombre de faces. Assure-toi d'appuyer sur la touche <kbd>Entrée</kbd> après avoir saisi le nombre de faces. Tu devrais voir ceci lorsque tu exécutes ton code .
 
-Fais défiler la section **emoji** dans le Code Editor pour voir les emojis et les variables d'exemple que tu peux utiliser. Copie ceux que tu choisis et enregistre-les dans une variable ou ajoute-les directement à ton code.
-
-Tu peux ajouter d'autres emojis dans la section **emoji**. Utilise cette [liste d'emojis](https://unicode.org/emoji/charts/full-emoji-list.html){:target="_blank"} pour trouver ceux que tu veux.
-
-🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊
-🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳
-👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
-
-[[[choose-an-emoji]]]
+<div class="c-project-output">
+```
+Bonjour 🌍🌎🌏
+Bienvenue à Python 🐍
+Python 🐍 est très bon en maths !
+12345678987654321
+La date et l'heure sont 2023-11-21 16:20:41.323000
+Combien de faces sur ton dé ? :
+20 
+C'est un D 20
+Tu as obtenu un 1 🔥
+```
 
 --- /task ---
 
---- save ---
+Les entrées sont toujours stockées sous forme de texte, mais nous devons utiliser l'entrée stockée dans `max` pour spécifier le plus grand nombre qui pourrait être obtenu.
+
+--- task ---
+
+`max` est une chaîne, elle doit donc être changée en un entier `int()`{:.language-python}.
+
+
+--- code ---
+---
+language: python
+line_numbers: true
+line_number_start: 15
+line_highlights: 19
+---
+# Définitions de fonctions        
+def roule_de():
+    max = input('Combien de faces sur ton dé ? :')
+    print(f'C\'est un D {max}')
+    roule = randint(1, int(max))
+    print(f'Tu as obtenu un {roule} {feu * roule}')
+
+--- /code ---
+
+--- /task ---
+
+--- task ---
+
+**Test :** clique sur le bouton **Run** plusieurs fois. Vérifie que le dé génère un nombre aléatoire à chaque fois.
+
+--- /task ---
+

@@ -11,8 +11,8 @@ language: python
 ---
 
 def twee_getallen():
-    print('Eerste getal: ', randint(1, 6))
-    print('Tweede getal: ', randint(1, 6))
+  print('Eerste getal: ', randint(1, 6))
+  print('Tweede getal: ', randint(1, 6))
 
 --- /code ---
 
@@ -30,8 +30,8 @@ language: python
 ---
 
 def twee_getallen():
-    print('Eerste getal: ', randint(1, 6))
-    print('Tweede getal: ', randint(1, 6))
+  print('Eerste getal: ', randint(1, 6))
+  print('Tweede getal: ', randint(1, 6))
 
 --- /code ---
 

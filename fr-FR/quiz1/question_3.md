@@ -11,8 +11,8 @@ language: python
 ---
 
 def deux_des():
-    print('Premier nombre :', randint(1, 6))
-    print('Deuxième nombre :', randint(1, 6))
+  print('Premier nombre :', randint(1, 6))
+  print('Deuxième nombre :', randint(1, 6))
 
 --- /code ---
 
@@ -30,8 +30,8 @@ language: python
 ---
 
 def deux_des():
-    print('Premier nombre :', randint(1, 6))
-    print('Deuxième nombre :', randint(1, 6))
+  print('Premier nombre :', randint(1, 6))
+  print('Deuxième nombre :', randint(1, 6))
 
 --- /code ---
 

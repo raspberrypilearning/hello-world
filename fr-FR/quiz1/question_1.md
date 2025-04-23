@@ -11,18 +11,18 @@ Amuse-toi bien !
 legend: Question 1 sur 3
 ---
 
-Ce code définit la variable `monde` pour qu'elle contienne le texte '🌍🌎🌏' (les trois emojis de monde différents) :
+Ce code définit la variable `world` pour qu'elle contienne le texte '🌍🌎🌏' (les trois emojis de monde différents) :
 
 --- code ---
 ---
 language: python
 ---
 
-monde = '🌍🌎🌏'
+world = '🌍🌎🌏'
 
 --- /code ---
 
-Quel code utilise correctement la variable `monde` et affiche Bonjour 🌍🌎🌏 ?
+Quel code utilise correctement la variable `world` et affiche Bonjour 🌍🌎🌏 ?
 
 ![La zone de sortie du Code Editor avec Bonjour 🌍🌎🌏 affiché.](images/quiz1.png)
 
@@ -53,7 +53,7 @@ output('Bonjour' monde)
 language: python
 ---
 
-print('Bonjour' monde)
+print(f'Bonjour le monde')
 
 --- /code ---
 
@@ -70,13 +70,13 @@ print('Bonjour' monde)
 language: python
 ---
 
-print('Bonjour', monde)
+print(f'Bonjour {world}')
 
 --- /code ---
 
  --- feedback ---
 
- C'est exact, en Python `print` affiche des messages à l'écran. La sortie de texte est entre guillemets simples `'` , une virgule sépare les deux éléments et fournit un espace, puis la variable `monde` est appelée, qui stocke l'emoji de la terre 🌍🌎🌏, comme dans ton projet.
+ C'est exact, en Python `print` affiche des messages à l'écran. La sortie de texte est à l'intérieur de guillemets simples `'` , puis la variable `world` contient l'emoji Terre 🌍🌎🌏.
 
  --- /feedback ---
 
@@ -87,7 +87,7 @@ print('Bonjour', monde)
 language: python
 ---
 
-print(Bonjour, monde)
+print('Bonjour {world}')
 
 --- /code ---
 

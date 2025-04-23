@@ -2,7 +2,7 @@ from datetime import datetime
 from random import randint
 
 # Variables Emoji à utiliser dans ton projet
-monde = '🌍🌎🌏'
+world = '🌍🌎🌏'
 python = 'Python 🐍'
 feu = '🔥'
 

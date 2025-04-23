@@ -17,9 +17,10 @@ Klik op de knop **Run** om een voorbeeld van dit project te bekijken.
 
 --- /no-print ---
 
-Als je meer plezier wilt hebben bij het verkennen van Python, dan kun je een van [deze projecten](https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=python) uitproberen.
+Of probeer een ander [Python](https://projects.raspberrypi.org/nl-NL/projects?software%5B%5D=python) project.
 
 ***
+
 Dit project werd vertaald door vrijwilligers:
 
 Max Schaaper
@@ -28,3 +29,5 @@ Iny van Beuningen
 Jeroen Wernsen
 
 Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).
+
+
