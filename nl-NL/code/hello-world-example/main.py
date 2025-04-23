@@ -2,9 +2,9 @@ from datetime import datetime
 from random import randint
 
 # Emoji-variabelen die je in je project kunt gebruiken
-world = "🌍🌎🌏"
+wereld = "🌍🌎🌏"
 python = "Python 🐍"
-fire = "🔥"
+vuur = "🔥"
 
 # Emoji's om te kopiëren en in je code te plakken:
 # 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊
@@ -16,22 +16,22 @@ fire = "🔥"
 
 # Functiedefinities
 def gooi_dobbelsteen():
-    max = input("How many sides?:")  # Wait for input from the user
-    print("That's a D", max)  # Use the number the user entered
+    max = input("Hoeveel zijden?:") # Wacht op invoer van de gebruiker
+    print("Dat is een D", max) # Gebruik het getal dat de gebruiker heeft ingevoerd
     worp = randint(1, int(max)) # Gebruik max om het aantal zijden van de dobbelsteen te bepalen
     print(
-        "You rolled a", roll, fire * roll
-    )  # Repeat the fire emoji to match the dice roll
+        "Je hebt een", worp, vuur * worp, "gegooid"
+    )  # Herhaal de vuuremoji om bij de dobbelsteenworp te passen
 
 
 # Zet de code om uit te voeren hieronder
-print("Hello", world)
-print("Welcome to", python)
-print(python, "is very good at maths!")
-print(230 * 5782**2 / 23781)  # Print the result of the sum
-print("The date and time is", datetime.now())  # Print the current date and time
+print("Hallo", wereld)
+print("Welkom bij", python)
+print(python, "is erg goed in wiskunde!")
+print(230 * 5782**2 / 23781) # Laat het resultaat van de som zien
+print("De datum en tijd is", datetime.now()) # Laat de huidige datum en tijd zien
 
 gooi_dobbelsteen() # Roep de dobbelsteen functie aan
-print("I ❤️ rainbows 🌈")
-print("Unicorns 🦄 make me 😃")
-print("I'd like to make a story 📖 with", python)
+print("Ik ❤️ regenbogen 🌈")
+print("Eenhoorns 🦄 maken mij 😃")
+print("Ik wil graag een verhaal 📖 maken met", python)
