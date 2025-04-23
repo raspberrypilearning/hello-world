@@ -18,7 +18,7 @@ language: python
 ---
 
 def impressionnant():
-    print('Je peux coder')
+  print('Je peux coder')
 
 --- /code ---
 
@@ -54,7 +54,7 @@ language: python
 ---
 
 def impressionnant()
-    print('Je peux coder')
+  print('Je peux coder')
 
 --- /code ---
 

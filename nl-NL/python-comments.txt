@@ -1,43 +1,29 @@
-Zet de code om uit te voeren hier onder
+Zet de code om uit te voeren hieronder.
 
-Print het resultaat van de som
+Hallo
 
-Afdrukken met emoji
+Welkom bij {python}
 
-Zet de functie definities hier onder
+{python} is goed in wiskunde!
 
-Vergeet de dubbele punt aan het einde van deze regel niet
+De datum en tijd is {datetime.now()}
 
-Roep de functie gooi_dobbelsteen aan
+Functiedefinities
 
-Genereer een willekeurig getal tussen 1 en 6
+Je hebt een {4} gegooid
 
-Druk de waarde van de worp variabele af
+Hoeveel zijden heeft jouw dobbelsteen?:
 
-Herhaal de vuuremoji om bij de dobbelsteenworp te passen
+Dat is een D {max}
 
-Wacht op invoer van de gebruiker
+Ik kan coderen
 
-Gebruik het getal dat de gebruiker heeft ingevoerd
+Eerste getal:
 
-randint vereist dat max een 'geheel getal' is
+Tweede getal:
 
-Wacht tot de gebruiker op Enter drukt
+Ik ❤️...
 
-Nuttige tekens :',()*_/.#
+... maakt mij 😃
 
-Emoji-variabelen die je in je project kunt gebruiken
-
-ASCII-kunstalternatieven toevoegen
-
-Voor emoji gebruikten we emoticons gemaakt van karakters
-
-vraag invoer van de gebruiker
-
-genereer een willekeurige getal
-
-herhaal worp keer de vuurtekst
-
-de huidige datum en tijd ophalen
-
-Roep de functie hobbies aan
+Ik wil graag ... maken met {python}

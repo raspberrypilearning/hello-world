@@ -1,4 +1,4 @@
-## Et ensuite ?
+## Que peux-tu faire maintenant ?
 
 Si tu suis le parcours [Introduction à Python](https://projects.raspberrypi.org/fr-FR/raspberrypi/python-intro), tu peux passer au projet [Tir sur cible](https://projects.raspberrypi.org/fr-FR/projects/target-practice). Dans ce projet, tu vas dessiner une cible puis créer un jeu de tir à l'arc qui tire des flèches pour marquer des points.
 
@@ -17,7 +17,7 @@ Clique sur le bouton **Run** pour afficher un exemple de ce projet.
 
 --- /no-print ---
 
-Si tu veux t'amuser davantage en explorant Python, tu peux essayer l'un de [ces projets](https://projects.raspberrypi.org/fr-FR/projects?software%5B%5D=python).
+Ou, pourquoi ne pas essayer un autre projet [Python](https://projects.raspberrypi.org/fr-FR/projects?software%5B%5D=python).
 
 ***
 
@@ -27,3 +27,5 @@ Michel Arnols
 Jonathan Vannieuwkerke
 
 Grâce aux bénévoles, nous pouvons donner aux gens du monde entier la chance d'apprendre dans leur propre langue. Vous pouvez nous aider à atteindre plus de personnes en vous portant volontaire pour la traduction - plus d'informations sur [rpf.io/translate](https://rpf.io/translate).
+
+

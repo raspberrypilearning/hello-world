@@ -53,7 +53,7 @@ output('Hallo' wereld)
 language: python
 ---
 
-print('Hallo' wereld)
+print(f'Hallo wereld')
 
 --- /code ---
 
@@ -70,13 +70,13 @@ print('Hallo' wereld)
 language: python
 ---
 
-print('Hallo', wereld)
+print(f'Hallo{wereld}')
 
 --- /code ---
 
  --- feedback ---
 
- Dat klopt, in Python stuurt `print` berichten naar het scherm. De tekstuitvoer staat tussen enkele aanhalingstekens `'` , een komma scheidt de twee items en geeft een spatie, dan wordt de `wereld` variabele aangeroepen, waarin de aarde-emoji 🌍🌎🌏 is opgeslagen, zoals in je project.
+ Dat klopt, in Python stuurt `print` berichten naar het scherm. De tekstuitvoer staat tussen enkele aanhalingstekens `'`, waarna de variabele `wereld` de aarde-emoji bevat 🌍🌎🌏.
 
  --- /feedback ---
 
@@ -87,7 +87,7 @@ print('Hallo', wereld)
 language: python
 ---
 
-print(Hallo, wereld)
+print('Hallo{wereld}')
 
 --- /code ---
 
