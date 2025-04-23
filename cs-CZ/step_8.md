@@ -1,6 +1,6 @@
 ## Co můžeš dělat nyní?
 
-Pokud postupuješ po cestě [Představení Pythonu](https://projects.raspberrypi.org/en/raspberrypi/python-intro), můžeš přejít k projektu [Target practice](https://projects.raspberrypi.org/en/projects/target-practice). V tomto projektu si nakreslíš terč a poté vytvoříš kód pro lukostřelbu. Zde budeš střílet šípy, a získávat body.
+Pokud postupuješ po cestě [Představení Pythonu](https://projects.raspberrypi.org/en/raspberrypi/python-intro), můžeš přejít k projektu [ Lukostřelba](https://projects.raspberrypi.org/en/projects/target-practice). V tomto projektu si nakreslíš terč a poté vytvoříš kód pro lukostřelbu. Zde budeš střílet šípy, a získávat body.
 
 --- print-only ---
 
