@@ -65,7 +65,7 @@ print(f'The date and time is {datetime.now()}') roll_dice()
 
 --- task ---
 
-Another module called `random`{:.language-python} can be used to create random numbers. Change your code to use the `randint`{:.language-python} function to choose a random number between 1 and 6 for the dice roll.
+Another module called `random`{:.language-python} can be used to create random numbers. पासा रोल के लिए 1 और 6 के बीच एक यादृच्छिक संख्या चुनने के लिए `randint`{:.language-python} फ़ंक्शन का उपयोग करने के लिए अपना कोड बदलें।
 
 --- code ---
 ---
