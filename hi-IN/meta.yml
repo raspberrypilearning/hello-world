@@ -10,7 +10,7 @@ copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: What you will make
+    title: आप क्या बनाएँगे
   - 
     title: hello कहें
   - 
@@ -20,7 +20,7 @@ steps:
   - 
     title: एक डाईस रोल करें
   - 
-    title: Get input
+    title: इनपुट
     completion:
       - internal
   - 
@@ -33,7 +33,7 @@ steps:
     completion:
       - external
   - 
-    title: Challenge
+    title: चुनौती
     challenge: true
   - 
     title: What can you do now?
