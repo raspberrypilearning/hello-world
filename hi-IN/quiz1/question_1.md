@@ -53,7 +53,7 @@ output('Hello' world)
 language: python
 ---
 
-प्रिंट ("हैलो वर्ल्ड')
+प्रिंट(f'हैलो वर्ल्ड')
 
 --- /code ---
 
