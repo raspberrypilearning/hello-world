@@ -14,7 +14,7 @@ In Python, `print()`{:.language-python} outputs strings (words or numbers) to th
 
 Find the `# Put code to run below here`{:.language-python} line.
 
-Click below that line. The flashing `|` is the cursor and shows where you will type.
+उस पंक्ति के नीचे क्लिक करें. The flashing `|` is the cursor and shows where you will type.
 
 --- /task ---
 
