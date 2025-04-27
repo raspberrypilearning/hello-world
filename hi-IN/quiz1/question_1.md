@@ -53,7 +53,7 @@ output('Hello' world)
 language: python
 ---
 
-print(f'Hello world')
+प्रिंट ("हैलो वर्ल्ड')
 
 --- /code ---
 
@@ -87,7 +87,7 @@ print(f'Hello{world}')
 language: python
 ---
 
-print('Hello{world}')
+प्रिंट('नमस्ते{world}')
 
 --- /code ---
 
