@@ -1,4 +1,4 @@
-## Get input
+## इनपुट प्राप्त करें
 
 You can use `input()`{:.language-python} to ask the person using your program to enter text.
 
