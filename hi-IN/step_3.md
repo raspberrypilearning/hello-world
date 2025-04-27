@@ -46,7 +46,7 @@ The `datetime`{:.language-python} module helps with writing code that uses dates
 
 --- task ---
 
-Add another line to your code to `print`{:.language-python} the current date and time by using the `now()`{:.language-python} method from the `datetime`{:.language-python} library:
+अपने कोड में एक और पंक्ति जोड़ें ``{:.language-python} वर्तमान दिनांक और समय प्रिंट करने के लिए `now()`{:.language-python} विधि का उपयोग करके `datetime`{:.language-python} लाइब्रेरी से:
 
 --- code ---
 ---
