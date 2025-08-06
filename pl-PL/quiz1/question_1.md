@@ -76,7 +76,7 @@ print(f'Hello{world}')
 
  --- feedback ---
 
- To prawda, w Pythonie ` wydrukuj ` wysyła wiadomości na ekran. The text output is inside single quotes `'` , then the `world` variable contains the earth emoji 🌍🌎🌏.
+ To prawda, w Pythonie ` wydrukuj ` wysyła wiadomości na ekran. Tekst wyjściowy jest pomiędzy pojedynczymi cudzysłowami `'`, a zmienna `world` zawiera emoji ziemi 🌍🌎🌏.
 
  --- /feedback ---
 
@@ -93,7 +93,7 @@ print('Hello{world}')
 
  --- feedback ---
 
-  Nie do końca, w Pythonie ` wydrukuj ` wysyła wiadomości na ekran, ale czegoś brakuje w tym przykładzie.
+  Nie do końca, w Pythonie ` print ` wysyła wiadomości na ekran, ale czegoś brakuje w tym przykładzie.
 
  --- /feedback ---
 
