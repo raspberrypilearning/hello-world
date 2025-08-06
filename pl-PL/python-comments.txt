@@ -1,20 +1,20 @@
-Put code to run under here.
+Wprowadź kod tutaj.
 
 Cześć
 
-Welcome to {python}
+Witaj w {python}
 
-{python} is good at maths!
+{python} jest dobry z matematyki!
 
-The date and time is {datetime.now()}
+Aktualna data i czas to {datetime.now()}
 
 Definicje funkcji
 
-You rolled a {4}
+Rzuciłeś {4}
 
-How many sides on your dice?:
+Ile boków ma Twoja kostka?
 
-That is a D {max}
+To D {max}
 
 Umiem kodować
 
@@ -22,8 +22,8 @@ Pierwsza liczba:
 
 Druga liczba:
 
-I ❤️ ...
+Ja ❤️ ...
 
-... sprawia, że jestem?
+... sprawia, że jestem 😃
 
-I would like to make ... with {python}
+Chciałabym/chciałbym zrobić ... z {python}
