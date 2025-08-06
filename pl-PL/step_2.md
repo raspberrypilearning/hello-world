@@ -1,10 +1,10 @@
-## Print cześć
+## Print hello
 
 In Python, `print()`{:.language-python} outputs strings (words or numbers) to the screen.
 
 --- task ---
 
-Otwórz [ Cześć ??? projekt startowy ](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. Edytor kodu otworzy się w innej karcie przeglądarki.
+Otwórz [Hello 🌍🌎🌏 projekt startowy](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. Edytor kodu otworzy się w innej karcie przeglądarki.
 
 ![The code editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
 
@@ -14,13 +14,13 @@ Otwórz [ Cześć ??? projekt startowy ](https://editor.raspberrypi.org/en/proje
 
 Find the `# Put code to run below here`{:.language-python} line.
 
-Click below that line. The flashing `|` is the cursor and shows where you will type.
+Kliknij poniżej tej lini. Migający znak `|` to kursor wskazujący, gdzie będziesz pisać.
 
 --- /task ---
 
 --- task ---
 
-Type the code to `print()`{:.language-python} Hello to the screen:
+Wpisz kod aby wyświetlić `print()`{:.language-python} Hello na ekranie:
 
 --- code ---
 ---
@@ -36,17 +36,17 @@ print(f'Hello')
 
 --- task ---
 
-** Test:** Kliknij przycisk ** **, aby uruchomić swój kod. This is what you should see when you run your code:
+**Test** Kliknij przycisk **Run**, aby uruchomić swój kod. To powinno się wyświetlić po uruchomieniu Twojego kodu:
 
-![Ikona Uruchom podświetlona, a w obszarze wyjściowym wyświetlany jest komunikat „Cześć”. ](images/run_hello.png)
+![Podświetlona ikona Uruchom z komunikatem "Hello" w obszarze wyjściowym. ](images/run_hello.png)
 
 --- /task ---
 
-A **variable** is used to store values such as text or numbers. Dodaliśmy kilka zmiennych, które przechowują znaki emoji.
+Zmienna **variable** używana jest aby przechowywać wartości takie jak tekst lub liczby. Dodaliśmy kilka zmiennych, które przechowują znaki emoji.
 
 --- task ---
 
-Change your code to also `print()`{:.language-python} the contents of the `world`{:.language-python} variable. You can do this by adding the variable name in curly brackets `{}`{:.language-python}
+Change your code to also `print()`{:.language-python} the contents of the `world`{:.language-python} variable. Możesz to zrobić umieszczając nazwę zmiennej pomiędzy okrągłymi nawiasami `{}`{:.language-python}
 
 
 --- code ---
@@ -59,7 +59,7 @@ print(f'Hello {world}')
 
 --- /code ---
 
-The `f`{:.language-python} character inside the print lets you easily print variables along with strings of text.
+Litera `f`{:.language-python} w funkcji print pozwala łatwo wyświetlać zmienne wraz z ciągami znaków.
 
 --- /task ---
 
@@ -73,7 +73,7 @@ The `f`{:.language-python} character inside the print lets you easily print vari
 
 --- task ---
 
-**Add** another line to your code to `print()`{:.language-python} more text and emojis:
+**Dodaj** kolejną linię do swojego kodu aby `print()`{:.language-python} więcej tekstu i emoji:
 
 --- code ---
 ---
@@ -89,7 +89,7 @@ print(f'Hello {world}') print(f'Welcome to {python}')
 
 --- task ---
 
-Test **:** Kliknij ** **.
+**Test:** Kliknij **Run **.
 
 ![Dodatkowa linia kodu w edytorze kodu ze słowem „Hello”, po którym znajdują się trzy emoji świata i słowa „Welcome to”, a następnie wąż emoji i klawiatura wyświetlane w obszarze wyjściowym.](images/run_multiple.png)
 
