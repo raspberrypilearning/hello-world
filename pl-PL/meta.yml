@@ -3,14 +3,14 @@ title: "WITAJ \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
 description: Napisz interaktywny projekt w Pythonie, który używa emoji
 meta_title: Projekty programistyczne Python dla dzieci i młodzieży | Hello world
-meta_description: Naucz się Pythona z Raspberry Pi Foundation. Stwórz interaktywny projekt kodowania w Pythonie, który używa emoji.
+meta_description: Naucz się Pythona z Fundacją Raspberry Pi. Stwórz interaktywny projekt kodowania w Pythonie, który używa emoji.
 version: 4
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
 steps:
   - 
-    title: What you will make
+    title: Co zrobisz?
   - 
     title: Powiedz cześć
   - 
@@ -20,7 +20,7 @@ steps:
   - 
     title: Rzuć kostką
   - 
-    title: Get input
+    title: Pobierz wprowadzone dane
     completion:
       - internal
   - 
@@ -33,5 +33,5 @@ steps:
     completion:
       - external
   - 
-    title: Challenge
+    title: Wyzwanie
     challenge: true
