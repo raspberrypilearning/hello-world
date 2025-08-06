@@ -10,7 +10,7 @@ Ta funkcja wyświetla dwie losowe liczby:
 language: python
 ---
 
-def two_dice(): Print('Pierwsza liczba:', randint(1, 6)) print('Druga liczba:', randint(1, 6))
+def two_dice(): print('Pierwsza liczba:', randint(1, 6)) print('Druga liczba:', randint(1, 6))
 
 --- /code ---
 
@@ -27,7 +27,7 @@ Który kod wywoła funkcję, aby go uruchomić?
 language: python
 ---
 
-def two_dice(): Print('Pierwsza liczba:', randint(1, 6)) print('Druga liczba:', randint(1, 6))
+def two_dice(): print('Pierwsza liczba:', randint(1, 6)) print('Druga liczba:', randint(1, 6))
 
 --- /code ---
 
@@ -42,13 +42,13 @@ def two_dice(): Print('Pierwsza liczba:', randint(1, 6)) print('Druga liczba:', 
 language: python
 ---
 
-dwie_kości
+two_dice
 
 --- /code ---
 
  --- feedback ---
 
-Zamknij! ` two_` to nazwa funkcji, ale aby ją wywołać, potrzebujesz czegoś więcej niż tylko nazwy.
+Zamknij! ` two_dice` to nazwa funkcji, ale aby ją wywołać, potrzebujesz czegoś więcej niż tylko nazwy.
 
  --- /feedback ---
 
@@ -59,13 +59,13 @@ Zamknij! ` two_` to nazwa funkcji, ale aby ją wywołać, potrzebujesz czegoś w
 language: python
 ---
 
-dwie_kości[]
+two_dice[]
 
 --- /code ---
 
  --- feedback ---
 
- Nie do końca, pomyśl o typie nawiasów, których użyłeś do wywołania funkcji w swoim projekcie.
+ Nie do końca, pomyśl o typie nawiasów, których użyłaś/eś do wywołania funkcji w swoim projekcie.
 
  --- /feedback ---
 
