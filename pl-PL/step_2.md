@@ -1,18 +1,18 @@
 ## Print hello
 
-In Python, `print()`{:.language-python} outputs strings (words or numbers) to the screen.
+W Pythonie, `print()`{:.language-python} wyświetla ciąg znaków (słowa lub liczby) na ekranie.
 
 --- task ---
 
 Otwórz [Hello 🌍🌎🌏 projekt startowy](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. Edytor kodu otworzy się w innej karcie przeglądarki.
 
-![The code editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
+![Edytor kodu z pierwszym projektem kodu znajduje się po lewej stronie. Po prawej znajduje się puste pole, gdzie będzie wyświetlany tekst.](images/starter_project.png)
 
 --- /task ---
 
 --- task ---
 
-Find the `# Put code to run below here`{:.language-python} line.
+Znajdź `# Wpisz kod poniżej tej `{:.language-python} linii.
 
 Kliknij poniżej tej lini. Migający znak `|` to kursor wskazujący, gdzie będziesz pisać.
 
@@ -46,7 +46,7 @@ Zmienna **variable** używana jest aby przechowywać wartości takie jak tekst l
 
 --- task ---
 
-Change your code to also `print()`{:.language-python} the contents of the `world`{:.language-python} variable. Możesz to zrobić umieszczając nazwę zmiennej pomiędzy okrągłymi nawiasami `{}`{:.language-python}
+Zmień swój kod tak, aby `print()`{:.language-python} wyświetlał również zawartość zmiennej `world`{:.language-python}. Możesz to zrobić umieszczając nazwę zmiennej pomiędzy okrągłymi nawiasami `{}`{:.language-python}
 
 
 --- code ---
