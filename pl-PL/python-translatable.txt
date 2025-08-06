@@ -4,7 +4,7 @@ add_one_and_one
 
 roll_dice
 
-obróć
+rzuć
 
 maks
 
@@ -12,4 +12,4 @@ ogień
 
 niesamowite
 
-dwie_kości
+two_dice
