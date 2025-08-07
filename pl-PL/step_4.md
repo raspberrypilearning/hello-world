@@ -1,8 +1,8 @@
-## Rzuć kostką?
+## Rzuć kostką 🎲
 
-Functions are blocks of code that perform specific tasks. They can be used over and over again.
+Funkcje to bloki kodu wykonujące określone zadania. Można ich używać wiele razy.
 
-Here is an example of a function:
+Oto przykład funkcji:
 
 --- code ---
 ---
@@ -13,20 +13,20 @@ def add_one_and_one(): x = 1 + 1 print(x)
 
 --- /code ---
 
-The name of this function is `add_one_and_one`{:.language-python}.
+Nazwa tej funkcji to `add_one_and_one`{:.language-python}.
 
-The code for the task you want the function to do needs to be **indented**, which means that you need to add **four spaces** before each line of code.
+Kod zadania, które ma wykonać funkcja, musi być **wcięty**, co oznacza, że przed każdym wierszem kodu należy dodać **cztery spacje**.
 
-**Calling** a function runs the code inside it. You **call** a function by using its name. In this case `add_one_and_one()`{:.language-python}.
+**Wywołanie** funkcji powoduje uruchomienie zawartego w niej kodu. Funkcję **wywołujesz** używając jej nazwy. W tym przypadku `add_one_and_one()`{:.language-python}.
 
 
 --- task ---
 
-Look for the comment in the **main.py** file that says
+Poszukaj komentarza w pliku **main.py**, w którym jest napisane
 
-`# Function definitions`{:.language-python}.
+`# Definicje funkcji`{:.language-python}.
 
-Create a function called `roll_dice()`{:.language-python}, that prints out the number 4.
+Utwórz funkcję o nazwie `roll_dice()`{:.language-python}, która wyświetla liczbę 4.
 
 --- code ---
 ---
@@ -44,7 +44,7 @@ def roll_dice(): print(f'You rolled a {4}')
 
 --- task ---
 
-Then, call the function at the bottom of your code.
+Następnie wywołaj funkcję znajdującą się na dole kodu.
 
 --- code ---
 ---
@@ -59,13 +59,13 @@ print(f'The date and time is {datetime.now()}') roll_dice()
 
 --- task ---
 
-**Test:** Run your project several times to see the dice roll each time - it will always be 4.
+**Test:** Uruchom swój projekt kilka razy, aby zobaczyć wynik rzutu kostką za każdym razem — zawsze będzie to 4.
 
 --- /task ---
 
 --- task ---
 
-Another module called `random`{:.language-python} can be used to create random numbers. Change your code to use the `randint`{:.language-python} function to choose a random number between 1 and 6 for the dice roll.
+Inny moduł o nazwie `random`{:.language-python} może być używany do tworzenia liczb losowych. Zmień kod, aby użyć funkcji `randint`{:.language-python} do wybrania losowej liczby z zakresu od 1 do 6 w rzucie kostką.
 
 --- code ---
 ---
@@ -81,15 +81,15 @@ def roll_dice(): print(f'You rolled a {randint(1, 6)}')
 
 --- task ---
 
-**Test:** Click the **Run** button. Now when you run your code, a new random number between 1 and 6 will be chosen each time.
+**Test:** Kliknij przycisk **Uruchom**. Teraz, gdy uruchomisz swój kod, za każdym razem będzie wybierana nowa losowa liczba z zakresu od 1 do 6.
 
 --- /task ---
 
-In Python you can multiply strings such as emojis or whole words by a number, so they print out several times.
+W Pythonie można mnożyć ciągi znaków, takie jak emotikony lub całe słowa, przez liczbę, dzięki czemu zostaną one wyświetlone kilka razy.
 
 --- task ---
 
-Change your function to store the random number in a variable called `roll`{:.language-python}.
+Zmień swoją funkcję tak, aby przechowywała liczbę losową w zmiennej o nazwie `roll`{:.language-python}.
 
 --- code ---
 ---
@@ -105,7 +105,7 @@ def roll_dice(): roll = randint(1,6)
 
 --- task ---
 
-Multiply the random number stored in `roll`{:.language-python} by the 🔥 emoji, and print the result.
+Pomnóż liczbę losową zapisaną w `roll`{:.language-python} przez emotkę 🔥 i wyświetl wynik.
 
 --- code ---
 ---
@@ -121,7 +121,7 @@ def roll_dice(): roll = randint(1,6) print(f'You rolled a {roll} {fire * roll}')
 
 --- task ---
 
-**Test:** Click the **Run** button. Your output code should look something like this:
+**Test:** Kliknij przycisk **Uruchom**. Kod wyjściowy powinien wyglądać mniej więcej tak:
 
 ```
 Hello 🌍🌎🌏
