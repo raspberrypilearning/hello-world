@@ -20,7 +20,7 @@ def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a 
 
 --- task ---
 
-**Test:** Kliknij przycisk **Uruchom** i wpisz liczbę boków. Ensure you press the <kbd> Enter </kbd> key after inputting how many sides. This is what you should see when you run your code.
+**Test:** Kliknij przycisk **Uruchom** i wpisz liczbę boków. Upewnij się, że naciśniesz klawisz <kbd>Enter</kbd> po wpisaniu liczby boków. Oto co powinieneś zobaczyć po uruchomieniu kodu.
 
 <div class="c-project-output">
 ```
@@ -37,11 +37,11 @@ You rolled a 1 🔥
 
 --- /task ---
 
-Inputs are always stored as text, but we need to use the input stored in `max` to specify the largest number that could be rolled.
+Dane wejściowe są zawsze przechowywane jako tekst, ale musimy użyć danych wejściowych przechowywanych w `max`, aby określić największą liczbę, jaka może zostać wyrzucona.
 
 --- task ---
 
-`max` is a string, so it needs to be changed to an integer `int()`{:.language-python}.
+`max` jest ciągiem znaków, więc należy go zamienić na liczbę całkowitą `int()`{:.language-python}.
 
 
 --- code ---
@@ -58,7 +58,7 @@ def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a 
 
 --- task ---
 
-**Test:** Click the **Run** button a few times. Check that the dice rolls a random number each time.
+**Test:** Kliknij przycisk **Uruchom** kilka razy. Sprawdź, czy kostka za każdym razem wyrzuca losową liczbę.
 
 --- /task ---
 
