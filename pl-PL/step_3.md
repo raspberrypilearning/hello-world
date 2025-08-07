@@ -1,8 +1,8 @@
-## Sumy i daty
+## Sumy i dat
 
-In Python you can work with numbers and dates.
+W Pythonie można pracować z liczbami i datami.
 
-You can use **arithmetic operators** such as `+` and `-`  to do calculations:
+Możesz używać **operatorów arytmetycznych** takich jak `+` i `-` do wykonywania obliczeń:
 
 | + | dodaj |   
 | - | odejmij |   
@@ -13,7 +13,7 @@ You can use **arithmetic operators** such as `+` and `-`  to do calculations:
 
 --- task ---
 
-Add two more `print()`{:.language-python} lines to your code including a multiplication for Python to calculate:
+Dodaj do kodu jeszcze dwie linijki `print()`{:.language-python}, zawierające mnożenie, dzięki któremu Python obliczy:
 
 --- code ---
 ---
@@ -29,7 +29,7 @@ print(f'Hello {world}') print(f'Welcome to {python}') print(f'{python} is good a
 
 --- task ---
 
-**Test:** Click the **Run** button. This is what you should see when you run your code.
+**Test:** Kliknij przycisk **Uruchom**. Oto co powinieneś zobaczyć po uruchomieniu kodu.
 
 ```
 Hello 🌍🌎🌏
@@ -40,13 +40,13 @@ Python 🐍 is good at maths!
 
 --- /task ---
 
-Python has many **modules** that you can use in your code to help perform certain tasks.
+Python ma wiele **modułów**, które można wykorzystać w kodzie do wykonywania określonych zadań.
 
-The `datetime`{:.language-python} module helps with writing code that uses dates and times.
+Moduł `datetime`{:.language-python} pomaga w pisaniu kodu, który używa dat i godzin.
 
 --- task ---
 
-Add another line to your code to `print`{:.language-python} the current date and time by using the `now()`{:.language-python} method from the `datetime`{:.language-python} library:
+Dodaj kolejną linijkę kodu  aby wyświetlić `print`{:.language-python} aktualną datę i czas przy użyciu `now()`{:.language-python} metody `datetime`{:.language-python} z biblioteki:
 
 --- code ---
 ---
@@ -62,7 +62,7 @@ print(f'{python} is good at maths!') print(f'{3 * 9}') print(f'The date and time
 
 --- task ---
 
-Test **:** Uruchom kod kilka razy, aby zobaczyć aktualizację czasu.
+**Test:** Uruchom kod kilka razy, aby zobaczyć aktualizację czasu.
 
 --- /task ---
 
