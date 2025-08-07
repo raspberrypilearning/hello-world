@@ -1,10 +1,10 @@
-## Get input
+## Uzyskaj dane wejściowe
 
-You can use `input()`{:.language-python} to ask the person using your program to enter text.
+Za pomocą `input()`{:.language-python} możesz poprosić osobę korzystającą z Twojego programu o wprowadzenie tekstu.
 
 --- task ---
 
-Change your function to ask the person using your program to enter how many sides on the dice, and save it as a variable.
+Zmień swoją funkcję tak, aby prosiła osobę korzystającą z Twojego programu o podanie liczby boków kostki, i zapisz ją jako zmienną.
 
 --- code ---
 ---
@@ -20,7 +20,7 @@ def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a 
 
 --- task ---
 
-**Test:** Click the **Run** button and type in a number of sides. Ensure you press the <kbd> Enter </kbd> key after inputting how many sides. This is what you should see when you run your code.
+**Test:** Kliknij przycisk **Uruchom** i wpisz liczbę boków. Ensure you press the <kbd> Enter </kbd> key after inputting how many sides. This is what you should see when you run your code.
 
 <div class="c-project-output">
 ```
