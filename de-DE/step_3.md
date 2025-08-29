@@ -8,7 +8,7 @@ You can use **arithmetic operators** such as `+` and `-`  to do calculations:
 | - | subtrahieren |   
 | * | multiplizieren |   
 | / | dividieren |   
-| ** | Exponent |
+| ** | potenzieren |
 
 
 --- task ---
