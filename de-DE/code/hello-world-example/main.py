@@ -33,5 +33,5 @@ print("The date and time is", datetime.now())  # Print the current date and time
 
 wuerfel_werfen() # Rufe die Funktion zum Würfel werfen auf
 print("I ❤️ rainbows 🌈")
-print("Unicorns 🦄 make me 😃")
+print('Einhörner 🦄 lassen mich 😃")
 print("I'd like to make a story 📖 with", python)
