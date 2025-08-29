@@ -1,4 +1,4 @@
-## Das wirst Du machen
+## What you will make
 
 Write an interactive program that uses emojis 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿.
 
