@@ -5,6 +5,7 @@ description: Escreva um projeto Python interativo que usa emojis
 meta_title: Projetos de codificação Python para crianças e adolescentes | Olá Mundo
 meta_description: Aprenda Python com o Raspberry Pi Foundation. Crie um projeto de codificação Python interativo que use emojis.
 version: 4
+0: pdf:resources/rpfi-hello-world.pdf
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
