@@ -5,6 +5,7 @@ description: Schrijf een interactief Python-project dat emoji gebruikt
 meta_title: Python programmeer projecten voor kinderen en tieners | Hallo wereld
 meta_description: Leer Python met de Raspberry Pi Foundation. Maak een interactief Python-codeer project dat emoji's gebruikt.
 version: 4
+0: pdf:resources/rpfi-hello-world.pdf
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
