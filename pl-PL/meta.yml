@@ -5,6 +5,7 @@ description: Napisz interaktywny projekt w Pythonie, który używa emoji
 meta_title: Projekty programistyczne Python dla dzieci i młodzieży | Hello world
 meta_description: Naucz się Pythona z Fundacją Raspberry Pi. Stwórz interaktywny projekt kodowania w Pythonie, który używa emoji.
 version: 4
+0: pdf:resources/rpfi-hello-world.pdf
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
