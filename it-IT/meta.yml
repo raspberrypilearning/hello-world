@@ -2,10 +2,10 @@
 title: "Ciao \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
 description: Scrivi un progetto Python interattivo che utilizzi le emoji
+pdf: resources/rpfi-hello-world.pdf
 meta_title: Progetti di programmazione Python per bambini e ragazzi | Ciao mondo
 meta_description: Impara Python con la Raspberry Pi Foundation. Realizza un progetto di codifica Python interattivo che utilizzi gli emoji.
 version: 4
-0: pdf:resources/rpfi-hello-world.pdf
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
