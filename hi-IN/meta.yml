@@ -2,10 +2,10 @@
 title: "Hello \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
 description: इमोजी का उपयोग करते हुए एक इंटरैक्टिव Python प्रोजेक्ट लिखें
+pdf: resources/rpfi-hello-world.pdf
 meta_title: Python बच्चों और किशोरों के लिए प्रोजेक्ट कोडिंग | लक्ष्य अभ्यास
 meta_description: रास्पबेरी पाई फाउंडेशन के साथ पायथन सीखें। एक इंटरैक्टिव पायथन कोडिंग प्रोजेक्ट बनाएं जो इमोजी का उपयोग करता हो।
 version: 4
-0: pdf:resources/rpfi-hello-world.pdf
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
