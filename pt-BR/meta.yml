@@ -2,10 +2,10 @@
 title: "Olá \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
 description: Escreva um projeto Python interativo que usa emojis
+pdf: resources/rpfi-hello-world.pdf
 meta_title: Projetos de codificação Python para crianças e adolescentes | Olá Mundo
 meta_description: Aprenda Python com o Raspberry Pi Foundation. Crie um projeto de codificação Python interativo que use emojis.
 version: 4
-0: pdf:resources/rpfi-hello-world.pdf
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
