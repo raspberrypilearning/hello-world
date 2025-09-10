@@ -2,10 +2,10 @@
 title: "Dobrý den \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
 description: Napište interaktivní projekt Python, který používá emotikony
+pdf: resources/rpfi-hello-world.pdf
 meta_title: Projekty kódování v Pythonu pro děti a dospívající | Ahoj světe
 meta_description: Nauč se Python s Raspberry Pi Foundation. Vytvoř interaktivní projekt kódování Pythonu, který používá emotikony.
 version: 4
-0: pdf:resources/rpfi-hello-world.pdf
 listed: true
 copyedit: true
 last_tested: "2021-10-06"
