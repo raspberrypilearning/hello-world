@@ -30,8 +30,8 @@ Utwórz funkcję o nazwie `roll_dice()`{:.language-python}, która wyświetla li
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 15
-line_highlights: 16-18
+language: python line_numbers: true line_number_start: 17
+line_highlights: 18-20
 ---
 # Definicje funkcji
 def roll_dice(): print(f'You rolled a {4}')
@@ -48,8 +48,8 @@ Następnie wywołaj funkcję znajdującą się na dole kodu.
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 24
-line_highlights: 25
+language: python line_numbers: true line_number_start: 26
+line_highlights: 27
 ---
 print(f'The date and time is {datetime.now()}') roll_dice()
 
@@ -69,8 +69,8 @@ Inny moduł o nazwie `random`{:.language-python} może być używany do tworzeni
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 15
-line_highlights: 17
+language: python line_numbers: true line_number_start: 17
+line_highlights: 19
 ---
 # Definicje funkcji
 def roll_dice(): print(f'You rolled a {randint(1, 6)}')
@@ -93,8 +93,8 @@ Zmień swoją funkcję tak, aby przechowywała liczbę losową w zmiennej o nazw
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 15
-line_highlights: 17
+language: python line_numbers: true line_number_start: 17
+line_highlights: 19
 ---
 # Definicje funkcji
 def roll_dice(): roll = randint(1,6)
@@ -109,8 +109,8 @@ Pomnóż liczbę losową zapisaną w `roll`{:.language-python} przez emotkę �
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 15
-line_highlights: 18
+language: python line_numbers: true line_number_start: 17
+line_highlights: 20
 ---
 # Function definitions
 def roll_dice(): roll = randint(1,6) print(f'You rolled a {roll} {fire * roll}')
@@ -127,8 +127,8 @@ def roll_dice(): roll = randint(1,6) print(f'You rolled a {roll} {fire * roll}')
 Hello 🌍🌎🌏
 Welcome to Python 🐍
 Python 🐍 is good at maths!
-12345678987654321
-The date and time is 2023-11-21 16:14:45.140000
+27
+The date and time is 2025-10-24 12:41:45.140000
 You rolled a 4 🔥🔥🔥🔥
 ```
 
