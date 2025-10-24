@@ -17,8 +17,8 @@ Add two more `print()`{:.language-python} lines to your code including a multipl
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 17
-line_highlights: 14-15
+**Profi:** Rhedwch eich cod cwpl o weithiau i weld y dyddiad a'r amser yn diweddaru.
+line_highlights: 23-24
 ---
 # Put code to run under here
 print(f'Hello {world}') print(f'Welcome to {python}') print(f'{python} is good at maths!') print(f'{3 * 9}')
@@ -50,8 +50,8 @@ Add another line to your code to `print`{:.language-python} the current date and
 
 --- code ---
 ---
-**Profi:** Rhedwch eich cod cwpl o weithiau i weld y dyddiad a'r amser yn diweddaru.
-line_highlights: 22
+language: python filename: main.py line_numbers: true line_number_start: 23
+line_highlights: 25
 ---
 
 print(f'{python} is good at maths!') print(f'{3 * 9}') print(f'The date and time is {datetime.now()}')
