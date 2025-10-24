@@ -16,22 +16,20 @@ fire = "🔥"
 
 # Definicje funkcji
 def roll_dice():
-    max = input("Ile boków ma kostka?") #Zaczekaj na odpowiedź użytkownika
-    print("Liczba boków kostki to", max) # Użyj liczby, którą wprowadził użytkownik
-    roll = randint(1, int(max)) # Użyj max, aby określić liczbę boków kości
-    print(
-        "Rzuciłaś/eś" roll, fire * roll
-    ) Powtórz liczbę fire emoji aby pasowała do wyniku rzutu kością
+    max = input("How many sides on your dice?:")
+    print(f"That is a D {max}")
+    roll = randint(1, int(max))
+    print(f"You rolled a {roll} {fire * roll}")
 
 
 # Wstaw kod tutaj aby uruchomić
-print("Cześć", world)
-print("Witaj w", python)
-print(python, "jest dobry z matematyki!")
-print(230 * 5782**2 / 23781)  # Wyświetl wynik
-print("Aktualna data i godzina to", datetime.now())  # Wyświetl aktualną datę i godzinę
+print(f"Hello {world}")
+print(f"Welcome to {python}")
+print(f"{python} is good at maths!")
+print(f"{3 * 9}")
+print(f"The date and time is {datetime.now()}")
 
 roll_dice() # Wywołaj funkcjie rzutu kością
-print("Ja ❤️ tęcze 🌈")
-print("Jednorożce 🦄 sprawiają, że jestem 😃")
-print("Chciałabym/chciałbym stworzyć historię 📖 z" python)
+print(f"I ❤️ rainbows 🌈")
+print(f"Unicorns 🦄 make me 😃")
+print(f"I'd like to make a story 📖 with {python}")
