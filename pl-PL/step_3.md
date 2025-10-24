@@ -17,8 +17,8 @@ Dodaj do kodu jeszcze dwie linijki `print()`{:.language-python}, zawierające mn
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 17
-line_highlights: 20-21
+language: python filename: main.py line_numbers: true line_number_start: 20
+line_highlights: 23-24
 ---
 # Put code to run under here
 print(f'Hello {world}') print(f'Welcome to {python}') print(f'{python} is good at maths!') print(f'{3 * 9}')
@@ -50,8 +50,8 @@ Dodaj kolejną linijkę kodu  aby wyświetlić `print`{:.language-python} aktual
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 20
-line_highlights: 22
+language: python filename: main.py line_numbers: true line_number_start: 23
+line_highlights: 25
 ---
 
 print(f'{python} is good at maths!') print(f'{3 * 9}') print(f'The date and time is {datetime.now()}')
