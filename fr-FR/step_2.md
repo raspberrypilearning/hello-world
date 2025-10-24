@@ -36,7 +36,7 @@ print(f'Bonjour')
 
 --- task ---
 
-**Test :** clique sur le bouton **Run** pour exécuter ton code.
+**Test :** clique sur le bouton **Exécuter** pour exécuter ton code.
 
 Tu devrais voir `Bonjour` dans la zone de sortie.
 
@@ -93,7 +93,7 @@ print(f'Bienvenue à {python}')
 
 --- task ---
 
-**Test :** clique sur **Run**.
+**Test :** clique sur **Exécuter**.
 
 ![La ligne de code supplémentaire dans le Code Editor avec le mot "Bonjour" suivi de trois emojis monde et les mots "Bienvenue à" suivis d'un serpent emoji et d'un clavier apparaissant dans la zone de sortie.](images/run_multiple.png)
 

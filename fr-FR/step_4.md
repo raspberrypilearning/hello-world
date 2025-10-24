@@ -41,7 +41,7 @@ line_highlights: 18-20
 def roule_de():
     print(f'Tu as obtenu un {4}')
     
-# Put code to run under here
+# Mettre le code à exécuter ci-dessous.
 
 --- /code ---
 
@@ -92,7 +92,7 @@ def roule_de():
 
 --- task ---
 
-**Test :** clique sur le bouton **Run** . Maintenant, lorsque tu exécutes ton code, un nouveau nombre aléatoire entre 1 et 6 sera choisi à chaque fois.
+**Test :** clique sur le bouton **Exécuter** . Maintenant, lorsque tu exécutes ton code, un nouveau nombre aléatoire entre 1 et 6 sera choisi à chaque fois.
 
 --- /task ---
 
@@ -139,7 +139,7 @@ def roule_de():
 
 --- task ---
 
-**Test :** clique sur le bouton **Run** . Ton code de sortie devrait ressembler à ceci :
+**Test :** clique sur le bouton **Exécuter** . Ton code de sortie devrait ressembler à ceci :
 
 ```
 Bonjour 🌍🌎🌏
