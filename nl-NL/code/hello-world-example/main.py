@@ -16,8 +16,8 @@ vuur = "🔥"
 
 # Functiedefinities
 def gooi_dobbelsteen():
-    max = input("How many sides on your dice?:")
-    print(f"That is a D {max}")
+    max = input("Hoeveel zijden heeft jouw dobbelsteen?:")
+    print(f"Dat is een D {max}")
     roll = randint(1, int(max))
     print(f"You rolled a {roll} {fire * roll}")
 
