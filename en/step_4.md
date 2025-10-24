@@ -34,8 +34,8 @@ Create a function called `roll_dice()`{:.language-python}, that prints out the n
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 16-18
+line_number_start: 17
+line_highlights: 18-20
 ---
 # Function definitions        
 def roll_dice():
@@ -55,8 +55,8 @@ Then, call the function at the bottom of your code.
 ---
 language: python
 line_numbers: true
-line_number_start: 24
-line_highlights: 25
+line_number_start: 26
+line_highlights: 27
 ---
 print(f'The date and time is {datetime.now()}')
 roll_dice()
@@ -80,8 +80,8 @@ Change your code to use the `randint`{:.language-python} function to choose a ra
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 17
+line_number_start: 17
+line_highlights: 19
 ---
 # Function definitions 
 def roll_dice():
@@ -108,8 +108,8 @@ Change your function to store the random number in a variable called `roll`{:.la
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 17
+line_number_start: 17
+line_highlights: 19
 ---
 # Function definitions        
 def roll_dice():
@@ -127,8 +127,8 @@ Multiply the random number stored in `roll`{:.language-python} by the 🔥 emoji
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 18
+line_number_start: 17
+line_highlights: 20
 ---
 # Function definitions        
 def roll_dice():
@@ -148,8 +148,8 @@ Your output code should look something like this:
 Hello 🌍🌎🌏
 Welcome to Python 🐍
 Python 🐍 is good at maths!
-12345678987654321
-The date and time is 2023-11-21 16:14:45.140000
+27
+The date and time is 2025-10-24 12:41:45.140000
 You rolled a 4 🔥🔥🔥🔥
 ```
 

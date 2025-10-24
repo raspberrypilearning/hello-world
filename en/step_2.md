@@ -6,13 +6,11 @@ In Python, `print()`{:.language-python} outputs strings (words or numbers) to th
 
 Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
 
-![The code editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
-
 --- /task ---
 
 --- task ---
 
-Find the `# Put code to run below here`{:.language-python} line.
+Find the `# Put code to run under here`{:.language-python} line.
 
 Click below that line. The flashing `|` is the cursor and shows where you will type.
 
@@ -26,8 +24,8 @@ Type the code to `print()`{:.language-python} Hello to the screen:
 ---
 language: python
 line_numbers: true
-line_number_start: 17
-line_highlights: 18
+line_number_start: 20
+line_highlights: 21
 ---
 # Put code to run under here.
 print(f'Hello')
@@ -38,9 +36,9 @@ print(f'Hello')
 
 --- task ---
 
-**Test:** Click on the **Run** button to run your code. This is what you should see when you run your code:
+**Test:** Click on the **Run** button to run your code. 
 
-![The Run icon highlighted with 'Hello' showing in the output area. ](images/run_hello.png) 
+You should see `Hello` in the Text output area.
 
 --- /task ---
 
@@ -55,7 +53,7 @@ Change your code to also `print()`{:.language-python} the contents of the `world
 ---
 language: python
 line_numbers: true
-line_number_start: 17
+line_number_start: 20
 ---
 # Put code to run under here
 print(f'Hello {world}')
@@ -82,8 +80,8 @@ The `f`{:.language-python} character inside the print lets you easily print vari
 ---
 language: python
 line_numbers: true
-line_number_start: 17
-line_highlights: 19
+line_number_start: 20
+line_highlights: 22
 ---
 # Put code to run under here
 print(f'Hello {world}')

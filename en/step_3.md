@@ -20,8 +20,8 @@ Add two more `print()`{:.language-python} lines to your code including a multipl
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 17
-line_highlights: 20-21
+line_number_start: 20
+line_highlights: 23-24
 ---
 # Put code to run under here
 print(f'Hello {world}')
@@ -60,8 +60,8 @@ Add another line to your code to `print`{:.language-python} the current date and
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 20
-line_highlights: 22
+line_number_start: 23
+line_highlights: 25
 ---
 
 print(f'{python} is good at maths!')
