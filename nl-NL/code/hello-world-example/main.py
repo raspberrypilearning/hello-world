@@ -16,22 +16,20 @@ vuur = "🔥"
 
 # Functiedefinities
 def gooi_dobbelsteen():
-    max = input("Hoeveel zijden?:") # Wacht op invoer van de gebruiker
-    print("Dat is een D", max) # Gebruik het getal dat de gebruiker heeft ingevoerd
-    worp = randint(1, int(max)) # Gebruik max om het aantal zijden van de dobbelsteen te bepalen
-    print(
-        "Je hebt een", worp, vuur * worp, "gegooid"
-    )  # Herhaal de vuuremoji om bij de dobbelsteenworp te passen
+    max = input("How many sides on your dice?:")
+    print(f"That is a D {max}")
+    roll = randint(1, int(max))
+    print(f"You rolled a {roll} {fire * roll}")
 
 
 # Zet de code om uit te voeren hieronder
-print("Hallo", wereld)
-print("Welkom bij", python)
-print(python, "is erg goed in wiskunde!")
-print(230 * 5782**2 / 23781) # Laat het resultaat van de som zien
-print("De datum en tijd is", datetime.now()) # Laat de huidige datum en tijd zien
+print(f"Hello {world}")
+print(f"Welcome to {python}")
+print(f"{python} is good at maths!")
+print(f"{3 * 9}")
+print(f"The date and time is {datetime.now()}")
 
 gooi_dobbelsteen() # Roep de dobbelsteen functie aan
-print("Ik ❤️ regenbogen 🌈")
-print("Eenhoorns 🦄 maken mij 😃")
-print("Ik wil graag een verhaal 📖 maken met", python)
+print(f"I ❤️ rainbows 🌈")
+print(f"Unicorns 🦄 make me 😃")
+print(f"I'd like to make a story 📖 with {python}")
