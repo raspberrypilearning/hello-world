@@ -16,22 +16,20 @@ oheň = "🔥"
 
 # Definice funkcí
 def roll_dice():
-    max = input("Kolik stran?:") # Počkejte na vstup od uživatele
-    print("To je D", max) # Použijte číslo zadané uživatelem
-    hod = randint(1, int(max)) # Použijte max k určení počtu stran, které má kostka
-    print(
-        "Hodil jsi", hoď, hoď * hoď
-    ) # Opakujte emotikon ohně tak, aby odpovídal hodu kostkou
+    max = input("How many sides on your dice?:")
+    print(f"That is a D {max}")
+    roll = randint(1, int(max))
+    print(f"You rolled a {roll} {fire * roll}")
 
 
 # Sem vložte kód pro spuštění
-print("Ahoj", world)
-print("Vítejte", python)
-print (python, "je velmi dobrý v matematice!")
-print(230 * 5782**2 / 23781) # Tisk výsledku součtu
-print("Datum a čas je", datetime.now()) # Vytiskne aktuální datum a čas
+print(f"Hello {world}")
+print(f"Welcome to {python}")
+print(f"{python} is good at maths!")
+print(f"{3 * 9}")
+print(f"The date and time is {datetime.now()}")
 
 roll_dice() # Volání funkce hod kostkou
-tisk ("Já ❤️ duhy 🌈")
-tisk ("Unicorns 🦄 make me 😃")
-print("Chtěl bych vytvořit příběh 📖 s", python)
+print(f"I ❤️ rainbows 🌈")
+print(f"Unicorns 🦄 make me 😃")
+print(f"I'd like to make a story 📖 with {python}")
