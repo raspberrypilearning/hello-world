@@ -6,13 +6,11 @@ En Python, `print()`{:.language-python} affiche des chaînes (mots ou nombres) �
 
 Ouvre le projet de démarrage [Bonjour 🌍🌎🌏](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. Le Code Editor s'ouvrira dans un autre onglet du navigateur.
 
-![Le Code Editor avec le code de démarrage du projet à gauche dans la zone de code. Sur la droite se trouve la zone de sortie vide.](images/starter_project.png)
-
 --- /task ---
 
 --- task ---
 
-Trouve la ligne `# Mettre le code à exécuter ci-dessous`{:.language-python}.
+Find the `# Put code to run under here`{:.language-python} line.
 
 Clique sous cette ligne. Le `|` qui clignote est le curseur et indique où tu taperas.
 
@@ -24,8 +22,8 @@ Tape le code `print()`{:.language-python} Bonjour à l'écran :
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 17
-line_highlights: 18
+language: python line_numbers: true line_number_start: 20
+line_highlights: 21
 ---
 # Put code to run under here.
 print(f'Hello')
@@ -36,9 +34,9 @@ print(f'Hello')
 
 --- task ---
 
-**Test :** clique sur le bouton **Run** pour exécuter ton code. Tu devrais voir ceci lorsque tu exécutes ton code :
+**Test :** clique sur le bouton **Run** pour exécuter ton code.
 
-![L'icône Run est mise en évidence avec "Bonjour" dans la zone de sortie. ](images/run_hello.png)
+You should see `Hello` in the Text output area.
 
 --- /task ---
 
@@ -52,7 +50,7 @@ Modifie ton code pour également `print()`{:.language-python} le contenu de la v
 --- code ---
 ---
 language: python line_numbers: true
-line_number_start: 17
+line_number_start: 20
 ---
 # Mettre le code à exécuter ci-dessous
 print(f'Hello {world}')
@@ -77,8 +75,8 @@ Le caractère `f`{:.language-python} à l'intérieur de print te permet d'imprim
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 17
-line_highlights: 13
+language: python line_numbers: true line_number_start: 20
+line_highlights: 22
 ---
 # Put code to run under here
 print(f'Hello {world}') print(f'Welcome to {python}')
