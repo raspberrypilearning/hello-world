@@ -2,9 +2,9 @@ from datetime import datetime
 from random import randint
 
 # Emoji-variabelen die je in je project kunt gebruiken
-world = "🌍🌎🌏"
+wereld = "🌍🌎🌏"
 python = "Python 🐍"
-fire = "🔥"
+vuur = "🔥"
 
 # Emoji's om te kopiëren en in je code te plakken:
 # 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊
