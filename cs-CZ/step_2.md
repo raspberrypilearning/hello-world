@@ -6,13 +6,11 @@ Pomocí funkce `print()`{:.language-python} vypíšeš na obrazovku řetězce (s
 
 Otevři [startovací projekt Ahoj 🌍🌎🌏](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. Editor kódu se otevře v nové záložce prohlížeče.
 
-![Editor kódu se spouštěcím kódem projektu vlevo v oblasti kódu. Vpravo je prázdná výstupní oblast.](images/starter_project.png)
-
 --- /task ---
 
 --- task ---
 
-Zde najdete řádek `# Sem vložte kód ke spuštění`{:.language-python}.
+Find the `# Put code to run under here`{:.language-python} line.
 
 Klikněte pod tímto řádkem. Blikající `|` je kurzor a ukazuje, kam budete psát.
 
@@ -24,8 +22,8 @@ Napište kód pro funkci`print()`{:.language-python}, která vypíše Ahoj na ob
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 17
-line_highlights: 18
+language: python line_numbers: true line_number_start: 20
+line_highlights: 21
 ---
 # Put code to run under here.
 print(f'Hello')
@@ -36,9 +34,9 @@ print(f'Hello')
 
 --- task ---
 
-**Test:** Kliknutím na tlačítko **Run** spustíš svůj kód. Toto bys měl vidět při spuštění kódu:
+**Test:** Kliknutím na tlačítko **Run** spustíš svůj kód.
 
-![Ikona Run zvýrazněná s 'Hello' zobrazeným ve výstupní oblasti. ](images/run_hello.png)
+You should see `Hello` in the Text output area.
 
 --- /task ---
 
@@ -52,7 +50,7 @@ Změňte svůj kód a také funkci`print()`{:.language-python} včetně obsahu p
 --- code ---
 ---
 language: python line_numbers: true
-line_number_start: 17
+line_number_start: 20
 ---
 # Put code to run under here
 print(f'Hello {world}')
@@ -77,8 +75,8 @@ Znak `f`{:.language-python} uvnitř tisku umožňuje snadno tisknout proměnné 
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 17
-line_highlights: 19
+language: python line_numbers: true line_number_start: 20
+line_highlights: 22
 ---
 # Put code to run under here
 print(f'Hello {world}') print(f'Welcome to {python}')
