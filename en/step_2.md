@@ -26,8 +26,8 @@ Type the code to `print()`{:.language-python} Hello to the screen:
 ---
 language: python
 line_numbers: true
-line_number_start: 17
-line_highlights: 18
+line_number_start: 18
+line_highlights: 19
 ---
 # Put code to run under here.
 print(f'Hello')
