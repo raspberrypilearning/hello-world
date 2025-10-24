@@ -124,12 +124,12 @@ def roll_dice(): roll = randint(1,6) print(f'You rolled a {roll} {fire * roll}')
 **Test:** Klik op de knop **Run**. Je uitvoer zou er ongeveer zo uit moeten zien:
 
 ```
-Hello 🌍🌎🌏
-Welcome to Python 🐍
-Python 🐍 is good at maths!
+Hallo 🌍🌎🌏
+Welkom bij Python 🐍
+Python 🐍 is goed in wiskunde!
 27
-The date and time is 2025-10-24 12:41:45.140000
-You rolled a 4 🔥🔥🔥🔥
+De datum en tijd is 2025-10-24 12:41:45.140000
+Je hebt een 4 gegooid 🔥🔥🔥🔥
 ```
 
 --- /task ---
