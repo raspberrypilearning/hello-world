@@ -30,8 +30,8 @@ def add_one_and_one(): x = 1 + 1 print(x)
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 15
-line_highlights: 16-18
+language: python line_numbers: true line_number_start: 17
+line_highlights: 18-20
 ---
 # Визначення функцій
 def roll_dice(): print(f'Тобі випало число {4}')
@@ -48,8 +48,8 @@ def roll_dice(): print(f'Тобі випало число {4}')
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 24
-line_highlights: 25
+language: python line_numbers: true line_number_start: 26
+line_highlights: 27
 ---
 print(f'Дата й час — {datetime.now()}') roll_dice()
 
@@ -69,8 +69,8 @@ print(f'Дата й час — {datetime.now()}') roll_dice()
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 15
-line_highlights: 17
+language: python line_numbers: true line_number_start: 17
+line_highlights: 19
 ---
 # Визначення функцій
 def roll_dice(): print(f'Тобі випало число {randint(1, 6)}')
@@ -93,8 +93,8 @@ def roll_dice(): print(f'Тобі випало число {randint(1, 6)}')
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 15
-line_highlights: 17
+language: python line_numbers: true line_number_start: 17
+line_highlights: 19
 ---
 # Визначення функцій
 def roll_dice(): roll = randint(1,6)
@@ -109,8 +109,8 @@ def roll_dice(): roll = randint(1,6)
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 15
-line_highlights: 18
+language: python line_numbers: true line_number_start: 17
+line_highlights: 20
 ---
 # Визначення функцій
 def roll_dice(): roll = randint(1,6) print(f'Тобі випало число {roll} {fire * roll}')
@@ -127,9 +127,9 @@ def roll_dice(): roll = randint(1,6) print(f'Тобі випало число {r
 Привіт, 🌍🌎🌏
 Ласкаво просимо до Python 🐍
 Python 🐍 знається на математиці!
-12345678987654321
-Дата й час — 2023-11-21 16:14:45.140000
-Тобі випало число 4 🔥🔥🔥🔥
+27
+The date and time is 2025-10-24 12:41:45.140000
+You rolled a 4 🔥🔥🔥🔥
 ```
 
 --- /task ---
