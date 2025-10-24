@@ -12,8 +12,8 @@ Voici quelques débuts de phrases que tu peux utiliser :
 ---
 language: python
 line_numbers: true
-line_number_start: 23
-line_highlights: 24-26
+line_number_start: 25
+line_highlights: 26-28
 ---
 roule_de()
 print(f'J\'❤️ ...')   

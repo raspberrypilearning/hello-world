@@ -34,8 +34,8 @@ Maak een functie genaamd `gooi_dobbelsteen()`{:.language-python}, die het getal 
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 16-18
+line_number_start: 17
+line_highlights: 18-20
 ---
 # Functiedefinities        
 def gooi_dobbelsteen():
@@ -55,8 +55,8 @@ Roep vervolgens de functie onderaan je code aan.
 ---
 language: python
 line_numbers: true
-line_number_start: 24
-line_highlights: 25
+line_number_start: 26
+line_highlights: 27
 ---
 print(f'De datum en tijd is {datetime.now()}')
 gooi_dobbelsteen()
@@ -79,8 +79,8 @@ Een andere module, genaamd `random`{:.language-python}, kan worden gebruikt om w
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 17
+line_number_start: 17
+line_highlights: 19
 ---
 # Functiedefinities 
 def gooi_dobbelsteen():
@@ -106,8 +106,8 @@ Wijzig je functie om het willekeurige getal op te slaan in een variabele met de 
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 17
+line_number_start: 17
+line_highlights: 19
 ---
 # Functiedefinities        
 def gooi_dobbelsteen():
@@ -125,8 +125,8 @@ Vermenigvuldig het willekeurige getal opgeslagen in `worp`{:.language-python} me
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 18
+line_number_start: 17
+line_highlights: 20
 ---
 # Functiedefinities        
 def gooi_dobbelsteen():
@@ -145,8 +145,8 @@ def gooi_dobbelsteen():
 Hallo 🌍🌎🌏
 Welkom bij Python 🐍
 Python 🐍 is goed in wiskunde!
-12345678987654321
-De datum en tijd is 2023-11-21 16:14:45.140000
+27
+De datum en tijd is 2025-10-24 12:41:45.140000
 Je hebt een 4 🔥🔥🔥🔥 gegooid
 ```
 

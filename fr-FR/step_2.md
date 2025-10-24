@@ -6,8 +6,6 @@ En Python, `print()`{:.language-python} affiche des chaînes (mots ou nombres) �
 
 Ouvre le projet de démarrage [Bonjour 🌍🌎🌏](https://editor.raspberrypi.org/fr-FR/projects/hello-world-starter){:target="_blank"}. Le Code Editor s'ouvrira dans un autre onglet du navigateur.
 
-![Le Code Editor avec le code de démarrage du projet à gauche dans la zone de code. Sur la droite se trouve la zone de sortie vide.](images/starter_project.png)
-
 --- /task ---
 
 --- task ---
@@ -26,8 +24,8 @@ Tape le code `print()`{:.language-python} Bonjour à l'écran :
 ---
 language: python
 line_numbers: true
-line_number_start: 17
-line_highlights: 18
+line_number_start: 20
+line_highlights: 21
 ---
 # Mettre le code à exécuter ci-dessous
 print(f'Bonjour')
@@ -38,9 +36,9 @@ print(f'Bonjour')
 
 --- task ---
 
-**Test :** clique sur le bouton **Run** pour exécuter ton code. Tu devrais voir ceci lorsque tu exécutes ton code :
+**Test :** clique sur le bouton **Run** pour exécuter ton code.
 
-![L'icône Run est mise en évidence avec "Bonjour" dans la zone de sortie. ](images/run_hello.png)
+Tu devrais voir `Bonjour` dans la zone de sortie.
 
 --- /task ---
 
@@ -48,17 +46,17 @@ Une **variable** est utilisée pour stocker des valeurs telles que du texte ou d
 
 --- task ---
 
-Modifie ton code pour également `print()`{:.language-python} le contenu de la variable `world`{:.language-python} . Tu peux le faire en ajoutant le nom de la variable entre accolades `{}`{:.language-python}
+Modifie ton code pour également `print()`{:.language-python} le contenu de la variable `monde`{:.language-python} . Tu peux le faire en ajoutant le nom de la variable entre accolades `{}`{:.language-python}
 
 
 --- code ---
 ---
 language: python
 line_numbers: true
-line_number_start: 17
+line_number_start: 20
 ---
 # Mettre le code à exécuter ci-dessous
-print(f'Bonjour {world}')
+print(f'Bonjour {monde}')
 
 --- /code --- 
 
@@ -82,11 +80,11 @@ Le caractère `f`{:.language-python} à l'intérieur de print te permet d'imprim
 ---
 language: python
 line_numbers: true
-line_number_start: 17
-line_highlights: 19
+line_number_start: 20
+line_highlights: 22
 ---
 # Mettre le code à exécuter ci-dessous
-print(f'Bonjour {world}')
+print(f'Bonjour {monde}')
 print(f'Bienvenue à {python}')
 
 --- /code ---

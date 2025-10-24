@@ -20,8 +20,8 @@
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 17
-line_highlights: 20-21
+line_number_start: 20
+line_highlights: 23-24
 ---
 # Нижче розмісти код, який потрібно виконати
 print(f'Привіт, {world}')
@@ -59,8 +59,8 @@ Python має багато **модулів**, які ти можеш викор
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 20
-line_highlights: 22
+line_number_start: 23
+line_highlights: 25
 ---
 
 print(f'{python} знається на математиці!')

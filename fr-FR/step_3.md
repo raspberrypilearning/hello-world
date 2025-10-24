@@ -20,11 +20,11 @@ Ajoute deux autres lignes `print()`{:.language-python} à ton code ainsi qu'une 
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 17
-line_highlights: 20-21
+line_number_start: 20
+line_highlights: 23-24
 ---
 # Mettre le code à exécuter ci-dessous
-print(f'Bonjour {world}')
+print(f'Bonjour {monde}')
 print(f'Bienvenue à {python}')
 print(f'{python} est très bon en maths !')
 print(f'{3 * 9}')
@@ -38,9 +38,9 @@ print(f'{3 * 9}')
 **Test :** clique sur le bouton **Run** . Tu devrais voir ceci lorsque tu exécutes ton code .
 
 ```
-Bonjour le 🌍🌎🌏
-Bienvenue dans Python 🐍
-Python 🐍 est bon en maths !
+Bonjour 🌍🌎🌏
+Bienvenue à Python 🐍
+Python 🐍 est très bon en maths !
 27
 ```
 
@@ -59,8 +59,8 @@ Ajoute une autre ligne à ton code pour `print`{:.language-python} la date et l'
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 20
-line_highlights: 22
+line_number_start: 23
+line_highlights: 25
 ---
 
 print(f'{python} est très bon en maths !')
