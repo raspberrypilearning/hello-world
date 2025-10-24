@@ -10,8 +10,8 @@ Wijzig je functie zodat de persoon die jouw programma gebruikt, moet invoeren ho
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 17-18
+line_number_start: 17
+line_highlights: 19-20
 ---
 # Functiedefinities
 def gooi_dobbelsteen():
@@ -33,8 +33,8 @@ def gooi_dobbelsteen():
 Hallo 🌍🌎🌏
 Welkom bij Python 🐍
 Python 🐍 is goed in wiskunde!
-12345678987654321
-De datum en tijd is 2023-11-21 16:20:41.323000
+27
+De datum en tijd is 2025-10-24 13:20:41.323000
 Hoeveel zijden heeft jouw dobbelsteen?:
 20 
 Dat is een D 20
@@ -54,8 +54,8 @@ Invoer wordt altijd opgeslagen als tekst, maar we moeten de invoer die is opgesl
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 19
+line_number_start: 17
+line_highlights: 21
 ---
 # Functiedefinities        
 def gooi_dobbelsteen():

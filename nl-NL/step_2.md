@@ -6,8 +6,6 @@ In Python worden met `print()`{:.language-python} strings (woorden of getallen) 
 
 Open het [Hallo 🌍🌎🌏 startproject](https://editor.raspberrypi.org/nl-NL/projects/hello-world-starter){:target="_blank"}. De code-editor wordt geopend in een ander browsertabblad.
 
-![De code-editor met startprojectcode aan de linkerkant in het codegebied. Aan de rechterkant is het lege uitvoergebied.](images/starter_project.png)
-
 --- /task ---
 
 --- task ---
@@ -26,8 +24,8 @@ Typ de code in zodat Hallo wordt ge`print()`{:.language-python} op het scherm:
 ---
 language: python
 line_numbers: true
-line_number_start: 17
-line_highlights: 18
+line_number_start: 20
+line_highlights: 21
 ---
 # Zet de code om uit te voeren hieronder
 print(f'Hallo')
@@ -38,9 +36,9 @@ print(f'Hallo')
 
 --- task ---
 
-**Test:** Klik op de knop **Run** om je code uit te voeren. Dit is wat je zou moeten zien wanneer je jouw code uitvoert:
+**Test:** Klik op de knop **Run** om je code uit te voeren.
 
-![Het pictogram Run gemarkeerd terwijl 'Hallo' weergegeven wordt in het uitvoergebied. ](images/run_hello.png)
+Je zou `Hallo` in het tekstuitvoergebied moeten zien.
 
 --- /task ---
 
@@ -55,7 +53,7 @@ Wijzig je code zodat ook er een `print()`{:.language-python} wordt gedaan van de
 ---
 language: python
 line_numbers: true
-line_number_start: 17
+line_number_start: 20
 ---
 # Zet de code om uit te voeren hieronder
 print(f'Hallo {wereld}')
@@ -82,8 +80,8 @@ Met het teken `f`{:.language-python} in het print commando kun je eenvoudig vari
 ---
 language: python
 line_numbers: true
-line_number_start: 17
-line_highlights: 19
+line_number_start: 20
+line_highlights: 22
 ---
 # Zet de code om uit te voeren hieronder
 print(f'Hallo {wereld}')

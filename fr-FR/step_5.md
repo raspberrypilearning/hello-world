@@ -10,8 +10,8 @@ Modifie ta fonction pour demander à la personne qui utilise ton programme d'ind
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 17-18
+line_number_start: 17
+line_highlights: 19-20
 ---
 # Définitions de fonctions
 def roule_de():
@@ -33,8 +33,8 @@ def roule_de():
 Bonjour 🌍🌎🌏
 Bienvenue à Python 🐍
 Python 🐍 est très bon en maths !
-12345678987654321
-La date et l'heure sont 2023-11-21 16:20:41.323000
+27
+La date et l'heure sont 2025-10-24 13:20:41.323000
 Combien de faces sur ton dé ? :
 20 
 C'est un D 20
@@ -54,8 +54,8 @@ Les entrées sont toujours stockées sous forme de texte, mais nous devons utili
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 19
+line_number_start: 17
+line_highlights: 21
 ---
 # Définitions de fonctions        
 def roule_de():

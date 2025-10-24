@@ -34,8 +34,8 @@ def add_one_and_one():
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 16-18
+line_number_start: 17
+line_highlights: 18-20
 ---
 # Визначення функцій
 def roll_dice():
@@ -55,8 +55,8 @@ def roll_dice():
 ---
 language: python
 line_numbers: true
-line_number_start: 24
-line_highlights: 25
+line_number_start: 26
+line_highlights: 27
 ---
 print(f'Дата й час — {datetime.now()}')
 roll_dice()
@@ -79,8 +79,8 @@ roll_dice()
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 17
+line_number_start: 17
+line_highlights: 19
 ---
 # Визначення функцій
 def roll_dice():
@@ -106,8 +106,8 @@ def roll_dice():
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 17
+line_number_start: 17
+line_highlights: 19
 ---
 # Визначення функцій
 def roll_dice():
@@ -125,8 +125,8 @@ def roll_dice():
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 18
+line_number_start: 17
+line_highlights: 20
 ---
 # Визначення функцій
 def roll_dice():
@@ -145,8 +145,8 @@ def roll_dice():
 Привіт, 🌍🌎🌏
 Ласкаво просимо до Python 🐍
 Python 🐍 знається на математиці!
-12345678987654321
-Дата й час — 2023-11-21 16:14:45.140000
+27
+Дата й час — 2025-10-24 12:41:45.140000
 Тобі випало число 4 🔥🔥🔥🔥
 ```
 

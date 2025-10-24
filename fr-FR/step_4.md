@@ -34,8 +34,8 @@ Crée une fonction appelée `roule_de()`{:.language-python}, qui imprime le nomb
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 16-18
+line_number_start: 17
+line_highlights: 18-20
 ---
 # Définitions de fonctions        
 def roule_de():
@@ -55,8 +55,8 @@ Ensuite, appelle la fonction en bas de ton code.
 ---
 language: python
 line_numbers: true
-line_number_start: 24
-line_highlights: 25
+line_number_start: 26
+line_highlights: 27
 ---
 print(f'La date et l\'heure sont {datetime.now()}')
 roule_de()
@@ -79,8 +79,8 @@ Un autre module appelé `random`{:.language-python} peut être utilisé pour cr�
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 17
+line_number_start: 17
+line_highlights: 19
 ---
 # Définitions de fonctions 
 def roule_de():
@@ -106,8 +106,8 @@ Modifie ta fonction pour stocker le nombre aléatoire dans une variable appelée
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 17
+line_number_start: 17
+line_highlights: 19
 ---
 # Définitions de fonctions        
 def roule_de():
@@ -125,8 +125,8 @@ Multiplie le nombre aléatoire stocké dans `roule`{:.language-python} par l'emo
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 18
+line_number_start: 17
+line_highlights: 20
 ---
 # Définitions de fonctions        
 def roule_de():
@@ -145,8 +145,8 @@ def roule_de():
 Bonjour 🌍🌎🌏
 Bienvenue à Python 🐍
 Python 🐍 est très bon en maths !
-12345678987654321
-La date et l'heure sont 2023-11-21 16:14:45.140000
+27
+La date et l'heure sont 2025-10-24 12:41:45.140000
 Tu as obtenu un 4 🔥🔥🔥🔥
 ```
 
