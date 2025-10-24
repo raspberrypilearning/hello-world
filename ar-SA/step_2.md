@@ -6,13 +6,11 @@ In Python, `print()`{:.language-python} outputs strings (words or numbers) to th
 
 فتح مشروع البداية [Hello 🌍🌎🌏](https://trinket.io/python/683f0efa91){:target="_blank"}. سيتم فتح Trinket في علامة تبويب متصفح أخرى.
 
-![The code editor with project starter code on the left in the code area. On the right is the blank output area.](images/starter_project.png)
-
 --- /task ---
 
 --- task ---
 
-Find the `# Put code to run below here`{:.language-python} line.
+Find the `# Put code to run under here`{:.language-python} line.
 
 Click below that line. The flashing `|` is the cursor and shows where you will type.
 
@@ -24,8 +22,8 @@ Type the code to `print()`{:.language-python} Hello to the screen:
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 17
-line_highlights: 12
+language: python line_numbers: true line_number_start: 20
+line_highlights: 21
 ---
 # Put code to run under here.
 print(f'Hello')
@@ -36,9 +34,9 @@ print(f'Hello')
 
 --- task ---
 
-**اختبار:** انقر فوق الزر **Run** لتشغيل التعليمات البرمجية الخاصة بك. This is what you should see when you run your code:
+**اختبار:** انقر فوق الزر **Run** لتشغيل التعليمات البرمجية الخاصة بك.
 
-![يظهر المقطع البرمجي التشغيل المميز بعلامة "مرحبًا" في منطقة الإخراج. ](images/run_hello.png)
+You should see `Hello` in the Text output area.
 
 --- /task ---
 
@@ -52,7 +50,7 @@ Change your code to also `print()`{:.language-python} the contents of the `world
 --- code ---
 ---
 language: python line_numbers: true
-line_number_start: 17
+line_number_start: 20
 ---
 # ضع المقطع البرمجي هنا لتشغيله
 print(f'Hello {world}')
@@ -77,8 +75,8 @@ The `f`{:.language-python} character inside the print lets you easily print vari
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 17
-line_highlights: 13
+language: python line_numbers: true line_number_start: 20
+line_highlights: 22
 ---
 # Put code to run under here
 print(f'Hello {world}') print(f'Welcome to {python}')
