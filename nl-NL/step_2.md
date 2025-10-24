@@ -10,7 +10,7 @@ Open het [Hallo 🌍🌎🌏 startproject](https://editor.raspberrypi.org/en/pro
 
 --- task ---
 
-Find the `# Put code to run under here`{:.language-python} line.
+Zoek de regel `# Plaats de code die moet worden uitgevoerd hieronder`{:.language-python}.
 
 Klik onder die regel. De knipperende `|` is de cursor en geeft aan waar je gaat typen.
 
@@ -36,7 +36,7 @@ print(f'Hello')
 
 **Test:** Klik op de knop **Run** om je code uit te voeren.
 
-You should see `Hello` in the Text output area.
+Je zou `Hallo` in het tekstuitvoergebied moeten zien.
 
 --- /task ---
 
