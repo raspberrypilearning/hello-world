@@ -6,13 +6,11 @@ In Python worden met `print()`{:.language-python} strings (woorden of getallen) 
 
 Open het [Hallo 🌍🌎🌏 startproject](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. De code-editor wordt geopend in een ander browsertabblad.
 
-![De code-editor met startprojectcode aan de linkerkant in het codegebied. Aan de rechterkant is het lege uitvoergebied.](images/starter_project.png)
-
 --- /task ---
 
 --- task ---
 
-Zoek de regel `# Plaats de code die moet worden uitgevoerd hieronder`{:.language-python}.
+Find the `# Put code to run under here`{:.language-python} line.
 
 Klik onder die regel. De knipperende `|` is de cursor en geeft aan waar je gaat typen.
 
@@ -24,8 +22,8 @@ Typ de code in zodat Hallo wordt ge`print()`{:.language-python} op het scherm:
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 17
-line_highlights: 18
+language: python line_numbers: true line_number_start: 20
+line_highlights: 21
 ---
 # Put code to run under here.
 print(f'Hello')
@@ -36,9 +34,9 @@ print(f'Hello')
 
 --- task ---
 
-**Test:** Klik op de knop **Run** om je code uit te voeren. Dit is wat je zou moeten zien wanneer je jouw code uitvoert:
+**Test:** Klik op de knop **Run** om je code uit te voeren.
 
-![Het pictogram Run gemarkeerd terwijl 'Hallo' weergegeven wordt in het uitvoergebied. ](images/run_hello.png)
+You should see `Hello` in the Text output area.
 
 --- /task ---
 
@@ -52,7 +50,7 @@ Wijzig je code zodat ook er een `print()`{:.language-python} wordt gedaan van de
 --- code ---
 ---
 language: python line_numbers: true
-line_number_start: 17
+line_number_start: 20
 ---
 # Put code to run under here
 print(f'Hello {world}')
@@ -77,8 +75,8 @@ Met het teken `f`{:.language-python} in het print commando kun je eenvoudig vari
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 17
-line_highlights: 19
+language: python line_numbers: true line_number_start: 20
+line_highlights: 22
 ---
 # Put code to run under here
 print(f'Hello {world}') print(f'Welcome to {python}')
