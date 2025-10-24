@@ -8,8 +8,8 @@ Wijzig je functie zodat de persoon die jouw programma gebruikt, moet invoeren ho
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 15
-line_highlights: 17-18
+language: python line_numbers: true line_number_start: 17
+line_highlights: 19-20
 ---
 # Function definitions
 def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a D {max}') roll = randint(1,6) print(f'You rolled a {roll} {fire * roll}')
@@ -27,8 +27,8 @@ def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a 
 Hello 🌍🌎🌏
 Welcome to Python 🐍
 Python 🐍 is good at maths!
-12345678987654321
-The date and time is 2023-11-21 16:20:41.323000
+27
+The date and time is 2025-10-24 13:20:41.323000
 How many sides on your dice?:
 20 
 That is a D 20
@@ -46,8 +46,8 @@ Invoer wordt altijd opgeslagen als tekst, maar we moeten de invoer die is opgesl
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 15
-line_highlights: 19
+language: python line_numbers: true line_number_start: 17
+line_highlights: 21
 ---
 # Function definitions
 def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a D {max}') roll = randint(1, int(max)) print(f'You rolled a {roll} {fire * roll}')
