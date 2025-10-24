@@ -16,20 +16,20 @@ fire = "🔥"
 
 # Визначення функцій
 def roll_dice():
-    max = input("How many sides on your dice?:")
-    print(f"That is a D {max}")
+    max = input("Кількість сторін кубика:")
+    print(f"Цей кубик називається D {max}")
     roll = randint(1, int(max))
-    print(f"You rolled a {roll} {fire * roll}")
+    print(f"Тобі випало число {roll} {fire * roll}")
 
 
 # Нижче розмісти код, який потрібно виконати
-print(f"Hello {world}")
-print(f"Welcome to {python}")
-print(f"{python} is good at maths!")
+print(f"Привіт, {world}")
+print(f"Ласкаво просимо до {python}")
+print(f"{python} знається на математиці!")
 print(f"{3 * 9}")
-print(f"The date and time is {datetime.now()}")
+print(f"Дата й час — {datetime.now()}")
 
 roll_dice()  # Виклич функцію, яка кидає кубик
-print(f"I ❤️ rainbows 🌈")
-print(f"Unicorns 🦄 make me 😃")
-print(f"I'd like to make a story 📖 with {python}")
+print(f"Я ❤️ веселку 🌈")
+print(f"Єдинороги 🦄 викликають у мене 😃")
+print(f"Я хочу написати оповідання 📖 за допомогою {python}")
