@@ -26,7 +26,7 @@ def roule_de():
 
 --- task ---
 
-**Test :** clique sur le bouton **Run** et saisis un nombre de faces. Assure-toi d'appuyer sur la touche <kbd>Entrée</kbd> après avoir saisi le nombre de faces. Tu devrais voir ceci lorsque tu exécutes ton code .
+**Test :** clique sur le bouton **Exécuter** et saisis un nombre de faces. Assure-toi d'appuyer sur la touche <kbd>Entrée</kbd> après avoir saisi le nombre de faces. Tu devrais voir ceci lorsque tu exécutes ton code .
 
 <div class="c-project-output">
 ```
@@ -70,7 +70,7 @@ def roule_de():
 
 --- task ---
 
-**Test :** clique sur le bouton **Run** plusieurs fois. Vérifie que le dé génère un nombre aléatoire à chaque fois.
+**Test :** clique sur le bouton **Exécuter** plusieurs fois. Vérifie que le dé génère un nombre aléatoire à chaque fois.
 
 --- /task ---
 

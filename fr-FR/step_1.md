@@ -15,7 +15,7 @@
 <div style="display: flex; flex-wrap: wrap">
 <div style="flex-basis: 175px; flex-grow: 1">  
 
-Clique sur le bouton **Run**
+Clique sur le bouton **Exécuter**
 
 <iframe src="https://editor.raspberrypi.org/fr-FR/embed/viewer/hello-world-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>

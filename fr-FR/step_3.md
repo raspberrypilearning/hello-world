@@ -35,7 +35,7 @@ print(f'{3 * 9}')
 
 --- task ---
 
-**Test :** clique sur le bouton **Run** . Tu devrais voir ceci lorsque tu exécutes ton code .
+**Test :** clique sur le bouton **Exécuter** . Tu devrais voir ceci lorsque tu exécutes ton code .
 
 ```
 Bonjour 🌍🌎🌏
