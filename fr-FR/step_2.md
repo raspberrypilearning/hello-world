@@ -10,7 +10,7 @@ Ouvre le projet de démarrage [Bonjour 🌍🌎🌏](https://editor.raspberrypi.
 
 --- task ---
 
-Find the `# Put code to run under here`{:.language-python} line.
+Trouve la ligne `# Mettre le code à exécuter ci-dessous`{:.language-python}.
 
 Clique sous cette ligne. Le `|` qui clignote est le curseur et indique où tu taperas.
 
@@ -36,7 +36,7 @@ print(f'Hello')
 
 **Test :** clique sur le bouton **Run** pour exécuter ton code.
 
-You should see `Hello` in the Text output area.
+Tu devrais voir `Bonjour` dans la zone de sortie.
 
 --- /task ---
 
