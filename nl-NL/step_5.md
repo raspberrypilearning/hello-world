@@ -24,15 +24,15 @@ def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a 
 
 <div class="c-project-output">
 ```
-Hello 🌍🌎🌏
-Welcome to Python 🐍
-Python 🐍 is good at maths!
+Hallo 🌍🌎🌏
+Welkom bij Python 🐍
+Python 🐍 is goed in wiskunde!
 27
-The date and time is 2025-10-24 13:20:41.323000
-How many sides on your dice?:
+De datum en tijd is 2025-10-24 13:20:41.323000
+Hoeveel zijden heeft jouw dobbelsteen?:
 20 
-That is a D 20
-You rolled a 1 🔥
+Dat is een D 20
+Je hebt een 1 🔥 gegooid
 ```
 
 --- /task ---
