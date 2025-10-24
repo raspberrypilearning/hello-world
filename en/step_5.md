@@ -10,8 +10,8 @@ Change your function to ask the person using your program to enter how many side
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 17-18
+line_number_start: 17
+line_highlights: 19-20
 ---
 # Function definitions
 def roll_dice():
@@ -35,8 +35,8 @@ This is what you should see when you run your code.
 Hello 🌍🌎🌏
 Welcome to Python 🐍
 Python 🐍 is good at maths!
-12345678987654321
-The date and time is 2023-11-21 16:20:41.323000
+27
+The date and time is 2025-10-24 13:20:41.323000
 How many sides on your dice?:
 20 
 That is a D 20
@@ -56,8 +56,8 @@ Inputs are always stored as text, but we need to use the input stored in `max` t
 ---
 language: python
 line_numbers: true
-line_number_start: 15
-line_highlights: 19
+line_number_start: 17
+line_highlights: 21
 ---
 # Function definitions        
 def roll_dice():
