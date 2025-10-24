@@ -124,12 +124,12 @@ def roll_dice(): roll = randint(1,6) print(f'You rolled a {roll} {fire * roll}')
 **Test :** clique sur le bouton **Run** . Ton code de sortie devrait ressembler à ceci :
 
 ```
-Hello 🌍🌎🌏
-Welcome to Python 🐍
-Python 🐍 is good at maths!
+Bonjour le 🌍🌎🌏
+Bienvenue dans Python 🐍
+Python 🐍 est bon en maths !
 27
-The date and time is 2025-10-24 12:41:45.140000
-You rolled a 4 🔥🔥🔥🔥
+La date et l'heure sont 2025-10-24 12:41:45.140000
+Tu as obtenu un 4 🔥🔥🔥🔥
 ```
 
 --- /task ---
