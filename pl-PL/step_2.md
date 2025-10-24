@@ -6,13 +6,11 @@ W Pythonie, `print()`{:.language-python} wyświetla ciąg znaków (słowa lub li
 
 Otwórz [Hello 🌍🌎🌏 projekt startowy](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. Edytor kodu otworzy się w innej karcie przeglądarki.
 
-![Edytor kodu z pierwszym projektem kodu znajduje się po lewej stronie. Po prawej znajduje się puste pole, gdzie będzie wyświetlany tekst.](images/starter_project.png)
-
 --- /task ---
 
 --- task ---
 
-Znajdź `# Wpisz kod poniżej tej `{:.language-python} linii.
+Find the `# Put code to run under here`{:.language-python} line.
 
 Kliknij poniżej tej lini. Migający znak `|` to kursor wskazujący, gdzie będziesz pisać.
 
@@ -24,8 +22,8 @@ Wpisz kod aby wyświetlić `print()`{:.language-python} Hello na ekranie:
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 17
-line_highlights: 18
+language: python line_numbers: true line_number_start: 20
+line_highlights: 21
 ---
 # Put code to run under here.
 print(f'Hello')
@@ -36,9 +34,9 @@ print(f'Hello')
 
 --- task ---
 
-**Test** Kliknij przycisk **Run**, aby uruchomić swój kod. To powinno się wyświetlić po uruchomieniu Twojego kodu:
+**Test** Kliknij przycisk **Run**, aby uruchomić swój kod.
 
-![Podświetlona ikona Uruchom z komunikatem "Hello" w obszarze wyjściowym. ](images/run_hello.png)
+You should see `Hello` in the Text output area.
 
 --- /task ---
 
@@ -52,7 +50,7 @@ Zmień swój kod tak, aby `print()`{:.language-python} wyświetlał również za
 --- code ---
 ---
 language: python line_numbers: true
-line_number_start: 17
+line_number_start: 20
 ---
 # Umieść tutaj kod do uruchomienia
 print(f'Hello {world}')
@@ -77,8 +75,8 @@ Litera `f`{:.language-python} w funkcji print pozwala łatwo wyświetlać zmienn
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 17
-line_highlights: 19
+language: python line_numbers: true line_number_start: 20
+line_highlights: 22
 ---
 # Put code to run under here
 print(f'Hello {world}') print(f'Welcome to {python}')
