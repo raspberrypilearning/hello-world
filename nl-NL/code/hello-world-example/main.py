@@ -18,18 +18,18 @@ vuur = "🔥"
 def gooi_dobbelsteen():
     max = input("Hoeveel zijden heeft jouw dobbelsteen?:")
     print(f"Dat is een D {max}")
-    roll = randint(1, int(max))
-    print(f"You rolled a {roll} {fire * roll}")
+    worp = randint(1, int(max))
+    print(f"Je hebt een {worp} {vuur * worp} gegooid")
 
 
 # Zet de code om uit te voeren hieronder
-print(f"Hello {world}")
-print(f"Welcome to {python}")
-print(f"{python} is good at maths!")
+print(f"Hallo {wereld}")
+print(f"Welkom bij {python}")
+print(f"{python} is goed in wiskunde!")
 print(f"{3 * 9}")
-print(f"The date and time is {datetime.now()}")
+print(f"De datum en tijd is {datetime.now()}")
 
 gooi_dobbelsteen() # Roep de dobbelsteen functie aan
-print(f"I ❤️ rainbows 🌈")
-print(f"Unicorns 🦄 make me 😃")
-print(f"I'd like to make a story 📖 with {python}")
+print(f"Ik ❤️ regenbogen 🌈")
+print(f"Eenhoorns 🦄 maken mij 😃")
+print(f"Ik wil graag een verhaal 📖 maken met {python}")
