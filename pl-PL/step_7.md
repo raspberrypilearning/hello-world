@@ -10,8 +10,8 @@ Oto kilka przykładów początków zdań, których możesz użyć:
 
 --- code ---
 ---
-language: python line_numbers: true line_number_start: 23
-line_highlights: 24-26
+language: python line_numbers: true line_number_start: 25
+line_highlights: 26-28
 ---
 roll_dice() print(f'I ❤️ ...')   
 print(f'... makes me 😃')   
