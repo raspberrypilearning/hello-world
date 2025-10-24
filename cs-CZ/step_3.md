@@ -17,8 +17,8 @@ Přidejte další dvě funkce`print()`{:.language-python} do svého kódu včetn
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 17
-line_highlights: 20-21
+language: python filename: main.py line_numbers: true line_number_start: 20
+line_highlights: 23-24
 ---
 # Put code to run under here
 print(f'Hello {world}') print(f'Welcome to {python}') print(f'{python} is good at maths!') print(f'{3 * 9}')
@@ -50,8 +50,8 @@ Jako další řádek do tvého kódu přidej současný datum a čas pomocí met
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 20
-line_highlights: 22
+language: python filename: main.py line_numbers: true line_number_start: 23
+line_highlights: 25
 ---
 
 print(f'{python} is good at maths!') print(f'{3 * 9}') print(f'The date and time is {datetime.now()}')
