@@ -17,7 +17,7 @@ Ajoute deux autres lignes `print()`{:.language-python} à ton code ainsi qu'une 
 
 --- code ---
 ---
-language: python filename: main.py line_numbers: true line_number_start: 12
+language: python filename: main.py line_numbers: true line_number_start: 20
 line_highlights: 23-24
 ---
 # Put code to run under here
