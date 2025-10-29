@@ -8,7 +8,7 @@ Veel plezier!
 
 --- question ---
 ---
-legend: Vraag 1 van 3
+legend: Question 1 of 3
 ---
 
 Deze code stelt de `wereld`-variabele in om de tekst '🌍🌎🌏' te bevatten (de drie verschillende wereldemoji):
