@@ -8,7 +8,7 @@
 
 --- question ---
 ---
-legend: 問題 1（共 3 題）
+legend: Question 1 of 3
 ---
 
 此程式碼將 `world` 變數設定為包含文字「🌍🌎🌏」（三個不同世界的表情符號）：
