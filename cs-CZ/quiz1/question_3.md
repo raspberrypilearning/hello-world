@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Otázka 3 z 3
+legend: Question 3 of 3
 ---
 
 Tato funkce generuje dvě náhodná čísla:
