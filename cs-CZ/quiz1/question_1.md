@@ -8,7 +8,7 @@ Bav se!
 
 --- question ---
 ---
-legenda: Otázka 1 ze 3
+legend: Question 1 of 3
 ---
 
 Tento kód nastavuje proměnnou `world` tak, aby obsahovala text '🌍🌎🌏' (tři různé emotikony světa):
