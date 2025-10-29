@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Vraag 2 van 3
+legend: Question 2 of 3
 ---
 
 Welke van deze functie definities is correct en drukt de tekst: `Ik kan coderen` als ze wordt aangeroepen?
