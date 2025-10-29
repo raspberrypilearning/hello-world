@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Frage 3 von 3
+legend: Question 3 of 3
 ---
 
 Diese Funktion gibt zwei Zufallszahlen aus:
