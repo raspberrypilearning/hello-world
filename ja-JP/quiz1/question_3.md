@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: 質問3/3
+legend: Question 3 of 3
 ---
 
 この関数は、2つの乱数を出力します。
