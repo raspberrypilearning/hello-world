@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Pergunta 3 de 3
+legend: Question 3 of 3
 ---
 
 Esta função gera dois números aleatórios:
