@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: السؤال 3 من 3
+legend: Question 3 of 3
 ---
 
 تنتج هذه الدالة رقمين عشوائيين:
