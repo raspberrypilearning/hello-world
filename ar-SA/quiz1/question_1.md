@@ -8,7 +8,7 @@ Answer the three questions. There are hints to guide you to the correct answer.
 
 --- question ---
 ---
-legend: السؤال 1 من 3
+legend: Question 1 of 3
 ---
 
 استمتع!
