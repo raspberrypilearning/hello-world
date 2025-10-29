@@ -8,7 +8,7 @@ Answer the three questions. 正しい答えが表示されます。
 
 --- question ---
 ---
-legend: 質問1/3
+legend: Question 1 of 3
 ---
 
 お楽しみください！
