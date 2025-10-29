@@ -8,7 +8,7 @@ Viel Spaß!
 
 --- question ---
 ---
-legend: Frage 1 von 3
+legend: Question 1 of 3
 ---
 
 Dieser Code legt die Variable `welt` so fest, dass sie den Text „🌍🌎🌏“ (die drei verschiedenen Welt Emojis) enthält:
