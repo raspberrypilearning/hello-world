@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Frage 2 von 3
+legend: Question 2 of 3
 ---
 
 Welche dieser Funktionsdefinitionen ist korrekt und gibt `Ich kann programmieren` aus wenn sie aufgerufen wird?
