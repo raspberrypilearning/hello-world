@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Cwestiwn 2 o 3
+legend: Question 2 of 3
 ---
 
 Pa un o'r diffiniadau swyddogaeth hyn sy'n gywir ac a fydd yn printio `Dwi'n gallu codio` pan fydd yn cael ei alw?
