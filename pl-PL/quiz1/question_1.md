@@ -8,7 +8,7 @@ Miłej zabawy!
 
 --- question ---
 ---
-legend: Pytanie 1 z 3
+legend: Question 1 of 3
 ---
 
 Ten kod ustawia zmienną ` ` tak, aby zawierała tekst '????' (trzy różne emoji świata):
