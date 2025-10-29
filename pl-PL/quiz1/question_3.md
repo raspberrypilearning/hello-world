@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Pytanie 3 z 3
+legend: Question 3 of 3
 ---
 
 Ta funkcja wyświetla dwie losowe liczby:
