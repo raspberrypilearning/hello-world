@@ -8,7 +8,7 @@ Cuando hayas respondido a cada pregunta, haz clic en **Revisar mi respuesta**.
 
 --- question ---
 ---
-legend: Pregunta 1 de 3
+legend: Question 1 of 3
 ---
 
 Este código configura la variable `mundo` para que contenga el texto '🌍🌎🌏' (tres diferentes emojis de mundo):
