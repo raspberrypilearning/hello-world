@@ -8,7 +8,7 @@ Divertiti!
 
 --- question ---
 ---
-legend: Domanda 1 di 3
+legend: Question 1 of 3
 ---
 
 Questo codice imposta la variabile `mondo` per contenere il testo '🌍🌎🌏' (le tre differenti emoji del mondo):
