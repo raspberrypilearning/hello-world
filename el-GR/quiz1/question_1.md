@@ -8,7 +8,7 @@ Answer the three questions. There are hints to guide you to the correct answer.
 
 --- question ---
 ---
-legend: Ερώτηση 1 από 3
+legend: Question 1 of 3
 ---
 
 Καλή διασκέδαση!
