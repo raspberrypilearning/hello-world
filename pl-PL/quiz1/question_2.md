@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Pytanie 2 z 3
+legend: Question 2 of 3
 ---
 
 Która z tych definicji funkcji jest poprawna i będzie drukować kod ` i CAN Can ` po wywołaniu?
