@@ -8,7 +8,7 @@ Atebwch y tri chwestiwn isod i fyfyrio ar yr hyn rydych chi wedi'i ddysgu.
 
 --- question ---
 ---
-legend: Cwestiwn 1 o 3
+legend: Question 1 of 3
 ---
 
 Mwynha!
