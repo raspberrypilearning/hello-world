@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: प्रश्न 3 पैकी 3
+legend: Question 3 of 3
 ---
 
 This function outputs two random numbers:
