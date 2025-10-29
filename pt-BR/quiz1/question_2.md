@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Pergunta 2 de 3
+legend: Question 2 of 3
 ---
 
 Qual dessas definições de função está correta e imprimirá `Eu posso codificar` quando chamada?
