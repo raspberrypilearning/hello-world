@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Cwestiwn 3 o 3
+legend: Question 3 of 3
 ---
 
 Mae'r swyddogaeth hon yn allbynnu dau rif ar hap:
