@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Otázka 2 z 3
+legend: Question 2 of 3
 ---
 
 Která z těchto definic funkcí je správná a při volání vypíše `Mohu kódovat` ?
