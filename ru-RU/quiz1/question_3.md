@@ -1,6 +1,6 @@
 --- question ---
 ---
-legend: Вопрос 3 из 3
+legend: Question 3 of 3
 ---
 
 This function outputs two random numbers:
