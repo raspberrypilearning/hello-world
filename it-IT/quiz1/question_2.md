@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Domanda 2 di 3
+legend: Question 2 of 3
 ---
 
 Quale di queste definizioni di funzione è corretta e stamperà `So programmare` quando viene chiamata?
