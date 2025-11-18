@@ -1,8 +1,8 @@
 ## Αθροίσματα και ημερομηνίες
 
-In Python you can work with numbers and dates.
+Στην Python μπορείς να εργαστείς με αριθμούς και ημερομηνίες.
 
-You can use **arithmetic operators** such as `+` and `-`  to do calculations:
+Μπορείς να χρησιμοποιήσεις **αριθμητικούς τελεστές** όπως `+` και `-`  για να κάνεις υπολογισμούς:
 
 | + | πρόσθεση |   
 | - | αφαίρεση |   
@@ -13,7 +13,7 @@ You can use **arithmetic operators** such as `+` and `-`  to do calculations:
 
 --- task ---
 
-Add two more `print()`{:.language-python} lines to your code including a multiplication for Python to calculate:
+Πρόσθεσε δύο ακόμη γραμμές `print()`{:.language-python} στον κώδικά σου, με έναν πολλαπλασιασμό που θα υπολογίσει η Python:
 
 --- code ---
 ---
@@ -29,7 +29,7 @@ print(f'Hello {world}') print(f'Welcome to {python}') print(f'{python} is good a
 
 --- task ---
 
-**Test:** Click the **Run** button. This is what you should see when you run your code.
+**Δοκιμή:** Κάνε κλικ στο κουμπί **Run**. Αυτό θα πρέπει να δεις όταν εκτελείς τον κώδικά σου.
 
 ```
 Hello 🌍🌎🌏
@@ -40,13 +40,13 @@ Python 🐍 is good at maths!
 
 --- /task ---
 
-Python has many **modules** that you can use in your code to help perform certain tasks.
+Η Python έχει πολλά **modules** (ενότητες) που μπορείς να χρησιμοποιήσεις στον κώδικά σου για να εκτελέσεις συγκεκριμένες εργασίες.
 
-The `datetime`{:.language-python} module helps with writing code that uses dates and times.
+Το module `datetime`{:.language-python} βοηθά στη σύνταξη κώδικα που χρησιμοποιεί ημερομηνίες και ώρες.
 
 --- task ---
 
-Add another line to your code to `print`{:.language-python} the current date and time by using the `now()`{:.language-python} method from the `datetime`{:.language-python} library:
+Πρόσθεσε μια ακόμη γραμμή στον κώδικά σου για να κάνεις `print`{:.language-python} την τρέχουσα ημερομηνία και ώρα χρησιμοποιώντας τη μέθοδο `now()`{:.language-python} από τη βιβλιοθήκη `datetime`{:.language-python}:
 
 --- code ---
 ---
@@ -62,7 +62,7 @@ print(f'{python} is good at maths!') print(f'{3 * 9}') print(f'The date and time
 
 --- task ---
 
-**Test:** Run your code a couple of times to see the time update.
+**Δοκιμή:** Εκτέλεσε τον κώδικά σου μερικές φορές για να δεις ότι ανανεώνεται η ώρα.
 
 --- /task ---
 
