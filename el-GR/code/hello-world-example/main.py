@@ -1,35 +1,35 @@
 from datetime import datetime
 from random import randint
 
-# Emoji variables to use in your project
+# Μεταβλητές emoji για χρήση στο έργο σου
 world = "🌍🌎🌏"
 python = "Python 🐍"
 fire = "🔥"
 
-# Emojis to copy and paste into your code:
+# Emojis για αντιγραφή και επικόλληση στον κώδικά σου:
 # 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊
 # 👩‍🦽 👩🏼‍🦽 👩🏽‍🦽 👩🏾‍🦽 👩🏿‍🦽 🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
 # 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳
 
-# Useful characters :',()*_/.#
+# Χρήσιμοι χαρακτήρες :',()*_/.#
 
 
-# Function definitions
+# Ορισμοί συναρτήσεων
 def roll_dice():
-    max = input("How many sides on your dice?:")
-    print(f"That is a D {max}")
+    max = input("Πόσες πλευρές έχει το ζάρι σου;:")
+    print(f"Αυτό είναι ένα D {max}")
     roll = randint(1, int(max))
     print(f"You rolled a {roll} {fire * roll}")
 
 
-# Put code to run under here
-print(f"Hello {world}")
-print(f"Welcome to {python}")
-print(f"{python} is good at maths!")
+# Βάλε κώδικα για εκτέλεση εδώ
+print(f"Γεια σου {world}")
+print (f"Καλώς ήρθες στην {python}")
+print(f"Η {python} είναι καλή στα μαθηματικά!")
 print(f"{3 * 9}")
-print(f"The date and time is {datetime.now()}")
+print(f"Η ημερομηνία και η ώρα είναι {datetime.now()}")
 
-roll_dice()  # Call the roll dice function
-print(f"I ❤️ rainbows 🌈")
-print(f"Unicorns 🦄 make me 😃")
-print(f"I'd like to make a story 📖 with {python}")
+roll_dice() # Κάλεσε τη συνάρτηση για ρίψη ζαριού
+print(f"Εγώ❤️ ουράνια τόξα 🌈")
+print(f"Οι μονόκεροι🦄 με κάνουν 😃")
+print(f"Θα ήθελα να κάνω μια ιστορία 📖 με {python}")
