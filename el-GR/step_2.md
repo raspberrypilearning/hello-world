@@ -1,24 +1,24 @@
-## Print hello
+## Εμφάνισε γεια σου
 
-In Python, `print()`{:.language-python} outputs strings (words or numbers) to the screen.
+Στην Python, η εντολή `print()`{:.language-python} εξάγει συμβολοσειρές (λέξεις ή αριθμούς) στην οθόνη.
 
 --- task ---
 
-Open the [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. The code editor will open in another browser tab.
+Άνοιξε το έργο [Hello 🌍🌎🌏 starter project](https://editor.raspberrypi.org/en/projects/hello-world-starter){:target="_blank"}. Ο code editor θα ανοίξει σε μια άλλη καρτέλα του προγράμματος περιήγησης.
 
 --- /task ---
 
 --- task ---
 
-Find the `# Put code to run under here`{:.language-python} line.
+Βρες τη γραμμή `# Τοποθέτησε τον κώδικα που θα εκτελεστεί εδώ`{:.language-python}.
 
-Click below that line. The flashing `|` is the cursor and shows where you will type.
+Κάνε κλικ κάτω από αυτή τη γραμμή. Το `|` που αναβοσβήνει είναι ο δείκτης και δείχνει πού θα πληκτρολογήσεις.
 
 --- /task ---
 
 --- task ---
 
-Type the code to `print()`{:.language-python} Hello to the screen:
+Πληκτρολόγησε τον κώδικα για `print()`{:.language-python} Γεια σου στην οθόνη:
 
 --- code ---
 ---
@@ -34,17 +34,17 @@ print(f'Hello')
 
 --- task ---
 
-**Test:** Click on the **Run** button to run your code.
+**Δοκιμή:** Κάνε κλικ στο **Run** για να τρέξει ο κώδικάς σου.
 
-You should see `Hello` in the Text output area.
+Θα πρέπει να δεις `Γεια σου` στην περιοχή εξόδου κειμένου (Text output area).
 
 --- /task ---
 
-A **variable** is used to store values such as text or numbers. language: python filename: main.py line_numbers: true line_number_start: 11
+Μια **μεταβλητή** χρησιμοποιείται για την αποθήκευση τιμών όπως κείμενο ή αριθμοί. Έχουμε συμπεριλάβει κάποιες μεταβλητές που αποθηκεύουν χαρακτήρες emoji.
 
 --- task ---
 
-Change your code to also `print()`{:.language-python} the contents of the `world`{:.language-python} variable. You can do this by adding the variable name in curly brackets `{}`{:.language-python}
+'Αλλαξε τον κώδικά σου για να `print()`{:.language-python} και τα περιεχόμενα της μεταβλητής `world`{:.language-python}. Μπορείς να το κάνεις αυτό προσθέτοντας το όνομα της μεταβλητής σε άγκιστρα`{}`{:.language-python}
 
 
 --- code ---
@@ -57,21 +57,21 @@ print(f'Hello {world}')
 
 --- /code ---
 
-The `f`{:.language-python} character inside the print lets you easily print variables along with strings of text.
+Ο χαρακτήρας `f`{:.language-python} μέσα στην εντολή print, σου επιτρέπει να εμφανίζεις εύκολα μεταβλητές μαζί με συμβολοσειρές κειμένου.
 
 --- /task ---
 
 --- task ---
 
-Άλλαξε τη γραμμή `from emoji import *` σε:
+**Δοκιμή:** Εκτέλεσε τον κώδικά σου για να δεις το αποτέλεσμα:
 
-![The updated line of code in the code area with the word 'Hello' followed by three world emojis showing in the output area.](images/run_hello_world.png)
+![Η ενημερωμένη γραμμή κώδικα στην περιοχή κώδικα (code area) με τις λέξεις 'Γεια σου' ακολουθούμενες από τρία emoji της υδρογείου εμφανίζονται στην περιοχή εξόδου.](images/run_hello_world.png)
 
 --- /task ---
 
 --- task ---
 
-**Add** another line to your code to `print()`{:.language-python} more text and emojis:
+**Πρόσθεσε** άλλη μια γραμμή στον κώδικά σου για να `print()`{:.language-python} περισσότερο κείμενο και emoji:
 
 --- code ---
 ---
@@ -87,9 +87,9 @@ print(f'Hello {world}') print(f'Welcome to {python}')
 
 --- task ---
 
-**Δοκιμή:** Κάνε κλικ στο **run**.
+**Δοκιμή:** Κάνε κλικ στο **Run**.
 
-![The additional line of code in the code editor with the word 'Hello' followed by three world emojis and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
+![Η πρόσθετη γραμμή κώδικα στον code editor με τη λέξη 'Γεια σου' ακολουθούμενη από τρία emoji με την υδρόγειο και τις λέξεις 'Καλωσήρθες στην' ακολουθούμενη από ένα emoji φίδι και ένα πληκτρολόγιο εμφανίζονται στην περιοχή εξόδου.](images/run_multiple.png)
 
 **Συμβουλή:** Είναι καλή ιδέα να εκτελείς τον κώδικά σου μετά από κάθε αλλαγή, ώστε να μπορείς να διορθώνεις αμέσως τα προβλήματα.
 
