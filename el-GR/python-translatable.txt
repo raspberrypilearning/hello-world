@@ -1,4 +1,4 @@
-world
+κόσμος
 
 add_one_and_one
 
