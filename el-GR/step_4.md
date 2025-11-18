@@ -1,8 +1,8 @@
-## Ρίξε ένα ζάρι
+## Ρίξε ένα ζάρι 🎲
 
-Functions are blocks of code that perform specific tasks. They can be used over and over again.
+Οι συναρτήσεις είναι μπλοκ κώδικα που εκτελούν συγκεκριμένες εργασίες. Μπορούν να χρησιμοποιηθούν ξανά και ξανά.
 
-Here is an example of a function:
+Ακολουθεί ένα παράδειγμα μιας συνάρτησης:
 
 --- code ---
 ---
@@ -13,7 +13,7 @@ def add_one_and_one(): x = 1 + 1 print(x)
 
 --- /code ---
 
-The name of this function is `add_one_and_one`{:.language-python}.
+Το όνομα αυτής της συνάρτησης είναι `add_one_and_one`{:.language-python}.
 
 The code for the task you want the function to do needs to be **indented**, which means that you need to add **four spaces** before each line of code.
 
