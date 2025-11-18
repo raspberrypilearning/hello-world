@@ -2,9 +2,9 @@
 
 add_one_and_one
 
-roll_dice
+ρίξε ζάρι
 
-roll
+ζαριά
 
 max
 
