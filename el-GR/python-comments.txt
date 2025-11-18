@@ -1,29 +1,29 @@
-Put code to run under here.
+Βάλε κώδικα για εκτέλεση εδώ.
 
-Hello
+Γεια σου
 
-Welcome to {python}
+Καλώς ορίσατε στην {python}
 
-{python} is good at maths!
+Η {python} είναι καλή στα μαθηματικά!
 
-The date and time is {datetime.now()}
+Η ημερομηνία και η ώρα είναι {datetime.now()}
 
-Function definitions
+Ορισμοί συναρτήσεων
 
-You rolled a {4}
+Έφερες {4}
 
-How many sides on your dice?:
+Πόσες πλευρές έχει το ζάρι σου;:
 
-That is a D {max}
+Αυτό είναι ένα D {max}
 
-I can code
+Μπορώ να προγραμματίσω
 
-First number:
+Πρώτος αριθμός:
 
-Second number:
+Δεύτερος αριθμός:
 
-I ❤️ ...
+Εγώ ❤️...
 
-... makes me 😃
+... με κάνει 😃
 
-I would like to make ... with {python}
+Θα ήθελα να φτιάξω... με {python}
