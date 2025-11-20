@@ -1,10 +1,10 @@
-## Get input
+## Λάβε είσοδο
 
-You can use `input()`{:.language-python} to ask the person using your program to enter text.
+Μπορείς να χρησιμοποιήσεις την εντολή `input()`{:.language-python} για να ζητήσεις από το άτομο που χρησιμοποιεί το πρόγραμμά σου να εισαγάγει κείμενο.
 
 --- task ---
 
-Change your function to ask the person using your program to enter how many sides on the dice, and save it as a variable.
+Άλλαξε τη συνάρτησή σου ώστε να ζητά από το άτομο που χρησιμοποιεί το πρόγραμμά σου να εισαγάγει πόσες πλευρές έχει το ζάρι και αποθήκευσέ την ως μεταβλητή.
 
 --- code ---
 ---
@@ -20,28 +20,28 @@ def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a 
 
 --- task ---
 
-**Test:** Click the **Run** button and type in a number of sides. Ensure you press the <kbd> Enter </kbd> key after inputting how many sides. This is what you should see when you run your code.
+**Δοκιμή:** Κάνε κλικ στο κουμπί **Run** και πληκτρολόγησε έναν αριθμό πλευρών. Βεβαιώσου ότι έχεις πατήσει το πλήκτρο <kbd> Enter </kbd> αφού εισαγάγεις τον αριθμό των πλευρών. Αυτό θα πρέπει να δεις όταν εκτελείς τον κώδικά σου.
 
 <div class="c-project-output">
 ```
-Hello 🌍🌎🌏
-Welcome to Python 🐍
-Python 🐍 is good at maths!
+Γεια σου 🌍🌎🌏
+Καλώς ήρθες στην Python 🐍
+Η Python 🐍 είναι καλή στα μαθηματικά!
 27
-The date and time is 2025-10-24 13:20:41.323000
-How many sides on your dice?:
+Η ημερομηνία και η ώρα είναι 2025-10-24 13:20:41.323000
+Πόσες πλευρές έχει το ζάρι σου;:
 20 
-That is a D 20
-You rolled a 1 🔥
+Αυτό είναι D 20
+Έριξες 1 🔥
 ```
 
 --- /task ---
 
-Inputs are always stored as text, but we need to use the input stored in `max` to specify the largest number that could be rolled.
+Οι είσοδοι αποθηκεύονται πάντα ως κείμενο, αλλά πρέπει να χρησιμοποιήσουμε την είσοδο που είναι αποθηκευμένη στο `max` για να καθορίσουμε τον μεγαλύτερο αριθμό που μπορεί να φέρει το ζάρι.
 
 --- task ---
 
-`max` is a string, so it needs to be changed to an integer `int()`{:.language-python}.
+Η μεταβλητή `max` είναι μια συμβολοσειρά, επομένως πρέπει να αλλάξει σε ακέραιο `int()`{:.language-python}.
 
 
 --- code ---
@@ -58,7 +58,7 @@ def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a 
 
 --- task ---
 
-**Test:** Click the **Run** button a few times. Check that the dice rolls a random number each time.
+**Δοκιμή:** Κάνε κλικ στο κουμπί **Run** μερικές φορές. Έλεγξε ότι το ζάρι παράγει έναν τυχαίο αριθμό κάθε φορά.
 
 --- /task ---
 
