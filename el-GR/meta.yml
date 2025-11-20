@@ -21,7 +21,7 @@ steps:
   - 
     title: Ρίξε ένα ζάρι
   - 
-    title: Get input
+    title: Λάβε είσοδο
     completion:
       - internal
   - 
