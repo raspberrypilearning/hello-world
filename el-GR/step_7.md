@@ -1,12 +1,12 @@
-## Challenge
+## Πρόκληση
 
 --- challenge ---
 
 --- task ---
 
-Practise adding more `print` lines to your code.
+Εξασκήσου προσθέτοντας περισσότερες γραμμές `print` στον κώδικά σου.
 
-Here are some sentence starters that you can use:
+Ακολουθούν μερικές αρχικές λέξεις προτάσεων που μπορείς να χρησιμοποιήσεις:
 
 --- code ---
 ---
@@ -19,7 +19,7 @@ print(f'I would like to make ... with {python}')
 
 --- /code ---
 
-Here is a list of some emojis you might like to use:
+Ακολουθεί μια λίστα με μερικά emoji που ίσως θέλεις να χρησιμοποιήσεις:
 
 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒🎨🎮🔬🎉🕶️🎲 😊 🦄🚀💯⭐💛❤️📚⚽🏏🏀🥋🏆✨🥺🌈🔥♻️🌳 👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋🙋🏼🙋🏽🙋🏾🙋🏿
 
