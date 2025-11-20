@@ -1,10 +1,10 @@
-κόσμος
+world
 
 add_one_and_one
 
-ρίξε ζάρι
+roll_dice
 
-ζαριά
+roll
 
 max
 
