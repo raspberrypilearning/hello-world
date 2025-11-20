@@ -2,13 +2,13 @@
 
 Απάντησε στις τρεις ερωτήσεις. Υπάρχουν συμβουλές που θα σε καθοδηγήσουν στη σωστή απάντηση.
 
-Τώρα, ήρθε η ώρα να εξετάσεις τις νέες γνώσεις- ο αναστοχασμός είναι σημαντικό μέρος της μάθησης, επειδή βοηθά στη δημιουργία νέων συνδέσεων στον εγκέφαλό σου.
+Μετά κάθε απάντηση, πάτησε στο ** Έλεγξε την απάντησή μου**.
 
-Απάντησε στις τρεις ερωτήσεις παρακάτω για να διαπιστώσεις τι έμαθες.
+Καλή διασκέδαση!
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: Ερώτηση 1 από 3
 ---
 
 Καλή διασκέδαση!
@@ -22,9 +22,9 @@ world = '🌍🌎🌏'
 
 --- /code ---
 
-Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
+Ποιος κώδικας χρησιμοποιεί σωστά τη μεταβλητή `world` και εμφανίζει Γεια σου 🌍🌎🌏;
 
-![The output area from the code editor with Hello 🌍🌎🌏 showing.](images/quiz1.png)
+![Η περιοχή εξόδου από το code editor με την εμφάνιση του Γεια σου 🌍🌎🌏.](images/quiz1.png)
 
 --- choices ---
 
@@ -35,13 +35,13 @@ Which code correctly uses the `world` variable and outputs Hello 🌍🌎🌏?
 language: python
 ---
 
-output('Hello' world)
+output('Γεια σου' world)
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, `output` is not the way to output messages to the screen.
+ Όχι ακριβώς, η εντολή `output` δεν είναι ο τρόπος για να εμφανίζονται μηνύματα στην οθόνη.
 
  --- /feedback ---
 
@@ -53,13 +53,13 @@ output('Hello' world)
 language: python
 ---
 
-print(f'Hello world')
+print(f'Γεια σου world')
 
 --- /code ---
 
  --- feedback ---
 
- Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+ Όχι ακριβώς, στην Python η εντολή `print` εμφανίζει μηνύματα στην οθόνη, αλλά κάτι λείπει σε αυτό το παράδειγμα.
 
  --- /feedback ---
 
@@ -70,13 +70,13 @@ print(f'Hello world')
 language: python
 ---
 
-print(f'Hello{world}')
+print(f'Γεια σου{world}')
 
 --- /code ---
 
  --- feedback ---
 
- That's correct, in Python `print` outputs messages to the screen. The text output is inside single quotes `'` , then the `world` variable contains the earth emoji 🌍🌎🌏.
+ Αυτό είναι σωστό, στην Python η εντολή `print` εμφανίζει μηνύματα στην οθόνη. Το κείμενο που εμφανίζεται βρίσκεται μέσα σε μονά εισαγωγικά `'` , τότε η μεταβλητή `world` περιέχει το emoji της γης 🌍🌎🌏.
 
  --- /feedback ---
 
@@ -87,13 +87,13 @@ print(f'Hello{world}')
 language: python
 ---
 
-print('Hello{world}')
+print('Γεια σου{world}')
 
 --- /code ---
 
  --- feedback ---
 
-  Not quite, in Python `print` outputs messages to the screen, but something is missing in this example.
+  Όχι ακριβώς, στην Python η εντολή `print` εμφανίζει μηνύματα στην οθόνη, αλλά κάτι λείπει σε αυτό το παράδειγμα.
 
  --- /feedback ---
 
