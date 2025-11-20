@@ -1,12 +1,12 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: Ερώτηση 2 από 3
 ---
 
 Ποιος από αυτούς τους ορισμούς συναρτήσεων είναι σωστός και θα εμφανίσει `Μπορώ να προγραμματίσω` όταν καλείται;
 
-![The code editor with output area showing <code>I can code</code>.](images/quiz2.png)
+![Ο code editor με περιοχή εξόδου που εμφανίζει <code>Μπορώ να κωδικοποιήσω</code>.](images/quiz2.png)
 
 --- choices ---
 
