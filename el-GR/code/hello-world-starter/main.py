@@ -1,20 +1,20 @@
 from datetime import datetime
 from random import randint
 
-# Emoji variables to use in your project
+# Μεταβλητές emoji για χρήση στο έργο σου
 world = "🌍🌎🌏"
 python = "Python 🐍"
 fire = "🔥"
 
-# Emojis to copy and paste into your code:
+# Emojis για αντιγραφή και επικόλληση στον κώδικά σου:
 # 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒 🎨 🎮 🔬 🎉 🕶️ 🎲 😊
 # 👩‍🦽 👩🏼‍🦽 👩🏽‍🦽 👩🏾‍🦽 👩🏿‍🦽 🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋 🙋🏼 🙋🏽 🙋🏾 🙋🏿
 # 🦄 🚀 💯 ⭐ 💛 ❤️ 📚 ⚽ 🏏 🏀 🥋 🏆 ✨ 🥺 🌈 🔥 ♻️ 🌳
 
-# Useful characters :',()*_/.#
+# Χρήσιμοι χαρακτήρες :',()*_/.#
 
 
-# Function definitions
+# Ορισμοί συναρτήσεων
 
 
-# Put code to run under here
+# Βάλε κώδικα για εκτέλεση εδώ
