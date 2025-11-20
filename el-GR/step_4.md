@@ -15,18 +15,18 @@ def add_one_and_one(): x = 1 + 1 print(x)
 
 Το όνομα αυτής της συνάρτησης είναι `add_one_and_one`{:.language-python}.
 
-The code for the task you want the function to do needs to be **indented**, which means that you need to add **four spaces** before each line of code.
+Ο κώδικας για την εργασία που θέλεις να εκτελέσει η συνάρτηση πρέπει να έχει **εσοχή**, πράγμα που σημαίνει ότι πρέπει να προσθέσεις **τέσσερα κενά** πριν από κάθε γραμμή κώδικα.
 
-**Calling** a function runs the code inside it. You **call** a function by using its name. In this case `add_one_and_one()`{:.language-python}.
+Η **κλήση** μιας συνάρτησης εκτελεί τον κώδικα που περιέχει. **Καλείς** μια συνάρτηση χρησιμοποιώντας το όνομά της. Σε αυτήν την περίπτωση `add_one_and_one()`{:.language-python}.
 
 
 --- task ---
 
-Look for the comment in the **main.py** file that says
+Αναζήτησε το σχόλιο στο αρχείο **main.py** που αναφέρει
 
-`# Function definitions`{:.language-python}.
+`# Ορισμοί συναρτήσεων`{:.language-python}.
 
-Create a function called `roll_dice()`{:.language-python}, that prints out the number 4.
+Δημιούργησε μια συνάρτηση με όνομα `roll_dice()`{:.language-python}, η οποία θα εμφανίζει τον αριθμό 4.
 
 --- code ---
 ---
@@ -44,7 +44,7 @@ def roll_dice(): print(f'You rolled a {4}')
 
 --- task ---
 
-Then, call the function at the bottom of your code.
+Στη συνέχεια, κάλεσε τη συνάρτηση στο κάτω μέρος του κώδικά σου.
 
 --- code ---
 ---
@@ -59,13 +59,13 @@ print(f'The date and time is {datetime.now()}') roll_dice()
 
 --- task ---
 
-**Test:** Run your project several times to see the dice roll each time - it will always be 4.
+**Δοκιμή:** Εκτέλεσε το έργο σου πολλές φορές για να βλέπεις κάθε φορά τη ρίψη ζαριών - θα είναι πάντα 4.
 
 --- /task ---
 
 --- task ---
 
-Another module called `random`{:.language-python} can be used to create random numbers. Change your code to use the `randint`{:.language-python} function to choose a random number between 1 and 6 for the dice roll.
+Μια άλλη ενότητα (module) που ονομάζεται `random`{:.language-python} μπορεί να χρησιμοποιηθεί για τη δημιουργία τυχαίων αριθμών. Άλλαξε τον κώδικά σου ώστε να χρησιμοποιεί τη συνάρτηση `randint`{:.language-python} για να επιλέξει έναν τυχαίο αριθμό μεταξύ 1 και 6 κατά τη ρίψη των ζαριών.
 
 --- code ---
 ---
@@ -81,15 +81,15 @@ def roll_dice(): print(f'You rolled a {randint(1, 6)}')
 
 --- task ---
 
-**Test:** Click the **Run** button. Now when you run your code, a new random number between 1 and 6 will be chosen each time.
+**Δοκιμή:** Κάνε κλικ στο κουμπί **Run**. Τώρα, όταν εκτελείς τον κώδικά σου, θα επιλέγεται ένας νέος τυχαίος αριθμός μεταξύ 1 και 6 κάθε φορά.
 
 --- /task ---
 
-In Python you can multiply strings such as emojis or whole words by a number, so they print out several times.
+Στην Python μπορείς να πολλαπλασιάσεις συμβολοσειρές όπως emoji ή ολόκληρες λέξεις με έναν αριθμό, ώστε να εμφανίζονται πολλές φορές.
 
 --- task ---
 
-Change your function to store the random number in a variable called `roll`{:.language-python}.
+Άλλαξε τη συνάρτησή σου για να αποθηκεύσεις τον τυχαίο αριθμό σε μια μεταβλητή που ονομάζεται `roll`{:.language-python}.
 
 --- code ---
 ---
@@ -105,7 +105,7 @@ def roll_dice(): roll = randint(1,6)
 
 --- task ---
 
-Multiply the random number stored in `roll`{:.language-python} by the 🔥 emoji, and print the result.
+Πολλαπλασίασε τον τυχαίο αριθμό που είναι αποθηκευμένος στο `roll`{:.language-python} με το emoji🔥και εμφάνισε το αποτέλεσμα.
 
 --- code ---
 ---
@@ -121,15 +121,15 @@ def roll_dice(): roll = randint(1,6) print(f'You rolled a {roll} {fire * roll}')
 
 --- task ---
 
-**Test:** Click the **Run** button. Your output code should look something like this:
+**Δοκιμή:** Κάνε κλικ στο κουμπί **Run**. Ο κώδικας εξόδου θα πρέπει να μοιάζει κάπως έτσι:
 
 ```
-Hello 🌍🌎🌏
-Welcome to Python 🐍
-Python 🐍 is good at maths!
+Γεια σου 🌍🌎🌏
+Καλώς ήρθες στην Python 🐍
+Η Python 🐍 είναι καλή στα μαθηματικά!
 27
-The date and time is 2025-10-24 12:41:45.140000
-You rolled a 4 🔥🔥🔥🔥
+Η ημερομηνία και η ώρα είναι 2025-10-24 12:41:45.140000
+'Εριξες 4 🔥🔥🔥🔥
 ```
 
 --- /task ---
