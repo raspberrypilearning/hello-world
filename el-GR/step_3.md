@@ -46,7 +46,7 @@ Python 🐍 is good at maths!
 
 --- task ---
 
-Πρόσθεσε μια ακόμη γραμμή στον κώδικά σου για να κάνεις `print`{:.language-python} την τρέχουσα ημερομηνία και ώρα χρησιμοποιώντας τη μέθοδο `now()`{:.language-python} από τη βιβλιοθήκη `datetime`{:.language-python}:
+Πρόσθεσε μια ακόμη γραμμή `print`{:.language-python} στον κώδικά σου για να εμφανίσεις την τρέχουσα ημερομηνία και ώρα, χρησιμοποιώντας τη μέθοδο `now()`{:.language-python} από τη βιβλιοθήκη `datetime`{:.language-python}:
 
 --- code ---
 ---
