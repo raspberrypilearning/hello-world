@@ -1,8 +1,8 @@
 ## एक डाईस रोल करें
 
-Functions are blocks of code that perform specific tasks. They can be used over and over again.
+फंक्शन कोड के ब्लॉक होते हैं जो विशिष्ट कार्य करते हैं। इनका उपयोग बार-बार किया जा सकता है।
 
-Here is an example of a function:
+यहाँ एक फ़ंक्शन का उदाहरण दिया गया है:
 
 --- code ---
 ---
@@ -13,20 +13,20 @@ def add_one_and_one(): x = 1 + 1 print(x)
 
 --- /code ---
 
-The name of this function is `add_one_and_one`{:.language-python}.
+इस फ़ंक्शन का नाम `add_one_and_one`{:.language-python}है।
 
-The code for the task you want the function to do needs to be **indented**, which means that you need to add **four spaces** before each line of code.
+जिस कार्य के लिए आप फ़ंक्शन से कोड करवाना चाहते हैं, उसे **इंडेंट**होना चाहिए, जिसका अर्थ है कि आपको कोड की प्रत्येक पंक्ति से पहले **चार स्पेस** जोड़ने की आवश्यकता है।
 
-**Calling** a function runs the code inside it. You **call** a function by using its name. In this case `add_one_and_one()`{:.language-python}.
+**** फ़ंक्शन को कॉल करने से उसके अंदर कोड चलता है। आप **किसी फ़ंक्शन को उसके नाम का उपयोग करके** कॉल करते हैं। In this case `add_one_and_one()`{:.language-python}.
 
 
 --- task ---
 
-Look for the comment in the **main.py** file that says
+**main.py** फ़ाइल में यह टिप्पणी देखें जो कहती है
 
-`# Function definitions`{:.language-python}.
+27 दिनांक और समय है 2025-10-24 12:41:45.140000 आपने 4 🔥🔥🔥🔥 रोल किया
 
-Create a function called `roll_dice()`{:.language-python}, that prints out the number 4.
+`roll_dice()`{:.language-python}नामक एक फ़ंक्शन बनाएं, जो संख्या 4 प्रिंट करता है।
 
 --- code ---
 ---
@@ -44,7 +44,7 @@ def roll_dice(): print(f'You rolled a {4}')
 
 --- task ---
 
-Then, call the function at the bottom of your code.
+फिर, अपने कोड के नीचे दिए गए फ़ंक्शन को कॉल करें।
 
 --- code ---
 ---
@@ -59,13 +59,13 @@ print(f'The date and time is {datetime.now()}') roll_dice()
 
 --- task ---
 
-**Test:** Run your project several times to see the dice roll each time - it will always be 4.
+**परीक्षण:** प्रत्येक बार पासा लुढ़कते देखने के लिए अपने प्रोजेक्ट को कई बार चलाएँ - यह हमेशा 4 ही होगा।
 
 --- /task ---
 
 --- task ---
 
-Another module called `random`{:.language-python} can be used to create random numbers. पासा रोल के लिए 1 और 6 के बीच एक यादृच्छिक संख्या चुनने के लिए `randint`{:.language-python} फ़ंक्शन का उपयोग करने के लिए अपना कोड बदलें।
+`random`{:.language-python} नामक एक अन्य मॉड्यूल का उपयोग यादृच्छिक संख्याएँ बनाने के लिए किया जा सकता है। पासा रोल के लिए 1 और 6 के बीच एक यादृच्छिक संख्या चुनने के लिए `randint`{:.language-python} फ़ंक्शन का उपयोग करने के लिए अपना कोड बदलें।
 
 --- code ---
 ---
@@ -81,15 +81,15 @@ def roll_dice(): print(f'You rolled a {randint(1, 6)}')
 
 --- task ---
 
-**Test:** Click the **Run** button. Now when you run your code, a new random number between 1 and 6 will be chosen each time.
+**परीक्षण:** **चलाएँ** बटन पर क्लिक करें। अब जब आप अपना कोड चलाएंगे, तो हर बार 1 से 6 के बीच एक नया यादृच्छिक नंबर चुना जाएगा।
 
 --- /task ---
 
-In Python you can multiply strings such as emojis or whole words by a number, so they print out several times.
+पायथन में आप इमोजी या पूरे शब्दों जैसे स्ट्रिंग्स को किसी संख्या से गुणा कर सकते हैं, जिससे वे कई बार प्रिंट हो जाते हैं।
 
 --- task ---
 
-Change your function to store the random number in a variable called `roll`{:.language-python}.
+यादृच्छिक संख्या को `रोल`{:.language-python}नामक चर में संग्रहीत करने के लिए अपने फ़ंक्शन को बदलें।
 
 --- code ---
 ---
@@ -105,7 +105,7 @@ def roll_dice(): roll = randint(1,6)
 
 --- task ---
 
-Multiply the random number stored in `roll`{:.language-python} by the 🔥 emoji, and print the result.
+`रोल`{:.language-python} में संग्रहीत यादृच्छिक संख्या को 🔥 इमोजी से गुणा करें, और परिणाम प्रिंट करें।
 
 --- code ---
 ---
@@ -121,15 +121,15 @@ def roll_dice(): roll = randint(1,6) print(f'You rolled a {roll} {fire * roll}')
 
 --- task ---
 
-**Test:** Click the **Run** button. Your output code should look something like this:
+**परीक्षण:** **चलाएँ** बटन पर क्लिक करें। आपका आउटपुट कोड कुछ इस तरह दिखना चाहिए:
 
 ```
-Hello 🌍🌎🌏
-Welcome to Python 🐍
-Python 🐍 is good at maths!
+नमस्कार 🌍🌎🌏
+पायथन में आपका स्वागत है 🐍
+पायथन 🐍 गणित में अच्छा है!
 27
-The date and time is 2025-10-24 12:41:45.140000
-You rolled a 4 🔥🔥🔥🔥
+दिनांक और समय है 2025-10-24 12:41:45.140000
+आपने 4 🔥🔥🔥🔥 रोल किया
 ```
 
 --- /task ---
