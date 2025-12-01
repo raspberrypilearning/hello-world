@@ -1,6 +1,6 @@
 ## नमस्ते प्रिंट करें
 
-In Python, `print()`{:.language-python} outputs strings (words or numbers) to the screen.
+पायथन में, `print()`{:.language-python} स्क्रीन पर स्ट्रिंग्स (शब्द या संख्या) आउटपुट करता है।
 
 --- task ---
 
@@ -10,15 +10,15 @@ In Python, `print()`{:.language-python} outputs strings (words or numbers) to th
 
 --- task ---
 
-Find the `# Put code to run under here`{:.language-python} line.
+`# यहां चलाने के लिए कोड डालें`{:.language-python} लाइन ढूंढें।
 
-उस पंक्ति के नीचे क्लिक करें. The flashing `|` is the cursor and shows where you will type.
+उस पंक्ति के नीचे क्लिक करें. चमकती `|` कर्सर है और दिखाता है कि आप कहां टाइप करेंगे।
 
 --- /task ---
 
 --- task ---
 
-Type the code to `print()`{:.language-python} Hello to the screen:
+कोड टाइप करें `print()`{:.language-python} स्क्रीन को नमस्कार करें:
 
 --- code ---
 ---
@@ -36,15 +36,15 @@ print(f'Hello')
 
 **परीक्षण:** अपने कोड को चलाने के लिए **Run** बटन पर क्लिक करें।
 
-You should see `Hello` in the Text output area.
+आपको टेक्स्ट आउटपुट क्षेत्र में `हैलो` दिखाई देगा।
 
 --- /task ---
 
-A **variable** is used to store values such as text or numbers. हमने कुछ वेरिएबल शामिल किए हैं जो इमोजी वर्णों को स्टोर करते हैं।
+**चर** का उपयोग पाठ या संख्याओं जैसे मानों को संग्रहीत करने के लिए किया जाता है। हमने कुछ वेरिएबल शामिल किए हैं जो इमोजी वर्णों को स्टोर करते हैं।
 
 --- task ---
 
-Change your code to also `print()`{:.language-python} the contents of the `world`{:.language-python} variable. You can do this by adding the variable name in curly brackets `{}`{:.language-python}
+अपने कोड को `print()`{:.language-python} `world`{:.language-python} वेरिएबल की सामग्री में भी बदलें। You can do this by adding the variable name in curly brackets `{}`{:.language-python}
 
 
 --- code ---
