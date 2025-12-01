@@ -1,12 +1,12 @@
-## Challenge
+## बाधाओं और बूस्टर
 
 --- challenge ---
 
 --- task ---
 
-Practise adding more `print` lines to your code.
+अपने कोड में अधिक `print` पंक्तियाँ जोड़ने का अभ्यास करें।
 
-Here are some sentence starters that you can use:
+यहां कुछ प्रारंभकर्ता वाक्य हैं जिनका आप उपयोग कर सकते हैं:
 
 --- code ---
 ---
@@ -19,7 +19,7 @@ print(f'I would like to make ... with {python}')
 
 --- /code ---
 
-Here is a list of some emojis you might like to use:
+यहां कुछ इमोजी की सूची दी गई है जिनका आप उपयोग करना चाहेंगे:
 
 🎊 🙌 🙌🏼 🙌🏽 🙌🏾 🙌🏿 # 😃 🕒🎨🎮🔬🎉🕶️🎲 😊 🦄🚀💯⭐💛❤️📚⚽🏏🏀🥋🏆✨🥺🌈🔥♻️🌳 👩‍🦽👩🏼‍🦽👩🏽‍🦽👩🏾‍🦽👩🏿‍🦽🧘 🧘🏼 🧘🏽 🧘🏾 🧘🏿 🙋🙋🏼🙋🏽🙋🏾🙋🏿
 
