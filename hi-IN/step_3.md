@@ -1,8 +1,8 @@
 ## रकम और दिनांक
 
-In Python you can work with numbers and dates.
+पायथन में आप संख्याओं और तिथियों के साथ काम कर सकते हैं।
 
-You can use **arithmetic operators** such as `+` and `-`  to do calculations:
+आप गणना करने के लिए **अंकगणितीय ऑपरेटर** जैसे `+` और `-`  का उपयोग कर सकते हैं:
 
 | + | add |   
 | - | subtract |   
@@ -13,7 +13,7 @@ You can use **arithmetic operators** such as `+` and `-`  to do calculations:
 
 --- task ---
 
-Add two more `print()`{:.language-python} lines to your code including a multiplication for Python to calculate:
+अपने कोड में दो और `print()`{:.language-python} पंक्तियाँ जोड़ें, जिनमें पायथन द्वारा गणना करने के लिए गुणन शामिल हो:
 
 --- code ---
 ---
@@ -29,7 +29,7 @@ print(f'Hello {world}') print(f'Welcome to {python}') print(f'{python} is good a
 
 --- task ---
 
-**Test:** Click the **Run** button. This is what you should see when you run your code.
+**परीक्षण:** **चलाएँ** बटन पर क्लिक करें। जब आप अपना कोड चलाएंगे तो आपको यही दिखाई देगा।
 
 ```
 Hello 🌍🌎🌏
@@ -40,9 +40,9 @@ Python 🐍 is good at maths!
 
 --- /task ---
 
-Python has many **modules** that you can use in your code to help perform certain tasks.
+पायथन में कई **मॉड्यूल** हैं जिनका उपयोग आप अपने कोड में कुछ कार्यों को करने में मदद के लिए कर सकते हैं।
 
-The `datetime`{:.language-python} module helps with writing code that uses dates and times.
+`datetime`{:.language-python} मॉड्यूल दिनांक और समय का उपयोग करने वाले कोड लिखने में मदद करता है।
 
 --- task ---
 
