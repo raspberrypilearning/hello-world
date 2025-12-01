@@ -17,20 +17,20 @@ from random import randint
 # फ़ंक्शन परिभाषाएँ फंक्शन
 
 डिफ़ रोल_डाइस():
-    max = input("How many sides on your dice?:")
-    print(f"That is a D {max}")
-    roll = randint(1, int(max))
-    print(f"You rolled a {roll} {fire * roll}")
+    अधिकतम = इनपुट("आपके पासे में कितनी भुजाएँ हैं?:")
+    प्रिंट(f"यह एक D {max}है")
+    रोल = रैंडिंट(1, int(max))
+    प्रिंट(f"आपने {roll} {आग * रोल} रोल किया")
 
 
 यहां चलाने के लिए कोड डालें
-print(f"Hello {world}")
-print(f"Welcome to {python}")
-print(f"{python} is good at maths!")
+प्रिंट(f"हैलो {world}")
+print(f" {python}में आपका स्वागत है")
+print(f"{python} गणित में अच्छा है!")
 print(f"{3 * 9}")
-print(f"The date and time is {datetime.now()}")
+print(f"दिनांक और समय {datetime.now()} है")
 
 roll_dice() # रोल डाइस फ़ंक्शन को कॉल करें
-print(f"I ❤️ rainbows 🌈")
-print(f"Unicorns 🦄 make me 😃")
-print(f"I'd like to make a story 📖 with {python}")
+print(f"मुझे इंद्रधनुष 🌈 पसंद हैं")
+print(f"यूनिकॉर्न 🦄 मुझे 😃 बनाते हैं")
+print(f"मैं {python}के साथ एक कहानी 📖 बनाना चाहता हूँ")
