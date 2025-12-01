@@ -1,10 +1,10 @@
 ## इनपुट प्राप्त करें
 
-You can use `input()`{:.language-python} to ask the person using your program to enter text.
+आप अपने प्रोग्राम का उपयोग करने वाले व्यक्ति से पाठ दर्ज करने के लिए कहने के लिए `input()`{:.language-python} का उपयोग कर सकते हैं।
 
 --- task ---
 
-Change your function to ask the person using your program to enter how many sides on the dice, and save it as a variable.
+अपने फ़ंक्शन को बदलें और अपने प्रोग्राम का उपयोग करने वाले व्यक्ति से पूछें कि पासे में कितनी भुजाएँ हैं, और इसे एक चर के रूप में सहेजें।
 
 --- code ---
 ---
@@ -20,28 +20,28 @@ def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a 
 
 --- task ---
 
-**Test:** Click the **Run** button and type in a number of sides. Ensure you press the <kbd> Enter </kbd> key after inputting how many sides. This is what you should see when you run your code.
+**परीक्षण:** **चलाएँ** बटन पर क्लिक करें और पक्षों की संख्या टाइप करें। सुनिश्चित करें कि आप कितने पक्ष इनपुट करने के बाद <kbd> Enter </kbd> कुंजी दबाएं। जब आप अपना कोड चलाएंगे तो आपको यही दिखाई देगा।
 
 <div class="c-project-output">
 ```
-Hello 🌍🌎🌏
-Welcome to Python 🐍
-Python 🐍 is good at maths!
+नमस्कार 🌍🌎🌏
+पायथन में आपका स्वागत है 🐍
+पायथन 🐍 गणित में अच्छा है!
 27
-The date and time is 2025-10-24 13:20:41.323000
-How many sides on your dice?:
+दिनांक और समय है 2025-10-24 13:20:41.323000
+आपके पासे में कितने पक्ष हैं?:
 20 
-That is a D 20
-You rolled a 1 🔥
+यह एक D है 20
+आपने 1 रोल किया 🔥
 ```
 
 --- /task ---
 
-Inputs are always stored as text, but we need to use the input stored in `max` to specify the largest number that could be rolled.
+इनपुट हमेशा टेक्स्ट के रूप में संग्रहीत किए जाते हैं, लेकिन हमें रोल की जा सकने वाली सबसे बड़ी संख्या निर्दिष्ट करने के लिए `max` में संग्रहीत इनपुट का उपयोग करने की आवश्यकता है।
 
 --- task ---
 
-`max` is a string, so it needs to be changed to an integer `int()`{:.language-python}.
+`अधिकतम` एक स्ट्रिंग है, इसलिए इसे एक पूर्णांक `int()`{:.language-python}में बदलने की आवश्यकता है।
 
 
 --- code ---
@@ -58,7 +58,7 @@ def roll_dice(): max = input('How many sides on your dice?:') print(f'That is a 
 
 --- task ---
 
-**Test:** Click the **Run** button a few times. Check that the dice rolls a random number each time.
+**परीक्षण:** **चलाएँ** बटन पर क्लिक करें। जांच करें कि पासा हर बार एक यादृच्छिक संख्या फेंकता है।
 
 --- /task ---
 
