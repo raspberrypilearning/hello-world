@@ -8,7 +8,7 @@
 
 --- question ---
 ---
-legend: Question 1 of 3
+legend: प्रश्न 1/3
 ---
 
 यह कोड '🌍🌎🌏' (तीन अलग-अलग विश्व इमोजी) टेक्स्ट को शामिल करने के लिए `world` को सेट करता है:
@@ -53,7 +53,7 @@ output('Hello' world)
 language: python
 ---
 
-प्रिंट(f'हैलो वर्ल्ड')
+प्रिंट(f'हैलो {world}')
 
 --- /code ---
 
@@ -70,13 +70,13 @@ language: python
 language: python
 ---
 
-print(f'Hello{world}')
+प्रिंट(f'हैलो {world}')
 
 --- /code ---
 
  --- feedback ---
 
- यह सही है, Python में `print` स्क्रीन पर संदेशों का आउटपुट देते है। The text output is inside single quotes `'` , then the `world` variable contains the earth emoji 🌍🌎🌏.
+ यह सही है, Python में `print` स्क्रीन पर संदेशों का आउटपुट देते है। पाठ आउटपुट एकल उद्धरण चिह्नों के अंदर है `'` , फिर `दुनिया` चर में पृथ्वी इमोजी 🌍🌎🌏 शामिल है।
 
  --- /feedback ---
 
