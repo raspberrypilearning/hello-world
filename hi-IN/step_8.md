@@ -1,10 +1,10 @@
-## What can you do now?
+## अब आप क्या कर सकते हैं?
 
 यदि आप [Introduction to python](https://projects.raspberrypi.org/en/raspberrypi/python-intro) मार्ग का अनुसरण कर रहे हैं, तो आप [Target practice](https://projects.raspberrypi.org/en/projects/target-practice) प्रोजेक्ट पर जा सकते हैं। इस परियोजना में, आप एक लक्ष्य बनाएंगे और फिर एक तीरंदाजी खेल बनाएंगे जो अंक हासिल करने के लिए तीर चलाता है।
 
 --- print-only ---
 
-![An archery target with a hit point on the outer circle. The text 'You hit the outer circle, 50 points!' is displayed underneath](images/blue-points.png){:width="640px"}
+![बाहरी वृत्त पर प्रहार बिंदु वाला एक तीरंदाजी लक्ष्य। नीचे 'आपने बाहरी सर्कल को हिट किया, 50 अंक!' पाठ प्रदर्शित किया गया है](images/blue-points.png){:width="640px"}
 
 --- /print-only ---
 
@@ -17,6 +17,6 @@
 
 --- /no-print ---
 
-Or, why not try out another [Python](https://projects.raspberrypi.org/en/projects?software%5B%5D=python) project.
+या, क्यों न एक और [पायथन](https://projects.raspberrypi.org/en/projects?software%5B%5D=python) प्रोजेक्ट आज़माया जाए।
 
 
