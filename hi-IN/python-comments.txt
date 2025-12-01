@@ -1,29 +1,29 @@
-Put code to run under here.
+चलाने के लिए कोड यहाँ डालें।
 
-Hello
+नमस्ते
 
-Welcome to {python}
+{python}में आपका स्वागत है
 
-{python} is good at maths!
+{python} गणित में अच्छा है!
 
-The date and time is {datetime.now()}
+दिनांक और समय {datetime.now()} है
 
-Function definitions
+फ़ंक्शन परिभाषाएँ
 
-You rolled a {4}
+आपने {4}रोल किया
 
-How many sides on your dice?:
+आपके पासे में कितनी भुजाएँ हैं?
 
-That is a D {max}
+यह एक D {max}है
 
-I can code
+मैं कोड कर सकता हूँ
 
-First number:
+पहला नंबर:
 
-Second number:
+दूसरा नंबर:
 
-I ❤️ ...
+मैं ❤️ ...
 
-... makes me 😃
+... मुझे 😃 बनाता है
 
-I would like to make ... with {python}
+मैं बनाना चाहूँगा... {python}के साथ
