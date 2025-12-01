@@ -1,7 +1,7 @@
 
 --- question ---
 ---
-legend: Question 2 of 3
+legend: प्रश्न 2/3
 ---
 
 इनमें से किस फ़ंक्शन की परिभाषा सही हैं और कॉल करने पर `l can code` प्रिंट करेंगी?
@@ -17,7 +17,7 @@ legend: Question 2 of 3
 language: python
 ---
 
-def awesome(): print('I can code')
+def awesome(): print('मैं कोड कर सकता हूँ')
 
 --- /code ---
 
