@@ -44,7 +44,7 @@ print(f'Hello')
 
 --- task ---
 
-अपने कोड को `print()`{:.language-python} `world`{:.language-python} वेरिएबल की सामग्री में भी बदलें। You can do this by adding the variable name in curly brackets `{}`{:.language-python}
+अपने कोड को `print()`{:.language-python} `world`{:.language-python} वेरिएबल की सामग्री में भी बदलें। आप ऐसा कर्ली ब्रैकेट में वेरिएबल नाम जोड़कर कर सकते हैं `{}`{:.language-python}
 
 
 --- code ---
@@ -57,7 +57,7 @@ print(f'Hello {world}')
 
 --- /code ---
 
-The `f`{:.language-python} character inside the print lets you easily print variables along with strings of text.
+प्रिंट के अंदर `f`{:.language-python} वर्ण आपको टेक्स्ट की स्ट्रिंग के साथ-साथ वेरिएबल्स को भी आसानी से प्रिंट करने की सुविधा देता है।
 
 --- /task ---
 
@@ -65,13 +65,13 @@ The `f`{:.language-python} character inside the print lets you easily print vari
 
 **परीक्षण:** परिणाम देखने के लिए अपना कोड चलाएं:
 
-![The updated line of code in the code area with the word 'Hello' followed by three world emojis showing in the output area.](images/run_hello_world.png)
+![कोड क्षेत्र में कोड की अपडेट की गई लाइन 'Hello' शब्द के साथ और उसके बाद आउटपुट क्षेत्र में दिखाई देने वाले तीन दुनिया इमोजी।](images/run_hello_world.png)
 
 --- /task ---
 
 --- task ---
 
-**Add** another line to your code to `print()`{:.language-python} more text and emojis:
+**अपने कोड में** एक और पंक्ति जोड़ें ताकि `प्रिंट()`{:.language-python} अधिक टेक्स्ट और इमोजीज़ हों:
 
 --- code ---
 ---
@@ -87,9 +87,9 @@ print(f'Hello {world}') print(f'Welcome to {python}')
 
 --- task ---
 
-**Test:** Click **Run**.
+कोड संपादक में कोड की अतिरिक्त पंक्ति जिसमें 'हैलो' शब्द के बाद तीन विश्व इमोजी और 'वेलकम टू' शब्द के बाद एक इमोजी स्नेक और कीबोर्ड आउटपुट क्षेत्र में दिखाई दे रहा है।
 
-![The additional line of code in the code editor with the word 'Hello' followed by three world emojis and the words 'Welcome to' followed by an emoji snake and keyboard showing in the output area.](images/run_multiple.png)
+![कोड संपादक में कोड की अतिरिक्त पंक्ति जिसमें 'हैलो' शब्द के बाद तीन विश्व इमोजी और 'वेलकम टू' शब्द के बाद एक इमोजी स्नेक और कीबोर्ड आउटपुट क्षेत्र में दिखाई दे रहा है।](images/run_multiple.png)
 
 **टीप:** प्रत्येक बदलाव के बाद अपना कोड चलाना एक अच्छा विचार है ताकि आप समस्याओं को तुरंत ठीक कर सकें।
 
