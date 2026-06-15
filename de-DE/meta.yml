@@ -6,7 +6,7 @@ pdf: resources/rpfi-hello-world.pdf
 meta_title: Python Programmierprojekte für Kinder und Jugendliche | Hallo Welt
 meta_description: Lerne Python mit der Raspberry Pi Foundation. Erstelle ein interaktives Python-Programmierprojekt, das Emojis verwendet.
 version: 4
-listed: true
+listed: false
 copyedit: true
 last_tested: "2021-10-06"
 steps:
