@@ -6,7 +6,7 @@ pdf: resources/rpfi-hello-world.pdf
 meta_title: Проєкти з кодування для дітей і підлітків | Привіт, світе
 meta_description: Вивчай Python разом з Raspberry Pi Foundation. Створи інтерактивний проєкт мовою програмування Python з використанням емоджі.
 version: 4
-listed: true
+listed: false
 copyedit: true
 last_tested: "2021-10-06"
 steps:
