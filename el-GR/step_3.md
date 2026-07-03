@@ -17,7 +17,7 @@
 
 --- code ---
 ---
-**Δοκιμή:** Εκτέλεσε τον κώδικά σου μερικές φορές για να δεις την ενημέρωση της ημερομηνίας και της ώρας.
+language: python filename: main.py line_numbers: true line_number_start: 20
 line_highlights: 23-24
 ---
 # Put code to run under here
