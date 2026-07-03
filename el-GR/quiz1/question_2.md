@@ -6,7 +6,7 @@ legend: Ερώτηση 2 από 3
 
 Ποιος από αυτούς τους ορισμούς συναρτήσεων είναι σωστός και θα εμφανίσει `Μπορώ να προγραμματίσω` όταν καλείται;
 
-![Το πρόγραμμα επεξεργασίας Trinket με την περιοχή εξόδου να εμφανίζει <code>Μπορώ να προγραμματίσω</code>.](images/quiz2.png)
+![Ο code editor με περιοχή εξόδου που εμφανίζει <code>Μπορώ να προγραμματίσω</code>.](images/quiz2.png)
 
 --- choices ---
 
@@ -17,7 +17,7 @@ legend: Ερώτηση 2 από 3
 language: python
 ---
 
-def awesome(): 
+def awesome():
   print('Μπορώ να προγραμματίσω')
 
 --- /code ---
@@ -35,7 +35,7 @@ def awesome():
 language: python
 ---
 
-def awesome(): 
+def awesome():
 print('Μπορώ να προγραμματίσω')
 
 --- /code ---
@@ -53,7 +53,7 @@ print('Μπορώ να προγραμματίσω')
 language: python
 ---
 
-def awesome() 
+def awesome()
   print('Μπορώ να προγραμματίσω')
 
 --- /code ---

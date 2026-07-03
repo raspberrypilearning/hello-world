@@ -2,26 +2,30 @@
 title: "Γεια σου \U0001F30D\U0001F30E\U0001F30F"
 hero_image: images/banner.png
 description: Δημιούργησε ένα διαδραστικό έργο Python που χρησιμοποιεί emoji
+pdf: resources/rpfi-hello-world.pdf
+meta_title: Έργα κώδικα Python για παιδιά και εφήβους | Γεια σου κόσμε
+meta_description: Μάθε Python με το Raspberry Pi Foundation. Δημιούργησε ένα διαδραστικό έργο κώδικα Python που χρησιμοποιεί emoji.
 version: 4
-listed: true
+listed: false
 copyedit: true
-last_tested: '2021-10-06'
+last_tested: "2021-10-06"
 steps:
-- title: Εισαγωγή
-- title: Πες γεια
-- title: Αθροίσματα και ημερομηνίες
-  completion:
-  - engaged
-- title: Ρίξε ένα ζάρι
-- title: Έναρξη πρότασης
-  completion:
-  - internal
-- title: Αναστοχασμός
-  knowledge_quiz:
-    path: quiz1
-    version: 1
-    questions: 3
-    passing_score: 3
-  completion:
-  - external
-- title: Αναβάθμιση του έργου σου
+  - title: Τι θα φτιάξεις
+  - title: Πες γεια
+  - title: Αθροίσματα και ημερομηνίες
+    completion:
+      - engaged
+  - title: Ρίξε ένα ζάρι
+  - title: Λάβε είσοδο
+    completion:
+      - internal
+  - title: Γρήγορο κουίζ
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+    completion:
+      - external
+  - title: Πρόκληση
+    challenge: true
