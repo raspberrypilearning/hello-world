@@ -6,7 +6,7 @@ pdf: resources/rpfi-hello-world.pdf
 meta_title:
 meta_description:
 version: 4
-listed: true
+listed: false
 copyedit: true
 last_tested: "2021-10-06"
 steps:
