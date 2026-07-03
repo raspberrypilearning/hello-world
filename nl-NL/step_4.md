@@ -92,7 +92,7 @@ def gooi_dobbelsteen():
 
 --- task ---
 
-**Test:** Klik op de knop **Run**. Wanneer je nu je code nog eens uitvoert, zal er elke keer een nieuw willekeurig getal tussen 1 en 6 worden gekozen.
+**Test:** Klik op de knop **Uitvoeren**. Wanneer je nu je code nog eens uitvoert, zal er elke keer een nieuw willekeurig getal tussen 1 en 6 worden gekozen.
 
 --- /task ---
 
@@ -139,7 +139,7 @@ def gooi_dobbelsteen():
 
 --- task ---
 
-**Test:** Klik op de knop **Run**. Je uitvoer zou er ongeveer zo uit moeten zien:
+**Test:** Klik op de knop **Uitvoeren**. Je uitvoer zou er ongeveer zo uit moeten zien:
 
 ```
 Hallo 🌍🌎🌏

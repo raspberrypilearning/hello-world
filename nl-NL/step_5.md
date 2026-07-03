@@ -26,7 +26,7 @@ def gooi_dobbelsteen():
 
 --- task ---
 
-**Test:** Klik op de knop **Run** en typ een aantal zijden in. Zorg ervoor dat je op de knop <kbd>Enter</kbd> klikt nadat je het aantal kanten hebt ingevoerd. Dit is wat je zou moeten zien wanneer je jouw code uitvoert.
+**Test:** Klik op de knop **Uitvoeren** en typ een aantal zijden in. Zorg ervoor dat je op de knop <kbd>Enter</kbd> klikt nadat je het aantal kanten hebt ingevoerd. Dit is wat je zou moeten zien wanneer je jouw code uitvoert.
 
 <div class="c-project-output">
 ```
@@ -70,7 +70,7 @@ def gooi_dobbelsteen():
 
 --- task ---
 
-**Test:** Klik een paar keer op de knop **Run**. Controleer of de dobbelsteen iedere keer een willekeurig getal gooit.
+**Test:** Klik een paar keer op de knop **Uitvoeren**. Controleer of de dobbelsteen iedere keer een willekeurig getal gooit.
 
 --- /task ---
 

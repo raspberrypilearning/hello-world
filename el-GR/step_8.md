@@ -10,7 +10,7 @@
 
 --- no-print ---
 
-Κάνε κλικ στο κουμπί **Run** για να δεις ένα παράδειγμα αυτού του έργου.
+Κάνε κλικ στο κουμπί **Εκτέλεση** για να δεις ένα παράδειγμα αυτού του έργου.
 
 <iframe src="https://editor.raspberrypi.org/el-GR/embed/viewer/target-practice-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
