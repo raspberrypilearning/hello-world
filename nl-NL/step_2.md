@@ -36,7 +36,7 @@ print(f'Hallo')
 
 --- task ---
 
-**Test:** Klik op de knop **Run** om je code uit te voeren.
+**Test:** Klik op de knop **Uitvoeren** om je code uit te voeren.
 
 Je zou `Hallo` in het tekstuitvoergebied moeten zien.
 
@@ -93,7 +93,7 @@ print(f'Welkom bij {python}')
 
 --- task ---
 
-**Testen:** Klik op **Run**.
+**Testen:** Klik op **Uitvoeren**.
 
 ![De extra regel code in het codegebied met het woord 'Hallo' gevolgd door drie emoji-werelden en de woorden 'Welkom bij' gevolgd door een emoji-slang en toetsenbord in het uitvoergebied.](images/run_multiple.png)
 

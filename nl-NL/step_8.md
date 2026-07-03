@@ -10,7 +10,7 @@ Als je het [Inleiding tot Python](https://projects.raspberrypi.org/nl-NL/raspber
 
 --- no-print ---
 
-Klik op de knop **Run** om een voorbeeld van dit project te bekijken.
+Klik op de knop **Uitvoeren** om een voorbeeld van dit project te bekijken.
 
 <iframe src="https://editor.raspberrypi.org/nl-NL/embed/viewer/target-practice-solution" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
 </iframe>
